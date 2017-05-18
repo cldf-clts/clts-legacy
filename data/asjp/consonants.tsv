@@ -1,0 +1,35 @@
+GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
+p	voiceless	bilabial	plosive			p, ɸ
+ph	voiceless	bilabial	plosive		aspiration:aspirated	pʰ
+m	voiced	bilabial	nasal			m
+b	voiced	bilabial	plosive			b
+f	voiceless	labiodental	fricative			f
+v	voiced	labiodental	fricative			v
+8	voiceless	dental	fricative			Ɵ ð
+4	voiced	dental	nasal			n̪
+t	voiceless	alveolar	plosive			t
+d	voiced	alveolar	plosive			d
+s	voiceless	alveolar	fricative			s
+z	voiced	alveolar	fricative			z
+c	voiceless alveolar	affricate				ts dz
+n	voiceless	alveolar	nasal			n
+S	voiceless	postalveolar	fricative			ʃ
+Z	voiced	postalveolar	fricative			ʒ
+C	voiceless	postalveolar	affricate			tʃ
+j	voiced	postalveolar	affricate			dʒ
+T	voiceless	palatal	plosive			c Ɉ
+5	voiceless	palatal	nasal			ɲ
+k	voiceless	velar	plosive			k
+g	voiced	velar	plosive			g
+x	voiceless	velar	fricative			x ɣ
+N	voiced	velar	nasal			ŋ
+q	voiceless	uvular	plosive			q
+G	voiced	uvular	plosive			ɢ
+X	voiceless	uvular	fricative			χ ʁ ħ ʕ
+7	voiceless	glottal	plosive			ʔ
+h	voiceless	glottal	fricative			h ɦ
+l	voiced	alveolar	lateral-approximant			l
+L	voiced	velar	lateral-approximant			L ɭ ʎ
+w	voiced	labialized-velar	approximant			w
+y	voiced	palatal	approximant			j
+r	voiced	alveolar	trill			r

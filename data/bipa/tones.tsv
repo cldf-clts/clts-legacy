@@ -1,0 +1,132 @@
+GRAPHEME	CONTOUR	START	MIDDLE	END	ALIAS	NOTE
+¹¹	flat	low		low		
+¹²	rising	low		mid-low		
+¹³	rising	low		mid		
+¹⁴	rising	low		mid-high		
+¹⁵	rising	low		high		
+²¹	falling	mid-low		low		
+²²	flat	mid-low		mid-low		
+²³	rising	mid-low		mid		
+²⁴	rising	mid-low		mid-high		
+²⁵	rising	mid-low		high		
+³¹	falling	mid		low		
+³²	falling	mid		mid-low		
+³³	flat	mid		mid		
+³⁴	rising	mid		mid-high		
+³⁵	rising	mid		high		
+⁴¹	falling	mid-high		low		
+⁴²	falling	mid-high		mid-low		
+⁴³	falling	mid-high		mid		
+⁴⁴	flat	mid-high		mid-high		
+⁴⁵	rising	mid-high		high		
+⁵¹	falling	high		low		
+⁵²	falling	high		mid-low		
+⁵³	falling	high		mid		
+⁵⁴	falling	high		mid-high		
+⁵⁵	flat	high		high		
+¹	short	low				
+²	short	mid-low				
+³	short	mid				
+⁴	short	mid-high				
+⁵	short	high				
+¹¹²	rising	low	low	mid-low		
+¹¹³	rising	low	low	mid		
+¹¹⁴	rising	low	low	mid-high		
+¹¹⁵	rising	low	low	high		
+¹²¹	contour	low	mid-low	low		
+¹²²	rising	low	mid-low	mid-low		
+¹³¹	contour	low	mid	low		
+¹³²	contour	low	mid	mid-low		
+¹³³	rising	low	mid	mid		
+¹⁴¹	contour	low	mid-high	low		
+¹⁴²	contour	low	mid-high	mid-low		
+¹⁴³	contour	low	mid-high	mid		
+¹⁴⁴	rising	low	mid-high	mid-high		
+¹⁵¹	contour	low	high	low		
+¹⁵²	contour	low	high	mid-low		
+¹⁵³	contour	low	high	mid		
+¹⁵⁴	contour	low	high	mid-high		
+¹⁵⁵	rising	low	high	high		
+²¹¹	falling	mid-low	low	low		
+²¹²	contour	mid-low	low	mid-low		
+²¹³	contour	mid-low	low	mid		
+²¹⁴	contour	mid-low	low	mid-high		
+²¹⁵	contour	mid-low	low	high		
+²²¹	falling	mid-low	mid-low	low		
+²²³	rising	mid-low	mid-low	mid		
+²²⁴	rising	mid-low	mid-low	mid-high		
+²²⁵	rising	mid-low	mid-low	high		
+²³¹	contour	mid-low	mid	low		
+²³²	contour	mid-low	mid	mid-low		
+²³³	rising	mid-low	mid	mid		
+²⁴¹	contour	mid-low	mid-high	low		
+²⁴²	contour	mid-low	mid-high	mid-low		
+²⁴³	contour	mid-low	mid-high	mid		
+²⁴⁴	rising	mid-low	mid-high	mid-high		
+²⁵¹	contour	mid-low	high	low		
+²⁵²	contour	mid-low	high	mid-low		
+²⁵³	contour	mid-low	high	mid		
+²⁵⁴	contour	mid-low	high	mid-high		
+²⁵⁵	rising	mid-low	high	high		
+³¹¹	falling	mid	low	low		
+³¹²	contour	mid	low	mid-low		
+³¹³	contour	mid	low	mid		
+³¹⁴	contour	mid	low	mid-high		
+³¹⁵	contour	mid	low	high		
+³²²	falling	mid	mid-low	mid-low		
+³²³	contour	mid	mid-low	mid		
+³²⁴	contour	mid	mid-low	mid-high		
+³²⁵	contour	mid	mid-low	high		
+³³¹	falling	mid	mid	low		
+³³²	falling	mid	mid	mid-low		
+³³⁴	rising	mid	mid	mid-high		
+³³⁵	rising	mid	mid	high		
+³⁴¹	contour	mid	mid-high	low		
+³⁴²	c	mid	mid-high	mid-low		
+³⁴³	c	mid	mid-high	mid		
+³⁴⁴	r	mid	mid-high	mid-high		
+³⁴⁵	c	mid	mid-high	high		
+³⁵¹	c	mid	high	low		
+³⁵²	c	mid	high	mid-low		
+³⁵³	c	mid	high	mid		
+³⁵⁴	c	mid	high	mid-high		
+³⁵⁵	r	mid	high	high		
+⁴¹¹	f	mid-high	low	low		
+⁴¹²	c	mid-high	low	mid-low		
+⁴¹³	c	mid-high	low	mid		
+⁴¹⁴	c	mid-high	low	mid-high		
+⁴¹⁵	c	mid-high	low	high		
+⁴²²	f	mid-high	mid-low	mid-low		
+⁴²³	c	mid-high	mid-low	mid		
+⁴²⁴	c	mid-high	mid-low	mid-high		
+⁴²⁵	c	mid-high	mid-low	high		
+⁴³³	f	mid-high	mid	mid		
+⁴³⁴	c	mid-high	mid	mid-high		
+⁴³⁵	c	mid-high	mid	high		
+⁴⁴¹	f	mid-high	mid-high	low		
+⁴⁴²	f	mid-high	mid-high	mid-low		
+⁴⁴³	f	mid-high	mid-high	mid		
+⁴⁴⁵	r	mid-high	mid-high	high		
+⁴⁵¹	c	mid-high	high	low		
+⁴⁵²	c	mid-high	high	mid-low		
+⁴⁵³	c	mid-high	high	mid		
+⁴⁵⁴	c	mid-high	high	mid-high		
+⁴⁵⁵	r	mid-high	high	high		
+⁵¹¹	f	high	low	low		
+⁵¹²	c	high	low	mid-low		
+⁵¹³	c	high	low	mid		
+⁵¹⁴	c	high	low	mid-high		
+⁵¹⁵	c	high	low	high		
+⁵²²	f	high	mid-low	mid-low		
+⁵²³	c	high	mid-low	mid		
+⁵²⁴	c	high	mid-low	mid-high		
+⁵²⁵	c	high	mid-low	high		
+⁵³³	f	high	mid	mid		
+⁵³⁴	c	high	mid	mid-high		
+⁵³⁵	c	high	mid	high		
+⁵⁴⁴	f	high	mid-high	mid-high		
+⁵⁴⁵	c	high	mid-high	high		
+⁵⁵¹	f	high	high	low		
+⁵⁵²	f	high	high	mid-low		
+⁵⁵³	f	high	high	mid		
+⁵⁵⁴	f	high	high	mid-high		
