@@ -26,8 +26,8 @@ def _nfd(string):
 
 
 # functions can be later easily modified
-def csv_as_list(*path):
-    with UnicodeReader(data_path(*path), delimiter="\t") as f:
+def csv_as_list(*path, delimiter="\t"):
+    with UnicodeReader(data_path(*path), delimiter=delimiter) as f:
         return [[unicodedata.normalize('NFD', x).strip() for x in line] for line in f]
 
 
@@ -85,20 +85,20 @@ class CLTS(object):
         """
         # retrieve values
         features = dict(consonant={}, vowel={})
-        for line in self._consonants[1:-1]:
+        for line in self._consonants[1:]:
             if not line[4]:
                 features[self.get_sound(line[0]).name] = line[0]
-        for line in self._vowels[1:-1]:
+        for line in self._vowels[1:]:
             if not line[4]:
                 features[self.get_sound(line[0]).name] = line[0]
-        for line in self._tones[1:-1]:
+        for line in self._tones[1:]:
             if not line[5]:
                 features[' '.join(line[1:5]+['tone'])] = line[0]
-        for line in self._diacritics[1:-1]:
+        for line in self._diacritics[1:]:
             if not line[4]:
                 features[line[1]][line[3]] = line[0]
         # TODO: change lines in code in the click description
-        for line in self._clicks[1:-1]:
+        for line in self._clicks[1:]:
             if not line[5]:
                 features[' '.join([line[1], line[2], line[4],
                     line[3], 'click'])] = line[0]
@@ -260,6 +260,7 @@ class CLTS(object):
             base_features.update(elm)
         if unknown:
             base_features.update({'unknown': unknown})
+
         return base_features
 
     def get_sound(self, string):
@@ -269,15 +270,16 @@ class CLTS(object):
             if not 'type' in data:
                 return UnknownSound(source=string)
             if data['type'] == 'consonant':
-                return Consonant(**data)
+                out = Consonant(**data)
             elif data['type'] == 'vowel':
-                return Vowel(**data)
+                out = Vowel(**data)
             elif data['type'] == 'tone':
-                return Tone(**data)
+                out = Tone(**data)
             elif data['type'] == 'marker':
-                return Marker(**data)
+                out = Marker(**data)
             elif data['type'] == 'click':
-                return Click(**data)
+                out = Click(**data)
+            return out
             
         # here, we should take over to handle also dipthongs
         except ValueError:
@@ -334,13 +336,13 @@ class Sound(UnicodeMixin):
         while elements:
 
             base_str = self.clts.features.get(' '.join(
-                [getattr(self, elm, '') for elm in elements] + [self.type]))
-            if base_str:
+                [getattr(self, elm, '') for elm in elements] + [self.type]),
+                '?')
+            if base_str != '?':
                 break
             else:
                 elements.pop(0)
-
-        base_str = base_str or '?'
+        
         base_vals = elements[:-1]
         out = ''
         for p in [x for x in self.write_order['pre'] if x not in base_vals]:
@@ -369,7 +371,7 @@ class Sound(UnicodeMixin):
 
     @classmethod
     def from_string(cls, string, clts=None):
-        clts = clts or Clts()
+        clts = clts or CLTS()
         kw = clts.parse_string(string)
         kw['clts'] = clts
         return cls(**kw)
@@ -425,6 +427,8 @@ class Consonant(Sound):
     release = attr.ib(default=None)
     syllabicity = attr.ib(default=None)
     nasalization = attr.ib(default=None)
+    glottalization = attr.ib(default=None)
+    pharyngealization = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -432,11 +436,11 @@ class Consonant(Sound):
     write_order = dict(
             pre = ['preceding'],
             post = ['phonation', 'syllabicity', 'nasalization', 
-                'palatalization', 'labialization', 'aspiration', 
-                'velarization', 'pharyngalization', 'duration', 'release'])
+                'palatalization', 'aspiration', 'labialization',
+                'velarization', 'pharyngealization', 'duration', 'release'])
     name_order = ['syllabicity', 'nasalization', 'palatalization',
-                'labialization', 'aspiration', 'velarization',
-                'pharyngealization', 'duration', 'phonation', 'place', 'manner', 'release']
+            'labialization', 'aspiration', 'velarization', 'pharyngealization',
+            'duration', 'phonation', 'place', 'manner', 'release']
 
 
 @attr.s
@@ -451,6 +455,8 @@ class Vowel(Sound):
     phonation = attr.ib(default=None)
     release = attr.ib(default=None)
     syllabicity = attr.ib(default=None)
+    pharyngealization = attr.ib(default=None)
+    rhotacization = attr.ib(default=None)
 
     write_order = dict(
             pre = [],

@@ -5,7 +5,7 @@ GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 dʐ	voiced	retroflex	affricate	+		
 dz	voiced	alveolar	affricate			
 dːz	voiced	alveolar	affricate		duration:long	
-dzː	voiced	alveolar	affriracte	+	duration:long					
+dzː	voiced	alveolar	affriracte	+	duration:long	
 ʣ	voiced	alveolar	affricate	+		
 ts	voiceless	alveolar	affricate			
 tːs	voiceless	alveolar	affricate		duration:long	
@@ -61,7 +61,10 @@ i̯	voiced	palatal	approximant	+
 ɰ	voiced	velar	approximant			
 ɽ	voiced	retroflex	flap			
 z	voiced	alveolar	fricative			
+z̪	voiced	alveolar	fricative	+		
+z̥	devoiced	alveolar	fricative			
 s	voiceless	alveolar	fricative			
+s̪	voiceless	alveolar	fricative	+		
 ʑ	voiced	alveolo-palatal	fricative			
 ɕ	voiceless	alveolo-palatal	fricative			
 β	voiced	bilabial	fricative			
@@ -89,6 +92,7 @@ f	voiceless	labiodental	fricative
 ẋ	voiceless	uvular	fricative	+		
 ɣ	voiced	velar	fricative			
 x	voiceless	velar	fricative			
+pfʼ	voiceless	labio-dental	ejective-affricate			
 sʼ	voiceless	alveolar	ejective-fricative			
 sˈ	voiceless	alveolar	ejective-fricative	+		
 fʼ	voiceless	labiodental	ejective-fricative			
@@ -111,6 +115,7 @@ t͜ɬ	voiceless	alveolar	lateral-affricate	+
 k	voiceless	velar	lateral-affricate			
 l̥	devoiced	alveolar	lateral-approximant			
 l	voiced	alveolar	lateral-approximant			
+l̪	voiced	alveolar	lateral-approximant	+		
 λ̥	devoiced	palatal	lateral-approximant			
 λ	voiced	palatal	lateral-approximant			
 ɭ̊	devoiced	retroflex	lateral-approximant			
@@ -125,7 +130,11 @@ kʼ	voiceless	velar	lateral-ejective-affricate
 ɬ	voiceless	alveolar	lateral-fricative			
 d	voiced	alveolar	plosive			
 t	voiceless	alveolar	plosive			
+t̻	voiceless	lamino-dental	plosive			
+d̻	voiced		lamino-dental	plosive		
 tʰ	voiceless	alveolar	plosive		aspiration:aspirated	
+kʲ	voiceless	velar	plosive		palatalization:palatalized	
+gʲ	voiceless	velare	plosive		palatalization:palatalized	
 th	voiceless	alveolar	plosive	+	aspiration:aspirated	
 b	voiced	bilabial	plosive			
 b̡	voiced	bilabial	plosive		release:unreleased	
@@ -144,9 +153,14 @@ t̠	voiceless	postalveolar	plosive
 ɢ	voiced	uvular	plosive			
 q	voiceless	uvular	plosive			
 g	voiced	velar	plosive			
+ɡ	voiced	velar	plosive	+		
 k	voiceless	velar	plosive			
 kʰ	voiceless	velar	plosive		aspiration:aspirated	
 kh	voiceless	velar	plosive	+	aspiration:aspirated	
+kʷ	voiceless	velar	plosive		labialization:labialized	
+kw	voiceless	velar	plosive	+	labialization:labialized	
+kʷʰ	voiceless	velar	plosive		labialization:labialized,aspiration:aspirated	
+kwh	voiceless	velar	plosive	+	labialization:labialized,aspiration:aspirated	
 tʼ	voiceless	alveolar	ejective-plosive			
 tˈ	voiceless	alveolar	ejective-plosive	+		
 pʼ	voiceless	bilabial	ejective-plosive			
@@ -160,6 +174,8 @@ kˈ	voiceless	velar	ejective-plosive	+
 ɾ	devoiced	alveolar	tap			
 r̥	devoiced	alveolar	trill			
 r	voiced	alveolar	trill			
+r̻	voiced	lamino-dental	trill			
+r̪	voiced	dental	trill			
 ʙ̥	devoiced	bilabial	trill			
 ʙ	voiced	bilabial	trill			
 ʀ̥	devoiced	uvular	trill			
@@ -168,16 +184,20 @@ m	voiced	bilabial	nasal
 m̥	devoiced	bilabial	nasal			
 ɲ	voiced	palatal	nasal			
 ñ	voiced	palatal	nasal	+		
-nʲ	voiced	palatal	nasal	+		
+nʲ	voiced	alveolar	nasal		palatalization:palatalized	
 ɲ̊	devoiced	palatal	nasal			
-n̊	devoiced	palatal	nasal	+		
-ȵ	voiced	palatal	nasal	+		
-ȵ̊	devoiced	palatal	nasal	+		
+n̊	devoiced	alveolar	nasal	+		
+n̥	devoiced	palatal	nasal	+		
+ȵ	voiced	alveolo-palatal	nasal			
+ȵ̊	devoiced	alveolo-palatal	nasal			
 ɱ	voiced	labiodental	nasal			
 ɱ̊	devoiced	labiodental	nasal			
+ɱ̥	devoiced	labiodental	nasal	+		
 ŋ	voiced	velar	nasal			
 ŋ̊	devoiced	velar	nasal			
+ŋ̥	devoiced	velar	nasal	+		
 n	voiced	alveolar	nasal			
+n̪	voiced	alveolar	nasal	+		
 n̥	devoiced	alveolar	nasal			
 ɴ	voiced	uvular	nasal			
 ɴ̥	devoiced	uvular	nasal			
