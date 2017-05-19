@@ -438,7 +438,7 @@ class Consonant(Sound):
             post = ['phonation', 'syllabicity', 'nasalization', 
                 'palatalization', 'aspiration', 'labialization',
                 'velarization', 'pharyngealization', 'duration', 'release'])
-    name_order = ['syllabicity', 'nasalization', 'palatalization',
+    name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
             'labialization', 'aspiration', 'velarization', 'pharyngealization',
             'duration', 'phonation', 'place', 'manner', 'release']
 
