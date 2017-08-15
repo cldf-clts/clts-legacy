@@ -331,10 +331,11 @@ class Sound(UnicodeMixin):
         return codepoint(str(self))
     
     def __unicode__(self):
+        if self.generated and self.source not in self.clts.features:
+            self.clts.features[self.name] = self.source
         # search for best base-string
         elements = self._structure.copy()
-        while elements:
-
+        while elements: 
             base_str = self.clts.features.get(' '.join(
                 [getattr(self, elm, '') for elm in elements] + [self.type]),
                 '?')
@@ -359,7 +360,10 @@ class Sound(UnicodeMixin):
         out = []
         for p in self.name_order:
             out += [getattr(self, p, '')]
-        return ' '.join([x for x in out if x]+[self.type])
+        out += [self.type]
+        if self.unknown:
+            out += ['(?)']
+        return ' '.join([x for x in out if x])
     
     @cached_property()
     def _structure(self):
@@ -437,10 +441,11 @@ class Consonant(Sound):
             pre = ['preceding'],
             post = ['phonation', 'syllabicity', 'nasalization', 
                 'palatalization', 'aspiration', 'labialization',
+                'glottalization', 
                 'velarization', 'pharyngealization', 'duration', 'release'])
     name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
-            'labialization', 'aspiration', 'velarization', 'pharyngealization',
-            'duration', 'phonation', 'place', 'manner', 'release']
+            'labialization', 'glottalization', 'aspiration', 'velarization', 'pharyngealization',
+            'duration', 'release', 'phonation', 'place', 'manner']
 
 
 @attr.s
@@ -460,9 +465,9 @@ class Vowel(Sound):
 
     write_order = dict(
             pre = [],
-            post = ['phonation', 'syllabicity', 'nasalization', 'duration',
+            post = ['phonation', 'rhotacization', 'syllabicity', 'nasalization', 'duration',
                 'frication'])
-    name_order = ['phonation', 'syllabicity', 'duration', 'nasalization', 
+    name_order = ['phonation', 'rhotacization', 'syllabicity', 'duration', 'nasalization', 
             'roundedness', 'height', 'backness', 'frication']
 
 @attr.s

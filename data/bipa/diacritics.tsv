@@ -11,6 +11,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʱ	consonant	phonation	breathy-voiced	+		
 ◌̰	consonant	phonation	creaky-voiced			
 ◌̥	consonant	phonation	devoiced			
+◌˳	consonant	phonation	devoiced	+	
 ◌̊	consonant	phonation	devoiced		up	
 ◌̬	consonant	phonation	voiced			
 ʰ◌	consonant	preceding	pre-aspirated			
@@ -33,6 +34,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̰	vowel	phonation	creaky-voiced			
 ◌̆	vowel	phonation	ultra-short			
 ◌̥	vowel	phonation	voiceless			
+◌˳	vowel	phonation	voiceless	+	
 ◌̊	vowel	phonation	voiceless		up	
 ◌˞	vowel	rhotacization	rhotacized			
 ◌̹	vowel	roundedness	rounded			

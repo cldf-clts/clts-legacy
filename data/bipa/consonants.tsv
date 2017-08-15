@@ -91,6 +91,8 @@ f	voiceless	labiodental	fricative
 χ	voiceless	uvular	fricative			
 ẋ	voiceless	uvular	fricative	+		
 ɣ	voiced	velar	fricative			
+ɣ̊	devoiced	velar	fricative			
+ɣ̥	devoiced	velar	fricative	+		
 x	voiceless	velar	fricative			
 pfʼ	voiceless	labio-dental	ejective-affricate			
 sʼ	voiceless	alveolar	ejective-fricative			
@@ -115,6 +117,7 @@ t͜ɬ	voiceless	alveolar	lateral-affricate	+
 k	voiceless	velar	lateral-affricate			
 l̥	devoiced	alveolar	lateral-approximant			
 l	voiced	alveolar	lateral-approximant			
+l̻	voiced	lamino-alveolar	larteral-approximant		
 l̪	voiced	alveolar	lateral-approximant	+		
 λ̥	devoiced	palatal	lateral-approximant			
 λ	voiced	palatal	lateral-approximant			
@@ -197,6 +200,9 @@ n̥	devoiced	palatal	nasal	+
 ŋ̊	devoiced	velar	nasal			
 ŋ̥	devoiced	velar	nasal	+		
 n	voiced	alveolar	nasal			
+n̻	voiced	lamino-alveolar	nasal		
+t̻	unvoiced	lamino-alveolar	plosive		
+d̻	voiced	lamino-alveolar	plosive		
 n̪	voiced	alveolar	nasal	+		
 n̥	devoiced	alveolar	nasal			
 ɴ	voiced	uvular	nasal			
