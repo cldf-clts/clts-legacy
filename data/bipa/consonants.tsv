@@ -5,7 +5,7 @@ GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 dʐ	voiced	retroflex	affricate	+		
 dz	voiced	alveolar	affricate			
 dːz	voiced	alveolar	affricate		duration:long	
-dzː	voiced	alveolar	affriracte	+	duration:long	
+dzː	voiced	alveolar	affricate	+	duration:long	
 ʣ	voiced	alveolar	affricate	+		
 ts	voiceless	alveolar	affricate			
 tːs	voiceless	alveolar	affricate		duration:long	
@@ -13,7 +13,7 @@ tːs	voiceless	alveolar	affricate		duration:long
 ʦː	voiceless	alveolar	affricate	+	duration:long	
 tsː	voiceless	alveolar	affricate	+	duration:long	
 dːʑ	voiced	alveolo-palatal	affricate		duration:long	
-tːɕ	voiceless	alveolopalatal	affricate		duration:long	
+tːɕ	voiceless	alveolo-palatal	affricate		duration:long	
 dʑ	voiced	alveolo-palatal	affricate			
 ʥ	voiced	alveolo-palatal	affricate	+		
 tɕ	voiceless	alveolo-palatal	affricate			
