@@ -39,7 +39,7 @@ tːʃ	voiceless	postalveolar	affricate		duration:long
 t̠ʃ	voiceless	postalveolar	affricate	+		
 ʈːʂ	voiced	retroflex	affricate		duration:long	
 ɖʐ	voiced	retroflex	affricate			
-ɖːʐ	voiced	retroflex	affricate		duration:long	
+ɖːʐ	voiced	retroflex	affricate	+	duration:long
 ʈʂ	voiceless	retroflex	affricate			
 tʂ	voiceless	retroflex	affricate	+		
 ɢʁ	voiced	uvular	affricate			
@@ -71,9 +71,7 @@ s̪	voiceless	alveolar	fricative	+
 ɸ	voiceless	bilabial	fricative			
 ð	voiced	dental	fricative			
 θ	voiceless	dental	fricative			
-ʢ	voiced	epiglottal	fricative			
-ʜ	voiceless	epiglottal	fricative			
-ɦ	voiced	glottal	fricative			
+ɦ	voiced	glottal	fricative
 h	voiceless	glottal	fricative			
 v	voiced	labiodental	fricative			
 f	voiceless	labiodental	fricative			
@@ -102,8 +100,7 @@ fˈ	voiceless	labiodental	ejective-fricative	+
 ʃʼ	voiceless	postalveolar	ejective-fricative			
 ʃˈ	voiceless	postalveolar	ejective-fricative	+		
 χʼ	voiceless	uvular	ejective-fricative			
-χ	voiceless	uvular	ejective-fricative	+		
-xʼ	voiceless	velar	ejective-fricative			
+xʼ	voiceless	velar	ejective-fricative
 xˈ	voiceless	velar	ejective-fricative	+		
 ɓ	voiced	bilabial	implosive			
 ɗ	voiced	dental	implosive			
@@ -134,7 +131,7 @@ kʼ	voiceless	velar	lateral-ejective-affricate
 d	voiced	alveolar	plosive			
 t	voiceless	alveolar	plosive			
 t̻	voiceless	lamino-dental	plosive			
-d̻	voiced		lamino-dental	plosive		
+d̻	voiced	lamino-dental	plosive
 tʰ	voiceless	alveolar	plosive		aspiration:aspirated	
 kʲ	voiceless	velar	plosive		palatalization:palatalized	
 gʲ	voiceless	velare	plosive		palatalization:palatalized	
@@ -200,12 +197,8 @@ n̥	devoiced	palatal	nasal	+
 ŋ̊	devoiced	velar	nasal			
 ŋ̥	devoiced	velar	nasal	+		
 n	voiced	alveolar	nasal			
-n̻	voiced	lamino-alveolar	nasal		
-t̻	unvoiced	lamino-alveolar	plosive		
-d̻	voiced	lamino-alveolar	plosive		
-n̪	voiced	alveolar	nasal	+		
-n̥	devoiced	alveolar	nasal			
-ɴ	voiced	uvular	nasal			
+n̪	voiced	alveolar	nasal	+
+ɴ	voiced	uvular	nasal
 ɴ̥	devoiced	uvular	nasal			
 ɳ	voiced	retroflex	nasal			
 ɳ̊	devoiced	retroflex	nasal			

@@ -14,9 +14,6 @@ from clldutils.path import Path
 from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 
-from pyclpa.wordlist import Wordlist
-from pyclpa.base import get_clpa
-
 
 def _checked_wordlist_from_args(args):
     if len(args.args) != 1:
