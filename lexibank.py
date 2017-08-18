@@ -43,13 +43,15 @@ if __name__ == "__main__":
                     inventories[row['Language_ID']].add(sound.source)
                     unknown.update([sound.source])
 
-    for k, v in unknown.most_common():
+    for i, (k, v) in enumerate(unknown.most_common()):
+        if i == 0:
+            print('\nUnknown sound segments:\n')
         print('{3}: {0} [{1}] {2}'.format(k, codepoint(k) if k else '-', uname(k), v))
 
-    print('---------------------------------')
+    print('\nSummary:\n')
     print('recognized segments: {0}'.format(len(sounds)))
-    print('errors: {0}'.format(len(unknown)))
+    print('unknown segments: {0}'.format(len(unknown)))
     print('average inventory size: {0}'.format(
         sum([len(v) for v in inventories.values()])/float(len(inventories))))
-    print('average number of errors per inventory: {0}'.format(
+    print('average number of unknown segments per inventory: {0}'.format(
         sum([len(v) for v in inventories_errors.values()])/float(len(inventories))))
