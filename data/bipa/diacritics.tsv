@@ -36,7 +36,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̰	vowel	phonation	creaky-voiced			
 ◌̆	vowel	phonation	ultra-short			
 ◌̥	vowel	phonation	voiceless			
-◌˳	vowel	phonation	voiceless	+	
+◌˳	vowel	phonation	voiceless	+		
 ◌̊	vowel	phonation	voiceless		up	
 ◌˞	vowel	rhotacization	rhotacized			
 ◌̹	vowel	roundedness	rounded			
