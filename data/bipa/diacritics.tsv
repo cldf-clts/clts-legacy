@@ -13,7 +13,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʱ	consonant	phonation	breathy-voiced	+		
 ◌̰	consonant	phonation	creaky-voiced			
 ◌̥	consonant	phonation	devoiced			
-◌˳	consonant	phonation	devoiced	+	
+◌˳	consonant	phonation	devoiced	+		
 ◌̊	consonant	phonation	devoiced		up	
 ◌̬	consonant	phonation	voiced			
 ʰ◌	consonant	preceding	pre-aspirated			
