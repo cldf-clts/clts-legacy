@@ -15,7 +15,7 @@ setup(
     url='https://github.com/glottobank/cpa',
     install_requires=[
         'attrs',
-        'clldutils>=1.7.3',
+        'clldutils>=1.13.6',
     ],
     include_package_data=True,
     license="GPL",

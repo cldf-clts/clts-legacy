@@ -1,6 +1,8 @@
 GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʰ	consonant	aspiration	aspirated			
 ◌ː	consonant	duration	long			
+◌̄	consonant	duration	long	+
+◌̄	consonant	duration	long	+
 ◌ˀ	consonant	glottalization	glottalized			
 ◌ʷ	consonant	labialization	labialized			
 ◌̃	consonant	nasalization	nasalized			

@@ -5,7 +5,6 @@ This is an attempt to provide a generally broad account on interpreting phonetic
 ```python
 >>> from pyclts.clts import CLTS
 >>> clts = CLTS()
->>> print(slts.get_sound('c').name)
+>>> print(clts.get_sound('c').name)
 voiceless palatal plosive consonant
 ```
-

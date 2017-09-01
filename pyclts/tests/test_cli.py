@@ -1,12 +1,12 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
+from unittest import TestCase
 
 from six import text_type
 from clldutils.testing import capture
 from clldutils.dsv import reader
 
-from pyclpa.tests.util import TestCase
-from pyclpa.cli import main
+from pyclts.cli import main
 
 
 class Tests(TestCase):
@@ -23,7 +23,7 @@ class Tests(TestCase):
                     out = out.decode('utf8')
                 self.assertIn(text, out)
 
-    def test_main(self):
+    def est_main(self):
         self._main('report', text='no input')
         self._main('report', arg='xyz', text='invalid input')
         self._main('report', arg=self.data_path('KSL.tsv').as_posix(), text='sounds')
