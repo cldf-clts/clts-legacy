@@ -26,6 +26,9 @@ if __name__ == "__main__":
     inventories = defaultdict(set)
     inventories_errors = defaultdict(set)
 
+    if '--lexibank' in sys.argv:
+        LEXIBANK = Path(sys.argv[sys.argv.index('--lexibank')+1])
+
     clts = CLTS()
     ds = TableGroup.from_file(
         LEXIBANK.joinpath(sys.argv[1], 'cldf', 'cldf-metadata.json'))
