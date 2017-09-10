@@ -10,7 +10,7 @@ setup(
     version="1.0.0",
     description='A python library to check phonetic transcriptions',
     long_description=read("README.md"),
-    author='Johann-Mattis List',
+    author='Johann-Mattis List and Robert Forkel',
     author_email='mattis.list@lingpy.org',
     url='https://github.com/glottobank/cpa',
     install_requires=[

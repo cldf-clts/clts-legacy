@@ -235,6 +235,102 @@
                     }
                 ]
             }
+        },
+        {
+            "url": "diphthongs.tsv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "GRAPHEME",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_ROUNDEDNESS",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_HEIGHT",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_CENTRALITY",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "ALIAS",
+                        "datatype": {"base": "boolean", "format": "+|"}
+                    },
+                    {
+                        "name": "TO_ROUNDEDNESS",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "TO_HEIGHT",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "TO_CENTRALITY",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "EXTRA",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "NOTE",
+                        "datatype": {"base": "string"}
+                    }
+                ]
+            }
+        },
+        {
+            "url": "doublyarticulatedconsonants.tsv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "GRAPHEME",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_PHONATION",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_PLACE",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "FROM_MANNER",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "ALIAS",
+                        "datatype": {"base": "boolean", "format": "+|"}
+                    },
+                    {
+                        "name": "TO_PHONATION",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "TO_PLACE",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "TO_MANNER",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "EXTRA",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "name": "NOTE",
+                        "datatype": {"base": "string"}
+                    }
+                ]
+            }
         }
     ]
 }

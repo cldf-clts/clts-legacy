@@ -46,7 +46,6 @@ def itertable(table):
             res[k] = v
         yield res
 
-
 def translate(s, source_system, target_system):
     res = []
     for snd in source_system(s):
@@ -77,25 +76,44 @@ class CLTS(object):
                 data_path('transcription-system-metadata.json'))
             self.system._fname = system.joinpath('metadata.json')
 
-        self._features = {'consonant': {}, 'vowel': {}}  # Sounds by name
+        self._features = {'consonant': {}, 'vowel': {}, 'diphthong': {}, 
+                'doublyarticulatedconsonant': {}, 'click': {}}  # Sounds by name
+        # dictionary for feature values, checks when writing elements from
+        # write_order to make sure no output is doubled
+        self._feature_values = {}
+
         self.diacritics = dict(consonant={}, vowel={}, click={}, dipthong={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
             if not dia['alias']:
                 self._features[dia['type']][dia['value']] = dia['grapheme']
+            # assign feature values to the dictionary
+            self._feature_values[dia['value']] = dia['feature']
 
             self.diacritics[dia['type']][dia['grapheme']] = {dia['feature']: dia['value']}
 
         self.sound_classes = {}
+        self._columns = {} # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
-        for cls in [Consonant, Vowel, Tone, Marker, Click]:
+        for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong,
+                DoublyArticulatedConsonant]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
+            # store information on column structure to allow for rendering of a
+            # sound in this form, which will make it easier to insert it when
+            # finding generated sounds
+            self._columns[type_] = [c['name'].lower() for c in \
+                    self.system.tabledict['{0}s.tsv'.format(type_)].asdict(
+                        )['tableSchema']['columns']]
             for l, item in enumerate(itertable(
                     self.system.tabledict['{0}s.tsv'.format(type_)])):
                 if item['grapheme'] in self._sounds:
                     raise ValueError('duplicate grapheme in {0}:{1}: {2}'.format(
                         type_ + 's.tsv', l + 2, item['grapheme']))
                 sound = cls(clts=self, **item)
+                # make sure this does not take too long
+                for key, value in item.items():
+                    if value and value not in {'grapheme', 'note', 'alias'}:
+                        self._feature_values[value] = key
                 self._sounds[item['grapheme']] = sound
                 if not sound.alias:
                     if sound.name in self._features:
@@ -171,9 +189,15 @@ class CLTS(object):
 
         base_sound = self._sounds[mid]
 
-        if string == base_sound.grapheme:
-            # A known sound
-            return base_sound
+        if nstring == base_sound.grapheme:
+            # A known sound, but we check whether we normalized it or not
+            if nstring == string:
+                return base_sound
+            # if the sound was normalized, we assign it a different source, and
+            # return the sound for the normalized sound
+            else:
+                base_sound.source = string
+                return base_sound
 
         # A base sound with diacritics or a custom symbol.
         features = attr.asdict(base_sound)
@@ -295,7 +319,7 @@ class Sound(Symbol):
 
         #base =
 
-        base_vals = elements[:-1]
+        base_vals = [self.clts._feature_values[elm] for elm in elements]
         out = ''
         for p in [x for x in self._write_order['pre'] if x not in base_vals]:
             out += _norm(self.clts._features[self.type].get(
@@ -313,6 +337,32 @@ class Sound(Symbol):
 
     def get(self, desc):
         return self.clts.features.get(desc, '')
+
+    @property
+    def table(self):
+        """Returns the tabular representation of the sound as given in our data
+        """
+        tbl = []
+        features = [f for f in self._name_order if f not in
+                self.clts._columns[self.type]]
+        # make sure to mark generated sounds
+        if self.generated and str(self) != self.source:
+            tbl += [str(self)+' | '+self.source]
+        else:
+            tbl += [str(self)]
+        for name in self.clts._columns[self.type][1:]:
+            if name != 'extra' and name != 'alias':
+                tbl += [getattr(self, name) or '']
+            elif name == 'alias':
+                tbl += ['+' if getattr(self, name) else '']
+            else:
+                bundle = []
+                for f in features:
+                    val = getattr(self, f)
+                    if val:
+                        bundle += ['{0}:{1}'.format(f, val)]
+                tbl += [','.join(bundle)]
+        return tbl
 
 
 @attr.s(cmp=False)
@@ -385,12 +435,54 @@ class Consonant(Sound):
         'pharyngealization',
         'duration', 'release', 'phonation', 'place', 'manner']
 
+@attr.s(cmp=False)
+class DoublyArticulatedConsonant(Sound):
+    
+    # features follow basic information about IPA from various sources, they
+    # are potentially not yet exhaustive and should be updated at some point
+    from_manner = attr.ib(default=None)
+    from_place = attr.ib(default=None)
+    to_manner = attr.ib(default=None)
+    to_place = attr.ib(default=None)
+
+    aspiration = attr.ib(default=None)
+    labialization = attr.ib(default=None)
+    palatalization = attr.ib(default=None)
+    preceding = attr.ib(default=None)
+    velarization = attr.ib(default=None)
+    duration = attr.ib(default=None)
+    from_phonation = attr.ib(default=None)
+    to_phonation = attr.ib(default=None)
+    release = attr.ib(default=None)
+    syllabicity = attr.ib(default=None)
+    nasalization = attr.ib(default=None)
+    glottalization = attr.ib(default=None)
+    pharyngealization = attr.ib(default=None)
+
+    # write order determines how consonants are written according to their
+    # features, so this normalizes the order of diacritics preceding and
+    # following the base part of the consonant
+    _write_order = dict(
+        pre=[],
+        post=[]
+        )
+    _name_order = [
+        'preceding', 'syllabicity', 'nasalization', 'palatalization',
+        'labialization', 'glottalization', 'aspiration', 
+        'velarization',
+        'pharyngealization',
+        'duration', 
+        'release', 
+        'from_phonation', 
+        'from_place', 'from_manner',
+        'to_phonation', 'to_place', 'to_manner']
+
+
 
 @attr.s(cmp=False)
 class Vowel(Sound):
     roundedness = attr.ib(default=None)
     height = attr.ib(default=None)
-    backness = attr.ib(default=None)
     nasalization = attr.ib(default=None)
     frication = attr.ib(default=None)
     duration = attr.ib(default=None)
@@ -408,12 +500,73 @@ class Vowel(Sound):
             'rhotacization',
             'syllabicity',
             'nasalization',
+            'pharyngealization',
             'duration',
             'frication'])
     _name_order = [
-        'phonation', 'rhotacization', 'syllabicity', 'duration', 'nasalization',
-        'roundedness', 'height', 'backness', 'frication', 'centrality']
+        'phonation', 'rhotacization', 'pharyngealization', 'syllabicity', 'duration', 'nasalization',
+        'roundedness', 'height', #'backness', 
+        'frication', 'centrality']
 
+@attr.s(cmp=False)
+class Diphthong(Sound):
+    from_roundedness = attr.ib(default=None)
+    from_height = attr.ib(default=None)
+    from_centrality = attr.ib(default=None)
+    to_roundedness = attr.ib(default=None)
+    to_height = attr.ib(default=None)
+    to_centrality = attr.ib(default=None)
+    
+    from_nasalization = attr.ib(default=None)
+    from_frication = attr.ib(default=None)
+    from_duration = attr.ib(default=None)
+    from_phonation = attr.ib(default=None)
+    from_release = attr.ib(default=None)
+    from_syllabicity = attr.ib(default=None)
+    from_pharyngealization = attr.ib(default=None)
+    from_rhotacization = attr.ib(default=None)
+
+    to_nasalization = attr.ib(default=None)
+    to_frication = attr.ib(default=None)
+    to_duration = attr.ib(default=None)
+    to_phonation = attr.ib(default=None)
+    to_release = attr.ib(default=None)
+    to_syllabicity = attr.ib(default=None)
+    to_pharyngealization = attr.ib(default=None)
+    to_rhotacization = attr.ib(default=None)
+
+
+
+    
+    # dipthongs are simply handled by adding the three base types for vowel and
+    # consonant, plus the additional features, which are, however, only
+    # supposed to occur on the first vowel
+    
+    _write_order = dict(
+        pre=[],
+        post=[])
+
+    _name_order = [
+        'from_phonation', 
+        'from_rhotacization', 
+        'from_pharyngealization',
+        'from_syllabicity', 
+        'from_duration', 
+        'from_nasalization',
+        'from_roundedness', 
+        'from_height', 
+        'from_centrality', 
+        'from_frication',
+        'to_phonation', 
+        'to_rhotacization', 
+        'to_pharyngealization',
+        'to_syllabicity', 
+        'to_duration', 
+        'to_roundedness',
+        'to_height',
+        'to_centrality',
+        'to_frication'
+        ]
 
 @attr.s(cmp=False)
 class Tone(Sound):

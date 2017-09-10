@@ -1,0 +1,3 @@
+GRAPHEME	FROM_PHONATION	FROM_PLACE	FROM_MANNER	TO_PHONATION	TO_PLACE	TO_MANNER	ALIAS	EXTRA	NOTE
+tʙ̥	from_unvoiced	from_alveolar	from_plosive	to_unvoiced	to_bilabial	to_trill			
+kp	from_unvoiced	from_velar	from_plosive	to_unvoiced	to_bilabial	to_plosive			
