@@ -32,6 +32,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ˑ	vowel	duration	mid-long			
 ◌̃	vowel	nasalization	nasalized			
 ◌ˤ	vowel	pharyngealization	pharyngealized			
+◌ˀ	vowel	glottalization	glottalized	
 ◌̤	vowel	phonation	breathy-voiced			
 ◌̰	vowel	phonation	creaky-voiced			
 ◌̆	vowel	phonation	ultra-short			
@@ -43,3 +44,19 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̜	vowel	roundedness	unrounded			
 ◌̯	vowel	syllabicity	non-syllabic			
 ◌̑	vowel	syllabicity	non-syllabic		up	
+◌ː	diphthong	to_duration	to_long			
+◌ˑ	diphthong	to_duration	to_mid-long			
+◌̃	diphthong	to_nasalization	to_nasalized			
+◌ˤ	diphthong	to_pharyngealization	to_pharyngealized			
+◌ˀ	diphthong	to_glottalization	to_glottalized	
+◌̤	diphthong	to_phonation	to_breathy-voiced			
+◌̰	diphthong	to_phonation	to_creaky-voiced			
+◌̆	diphthong	to_phonation	to_ultra-short			
+◌̥	diphthong	to_phonation	to_voiceless			
+◌˳	diphthong	to_phonation	to_voiceless	+		
+◌̊	diphthong	to_phonation	to_voiceless		up	
+◌˞	diphthong	to_rhotacization	to_rhotacized			
+◌̹	diphthong	to_roundedness	to_rounded			
+◌̜	diphthong	to_roundedness	to_unrounded			
+◌̯	diphthong	to_syllabicity	to_non-syllabic			
+◌̑	diphthong	to_syllabicity	to_non-syllabic		up	

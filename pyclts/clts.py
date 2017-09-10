@@ -26,7 +26,6 @@ def data_path(*comps):
 def _norm(string):
     return string.replace(EMPTY, "")
 
-
 def _nfd(string):
     return unicodedata.normalize("NFD", string)
 
@@ -82,7 +81,8 @@ class CLTS(object):
         # write_order to make sure no output is doubled
         self._feature_values = {}
 
-        self.diacritics = dict(consonant={}, vowel={}, click={}, dipthong={})
+        self.diacritics = dict(consonant={}, vowel={}, click={}, diphthong={},
+                tone={}, doublyarticulatedconsonant={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
             if not dia['alias']:
                 self._features[dia['type']][dia['value']] = dia['grapheme']
@@ -132,7 +132,8 @@ class CLTS(object):
 
     def _update_regex(self):
         self._regex = re.compile('|'.join(
-            sorted(map(re.escape, self._sounds), key=lambda x: len(x), reverse=True)))
+            map(re.escape, sorted(self._sounds, key=lambda x: len(x),
+                reverse=True))))
 
     def _add(self, sound):
         assert sound.generated
@@ -175,6 +176,10 @@ class CLTS(object):
         """
         nstring = self._norm(string)
 
+        # check whether sound is in self.sounds
+        if nstring in self._sounds:
+            return self._sounds[nstring]
+
         m = list(self._regex.finditer(nstring))
         if len(m) != 1:
             # Either no match or more than one; both is considered an error.
@@ -187,8 +192,7 @@ class CLTS(object):
         # re-assembled symbol?
         #
 
-        base_sound = self._sounds[mid]
-
+        base_sound = self._sounds[mid]        
         if nstring == base_sound.grapheme:
             # A known sound, but we check whether we normalized it or not
             if nstring == string:
@@ -389,7 +393,7 @@ class Marker(Symbol):
         return self.grapheme
 
     def __unicode__(self):
-        return self.base
+        return self.grapheme
 
 
 @attr.s(cmp=False)
@@ -422,8 +426,8 @@ class Consonant(Sound):
             'syllabicity',
             'nasalization',
             'palatalization',
-            'aspiration',
             'labialization',
+            'aspiration',
             'glottalization',
             'velarization',
             'pharyngealization',
@@ -492,6 +496,7 @@ class Vowel(Sound):
     pharyngealization = attr.ib(default=None)
     rhotacization = attr.ib(default=None)
     centrality = attr.ib(default=None)
+    glottalization = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
@@ -501,10 +506,11 @@ class Vowel(Sound):
             'syllabicity',
             'nasalization',
             'pharyngealization',
+            'glottalization',
             'duration',
             'frication'])
     _name_order = [
-        'phonation', 'rhotacization', 'pharyngealization', 'syllabicity', 'duration', 'nasalization',
+        'phonation', 'rhotacization', 'pharyngealization', 'glottalization', 'syllabicity', 'duration', 'nasalization',
         'roundedness', 'height', #'backness', 
         'frication', 'centrality']
 
@@ -524,6 +530,7 @@ class Diphthong(Sound):
     from_release = attr.ib(default=None)
     from_syllabicity = attr.ib(default=None)
     from_pharyngealization = attr.ib(default=None)
+    from_glottalization = attr.ib(default=None)
     from_rhotacization = attr.ib(default=None)
 
     to_nasalization = attr.ib(default=None)
@@ -533,23 +540,22 @@ class Diphthong(Sound):
     to_release = attr.ib(default=None)
     to_syllabicity = attr.ib(default=None)
     to_pharyngealization = attr.ib(default=None)
+    to_glottalization = attr.ib(default=None)
     to_rhotacization = attr.ib(default=None)
 
-
-
-    
     # dipthongs are simply handled by adding the three base types for vowel and
     # consonant, plus the additional features, which are, however, only
     # supposed to occur on the first vowel
     
     _write_order = dict(
         pre=[],
-        post=[])
+        post=['to_syllabicity', 'to_nasalization', 'to_duration'])
 
     _name_order = [
         'from_phonation', 
         'from_rhotacization', 
         'from_pharyngealization',
+        'from_glottalization',
         'from_syllabicity', 
         'from_duration', 
         'from_nasalization',
@@ -560,8 +566,10 @@ class Diphthong(Sound):
         'to_phonation', 
         'to_rhotacization', 
         'to_pharyngealization',
+        'to_glottalization',
         'to_syllabicity', 
         'to_duration', 
+        'to_nasalization',
         'to_roundedness',
         'to_height',
         'to_centrality',
@@ -576,39 +584,3 @@ class Tone(Sound):
     end = attr.ib(default=None)
 
     _name_order = ['contour', 'start', 'middle', 'end']
-
-
-if __name__ == "__main__":
-    from lingpy import *
-    from pyclpa import base
-    from pylexibank.util import data_path as dpath
-    clpa = base.get_clpa()
-    clts = CLTS()
-    wl = Wordlist(dpath('baidial', 'raw', 'Bai-Dialect-Survey.tsv').as_posix())
-    wl = get_wordlist(
-            dpath('galuciotupi', 'cldf', 'galuciotupi.csv'),
-            col="Language_name", row="Parameter_name")
-    sounds = []
-    for k, ipa in iter_rows(wl, 'segments'):
-        sounds += ipa.split()
-    sounds = sorted(set(sounds))
-    errors = []
-    errors2 = []
-    modified = []
-    generated = []
-    for sound in sounds:
-        testx = clts.get_sound(sound)
-        test2 = clpa(sound)[0]
-        if testx.generated:
-            generated += [sound]
-        if not hasattr(test2, 'clpa'):
-            errors2 += [sound]
-        if testx.type == 'unknown':
-            errors += [sound]
-        elif testx.unknown:
-            errors += [sound]
-        else:
-            if testx.source != str(testx):
-                modified += [[sound, str(testx)]]
-            print(str(testx), testx.name, '◌'.join(testx.source),
-                    len(testx.source))

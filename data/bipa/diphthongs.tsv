@@ -1331,3 +1331,22 @@ e̞ɔ	from_unrounded	from_mid	from_front	to_rounded	to_open-mid	to_back
 e̞ɵ	from_unrounded	from_mid	from_front	to_rounded	to_close-mid	to_central			
 e̞ɘ	from_unrounded	from_mid	from_front	to_unrounded	to_close-mid	to_central			
 e̞ɯ	from_unrounded	from_mid	from_front	to_unrounded	to_close	to_back			
+æɪ̃	from_unrounded	from_nearly-open	from_front	to_unrounded	to_near-close	to_near-front		to_nasalization:to_nasalized	
+eaː	from_unrounded	from_close-mid	from_front	to_unrounded	to_open	to_front		to_duration:to_long	
+eoː	from_unrounded	from_close-mid	from_front	to_rounded	to_close-mid	to_back		to_duration:to_long	
+eã	from_unrounded	from_close-mid	from_front	to_unrounded	to_open	to_front		to_nasalization:to_nasalized	
+ei̯	from_unrounded	from_close-mid	from_front	to_unrounded	to_close	to_front		to_syllabicity:to_non-syllabic	
+ai̯	from_unrounded	from_open	from_front	to_unrounded	to_close	to_front		to_syllabicity:to_non-syllabic	
+oi̯	from_rounded	from_close-mid	from_back	to_unrounded	to_close	to_front		to_syllabicity:to_non-syllabic	
+ui̯	from_rounded	from_close	from_back	to_unrounded	to_close	to_front		to_syllabicity:to_non-syllabic	
+eu̯	from_unrounded	from_close-mid	from_front	to_rounded	to_close	to_back		to_syllabicity:to_non-syllabic	
+au̯	from_unrounded	from_open	from_front	to_rounded	to_close	to_back		to_syllabicity:to_non-syllabic	
+ɑu̯	from_unrounded	from_open	from_back	to_rounded	to_close	to_back		to_syllabicity:to_non-syllabic	
+ou̯	from_rounded	from_close-mid	from_back	to_rounded	to_close	to_back		to_syllabicity:to_non-syllabic	
+oʊ̃	from_rounded	from_close-mid	from_back	to_rounded	to_near-close	to_near-back		to_nasalization:to_nasalized	
+oũ	from_rounded	from_close-mid	from_back	to_rounded	to_close	to_back		to_nasalization:to_nasalized	
+æi̯	from_unrounded	from_nearly-open	from_front	to_unrounded	to_close	to_front		to_syllabicity:to_non-syllabic	
+iə̯	from_unrounded	from_close	from_front	to_unrounded	to_mid	to_central		to_syllabicity:to_non-syllabic	
+yə̯	from_rounded	from_close	from_front	to_unrounded	to_mid	to_central		to_syllabicity:to_non-syllabic	
+uə̯	from_rounded	from_close	from_back	to_unrounded	to_mid	to_central		to_syllabicity:to_non-syllabic	
+æu̯	from_unrounded	from_nearly-open	from_front	to_rounded	to_close	to_back		to_syllabicity:to_non-syllabic	
