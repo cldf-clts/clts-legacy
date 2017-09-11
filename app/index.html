@@ -63,10 +63,13 @@ function showUnicode(strings) {
   for (var i=0, k; k=ucode[0][i]; i++) {
     utext.push(ucode[0][i]+'<sup>'+ucode[1][i]+'</sup>');
   }
-  document.getElementById(strings).innerHTML = utext.join(' ');
+  utext = utext.join(' ');
+  utext += ' <sup><span style="background-color:Crimson;color:white;cursor:pointer;" '+
+    'onclick="showOriginal(\''+strings+'\');">(x)</span></sup>';
+  document.getElementById(strings).innerHTML = utext;
 }
 function showOriginal(idf) {
-  document.getElementById(idf).innerHTML = idf;
+  document.getElementById(idf).innerHTML = '<span title="click to show unicode" style="cursor:pointer;" onclick="showUnicode(\''+idf+'\');">'+idf+'</span>';
 }
 
 function convertCLPA(value) {
@@ -124,21 +127,25 @@ function convertCLPA(value) {
 	  }
 	}
 	  
-      	var tabletext = '<td title="click to show unicode" id="'+tmp['bipa'] + 
-	  '" onclick="showUnicode(\''+tmp['bipa']+'\');" ondblclick="showOriginal(\''+
-	  tmp['bipa']+'\');">'+tmp['bipa']+'</td>';
+      	var tabletext = '<td id="'+tmp['bipa'] + 
+	  '"  ondblclick="showOriginal(\''+
+	  tmp['bipa']+'\');"><span style="cursor:pointer;" ' +
+	  'title="click to show unicode" '+    
+	  'onclick="showUnicode(\''+tmp['bipa']+'\');">'+tmp['bipa']+'</span></td>';
 	if (normed) {
-	  tabletext += '<td title="click to show unicode" id="'+normed+'" onclick="showUnicode(\''+normed+'\');" '+ 
+	  tabletext += '<td id="'+normed+'"  '+ 
 	    'ondblclick="showOriginal(\''+normed+'\');" '+
-	    'style="background-color:'+normed_color+'">'+normed+'</td>';
+	    'style="background-color:'+normed_color+'">'+
+	    '<span style="cursor:pointer;" title="click to show unicode" onclick="showUnicode(\''+normed+'\');">'+normed+'</span></td>';
 	}
 	else {
 	  tabletext += '<td></td>';
 	}
 	if (alias) {
-	  tabletext += '<td id="'+alias+'" title="click to show unicode" onclick="showUnicode(\''+alias+'\');" '+ 
-	    'ondblclick="showOriginal(\''+alias+'\');" '+
-	    'style="background-color:'+alias_color+'">'+alias+'</td>';
+	  tabletext += '<td id="'+alias+'" '+ 
+	    'style="background-color:'+alias_color+'">'+
+	    '<span style="cursor:pointer;" title="click to show unicode" onclick="showUnicode(\''+alias+'\');">'+ 
+	    alias+'</span></td>';
 	}
 	else {
 	  tabletext += '<td></td>';

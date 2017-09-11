@@ -154,19 +154,34 @@ def loadmeta(args):
         write_metadata(out, 'lingpy.tsv')
     
     if args.dataset == 'wikipedia':
-        import urllib.request, urllib.error
+        import urllib.request, urllib.error, urllib.parse
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'WIKIPEDIA_URL']]
+        wiki = 'https://en.wikipedia.org/wiki/'
         for glyph, sound in bipa._sounds.items():
-            if not sound.alias:
-                url = 'https://en.wikipedia.org/wiki/'+ '_'.join(
-                        sound.name.split(' ')[:-1])
+            if not sound.alias and not sound.type in ['marker', 'diphthong']:
+                print(sound.type)
+                if not sound.type == 'click':
+                    url1 = wiki + '_'.join(sound.name.split(' ')[:-1])
+                    url2 = wiki + '_'.join([s for s in sound.name.split(' ') if
+                        s not in ['consonant', 'vowel', 'diphthong', 'cluster',
+                            'voiced', 'unvoiced']])
+                else:
+                    url1 = wiki + '_'.join(sound.name.split(' '))
+                    url2 = wiki+urllib.parse.quote(str(sound))
                 try:
-                    with urllib.request.urlopen(url) as response:
+                    with urllib.request.urlopen(url1) as response:
                         pass
-                    out += [[sound.name, str(sound), url]] 
+                    out += [[sound.name, str(sound), url1]] 
                     print("found url for {0}".format(sound))
                 except urllib.error.HTTPError:
-                    pass
+                    print("no url found for {0}".format(sound))
+                    try:
+                        with urllib.request.urlopen(url2) as response:
+                            pass
+                        out += [[sound.name, str(sound), url2]]
+                    except urllib.error.HTTPError:
+                        print("really no url found for {0}".format(sound))
+                        
         write_metadata(out, 'wikipedia.tsv')
 
 
