@@ -34,6 +34,12 @@ def codepoint(s):
     "Return unicode codepoint(s) for a character set."
     return ' '.join(['U+'+('000'+hex(ord(x))[2:])[-4:] for x in s])
 
+def uname(s):
+    "Return unicode name(s) for a character set."
+    try:
+        return ' / '.join(unicodedata.name(ss) for ss in s)
+    except:
+        return '-'
 
 def itertable(table):
     for item in table:
@@ -284,6 +290,10 @@ class Symbol(UnicodeMixin):
     def name(self):
         return None
 
+    @property
+    def uname(self):
+        return uname(self.grapheme)
+
 
 @attr.s(cmp=False)
 class UnknownSound(Symbol):
@@ -308,6 +318,10 @@ class Sound(Symbol):
     @property
     def codepoints(self):
         return codepoint(str(self))
+
+    @property
+    def uname(self):
+        return uname(str(self))
 
     def __unicode__(self):
         # search for best base-string
