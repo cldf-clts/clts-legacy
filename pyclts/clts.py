@@ -76,13 +76,13 @@ class CLTS(object):
             self.system._fname = system.joinpath('metadata.json')
 
         self._features = {'consonant': {}, 'vowel': {}, 'diphthong': {}, 
-                'doublyarticulatedconsonant': {}, 'click': {}}  # Sounds by name
+                'cluster': {}, 'click': {}}  # Sounds by name
         # dictionary for feature values, checks when writing elements from
         # write_order to make sure no output is doubled
         self._feature_values = {}
 
         self.diacritics = dict(consonant={}, vowel={}, click={}, diphthong={},
-                tone={}, doublyarticulatedconsonant={})
+                tone={}, cluster={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
             if not dia['alias']:
                 self._features[dia['type']][dia['value']] = dia['grapheme']
@@ -95,7 +95,7 @@ class CLTS(object):
         self._columns = {} # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
         for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong,
-                DoublyArticulatedConsonant]:
+                Cluster]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
             # store information on column structure to allow for rendering of a
@@ -440,7 +440,7 @@ class Consonant(Sound):
         'duration', 'release', 'phonation', 'place', 'manner']
 
 @attr.s(cmp=False)
-class DoublyArticulatedConsonant(Sound):
+class Cluster(Sound):
     
     # features follow basic information about IPA from various sources, they
     # are potentially not yet exhaustive and should be updated at some point

@@ -28,10 +28,13 @@ if __name__ == "__main__":
 
     if '--lexibank' in sys.argv:
         LEXIBANK = Path(sys.argv[sys.argv.index('--lexibank')+1])
+        dset = sys.argv[sys.argv.index('--lexibank')+2]
+    else:
+        dset = sys.argv[1]
 
     clts = CLTS()
     ds = TableGroup.from_file(
-        LEXIBANK.joinpath(sys.argv[1], 'cldf', 'cldf-metadata.json'))
+        LEXIBANK.joinpath(dset, 'cldf', 'cldf-metadata.json'))
 
     for row in ds.tabledict['forms.csv']:
         if row['Segments']:

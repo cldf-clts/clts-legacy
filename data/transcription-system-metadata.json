@@ -285,7 +285,7 @@
             }
         },
         {
-            "url": "doublyarticulatedconsonants.tsv",
+            "url": "clusters.tsv",
             "tableSchema": {
                 "columns": [
                     {

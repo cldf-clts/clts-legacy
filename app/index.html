@@ -1,8 +1,12 @@
 <html>
 <head>
   <title>CLTS browser</title>
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script src="data.js" type="text/javascript"></script>
   <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png" type="image/png"> 
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" type="text/css" href="site.css" />
 </head>
@@ -23,13 +27,13 @@ td {
           
             <a class="nav-item nav-link btn btn-nav" href="">Home</a>
             <a class="nav-item nav-link btn btn-nav" href="">GitHub</a>
-            <a class="nav-item nav-link btn btn-nav" href="">Notes</a>
+            <a class="nav-item nav-link btn btn-nav" href="http://calc.digling.org">BACK</a>
                     
          </div>
          <div class="navbar-nav nav-main">
            <a class="nav-item nav-link active" href="">Home</a>
            <a href="" class="nav-item nav-link">GitHub</a>
-           <a href="" class="nav-item nav-link">Notes</a>
+           <a href="http://calc.digling.org" class="nav-item nav-link">BACK</a>
                     
          </div>
       </div>  
@@ -43,7 +47,7 @@ td {
   <h2 class="headline" style="color:black;">Cross-Linguistic Transcription Systems</h1>
   <p>Just paste or type your text in space-separated form in the text-area field below to test it.</p>
   <p><textarea style="background-color:lightyellow;" onkeyup="document.getElementById('annotation').innerHTML='';convertCLPA(this.value)"
-	    id="input" cols="80" rows="10" 
+	    id="input" cols="80" rows="8" 
     placeholder="type your phonetic code here, separating sound segments by spaces"></textarea>
   </p>
   <br>
@@ -53,9 +57,21 @@ td {
 </section>
 
 <script>
+function showUnicode(strings) {
+  var ucode = get_unicodes(strings);
+  var utext = [];
+  for (var i=0, k; k=ucode[0][i]; i++) {
+    utext.push(ucode[0][i]+'<sup>'+ucode[1][i]+'</sup>');
+  }
+  document.getElementById(strings).innerHTML = utext.join(' ');
+}
+function showOriginal(idf) {
+  document.getElementById(idf).innerHTML = idf;
+}
+
 function convertCLPA(value) {
   document.getElementById('annotation').innerHTML = '';
-  var segments = value.split(/\s+/);
+  var segments = value.normalize('NFD').split(/\s+/);
   console.log("segments", segments);
   var table = [];
   var visited = [];
@@ -79,13 +95,14 @@ function convertCLPA(value) {
     }
 	  
     if (ssegment in BIPA) {
-      if (visited.indexOf(segment) == -1) {
-	visited.push(segment);
-	freqs[segment] = 1;
-	var tmp = BIPA[ssegment];
+      var tmp = BIPA[ssegment];
+      if (visited.indexOf(tmp['bipa']) == -1) {
+	freqs[tmp['bipa']] = 1;
+	visited.push(tmp['bipa']);
       	var cls = tmp['type'];
 	var alias = '';
 	var alias_color = 'white';
+	
 	if (tmp['bipa'] != ssegment) {
 	  alias = ssegment;
 	  alias_color = 'lightyellow';
@@ -102,40 +119,68 @@ function convertCLPA(value) {
 	if ('phoible_id' in tmp) {
 	  phoible = '<a target="_blank" style="color:Crimson" href="http://phoible.org/parameters/' + 
 	    tmp['phoible_id'] + '">' + tmp['phoible_grapheme']+'</a>';
-	  phoible_color = 'lightblue';
+	  if (tmp['phoible_grapheme'] != tmp['bipa']) {
+	    phoible_color = 'lightblue';
+	  }
 	}
 	  
-      	var tabletext = '<td>'+tmp['bipa']+'</td>';
-	tabletext += '<td style="background-color:'+normed_color+'">'+normed+'</td>';
-      	tabletext += '<td style="background-color:'+alias_color+'">'+alias+'</td>';
+      	var tabletext = '<td title="click to show unicode" id="'+tmp['bipa'] + 
+	  '" onclick="showUnicode(\''+tmp['bipa']+'\');" ondblclick="showOriginal(\''+
+	  tmp['bipa']+'\');">'+tmp['bipa']+'</td>';
+	if (normed) {
+	  tabletext += '<td title="click to show unicode" id="'+normed+'" onclick="showUnicode(\''+normed+'\');" '+ 
+	    'ondblclick="showOriginal(\''+normed+'\');" '+
+	    'style="background-color:'+normed_color+'">'+normed+'</td>';
+	}
+	else {
+	  tabletext += '<td></td>';
+	}
+	if (alias) {
+	  tabletext += '<td id="'+alias+'" title="click to show unicode" onclick="showUnicode(\''+alias+'\');" '+ 
+	    'ondblclick="showOriginal(\''+alias+'\');" '+
+	    'style="background-color:'+alias_color+'">'+alias+'</td>';
+	}
+	else {
+	  tabletext += '<td></td>';
+	}
       	tabletext += '<td>'+cls+'</td>';
-      	tabletext += '<td>'+tmp['name']+'</td>';
+      	tabletext += '<td>'+tmp['name'].replace(' '+tmp['type'], '')+'</td>';
 	tabletext += '<td style="background-color:'+phoible_color+'">'+phoible+'</td>';
-      	table.push(tabletext);
-	symbols.push(segment);
+      	table.push([tmp['name'], tmp['bipa'], tabletext]);
+	symbols.push(ssegment);
       }
       else {
-	freqs[segment] += 1;
+	freqs[tmp['bipa']] += 1;
       }
     }
-    else if (typeof segment != 'undefined' && segment.length > 0 && segment.replace(/\s/g,'') != ''){
-      if (visited.indexOf(segment) == -1) {
-	visited.push(segment);
-	table.push('<td colspan="6" style="color:red;font-weight:bold">'+segment+'</td>');
-	freqs[segment] = 1;
-	symbols.push(segment);
+    else if (typeof ssegment != 'undefined' && ssegment.length > 0 && ssegment.replace(/\s/g,'') != ''){
+      if (visited.indexOf(ssegment) == -1) {
+	visited.push(ssegment);
+	table.push(['?', ssegment, 
+	  '<td title="click to show unicode" id="'+ssegment+'"' + 
+	  'onclick="showUnicode(\''+ssegment+'\');" ondblclick="showOriginal(\''+ssegment+'\');" '+
+	  'colspan="6" style="color:red;font-weight:bold">'+segment+'</td>']);
+	freqs[ssegment] = 1;
       }
       else {
-	freqs[segment] += 1;
+	freqs[ssegment] += 1;
       }
     }
   }
-  console.log(table, visited);
   var ttext = '<table style="border:2px solid black;">'
     + '<tr style="border:2px solid gray;">'
-    + '<th>BIPA</th><th>NORMALIZED</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>FREQUENCY</th></tr>';
+    + '<th>BIPA</th><th>NORM</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>OCC</th></tr>';
+  /* sort the table according to the reverse name */
+  table.sort(function (x, y) {
+    if (x[0].split("").reverse().join("") < y[0].split("").reverse().join("")) {
+      return -1}
+    if (x[0].split("").reverse().join("") > y[0].split("").reverse().join("")) {
+      return 1}
+    return 0;
+  });
+
   for (var i=0,row; row=table[i]; i++) {
-    ttext += '<tr>'+table[i]+'<td>'+freqs[symbols[i]]+'</td></tr>';
+    ttext += '<tr>'+table[i][2]+'<td>'+freqs[table[i][1]]+'</td></tr>';
   }
   ttext += '</table>';
   if (table.length > 0) {

@@ -11,10 +11,10 @@ import unicodedata
 from six import text_type
 from clldutils.clilib import ArgumentParser, ParserError, command
 from clldutils.path import Path
-from clldutils.dsv import UnicodeWriter
+from clldutils.dsv import UnicodeWriter, UnicodeReader
 from clldutils.markup import Table
 from pyclts import clts
-from pyclts.util import data_path, metadata_path
+from pyclts.util import data_path, metadata_path, sources_path
 from pyclts.metadata import phoible
 
 import json
@@ -69,7 +69,8 @@ def table(args):
 
 @command()
 def dump(args):
-
+    """Command writes data to different files for re-use across web-applications.
+    """
     bipa = clts.CLTS('bipa')
     phoible_ = phoible()
     dump, digling = {}, {}
@@ -117,11 +118,40 @@ def dump(args):
         f.write(json.dumps(dump, indent=1))
     with open(data_path('digling-dump.json'), 'w') as f:
         f.write(json.dumps(digling, indent=1))
-    with open(data_path('../app/script.js'), 'w') as f:
+    with open(data_path('../app/data.js'), 'w') as f:
         f.write('var BIPA = '+json.dumps(dump)+';\n')
         f.write('var normalize = '+json.dumps(bipa._normalize)+';\n')
     print('files written to clts/data')
-                    
+
+@command()
+def loadmeta(args):
+    bipa = clts.CLTS()
+    def write_metadata(data, filename):
+        with open(metadata_path(filename), 'w') as f:
+            for line in data:
+                f.write('\t'.join(line)+'\n')
+        print('file <{0}> has been successfully written'.format(filename))
+
+    if args.dataset == 'phoible':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PHOIBLE_ID', 'PHOIBLE_GRAPHEME']]
+        with UnicodeReader(sources_path('Parameters.csv')) as uni:
+            for line in uni:
+                glyph = line[-4]
+                url = line[4]
+                sound = bipa[glyph]
+                if sound.type != 'unknownsound' and not sound.generated:
+                    out += [[sound.name, str(sound), url, glyph]]
+        write_metadata(out, 'phoible.tsv')
+
+    if args.dataset == 'lingpy':
+        from lingpy.sequence.sound_classes import token2class
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS', 
+            'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
+        for glyph, sound in bipa._sounds.items():
+            if not sound.alias:
+                out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
+                    in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
+        write_metadata(out, 'lingpy.tsv')
 
 def main(args=None):
     parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
@@ -135,6 +165,9 @@ def main(args=None):
     parser.add_argument(
         '--filter', help="only list generated sounds",
         default='')
+    parser.add_argument(
+        '--dataset', help="specify the dataset you want to load",
+        default="")
 
     res = parser.main(args=args)
     if args is None:  # pragma: no cover

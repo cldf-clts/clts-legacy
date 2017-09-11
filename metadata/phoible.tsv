@@ -47,7 +47,7 @@ unrounded close central vowel	ɨ	3A3393BDCDC64FE0B39793147F9DBA7D	ɨ
 voiceless velar fricative consonant	x	F62AFB705D2A2D30BB41CF3FBE917891	x
 voiced dental plosive consonant	d̪	198E3EBE25854A256D6C67EF286FA260	d̪
 aspirated voiceless velar plosive consonant	kʰ	BD29F40254AA0996800A773122397C28	kʰ
-from_unvoiced from_velar from_plosive to_unvoiced to_bilabial to_plosive doublyarticulatedconsonant	kp	3BE9D8AA68FB8CA25C1D8EE2091DC6D0	kp
+from_unvoiced from_velar from_plosive to_unvoiced to_bilabial to_plosive cluster	kp	3BE9D8AA68FB8CA25C1D8EE2091DC6D0	kp
 voiced dental nasal consonant	n̪	2ED41B5E874292EB0C3BBC6F31DC6FCC	n̪
 aspirated voiceless bilabial plosive consonant	pʰ	6E065D8A2F199BCBC7CA7074EC4DE834	pʰ
 unrounded near-close near-front vowel	ɪ	CF50E15F866A7B9698A8F95C5C9B48B2	ɪ
@@ -68,7 +68,7 @@ long unrounded open-mid front vowel	ɛː	E12BC6D5BBF9272E866810A376DEEF52	ɛː
 voiced dental implosive consonant	ɗ	192EEEA914E770D60BEC3F86DAED50AA	ɗ
 rounded mid back vowel	o̞	CCF0350A2EFEF792529909972278B165	o̞
 unrounded mid front vowel	e̞	258C639F2F822CD1D56805F5397712E4	e̞
-voiced alveolar lateral-approximant consonant	l	92E1B0E16834519598F3C03EE7E974D9	l̪
+voiced dental lateral-approximant consonant	l̪	92E1B0E16834519598F3C03EE7E974D9	l̪
 voiced alveolar affricate consonant	dz	17B1CFA69C0C6AB5362FFDB585C0C7DC	dz
 nasalized unrounded open-mid front vowel	ɛ̃	0893FE8A6560A9B5DFA0A58647DB558E	ɛ̃
 voiceless alveolar fricative consonant	s	BF4C7446654F9DDE2B7CA86A93FC8D29	s̪
