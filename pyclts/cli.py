@@ -152,7 +152,26 @@ def loadmeta(args):
                 out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
                     in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
         write_metadata(out, 'lingpy.tsv')
+    
+    if args.dataset == 'wikipedia':
+        import urllib.request, urllib.error
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'WIKIPEDIA_URL']]
+        for glyph, sound in bipa._sounds.items():
+            if not sound.alias:
+                url = 'https://en.wikipedia.org/wiki/'+ '_'.join(
+                        sound.name.split(' ')[:-1])
+                try:
+                    with urllib.request.urlopen(url) as response:
+                        pass
+                    out += [[sound.name, str(sound), url]] 
+                    print("found url for {0}".format(sound))
+                except urllib.error.HTTPError:
+                    pass
+        write_metadata(out, 'wikipedia.tsv')
 
+
+
+                
 def main(args=None):
     parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
