@@ -175,14 +175,20 @@ class CLTS(object):
         components = string.split(' ')
         rest, sound_class = components[:-1], components[-1]
         if sound_class not in self.sound_classes:
-            raise ValueError('you need to specify the sound class')
+            raise ValueError('no sound class specified')
         
-        args = {self._feature_values[comp]: comp for comp in rest}
+        args = {self._feature_values.get(comp, '?'): comp for comp in rest}
+        if '?' in args:
+            raise ValueError('string contains unknown features')
         args['grapheme'] = ''
         args['clts'] = self
-        return self.sound_classes[sound_class](**args)
-        
-
+        sound = self.sound_classes[sound_class](**args)
+        glyph = str(sound)
+        if not glyph in self._sounds:
+            sound.generated = True
+            return sound
+        return self[glyph]
+    
     def _parse(self, string):
         """Parse a string and return its features.
 
@@ -230,12 +236,14 @@ class CLTS(object):
             source=string,
             grapheme=base_sound.grapheme,
             generated=True,
-            alias=not bool(pre or post))
+            alias=base_sound.alias)
 
         for dia in [p + EMPTY for p in pre] + [EMPTY + p for p in post]:
             feature = self.diacritics[base_sound.type].get(dia, {})
             if not feature:
                 return UnknownSound(grapheme=nstring, source=string, clts=self)
+            if self.diacritics[base_sound.type][dia] != dia:
+                features['alias'] = True
             features.update(feature)
 
         sound = self.sound_classes[base_sound.type](**features)
@@ -246,23 +254,20 @@ class CLTS(object):
     def __getitem__(self, string):
         if isinstance(string, Sound):
             return self._features[string.name]
-
+        if [s for s in self.sound_classes if s in string]:
+            return self.from_name(string)
         string = _nfd(string)
         try:
             return self._parse(string)
         # here, we should take over to handle also dipthongs
         except ValueError:
-            raise KeyError()
+            raise KeyError('your string is not attested')
 
     def __contains__(self, item):
         if isinstance(item, Sound):
             return item.name in self._features
-
-        try:
-            _ = self[item]
-            return True
-        except KeyError:
-            return False
+        
+        return item in self._sounds
 
     def get(self, string):
         try:
@@ -349,8 +354,6 @@ class Sound(Symbol):
                 base_str = base.grapheme
                 break
             elements.pop(0)
-
-        #base =
 
         base_vals = [self.clts._feature_values[elm] for elm in elements]
         out = ''
