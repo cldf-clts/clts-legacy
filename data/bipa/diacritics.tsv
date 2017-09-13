@@ -28,6 +28,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̩	consonant	syllabicity	syllabic			
 ◌̍	consonant	syllabicity	syllabic		up	
 ◌ˠ	consonant	velarization	velarized			
+◌ˠ	vowel	velarization	velarized	
 ◌ː	vowel	duration	long			
 ◌ˑ	vowel	duration	mid-long			
 ◌̃	vowel	nasalization	nasalized			

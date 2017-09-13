@@ -47,7 +47,8 @@ unrounded close central vowel	ɨ	3A3393BDCDC64FE0B39793147F9DBA7D	ɨ
 voiceless velar fricative consonant	x	F62AFB705D2A2D30BB41CF3FBE917891	x
 voiced dental plosive consonant	d̪	198E3EBE25854A256D6C67EF286FA260	d̪
 aspirated voiceless velar plosive consonant	kʰ	BD29F40254AA0996800A773122397C28	kʰ
-from_unvoiced from_velar from_plosive to_unvoiced to_bilabial to_plosive cluster	kp	3BE9D8AA68FB8CA25C1D8EE2091DC6D0	kp
+from_voiced from_velar from_plosive to_voiced to_bilabial to_plosive cluster	gb	1F27FEFCD8402C09E00300258B5A7EE2	ɡb
+from_voiceless from_velar from_plosive to_voiceless to_bilabial to_plosive cluster	kp	3BE9D8AA68FB8CA25C1D8EE2091DC6D0	kp
 voiced dental nasal consonant	n̪	2ED41B5E874292EB0C3BBC6F31DC6FCC	n̪
 aspirated voiceless bilabial plosive consonant	pʰ	6E065D8A2F199BCBC7CA7074EC4DE834	pʰ
 unrounded near-close near-front vowel	ɪ	CF50E15F866A7B9698A8F95C5C9B48B2	ɪ
@@ -101,6 +102,7 @@ unrounded open-mid back vowel	ʌ	18DCAF1C4880F45D5B402E7D776A91D0	ʌ
 long unrounded mid central vowel	əː	ED921AC9F6C2ABBAC1602F39891DADCF	əː
 voiced retroflex lateral-approximant consonant	ɭ	512D7E3344FCD21B1EE47971D72DB39A	ɭ
 voiced dental fricative consonant	ð	C74BECEC6C9DBC95D2C92E893F72A8AD	ð
+voiceless alveolar ejective-affricate consonant	tsʼ	BAC70456E8C04CEFDCAC8240DAFE192F	tsʼ
 aspirated voiceless alveolar affricate consonant	tsʰ	C6880E4D32532681166EBA4D7D3AA2E0	tsʰ
 nasalized unrounded near-close near-front vowel	ɪ̃	6CA1A9CAC4D088F2CB53987315A2D8BF	ɪ̃
 voiceless dental fricative consonant	θ	7D184A6DCDA3EB154F9CB34651E02EEE	θ
@@ -117,6 +119,7 @@ long nasalized unrounded close front vowel	ĩː	70B73BACB06AB6CCEBE6E6710EBB7BE
 long voiced alveolar nasal consonant	nː	0A6EAA5C52B5FA8BF685047F7CE47780	nː
 long unrounded near-close near-front vowel	ɪː	DABE61684BBEAC7732AD8B3A97CF8701	ɪː
 nasalized unrounded mid central vowel	ə̃	1709B3BEA8703B449759CCDB8CB0DE22	ə̃
+voiceless dental affricate consonant	t̪s̪	5D948F2472DF73583FDD0CCC30D60915	t̪s̪
 long unrounded close central vowel	ɨː	EA4BE781596BA71D03B0E14F300A1669	ɨː
 labialized voiceless velar fricative consonant	xʷ	CC1E157E56BC1B4B281FF3ACD292F7DF	xʷ
 voiced dental trill consonant	r̪	C425D93352850DE1476444DA0C387C7F	r̪
@@ -133,6 +136,7 @@ from_unrounded from_open from_front to_unrounded to_close to_front diphthong	ai	
 labialized voiced bilabial nasal consonant	mʷ	2F8EC6B0EA3ECBE22B3D360AF6A330C2	mʷ
 voiceless pharyngeal fricative consonant	ħ	C699D862DAE3202097065A59720E60BC	ħ
 voiceless retroflex affricate consonant	ʈʂ	0C125CB557D530881A8F1E46A3EB6F0C	ʈʂ
+voiceless dental ejective-plosive consonant	t̪ʼ	D3867260AB7CFE5A579FD7E8ACD31024	t̪ʼ
 labialized voiced bilabial plosive consonant	bʷ	2060144B3E5025B6C6FAAEBAF9EC4038	bʷ
 breathy-voiced bilabial plosive consonant	b̤	584E53EB5DC897FE333F996BB3854365	b̤
 short low tone	¹	A923E0D43B03C879903B9B6602035AD0	˩
@@ -169,6 +173,7 @@ labialized voiceless bilabial plosive consonant	pʷ	89135AE8B291E91395AD52BAA759
 labialized voiceless uvular fricative consonant	χʷ	26770129337E78245F6006266F845267	χʷ
 unrounded nearly-open central vowel	ɐ	7D5E23AD8E7FC92894F94CEB664FBE7C	ɐ
 voiced alveolar approximant consonant	ɹ	BF93B485560325B98EACB69D278AD493	ɹ
+voiced dental affricate consonant	d̪z̪	30D03C9A011ADC5852F9D5AF75161372	d̪z̪
 breathy-voiced retroflex plosive consonant	ɖ̤	D32D22D7FB8C895910556E91EE6B372A	ɖ̤
 rounded open back vowel	ɒ	5745AAC70E7A7B7175204204FFBE639F	ɒ
 voiced retroflex fricative consonant	ʐ	9EBF00B0DFB3E7F964B97DB54E9A36FD	ʐ
@@ -183,6 +188,7 @@ long voiced alveolar plosive consonant	dː	AF55984F7DCE6CC6910C605F97C59E55	dː
 nasalized unrounded nearly-open front vowel	æ̃	8E39902B15270149C6FAB7A2A6307EE3	æ̃
 long voiced palatal nasal consonant	ɲː	B72EA7A6AB24EDF883082F82EAC69ADE	ɲː
 long nasalized unrounded close-mid front vowel	ẽː	516350E7AE95E5CC180DBA424343695D	ẽː
+aspirated voiceless dental affricate consonant	t̪s̪ʰ	8320148991AF7DEE52866916B00B49A3	t̪s̪ʰ
 devoiced palatal nasal consonant	ɲ̊	1328DE7368EC9B18055FBBC5445E9307	n̥
 labialized voiceless alveolar plosive consonant	tʷ	70D47EBCFC5479169386FAF413D83AE8	tʷ
 palatalized voiced alveolar lateral-approximant consonant	lʲ	548D8E709B3C8F7FFB5983EA5E033D11	lʲ
@@ -203,6 +209,7 @@ falling mid mid-low tone	³²	DF21894A34BE9B1F8074827DEF536BCD	˧˨
 voiced alveolar lateral-flap consonant	ɺ	AF0BA3378B269771157E76E3157F655B	ɺ
 unrounded open-mid central vowel	ɜ	E9816BABF98BFDAB39019D860D8C458F	ɜ
 nasalized unrounded open back vowel	ɑ̃	55FDF5C7AED74ADA223A64EC6859373F	ɑ̃
+voiceless dental lateral-fricative consonant	ɬ̪	7745ED33224767336C730D0142AAE49D	ɬ̪
 long unrounded mid front vowel	e̞ː	7B6489AE98B6E326169F03D41D94EF20	e̞ː
 palatalized voiced alveolar nasal consonant	nʲ	9F38F051ADBEAF0BBD331FEE5F68BA0A	nʲ
 devoiced velar nasal consonant	ŋ̊	887F49F7E15117E2639E1D17FC0B8EB2	ŋ̥
@@ -211,6 +218,7 @@ voiced bilabial approximant consonant	β̞	51CC41E04001D781FFFB40FBAF6946C2	β̞
 devoiced alveolar lateral-approximant consonant	l̥	D47E305230AF5B8AD808EC71E2E40B0A	l̥
 from_unrounded from_close from_front to_unrounded to_open to_front diphthong	ia	C615E80D7BD204F79239594B45E22747	ia
 from_rounded from_close from_back to_unrounded to_close to_front diphthong	ui	BE3730A853FBA861E9A26303281AD485	ui
+voiceless dental ejective-affricate consonant	t̪s̪ʼ	DB7328D75BC8D9264B5D7AD424130B32	t̪s̪ʼ
 voiceless alveolo-palatal affricate consonant	tɕ	F98D1F5885EED9A2408A55B509F263BD	tɕ
 voiceless palatal ejective-plosive consonant	cʼ	8624F957F56BDEBB294A22FB14BB353B	cʼ
 creaky-voiced unrounded open front vowel	a̰	5EDDCD762502FA9F1E90DEB15E6EB55E	a̰
@@ -225,6 +233,7 @@ creaky-voiced unrounded close front vowel	ḭ	6E48B9E1AFA06DDB435C6ECA6A9EFEF4	i
 palatalized voiceless labiodental fricative consonant	fʲ	94AD2B51FB011E032DC3E695DB412F3D	fʲ
 from_rounded from_close from_back to_unrounded to_open to_front diphthong	ua	24E11ABCF1AD3B0C6D805A63C3D713A4	ua
 palatalized voiceless glottal plosive consonant	ʔʲ	DFE30B989816F70CE8FE6D836F517A3A	ʔʲ
+aspirated voiceless retroflex affricate consonant	ʈʂʰ	1221CD26FBA96262AA84D0449FF78413	ʈʂʰ
 long nasalized unrounded mid central vowel	ə̃ː	883726078EEB02D11417FE176DA55233	ə̃ː
 voiced velar implosive consonant	ɠ	A7B91F7C0EC9AC0179CEBB1204C26358	ɠ
 from_rounded from_close-mid from_back to_unrounded to_close to_front diphthong	oi	F9AF7F69BAF784734B0A933BC629BCCA	oi
@@ -246,6 +255,7 @@ long voiceless dental plosive consonant	t̪ː	51CBFDAE8C04E0CE821EA819E23EEE42	t
 breathy-voiced alveolar plosive consonant	d̤	F52FDCB8A1E6B74B993DE6E648C10637	d̤
 syllabic voiced bilabial nasal consonant	m̩	DB153A5121319488364F7931B81817A5	m̩
 from_rounded from_close-mid from_back to_rounded to_close to_back diphthong	ou	BD43B88339559C4112037A751DD12AD5	ou
+palatalized voiceless dental plosive consonant	t̪ʲ	DE9C56A9190A6F8A5C54988BE6CE27BB	t̪ʲ
 voiceless alveolar lateral-affricate consonant	tɬ	5685FEAEF0E34B92C6562FDE7687D3DA	tɬ
 voiceless alveolar ejective-fricative consonant	sʼ	825B20CB261AC2AAD034C4B8C3BC5DFC	sʼ
 rounded close-mid central vowel	ɵ	C74D4CD97FCB1EB3BA8BB86CC7A68647	ɵ
@@ -262,8 +272,10 @@ rounded near-close near-front vowel	ʏ	E5FFAC40D2833CD8D510BB9907413E4F	ʏ
 ultra-short unrounded mid central vowel	ə̆	983ADF6F0E3D956C103BE19FB490FF5C	ə̆
 long nasalized unrounded open back vowel	ɑ̃ː	84FD9198ADD53CB38EF1B7A66DC0DB74	ɑ̃ː
 from_unrounded from_close from_front to_unrounded to_mid to_central diphthong	iə	B17EC46468FB57F4D6758BFC0073C14D	iə
+devoiced dental lateral-approximant consonant	l̪̥	C89A7F997BB676431BABFAF742F82EF9	l̪̥
 creaky-voiced alveolar plosive consonant	d̰	FC7FEE8DA33B89D5F629B773EBD76944	d̰
 rounded mid central vowel	ɵ̞	D04E8F48CAEBBBF4F9557E8A12068B7F	ɵ̞
+long voiced dental plosive consonant	d̪ː	6D9557888F3B3AF0CE9FDFC5E8A3E00A	d̪ː
 long rounded open back vowel	ɒː	1DEF797A9A7ACCC195043C777570DE07	ɒː
 syllabic voiced velar nasal consonant	ŋ̍	A7660FC91949DF90F5C897DE06CB1D96	ŋ̩
 aspirated voiceless alveolar lateral-affricate consonant	tɬʰ	150A538C7E2282D95ADFDBDAD9AAF830	tɬʰ
@@ -279,6 +291,8 @@ rising mid-high high tone	⁴⁵	7EC2D4C8D7E0603C0F0F7A05E94EDF7D	˦˥
 falling mid low tone	³¹	DBDD8C133D89E28B198B5E05FEC8077E	˧˩
 long rounded close central vowel	ʉː	E512600ACE40F33F7F40F6DB29C3760B	ʉː
 long nasalized unrounded close central vowel	ɨ̃ː	C00494BFC11B161316C0A3B76B38E35D	ɨ̃ː
+palatalized voiceless dental fricative consonant	s̪ʲ	FF4D48B5EA200F3EF7ECDCDFB4DAE5FA	s̪ʲ
+palatalized voiced dental lateral-approximant consonant	l̪ʲ	E5E7941D03C1A1122781B44E236A17E0	l̪ʲ
 from_unrounded from_close from_front to_rounded to_close to_back diphthong	iu	BADD5278A1875AD712FBE917B2D82E21	iu
 long voiceless palatal plosive consonant	cː	9A5523C5024450DD62E411E3B391B6EA	cː
 aspirated breathy-voiced alveolar plosive consonant	d̤ʰ	DBED9DB479620441E03A12BD24F52B18	dʰ
@@ -287,7 +301,10 @@ long unrounded nearly-open central vowel	ɐː	6D24EE617FD4CBF6D3BA2BAA79EEE941	�
 nasalized rounded open back vowel	ɒ̃	E4E4B517DAB38211A476158473D54981	ɒ̃
 palatalized voiceless alveolar affricate consonant	tsʲ	BD5DD0B4F35DA44F05B251A09476EADF	tsʲ
 from_unrounded from_close from_front to_unrounded to_mid to_front diphthong	ie̞	5CFD17D860BE399275222AD5CA4357F1	ie̞
+palatalized voiced dental plosive consonant	d̪ʲ	F08DC3BAEA411918D70F8EFD4E300D69	d̪ʲ
+voiceless dental lateral-affricate consonant	t̪ɬ̪	6DF329C1B14D4A19C48A031F6A079F1C	t̪ɬ̪
 from_unrounded from_mid from_central to_unrounded to_close to_front diphthong	əi	20FC839FE1D89514B132E8CEFDE8C8E8	əi
+voiceless dental ejective-fricative consonant	s̪ʼ	10C8D317F363F73D4CA0D66FDC45ED1C	s̪ʼ
 voiced alveolar nasal click	ŋǃ	35CC3DCE04D851609CCD72B04506DCA6	ŋǃ
 voiceless uvular affricate consonant	qχ	91F5F4C7A31EE9B8A67881CCEBA056A9	qχ
 rising mid mid-high tone	³⁴	18FFFAD0555C1BFDBB825170BC4FE2C9	˧˦
@@ -322,7 +339,7 @@ voiceless rounded close back vowel	u̥	F347AF0289EB49B194A5CC27242E1937	u̥
 voiceless unrounded close front vowel	i̥	3123B22F0C399850B3B9CB3131425F95	i̥
 long unrounded close-mid central vowel	ɘː	E07CB8481F97B28F2D631830F02B51F0	ɘː
 voiced lamino-alveolar lateral-approximant consonant	l̻	3A2EBE8650EB43A5A6D7C00ECA634291	l̻
-voiceless dental affricate consonant	tθ	7A0ED7FE7FB48CEC13BE1C677E37C1D1	t̪θ
+voiceless dental non-sibilant_affricate consonant	t̪θ	7A0ED7FE7FB48CEC13BE1C677E37C1D1	t̪θ
 voiceless velar affricate consonant	kx	E1F8DD5414F4043E63E615EB170BA295	kx
 nasalized voiceless glottal fricative consonant	h̃	06EB82C91B0AA0D03E61911B66696245	h̃
 pre-aspirated voiceless alveolar plosive consonant	ʰt	7037C2C03FEF7F234269EC33D2741B4A	ʰt
@@ -331,6 +348,7 @@ labialized long voiceless velar plosive consonant	kʷː	4C775776537E3DBA122A12CC
 from_unrounded from_close from_front to_unrounded to_open-mid to_front diphthong	iɛ	1015E79EACD7013D4873572B6AB0510D	iɛ
 rounded mid front vowel	ø̞	10C5F2A99261A099822188533525F1B0	ø̞
 nasalized unrounded open-mid central vowel	ɜ̃	D0CBE8EF51B15F5D346BDB7A51AF682E	ɜ̃
+aspirated voiceless dental lateral-affricate consonant	t̪ɬ̪ʰ	8BC843891B213797138570CE934A19DB	t̪ɬ̪ʰ
 from_rounded from_mid from_back to_rounded to_close to_back diphthong	o̞u	3887684C7C0F1601F291DE411340BBC5	o̞u
 contour mid-high mid-low mid-high tone	⁴²⁴	F8EF1F8161A63798B59A952DA2E89ABC	˦˨˦
 contour mid-low mid-high mid-low tone	²⁴²	04252EDC4E2F2DDD1E703D93D1FC8907	˨˦˨
@@ -352,12 +370,16 @@ nasalized unrounded mid back vowel	ɤ̞̃	209A05A0D1E3611927350CB9B029FDD6	ɤ̞�
 pre-aspirated voiceless bilabial plosive consonant	ʰp	9FED89EEE43DE85C7702215EBDAC51D7	ʰp
 nasalized unrounded nearly-open central vowel	ɐ̃	37D12950AEDFB4F3E051BD7FF8C9E502	ɐ̃
 voiced alveolar lateral-affricate consonant	dɮ	1E8296F0F7BF5A8ABE9B5E8E040E709F	dɮ
+pharyngealized voiceless dental plosive consonant	t̪ˤ	26C568F44E1EA71E8D37E7C8B8AF1AEE	t̪ˤ
 from_unrounded from_open-mid from_front to_unrounded to_close to_front diphthong	ɛi	FE4F13796B342F40F8184C655C60580D	ɛi
 from_unrounded from_open from_front to_rounded to_mid to_back diphthong	ao̞	510D4DC6C550C18C24724535CF6E8918	ao̞
 from_unrounded from_open from_front to_unrounded to_open-mid to_front diphthong	aɛ	29B3B9F2A1B0178DC72557A047EC3246	aɛ
+palatalized voiceless dental affricate consonant	t̪s̪ʲ	BEC113103CA10F129372431EDDF6EBE7	t̪s̪ʲ
 from_unrounded from_open from_front to_unrounded to_mid to_front diphthong	ae̞	446EC50F4DE4491624BF56ECAA33A4AA	ae̞
+creaky-voiced dental plosive consonant	d̪̰	5047DC31E30B34ABE68E7DDE7B7A3752	d̪̰
 labialized voiced bilabial fricative consonant	βʷ	19E86A88B740D5D3D1162036CF13EF6B	βʷ
 from_rounded from_close from_back to_unrounded to_close-mid to_front diphthong	ue	9B0983D4D369B95703A085D2FB4124AA	ue
+from_voiced from_velar from_implosive to_voiced to_bilabial to_implosive cluster	ɠɓ	E194642955119ED3EF3897897619B0FD	ɠɓ
 from_unrounded from_open from_front to_unrounded to_close-mid to_front diphthong	ae	3BF061602328921B3DB56E3BE972EDF7	ae
 from_unrounded from_open from_front to_unrounded to_near-close to_near-front diphthong	aɪ	49FD5CEF44ED98F131FF370446B7412E	aɪ
 voiced dental approximant consonant	ð̞	BA26C1A8BE6C9BB470B524A8F3013C27	ð̞
@@ -372,13 +394,16 @@ long voiceless alveolar affricate consonant	tːs	7DE63DD8C3C67063F12DE78D0F76F33
 long nasalized unrounded near-close near-front vowel	ɪ̃ː	63722C39F4E7493D80E4F4D8AC7241CB	ɪ̃ː
 long nasalized unrounded open-mid back vowel	ʌ̃ː	239042BFB2014DFC337EAF40A01F04FF	ʌ̃ː
 pharyngealized voiced alveolar trill consonant	rˤ	D406DD44D50CAD5A291766B10F26E6DF	rˤ
-voiced dental affricate consonant	dð	CB1FAA2C8D8E0D84075C0B77F51E59AB	d̪ð
+voiced dental affricate consonant	d̪z̪	CB1FAA2C8D8E0D84075C0B77F51E59AB	d̪ð
 non-syllabic unrounded close-mid front vowel	e̯	8D3D91A55D080A1E9E2C63E19405ECB2	e̯
 long rounded mid front vowel	ø̞ː	58ED4FBAE20072499B6252D11B9A80A6	ø̞ː
 nasalized rounded open-mid front vowel	œ̃	06AD3EFFCE1EA6B31D8D6D91B820E116	œ̃
 voiced uvular approximant consonant	ʁ̞	5E30A73E56E822286C7DAAC32F1D2652	ʁ̞
+pharyngealized voiced dental plosive consonant	d̪ˤ	2F1F7FB728EC75A216135817071FBA2E	d̪ˤ
+long voiceless dental affricate consonant	t̪ːs̪	C06E4D42E3C85909A7BFB6139BC3CE88	t̪s̪ː
 from_unrounded from_open from_front to_unrounded to_close to_back diphthong	aɯ	E6B424B5DCAE7554EF762BE5F76E64CD	aɯ
 from_unrounded from_mid from_front to_rounded to_close to_back diphthong	e̞u	5577A69657C1F17F39249B290C066076	e̞u
+labialized voiceless dental plosive consonant	t̪ʷ	D116E18B548AB5B17FD36D250EA1CC7E	t̪ʷ
 from_unrounded from_mid from_front to_rounded to_mid to_back diphthong	e̞o̞	B09A2DC47FEDCE5E6B0E057A4925CCC2	e̞o̞
 from_unrounded from_close from_back to_unrounded to_close to_front diphthong	ɯi	1D4E62F2C956515141FA0F197971C847	ɯi
 voiced palatal stop-segment click	gǂ	2A8B7010B25954769719D770460B5D76	ɡǂ
@@ -399,6 +424,7 @@ long unrounded mid back vowel	ɤ̞ː	1165119C3C837C2F90F43529AF000FCF	ɤ̞ː
 long nasalized rounded near-close near-back vowel	ʊ̃ː	99CFD703D5031FECADD04007938606D5	ʊ̃ː
 long unrounded near-close central vowel	ɪ̈ː	AAA2F3CEE9645CDB5C0F66C109156D74	ɪ̈ː
 rounded near-close central vowel	ʊ̈	1366933D0985174EB90E4FB5332D88F3	ʊ̈
+long voiced dental lateral-approximant consonant	l̪ː	67A1F310AC756F23AB86132B6D23E634	l̪ː
 from_rounded from_close from_back to_rounded to_open-mid to_back diphthong	uɔ	8DAF1BD9A592E0FBAFDB95AF33FEFA0E	uɔ
 non-syllabic rounded close-mid back vowel	o̯	DC0F6A9A56697A84C36C0DD913DE1529	o̯
 rounded open-mid central vowel	ɞ	4A0C490929CA2C526E3D2DCEB5D9E763	ɞ
@@ -406,10 +432,14 @@ breathy-voiced unrounded open-mid back vowel	ʌ̤	A573D616C4ED1457699071C9ED426A
 nasalized unrounded close-mid central vowel	ɘ̃	D86D0E4D596E27EE93E7F9D3EB2B987F	ɘ̃
 nasalized rounded close front vowel	ỹ	6412456DD80E58C43C3B650925AB2068	ỹ
 from_unrounded from_open from_front to_unrounded to_close to_central diphthong	aɨ	535A826D1EC88966353000B3B05C2094	aɨ
+from_nasalized from_rounded from_open-mid from_back to_nasalized to_unrounded to_close to_front diphthong	ɔ̃ĩ	77129A49A60F2CF22775498D7C74F8DA	ɔ̃ĩ
 from_rounded from_near-close from_near-back to_unrounded to_close to_front diphthong	ʊi	807DFD5ECAA9C5C70BAAA81E61F8F52F	ʊi
+from_nasalized from_rounded from_mid from_back to_nasalized to_unrounded to_close to_front diphthong	õ̞ĩ	52015C3FEB4787D25971875A8A7624A8	õ̞ĩ
+from_nasalized from_rounded from_close from_back to_nasalized to_unrounded to_close to_front diphthong	ũĩ	8D8653E7C79EB98F2D839D8CAD3CE5CD	ũĩ
 from_unrounded from_close from_central to_unrounded to_open to_front diphthong	ɨa	CACB560618F54E3BD2CA0762C2CFB7B4	ɨa
 long unrounded open-mid central vowel	ɜː	F2C1BD21A3AFCCB8E2BE8CD8DFFE52E8	ɜː
 from_rounded from_mid from_back to_unrounded to_open to_front diphthong	o̞a	126730F41EF6E33E5D0B89EB1DDBF3F3	o̞a
+from_nasalized from_unrounded from_mid from_front to_nasalized to_unrounded to_close to_front diphthong	ẽ̞ĩ	747334F4B085342EA9A6808056D77071	ẽ̞ĩ
 voiced palatal nasal click	ŋǂ	8ABCB5099830FA5A580082211BD5223D	ŋǂ
 from_unrounded from_close from_central to_unrounded to_mid to_central diphthong	ɨə	EC47C132DB13B9D93D5E41D2AA89BFD9	ɨə
 palatalized voiced bilabial implosive consonant	ɓʲ	202BA0BCA8A03C57F08603FE184D9CDD	ɓʲ
@@ -419,6 +449,7 @@ contour mid-low high low tone	²⁵¹	15B5F7446E2BE7169E101FD236821837	˨˥˩
 labialized aspirated voiceless alveolar plosive consonant	tʷʰ	25F7B72E7900F97D6596A3F4B41A7A73	tʰʷ
 nasalized rounded close central vowel	ʉ̃	93669653A14351D91C5DE5662A03FAFE	ʉ̃
 from_unrounded from_open from_front to_rounded to_close to_front diphthong	ay	8154FCBD2FE28F50ACBB8F417E14B8BF	ay
+from_unrounded from_close from_front to_nasalized to_unrounded to_open to_front diphthong	iã	B3DF58036F29FC66C75F30E8DC0444D5	iã
 from_unrounded from_open-mid from_back to_unrounded to_close to_front diphthong	ʌi	831550375544B6DDF0FDFB332954F16D	ʌi
 from_rounded from_near-close from_near-back to_unrounded to_open to_front diphthong	ʊa	7B19DF4EAB2A03B16BE2C19165F2F68E	ʊa
 contour mid mid-low mid tone	³²³	C8C21BF112868195E27B3CBF5EEAB4D9	˧˨˧
@@ -439,26 +470,39 @@ voiced bilabial affricate consonant	bβ	259A4E4D17B10B4E5332CE7F4C962D7C	bβ
 non-syllabic unrounded near-close near-front vowel	ɪ̯	7F69D8B8CEDF1371A00B4D4A961618C1	ɪ̯
 non-syllabic rounded near-close near-back vowel	ʊ̯	8B985EA8BCD0A5A43BBD74198A8DC9AD	ʊ̯
 from_rounded from_close-mid from_back to_nasalized to_rounded to_close to_back diphthong	oũ	5B623137907B08DB9EEF4D1DC075D000	oũ
+from_unrounded from_close-mid from_front to_nasalized to_unrounded to_close to_front diphthong	eĩ	464A3F1E5E973D42FD2F0CBE179A6CD1	eĩ
 contour mid-low mid low tone	²³¹	2425398C0D125C2FB745E3AA025E8A22	˨˧˩
+from_unrounded from_close from_front to_nasalized to_unrounded to_close-mid to_front diphthong	iẽ	E0229529ADE2EFBC6AB1E3B65854E5B1	iẽ
 falling mid-high low tone	⁴¹	C1BD62FB2F63D0DF3BAF8589375F2728	˦˩
 long rounded near-close central vowel	ʊ̈ː	554E02375C0749C619F42FF2DF941B5A	ʊ̈ː
 syllabic voiced alveolar fricative consonant	z̩	CFF7C99CB1993746B3217B300D7F63C9	z̩
 syllabic voiced labiodental fricative consonant	v̩	21582B442B797016853E1FFF755B0AEB	v̩
 syllabic voiced alveolar approximant consonant	ɹ̩	8857C8BB0B65E8EF236DF76520884B67	ɹ̩
+long breathy-voiced dental plosive consonant	d̪̤ː	17BA6391553FDCC002B1F0F0F9D5653F	d̪̤ː
 from_unrounded from_close from_front to_unrounded to_nearly-open to_front diphthong	iæ	FA9C88E2CD5201C7E1777EAD6641E80B	iæ
 voiceless labio-dental ejective-affricate consonant	pfʼ	93FF8C16A76C25D10A203E160AD9CF0C	pfʼ
 with-nasal-release voiced alveolar plosive consonant	dⁿ	D708CE8E888D79930D5BA282ED3B0BE9	dⁿ
 with-nasal-release voiced bilabial plosive consonant	bⁿ	687AD0D66BC3F6C6D0BF9BA4DC502546	bⁿ
+with-nasal-release voiced dental plosive consonant	d̪ⁿ	3424E0DA58167EB5D06D86CEF2C053CA	d̪ⁿ
 from_unrounded from_open-mid from_central to_unrounded to_close to_front diphthong	ɜi	D6583CDB585C6532D187D8E1F2209583	ɜi
+labialized aspirated voiceless dental plosive consonant	t̪ʷʰ	1174FC18E4C47D25CC01E2CA5642C6A0	t̪ʷʰ
 from_unrounded from_open-mid from_front to_rounded to_mid to_back diphthong	ɛo̞	6F163D1994D478A250C4FA28202C6162	ɛo̞
+from_nasalized from_unrounded from_open-mid from_front to_nasalized to_rounded to_open-mid to_back diphthong	ɛ̃ɔ̃	6F571873258C061717FB4F72C6BBFB80	ɛ̃ɔ̃
+from_nasalized from_unrounded from_open from_back to_nasalized to_rounded to_open-mid to_back diphthong	ɑ̃ɔ̃	E5596DFE1E33FBDF96BD834CD7C5C05E	ɑ̃ɔ̃
 from_unrounded from_open-mid from_front to_unrounded to_close to_back diphthong	ɛɯ	D20014274593FBD404FD95914405CCDF	ɛɯ
 ultra-short rounded close-mid back vowel	ŏ	0496E7C99DC39C02DAD1416A83ECCA07	ŏ
 from_unrounded from_mid from_central to_unrounded to_close to_back diphthong	əɯ	A9854AE39D5CFE88EC2519C89E6E2A37	əɯ
 voiceless unrounded open front vowel	ḁ	83843751C883EFE80D3DBD0A856D9BC2	ḁ
+from_nasalized from_unrounded from_open from_front to_nasalized to_unrounded to_close to_front diphthong	ãĩ	15A91642F3D4ECE2C4BEF5246E3BDB0C	ãĩ
+from_nasalized from_unrounded from_close from_central to_nasalized to_unrounded to_close to_front diphthong	ɨ̃ĩ	0A1CDEE911ED6F7B34E79D7A5BDCB0E9	ɨ̃ĩ
 voiceless uvular implosive consonant	ʛ̥	051F53069ABAEA0FBFD98E410052886C	ʛ̥
 long nasalized unrounded close-mid central vowel	ɘ̃ː	1EE2E9B2358ED0DBC446EA89F70D2758	ɘ̃ː
 from_unrounded from_mid from_front to_unrounded to_mid to_central diphthong	e̞ə	F862A243F928F2837C67CA4A3A0BEC32	e̞ə
+from_nasalized from_rounded from_mid from_back to_nasalized to_unrounded to_open to_front diphthong	õ̞ã	73CC7EC5CAE50D2721C892C056620921	õ̞ã
+from_nasalized from_unrounded from_mid from_front to_nasalized to_rounded to_close to_back diphthong	ẽ̞ũ	F29D09C44E954FF9708229260B61910E	ẽ̞ũ
 from_rounded from_mid from_back to_unrounded to_mid to_front diphthong	o̞e̞	C5870A4D6A7051627991BDAEAC2854B2	o̞e̞
+from_nasalized from_unrounded from_close from_front to_nasalized to_unrounded to_mid to_front diphthong	ĩẽ̞	12DA4DB0DE4561D06045979D8D6B7464	ĩẽ̞
+from_nasalized from_rounded from_mid from_back to_nasalized to_rounded to_close to_back diphthong	õ̞ũ	833D119CAEE9D0F5A7122767AC28DB88	õ̞ũ
 from_unrounded from_near-close from_near-front to_unrounded to_mid to_front diphthong	ɪe̞	A22EB218FAF9856919F802CF4BEEA8B4	ɪe̞
 from_rounded from_open-mid from_back to_rounded to_close to_front diphthong	ɔy	2DA2B9736D1454C9DB586A40C2166710	ɔy
 from_rounded from_close-mid from_front to_rounded to_close to_front diphthong	øy	53B65904C580B6127EAC771F35DE1818	øy
@@ -467,6 +511,8 @@ from_unrounded from_close-mid from_back to_unrounded to_close to_front diphthong
 from_unrounded from_close from_front to_rounded to_mid to_back diphthong	io̞	7683780E12F738733F61EB0EEFEFFC09	io̞
 from_unrounded from_mid from_front to_unrounded to_open to_front diphthong	e̞a	3505CE1B1E1EDBECB027E39121A913FF	e̞a
 from_rounded from_close from_front to_rounded to_mid to_front diphthong	yø̞	3845A2B2A7F88E1F1935BB13EDD165CC	yø̞
+devoiced dental trill consonant	r̪̥	B7474540515C5F800925CB0518F2C131	r̪̥
+pharyngealized voiced dental trill consonant	r̪ˤ	7817826F9B8FC95FD256CA8B45ABC498	r̪ˤ
 voiceless uvular ejective-fricative consonant	χʼ	2E868B35F86B12E348D36FB2DAF71754	χʼ
 nasalized rounded close-mid central vowel	ɵ̃	6C233317BF3AA225AB9FCD360A38977A	ɵ̃
 from_unrounded from_close from_back to_unrounded to_open-mid to_back diphthong	ɯʌ	B5AD51C306FFD446E4476B0ECAB82EB3	ɯʌ
@@ -477,9 +523,11 @@ aspirated voiceless labiodental fricative consonant	fʰ	3F21FE9E4E9AC7D94AD3A965
 from_unrounded from_close-mid from_front to_unrounded to_mid to_central diphthong	eə	352FFEB26B0E7F205B0984237275408D	eə
 from_rounded from_close-mid from_back to_unrounded to_mid to_front diphthong	oe̞	3E8706977F0C1AA30EDA45C018CA2E42	oe̞
 voiceless epiglottal plosive consonant	ʡ	D17CE01E5AFD7AA148785E96513B07CA	ʡ
+from_rounded from_close from_back to_nasalized to_unrounded to_close-mid to_front diphthong	uẽ	61640D2E5274E4411B7254A85170CCF5	uẽ
 from_unrounded from_near-close from_near-front to_unrounded to_open to_front diphthong	ɪa	42DCFF84A6EFD62DB9A468FEC529E4DF	ɪa
 from_unrounded from_near-close from_near-front to_unrounded to_open-mid to_back diphthong	ɪʌ	45B6487539499C755E1189EC1B93F5A3	ɪʌ
 from_unrounded from_nearly-open from_front to_unrounded to_close-mid to_front diphthong	æe	FB0C9A61996D187DAACD9A1CA1D3C1DE	æe
+from_unrounded from_near-close from_near-front to_nasalized to_unrounded to_open to_front diphthong	ɪã	25467595520509780FAD9181AD399988	ɪã
 from_rounded from_near-close from_near-back to_unrounded to_close-mid to_front diphthong	ʊe	9BF3A5071ED322D5FDD5E024EE825977	ʊe
 from_rounded from_close from_front to_unrounded to_close-mid to_front diphthong	ye	86E03F5C51EF4DBB22E9C86AC396CB92	ye
 from_rounded from_open-mid from_back to_unrounded to_open-mid to_front diphthong	ɔɛ	F7861B800AB2BD12AF60D014C7409EF5	ɔɛ
@@ -495,7 +543,12 @@ from_unrounded from_close-mid from_front to_non-syllabic to_rounded to_close to_
 from_unrounded from_nearly-open from_central to_rounded to_close to_back diphthong	ɐu	178B86267E4A6AA3CA303E3A738B0BF0	ɐu
 from_unrounded from_nearly-open from_central to_unrounded to_close to_front diphthong	ɐi	9CA74C7B9173B15EABC46A81847BF8CA	ɐi
 from_unrounded from_open-mid from_front to_rounded to_near-close to_near-back diphthong	ɛʊ	3760E5402DF531094084E8B5A82C2EF3	ɛʊ
+from_nasalized from_rounded from_close from_back to_unrounded to_mid to_central diphthong	ũə	66DF1644F482DA92D9F964D6F0A00919	ũə
 from_rounded from_open-mid from_back to_unrounded to_mid to_central diphthong	ɔə	01E9659BBB625CCD5321C09C410ED816	ɔə
+from_nasalized from_unrounded from_open-mid from_front to_unrounded to_mid to_central diphthong	ɛ̃ə	E747AF5A355FD6163EEDD67902F8B6F5	ɛ̃ə
+from_nasalized from_unrounded from_close from_front to_unrounded to_mid to_central diphthong	ĩə	9202C221EA9049FA9496168F901C9318	ĩə
+from_nasalized from_unrounded from_open from_front to_unrounded to_close to_front diphthong	ãi	3533599B127633D6ED3C0856150A19EF	ãi
+from_nasalized from_unrounded from_close from_back to_unrounded to_mid to_central diphthong	ɯ̃ə	48A6448069FC8B4A7F0BD97CAE074857	ɯ̃ə
 from_unrounded from_open-mid from_back to_unrounded to_mid to_central diphthong	ʌə	C04AB7236095E29F87AA157591A61ABF	ʌə
 from_rounded from_close from_back to_unrounded to_close to_central diphthong	uɨ	0A021AF774926D33092A06E1E76880AA	uɨ
 from_unrounded from_close from_front to_unrounded to_close to_central diphthong	iɨ	AABF6ED4CA7E59DB5E9BB88BB7B1D177	iɨ
@@ -512,8 +565,12 @@ voiceless palatal-velar fricative consonant	ɧ	CD6BA52E37A7F6363AB9794D12697C00	
 palatalized aspirated voiceless alveolar plosive consonant	tʰʲ	70840A450A5A5E3CD0E378E2C98E7A92	tʰʲ
 from_rounded from_near-close from_near-back to_rounded to_open-mid to_back diphthong	ʊɔ	8A08A9F5E95B54A3DEF1440BC5192FE7	ʊɔ
 from_unrounded from_near-close from_near-front to_unrounded to_open-mid to_front diphthong	ɪɛ	D1F6114A28D77623483E1FA14209969F	ɪɛ
+from_nasalized from_unrounded from_open from_back to_nasalized to_unrounded to_close to_front diphthong	ɑ̃ĩ	F79BD6C45E5E8FE21B45113EEF9F0F63	ɑ̃ĩ
+from_nasalized from_unrounded from_open from_back to_nasalized to_rounded to_close-mid to_back diphthong	ɑ̃õ	D4795CB8402342252D8DC52FEFF5174C	ɑ̃õ
+from_nasalized from_unrounded from_close-mid from_front to_nasalized to_unrounded to_close to_front diphthong	ẽĩ	EA8D888D955886E2A14886A3EA22F46F	ẽĩ
 from_unrounded from_open from_back to_rounded to_close to_back diphthong	ɑu	950E9BDE9091AFA8E6D1A4D90B95F975	ɑu
 from_unrounded from_open from_back to_unrounded to_close-mid to_front diphthong	ɑe	3176D40619659D8F83AAAB0ABA3D8AA8	ɑe
+from_nasalized from_rounded from_close-mid from_back to_nasalized to_rounded to_close to_back diphthong	õũ	9235D9F8B825DE716D0728B1C18B6EF3	õũ
 from_unrounded from_open from_back to_rounded to_close-mid to_back diphthong	ɑo	2F1C968CFD8DBA679C41A7A391A90F35	ɑo
 devoiced alveolar fricative consonant	z̥	2C16621BC8C29BFBD9E45AB2EA3B998D	z̥
 devoiced velar fricative consonant	ɣ̊	DB1471B8C7C250E315F8FAC094C8780F	ɣ̥
@@ -528,11 +585,13 @@ from_unrounded from_close-mid from_front to_rounded to_near-close to_near-back d
 from_rounded from_close from_back to_unrounded to_near-close to_near-front diphthong	uɪ	92990028280D6229C0F064501A32BEAB	uɪ
 rising mid-low high tone	²⁵	3B43953F88F0BFB5EB0E4405A87868F0	˨˥
 labialized aspirated voiceless alveolar plosive consonant	tʷʰ	A7849BFDBD1087F705BB2A2DEE0094E6	tʷʰ
+from_voiced from_bilabial from_plosive to_voiced to_velar to_plosive cluster	bg	AAA6C2A98B1978A04DC5DA7722E7347C	bɡ
 creaky-voiced long unrounded close front vowel	ḭː	39D8EC7C87ED550F1C4A5C68162593B6	ḭː
 creaky-voiced ultra-long unrounded open front vowel	a̰ː	3DAB40B640C2028F7F85B54A8ACCA9F2	a̰ː
 long nasalized unrounded close-mid back vowel	ɤ̃ː	D63E2B7DC85B9CA193B32D7719103076	ɤ̃ː
 voiceless unrounded close-mid front vowel	e̥	06088A99AD4B6E006A6CFE7499104796	e̥
 pharyngealized voiced alveolar nasal consonant	nˤ	70240134578C1FA4E27BDEF67F0A0119	nˤ
+from_voiced from_velar from_plosive to_voiced to_bilabial to_implosive cluster	gɓ	37CC8E68177330DBFFBBF77F2341F464	ɡɓ
 voiced palatal stop-cluster uvular-aspirated-plosive click	gǂqʰ	867C7953EC1F41DEE71F0BC2A3047F49	ɡǂqʰ
 voiced labial nasal click	ŋʘ	D9495231BE4C8F383909D8BD4A247DA0	ŋʘ
 voiced labial stop-cluster uvular-aspirated-plosive click	gʘqʰ	D7CBF17D3DF21B4045955654AE489C9E	ɡʘqʰ
@@ -552,3 +611,4 @@ from_rounded from_close-mid from_back to_unrounded to_close-mid to_central dipht
 from_unrounded from_close-mid from_central to_unrounded to_close to_front diphthong	ɘi	737F1F4C8200BA269939EC5A16C0F55A	ɘi
 unreleased voiceless uvular plosive consonant	q̚	3D335CFAE2C4E23BADEC918B2AF7D928	q̚
 long voiced dental fricative consonant	ðː	1CFAB94FB31CCC5E51001AD1C96B2268	ðː
+long voiced dental trill consonant	r̪ː	152A7AC1805A3A7E1DE50E23BB1E9F73	r̪ː

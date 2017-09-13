@@ -167,6 +167,21 @@ class CLTS(object):
     def normalize(self, string):
         """Normalize the string according to normalization list"""
         return ''.join([self._normalize.get(x, x) for x in _nfd(string)])
+    
+    def from_name(self, string):
+        """Parse a sound from its name"""
+        if string in self._features:
+            return self._features[string]
+        components = string.split(' ')
+        rest, sound_class = components[:-1], components[-1]
+        if sound_class not in self.sound_classes:
+            raise ValueError('you need to specify the sound class')
+        
+        args = {self._feature_values[comp]: comp for comp in rest}
+        args['grapheme'] = ''
+        args['clts'] = self
+        return self.sound_classes[sound_class](**args)
+        
 
     def _parse(self, string):
         """Parse a string and return its features.
@@ -511,6 +526,7 @@ class Vowel(Sound):
     rhotacization = attr.ib(default=None)
     centrality = attr.ib(default=None)
     glottalization = attr.ib(default=None)
+    velarization = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
@@ -521,10 +537,12 @@ class Vowel(Sound):
             'nasalization',
             'pharyngealization',
             'glottalization',
+            'velarization',
             'duration',
             'frication'])
     _name_order = [
-        'phonation', 'rhotacization', 'pharyngealization', 'glottalization', 'syllabicity', 'duration', 'nasalization',
+        'phonation', 'rhotacization', 'pharyngealization', 'glottalization',
+        'velarization', 'syllabicity', 'duration', 'nasalization',
         'roundedness', 'height', #'backness', 
         'frication', 'centrality']
 
@@ -546,6 +564,7 @@ class Diphthong(Sound):
     from_pharyngealization = attr.ib(default=None)
     from_glottalization = attr.ib(default=None)
     from_rhotacization = attr.ib(default=None)
+    from_velarization = attr.ib(default=None)
 
     to_nasalization = attr.ib(default=None)
     to_frication = attr.ib(default=None)
@@ -556,6 +575,7 @@ class Diphthong(Sound):
     to_pharyngealization = attr.ib(default=None)
     to_glottalization = attr.ib(default=None)
     to_rhotacization = attr.ib(default=None)
+    to_velarization = attr.ib(default=None)
 
     # dipthongs are simply handled by adding the three base types for vowel and
     # consonant, plus the additional features, which are, however, only
@@ -570,6 +590,7 @@ class Diphthong(Sound):
         'from_rhotacization', 
         'from_pharyngealization',
         'from_glottalization',
+        'from_velarization',
         'from_syllabicity', 
         'from_duration', 
         'from_nasalization',
@@ -581,6 +602,7 @@ class Diphthong(Sound):
         'to_rhotacization', 
         'to_pharyngealization',
         'to_glottalization',
+        'to_velarization',
         'to_syllabicity', 
         'to_duration', 
         'to_nasalization',
