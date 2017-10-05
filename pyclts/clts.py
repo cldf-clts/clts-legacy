@@ -168,7 +168,7 @@ class CLTS(object):
         """Normalize the string according to normalization list"""
         return ''.join([self._normalize.get(x, x) for x in _nfd(string)])
     
-    def from_name(self, string):
+    def _from_name(self, string):
         """Parse a sound from its name"""
         if string in self._features:
             return self._features[string]
@@ -255,7 +255,7 @@ class CLTS(object):
         if isinstance(string, Sound):
             return self._features[string.name]
         if [s for s in self.sound_classes if s in string]:
-            return self.from_name(string)
+            return self._from_name(string)
         string = _nfd(string)
         try:
             return self._parse(string)
@@ -269,11 +269,12 @@ class CLTS(object):
         
         return item in self._sounds
 
-    def get(self, string):
-        try:
-            return self[string]
-        except KeyError:
-            return UnknownSound(grapheme=string, clts=self)
+    def get(self, string, default=None):
+        """Similar to the get method for dictionaries."""
+        out = self[string]
+        if out.type == 'unknownsound':
+            return default or out
+        return out
 
     def __call__(self, string, text=False):
         res = [

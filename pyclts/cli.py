@@ -15,7 +15,7 @@ from clldutils.dsv import UnicodeWriter, UnicodeReader
 from clldutils.markup import Table
 from pyclts import clts
 from pyclts.util import data_path, metadata_path, sources_path
-from pyclts.metadata import phoible
+from pyclts.metadata import phoible, pbase, lingpy
 
 import json
 
@@ -72,7 +72,7 @@ def dump(args):
     """Command writes data to different files for re-use across web-applications.
     """
     bipa = clts.CLTS('bipa')
-    phoible_ = phoible()
+    phoible_, pbase_, lingpy_ = phoible(), pbase(), lingpy()
     dump, digling = {}, {}
     for glyph, sound in bipa._sounds.items():
         if sound.type == 'marker':
@@ -111,8 +111,12 @@ def dump(args):
             dump[glyph]['bipa'] = str(sound)
             dump[glyph]['type'] = sound.type
             if sound.name in phoible_:
-                dump[glyph]['phoible_grapheme'] = phoible_[sound.name]['grapheme']
-                dump[glyph]['phoible_id'] = phoible_[sound.name]['id']
+                dump[glyph]['phoible'] = phoible_[sound.name]
+            if sound.name in pbase_:
+                dump[glyph]['pbase'] = pbase_[sound.name]
+            if sound.name in lingpy_:
+                dump[glyph]['color'] = lingpy_[sound.name]['color']
+
             
     with open(data_path('bipa-dump.json'), 'w') as f:
         f.write(json.dumps(dump, indent=1))
@@ -142,6 +146,21 @@ def loadmeta(args):
                 if sound.type != 'unknownsound' and not sound.generated:
                     out += [[sound.name, str(sound), url, glyph]]
         write_metadata(out, 'phoible.tsv')
+
+    if args.dataset == 'pbase':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PBASE_URL', 'PBASE_GRAPHEME']]
+        url = "http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={0}&inany=false&coreinv=on"
+        with UnicodeReader(sources_path('IPA1999.tsv'), delimiter="\t") as uni:
+            for line in uni:
+                glyph = line[2]
+                url_ = url.format(glyph)
+                try:
+                    sound = bipa[glyph]
+                    if sound.type != 'unknownsound' and not sound.generated:
+                        out += [[sound.name, str(sound), url_, glyph]]
+                except KeyError:
+                    pass
+        write_metadata(out, 'pbase.tsv')
 
     if args.dataset == 'lingpy':
         from lingpy.sequence.sound_classes import token2class
