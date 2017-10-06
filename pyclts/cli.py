@@ -7,6 +7,7 @@ import sys
 from collections import OrderedDict, defaultdict
 import argparse
 import unicodedata
+import json
 
 from six import text_type
 from clldutils.clilib import ArgumentParser, ParserError, command
@@ -17,20 +18,18 @@ from pyclts import clts
 from pyclts.util import data_path, metadata_path, sources_path
 from pyclts.metadata import phoible, pbase, lingpy
 
-import json
-
 @command()
 def sounds(args):
     bipa = clts.CLTS('bipa')
-    sounds = [bipa.get(sound) for sound in args.args]
+    bipa_sounds = [bipa.get(sound) for sound in args.args]
     data = []
-    for sound in sounds:
+    for sound in bipa_sounds:
         if sound.type != 'unknownsound':
-            data += [[str(sound), 
-                sound.source or ' ', 
-                '1' if sound.generated else ' ',
-                sound.grapheme if sound.alias else ' ',
-                sound.name]]
+            data += [[str(sound),
+                      sound.source or ' ',
+                      '1' if sound.generated else ' ',
+                      sound.grapheme if sound.alias else ' ',
+                      sound.name]]
         else:
             data += [['?', sound.source, '?', '?', '?']]
     tbl = Table('BIPA', 'SOURCE', 'GENERATED', 'ALIAS', 'NAME', rows=data)
@@ -39,18 +38,18 @@ def sounds(args):
 @command()
 def table(args):
     bipa = clts.CLTS('bipa')
-    sounds = [bipa.get(sound) for sound in args.args]
+    bipa_sounds = [bipa.get(sound) for sound in args.args]
     if args.filter == 'generated':
-        sounds = [s for s in sounds if s.generated]
+        bipa_sounds = [s for s in bipa_sounds if s.generated]
     elif args.filter == 'unknown':
-        sounds = [s for s in sounds if s.type == 'unknownsound']
+        bipa_sounds = [s for s in bipa_sounds if s.type == 'unknownsound']
     elif args.filter == 'known':
-        sounds = [s for s in sounds if not s.generated and not s.type == 'unknownsound']
+        bipa_sounds = [s for s in bipa_sounds if not s.generated and not s.type == 'unknownsound']
 
-        
+
     data = defaultdict(list)
     ucount = 0
-    for sound in sounds:
+    for sound in bipa_sounds:
         if sound.type != 'unknownsound':
             data[sound.type] += [sound.table]
         else:
@@ -73,67 +72,66 @@ def dump(args):
     """
     bipa = clts.CLTS('bipa')
     phoible_, pbase_, lingpy_ = phoible(), pbase(), lingpy()
-    dump, digling = {}, {}
+    to_dump, digling = {}, {}
     for glyph, sound in bipa._sounds.items():
         if sound.type == 'marker':
             digling[glyph] = ['marker', '', '', '']
-            dump[glyph] = {'type': 'marker'}
+            to_dump[glyph] = {'type': 'marker'}
         else:
             if sound.type == 'consonant':
                 digling[glyph] = [
-                        sound.type, 
-                        sound.manner,
-                        sound.place,
-                        sound.phonation + ' ' + sound.table[-2]]
+                    sound.type,
+                    sound.manner,
+                    sound.place,
+                    sound.phonation + ' ' + sound.table[-2]]
             if sound.type == 'vowel':
                 digling[glyph] = [
-                        sound.type,
-                        sound.height,
-                        sound.centrality,
-                        sound.roundedness + ' ' + sound.table[-2]]
+                    sound.type,
+                    sound.height,
+                    sound.centrality,
+                    sound.roundedness + ' ' + sound.table[-2]]
             if sound.type == 'diphthong':
                 digling[glyph] = [
-                        sound.type,
-                        sound.from_height + ' ' +sound.to_height,
-                        sound.from_centrality + ' ' + sound.to_centrality,
-                        sound.from_roundedness + ' ' + sound.to_roundedness,
-                        ]
+                    sound.type,
+                    sound.from_height + ' ' +sound.to_height,
+                    sound.from_centrality + ' ' + sound.to_centrality,
+                    sound.from_roundedness + ' ' + sound.to_roundedness,
+                    ]
             if sound.type == 'tone':
                 digling[glyph] = [
-                        sound.type,
-                        sound.start,
-                        ' '.join([x for x in [sound.middle or '', sound.end or
-                            '']]),
-                        sound.contour]
-            dump[glyph] = {k: getattr(sound, k) for k in sound._name_order}
-            dump[glyph]['name'] = sound.name
-            dump[glyph]['alias'] = sound.alias
-            dump[glyph]['bipa'] = str(sound)
-            dump[glyph]['type'] = sound.type
+                    sound.type,
+                    sound.start,
+                    ' '.join([x for x in [sound.middle or '', sound.end or '']]),
+                    sound.contour]
+            to_dump[glyph] = {k: getattr(sound, k) for k in sound._name_order}
+            to_dump[glyph]['name'] = sound.name
+            to_dump[glyph]['alias'] = sound.alias
+            to_dump[glyph]['bipa'] = str(sound)
+            to_dump[glyph]['type'] = sound.type
             if sound.name in phoible_:
-                dump[glyph]['phoible'] = phoible_[sound.name]
+                to_dump[glyph]['phoible'] = phoible_[sound.name]
             if sound.name in pbase_:
-                dump[glyph]['pbase'] = pbase_[sound.name]
+                to_dump[glyph]['pbase'] = pbase_[sound.name]
             if sound.name in lingpy_:
-                dump[glyph]['color'] = lingpy_[sound.name]['color']
+                to_dump[glyph]['color'] = lingpy_[sound.name]['color']
 
-            
-    with open(data_path('bipa-dump.json'), 'w') as f:
-        f.write(json.dumps(dump, indent=1))
-    with open(data_path('digling-dump.json'), 'w') as f:
-        f.write(json.dumps(digling, indent=1))
-    with open(data_path('../app/data.js'), 'w') as f:
-        f.write('var BIPA = '+json.dumps(dump)+';\n')
-        f.write('var normalize = '+json.dumps(bipa._normalize)+';\n')
+
+    with open(data_path('bipa-dump.json'), 'w') as handler:
+        handler.write(json.dumps(to_dump, indent=1))
+    with open(data_path('digling-dump.json'), 'w') as handler:
+        handler.write(json.dumps(digling, indent=1))
+    with open(data_path('../app/data.js'), 'w') as handler:
+        handler.write('var BIPA = '+json.dumps(to_dump)+';\n')
+        handler.write('var normalize = '+json.dumps(bipa._normalize)+';\n')
     print('files written to clts/data')
 
 @command()
 def loadmeta(args):
     bipa = clts.CLTS()
     def write_metadata(data, filename):
-        with open(metadata_path(filename), 'w') as f:
+        with open(metadata_path(filename), 'w') as handler:
             for line in data:
-                f.write('\t'.join(line)+'\n')
+                handler.write('\t'.join(line)+'\n')
         print('file <{0}> has been successfully written'.format(filename))
 
     if args.dataset == 'phoible':
@@ -164,14 +162,14 @@ def loadmeta(args):
 
     if args.dataset == 'lingpy':
         from lingpy.sequence.sound_classes import token2class
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS', 
-            'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS',
+                'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
         for glyph, sound in bipa._sounds.items():
             if not sound.alias:
                 out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
-                    in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
+                         in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
         write_metadata(out, 'lingpy.tsv')
-    
+
     if args.dataset == 'wikipedia':
         import urllib.request, urllib.error, urllib.parse
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'WIKIPEDIA_URL']]
@@ -183,14 +181,14 @@ def loadmeta(args):
                     url1 = wiki + '_'.join(sound.name.split(' ')[:-1])
                     url2 = wiki + '_'.join([s for s in sound.name.split(' ') if
                         s not in ['consonant', 'vowel', 'diphthong', 'cluster',
-                            'voiced', 'unvoiced']])
+                        'voiced', 'unvoiced']])
                 else:
                     url1 = wiki + '_'.join(sound.name.split(' '))
                     url2 = wiki+urllib.parse.quote(str(sound))
                 try:
                     with urllib.request.urlopen(url1) as response:
                         pass
-                    out += [[sound.name, str(sound), url1]] 
+                    out += [[sound.name, str(sound), url1]]
                     print("found url for {0}".format(sound))
                 except urllib.error.HTTPError:
                     print("no url found for {0}".format(sound))
@@ -200,12 +198,12 @@ def loadmeta(args):
                         out += [[sound.name, str(sound), url2]]
                     except urllib.error.HTTPError:
                         print("really no url found for {0}".format(sound))
-                        
+
         write_metadata(out, 'wikipedia.tsv')
 
 
 
-                
+
 def main(args=None):
     parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
