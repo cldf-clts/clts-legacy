@@ -22,20 +22,21 @@ for ds in ['powoco-Bahnaric-200-24.csv',
         for segment in item['Segments'].split(' '):
             if segment not in visited:
                 visited.add(segment)
-                sound = clts.get_sound(segment)
+                sound = clts.get(segment)
                 if sound.type == 'unknown':
                     errors['unkown'] += [segment]
-                elif sound.name.endswith('(?)'):
+                elif not sound.name:
                     errors['problems'] += [segment]
                 elif sound.generated:
                     errors['generated'] += [(segment, str(sound), sound.name)]
+print('---unkown---')
 for i, error in enumerate(errors['unknown']):
     print(i+1, error)
-print('---')
+print('---problem---')
 for i, problem in enumerate(errors['problem']):
     print(i+1, problem)
-print('---')
+print('---generated---')
 for i, (a, b, c) in enumerate(errors['generated']):
     print(i+1, a, b, c)
-print('---')
+print('---visited---')
 print(len(visited))

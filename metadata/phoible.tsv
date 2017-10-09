@@ -263,7 +263,7 @@ palatalized voiced labiodental fricative consonant	vʲ	E329A7B64222ED9FB9BD78463
 from_rounded from_open-mid from_back to_unrounded to_close to_front diphthong	ɔi	5CB65BAFE5AF67F18E1AA6A8DE42F618	ɔi
 voiced alveolo-palatal fricative consonant	ʑ	F927B77FA49C7A849AEB78FB55268B69	ʑ
 voiced alveolo-palatal affricate consonant	dʑ	67D49CEF4F04C997CD3C6E6C2D803959	dʑ
-aspirated breathy-voiced bilabial plosive consonant	b̤ʰ	1F0B39C9E43EDAD4E4E4BCEC2A2C955D	bʰ
+aspirated breathy-voiced bilabial plosive consonant	bʰ	1F0B39C9E43EDAD4E4E4BCEC2A2C955D	bʰ
 devoiced alveolar trill consonant	r̥	27619799640A03D4697D6FDDDB1F74A5	r̥
 syllabic voiced alveolar nasal consonant	n̩	1A98C4788575E4A5B9BC24ABDAAAF566	n̩
 from_unrounded from_close from_front to_unrounded to_close-mid to_front diphthong	ie	D9EA6EC983D8DB08D5DD6543894DDEF7	ie
@@ -295,7 +295,7 @@ palatalized voiceless dental fricative consonant	s̪ʲ	FF4D48B5EA200F3EF7ECDCDFB
 palatalized voiced dental lateral-approximant consonant	l̪ʲ	E5E7941D03C1A1122781B44E236A17E0	l̪ʲ
 from_unrounded from_close from_front to_rounded to_close to_back diphthong	iu	BADD5278A1875AD712FBE917B2D82E21	iu
 long voiceless palatal plosive consonant	cː	9A5523C5024450DD62E411E3B391B6EA	cː
-aspirated breathy-voiced alveolar plosive consonant	d̤ʰ	DBED9DB479620441E03A12BD24F52B18	dʰ
+aspirated voiced alveolar plosive consonant	dʰ	DBED9DB479620441E03A12BD24F52B18	dʰ
 from_rounded from_close from_back to_rounded to_close-mid to_back diphthong	uo	740DB365E4CF6779158B9454DBDD1460	uo
 long unrounded nearly-open central vowel	ɐː	6D24EE617FD4CBF6D3BA2BAA79EEE941	ɐː
 nasalized rounded open back vowel	ɒ̃	E4E4B517DAB38211A476158473D54981	ɒ̃

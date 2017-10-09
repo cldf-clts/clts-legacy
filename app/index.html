@@ -117,17 +117,34 @@ function convertCLPA(value) {
 	  normed_color = 'lightyellow';
 	}
 
-	var phoible = '';
+	var phoibles = [];
 	var phoible_color = 'white';
-	if ('phoible_id' in tmp) {
-	  phoible = '<a target="_blank" style="color:Crimson" href="http://phoible.org/parameters/' + 
-	    tmp['phoible_id'] + '">' + tmp['phoible_grapheme']+'</a>';
-	  if (tmp['phoible_grapheme'] != tmp['bipa']) {
-	    phoible_color = 'lightblue';
+	if ('phoible' in tmp) {
+	  for (var k=0,p; p=tmp['phoible'][k]; k++) {
+	    phoibles.push('<a target="_blank" style="color:Crimson" href="http://phoible.org/parameters/' + 
+	      p['id'] + '">' + p['grapheme']+'</a>');
+	    if (p['grapheme'] != tmp['bipa']) {
+	      phoible_color = 'lightblue';
+	    }
 	  }
 	}
+	var phoible = phoibles.join(' ');
+	
+	var pbases = [];
+	var pbase_color = 'white';
+	if ('pbase' in tmp) {
+	  for (var k=0,p; p=tmp['pbase'][k]; k++) {
+	    pbases.push('<a target="_blank" style="color:Crimson" href="' + 
+	      p['id'] + '">' + p['grapheme']+'</a>');
+	    if (p['grapheme'] != tmp['bipa']) {
+	      pbase_color = 'lightblue';
+	    }
+	  }
+	}
+	var pbase = pbases.join(' ');
+
 	  
-      	var tabletext = '<td id="'+tmp['bipa'] + 
+      	var tabletext = '<td style="background-color:'+tmp['color']+';" id="'+tmp['bipa'] + 
 	  '"  ondblclick="showOriginal(\''+
 	  tmp['bipa']+'\');"><span style="cursor:pointer;" ' +
 	  'title="click to show unicode" '+    
@@ -153,6 +170,7 @@ function convertCLPA(value) {
       	tabletext += '<td>'+cls+'</td>';
       	tabletext += '<td>'+tmp['name'].replace(' '+tmp['type'], '')+'</td>';
 	tabletext += '<td style="background-color:'+phoible_color+'">'+phoible+'</td>';
+	tabletext += '<td style="background-color:'+pbase_color+'">'+pbase+'</td>';
       	table.push([tmp['name'], tmp['bipa'], tabletext]);
 	symbols.push(ssegment);
       }
@@ -166,7 +184,7 @@ function convertCLPA(value) {
 	table.push(['?', ssegment, 
 	  '<td title="click to show unicode" id="'+ssegment+'"' + 
 	  'onclick="showUnicode(\''+ssegment+'\');" ondblclick="showOriginal(\''+ssegment+'\');" '+
-	  'colspan="6" style="color:red;font-weight:bold">'+segment+'</td>']);
+	  'colspan="7" style="color:red;font-weight:bold">'+segment+'</td>']);
 	freqs[ssegment] = 1;
       }
       else {
@@ -176,7 +194,7 @@ function convertCLPA(value) {
   }
   var ttext = '<table style="border:2px solid black;">'
     + '<tr style="border:2px solid gray;">'
-    + '<th>BIPA</th><th>NORM</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>OCC</th></tr>';
+    + '<th>BIPA</th><th>NORM</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>PBASE</th><th>OCC</th></tr>';
   /* sort the table according to the reverse name */
   table.sort(function (x, y) {
     if (x[0].split("").reverse().join("") < y[0].split("").reverse().join("")) {

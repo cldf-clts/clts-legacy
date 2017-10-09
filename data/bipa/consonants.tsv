@@ -1,8 +1,9 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 b	voiced	bilabial	plosive			
 bv	voiced	labiodental	affricate			
-bʰ	breathy-voiced	bilabial	plosive	+	aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
-bʰː	breathy-voiced	bilabial	plosive	+	duration:long	Aspirated voiced is breathy-voice.
+bʰ	breathy-voiced	bilabial	plosive		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
+bʰː	voiced	bilabial	plosive	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+bːʰ	voiced	bilabial	plosive		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
 bʱ	breathy-voiced	bilabial	plosive	+		
 b̤	breathy-voiced	bilabial	plosive			
 bʲ	voiced	bilabial	plosive		palatalization:palatalized	
@@ -31,8 +32,9 @@ dʑ	voiced	alveolo-palatal	affricate
 dʒ	voiced	postalveolar	affricate			
 dʒʱ	breathy-voiced	postalveolar	affricate	+		
 dʒʲ	voiced	postalveolar	affricate		palatalization:palatalized	
-dʰ	breathy-voiced	alveolar	plosive	+	aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
-dʰː	breathy-voiced	alveolar	plosive	+	duration:long	Aspirated voiced is breathy-voice.
+dʰ	voiced	alveolar	plosive		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
+dʰː	voiced	alveolar	plosive	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+dːʰ	voiced	alveolar	plosive		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
 dʱ	breathy-voiced	alveolar	plosive	+	
 d̤	breathy-voiced	alveolar	plosive		
 dʲ	voiced	alveolar	plosive		palatalization:palatalized	
@@ -121,7 +123,7 @@ nʲ	voiced	alveolar	nasal		palatalization:palatalized
 nː	voiced	alveolar	nasal		duration:long	
 nˤ	voiced	alveolar	nasal		pharyngealization:pharyngealized	
 n̊	devoiced	alveolar	nasal	+		
-n̥	devoiced	palatal	nasal	+		
+n̥	devoiced	alveolar	nasal	+		
 n̩	voiced	alveolar	nasal		syllabicity:syllabic	
 n̪	voiced	dental	nasal			
 n̪ˠ	voiced	dental	nasal		velarization:velarized	
