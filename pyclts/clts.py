@@ -30,32 +30,33 @@ def _nfd(string):
     return unicodedata.normalize("NFD", string)
 
 
-def codepoint(s):
+def codepoint(string):
     "Return unicode codepoint(s) for a character set."
-    return ' '.join(['U+'+('000'+hex(ord(x))[2:])[-4:] for x in s])
+    return ' '.join(['U+'+('000'+hex(ord(x))[2:])[-4:] for x in string])
 
-def uname(s):
+def uname(string):
     "Return unicode name(s) for a character set."
     try:
-        return ' / '.join(unicodedata.name(ss) for ss in s)
+        return ' / '.join(unicodedata.name(ss) for ss in string)
     except:
         return '-'
 
 def itertable(table):
+    "Auxiliary function for iterating over a data table."
     for item in table:
         res = {
-            k.lower(): _nfd(v) if isinstance(v, text_type) else v
-            for k, v in item.items()}
+            key.lower(): _nfd(value) if isinstance(value, text_type) else value
+            for key, value in item.items()}
         for extra in res.pop('extra', []):
-            k, _, v = extra.strip().partition(':')
-            res[k] = v
+            key, _, value = extra.strip().partition(':')
+            res[key] = value
         yield res
 
-def translate(s, source_system, target_system):
+def translate(string, source_system, target_system):
     res = []
-    for snd in source_system(s):
+    for snd in source_system(string):
         res.append(target_system.get(snd))
-    return ' '.join(['{0}'.format(target_system.get(snd)) for snd in source_system(s)])
+    return ' '.join(['{0}'.format(target_system.get(snd)) for snd in source_system(string)])
 
 
 class CLTS(object):
@@ -67,9 +68,9 @@ class CLTS(object):
         :param system: The name of a transcription system or a directory containing one.
         """
         if isinstance(system, string_types):
-            for d in data_path().iterdir():
-                if d.is_dir() and d.name == system:
-                    system = d
+            for data in data_path().iterdir():
+                if data.is_dir() and data.name == system:
+                    system = data
                     break
             else:
                 raise ValueError('unknown system: {0}'.format(system))
@@ -81,14 +82,14 @@ class CLTS(object):
                 data_path('transcription-system-metadata.json'))
             self.system._fname = system.joinpath('metadata.json')
 
-        self._features = {'consonant': {}, 'vowel': {}, 'diphthong': {}, 
-                'cluster': {}, 'click': {}}  # Sounds by name
+        self._features = {'consonant': {}, 'vowel': {}, 'diphthong': {},
+                          'cluster': {}, 'click': {}}  # Sounds by name
         # dictionary for feature values, checks when writing elements from
         # write_order to make sure no output is doubled
         self._feature_values = {}
 
         self.diacritics = dict(consonant={}, vowel={}, click={}, diphthong={},
-                tone={}, cluster={})
+                               tone={}, cluster={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
             if not dia['alias']:
                 self._features[dia['type']][dia['value']] = dia['grapheme']
@@ -100,8 +101,7 @@ class CLTS(object):
         self.sound_classes = {}
         self._columns = {} # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
-        for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong,
-                Cluster]:
+        for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong, Cluster]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
             # store information on column structure to allow for rendering of a
@@ -167,7 +167,7 @@ class CLTS(object):
     def normalize(self, string):
         """Normalize the string according to normalization list"""
         return ''.join([self._normalize.get(x, x) for x in _nfd(string)])
-    
+
     def _from_name(self, string):
         """Parse a sound from its name"""
         if string in self._features:
@@ -176,7 +176,7 @@ class CLTS(object):
         rest, sound_class = components[:-1], components[-1]
         if sound_class not in self.sound_classes:
             raise ValueError('no sound class specified')
-        
+
         args = {self._feature_values.get(comp, '?'): comp for comp in rest}
         if '?' in args:
             raise ValueError('string contains unknown features')
@@ -184,11 +184,11 @@ class CLTS(object):
         args['clts'] = self
         sound = self.sound_classes[sound_class](**args)
         glyph = str(sound)
-        if not glyph in self._sounds:
+        if glyph not in self._sounds:
             sound.generated = True
             return sound
         return self[glyph]
-    
+
     def _parse(self, string):
         """Parse a string and return its features.
 
@@ -207,19 +207,19 @@ class CLTS(object):
         if nstring in self._sounds:
             return self._sounds[nstring]
 
-        m = list(self._regex.finditer(nstring))
-        if len(m) != 1:
+        match = list(self._regex.finditer(nstring))
+        if len(match) != 1:
             # Either no match or more than one; both is considered an error.
             return UnknownSound(grapheme=nstring, source=string, clts=self)
 
-        pre, mid, post = nstring.partition(nstring[m[0].start():m[0].end()])
+        pre, mid, post = nstring.partition(nstring[match[0].start():match[0].end()])
 
         #
         # FIXME: Shouldn't we re-order the diacritics here, and then lookup the
         # re-assembled symbol?
         #
 
-        base_sound = self._sounds[mid]        
+        base_sound = self._sounds[mid]
         if nstring == base_sound.grapheme:
             # A known sound, but we check whether we normalized it or not
             if nstring == string:
@@ -266,7 +266,7 @@ class CLTS(object):
     def __contains__(self, item):
         if isinstance(item, Sound):
             return item.name in self._features
-        
+
         return item in self._sounds
 
     def get(self, string, default=None):
@@ -381,7 +381,7 @@ class Sound(Symbol):
         """
         tbl = []
         features = [f for f in self._name_order if f not in
-                self.clts._columns[self.type]]
+                    self.clts._columns[self.type]]
         # make sure to mark generated sounds
         if self.generated and str(self) != self.source:
             tbl += [str(self)+' | '+self.source]
@@ -431,7 +431,7 @@ class Marker(Symbol):
 
 @attr.s(cmp=False)
 class Consonant(Sound):
-    
+
     # features follow basic information about IPA from various sources, they
     # are potentially not yet exhaustive and should be updated at some point
     manner = attr.ib(default=None)
@@ -474,7 +474,7 @@ class Consonant(Sound):
 
 @attr.s(cmp=False)
 class Cluster(Sound):
-    
+
     # features follow basic information about IPA from various sources, they
     # are potentially not yet exhaustive and should be updated at some point
     from_manner = attr.ib(default=None)
@@ -505,12 +505,12 @@ class Cluster(Sound):
         )
     _name_order = [
         'preceding', 'syllabicity', 'nasalization', 'palatalization',
-        'labialization', 'glottalization', 'aspiration', 
+        'labialization', 'glottalization', 'aspiration',
         'velarization',
         'pharyngealization',
-        'duration', 
-        'release', 
-        'from_phonation', 
+        'duration',
+        'release',
+        'from_phonation',
         'from_place', 'from_manner',
         'to_phonation', 'to_place', 'to_manner']
 
@@ -547,7 +547,7 @@ class Vowel(Sound):
     _name_order = [
         'phonation', 'rhotacization', 'pharyngealization', 'glottalization',
         'velarization', 'syllabicity', 'duration', 'nasalization',
-        'roundedness', 'height', #'backness', 
+        'roundedness', 'height', #'backness',
         'frication', 'centrality']
 
 @attr.s(cmp=False)
@@ -558,7 +558,7 @@ class Diphthong(Sound):
     to_roundedness = attr.ib(default=None)
     to_height = attr.ib(default=None)
     to_centrality = attr.ib(default=None)
-    
+
     from_nasalization = attr.ib(default=None)
     from_frication = attr.ib(default=None)
     from_duration = attr.ib(default=None)
@@ -584,31 +584,31 @@ class Diphthong(Sound):
     # dipthongs are simply handled by adding the three base types for vowel and
     # consonant, plus the additional features, which are, however, only
     # supposed to occur on the first vowel
-    
+
     _write_order = dict(
         pre=[],
         post=['to_syllabicity', 'to_nasalization', 'to_duration'])
 
     _name_order = [
-        'from_phonation', 
-        'from_rhotacization', 
+        'from_phonation',
+        'from_rhotacization',
         'from_pharyngealization',
         'from_glottalization',
         'from_velarization',
-        'from_syllabicity', 
-        'from_duration', 
+        'from_syllabicity',
+        'from_duration',
         'from_nasalization',
-        'from_roundedness', 
-        'from_height', 
-        'from_centrality', 
+        'from_roundedness',
+        'from_height',
+        'from_centrality',
         'from_frication',
-        'to_phonation', 
-        'to_rhotacization', 
+        'to_phonation',
+        'to_rhotacization',
         'to_pharyngealization',
         'to_glottalization',
         'to_velarization',
-        'to_syllabicity', 
-        'to_duration', 
+        'to_syllabicity',
+        'to_duration',
         'to_nasalization',
         'to_roundedness',
         'to_height',

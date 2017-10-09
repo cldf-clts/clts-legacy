@@ -33,8 +33,8 @@ dʒʱ	breathy-voiced	postalveolar	affricate	+
 dʒʲ	voiced	postalveolar	affricate		palatalization:palatalized	
 dʰ	breathy-voiced	alveolar	plosive	+	aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
 dʰː	breathy-voiced	alveolar	plosive	+	duration:long	Aspirated voiced is breathy-voice.
-dʱ	breathy-voiced	alveolar	plosive	+	
-d̤	breathy-voiced	alveolar	plosive		
+dʱ	breathy-voiced	alveolar	plosive	+		
+d̤	breathy-voiced	alveolar	plosive			
 dʲ	voiced	alveolar	plosive		palatalization:palatalized	
 dː	voiced	alveolar	plosive		duration:long	
 dːz	voiced	alveolar	affricate		duration:long	
@@ -56,7 +56,7 @@ d̪̈	breathy-voiced	dental	plosive
 d̪ˠ	voiced	dental	plosive		velarization:velarized	
 d̪̚	voiced	dental	plosive		release:unreleased	
 d̰	creaky-voiced	alveolar	plosive			
-d̻	voiced	lamino-dental	plosive
+d̻	voiced	lamino-dental	plosive			
 dⁿ	voiced	alveolar	plosive		release:with-nasal-release	
 f	voiceless	labiodental	fricative			
 fʰ	voiceless	labiodental	fricative		aspiration:aspirated	
@@ -68,7 +68,7 @@ fˠ	voiceless	labiodental	fricative		velarization:velarized
 g	voiced	velar	plosive			
 gɣ	voiced	velar	affricate			
 gʰ	breathy-voiced	velar	plosive	+		I think, aspirated voiced sounds are always breathy-voiced.
-gʱ	breathy-voiced	velar	plosive	+	
+gʱ	breathy-voiced	velar	plosive	+		
 g̈	breathy-voiced	velar	plosive			
 gʲ	voiceless	velare	plosive		palatalization:palatalized	
 gʷ	voiced	velar	plosive		labialization:labialized	
@@ -107,7 +107,7 @@ lː	voiced	alveolar	lateral-approximant		duration:long
 l̥	devoiced	alveolar	lateral-approximant			
 l̩	voiced	alveolar	lateral-approximant		syllabicity:syllabic	
 l̪	voiced	dental	lateral-approximant			
-l̻	voiced	lamino-alveolar	lateral-approximant		
+l̻	voiced	lamino-alveolar	lateral-approximant			
 m	voiced	bilabial	nasal			
 mʰ	voiced	bilabial	nasal		aspiration:aspirated	
 mʲ	voiced	bilabial	nasal		palatalization:palatalized	
@@ -137,7 +137,7 @@ pɸ	voiceless	bilabial	affricate
 pʰ	voiceless	bilabial	plosive		aspiration:aspirated	
 pʰʲ	voiceless	bilabial	plosive		palatalization:palatalized,aspiration:aspirated	
 pʲ	voiceless	bilabial	plosive		palatalization:palatalized	
-pʷ	voiceless	bilabial	plosive		labialization:labialized
+pʷ	voiceless	bilabial	plosive		labialization:labialized	
 pʼ	voiceless	bilabial	ejective-plosive			
 pˈ	voiceless	bilabial	ejective-plosive	+		
 pː	voiceless	bilabial	plosive		duration:long	
@@ -226,7 +226,7 @@ wˠ	voiced	labialized-velar	approximant		velarization:velarized
 w̃	voiced	labialized-velar	approximant		nasalization:nasalized	
 x	voiceless	velar	fricative			
 xʷ	voiceless	velar	fricative		labialization:labialized	
-xʼ	voiceless	velar	ejective-fricative
+xʼ	voiceless	velar	ejective-fricative			
 xˈ	voiceless	velar	ejective-fricative	+		
 z	voiced	alveolar	fricative			
 z̥	devoiced	alveolar	fricative			
@@ -254,7 +254,7 @@ z̪	voiced	alveolar	fricative	+
 ɖ	voiced	retroflex	plosive			
 ɖʐ	voiced	retroflex	affricate			
 ɖʱ	breathy-voiced	retroflex	plosive	+		
-ɖːʐ	voiced	retroflex	affricate	+	duration:long
+ɖːʐ	voiced	retroflex	affricate	+	duration:long	
 ɖ̤	breathy-voiced	retroflex	plosive			
 ɗ	voiced	dental	implosive			
 ɟ	voiced	palatal	plosive			
@@ -264,11 +264,11 @@ z̪	voiced	alveolar	fricative	+
 ɢ	voiced	uvular	plosive			
 ɢʁ	voiced	uvular	affricate			
 ɣ	voiced	velar	fricative			
-ɣʷ	voiced	velar	fricative		labialization:labialized		
+ɣʷ	voiced	velar	fricative		labialization:labialized	
 ɣ̊	devoiced	velar	fricative			
 ɣ̥	devoiced	velar	fricative	+		
 ɥ	voiced	labialized-palatal	approximant			
-ɦ	voiced	glottal	fricative
+ɦ	voiced	glottal	fricative			
 ɧ	voiceless	palatal-velar	fricative			
 ɬ	voiceless	alveolar	lateral-fricative			
 ɬ’	voiceless	alveolar	lateral-ejective-fricative			
@@ -286,7 +286,7 @@ z̪	voiced	alveolar	fricative	+
 ɳ	voiced	retroflex	nasal			
 ɳ̊	devoiced	retroflex	nasal			
 ɳ̍	voiced	retroflex	nasal		syllabicity:syllabic	
-ɴ	voiced	uvular	nasal
+ɴ	voiced	uvular	nasal			
 ɴ̥	devoiced	uvular	nasal			
 ɴ̩	voiced	uvular	nasal		syllabicity:syllabic	
 ɸ	voiceless	bilabial	fricative			
@@ -296,7 +296,7 @@ z̪	voiced	alveolar	fricative	+
 ɺ	voiced	alveolar	lateral-flap			
 ɻ	voiced	retroflex	approximant			
 ɽ	voiced	retroflex	flap			
-ɽʱ	breathy-voiced	retroflex	flap	+
+ɽʱ	breathy-voiced	retroflex	flap	+		
 ɽ̈	breathy-voiced	retroflex	flap			
 ɾ	devoiced	alveolar	tap			
 ʀ	voiced	uvular	trill			
@@ -418,4 +418,4 @@ t̪ˤ	voiceless	dental	plosive		pharyngealization:pharyngealized
 s̪ˠ	voiceless	dental	fricative		velarization:velarized	
 d̪ʲ	voiced	dental	plosive		palatalization:palatalized	
 t̪ⁿ	voiceless	dental	plosive		release:with-nasal-release	
-t̪ɬ̪	voiceless	dental	lateral-affricate	
+t̪ɬ̪	voiceless	dental	lateral-affricate			
