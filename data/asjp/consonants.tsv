@@ -10,7 +10,7 @@ t	voiceless	alveolar	plosive			t
 d	voiced	alveolar	plosive			d
 s	voiceless	alveolar	fricative			s
 z	voiced	alveolar	fricative			z
-c	voiceless	alveolar	affricate				ts dz
+c	voiceless	alveolar	affricate			ts dz
 n	voiceless	alveolar	nasal			n
 S	voiceless	postalveolar	fricative			ʃ
 Z	voiced	postalveolar	fricative			ʒ
@@ -43,7 +43,7 @@ th	voiceless	alveolar	plosive		aspiration:aspirated	t
 dh	voiced	alveolar	plosive		aspiration:aspirated	d
 sh	voiceless	alveolar	fricative		aspiration:aspirated	s
 zh	voiced	alveolar	fricative		aspiration:aspirated	z
-ch	voiceless	alveolar	affricate		aspiration:aspirated		ts dz
+ch	voiceless	alveolar	affricate		aspiration:aspirated	ts dz
 nh	voiceless	alveolar	nasal		aspiration:aspirated	n
 Sh	voiceless	postalveolar	fricative		aspiration:aspirated	ʃ
 Zh	voiced	postalveolar	fricative		aspiration:aspirated	ʒ
@@ -76,7 +76,7 @@ tw	voiceless	alveolar	plosive		labialization:labialized	t
 dw	voiced	alveolar	plosive		labialization:labialized	d
 sw	voiceless	alveolar	fricative		labialization:labialized	s
 zw	voiced	alveolar	fricative		labialization:labialized	z
-cw	voiceless	alveolar	affricate		labialization:labialized		ts dz
+cw	voiceless	alveolar	affricate		labialization:labialized	ts dz
 nw	voiceless	alveolar	nasal		labialization:labialized	n
 Sw	voiceless	postalveolar	fricative		labialization:labialized	ʃ
 Zw	voiced	postalveolar	fricative		labialization:labialized	ʒ
@@ -109,7 +109,7 @@ twh	voiceless	alveolar	plosive		aspiration:aspirated,labialization:labialized	t
 dwh	voiced	alveolar	plosive		aspiration:aspirated,labialization:labialized	d
 swh	voiceless	alveolar	fricative		aspiration:aspirated,labialization:labialized	s
 zwh	voiced	alveolar	fricative		aspiration:aspirated,labialization:labialized	z
-cwh	voiceless	alveolar	affricate		aspiration:aspirated,labialization:labialized		ts dz
+cwh	voiceless	alveolar	affricate		aspiration:aspirated,labialization:labialized	ts dz
 nwh	voiceless	alveolar	nasal		aspiration:aspirated,labialization:labialized	n
 Swh	voiceless	postalveolar	fricative		aspiration:aspirated,labialization:labialized	ʃ
 Zwh	voiced	postalveolar	fricative		aspiration:aspirated,labialization:labialized	ʒ

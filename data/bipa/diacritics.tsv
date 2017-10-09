@@ -28,12 +28,12 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̩	consonant	syllabicity	syllabic			
 ◌̍	consonant	syllabicity	syllabic		up	
 ◌ˠ	consonant	velarization	velarized			
-◌ˠ	vowel	velarization	velarized	
+◌ˠ	vowel	velarization	velarized			
 ◌ː	vowel	duration	long			
 ◌ˑ	vowel	duration	mid-long			
 ◌̃	vowel	nasalization	nasalized			
 ◌ˤ	vowel	pharyngealization	pharyngealized			
-◌ˀ	vowel	glottalization	glottalized	
+◌ˀ	vowel	glottalization	glottalized			
 ◌̤	vowel	phonation	breathy-voiced			
 ◌̰	vowel	phonation	creaky-voiced			
 ◌̆	vowel	phonation	ultra-short			
@@ -49,7 +49,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ˑ	diphthong	to_duration	to_mid-long			
 ◌̃	diphthong	to_nasalization	to_nasalized			
 ◌ˤ	diphthong	to_pharyngealization	to_pharyngealized			
-◌ˀ	diphthong	to_glottalization	to_glottalized	
+◌ˀ	diphthong	to_glottalization	to_glottalized			
 ◌̤	diphthong	to_phonation	to_breathy-voiced			
 ◌̰	diphthong	to_phonation	to_creaky-voiced			
 ◌̆	diphthong	to_phonation	to_ultra-short			
