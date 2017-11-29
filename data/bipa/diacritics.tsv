@@ -15,7 +15,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̥	consonant	phonation	devoiced			
 ◌˳	consonant	phonation	devoiced	+		
 ◌̊	consonant	phonation	devoiced		up	
-◌̬	consonant	phonation	voiced			
+◌̬	consonant	phonation	extra-voiced			
 ʰ◌	consonant	preceding	pre-aspirated			
 ˀ◌	consonant	preceding	pre-glottalized			
 ⁿ◌	consonant	preceding	pre-nasalized			
