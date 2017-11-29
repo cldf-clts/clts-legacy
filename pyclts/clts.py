@@ -101,6 +101,7 @@ class CLTS(object):
         self.sound_classes = {}
         self._columns = {} # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
+        self._covered = {}
         for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong, Cluster]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
@@ -126,6 +127,7 @@ class CLTS(object):
                         raise ValueError('duplicate features in {0}:{1}: {2}'.format(
                             type_ + 's.tsv', l + 2, sound.name))
                     self._features[sound.name] = sound
+
 
         # basic regular expression, used to match the basic sounds in the system.
         self._regex = None

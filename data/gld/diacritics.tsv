@@ -1,13 +1,12 @@
 GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʰ	consonant	aspiration	aspirated			
 ◌ː	consonant	duration	long			
-◌̄	vowel	duration	long	+		
-◌̄	vowel	duration	long	+		
 ◌ˀ	consonant	glottalization	glottalized			
 ◌ʷ	consonant	labialization	labialized			
 ◌̃	consonant	nasalization	nasalized			
 ◌ᶣ	consonant	palatalization	labio-palatalized			
-◌ʲ	consonant	palatalization	palatalized			
+◌ʲ	consonant	palatalization	palatalized	+	
+◌ʸ	consonant	palatalization	palatalized			
 ◌ˤ	consonant	pharyngealization	pharyngealized			
 ◌̤	consonant	phonation	breathy-voiced			
 ◌ʱ	consonant	phonation	breathy-voiced	+		
