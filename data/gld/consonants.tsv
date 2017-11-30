@@ -34,16 +34,16 @@ c	voiceless	alveolar	affricate
 l̥	devoiced	alveolar	lateral-approximant			
 n̥	devoiced	alveolar	nasal			
 f	voiceless	labiodental	fricative			
-ʑ	voiced	alveolo-palatal	sulcalized-fricative			
+ʑ	voiced	alveolo-palatal	sibilant-fricative			
 v	voiced	labiodental	fricative			
 qʰ	voiceless	uvular	plosive		aspiration:aspirated	
 d	voiced	alveolar	plosive			
 č	voiceless	postalveolar	affricate			
-ʆ	voiceless	alveolo-palatal	sulcalized-fricative			
+ʆ	voiceless	alveolo-palatal	sibilant-fricative			
 ŋ̩	voiced	velar	nasal		syllabicity:syllabic	
 kʰ	voiceless	velar	plosive		aspiration:aspirated	
 cʰ	voiceless	alveolar	affricate		aspiration:aspirated	
-s	voiceless	alveolar	sulcalized-fricative			
+s	voiceless	alveolar	sibilant-fricative			
 ɳ	voiced	retroflex	nasal			
 ɣ	voiced	velar	fricative			
 tʰ	voiceless	alveolar	plosive		aspiration:aspirated	
@@ -52,23 +52,23 @@ tʰ	voiceless	alveolar	plosive		aspiration:aspirated
 ɬ	voiceless	alveolar	lateral-fricative			
 ǯ	voiced	postalveolar	affricate			
 ɲ̥	devoiced	palatal	nasal			
-c̢	voiceless	retroflex	sulcalized-affricate			
+c̢	voiceless	retroflex	sibilant-affricate			
 m̥	devoiced	bilabial	nasal			
 pʰ	voiceless	bilabial	plosive		aspiration:aspirated	
-ž	voiced	postalveolar	sulcalized-fricative			
+ž	voiced	postalveolar	sibilant-fricative			
 ʼd	voiced	alveolar	plosive		preceding:pre-glottalized	
 ɹ	voiced	alveolar	approximant			
 ʈ	voiceless	retroflex	plosive			
 ʔ	voiceless	glottal	plosive			
 x	voiceless	velar	fricative			
 b	voiced	bilabial	plosive			
-ʐ	voiced	retroflex	sulcalized-fricative			
-š	voiceless	postalveolar	sulcalized-fricative			
-čʰ	voiceless	postalveolar	sulcalized-affricate		aspiration:aspirated	
+ʐ	voiced	retroflex	sibilant-fricative			
+š	voiceless	postalveolar	sibilant-fricative			
+čʰ	voiceless	postalveolar	sibilant-affricate		aspiration:aspirated	
 n̥ʰ	devoiced	alveolar	nasal		aspiration:aspirated	
 ŋ̥	devoiced	velar	nasal			
-c̢ʰ	voiceless	retroflex	sulcalized-affricate		aspiration:aspirated	
-sʰ	voiceless	alveolar	sulcalized-fricative		aspiration:aspirated	
+c̢ʰ	voiceless	retroflex	sibilant-affricate		aspiration:aspirated	
+sʰ	voiceless	alveolar	sibilant-fricative		aspiration:aspirated	
 ð	voiced	dental	fricative			
 g	voiced	velar	plosive			
 ɴ	voiced	uvular	nasal			
@@ -76,18 +76,18 @@ m̩	voiced	bilabial	nasal		syllabicity:syllabic
 ʃʰ	voiceless	alveolo-palatal	fricative	+	aspiration:aspirated	
 ʂ	voiceless	retroflex	fricative			
 m̥ʰ	devoiced	bilabial	nasal		aspiration:aspirated	
-ʓ	voiced	alveolo-palatal	sulcalized-affricate			
-ʒ	voiced	alveolar	sulcalized-affricate			
-ᶚ	voiced	retroflex	sulcalized-affricate			
+ʓ	voiced	alveolo-palatal	sibilant-affricate			
+ʒ	voiced	alveolar	sibilant-affricate			
+ᶚ	voiced	retroflex	sibilant-affricate			
 ɭ	voiced	retroflex	lateral-approximant			
 l̥ʰ	devoiced	alveolar	lateral-approximant		aspiration:aspirated	
 lʰ	voiced	alveolar	lateral-approximant		aspiration:aspirated	
-ʃ	voiceless	alveolo-palatal	sulcalized-fricative	+		
-ɕʰ	voiceless	alveolo-palatal	sulcalized-affricate		aspiration:aspirated	
+ʃ	voiceless	alveolo-palatal	sibilant-fricative	+		
+ɕʰ	voiceless	alveolo-palatal	sibilant-affricate		aspiration:aspirated	
 n̩	voiced	alveolar	nasal		syllabicity:syllabic	
 ɭ̥ʰ	devoiced	retroflex	lateral-approximant		aspiration:aspirated	
 fʰ	voiceless	labiodental	fricative		aspiration:aspirated	
-ʆʰ	voiceless	alveolo-palatal	sulcalized-fricative		aspiration:aspirated	
+ʆʰ	voiceless	alveolo-palatal	sibilant-fricative		aspiration:aspirated	
 ɲ̥ʰ	devoiced	palatal	nasal		aspiration:aspirated	
 v̥	devoiced	labiodental	fricative			
 j	voiced	palatal	approximant	+		

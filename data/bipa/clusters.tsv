@@ -2,7 +2,7 @@ GRAPHEME	FROM_PHONATION	FROM_PLACE	FROM_MANNER	TO_PHONATION	TO_PLACE	TO_MANNER	A
 bb̤	from_voiced	from_bilabial	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 bb̥	from_voiced	from_bilabial	from_plosive	to_devoiced	to_bilabial	to_plosive			
 bc	from_voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive			
-bcʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+bcʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 bd	from_voiced	from_bilabial	from_plosive	to_voiced	to_alveolar	to_plosive			
 bd̠	from_voiced	from_bilabial	from_plosive	to_voiced	to_postalveolar	to_plosive			
 bd̤	from_voiced	from_bilabial	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -14,13 +14,13 @@ bg	from_voiced	from_bilabial	from_plosive	to_voiced	to_velar	to_plosive
 bg̈	from_voiced	from_bilabial	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 bg̊	from_voiced	from_bilabial	from_plosive	to_devoiced	to_velar	to_plosive			
 bk	from_voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive			
-bkʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+bkʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 bp	from_voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive			
-bpʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+bpʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 bq	from_voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive			
-bqʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+bqʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 bt	from_voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive			
-btʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+btʼ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 bt̠	from_voiced	from_bilabial	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 bt̪	from_voiced	from_bilabial	from_plosive	to_voiceless	to_dental	to_plosive			
 bt̻	from_voiced	from_bilabial	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -40,7 +40,7 @@ bʡ	from_voiced	from_bilabial	from_plosive	to_voiceless	to_epiglottal	to_plosive
 b̤b	from_breathy-voiced	from_bilabial	from_plosive	to_voiced	to_bilabial	to_plosive			
 b̤b̥	from_breathy-voiced	from_bilabial	from_plosive	to_devoiced	to_bilabial	to_plosive			
 b̤c	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive			
-b̤cʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+b̤cʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 b̤d	from_breathy-voiced	from_bilabial	from_plosive	to_voiced	to_alveolar	to_plosive			
 b̤d̠	from_breathy-voiced	from_bilabial	from_plosive	to_voiced	to_postalveolar	to_plosive			
 b̤d̤	from_breathy-voiced	from_bilabial	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -52,13 +52,13 @@ b̤g	from_breathy-voiced	from_bilabial	from_plosive	to_voiced	to_velar	to_plosiv
 b̤g̈	from_breathy-voiced	from_bilabial	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 b̤g̊	from_breathy-voiced	from_bilabial	from_plosive	to_devoiced	to_velar	to_plosive			
 b̤k	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive			
-b̤kʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+b̤kʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 b̤p	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive			
-b̤pʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+b̤pʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 b̤q	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive			
-b̤qʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+b̤qʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 b̤t	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive			
-b̤tʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+b̤tʼ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 b̤t̠	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 b̤t̪	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_dental	to_plosive			
 b̤t̻	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -78,7 +78,7 @@ b̤ʡ	from_breathy-voiced	from_bilabial	from_plosive	to_voiceless	to_epiglottal	
 b̥b	from_devoiced	from_bilabial	from_plosive	to_voiced	to_bilabial	to_plosive			
 b̥b̤	from_devoiced	from_bilabial	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 b̥c	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive			
-b̥cʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+b̥cʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 b̥d	from_devoiced	from_bilabial	from_plosive	to_voiced	to_alveolar	to_plosive			
 b̥d̠	from_devoiced	from_bilabial	from_plosive	to_voiced	to_postalveolar	to_plosive			
 b̥d̤	from_devoiced	from_bilabial	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -90,13 +90,13 @@ b̥g	from_devoiced	from_bilabial	from_plosive	to_voiced	to_velar	to_plosive
 b̥g̈	from_devoiced	from_bilabial	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 b̥g̊	from_devoiced	from_bilabial	from_plosive	to_devoiced	to_velar	to_plosive			
 b̥k	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive			
-b̥kʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+b̥kʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 b̥p	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive			
-b̥pʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+b̥pʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 b̥q	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive			
-b̥qʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+b̥qʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 b̥t	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive			
-b̥tʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+b̥tʼ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 b̥t̠	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 b̥t̪	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_dental	to_plosive			
 b̥t̻	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -116,7 +116,7 @@ b̥ʡ	from_devoiced	from_bilabial	from_plosive	to_voiceless	to_epiglottal	to_plo
 cb	from_voiceless	from_palatal	from_plosive	to_voiced	to_bilabial	to_plosive			
 cb̤	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 cb̥	from_voiceless	from_palatal	from_plosive	to_devoiced	to_bilabial	to_plosive			
-ccʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ccʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 cd	from_voiceless	from_palatal	from_plosive	to_voiced	to_alveolar	to_plosive			
 cd̠	from_voiceless	from_palatal	from_plosive	to_voiced	to_postalveolar	to_plosive			
 cd̤	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -128,13 +128,13 @@ cg	from_voiceless	from_palatal	from_plosive	to_voiced	to_velar	to_plosive
 cg̈	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 cg̊	from_voiceless	from_palatal	from_plosive	to_devoiced	to_velar	to_plosive			
 ck	from_voiceless	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive			
-ckʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ckʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 cp	from_voiceless	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive			
-cpʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+cpʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 cq	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive			
-cqʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+cqʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ct	from_voiceless	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ctʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ctʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ct̠	from_voiceless	from_palatal	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ct̪	from_voiceless	from_palatal	from_plosive	to_voiceless	to_dental	to_plosive			
 ct̻	from_voiceless	from_palatal	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -151,49 +151,49 @@ cʔ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_glottal	to_plosive
 cʛ	from_voiceless	from_palatal	from_plosive	to_voiced	to_uvular	to_implosive			
 cʛ̥	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_implosive			
 cʡ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_epiglottal	to_plosive			
-cʼb	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_bilabial	to_plosive			
-cʼb̤	from_voiceless	from_palatal	from_ejective-plosive	to_breathy-voiced	to_bilabial	to_plosive			
-cʼb̥	from_voiceless	from_palatal	from_ejective-plosive	to_devoiced	to_bilabial	to_plosive			
-cʼc	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_palatal	to_plosive			
-cʼd	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_alveolar	to_plosive			
-cʼd̠	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_postalveolar	to_plosive			
-cʼd̤	from_voiceless	from_palatal	from_ejective-plosive	to_breathy-voiced	to_alveolar	to_plosive			
-cʼd̪	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_dental	to_plosive			
-cʼd̪̈	from_voiceless	from_palatal	from_ejective-plosive	to_breathy-voiced	to_dental	to_plosive			
-cʼd̰	from_voiceless	from_palatal	from_ejective-plosive	to_creaky-voiced	to_alveolar	to_plosive			
-cʼd̻	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_lamino-dental	to_plosive			
-cʼg	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_velar	to_plosive			
-cʼg̈	from_voiceless	from_palatal	from_ejective-plosive	to_breathy-voiced	to_velar	to_plosive			
-cʼg̊	from_voiceless	from_palatal	from_ejective-plosive	to_devoiced	to_velar	to_plosive			
-cʼk	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_velar	to_plosive			
-cʼkʼ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_velar	to_ejective-plosive			
-cʼp	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_bilabial	to_plosive			
-cʼpʼ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_bilabial	to_ejective-plosive			
-cʼq	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_uvular	to_plosive			
-cʼqʼ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_uvular	to_ejective-plosive			
-cʼt	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_alveolar	to_plosive			
-cʼtʼ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_alveolar	to_ejective-plosive			
-cʼt̠	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_postalveolar	to_plosive			
-cʼt̪	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_dental	to_plosive			
-cʼt̻	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_lamino-dental	to_plosive			
-cʼɓ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_bilabial	to_implosive			
-cʼɖ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_retroflex	to_plosive			
-cʼɖ̤	from_voiceless	from_palatal	from_ejective-plosive	to_breathy-voiced	to_retroflex	to_plosive			
-cʼɗ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_dental	to_implosive			
-cʼɟ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_palatal	to_plosive			
-cʼɠ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_velar	to_implosive			
-cʼɢ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_uvular	to_plosive			
-cʼʄ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_palatal	to_implosive			
-cʼʈ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_retroflex	to_plosive			
-cʼʔ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_glottal	to_plosive			
-cʼʛ	from_voiceless	from_palatal	from_ejective-plosive	to_voiced	to_uvular	to_implosive			
-cʼʛ̥	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_uvular	to_implosive			
-cʼʡ	from_voiceless	from_palatal	from_ejective-plosive	to_voiceless	to_epiglottal	to_plosive			
+cʼb	from_voiceless	from_palatal	from_plosive	to_voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+cʼb̤	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+cʼb̥	from_voiceless	from_palatal	from_plosive	to_devoiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+cʼc	from_voiceless	from_palatal	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective	
+cʼd	from_voiceless	from_palatal	from_plosive	to_voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+cʼd̠	from_voiceless	from_palatal	from_plosive	to_voiced	to_postalveolar	to_plosive		from_ejection:from_ejective	
+cʼd̤	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+cʼd̪	from_voiceless	from_palatal	from_plosive	to_voiced	to_dental	to_plosive		from_ejection:from_ejective	
+cʼd̪̈	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_dental	to_plosive		from_ejection:from_ejective	
+cʼd̰	from_voiceless	from_palatal	from_plosive	to_creaky-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+cʼd̻	from_voiceless	from_palatal	from_plosive	to_voiced	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+cʼg	from_voiceless	from_palatal	from_plosive	to_voiced	to_velar	to_plosive		from_ejection:from_ejective	
+cʼg̈	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_velar	to_plosive		from_ejection:from_ejective	
+cʼg̊	from_voiceless	from_palatal	from_plosive	to_devoiced	to_velar	to_plosive		from_ejection:from_ejective	
+cʼk	from_voiceless	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective	
+cʼkʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective,to_ejection:to_ejective	
+cʼp	from_voiceless	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective	
+cʼpʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+cʼq	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective	
+cʼqʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+cʼt	from_voiceless	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive		from_ejection:from_ejective	
+cʼtʼ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+cʼt̠	from_voiceless	from_palatal	from_plosive	to_voiceless	to_postalveolar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+cʼt̪	from_voiceless	from_palatal	from_plosive	to_voiceless	to_dental	to_plosive		from_ejection:from_ejective	
+cʼt̻	from_voiceless	from_palatal	from_plosive	to_voiceless	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+cʼɓ	from_voiceless	from_palatal	from_plosive	to_voiced	to_bilabial	to_implosive		from_ejection:from_ejective	
+cʼɖ	from_voiceless	from_palatal	from_plosive	to_voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+cʼɖ̤	from_voiceless	from_palatal	from_plosive	to_breathy-voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+cʼɗ	from_voiceless	from_palatal	from_plosive	to_voiced	to_dental	to_implosive		from_ejection:from_ejective	
+cʼɟ	from_voiceless	from_palatal	from_plosive	to_voiced	to_palatal	to_plosive		from_ejection:from_ejective	
+cʼɠ	from_voiceless	from_palatal	from_plosive	to_voiced	to_velar	to_implosive		from_ejection:from_ejective	
+cʼɢ	from_voiceless	from_palatal	from_plosive	to_voiced	to_uvular	to_plosive		from_ejection:from_ejective	
+cʼʄ	from_voiceless	from_palatal	from_plosive	to_voiced	to_palatal	to_implosive		from_ejection:from_ejective	
+cʼʈ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_retroflex	to_plosive		from_ejection:from_ejective	
+cʼʔ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_glottal	to_plosive		from_ejection:from_ejective	
+cʼʛ	from_voiceless	from_palatal	from_plosive	to_voiced	to_uvular	to_implosive		from_ejection:from_ejective	
+cʼʛ̥	from_voiceless	from_palatal	from_plosive	to_voiceless	to_uvular	to_implosive		from_ejection:from_ejective	
+cʼʡ	from_voiceless	from_palatal	from_plosive	to_voiceless	to_epiglottal	to_plosive		from_ejection:from_ejective	
 db	from_voiced	from_alveolar	from_plosive	to_voiced	to_bilabial	to_plosive			
 db̤	from_voiced	from_alveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 db̥	from_voiced	from_alveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 dc	from_voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-dcʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+dcʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 dd̠	from_voiced	from_alveolar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 dd̤	from_voiced	from_alveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
 dd̪	from_voiced	from_alveolar	from_plosive	to_voiced	to_dental	to_plosive			
@@ -204,13 +204,13 @@ dg	from_voiced	from_alveolar	from_plosive	to_voiced	to_velar	to_plosive
 dg̈	from_voiced	from_alveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 dg̊	from_voiced	from_alveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 dk	from_voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-dkʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+dkʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 dp	from_voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-dpʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+dpʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 dq	from_voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-dqʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+dqʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 dt	from_voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-dtʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+dtʼ	from_voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 dt̠	from_voiced	from_alveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 dt̪	from_voiced	from_alveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 dt̻	from_voiced	from_alveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -231,7 +231,7 @@ d̠b	from_voiced	from_postalveolar	from_plosive	to_voiced	to_bilabial	to_plosive
 d̠b̤	from_voiced	from_postalveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̠b̥	from_voiced	from_postalveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̠c	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̠cʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̠cʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̠d	from_voiced	from_postalveolar	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̠d̤	from_voiced	from_postalveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
 d̠d̪	from_voiced	from_postalveolar	from_plosive	to_voiced	to_dental	to_plosive			
@@ -242,13 +242,13 @@ d̠g	from_voiced	from_postalveolar	from_plosive	to_voiced	to_velar	to_plosive
 d̠g̈	from_voiced	from_postalveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̠g̊	from_voiced	from_postalveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 d̠k	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-d̠kʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̠kʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̠p	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̠pʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̠pʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̠q	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̠qʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̠qʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̠t	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̠tʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̠tʼ	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̠t̠	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̠t̪	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 d̠t̻	from_voiced	from_postalveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -269,7 +269,7 @@ d̤b	from_breathy-voiced	from_alveolar	from_plosive	to_voiced	to_bilabial	to_plo
 d̤b̤	from_breathy-voiced	from_alveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̤b̥	from_breathy-voiced	from_alveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̤c	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̤cʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̤cʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̤d	from_breathy-voiced	from_alveolar	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̤d̠	from_breathy-voiced	from_alveolar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 d̤d̪	from_breathy-voiced	from_alveolar	from_plosive	to_voiced	to_dental	to_plosive			
@@ -280,13 +280,13 @@ d̤g	from_breathy-voiced	from_alveolar	from_plosive	to_voiced	to_velar	to_plosiv
 d̤g̈	from_breathy-voiced	from_alveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̤g̊	from_breathy-voiced	from_alveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 d̤k	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-d̤kʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̤kʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̤p	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̤pʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̤pʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̤q	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̤qʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̤qʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̤t	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̤tʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̤tʼ	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̤t̠	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̤t̪	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 d̤t̻	from_breathy-voiced	from_alveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -307,7 +307,7 @@ d̪b	from_voiced	from_dental	from_plosive	to_voiced	to_bilabial	to_plosive
 d̪b̤	from_voiced	from_dental	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̪b̥	from_voiced	from_dental	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̪c	from_voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̪cʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̪cʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̪d	from_voiced	from_dental	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̪d̠	from_voiced	from_dental	from_plosive	to_voiced	to_postalveolar	to_plosive			
 d̪d̤	from_voiced	from_dental	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -318,13 +318,13 @@ d̪g	from_voiced	from_dental	from_plosive	to_voiced	to_velar	to_plosive
 d̪g̈	from_voiced	from_dental	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̪g̊	from_voiced	from_dental	from_plosive	to_devoiced	to_velar	to_plosive			
 d̪k	from_voiced	from_dental	from_plosive	to_voiceless	to_velar	to_plosive			
-d̪kʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̪kʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̪p	from_voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̪pʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̪pʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̪q	from_voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̪qʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̪qʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̪t	from_voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̪tʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̪tʼ	from_voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̪t̠	from_voiced	from_dental	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̪t̪	from_voiced	from_dental	from_plosive	to_voiceless	to_dental	to_plosive			
 d̪t̻	from_voiced	from_dental	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -345,7 +345,7 @@ d̪̈b	from_breathy-voiced	from_dental	from_plosive	to_voiced	to_bilabial	to_plo
 d̪̈b̤	from_breathy-voiced	from_dental	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̪̈b̥	from_breathy-voiced	from_dental	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̪̈c	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̪̈cʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̪̈cʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̪̈d	from_breathy-voiced	from_dental	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̪̈d̠	from_breathy-voiced	from_dental	from_plosive	to_voiced	to_postalveolar	to_plosive			
 d̪̈d̤	from_breathy-voiced	from_dental	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -356,13 +356,13 @@ d̪̈g	from_breathy-voiced	from_dental	from_plosive	to_voiced	to_velar	to_plosiv
 d̪̈g̈	from_breathy-voiced	from_dental	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̪̈g̊	from_breathy-voiced	from_dental	from_plosive	to_devoiced	to_velar	to_plosive			
 d̪̈k	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_velar	to_plosive			
-d̪̈kʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̪̈kʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̪̈p	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̪̈pʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̪̈pʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̪̈q	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̪̈qʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̪̈qʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̪̈t	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̪̈tʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̪̈tʼ	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̪̈t̠	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̪̈t̪	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_dental	to_plosive			
 d̪̈t̻	from_breathy-voiced	from_dental	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -383,7 +383,7 @@ d̰b	from_creaky-voiced	from_alveolar	from_plosive	to_voiced	to_bilabial	to_plos
 d̰b̤	from_creaky-voiced	from_alveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̰b̥	from_creaky-voiced	from_alveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̰c	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̰cʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̰cʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̰d	from_creaky-voiced	from_alveolar	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̰d̠	from_creaky-voiced	from_alveolar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 d̰d̤	from_creaky-voiced	from_alveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -394,13 +394,13 @@ d̰g	from_creaky-voiced	from_alveolar	from_plosive	to_voiced	to_velar	to_plosive
 d̰g̈	from_creaky-voiced	from_alveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̰g̊	from_creaky-voiced	from_alveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 d̰k	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-d̰kʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̰kʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̰p	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̰pʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̰pʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̰q	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̰qʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̰qʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̰t	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̰tʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̰tʼ	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̰t̠	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̰t̪	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 d̰t̻	from_creaky-voiced	from_alveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -421,7 +421,7 @@ d̻b	from_voiced	from_lamino-dental	from_plosive	to_voiced	to_bilabial	to_plosiv
 d̻b̤	from_voiced	from_lamino-dental	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 d̻b̥	from_voiced	from_lamino-dental	from_plosive	to_devoiced	to_bilabial	to_plosive			
 d̻c	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_plosive			
-d̻cʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+d̻cʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 d̻d	from_voiced	from_lamino-dental	from_plosive	to_voiced	to_alveolar	to_plosive			
 d̻d̠	from_voiced	from_lamino-dental	from_plosive	to_voiced	to_postalveolar	to_plosive			
 d̻d̤	from_voiced	from_lamino-dental	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -432,13 +432,13 @@ d̻g	from_voiced	from_lamino-dental	from_plosive	to_voiced	to_velar	to_plosive
 d̻g̈	from_voiced	from_lamino-dental	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 d̻g̊	from_voiced	from_lamino-dental	from_plosive	to_devoiced	to_velar	to_plosive			
 d̻k	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_plosive			
-d̻kʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+d̻kʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 d̻p	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_plosive			
-d̻pʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+d̻pʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 d̻q	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_plosive			
-d̻qʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+d̻qʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 d̻t	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_plosive			
-d̻tʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+d̻tʼ	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 d̻t̠	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 d̻t̪	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_dental	to_plosive			
 d̻t̻	from_voiced	from_lamino-dental	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -459,7 +459,7 @@ gb	from_voiced	from_velar	from_plosive	to_voiced	to_bilabial	to_plosive
 gb̤	from_voiced	from_velar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 gb̥	from_voiced	from_velar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 gc	from_voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive			
-gcʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+gcʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 gd	from_voiced	from_velar	from_plosive	to_voiced	to_alveolar	to_plosive			
 gd̠	from_voiced	from_velar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 gd̤	from_voiced	from_velar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -470,13 +470,13 @@ gd̻	from_voiced	from_velar	from_plosive	to_voiced	to_lamino-dental	to_plosive
 gg̈	from_voiced	from_velar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 gg̊	from_voiced	from_velar	from_plosive	to_devoiced	to_velar	to_plosive			
 gk	from_voiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive			
-gkʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+gkʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 gp	from_voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-gpʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+gpʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 gq	from_voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive			
-gqʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+gqʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 gt	from_voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-gtʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+gtʼ	from_voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 gt̠	from_voiced	from_velar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 gt̪	from_voiced	from_velar	from_plosive	to_voiceless	to_dental	to_plosive			
 gt̻	from_voiced	from_velar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -497,7 +497,7 @@ g̈b	from_breathy-voiced	from_velar	from_plosive	to_voiced	to_bilabial	to_plosiv
 g̈b̤	from_breathy-voiced	from_velar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 g̈b̥	from_breathy-voiced	from_velar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 g̈c	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive			
-g̈cʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+g̈cʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 g̈d	from_breathy-voiced	from_velar	from_plosive	to_voiced	to_alveolar	to_plosive			
 g̈d̠	from_breathy-voiced	from_velar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 g̈d̤	from_breathy-voiced	from_velar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -508,13 +508,13 @@ g̈d̻	from_breathy-voiced	from_velar	from_plosive	to_voiced	to_lamino-dental	to
 g̈g	from_breathy-voiced	from_velar	from_plosive	to_voiced	to_velar	to_plosive			
 g̈g̊	from_breathy-voiced	from_velar	from_plosive	to_devoiced	to_velar	to_plosive			
 g̈k	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive			
-g̈kʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+g̈kʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 g̈p	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-g̈pʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+g̈pʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 g̈q	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive			
-g̈qʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+g̈qʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 g̈t	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-g̈tʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+g̈tʼ	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 g̈t̠	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 g̈t̪	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_dental	to_plosive			
 g̈t̻	from_breathy-voiced	from_velar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -535,7 +535,7 @@ g̊b	from_devoiced	from_velar	from_plosive	to_voiced	to_bilabial	to_plosive
 g̊b̤	from_devoiced	from_velar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 g̊b̥	from_devoiced	from_velar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 g̊c	from_devoiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive			
-g̊cʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+g̊cʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 g̊d	from_devoiced	from_velar	from_plosive	to_voiced	to_alveolar	to_plosive			
 g̊d̠	from_devoiced	from_velar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 g̊d̤	from_devoiced	from_velar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -546,13 +546,13 @@ g̊d̻	from_devoiced	from_velar	from_plosive	to_voiced	to_lamino-dental	to_plosi
 g̊g	from_devoiced	from_velar	from_plosive	to_voiced	to_velar	to_plosive			
 g̊g̈	from_devoiced	from_velar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 g̊k	from_devoiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive			
-g̊kʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+g̊kʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 g̊p	from_devoiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-g̊pʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+g̊pʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 g̊q	from_devoiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive			
-g̊qʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+g̊qʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 g̊t	from_devoiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-g̊tʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+g̊tʼ	from_devoiced	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 g̊t̠	from_devoiced	from_velar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 g̊t̪	from_devoiced	from_velar	from_plosive	to_voiceless	to_dental	to_plosive			
 g̊t̻	from_devoiced	from_velar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -573,7 +573,7 @@ kb	from_voiceless	from_velar	from_plosive	to_voiced	to_bilabial	to_plosive
 kb̤	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 kb̥	from_voiceless	from_velar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 kc	from_voiceless	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive			
-kcʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+kcʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 kd	from_voiceless	from_velar	from_plosive	to_voiced	to_alveolar	to_plosive			
 kd̠	from_voiceless	from_velar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 kd̤	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -584,13 +584,13 @@ kd̻	from_voiceless	from_velar	from_plosive	to_voiced	to_lamino-dental	to_plosiv
 kg	from_voiceless	from_velar	from_plosive	to_voiced	to_velar	to_plosive			
 kg̈	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 kg̊	from_voiceless	from_velar	from_plosive	to_devoiced	to_velar	to_plosive			
-kkʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+kkʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 kp	from_voiceless	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-kpʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+kpʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 kq	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive			
-kqʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+kqʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 kt	from_voiceless	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ktʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ktʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 kt̠	from_voiceless	from_velar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 kt̪	from_voiceless	from_velar	from_plosive	to_voiceless	to_dental	to_plosive			
 kt̻	from_voiceless	from_velar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -607,49 +607,49 @@ kʔ	from_voiceless	from_velar	from_plosive	to_voiceless	to_glottal	to_plosive
 kʛ	from_voiceless	from_velar	from_plosive	to_voiced	to_uvular	to_implosive			
 kʛ̥	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_implosive			
 kʡ	from_voiceless	from_velar	from_plosive	to_voiceless	to_epiglottal	to_plosive			
-kʼb	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_bilabial	to_plosive			
-kʼb̤	from_voiceless	from_velar	from_ejective-plosive	to_breathy-voiced	to_bilabial	to_plosive			
-kʼb̥	from_voiceless	from_velar	from_ejective-plosive	to_devoiced	to_bilabial	to_plosive			
-kʼc	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_palatal	to_plosive			
-kʼcʼ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_palatal	to_ejective-plosive			
-kʼd	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_alveolar	to_plosive			
-kʼd̠	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_postalveolar	to_plosive			
-kʼd̤	from_voiceless	from_velar	from_ejective-plosive	to_breathy-voiced	to_alveolar	to_plosive			
-kʼd̪	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_dental	to_plosive			
-kʼd̪̈	from_voiceless	from_velar	from_ejective-plosive	to_breathy-voiced	to_dental	to_plosive			
-kʼd̰	from_voiceless	from_velar	from_ejective-plosive	to_creaky-voiced	to_alveolar	to_plosive			
-kʼd̻	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_lamino-dental	to_plosive			
-kʼg	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_velar	to_plosive			
-kʼg̈	from_voiceless	from_velar	from_ejective-plosive	to_breathy-voiced	to_velar	to_plosive			
-kʼg̊	from_voiceless	from_velar	from_ejective-plosive	to_devoiced	to_velar	to_plosive			
-kʼk	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_velar	to_plosive			
-kʼp	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_bilabial	to_plosive			
-kʼpʼ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_bilabial	to_ejective-plosive			
-kʼq	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_uvular	to_plosive			
-kʼqʼ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_uvular	to_ejective-plosive			
-kʼt	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_alveolar	to_plosive			
-kʼtʼ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_alveolar	to_ejective-plosive			
-kʼt̠	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_postalveolar	to_plosive			
-kʼt̪	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_dental	to_plosive			
-kʼt̻	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_lamino-dental	to_plosive			
-kʼɓ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_bilabial	to_implosive			
-kʼɖ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_retroflex	to_plosive			
-kʼɖ̤	from_voiceless	from_velar	from_ejective-plosive	to_breathy-voiced	to_retroflex	to_plosive			
-kʼɗ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_dental	to_implosive			
-kʼɟ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_palatal	to_plosive			
-kʼɠ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_velar	to_implosive			
-kʼɢ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_uvular	to_plosive			
-kʼʄ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_palatal	to_implosive			
-kʼʈ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_retroflex	to_plosive			
-kʼʔ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_glottal	to_plosive			
-kʼʛ	from_voiceless	from_velar	from_ejective-plosive	to_voiced	to_uvular	to_implosive			
-kʼʛ̥	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_uvular	to_implosive			
-kʼʡ	from_voiceless	from_velar	from_ejective-plosive	to_voiceless	to_epiglottal	to_plosive			
+kʼb	from_voiceless	from_velar	from_plosive	to_voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+kʼb̤	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+kʼb̥	from_voiceless	from_velar	from_plosive	to_devoiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+kʼc	from_voiceless	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective	
+kʼcʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective,to_ejection:to_ejective	
+kʼd	from_voiceless	from_velar	from_plosive	to_voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+kʼd̠	from_voiceless	from_velar	from_plosive	to_voiced	to_postalveolar	to_plosive		from_ejection:from_ejective	
+kʼd̤	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+kʼd̪	from_voiceless	from_velar	from_plosive	to_voiced	to_dental	to_plosive		from_ejection:from_ejective	
+kʼd̪̈	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_dental	to_plosive		from_ejection:from_ejective	
+kʼd̰	from_voiceless	from_velar	from_plosive	to_creaky-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+kʼd̻	from_voiceless	from_velar	from_plosive	to_voiced	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+kʼg	from_voiceless	from_velar	from_plosive	to_voiced	to_velar	to_plosive		from_ejection:from_ejective	
+kʼg̈	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_velar	to_plosive		from_ejection:from_ejective	
+kʼg̊	from_voiceless	from_velar	from_plosive	to_devoiced	to_velar	to_plosive		from_ejection:from_ejective	
+kʼk	from_voiceless	from_velar	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective	
+kʼp	from_voiceless	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective	
+kʼpʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective,to_ejection:to_ejective	
+kʼq	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective	
+kʼqʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective,to_ejection:to_ejective	
+kʼt	from_voiceless	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		from_ejection:from_ejective	
+kʼtʼ	from_voiceless	from_velar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+kʼt̠	from_voiceless	from_velar	from_plosive	to_voiceless	to_postalveolar	to_plosive		from_ejection:from_ejective	
+kʼt̪	from_voiceless	from_velar	from_plosive	to_voiceless	to_dental	to_plosive		from_ejection:from_ejective	
+kʼt̻	from_voiceless	from_velar	from_plosive	to_voiceless	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+kʼɓ	from_voiceless	from_velar	from_plosive	to_voiced	to_bilabial	to_implosive		from_ejection:from_ejective	
+kʼɖ	from_voiceless	from_velar	from_plosive	to_voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+kʼɖ̤	from_voiceless	from_velar	from_plosive	to_breathy-voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+kʼɗ	from_voiceless	from_velar	from_plosive	to_voiced	to_dental	to_implosive		from_ejection:from_ejective	
+kʼɟ	from_voiceless	from_velar	from_plosive	to_voiced	to_palatal	to_plosive		from_ejection:from_ejective	
+kʼɠ	from_voiceless	from_velar	from_plosive	to_voiced	to_velar	to_implosive		from_ejection:from_ejective	
+kʼɢ	from_voiceless	from_velar	from_plosive	to_voiced	to_uvular	to_plosive		from_ejection:from_ejective	
+kʼʄ	from_voiceless	from_velar	from_plosive	to_voiced	to_palatal	to_implosive		from_ejection:from_ejective	
+kʼʈ	from_voiceless	from_velar	from_plosive	to_voiceless	to_retroflex	to_plosive		from_ejection:from_ejective	
+kʼʔ	from_voiceless	from_velar	from_plosive	to_voiceless	to_glottal	to_plosive		from_ejection:from_ejective	
+kʼʛ	from_voiceless	from_velar	from_plosive	to_voiced	to_uvular	to_implosive		from_ejection:from_ejective	
+kʼʛ̥	from_voiceless	from_velar	from_plosive	to_voiceless	to_uvular	to_implosive		from_ejection:from_ejective	
+kʼʡ	from_voiceless	from_velar	from_plosive	to_voiceless	to_epiglottal	to_plosive		from_ejection:from_ejective	
 pb	from_voiceless	from_bilabial	from_plosive	to_voiced	to_bilabial	to_plosive			
 pb̤	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 pb̥	from_voiceless	from_bilabial	from_plosive	to_devoiced	to_bilabial	to_plosive			
 pc	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive			
-pcʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+pcʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 pd	from_voiceless	from_bilabial	from_plosive	to_voiced	to_alveolar	to_plosive			
 pd̠	from_voiceless	from_bilabial	from_plosive	to_voiced	to_postalveolar	to_plosive			
 pd̤	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -661,12 +661,12 @@ pg	from_voiceless	from_bilabial	from_plosive	to_voiced	to_velar	to_plosive
 pg̈	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 pg̊	from_voiceless	from_bilabial	from_plosive	to_devoiced	to_velar	to_plosive			
 pk	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive			
-pkʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
-ppʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+pkʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
+ppʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 pq	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive			
-pqʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+pqʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 pt	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ptʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ptʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 pt̠	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 pt̪	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_dental	to_plosive			
 pt̻	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -683,49 +683,49 @@ pʔ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_glottal	to_plosive
 pʛ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_uvular	to_implosive			
 pʛ̥	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_implosive			
 pʡ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_epiglottal	to_plosive			
-pʼb	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_bilabial	to_plosive			
-pʼb̤	from_voiceless	from_bilabial	from_ejective-plosive	to_breathy-voiced	to_bilabial	to_plosive			
-pʼb̥	from_voiceless	from_bilabial	from_ejective-plosive	to_devoiced	to_bilabial	to_plosive			
-pʼc	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_palatal	to_plosive			
-pʼcʼ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_palatal	to_ejective-plosive			
-pʼd	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_alveolar	to_plosive			
-pʼd̠	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_postalveolar	to_plosive			
-pʼd̤	from_voiceless	from_bilabial	from_ejective-plosive	to_breathy-voiced	to_alveolar	to_plosive			
-pʼd̪	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_dental	to_plosive			
-pʼd̪̈	from_voiceless	from_bilabial	from_ejective-plosive	to_breathy-voiced	to_dental	to_plosive			
-pʼd̰	from_voiceless	from_bilabial	from_ejective-plosive	to_creaky-voiced	to_alveolar	to_plosive			
-pʼd̻	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_lamino-dental	to_plosive			
-pʼg	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_velar	to_plosive			
-pʼg̈	from_voiceless	from_bilabial	from_ejective-plosive	to_breathy-voiced	to_velar	to_plosive			
-pʼg̊	from_voiceless	from_bilabial	from_ejective-plosive	to_devoiced	to_velar	to_plosive			
-pʼk	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_velar	to_plosive			
-pʼkʼ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_velar	to_ejective-plosive			
-pʼp	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_bilabial	to_plosive			
-pʼq	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_uvular	to_plosive			
-pʼqʼ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_uvular	to_ejective-plosive			
-pʼt	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_alveolar	to_plosive			
-pʼtʼ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_alveolar	to_ejective-plosive			
-pʼt̠	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_postalveolar	to_plosive			
-pʼt̪	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_dental	to_plosive			
-pʼt̻	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_lamino-dental	to_plosive			
-pʼɓ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_bilabial	to_implosive			
-pʼɖ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_retroflex	to_plosive			
-pʼɖ̤	from_voiceless	from_bilabial	from_ejective-plosive	to_breathy-voiced	to_retroflex	to_plosive			
-pʼɗ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_dental	to_implosive			
-pʼɟ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_palatal	to_plosive			
-pʼɠ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_velar	to_implosive			
-pʼɢ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_uvular	to_plosive			
-pʼʄ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_palatal	to_implosive			
-pʼʈ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_retroflex	to_plosive			
-pʼʔ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_glottal	to_plosive			
-pʼʛ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiced	to_uvular	to_implosive			
-pʼʛ̥	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_uvular	to_implosive			
-pʼʡ	from_voiceless	from_bilabial	from_ejective-plosive	to_voiceless	to_epiglottal	to_plosive			
+pʼb	from_voiceless	from_bilabial	from_plosive	to_voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+pʼb̤	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+pʼb̥	from_voiceless	from_bilabial	from_plosive	to_devoiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+pʼc	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective	
+pʼcʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+pʼd	from_voiceless	from_bilabial	from_plosive	to_voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+pʼd̠	from_voiceless	from_bilabial	from_plosive	to_voiced	to_postalveolar	to_plosive		from_ejection:from_ejective	
+pʼd̤	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+pʼd̪	from_voiceless	from_bilabial	from_plosive	to_voiced	to_dental	to_plosive		from_ejection:from_ejective	
+pʼd̪̈	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_dental	to_plosive		from_ejection:from_ejective	
+pʼd̰	from_voiceless	from_bilabial	from_plosive	to_creaky-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+pʼd̻	from_voiceless	from_bilabial	from_plosive	to_voiced	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+pʼg	from_voiceless	from_bilabial	from_plosive	to_voiced	to_velar	to_plosive		from_ejection:from_ejective	
+pʼg̈	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_velar	to_plosive		from_ejection:from_ejective	
+pʼg̊	from_voiceless	from_bilabial	from_plosive	to_devoiced	to_velar	to_plosive		from_ejection:from_ejective	
+pʼk	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective	
+pʼkʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+pʼp	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective	
+pʼq	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective	
+pʼqʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+pʼt	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		from_ejection:from_ejective	
+pʼtʼ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+pʼt̠	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_postalveolar	to_plosive		from_ejection:from_ejective	
+pʼt̪	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_dental	to_plosive		from_ejection:from_ejective	
+pʼt̻	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+pʼɓ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_bilabial	to_implosive		from_ejection:from_ejective	
+pʼɖ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+pʼɖ̤	from_voiceless	from_bilabial	from_plosive	to_breathy-voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+pʼɗ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_dental	to_implosive		from_ejection:from_ejective	
+pʼɟ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_palatal	to_plosive		from_ejection:from_ejective	
+pʼɠ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_velar	to_implosive		from_ejection:from_ejective	
+pʼɢ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_uvular	to_plosive		from_ejection:from_ejective	
+pʼʄ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_palatal	to_implosive		from_ejection:from_ejective	
+pʼʈ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_retroflex	to_plosive		from_ejection:from_ejective	
+pʼʔ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_glottal	to_plosive		from_ejection:from_ejective	
+pʼʛ	from_voiceless	from_bilabial	from_plosive	to_voiced	to_uvular	to_implosive		from_ejection:from_ejective	
+pʼʛ̥	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_uvular	to_implosive		from_ejection:from_ejective	
+pʼʡ	from_voiceless	from_bilabial	from_plosive	to_voiceless	to_epiglottal	to_plosive		from_ejection:from_ejective	
 qb	from_voiceless	from_uvular	from_plosive	to_voiced	to_bilabial	to_plosive			
 qb̤	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 qb̥	from_voiceless	from_uvular	from_plosive	to_devoiced	to_bilabial	to_plosive			
 qc	from_voiceless	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive			
-qcʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+qcʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 qd	from_voiceless	from_uvular	from_plosive	to_voiced	to_alveolar	to_plosive			
 qd̠	from_voiceless	from_uvular	from_plosive	to_voiced	to_postalveolar	to_plosive			
 qd̤	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -737,12 +737,12 @@ qg	from_voiceless	from_uvular	from_plosive	to_voiced	to_velar	to_plosive
 qg̈	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 qg̊	from_voiceless	from_uvular	from_plosive	to_devoiced	to_velar	to_plosive			
 qk	from_voiceless	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive			
-qkʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+qkʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 qp	from_voiceless	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive			
-qpʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
-qqʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+qpʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
+qqʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 qt	from_voiceless	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive			
-qtʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+qtʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 qt̠	from_voiceless	from_uvular	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 qt̪	from_voiceless	from_uvular	from_plosive	to_voiceless	to_dental	to_plosive			
 qt̻	from_voiceless	from_uvular	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -759,49 +759,49 @@ qʔ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_glottal	to_plosive
 qʛ	from_voiceless	from_uvular	from_plosive	to_voiced	to_uvular	to_implosive			
 qʛ̥	from_voiceless	from_uvular	from_plosive	to_voiceless	to_uvular	to_implosive			
 qʡ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_epiglottal	to_plosive			
-qʼb	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_bilabial	to_plosive			
-qʼb̤	from_voiceless	from_uvular	from_ejective-plosive	to_breathy-voiced	to_bilabial	to_plosive			
-qʼb̥	from_voiceless	from_uvular	from_ejective-plosive	to_devoiced	to_bilabial	to_plosive			
-qʼc	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_palatal	to_plosive			
-qʼcʼ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_palatal	to_ejective-plosive			
-qʼd	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_alveolar	to_plosive			
-qʼd̠	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_postalveolar	to_plosive			
-qʼd̤	from_voiceless	from_uvular	from_ejective-plosive	to_breathy-voiced	to_alveolar	to_plosive			
-qʼd̪	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_dental	to_plosive			
-qʼd̪̈	from_voiceless	from_uvular	from_ejective-plosive	to_breathy-voiced	to_dental	to_plosive			
-qʼd̰	from_voiceless	from_uvular	from_ejective-plosive	to_creaky-voiced	to_alveolar	to_plosive			
-qʼd̻	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_lamino-dental	to_plosive			
-qʼg	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_velar	to_plosive			
-qʼg̈	from_voiceless	from_uvular	from_ejective-plosive	to_breathy-voiced	to_velar	to_plosive			
-qʼg̊	from_voiceless	from_uvular	from_ejective-plosive	to_devoiced	to_velar	to_plosive			
-qʼk	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_velar	to_plosive			
-qʼkʼ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_velar	to_ejective-plosive			
-qʼp	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_bilabial	to_plosive			
-qʼpʼ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_bilabial	to_ejective-plosive			
-qʼq	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_uvular	to_plosive			
-qʼt	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_alveolar	to_plosive			
-qʼtʼ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_alveolar	to_ejective-plosive			
-qʼt̠	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_postalveolar	to_plosive			
-qʼt̪	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_dental	to_plosive			
-qʼt̻	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_lamino-dental	to_plosive			
-qʼɓ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_bilabial	to_implosive			
-qʼɖ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_retroflex	to_plosive			
-qʼɖ̤	from_voiceless	from_uvular	from_ejective-plosive	to_breathy-voiced	to_retroflex	to_plosive			
-qʼɗ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_dental	to_implosive			
-qʼɟ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_palatal	to_plosive			
-qʼɠ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_velar	to_implosive			
-qʼɢ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_uvular	to_plosive			
-qʼʄ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_palatal	to_implosive			
-qʼʈ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_retroflex	to_plosive			
-qʼʔ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_glottal	to_plosive			
-qʼʛ	from_voiceless	from_uvular	from_ejective-plosive	to_voiced	to_uvular	to_implosive			
-qʼʛ̥	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_uvular	to_implosive			
-qʼʡ	from_voiceless	from_uvular	from_ejective-plosive	to_voiceless	to_epiglottal	to_plosive			
+qʼb	from_voiceless	from_uvular	from_plosive	to_voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+qʼb̤	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+qʼb̥	from_voiceless	from_uvular	from_plosive	to_devoiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+qʼc	from_voiceless	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective	
+qʼcʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+qʼd	from_voiceless	from_uvular	from_plosive	to_voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+qʼd̠	from_voiceless	from_uvular	from_plosive	to_voiced	to_postalveolar	to_plosive		from_ejection:from_ejective	
+qʼd̤	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+qʼd̪	from_voiceless	from_uvular	from_plosive	to_voiced	to_dental	to_plosive		from_ejection:from_ejective	
+qʼd̪̈	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_dental	to_plosive		from_ejection:from_ejective	
+qʼd̰	from_voiceless	from_uvular	from_plosive	to_creaky-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+qʼd̻	from_voiceless	from_uvular	from_plosive	to_voiced	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+qʼg	from_voiceless	from_uvular	from_plosive	to_voiced	to_velar	to_plosive		from_ejection:from_ejective	
+qʼg̈	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_velar	to_plosive		from_ejection:from_ejective	
+qʼg̊	from_voiceless	from_uvular	from_plosive	to_devoiced	to_velar	to_plosive		from_ejection:from_ejective	
+qʼk	from_voiceless	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective	
+qʼkʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+qʼp	from_voiceless	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective	
+qʼpʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+qʼq	from_voiceless	from_uvular	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective	
+qʼt	from_voiceless	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive		from_ejection:from_ejective	
+qʼtʼ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+qʼt̠	from_voiceless	from_uvular	from_plosive	to_voiceless	to_postalveolar	to_plosive		from_ejection:from_ejective	
+qʼt̪	from_voiceless	from_uvular	from_plosive	to_voiceless	to_dental	to_plosive		from_ejection:from_ejective	
+qʼt̻	from_voiceless	from_uvular	from_plosive	to_voiceless	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+qʼɓ	from_voiceless	from_uvular	from_plosive	to_voiced	to_bilabial	to_implosive		from_ejection:from_ejective	
+qʼɖ	from_voiceless	from_uvular	from_plosive	to_voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+qʼɖ̤	from_voiceless	from_uvular	from_plosive	to_breathy-voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+qʼɗ	from_voiceless	from_uvular	from_plosive	to_voiced	to_dental	to_implosive		from_ejection:from_ejective	
+qʼɟ	from_voiceless	from_uvular	from_plosive	to_voiced	to_palatal	to_plosive		from_ejection:from_ejective	
+qʼɠ	from_voiceless	from_uvular	from_plosive	to_voiced	to_velar	to_implosive		from_ejection:from_ejective	
+qʼɢ	from_voiceless	from_uvular	from_plosive	to_voiced	to_uvular	to_plosive		from_ejection:from_ejective	
+qʼʄ	from_voiceless	from_uvular	from_plosive	to_voiced	to_palatal	to_implosive		from_ejection:from_ejective	
+qʼʈ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_retroflex	to_plosive		from_ejection:from_ejective	
+qʼʔ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_glottal	to_plosive		from_ejection:from_ejective	
+qʼʛ	from_voiceless	from_uvular	from_plosive	to_voiced	to_uvular	to_implosive		from_ejection:from_ejective	
+qʼʛ̥	from_voiceless	from_uvular	from_plosive	to_voiceless	to_uvular	to_implosive		from_ejection:from_ejective	
+qʼʡ	from_voiceless	from_uvular	from_plosive	to_voiceless	to_epiglottal	to_plosive		from_ejection:from_ejective	
 tb	from_voiceless	from_alveolar	from_plosive	to_voiced	to_bilabial	to_plosive			
 tb̤	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 tb̥	from_voiceless	from_alveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 tc	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-tcʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+tcʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 td	from_voiceless	from_alveolar	from_plosive	to_voiced	to_alveolar	to_plosive			
 td̠	from_voiceless	from_alveolar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 td̤	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -813,12 +813,12 @@ tg	from_voiceless	from_alveolar	from_plosive	to_voiced	to_velar	to_plosive
 tg̈	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 tg̊	from_voiceless	from_alveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 tk	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-tkʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+tkʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 tp	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-tpʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+tpʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 tq	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-tqʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
-ttʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+tqʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
+ttʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 tt̠	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 tt̪	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 tt̻	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -836,49 +836,49 @@ tʙ̥	from_unvoiced	from_alveolar	from_plosive	to_unvoiced	to_bilabial	to_trill
 tʛ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_uvular	to_implosive			
 tʛ̥	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_implosive			
 tʡ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_epiglottal	to_plosive			
-tʼb	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_bilabial	to_plosive			
-tʼb̤	from_voiceless	from_alveolar	from_ejective-plosive	to_breathy-voiced	to_bilabial	to_plosive			
-tʼb̥	from_voiceless	from_alveolar	from_ejective-plosive	to_devoiced	to_bilabial	to_plosive			
-tʼc	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_palatal	to_plosive			
-tʼcʼ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_palatal	to_ejective-plosive			
-tʼd	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_alveolar	to_plosive			
-tʼd̠	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_postalveolar	to_plosive			
-tʼd̤	from_voiceless	from_alveolar	from_ejective-plosive	to_breathy-voiced	to_alveolar	to_plosive			
-tʼd̪	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_dental	to_plosive			
-tʼd̪̈	from_voiceless	from_alveolar	from_ejective-plosive	to_breathy-voiced	to_dental	to_plosive			
-tʼd̰	from_voiceless	from_alveolar	from_ejective-plosive	to_creaky-voiced	to_alveolar	to_plosive			
-tʼd̻	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_lamino-dental	to_plosive			
-tʼg	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_velar	to_plosive			
-tʼg̈	from_voiceless	from_alveolar	from_ejective-plosive	to_breathy-voiced	to_velar	to_plosive			
-tʼg̊	from_voiceless	from_alveolar	from_ejective-plosive	to_devoiced	to_velar	to_plosive			
-tʼk	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_velar	to_plosive			
-tʼkʼ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_velar	to_ejective-plosive			
-tʼp	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_bilabial	to_plosive			
-tʼpʼ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_bilabial	to_ejective-plosive			
-tʼq	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_uvular	to_plosive			
-tʼqʼ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_uvular	to_ejective-plosive			
-tʼt	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_alveolar	to_plosive			
-tʼt̠	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_postalveolar	to_plosive			
-tʼt̪	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_dental	to_plosive			
-tʼt̻	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_lamino-dental	to_plosive			
-tʼɓ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_bilabial	to_implosive			
-tʼɖ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_retroflex	to_plosive			
-tʼɖ̤	from_voiceless	from_alveolar	from_ejective-plosive	to_breathy-voiced	to_retroflex	to_plosive			
-tʼɗ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_dental	to_implosive			
-tʼɟ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_palatal	to_plosive			
-tʼɠ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_velar	to_implosive			
-tʼɢ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_uvular	to_plosive			
-tʼʄ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_palatal	to_implosive			
-tʼʈ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_retroflex	to_plosive			
-tʼʔ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_glottal	to_plosive			
-tʼʛ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiced	to_uvular	to_implosive			
-tʼʛ̥	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_uvular	to_implosive			
-tʼʡ	from_voiceless	from_alveolar	from_ejective-plosive	to_voiceless	to_epiglottal	to_plosive			
+tʼb	from_voiceless	from_alveolar	from_plosive	to_voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+tʼb̤	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+tʼb̥	from_voiceless	from_alveolar	from_plosive	to_devoiced	to_bilabial	to_plosive		from_ejection:from_ejective	
+tʼc	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		from_ejection:from_ejective	
+tʼcʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+tʼd	from_voiceless	from_alveolar	from_plosive	to_voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+tʼd̠	from_voiceless	from_alveolar	from_plosive	to_voiced	to_postalveolar	to_plosive		from_ejection:from_ejective	
+tʼd̤	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+tʼd̪	from_voiceless	from_alveolar	from_plosive	to_voiced	to_dental	to_plosive		from_ejection:from_ejective	
+tʼd̪̈	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_dental	to_plosive		from_ejection:from_ejective	
+tʼd̰	from_voiceless	from_alveolar	from_plosive	to_creaky-voiced	to_alveolar	to_plosive		from_ejection:from_ejective	
+tʼd̻	from_voiceless	from_alveolar	from_plosive	to_voiced	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+tʼg	from_voiceless	from_alveolar	from_plosive	to_voiced	to_velar	to_plosive		from_ejection:from_ejective	
+tʼg̈	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive		from_ejection:from_ejective	
+tʼg̊	from_voiceless	from_alveolar	from_plosive	to_devoiced	to_velar	to_plosive		from_ejection:from_ejective	
+tʼk	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		from_ejection:from_ejective	
+tʼkʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+tʼp	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		from_ejection:from_ejective	
+tʼpʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+tʼq	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		from_ejection:from_ejective	
+tʼqʼ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective,from_ejection:from_ejective	
+tʼt	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		from_ejection:from_ejective	
+tʼt̠	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_postalveolar	to_plosive		from_ejection:from_ejective	
+tʼt̪	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_dental	to_plosive		from_ejection:from_ejective	
+tʼt̻	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive		from_ejection:from_ejective	
+tʼɓ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_bilabial	to_implosive		from_ejection:from_ejective	
+tʼɖ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+tʼɖ̤	from_voiceless	from_alveolar	from_plosive	to_breathy-voiced	to_retroflex	to_plosive		from_ejection:from_ejective	
+tʼɗ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_dental	to_implosive		from_ejection:from_ejective	
+tʼɟ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_palatal	to_plosive		from_ejection:from_ejective	
+tʼɠ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_velar	to_implosive		from_ejection:from_ejective	
+tʼɢ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_uvular	to_plosive		from_ejection:from_ejective	
+tʼʄ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_palatal	to_implosive		from_ejection:from_ejective	
+tʼʈ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_retroflex	to_plosive		from_ejection:from_ejective	
+tʼʔ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_glottal	to_plosive		from_ejection:from_ejective	
+tʼʛ	from_voiceless	from_alveolar	from_plosive	to_voiced	to_uvular	to_implosive		from_ejection:from_ejective	
+tʼʛ̥	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_uvular	to_implosive		from_ejection:from_ejective	
+tʼʡ	from_voiceless	from_alveolar	from_plosive	to_voiceless	to_epiglottal	to_plosive		from_ejection:from_ejective	
 t̠b	from_voiceless	from_postalveolar	from_plosive	to_voiced	to_bilabial	to_plosive			
 t̠b̤	from_voiceless	from_postalveolar	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 t̠b̥	from_voiceless	from_postalveolar	from_plosive	to_devoiced	to_bilabial	to_plosive			
 t̠c	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_plosive			
-t̠cʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+t̠cʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 t̠d	from_voiceless	from_postalveolar	from_plosive	to_voiced	to_alveolar	to_plosive			
 t̠d̠	from_voiceless	from_postalveolar	from_plosive	to_voiced	to_postalveolar	to_plosive			
 t̠d̤	from_voiceless	from_postalveolar	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -890,13 +890,13 @@ t̠g	from_voiceless	from_postalveolar	from_plosive	to_voiced	to_velar	to_plosive
 t̠g̈	from_voiceless	from_postalveolar	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 t̠g̊	from_voiceless	from_postalveolar	from_plosive	to_devoiced	to_velar	to_plosive			
 t̠k	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_velar	to_plosive			
-t̠kʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+t̠kʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 t̠p	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_plosive			
-t̠pʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+t̠pʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 t̠q	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_plosive			
-t̠qʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+t̠qʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 t̠t	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_plosive			
-t̠tʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+t̠tʼ	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 t̠t̪	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_dental	to_plosive			
 t̠t̻	from_voiceless	from_postalveolar	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
 t̠ɓ	from_voiceless	from_postalveolar	from_plosive	to_voiced	to_bilabial	to_implosive			
@@ -916,7 +916,7 @@ t̪b	from_voiceless	from_dental	from_plosive	to_voiced	to_bilabial	to_plosive
 t̪b̤	from_voiceless	from_dental	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 t̪b̥	from_voiceless	from_dental	from_plosive	to_devoiced	to_bilabial	to_plosive			
 t̪c	from_voiceless	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive			
-t̪cʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+t̪cʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 t̪d	from_voiceless	from_dental	from_plosive	to_voiced	to_alveolar	to_plosive			
 t̪d̠	from_voiceless	from_dental	from_plosive	to_voiced	to_postalveolar	to_plosive			
 t̪d̤	from_voiceless	from_dental	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -928,13 +928,13 @@ t̪g	from_voiceless	from_dental	from_plosive	to_voiced	to_velar	to_plosive
 t̪g̈	from_voiceless	from_dental	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 t̪g̊	from_voiceless	from_dental	from_plosive	to_devoiced	to_velar	to_plosive			
 t̪k	from_voiceless	from_dental	from_plosive	to_voiceless	to_velar	to_plosive			
-t̪kʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+t̪kʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 t̪p	from_voiceless	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive			
-t̪pʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+t̪pʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 t̪q	from_voiceless	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive			
-t̪qʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+t̪qʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 t̪t	from_voiceless	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive			
-t̪tʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+t̪tʼ	from_voiceless	from_dental	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 t̪t̠	from_voiceless	from_dental	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 t̪t̻	from_voiceless	from_dental	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
 t̪ɓ	from_voiceless	from_dental	from_plosive	to_voiced	to_bilabial	to_implosive			
@@ -954,7 +954,7 @@ t̻b	from_voiceless	from_lamino-dental	from_plosive	to_voiced	to_bilabial	to_plo
 t̻b̤	from_voiceless	from_lamino-dental	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 t̻b̥	from_voiceless	from_lamino-dental	from_plosive	to_devoiced	to_bilabial	to_plosive			
 t̻c	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_plosive			
-t̻cʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+t̻cʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 t̻d	from_voiceless	from_lamino-dental	from_plosive	to_voiced	to_alveolar	to_plosive			
 t̻d̠	from_voiceless	from_lamino-dental	from_plosive	to_voiced	to_postalveolar	to_plosive			
 t̻d̤	from_voiceless	from_lamino-dental	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -966,13 +966,13 @@ t̻g	from_voiceless	from_lamino-dental	from_plosive	to_voiced	to_velar	to_plosiv
 t̻g̈	from_voiceless	from_lamino-dental	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 t̻g̊	from_voiceless	from_lamino-dental	from_plosive	to_devoiced	to_velar	to_plosive			
 t̻k	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_plosive			
-t̻kʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+t̻kʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 t̻p	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_plosive			
-t̻pʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+t̻pʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 t̻q	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_plosive			
-t̻qʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+t̻qʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 t̻t	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_plosive			
-t̻tʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+t̻tʼ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 t̻t̠	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 t̻t̪	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_dental	to_plosive			
 t̻ɓ	from_voiceless	from_lamino-dental	from_plosive	to_voiced	to_bilabial	to_implosive			
@@ -992,7 +992,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɓb̤	from_voiced	from_bilabial	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɓb̥	from_voiced	from_bilabial	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ɓc	from_voiced	from_bilabial	from_implosive	to_voiceless	to_palatal	to_plosive			
-ɓcʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɓcʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɓd	from_voiced	from_bilabial	from_implosive	to_voiced	to_alveolar	to_plosive			
 ɓd̠	from_voiced	from_bilabial	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ɓd̤	from_voiced	from_bilabial	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1004,13 +1004,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɓg̈	from_voiced	from_bilabial	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ɓg̊	from_voiced	from_bilabial	from_implosive	to_devoiced	to_velar	to_plosive			
 ɓk	from_voiced	from_bilabial	from_implosive	to_voiceless	to_velar	to_plosive			
-ɓkʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ɓkʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɓp	from_voiced	from_bilabial	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ɓpʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɓpʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɓq	from_voiced	from_bilabial	from_implosive	to_voiceless	to_uvular	to_plosive			
-ɓqʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɓqʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɓt	from_voiced	from_bilabial	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ɓtʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɓtʼ	from_voiced	from_bilabial	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɓt̠	from_voiced	from_bilabial	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ɓt̪	from_voiced	from_bilabial	from_implosive	to_voiceless	to_dental	to_plosive			
 ɓt̻	from_voiced	from_bilabial	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1030,7 +1030,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɖb̤	from_voiced	from_retroflex	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɖb̥	from_voiced	from_retroflex	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ɖc	from_voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive			
-ɖcʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɖcʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɖd	from_voiced	from_retroflex	from_plosive	to_voiced	to_alveolar	to_plosive			
 ɖd̠	from_voiced	from_retroflex	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ɖd̤	from_voiced	from_retroflex	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1042,13 +1042,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɖg̈	from_voiced	from_retroflex	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ɖg̊	from_voiced	from_retroflex	from_plosive	to_devoiced	to_velar	to_plosive			
 ɖk	from_voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive			
-ɖkʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ɖkʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɖp	from_voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ɖpʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɖpʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɖq	from_voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive			
-ɖqʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɖqʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɖt	from_voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ɖtʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɖtʼ	from_voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɖt̠	from_voiced	from_retroflex	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ɖt̪	from_voiced	from_retroflex	from_plosive	to_voiceless	to_dental	to_plosive			
 ɖt̻	from_voiced	from_retroflex	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1068,7 +1068,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɖ̤b̤	from_breathy-voiced	from_retroflex	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɖ̤b̥	from_breathy-voiced	from_retroflex	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ɖ̤c	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive			
-ɖ̤cʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɖ̤cʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɖ̤d	from_breathy-voiced	from_retroflex	from_plosive	to_voiced	to_alveolar	to_plosive			
 ɖ̤d̠	from_breathy-voiced	from_retroflex	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ɖ̤d̤	from_breathy-voiced	from_retroflex	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1080,13 +1080,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɖ̤g̈	from_breathy-voiced	from_retroflex	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ɖ̤g̊	from_breathy-voiced	from_retroflex	from_plosive	to_devoiced	to_velar	to_plosive			
 ɖ̤k	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive			
-ɖ̤kʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ɖ̤kʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɖ̤p	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ɖ̤pʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɖ̤pʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɖ̤q	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive			
-ɖ̤qʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɖ̤qʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɖ̤t	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ɖ̤tʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɖ̤tʼ	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɖ̤t̠	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ɖ̤t̪	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_dental	to_plosive			
 ɖ̤t̻	from_breathy-voiced	from_retroflex	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1106,7 +1106,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɗb̤	from_voiced	from_dental	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɗb̥	from_voiced	from_dental	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ɗc	from_voiced	from_dental	from_implosive	to_voiceless	to_palatal	to_plosive			
-ɗcʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɗcʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɗd	from_voiced	from_dental	from_implosive	to_voiced	to_alveolar	to_plosive			
 ɗd̠	from_voiced	from_dental	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ɗd̤	from_voiced	from_dental	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1118,13 +1118,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɗg̈	from_voiced	from_dental	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ɗg̊	from_voiced	from_dental	from_implosive	to_devoiced	to_velar	to_plosive			
 ɗk	from_voiced	from_dental	from_implosive	to_voiceless	to_velar	to_plosive			
-ɗkʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ɗkʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɗp	from_voiced	from_dental	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ɗpʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɗpʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɗq	from_voiced	from_dental	from_implosive	to_voiceless	to_uvular	to_plosive			
-ɗqʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɗqʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɗt	from_voiced	from_dental	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ɗtʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɗtʼ	from_voiced	from_dental	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɗt̠	from_voiced	from_dental	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ɗt̪	from_voiced	from_dental	from_implosive	to_voiceless	to_dental	to_plosive			
 ɗt̻	from_voiced	from_dental	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1144,7 +1144,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɟb̤	from_voiced	from_palatal	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɟb̥	from_voiced	from_palatal	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ɟc	from_voiced	from_palatal	from_plosive	to_voiceless	to_palatal	to_plosive			
-ɟcʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɟcʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɟd	from_voiced	from_palatal	from_plosive	to_voiced	to_alveolar	to_plosive			
 ɟd̠	from_voiced	from_palatal	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ɟd̤	from_voiced	from_palatal	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1156,13 +1156,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɟg̈	from_voiced	from_palatal	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ɟg̊	from_voiced	from_palatal	from_plosive	to_devoiced	to_velar	to_plosive			
 ɟk	from_voiced	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive			
-ɟkʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ɟkʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɟp	from_voiced	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ɟpʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɟpʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɟq	from_voiced	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive			
-ɟqʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɟqʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɟt	from_voiced	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ɟtʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɟtʼ	from_voiced	from_palatal	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɟt̠	from_voiced	from_palatal	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ɟt̪	from_voiced	from_palatal	from_plosive	to_voiceless	to_dental	to_plosive			
 ɟt̻	from_voiced	from_palatal	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1182,7 +1182,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɠb̤	from_voiced	from_velar	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɠb̥	from_voiced	from_velar	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ɠc	from_voiced	from_velar	from_implosive	to_voiceless	to_palatal	to_plosive			
-ɠcʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɠcʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɠd	from_voiced	from_velar	from_implosive	to_voiced	to_alveolar	to_plosive			
 ɠd̠	from_voiced	from_velar	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ɠd̤	from_voiced	from_velar	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1194,13 +1194,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɠg̈	from_voiced	from_velar	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ɠg̊	from_voiced	from_velar	from_implosive	to_devoiced	to_velar	to_plosive			
 ɠk	from_voiced	from_velar	from_implosive	to_voiceless	to_velar	to_plosive			
-ɠkʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ɠkʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɠp	from_voiced	from_velar	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ɠpʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɠpʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɠq	from_voiced	from_velar	from_implosive	to_voiceless	to_uvular	to_plosive			
-ɠqʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɠqʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɠt	from_voiced	from_velar	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ɠtʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɠtʼ	from_voiced	from_velar	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɠt̠	from_voiced	from_velar	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ɠt̪	from_voiced	from_velar	from_implosive	to_voiceless	to_dental	to_plosive			
 ɠt̻	from_voiced	from_velar	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1220,7 +1220,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɢb̤	from_voiced	from_uvular	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ɢb̥	from_voiced	from_uvular	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ɢc	from_voiced	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive			
-ɢcʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ɢcʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ɢd	from_voiced	from_uvular	from_plosive	to_voiced	to_alveolar	to_plosive			
 ɢd̠	from_voiced	from_uvular	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ɢd̤	from_voiced	from_uvular	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1232,13 +1232,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ɢg̈	from_voiced	from_uvular	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ɢg̊	from_voiced	from_uvular	from_plosive	to_devoiced	to_velar	to_plosive			
 ɢk	from_voiced	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive			
-ɢkʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ɢkʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ɢp	from_voiced	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ɢpʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ɢpʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ɢq	from_voiced	from_uvular	from_plosive	to_voiceless	to_uvular	to_plosive			
-ɢqʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ɢqʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ɢt	from_voiced	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ɢtʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ɢtʼ	from_voiced	from_uvular	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ɢt̠	from_voiced	from_uvular	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ɢt̪	from_voiced	from_uvular	from_plosive	to_voiceless	to_dental	to_plosive			
 ɢt̻	from_voiced	from_uvular	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1258,7 +1258,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʄb̤	from_voiced	from_palatal	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʄb̥	from_voiced	from_palatal	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ʄc	from_voiced	from_palatal	from_implosive	to_voiceless	to_palatal	to_plosive			
-ʄcʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʄcʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʄd	from_voiced	from_palatal	from_implosive	to_voiced	to_alveolar	to_plosive			
 ʄd̠	from_voiced	from_palatal	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ʄd̤	from_voiced	from_palatal	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1270,13 +1270,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʄg̈	from_voiced	from_palatal	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ʄg̊	from_voiced	from_palatal	from_implosive	to_devoiced	to_velar	to_plosive			
 ʄk	from_voiced	from_palatal	from_implosive	to_voiceless	to_velar	to_plosive			
-ʄkʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ʄkʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʄp	from_voiced	from_palatal	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ʄpʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʄpʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʄq	from_voiced	from_palatal	from_implosive	to_voiceless	to_uvular	to_plosive			
-ʄqʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʄqʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʄt	from_voiced	from_palatal	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ʄtʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʄtʼ	from_voiced	from_palatal	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʄt̠	from_voiced	from_palatal	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ʄt̪	from_voiced	from_palatal	from_implosive	to_voiceless	to_dental	to_plosive			
 ʄt̻	from_voiced	from_palatal	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1296,7 +1296,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʈb̤	from_voiceless	from_retroflex	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʈb̥	from_voiceless	from_retroflex	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ʈc	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive			
-ʈcʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʈcʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʈd	from_voiceless	from_retroflex	from_plosive	to_voiced	to_alveolar	to_plosive			
 ʈd̠	from_voiceless	from_retroflex	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ʈd̤	from_voiceless	from_retroflex	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1308,13 +1308,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʈg̈	from_voiceless	from_retroflex	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ʈg̊	from_voiceless	from_retroflex	from_plosive	to_devoiced	to_velar	to_plosive			
 ʈk	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive			
-ʈkʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ʈkʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʈp	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ʈpʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʈpʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʈq	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive			
-ʈqʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʈqʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʈt	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ʈtʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʈtʼ	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʈt̠	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ʈt̪	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_dental	to_plosive			
 ʈt̻	from_voiceless	from_retroflex	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1334,7 +1334,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʔb̤	from_voiceless	from_glottal	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʔb̥	from_voiceless	from_glottal	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ʔc	from_voiceless	from_glottal	from_plosive	to_voiceless	to_palatal	to_plosive			
-ʔcʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʔcʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʔd	from_voiceless	from_glottal	from_plosive	to_voiced	to_alveolar	to_plosive			
 ʔd̠	from_voiceless	from_glottal	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ʔd̤	from_voiceless	from_glottal	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1346,13 +1346,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʔg̈	from_voiceless	from_glottal	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ʔg̊	from_voiceless	from_glottal	from_plosive	to_devoiced	to_velar	to_plosive			
 ʔk	from_voiceless	from_glottal	from_plosive	to_voiceless	to_velar	to_plosive			
-ʔkʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ʔkʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʔp	from_voiceless	from_glottal	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ʔpʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʔpʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʔq	from_voiceless	from_glottal	from_plosive	to_voiceless	to_uvular	to_plosive			
-ʔqʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʔqʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʔt	from_voiceless	from_glottal	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ʔtʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʔtʼ	from_voiceless	from_glottal	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʔt̠	from_voiceless	from_glottal	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ʔt̪	from_voiceless	from_glottal	from_plosive	to_voiceless	to_dental	to_plosive			
 ʔt̻	from_voiceless	from_glottal	from_plosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1372,7 +1372,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʛb̤	from_voiced	from_uvular	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʛb̥	from_voiced	from_uvular	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ʛc	from_voiced	from_uvular	from_implosive	to_voiceless	to_palatal	to_plosive			
-ʛcʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʛcʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʛd	from_voiced	from_uvular	from_implosive	to_voiced	to_alveolar	to_plosive			
 ʛd̠	from_voiced	from_uvular	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ʛd̤	from_voiced	from_uvular	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1384,13 +1384,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʛg̈	from_voiced	from_uvular	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ʛg̊	from_voiced	from_uvular	from_implosive	to_devoiced	to_velar	to_plosive			
 ʛk	from_voiced	from_uvular	from_implosive	to_voiceless	to_velar	to_plosive			
-ʛkʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ʛkʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʛp	from_voiced	from_uvular	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ʛpʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʛpʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʛq	from_voiced	from_uvular	from_implosive	to_voiceless	to_uvular	to_plosive			
-ʛqʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʛqʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʛt	from_voiced	from_uvular	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ʛtʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʛtʼ	from_voiced	from_uvular	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʛt̠	from_voiced	from_uvular	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ʛt̪	from_voiced	from_uvular	from_implosive	to_voiceless	to_dental	to_plosive			
 ʛt̻	from_voiced	from_uvular	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1410,7 +1410,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʛ̥b̤	from_voiceless	from_uvular	from_implosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʛ̥b̥	from_voiceless	from_uvular	from_implosive	to_devoiced	to_bilabial	to_plosive			
 ʛ̥c	from_voiceless	from_uvular	from_implosive	to_voiceless	to_palatal	to_plosive			
-ʛ̥cʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʛ̥cʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʛ̥d	from_voiceless	from_uvular	from_implosive	to_voiced	to_alveolar	to_plosive			
 ʛ̥d̠	from_voiceless	from_uvular	from_implosive	to_voiced	to_postalveolar	to_plosive			
 ʛ̥d̤	from_voiceless	from_uvular	from_implosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1422,13 +1422,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʛ̥g̈	from_voiceless	from_uvular	from_implosive	to_breathy-voiced	to_velar	to_plosive			
 ʛ̥g̊	from_voiceless	from_uvular	from_implosive	to_devoiced	to_velar	to_plosive			
 ʛ̥k	from_voiceless	from_uvular	from_implosive	to_voiceless	to_velar	to_plosive			
-ʛ̥kʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_velar	to_ejective-plosive			
+ʛ̥kʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʛ̥p	from_voiceless	from_uvular	from_implosive	to_voiceless	to_bilabial	to_plosive			
-ʛ̥pʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʛ̥pʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʛ̥q	from_voiceless	from_uvular	from_implosive	to_voiceless	to_uvular	to_plosive			
-ʛ̥qʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʛ̥qʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʛ̥t	from_voiceless	from_uvular	from_implosive	to_voiceless	to_alveolar	to_plosive			
-ʛ̥tʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʛ̥tʼ	from_voiceless	from_uvular	from_implosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʛ̥t̠	from_voiceless	from_uvular	from_implosive	to_voiceless	to_postalveolar	to_plosive			
 ʛ̥t̪	from_voiceless	from_uvular	from_implosive	to_voiceless	to_dental	to_plosive			
 ʛ̥t̻	from_voiceless	from_uvular	from_implosive	to_voiceless	to_lamino-dental	to_plosive			
@@ -1448,7 +1448,7 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʡb̤	from_voiceless	from_epiglottal	from_plosive	to_breathy-voiced	to_bilabial	to_plosive			
 ʡb̥	from_voiceless	from_epiglottal	from_plosive	to_devoiced	to_bilabial	to_plosive			
 ʡc	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_palatal	to_plosive			
-ʡcʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_palatal	to_ejective-plosive			
+ʡcʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_palatal	to_plosive		to_ejection:to_ejective	
 ʡd	from_voiceless	from_epiglottal	from_plosive	to_voiced	to_alveolar	to_plosive			
 ʡd̠	from_voiceless	from_epiglottal	from_plosive	to_voiced	to_postalveolar	to_plosive			
 ʡd̤	from_voiceless	from_epiglottal	from_plosive	to_breathy-voiced	to_alveolar	to_plosive			
@@ -1460,13 +1460,13 @@ t̻ʡ	from_voiceless	from_lamino-dental	from_plosive	to_voiceless	to_epiglottal	
 ʡg̈	from_voiceless	from_epiglottal	from_plosive	to_breathy-voiced	to_velar	to_plosive			
 ʡg̊	from_voiceless	from_epiglottal	from_plosive	to_devoiced	to_velar	to_plosive			
 ʡk	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_velar	to_plosive			
-ʡkʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_velar	to_ejective-plosive			
+ʡkʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_velar	to_plosive		to_ejection:to_ejective	
 ʡp	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_bilabial	to_plosive			
-ʡpʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_bilabial	to_ejective-plosive			
+ʡpʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_bilabial	to_plosive		to_ejection:to_ejective	
 ʡq	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_uvular	to_plosive			
-ʡqʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_uvular	to_ejective-plosive			
+ʡqʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_uvular	to_plosive		to_ejection:to_ejective	
 ʡt	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_alveolar	to_plosive			
-ʡtʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_alveolar	to_ejective-plosive			
+ʡtʼ	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_alveolar	to_plosive		to_ejection:to_ejective	
 ʡt̠	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_postalveolar	to_plosive			
 ʡt̪	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_dental	to_plosive			
 ʡt̻	from_voiceless	from_epiglottal	from_plosive	to_voiceless	to_lamino-dental	to_plosive			

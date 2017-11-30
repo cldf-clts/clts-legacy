@@ -54,9 +54,7 @@ def itertable(table):
 
 def translate(string, source_system, target_system):
     res = []
-    for snd in source_system(string):
-        res.append(target_system.get(snd))
-    return ' '.join(['{0}'.format(target_system.get(snd)) for snd in source_system(string)])
+    return ' '.join(['{0}'.format(target_system.get(snd, '?')) for snd in source_system(string)])
 
 
 class CLTS(object):
@@ -119,7 +117,7 @@ class CLTS(object):
                 sound = cls(clts=self, **item)
                 # make sure this does not take too long
                 for key, value in item.items():
-                    if value and value not in {'grapheme', 'note', 'alias'}:
+                    if key not in {'grapheme', 'note', 'alias'} and value and value not in self._feature_values:
                         self._feature_values[value] = key
                 self._sounds[item['grapheme']] = sound
                 if not sound.alias:
@@ -196,8 +194,8 @@ class CLTS(object):
 
         :param string: A one-symbol string in NFD
 
-        Note
-        ----
+        Notes
+        -----
         Strategy is rather simple: we determine the base part of a string and
         then search left and right of this part for the additional features as
         expressed by the diacritics. Fails if a segment has more than one basic
@@ -207,7 +205,10 @@ class CLTS(object):
 
         # check whether sound is in self.sounds
         if nstring in self._sounds:
-            return self._sounds[nstring]
+            sound = self._sounds[nstring]
+            sound.normalized = nstring != string
+            sound.source = string
+            return sound
 
         match = list(self._regex.finditer(nstring))
         if len(match) != 1:
@@ -223,14 +224,9 @@ class CLTS(object):
 
         base_sound = self._sounds[mid]
         if nstring == base_sound.grapheme:
-            # A known sound, but we check whether we normalized it or not
-            if nstring == string:
-                return base_sound
-            # if the sound was normalized, we assign it a different source, and
-            # return the sound for the normalized sound
-            else:
-                base_sound.source = string
-                return base_sound
+            base_sound.source = string
+            base_sound.normalized = string != nstring
+            return base_sound
 
         # A base sound with diacritics or a custom symbol.
         features = attr.asdict(base_sound)
@@ -238,7 +234,9 @@ class CLTS(object):
             source=string,
             grapheme=base_sound.grapheme,
             generated=True,
-            alias=base_sound.alias)
+            alias=base_sound.alias,
+            normalized = nstring != string,
+            base=base_sound.grapheme)
 
         for dia in [p + EMPTY for p in pre] + [EMPTY + p for p in post]:
             feature = self.diacritics[base_sound.type].get(dia, {})
@@ -273,7 +271,10 @@ class CLTS(object):
 
     def get(self, string, default=None):
         """Similar to the get method for dictionaries."""
-        out = self[string]
+        try:
+            out = self[string]
+        except KeyError:
+            return default
         if out.type == 'unknownsound':
             return default or out
         return out
@@ -330,7 +331,9 @@ class Sound(Symbol):
     """
     base = attr.ib(default=None)
     alias = attr.ib(default=None)
+    normalized = attr.ib(default=None)
     unknown = attr.ib(default=None)
+    stress = attr.ib(default=None)
 
     _name_order = []
     _write_order = dict(pre=[], post=[])
@@ -349,7 +352,7 @@ class Sound(Symbol):
     def __unicode__(self):
         # search for best base-string
         elements = nfilter([getattr(self, p, None) for p in self._name_order])
-        base_str = '<?>'
+        base_str = self.base or '<?>'
         while elements:
             name = ' '.join(elements + [self.type])
             base = self.clts._features.get(name)
@@ -450,6 +453,8 @@ class Consonant(Sound):
     nasalization = attr.ib(default=None)
     glottalization = attr.ib(default=None)
     pharyngealization = attr.ib(default=None)
+    ejection = attr.ib(default=None)
+    voicing = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -458,7 +463,9 @@ class Consonant(Sound):
         pre=['preceding'],
         post=[
             'phonation',
+            'ejection',
             'syllabicity',
+            'voicing',
             'nasalization',
             'palatalization',
             'labialization',
@@ -472,7 +479,8 @@ class Consonant(Sound):
         'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization',
-        'duration', 'release', 'phonation', 'place', 'manner']
+        'duration', 'release', 'voicing',
+        'phonation', 'place', 'ejection', 'manner']
 
 @attr.s(cmp=False)
 class Cluster(Sound):
@@ -492,6 +500,8 @@ class Cluster(Sound):
     duration = attr.ib(default=None)
     from_phonation = attr.ib(default=None)
     to_phonation = attr.ib(default=None)
+    from_ejection = attr.ib(default=None)
+    to_ejection = attr.ib(default=None)
     release = attr.ib(default=None)
     syllabicity = attr.ib(default=None)
     nasalization = attr.ib(default=None)
@@ -513,9 +523,8 @@ class Cluster(Sound):
         'duration',
         'release',
         'from_phonation',
-        'from_place', 'from_manner',
-        'to_phonation', 'to_place', 'to_manner']
-
+        'from_place', 'from_ejection', 'from_manner',
+        'to_phonation', 'to_place', 'to_ejection', 'to_manner']
 
 
 @attr.s(cmp=False)
@@ -533,6 +542,7 @@ class Vowel(Sound):
     centrality = attr.ib(default=None)
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
+    tone = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
@@ -541,16 +551,17 @@ class Vowel(Sound):
             'rhotacization',
             'syllabicity',
             'nasalization',
+            'tone',
             'pharyngealization',
             'glottalization',
             'velarization',
             'duration',
             'frication'])
     _name_order = [
-        'phonation', 'rhotacization', 'pharyngealization', 'glottalization',
-        'velarization', 'syllabicity', 'duration', 'nasalization',
+        'duration', 'rhotacization', 'pharyngealization', 'glottalization',
+        'velarization', 'syllabicity', 'nasalization', 'phonation',
         'roundedness', 'height', #'backness',
-        'frication', 'centrality']
+        'frication', 'centrality', 'tone']
 
 @attr.s(cmp=False)
 class Diphthong(Sound):
