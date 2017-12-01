@@ -1,6 +1,6 @@
 # coding: utf-8
 """
-CLTS module for consistent IPA handling.
+Transcription System module for consistent IPA handling.
 ========================================
 
 """
@@ -8,20 +8,15 @@ from __future__ import unicode_literals
 import re
 import unicodedata
 
-from clldutils.path import Path
 from clldutils.csvw.metadata import TableGroup
 from clldutils.misc import UnicodeMixin, nfilter
 import attr
 from six import string_types, text_type
 
+from pyclts.util import ts_path
+
 EMPTY = "◌"
 UNKNOWN = "�"
-
-
-def data_path(*comps):
-    """Function creates local path to data."""
-    return Path(__file__).parent.parent.joinpath('data', *comps)
-
 
 def _norm(string):
     return string.replace(EMPTY, "")
@@ -53,11 +48,10 @@ def itertable(table):
         yield res
 
 def translate(string, source_system, target_system):
-    res = []
     return ' '.join(['{0}'.format(target_system.get(snd, '?')) for snd in source_system(string)])
 
 
-class CLTS(object):
+class TranscriptionSystem(object):
     """
     A transcription system
     """
@@ -66,7 +60,7 @@ class CLTS(object):
         :param system: The name of a transcription system or a directory containing one.
         """
         if isinstance(system, string_types):
-            for data in data_path().iterdir():
+            for data in ts_path().iterdir():
                 if data.is_dir() and data.name == system:
                     system = data
                     break
@@ -77,11 +71,10 @@ class CLTS(object):
             self.system = TableGroup.from_file(system.joinpath('metadata.json'))
         else:
             self.system = TableGroup.from_file(
-                data_path('transcription-system-metadata.json'))
+                ts_path('transcription-system-metadata.json'))
             self.system._fname = system.joinpath('metadata.json')
 
-        self._features = {'consonant': {}, 'vowel': {}, 'diphthong': {},
-                          'cluster': {}, 'click': {}}  # Sounds by name
+        self._features = {'consonant': {}, 'vowel': {}, 'click': {}} 
         # dictionary for feature values, checks when writing elements from
         # write_order to make sure no output is doubled
         self._feature_values = {}
@@ -100,7 +93,7 @@ class CLTS(object):
         self._columns = {} # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
         self._covered = {}
-        for cls in [Consonant, Vowel, Tone, Marker, Click, Diphthong, Cluster]:
+        for cls in [Consonant, Vowel, Tone, Marker, Click]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
             # store information on column structure to allow for rendering of a
@@ -114,7 +107,7 @@ class CLTS(object):
                 if item['grapheme'] in self._sounds:
                     raise ValueError('duplicate grapheme in {0}:{1}: {2}'.format(
                         type_ + 's.tsv', l + 2, item['grapheme']))
-                sound = cls(clts=self, **item)
+                sound = cls(ts=self, **item)
                 # make sure this does not take too long
                 for key, value in item.items():
                     if key not in {'grapheme', 'note', 'alias'} and value and value not in self._feature_values:
@@ -181,7 +174,7 @@ class CLTS(object):
         if '?' in args:
             raise ValueError('string contains unknown features')
         args['grapheme'] = ''
-        args['clts'] = self
+        args['ts'] = self
         sound = self.sound_classes[sound_class](**args)
         glyph = str(sound)
         if glyph not in self._sounds:
@@ -211,9 +204,27 @@ class CLTS(object):
             return sound
 
         match = list(self._regex.finditer(nstring))
+        # if the match has length 2, we assume that we have two sounds, so we split
+        # the sound and pass it on for separate evaluation (recursive function)
+        if len(match) == 2:
+            sound1 = self._parse(nstring[:match[0].end()])
+            sound2 = self._parse(nstring[match[0].end():])
+            # if we have ANY unknown sound, we mark the whole sound as unknown, if
+            # we have two known sounds of the same type (vowel or consonant), we
+            # either construct a diphthong or a cluster
+            if not 'unknownsound' in (sound1.type, sound2.type) and sound1.type == sound2.type:
+                # diphthong creation
+                if sound1.type == 'vowel':
+                    return Diphthong.from_sounds(string, sound1, sound2, self)
+                elif sound1.type == 'consonant' and sound1.manner in ('plosive', 'implosive') \
+                        and sound2.manner in ('plosive', 'implosive'):
+                    return Cluster.from_sounds(string, sound1, sound2, self)
+
+            return UnknownSound(grapheme=nstring, source=string, ts=self)
+
         if len(match) != 1:
             # Either no match or more than one; both is considered an error.
-            return UnknownSound(grapheme=nstring, source=string, clts=self)
+            return UnknownSound(grapheme=nstring, source=string, ts=self)
 
         pre, mid, post = nstring.partition(nstring[match[0].start():match[0].end()])
 
@@ -241,7 +252,7 @@ class CLTS(object):
         for dia in [p + EMPTY for p in pre] + [EMPTY + p for p in post]:
             feature = self.diacritics[base_sound.type].get(dia, {})
             if not feature:
-                return UnknownSound(grapheme=nstring, source=string, clts=self)
+                return UnknownSound(grapheme=nstring, source=string, ts=self)
             if self.diacritics[base_sound.type][dia] != dia:
                 features['alias'] = True
             features.update(feature)
@@ -290,7 +301,7 @@ class CLTS(object):
 
 @attr.s(cmp=False)
 class Symbol(UnicodeMixin):
-    clts = attr.ib(validator=attr.validators.instance_of(CLTS))
+    ts = attr.ib(validator=attr.validators.instance_of(TranscriptionSystem))
     grapheme = attr.ib()
     source = attr.ib(default=None)
     generated = attr.ib(default=False, validator=attr.validators.instance_of(bool))
@@ -308,7 +319,7 @@ class Symbol(UnicodeMixin):
         In the absence of features, we consider symbols equal, if they belong to the same
         system and are represented by the same grapheme.
         """
-        return self.clts.id == other.clts.id and self.grapheme == other.grapheme
+        return self.ts.id == other.ts.id and self.grapheme == other.grapheme
 
     @property
     def name(self):
@@ -324,7 +335,7 @@ class UnknownSound(Symbol):
     pass
 
 
-@attr.s(cmp=False)
+@attr.s(cmp=False, repr=False)
 class Sound(Symbol):
     """
     Sound object stores basic features of the individual sound objects.
@@ -349,26 +360,29 @@ class Sound(Symbol):
     def uname(self):
         return uname(str(self))
 
+    def __repr__(self):
+        return '<pyclts sound object: '+self.name+'>'
+
     def __unicode__(self):
         # search for best base-string
         elements = nfilter([getattr(self, p, None) for p in self._name_order])
         base_str = self.base or '<?>'
         while elements:
             name = ' '.join(elements + [self.type])
-            base = self.clts._features.get(name)
+            base = self.ts._features.get(name)
             if base:
                 base_str = base.grapheme
                 break
             elements.pop(0)
 
-        base_vals = [self.clts._feature_values[elm] for elm in elements]
+        base_vals = [self.ts._feature_values[elm] for elm in elements]
         out = ''
         for p in [x for x in self._write_order['pre'] if x not in base_vals]:
-            out += _norm(self.clts._features[self.type].get(
+            out += _norm(self.ts._features[self.type].get(
                 getattr(self, p, ''), ''))
         out += base_str
         for p in [x for x in self._write_order['post'] if x not in base_vals]:
-            out += _norm(self.clts._features[self.type].get(
+            out += _norm(self.ts._features[self.type].get(
                 getattr(self, p, ''), ''))
         return out
 
@@ -378,7 +392,7 @@ class Sound(Symbol):
             nfilter([getattr(self, p, '') for p in self._name_order] + [self.type]))
 
     def get(self, desc):
-        return self.clts.features.get(desc, '')
+        return self.ts.features.get(desc, '')
 
     @property
     def table(self):
@@ -386,13 +400,13 @@ class Sound(Symbol):
         """
         tbl = []
         features = [f for f in self._name_order if f not in
-                    self.clts._columns[self.type]]
+                    self.ts._columns[self.type]]
         # make sure to mark generated sounds
         if self.generated and str(self) != self.source:
             tbl += [str(self)+' | '+self.source]
         else:
             tbl += [str(self)]
-        for name in self.clts._columns[self.type][1:]:
+        for name in self.ts._columns[self.type][1:]:
             if name != 'extra' and name != 'alias':
                 tbl += [getattr(self, name) or '']
             elif name == 'alias':
@@ -407,7 +421,7 @@ class Sound(Symbol):
         return tbl
 
 
-@attr.s(cmp=False)
+@attr.s(cmp=False, repr=False)
 class Click(Sound):
     manner = attr.ib(default=None)
     place = attr.ib(default=None)
@@ -434,7 +448,7 @@ class Marker(Symbol):
         return self.grapheme
 
 
-@attr.s(cmp=False)
+@attr.s(cmp=False, repr=False)
 class Consonant(Sound):
 
     # features follow basic information about IPA from various sources, they
@@ -482,31 +496,76 @@ class Consonant(Sound):
         'duration', 'release', 'voicing',
         'phonation', 'place', 'ejection', 'manner']
 
-@attr.s(cmp=False)
-class Cluster(Sound):
+@attr.s(cmp=False, repr=False)
+class ComplexSound(Sound):
+    from_sound = attr.ib(default=None)
+    to_sound = attr.ib(default=None)
 
-    # features follow basic information about IPA from various sources, they
-    # are potentially not yet exhaustive and should be updated at some point
+    def __unicode__(self):
+        return str(self.from_sound)+str(self.to_sound)
+
+    @classmethod
+    def from_sounds(cls, source, sound1, sound2, ts):
+        items = {'from_'+f: 'from_'+getattr(sound1, f) for f in sound1._name_order if getattr(sound1, f)}
+        items.update(
+            {'to_'+f: 'to_'+getattr(sound2, f) for f in sound2._name_order if getattr(sound2, f)}
+        )
+        return cls(
+            ts=ts,
+            source=source,
+            from_sound=sound1,
+            to_sound=sound2,
+            grapheme=str(sound1)+str(sound2),
+            generated=True,
+            base=str(sound1)+str(sound2),
+            normalized = sound1.normalized or sound2.normalized,
+            **items
+        )
+
+@attr.s(cmp=False, repr=False)
+class Cluster(ComplexSound):
+    """
+    A cluster of two consonants whose manner is either plosive or implosive.
+
+    Notes
+    -----
+    To keep the search space low and to avoid that users start defining too
+    invalid sound clusters, we restrict the ```manner``` attribute of the two
+    sounds to ```plosive``` and ```implosive```.
+    """
     from_manner = attr.ib(default=None)
     from_place = attr.ib(default=None)
+    from_aspiration = attr.ib(default=None)
+    from_labialization = attr.ib(default=None)
+    from_palatalization = attr.ib(default=None)
+    from_preceding = attr.ib(default=None)
+    from_velarization = attr.ib(default=None)
+    from_duration = attr.ib(default=None)
+    from_phonation = attr.ib(default=None)
+    from_release = attr.ib(default=None)
+    from_syllabicity = attr.ib(default=None)
+    from_nasalization = attr.ib(default=None)
+    from_glottalization = attr.ib(default=None)
+    from_pharyngealization = attr.ib(default=None)
+    from_ejection = attr.ib(default=None)
+    from_voicing = attr.ib(default=None)
+
     to_manner = attr.ib(default=None)
     to_place = attr.ib(default=None)
-
-    aspiration = attr.ib(default=None)
-    labialization = attr.ib(default=None)
-    palatalization = attr.ib(default=None)
-    preceding = attr.ib(default=None)
-    velarization = attr.ib(default=None)
-    duration = attr.ib(default=None)
-    from_phonation = attr.ib(default=None)
+    to_aspiration = attr.ib(default=None)
+    to_labialization = attr.ib(default=None)
+    to_palatalization = attr.ib(default=None)
+    to_preceding = attr.ib(default=None)
+    to_velarization = attr.ib(default=None)
+    to_duration = attr.ib(default=None)
     to_phonation = attr.ib(default=None)
-    from_ejection = attr.ib(default=None)
+    to_release = attr.ib(default=None)
+    to_syllabicity = attr.ib(default=None)
+    to_nasalization = attr.ib(default=None)
+    to_glottalization = attr.ib(default=None)
+    to_pharyngealization = attr.ib(default=None)
     to_ejection = attr.ib(default=None)
-    release = attr.ib(default=None)
-    syllabicity = attr.ib(default=None)
-    nasalization = attr.ib(default=None)
-    glottalization = attr.ib(default=None)
-    pharyngealization = attr.ib(default=None)
+    to_voicing = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -516,18 +575,42 @@ class Cluster(Sound):
         post=[]
         )
     _name_order = [
-        'preceding', 'syllabicity', 'nasalization', 'palatalization',
-        'labialization', 'glottalization', 'aspiration',
-        'velarization',
-        'pharyngealization',
-        'duration',
-        'release',
+        'from_preceding',
+        'from_syllabicity',
+        'from_nasalization',
+        'from_palatalization',
+        'from_labialization',
+        'from_glottalization',
+        'from_aspiration',
+        'from_velarization',
+        'from_pharyngealization',
+        'from_duration',
+        'from_release',
+        'from_voicing',
         'from_phonation',
-        'from_place', 'from_ejection', 'from_manner',
-        'to_phonation', 'to_place', 'to_ejection', 'to_manner']
+        'from_place',
+        'from_ejection',
+        'from_manner',
+        'to_preceding',
+        'to_syllabicity',
+        'to_nasalization',
+        'to_palatalization',
+        'to_labialization',
+        'to_glottalization',
+        'to_aspiration',
+        'to_velarization',
+        'to_pharyngealization',
+        'to_duration',
+        'to_release',
+        'to_voicing',
+        'to_phonation',
+        'to_place',
+        'to_ejection',
+        'to_manner'
+    ]
 
 
-@attr.s(cmp=False)
+@attr.s(cmp=False, repr=False)
 class Vowel(Sound):
     roundedness = attr.ib(default=None)
     height = attr.ib(default=None)
@@ -563,15 +646,14 @@ class Vowel(Sound):
         'roundedness', 'height', #'backness',
         'frication', 'centrality', 'tone']
 
-@attr.s(cmp=False)
-class Diphthong(Sound):
+@attr.s(cmp=False, repr=False)
+class Diphthong(ComplexSound):
     from_roundedness = attr.ib(default=None)
     from_height = attr.ib(default=None)
     from_centrality = attr.ib(default=None)
     to_roundedness = attr.ib(default=None)
     to_height = attr.ib(default=None)
     to_centrality = attr.ib(default=None)
-
     from_nasalization = attr.ib(default=None)
     from_frication = attr.ib(default=None)
     from_duration = attr.ib(default=None)
@@ -629,7 +711,7 @@ class Diphthong(Sound):
         'to_frication'
         ]
 
-@attr.s(cmp=False)
+@attr.s(cmp=False, repr=False)
 class Tone(Sound):
     contour = attr.ib(default=None)
     start = attr.ib(default=None)

@@ -6,8 +6,9 @@ This is an attempt to create a system that allows to translate and compare diffe
 For starters, try this quick example:
 
 ```python
->>> from pyclts.clts import CLTS
->>> bipa = CLTS() # broad IPA
+>>> from pyclts import TranscriptionSystem as TS
+>>> bipa = TS() # broad IPA
+>>> ajsp = TS('asjp') # asjp transcription system
 >>> snd1 = bipa['ts']
 >>> snd2 = asjp['c']
 >>> snd1.name
@@ -16,7 +17,7 @@ For starters, try this quick example:
 'voiceless alveolar affricate consonant'
 ```
 
-You can see that internally, we represent the sounds `ts` and `c`, depending on the alphabet from which they are taking.
+You can see that internally, we represent the sounds `ts` and `c`, depending on the alphabet from which they are taken.
 
 Another example is to parse a sound that is not yet in our database. We will try to create this sound automatically and infer its features from the set of diacritics and the base sound:
 
@@ -49,5 +50,35 @@ True
 ```
 
 Note that this sound probably does not exist in any language, but we generate it from the feature components. Note also that the ```name``` that is automatically given for the sound automatically orders how the features are put together to form the sound identifier. In principle, our features bundles are unordered, but we try to decide for some explicit order of features to enhance comparison.
+
+You can also use our transcription data to convert from one transcription system to a given dataset (note that backwards-conversion may not be possible, as transcription data is often limited):
+
+```
+>>> from pyclts.ts import translate, TranscriptionSystem
+>>> from pyclts.td import TranscriptionData
+>>> bipa = TranscriptionSystem('bipa')
+>>> sca = TranscriptionData('sca')
+>>> translate('f a: t ə r', bipa, sca)
+    'B A T E R'
+```
+
+But the translation can even be done in a much simpler way, by loading the transcription data directly:
+
+```
+>>> form pyclts.td import TranscriptionData
+>>> sca = TranscriptionData('sca')
+>>> sca('v a t ə r')
+    ['B', 'A', 'T', 'E', 'R']
+```
+
+
+## Basic Structure of the Package
+
+The ```clts``` package offers two basic types of data generated and managed in Python code:
+
+* transcription systems (```pyclts.ts.TranscriptionSystem```), a system that can *generate* sounds
+* transcription data (```pyclts.data.TranscriptionData```): a dataset with a *fixed number of sounds*
+
+Transcription data is linked to our transcription system by the grapheme for the B(road) IPA transcription system, which serves as our default, and the name, which follows the IPA conventions with some modifications which were needed to make sure that we can represent sounds that we regularly find in cross-linguistic datasets.
 
 

@@ -29,22 +29,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̩	consonant	syllabicity	syllabic			
 ◌̍	consonant	syllabicity	syllabic		up	
 ◌ˠ	consonant	velarization	velarized			
-◌ː	diphthong	to_duration	to_long			
-◌ˑ	diphthong	to_duration	to_mid-long			
-◌ˀ	diphthong	to_glottalization	to_glottalized			
-◌̃	diphthong	to_nasalization	to_nasalized			
-◌ˤ	diphthong	to_pharyngealization	to_pharyngealized			
-◌̤	diphthong	to_phonation	to_breathy-voiced			
-◌̰	diphthong	to_phonation	to_creaky-voiced			
-◌̆	diphthong	to_phonation	to_ultra-short			
-◌˳	diphthong	to_phonation	to_voiceless	+		
-◌̥	diphthong	to_phonation	to_voiceless			
-◌̊	diphthong	to_phonation	to_voiceless		up	
-◌˞	diphthong	to_rhotacization	to_rhotacized			
-◌̹	diphthong	to_roundedness	to_rounded			
-◌̜	diphthong	to_roundedness	to_unrounded			
-◌̯	diphthong	to_syllabicity	to_non-syllabic			
-◌̑	diphthong	to_syllabicity	to_non-syllabic		up	
 ◌̄	vowel	duration	long	+		
 ◌̄	vowel	duration	long	+		
 ◌ː	vowel	duration	long			
@@ -63,10 +47,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̜	vowel	roundedness	unrounded			
 ˈ◌	vowel	stress	primary-stress			
 ˌ◌	vowel	stress	secondary-stress			
-ˈ◌	diphthong	stress	primary-stress			
-ˌ◌	diphthong	stress	secondary-stress			
-ˈ◌	cluster	stress	primary-stress			
-ˌ◌	cluster	stress	secondary-stress			
 ˈ◌	click	stress	primary-stress			
 ˌ◌	click	stress	secondary-stress			
 ◌̯	vowel	syllabicity	non-syllabic			

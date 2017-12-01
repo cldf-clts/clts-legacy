@@ -1,11 +1,11 @@
 """Test how well clts works on the data used in NorthEuralex"""
 
 from pylexibank.util import data_path
-from pyclts.clts import CLTS
+from pyclts import TranscriptionSystem as TS
 from clldutils.csvw.metadata import TableGroup
 from collections import defaultdict
 from tabulate import tabulate
-clts = CLTS()
+clts = TS()
 
 visited = set()
 errors = defaultdict(list)

@@ -8,16 +8,15 @@ from clldutils.path import Path
 
 
 def local_path(*comps):
-    return Path(__file__).parent.parent.joinpath(*comps).as_posix()
+    return Path(__file__).parent.parent.joinpath(*comps)
 
 
-def metadata_path(*comps):
-    return local_path('metadata', *comps)
+def td_path(*comps):
+    return local_path('transcriptiondata', *comps)
 
 
-def data_path(*comps):
-    """Helper function to create a local path to the current directory of CLPA"""
-    return local_path('data', *comps)
+def ts_path(*comps):
+    return local_path('transcriptionsystems', *comps)
 
 
 def sources_path(*comps):

@@ -14,16 +14,16 @@ from clldutils.clilib import ArgumentParser, ParserError, command
 from clldutils.path import Path
 from clldutils.dsv import UnicodeWriter, UnicodeReader
 from clldutils.markup import Table
-from pyclts import clts
-from pyclts.util import data_path, metadata_path, sources_path
-from pyclts.metadata import phoible, pbase, lingpy
+from pyclts import ts
+from pyclts.util import ts_path, td_path, sources_path
+from pyclts.td import TranscriptionData
 
 @command()
 def sounds(args):
-    bipa = clts.CLTS('bipa')
-    bipa_sounds = [bipa.get(sound) for sound in args.args]
+    tts = ts.TranscriptionSystem(args.system)
+    tts_sounds = [tts.get(sound) for sound in args.args]
     data = []
-    for sound in bipa_sounds:
+    for sound in tts_sounds:
         if sound.type != 'unknownsound':
             data += [[str(sound),
                       sound.source or ' ',
@@ -32,33 +32,33 @@ def sounds(args):
                       sound.name]]
         else:
             data += [['?', sound.source, '?', '?', '?']]
-    tbl = Table('BIPA', 'SOURCE', 'GENERATED', 'ALIAS', 'NAME', rows=data)
+    tbl = Table(args.system.upper(), 'SOURCE', 'GENERATED', 'ALIAS', 'NAME', rows=data)
     print(tbl.render(tablefmt=args.format, condensed=False))
 
 @command()
 def table(args):
-    bipa = clts.CLTS('bipa')
-    bipa_sounds = [bipa.get(sound) for sound in args.args]
+    tts = ts.TranscriptionSystem(args.system)
+    tts_sounds = [tts.get(sound) for sound in args.args]
     if args.filter == 'generated':
-        bipa_sounds = [s for s in bipa_sounds if s.generated]
+        tts_sounds = [s for s in tts_sounds if s.generated]
     elif args.filter == 'unknown':
-        bipa_sounds = [s for s in bipa_sounds if s.type == 'unknownsound']
+        tts_sounds = [s for s in tts_sounds if s.type == 'unknownsound']
     elif args.filter == 'known':
-        bipa_sounds = [s for s in bipa_sounds if not s.generated and not s.type == 'unknownsound']
+        tts_sounds = [s for s in tts_sounds if not s.generated and not s.type == 'unknownsound']
 
 
     data = defaultdict(list)
     ucount = 0
-    for sound in bipa_sounds:
+    for sound in tts_sounds:
         if sound.type != 'unknownsound':
             data[sound.type] += [sound.table]
         else:
             ucount += 1
             data['unknownsound'] += [[str(ucount), sound.source or '', sound.grapheme]]
-    for cls in bipa.sound_classes:
+    for cls in tts.sound_classes:
         if cls in data:
             print('# {0}\n'.format(cls))
-            tbl = Table(*[c.upper() for c in bipa._columns[cls]], rows=data[cls])
+            tbl = Table(*[c.upper() for c in tts._columns[cls]], rows=data[cls])
             print(tbl.render(tablefmt=args.format, condensed=False))
             print('')
     if data['unknownsound']:
@@ -70,10 +70,10 @@ def table(args):
 def dump(args):
     """Command writes data to different files for re-use across web-applications.
     """
-    bipa = clts.CLTS('bipa')
+    tts = clts.CLTS(args.system)
     phoible_, pbase_, lingpy_ = phoible(), pbase(), lingpy()
     to_dump, digling = {}, {}
-    for glyph, sound in bipa._sounds.items():
+    for glyph, sound in tts._sounds.items():
         if sound.type == 'marker':
             digling[glyph] = ['marker', '', '', '']
             to_dump[glyph] = {'type': 'marker'}
@@ -106,7 +106,7 @@ def dump(args):
             to_dump[glyph] = {k: getattr(sound, k) for k in sound._name_order}
             to_dump[glyph]['name'] = sound.name
             to_dump[glyph]['alias'] = sound.alias
-            to_dump[glyph]['bipa'] = str(sound)
+            to_dump[glyph][args.system] = str(sound)
             to_dump[glyph]['type'] = sound.type
             if sound.name in phoible_:
                 to_dump[glyph]['phoible'] = phoible_[sound.name]
@@ -116,36 +116,37 @@ def dump(args):
                 to_dump[glyph]['color'] = lingpy_[sound.name]['color']
 
 
-    with open(data_path('bipa-dump.json'), 'w') as handler:
+    with open(data_path(args.system+'-dump.json'), 'w') as handler:
         handler.write(json.dumps(to_dump, indent=1))
     with open(data_path('digling-dump.json'), 'w') as handler:
         handler.write(json.dumps(digling, indent=1))
     with open(data_path('../app/data.js'), 'w') as handler:
-        handler.write('var BIPA = '+json.dumps(to_dump)+';\n')
-        handler.write('var normalize = '+json.dumps(bipa._normalize)+';\n')
+        handler.write('var '+args.system.upper()+' = '+json.dumps(to_dump)+';\n')
+        handler.write('var normalize = '+json.dumps(tts._normalize)+';\n')
     print('files written to clts/data')
 
 @command()
 def loadmeta(args):
-    bipa = clts.CLTS()
-    def write_metadata(data, filename):
-        with open(metadata_path(filename), 'w') as handler:
+    bipa = ts.TranscriptionSystem('bipa')
+    def write_transcriptiondata(data, filename):
+        with open(td_path(filename).as_posix(), 'w') as handler:
             for line in data:
                 handler.write('\t'.join(line)+'\n')
-        print('file <{0}> has been successfully written'.format(filename))
+        print('file <{0}> has been successfully written ({1} lines)'.format(filename,
+            len(out)))
 
-    if args.dataset == 'phoible':
+    if args.data == 'phoible':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PHOIBLE_ID', 'PHOIBLE_GRAPHEME']]
         with UnicodeReader(sources_path('Parameters.csv')) as uni:
             for line in uni:
                 glyph = line[-4]
                 url = line[4]
                 sound = bipa[glyph]
-                if sound.type != 'unknownsound' and not sound.generated:
+                if sound.type != 'unknownsound' and not (sound.generated and str(sound) != glyph):
                     out += [[sound.name, str(sound), url, glyph]]
-        write_metadata(out, 'phoible.tsv')
+        write_transcriptiondata(out, 'phoible.tsv')
 
-    if args.dataset == 'pbase':
+    if args.data == 'pbase':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PBASE_URL', 'PBASE_GRAPHEME']]
         url = "http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={0}&inany=false&coreinv=on"
         with UnicodeReader(sources_path('IPA1999.tsv'), delimiter="\t") as uni:
@@ -154,13 +155,13 @@ def loadmeta(args):
                 url_ = url.format(glyph)
                 try:
                     sound = bipa[glyph]
-                    if sound.type != 'unknownsound' and not sound.generated:
+                    if sound.type != 'unknownsound' and not (sound.generated and str(sound) != glyph):
                         out += [[sound.name, str(sound), url_, glyph]]
                 except KeyError:
                     pass
-        write_metadata(out, 'pbase.tsv')
+        write_transcriptiondata(out, 'pbase.tsv')
 
-    if args.dataset == 'lingpy':
+    if args.data == 'lingpy':
         from lingpy.sequence.sound_classes import token2class
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS',
                 'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
@@ -168,15 +169,14 @@ def loadmeta(args):
             if not sound.alias:
                 out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
                          in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
-        write_metadata(out, 'lingpy.tsv')
+        write_transcriptiondata(out, 'lingpy.tsv')
 
-    if args.dataset == 'wikipedia':
+    if args.data == 'wikipedia':
         import urllib.request, urllib.error, urllib.parse
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'WIKIPEDIA_URL']]
         wiki = 'https://en.wikipedia.org/wiki/'
         for glyph, sound in bipa._sounds.items():
             if not sound.alias and not sound.type in ['marker', 'diphthong']:
-                print(sound.type)
                 if not sound.type == 'click':
                     url1 = wiki + '_'.join(sound.name.split(' ')[:-1])
                     url2 = wiki + '_'.join([s for s in sound.name.split(' ') if
@@ -199,9 +199,7 @@ def loadmeta(args):
                     except urllib.error.HTTPError:
                         print("really no url found for {0}".format(sound))
 
-        write_metadata(out, 'wikipedia.tsv')
-
-
+        write_transcriptiondata(out, 'wikipedia.tsv')
 
 
 def main(args=None):
@@ -217,8 +215,12 @@ def main(args=None):
         '--filter', help="only list generated sounds",
         default='')
     parser.add_argument(
-        '--dataset', help="specify the dataset you want to load",
-        default="")
+        '--data', help="specify the transcription data you want to load",
+        default="phoible")
+    parser.add_argument(
+        '--system', help="specify the transcription system you want to load",
+        default="bipa"
+    )
 
     res = parser.main(args=args)
     if args is None:  # pragma: no cover
