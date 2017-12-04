@@ -1,6 +1,10 @@
 Cross-Linguistic Transcription System
 =====================================
 
+**+++IMPORTANT DISCLAIMER+++**
+
+Software and data underlying this repository are currently under heavy maintenance and will probably still change a lot before we will be able to publish a first official version. We would therefore kindly request all potential users to **NOT** re-use this software for their own applications in this stage and instead wait until we have a first officially published **citeable** version.
+
 This is an attempt to create a system that allows to translate and compare different phonetic transcription systems. 
 
 For starters, try this quick example:
