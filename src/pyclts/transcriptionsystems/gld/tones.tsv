@@ -1,0 +1,132 @@
+GRAPHEME	CONTOUR	START	MIDDLE	END	ALIAS	NOTE
+¹¹	flat	low		low		
+¹²	rising	low		mid-low		
+¹³	rising	low		mid		
+¹⁴	rising	low		mid-high		
+¹⁵	rising	low		high		
+²¹	falling	mid-low		low		
+²²	flat	mid-low		mid-low		
+²³	rising	mid-low		mid		
+²⁴	rising	mid-low		mid-high		
+²⁵	rising	mid-low		high		
+³¹	falling	mid		low		
+³²	falling	mid		mid-low		
+³³	flat	mid		mid		
+³⁴	rising	mid		mid-high		
+³⁵	rising	mid		high		
+⁴¹	falling	mid-high		low		
+⁴²	falling	mid-high		mid-low		
+⁴³	falling	mid-high		mid		
+⁴⁴	flat	mid-high		mid-high		
+⁴⁵	rising	mid-high		high		
+⁵¹	falling	high		low		
+⁵²	falling	high		mid-low		
+⁵³	falling	high		mid		
+⁵⁴	falling	high		mid-high		
+⁵⁵	flat	high		high		
+¹	short	low				
+²	short	mid-low				
+³	short	mid				
+⁴	short	mid-high				
+⁵	short	high				
+¹¹²	rising	low	low	mid-low		
+¹¹³	rising	low	low	mid		
+¹¹⁴	rising	low	low	mid-high		
+¹¹⁵	rising	low	low	high		
+¹²¹	contour	low	mid-low	low		
+¹²²	rising	low	mid-low	mid-low		
+¹³¹	contour	low	mid	low		
+¹³²	contour	low	mid	mid-low		
+¹³³	rising	low	mid	mid		
+¹⁴¹	contour	low	mid-high	low		
+¹⁴²	contour	low	mid-high	mid-low		
+¹⁴³	contour	low	mid-high	mid		
+¹⁴⁴	rising	low	mid-high	mid-high		
+¹⁵¹	contour	low	high	low		
+¹⁵²	contour	low	high	mid-low		
+¹⁵³	contour	low	high	mid		
+¹⁵⁴	contour	low	high	mid-high		
+¹⁵⁵	rising	low	high	high		
+²¹¹	falling	mid-low	low	low		
+²¹²	contour	mid-low	low	mid-low		
+²¹³	contour	mid-low	low	mid		
+²¹⁴	contour	mid-low	low	mid-high		
+²¹⁵	contour	mid-low	low	high		
+²²¹	falling	mid-low	mid-low	low		
+²²³	rising	mid-low	mid-low	mid		
+²²⁴	rising	mid-low	mid-low	mid-high		
+²²⁵	rising	mid-low	mid-low	high		
+²³¹	contour	mid-low	mid	low		
+²³²	contour	mid-low	mid	mid-low		
+²³³	rising	mid-low	mid	mid		
+²⁴¹	contour	mid-low	mid-high	low		
+²⁴²	contour	mid-low	mid-high	mid-low		
+²⁴³	contour	mid-low	mid-high	mid		
+²⁴⁴	rising	mid-low	mid-high	mid-high		
+²⁵¹	contour	mid-low	high	low		
+²⁵²	contour	mid-low	high	mid-low		
+²⁵³	contour	mid-low	high	mid		
+²⁵⁴	contour	mid-low	high	mid-high		
+²⁵⁵	rising	mid-low	high	high		
+³¹¹	falling	mid	low	low		
+³¹²	contour	mid	low	mid-low		
+³¹³	contour	mid	low	mid		
+³¹⁴	contour	mid	low	mid-high		
+³¹⁵	contour	mid	low	high		
+³²²	falling	mid	mid-low	mid-low		
+³²³	contour	mid	mid-low	mid		
+³²⁴	contour	mid	mid-low	mid-high		
+³²⁵	contour	mid	mid-low	high		
+³³¹	falling	mid	mid	low		
+³³²	falling	mid	mid	mid-low		
+³³⁴	rising	mid	mid	mid-high		
+³³⁵	rising	mid	mid	high		
+³⁴¹	contour	mid	mid-high	low		
+³⁴²	contour	mid	mid-high	mid-low		
+³⁴³	contour	mid	mid-high	mid		
+³⁴⁴	rising	mid	mid-high	mid-high		
+³⁴⁵	contour	mid	mid-high	high		
+³⁵¹	contour	mid	high	low		
+³⁵²	contour	mid	high	mid-low		
+³⁵³	contour	mid	high	mid		
+³⁵⁴	contour	mid	high	mid-high		
+³⁵⁵	rising	mid	high	high		
+⁴¹¹	falling	mid-high	low	low		
+⁴¹²	contour	mid-high	low	mid-low		
+⁴¹³	contour	mid-high	low	mid		
+⁴¹⁴	contour	mid-high	low	mid-high		
+⁴¹⁵	contour	mid-high	low	high		
+⁴²²	falling	mid-high	mid-low	mid-low		
+⁴²³	contour	mid-high	mid-low	mid		
+⁴²⁴	contour	mid-high	mid-low	mid-high		
+⁴²⁵	contour	mid-high	mid-low	high		
+⁴³³	falling	mid-high	mid	mid		
+⁴³⁴	contour	mid-high	mid	mid-high		
+⁴³⁵	contour	mid-high	mid	high		
+⁴⁴¹	falling	mid-high	mid-high	low		
+⁴⁴²	falling	mid-high	mid-high	mid-low		
+⁴⁴³	falling	mid-high	mid-high	mid		
+⁴⁴⁵	rising	mid-high	mid-high	high		
+⁴⁵¹	contour	mid-high	high	low		
+⁴⁵²	contour	mid-high	high	mid-low		
+⁴⁵³	contour	mid-high	high	mid		
+⁴⁵⁴	contour	mid-high	high	mid-high		
+⁴⁵⁵	rising	mid-high	high	high		
+⁵¹¹	falling	high	low	low		
+⁵¹²	contour	high	low	mid-low		
+⁵¹³	contour	high	low	mid		
+⁵¹⁴	contour	high	low	mid-high		
+⁵¹⁵	contour	high	low	high		
+⁵²²	falling	high	mid-low	mid-low		
+⁵²³	contour	high	mid-low	mid		
+⁵²⁴	contour	high	mid-low	mid-high		
+⁵²⁵	contour	high	mid-low	high		
+⁵³³	falling	high	mid	mid		
+⁵³⁴	contour	high	mid	mid-high		
+⁵³⁵	contour	high	mid	high		
+⁵⁴⁴	falling	high	mid-high	mid-high		
+⁵⁴⁵	contour	high	mid-high	high		
+⁵⁵¹	falling	high	high	low		
+⁵⁵²	falling	high	high	mid-low		
+⁵⁵³	falling	high	high	mid		
+⁵⁵⁴	falling	high	high	mid-high		
