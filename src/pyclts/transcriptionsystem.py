@@ -29,7 +29,7 @@ def itertable(table):
 
 def translate(string, source_system, target_system):
     return ' '.join(
-        '{0}'.format(target_system.get(snd, '?')) for snd in source_system(string))
+        '{0}'.format(target_system.get(source_system[s], '?')) for s in string.split())
 
 
 class TranscriptionSystem(object):
@@ -186,12 +186,14 @@ class TranscriptionSystem(object):
             # if we have ANY unknown sound, we mark the whole sound as unknown, if
             # we have two known sounds of the same type (vowel or consonant), we
             # either construct a diphthong or a cluster
-            if not 'unknownsound' in (sound1.type, sound2.type) and sound1.type == sound2.type:
+            if 'unknownsound' not in (sound1.type, sound2.type) and \
+                    sound1.type == sound2.type:
                 # diphthong creation
                 if sound1.type == 'vowel':
                     return Diphthong.from_sounds(string, sound1, sound2, self)
-                elif sound1.type == 'consonant' and sound1.manner in ('plosive', 'implosive') \
-                        and sound2.manner in ('plosive', 'implosive'):
+                elif sound1.type == 'consonant' and \
+                        sound1.manner in ('plosive', 'implosive') and \
+                        sound2.manner in ('plosive', 'implosive'):
                     return Cluster.from_sounds(string, sound1, sound2, self)
 
             return UnknownSound(grapheme=nstring, source=string, ts=self)
