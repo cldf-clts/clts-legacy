@@ -1,5 +1,7 @@
 # coding: utf-8
 from __future__ import unicode_literals, print_function, division
+from util import test_data
+import pytest
 
 
 def test_translate(bipa, asjp):
@@ -26,7 +28,7 @@ def test_ts_equality(bipa, asjp):
 
 def test_examples(bipa):
     sound = bipa['dʷʱ']
-    assert sound.name == 'labialized breathy-voiced alveolar plosive consonant'
+    assert sound.name == 'labialized breathy-voiced alveolar stop consonant'
     assert sound.generated
     assert sound.alias
     assert sound.codepoints == 'U+0064 U+0324 U+02b7'
@@ -35,5 +37,57 @@ def test_examples(bipa):
 
 
 def test_parse(bipa):
-    res = bipa["'a"]
-    assert res.generated
+    sounds = ['ʰdʱ', "ˈa", 'á']
+    for s in sounds:
+        res = bipa[s]
+        assert res.generated
+    for s in ['a', 't']:
+        assert str(bipa[s]) == s
+    
+    # diphthongs
+    dips = ['ao', 'ea', 'ai', 'ua']
+    for s in dips:
+        res = bipa[s]
+        assert res.type == 'diphthong'
+        assert res.name.endswith('diphthong')
+        assert s == str(s)
+
+    # clusters
+    clus = ['tk', 'pk', 'dg', 'bdʰ']
+    for s in clus:
+        res = bipa[s]
+        assert res.type == 'cluster'
+        assert 'cluster' in res.name
+        assert s == str(s)
+        bipa._add(res)
+        assert res in bipa
+
+
+
+def test_models(bipa):
+    from pyclts.models import Symbol
+    sym = Symbol(ts=bipa, grapheme='s', source='s', generated=False, note='')
+    assert str(sym) == sym.source == sym.grapheme
+    assert sym == sym
+    assert not sym.name
+    assert sym.uname == "LATIN SMALL LETTER S"
+    # complex sounds are always generated
+    assert bipa['ae'].generated
+    assert bipa['tk'].generated
+
+
+def test_sound_from_name(bipa):
+    from pyclts.models import UnknownSound
+
+    assert bipa['from unrounded open front to unrounded close-mid front diphthong'].grapheme == 'ae'
+    assert isinstance(bipa['a bad diphthong'], UnknownSound)
+    assert bipa['from voiceless alveolar stop to voiceless velar stop cluster'].grapheme == 'tk'
+
+def test_ts():
+    from pyclts.transcriptionsystem import TranscriptionSystem
+    with pytest.raises(ValueError):
+        TranscriptionSystem('')
+        asjp = TranscriptionSystem(test_data('asjp'))
+        bads = TranscriptionSystem('what')
+
+

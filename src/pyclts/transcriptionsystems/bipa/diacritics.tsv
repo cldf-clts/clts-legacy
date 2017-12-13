@@ -59,6 +59,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̌	vowel	tone	with_rising_tone			
 ◌̂	vowel	tone	with_falling_tone			
 ◌↗	vowel	tone	with_global_rise			
-◌↘	vowel	tone	with_glogal_fall			
+◌↘	vowel	tone	with_global_fall			
 ◌↑	vowel	tone	with_upstep			
 ◌↓	vowel	tone	with_downstep			

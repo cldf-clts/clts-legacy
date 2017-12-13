@@ -35,11 +35,13 @@ def translate(string, source_system, target_system):
 class TranscriptionSystem(object):
     """
     A transcription system
-    """
+:/sou    """
     def __init__(self, system='bipa'):
         """
         :param system: The name of a transcription system or a directory containing one.
         """
+        if not system:
+            raise ValueError("You cannot specify an empty transcription system")
         if isinstance(system, string_types):
             system = pkg_path('transcriptionsystems', system)
             if not (system.exists() and system.is_dir()):
@@ -128,7 +130,8 @@ class TranscriptionSystem(object):
         nstring = norm(string)
         if "/" in string:
             s, t = string.split('/')
-        return self.normalize(t)
+            nstring = t
+        return self.normalize(nstring)
 
     def normalize(self, string):
         """Normalize the string according to normalization list"""
@@ -138,6 +141,24 @@ class TranscriptionSystem(object):
         """Parse a sound from its name"""
         if string in self._features:
             return self._features[string]
+        elif string.split(' ')[-1] in ['diphthong', 'cluster']:
+            if string.startswith('from ') and 'to ' in string:
+                extension = ' vowel' if 'diphthong' in string else ' consonant'
+                string_ = ' '.join(string.split(' ')[1:-1])
+                from_, to_ = string_.split(' to ')
+                if from_+extension in self._features and to_+extension in \
+                        self._features:
+                    s1, s2 = (self._features[from_+extension],
+                            self._features[to_+extension])
+                    if 'diphthong' in string:
+                        return Diphthong.from_sounds(str(s1)+str(s2), s1, s2, self)
+                    else:
+                        return Cluster.from_sounds(str(s1)+str(s2), s1, s2, self)
+                else:
+                    return UnknownSound(ts=self, grapheme='', source=string)
+            else:
+                return UnknownSound(ts=self, grapheme='', source=string)
+
         components = string.split(' ')
         rest, sound_class = components[:-1], components[-1]
         if sound_class not in self.sound_classes:
@@ -191,8 +212,8 @@ class TranscriptionSystem(object):
                 if sound1.type == 'vowel':
                     return Diphthong.from_sounds(string, sound1, sound2, self)
                 elif sound1.type == 'consonant' and \
-                        sound1.manner in ('plosive', 'implosive') and \
-                        sound2.manner in ('plosive', 'implosive'):
+                        sound1.manner in ('stop', 'implosive') and \
+                        sound2.manner in ('stop', 'implosive'):
                     return Cluster.from_sounds(string, sound1, sound2, self)
 
             return UnknownSound(grapheme=nstring, source=string, ts=self)
@@ -240,7 +261,7 @@ class TranscriptionSystem(object):
     def __getitem__(self, string):
         if isinstance(string, Sound):
             return self._features[string.name]
-        if [s for s in self.sound_classes if s in string]:
+        if string.split(' ')[-1] in list(self.sound_classes)+['diphthong', 'cluster'] :
             return self._from_name(string)
         string = nfd(string)
         try:
