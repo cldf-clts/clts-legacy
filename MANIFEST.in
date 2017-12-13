@@ -1,2 +1,4 @@
-include *.txt *.ini *.cfg *.md
-recursive-include pyclpa *.tsv *.json *.bak *.rules
+include *.md LICENSE
+graft src
+global-exclude *.py[co]
+
