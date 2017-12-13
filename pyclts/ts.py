@@ -428,9 +428,10 @@ class Click(Sound):
     phonation = attr.ib(default=None)
     secondary = attr.ib(default=None)
     preceding = attr.ib(default=None)
+    voicing = attr.ib(default=None)
 
     _write_order = dict(pre=['preceding'], post=['phonation'])
-    _name_order = ['preceding', 'phonation', 'place', 'manner', 'secondary']
+    _name_order = ['preceding', 'phonation', 'place', 'manner', 'voicing', 'secondary']
 
 
 @attr.s(cmp=False)
@@ -626,10 +627,13 @@ class Vowel(Sound):
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
     tone = attr.ib(default=None)
+    phonation = attr.ib(default=None)
+    voicing = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
         post=[
+            'voicing',
             'phonation',
             'rhotacization',
             'syllabicity',
@@ -642,8 +646,8 @@ class Vowel(Sound):
             'frication'])
     _name_order = [
         'duration', 'rhotacization', 'pharyngealization', 'glottalization',
-        'velarization', 'syllabicity', 'nasalization', 'phonation',
-        'roundedness', 'height', #'backness',
+        'velarization', 'syllabicity', 'nasalization', 'voicing', 'phonation',
+        'roundedness', 'height', 
         'frication', 'centrality', 'tone']
 
 @attr.s(cmp=False, repr=False)
