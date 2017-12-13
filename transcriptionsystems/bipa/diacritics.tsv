@@ -14,7 +14,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̥	consonant	voicing	devoiced			
 ◌̊	consonant	voicing	devoiced		up	
 ◌̬	consonant	voicing	revoiced			
-◌̬	consonant	phonation	extra-voiced			
 ʰ◌	consonant	preceding	pre-aspirated			
 ˀ◌	consonant	preceding	pre-glottalized			
 ⁿ◌	consonant	preceding	pre-nasalized			
@@ -38,7 +37,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ˤ	vowel	pharyngealization	pharyngealized			
 ◌̤	vowel	phonation	breathy-voiced			
 ◌̰	vowel	phonation	creaky-voiced			
-◌̆	vowel	phonation	ultra-short			
+◌̆	vowel	duration	ultra-short			
 ◌˳	vowel	phonation	voiceless	+		
 ◌̥	vowel	phonation	voiceless			
 ◌̊	vowel	phonation	voiceless		up	

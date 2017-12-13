@@ -144,16 +144,16 @@ w	voiced	labialized-velar	approximant
 wː	voiced	labialized-velar	approximant		duration:long	
 w̃	voiced	labialized-velar	approximant		nasalization:nasalized	
 wˠ	voiced	labialized-velar	approximant		velarization:velarized	
-bv	voiced	labiodental	affricate			
-ʋ	voiced	labiodental	approximant			
-v	voiced	labiodental	fricative			
-vː	voiced	labiodental	fricative		duration:long	
-vʲ	voiced	labiodental	fricative		palatalization:palatalized	
-v̩	voiced	labiodental	fricative		syllabicity:syllabic	
-v̥	voiced	labiodental	fricative		voicing:devoiced	
-ɱ	voiced	labiodental	nasal			
-ɱ̥	voiced	labiodental	nasal	+	voicing:devoiced	
-ɱ̊	voiced	labiodental	nasal		voicing:devoiced	
+bv	voiced	labio-dental	affricate			
+ʋ	voiced	labio-dental	approximant			
+v	voiced	labio-dental	fricative			
+vː	voiced	labio-dental	fricative		duration:long	
+vʲ	voiced	labio-dental	fricative		palatalization:palatalized	
+v̩	voiced	labio-dental	fricative		syllabicity:syllabic	
+v̥	voiced	labio-dental	fricative		voicing:devoiced	
+ɱ	voiced	labio-dental	nasal			
+ɱ̥	voiced	labio-dental	nasal	+	voicing:devoiced	
+ɱ̊	voiced	labio-dental	nasal		voicing:devoiced	
 ɟʝ	voiced	palatal	affricate			
 j	voiced	palatal	approximant			
 jː	voiced	palatal	approximant		duration:long	
@@ -336,15 +336,15 @@ h̃	voiceless	glottal	fricative		nasalization:nasalized	Check with source.
 ʔ	voiceless	glottal	plosive			
 ʔʷ	voiceless	glottal	plosive		labialization:labialized	
 ʔʲ	voiceless	glottal	plosive		palatalization:palatalized	
-pf	voiceless	labiodental	affricate			
+pf	voiceless	labio-dental	affricate			
 pfʼ	voiceless	labio-dental	affricate		ejection:ejective	
-f	voiceless	labiodental	fricative			
-fʰ	voiceless	labiodental	fricative		aspiration:aspirated	
-fː	voiceless	labiodental	fricative		duration:long	
-fˈ	voiceless	labiodental	fricative	+	ejection:ejective	
-fʼ	voiceless	labiodental	fricative		ejection:ejective	
-fʲ	voiceless	labiodental	fricative		palatalization:palatalized	
-fˠ	voiceless	labiodental	fricative		velarization:velarized	
+f	voiceless	labio-dental	fricative			
+fʰ	voiceless	labio-dental	fricative		aspiration:aspirated	
+fː	voiceless	labio-dental	fricative		duration:long	
+fˈ	voiceless	labio-dental	fricative	+	ejection:ejective	
+fʼ	voiceless	labio-dental	fricative		ejection:ejective	
+fʲ	voiceless	labio-dental	fricative		palatalization:palatalized	
+fˠ	voiceless	labio-dental	fricative		velarization:velarized	
 ʍ	voiceless	labiovelar	fricative			
 cç	voiceless	palatal	affricate			
 c	voiceless	palatal	plosive			

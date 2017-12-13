@@ -7,11 +7,11 @@ a˞	unrounded	open	front		rhotacization:rhotacized
 ã	unrounded	open	front		nasalization:nasalized	
 ãã	unrounded	open	front	+	nasalization:nasalized,duration:long	
 ãː	unrounded	open	front		nasalization:nasalized,duration:long	
-ă	unrounded	open	front		phonation:ultra-short	
-ḁ	unrounded	open	front		phonation:voiceless	
+ă	unrounded	open	front		duration:ultra-short	
+ḁ	unrounded	open	front		voicing:devoiced	
 a̯	unrounded	open	front		syllabicity:non-syllabic	
 a̰	unrounded	open	front		phonation:creaky-voiced	
-a̰ː	unrounded	open	front		phonation:creaky-voiced,duration:ultra-long	
+a̰ːː	unrounded	open	front		phonation:creaky-voiced,duration:ultra-long	
 e	unrounded	close-mid	front			
 ee	unrounded	close-mid	front	+	duration:long	
 eː	unrounded	close-mid	front		duration:long	
@@ -20,7 +20,7 @@ eˑ	unrounded	close-mid	front		duration:mid-long
 ẽ	unrounded	close-mid	front		nasalization:nasalized	
 ẽẽ	unrounded	close-mid	front	+	nasalization:nasalized,duration:long	
 ẽː	unrounded	close-mid	front		nasalization:nasalized,duration:long	
-ĕ	unrounded	close-mid	front		phonation:ultra-short	
+ĕ	unrounded	close-mid	front		duration:ultra-short	
 e̞	unrounded	mid	front			
 e̞e̞	unrounded	mid	front	+	duration:long	
 e̞ː	unrounded	mid	front		duration:long	
@@ -29,7 +29,7 @@ ẽ̞	unrounded	mid	front		nasalization:nasalized
 ẽ̞ẽ̞	unrounded	mid	front	+	nasalization:nasalized,duration:long	
 ẽ̞ː	unrounded	mid	front		nasalization:nasalized,duration:long	
 e̤	unrounded	close-mid	front		phonation:breathy-voiced	
-e̥	unrounded	close-mid	front		phonation:voiceless	
+e̥	unrounded	close-mid	front		voicing:devoiced	
 e̯	unrounded	close-mid	front		syllabicity:non-syllabic	
 ḛ	unrounded	close-mid	front		phonation:creaky-voiced	
 e̹	rounded	close-mid	front	+		
@@ -43,7 +43,7 @@ ĩ	unrounded	close	front		nasalization:nasalized
 ĩĩ	unrounded	close	front	+	nasalization:nasalized,duration:long	
 ĩː	unrounded	close	front		nasalization:nasalized,duration:long	
 i̤	unrounded	close	front		phonation:breathy-voiced	
-i̥	unrounded	close	front		phonation:voiceless	
+i̥	unrounded	close	front		voicing:devoiced	
 ḭ	unrounded	close	front		phonation:creaky-voiced	
 ḭː	unrounded	close	front		phonation:creaky-voiced,duration:long	
 ḭːː	unrounded	close	front		phonation:creaky-voiced,duration:ultra-long	
@@ -57,7 +57,7 @@ oˤ	rounded	close-mid	back		pharyngealization:pharyngealized
 õ	rounded	close-mid	back		nasalization:nasalized	
 õõ	rounded	close-mid	back	+	nasalization:nasalized	
 õː	rounded	close-mid	back		nasalization:nasalized,duration:long	
-ŏ	rounded	close-mid	back		phonation:ultra-short	
+ŏ	rounded	close-mid	back		duration:ultra-short	
 o̞	rounded	mid	back			
 o̞o̞	rounded	mid	back	+	duration:long	
 o̞ː	rounded	mid	back		duration:long	
@@ -65,7 +65,7 @@ õ̞	rounded	mid	back		nasalization:nasalized
 õ̞õ̞	rounded	mid	back	+	nasalization:nasalized	
 õ̞ː	rounded	mid	back		nasalization:nasalized,duration:long	
 o̤	rounded	close-mid	back		phonation:breathy-voiced	
-o̥	rounded	close-mid	back		phonation:voiceless	
+o̥	rounded	close-mid	back		voicing:devoiced	
 o̯	rounded	close-mid	back		syllabicity:non-syllabic	
 o̰	rounded	close-mid	back		phonation:creaky-voiced	
 u	rounded	close	back			
@@ -77,7 +77,7 @@ ũ	rounded	close	back		nasalization:nasalized
 ũũ	rounded	close	back	+	nasalization:nasalized	
 ũː	rounded	close	back		nasalization:nasalized,duration:long	
 ṳ	rounded	close	back		phonation:breathy-voiced	
-u̥	rounded	close	back		phonation:voiceless	
+u̥	rounded	close	back		voicing:devoiced	
 ṵ	rounded	close	back		phonation:creaky-voiced	
 y	rounded	close	front			
 yy	rounded	close	front	+	duration:long	
@@ -161,7 +161,7 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ə̃	unrounded	mid	central		nasalization:nasalized	
 ə̃ə̃	unrounded	mid	central	+	nasalization:nasalized	
 ə̃ː	unrounded	mid	central		nasalization:nasalized,duration:long	
-ə̆	unrounded	mid	central		phonation:ultra-short	
+ə̆	unrounded	mid	central		duration:ultra-short	
 ə̰	unrounded	mid	central		phonation:creaky-voiced	
 ɛ	unrounded	open-mid	front			
 ɛɛ	unrounded	open-mid	front	+	duration:long	
@@ -196,7 +196,7 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ɤ̃	unrounded	close-mid	back		nasalization:nasalized	
 ɤ̃ɤ̃	unrounded	close-mid	back	+	nasalization:nasalized	
 ɤ̃ː	unrounded	close-mid	back		nasalization:nasalized,duration:long	
-ɤ̆	unrounded	close-mid	back		phonation:ultra-short	
+ɤ̆	unrounded	close-mid	back		duration:ultra-short	
 ɤ̞	unrounded	mid	back			
 ɤ̞ɤ̞	unrounded	mid	back	+	duration:long	
 ɤ̞ː	unrounded	mid	back		duration:long	
@@ -221,7 +221,7 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ɪ̈̃	unrounded	near-close	central		nasalization:nasalized	
 ɪ̈̃ɪ̈̃	unrounded	near-close	central	+	nasalization:nasalized	
 ɪ̈̃ː	unrounded	near-close	central		nasalization:nasalized,duration:long	
-ɪ̥	unrounded	near-close	near-front		phonation:voiceless	
+ɪ̥	unrounded	near-close	near-front		voicing:devoiced	
 ɪ̯	unrounded	near-close	near-front		syllabicity:non-syllabic	
 ɪ̰	unrounded	near-close	near-front		phonation:creaky-voiced	
 ɪ̹	rounded	near-close	near-front	+		
@@ -231,9 +231,9 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ɯ̃	unrounded	close	back		nasalization:nasalized	
 ɯ̃ɯ̃	unrounded	close	back	+	nasalization:nasalized	
 ɯ̃ː	unrounded	close	back		nasalization:nasalized,duration:long	
-ɯ̥̃	unrounded	close	back		phonation:voiceless,nasalization:nasalized	
+ɯ̥̃	unrounded	close	back		voicing:devoiced,nasalization:nasalized	
 ɯ̤	unrounded	close	back		phonation:breathy-voiced	
-ɯ̥	unrounded	close	back		phonation:voiceless	
+ɯ̥	unrounded	close	back		voicing:devoiced	
 ɯ̯	unrounded	close	back		syllabicity:non-syllabic	
 ɯ̽	unrounded	near-close	near-back			
 ɯ̽ɯ̽	unrounded	near-close	near-back	+	duration:long	
@@ -280,7 +280,7 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ʊ̈̃	rounded	near-close	central		nasalization:nasalized	
 ʊ̈̃ʊ̈̃	rounded	near-close	central	+	nasalization:nasalized	
 ʊ̈̃ː	rounded	near-close	central		nasalization:nasalized,duration:long	
-ʊ̥	rounded	near-close	near-back		phonation:voiceless	
+ʊ̥	rounded	near-close	near-back		voicing:devoiced	
 ʊ̯	rounded	near-close	near-back		syllabicity:non-syllabic	
 ʊ̰	rounded	near-close	near-back		phonation:creaky-voiced	
 ʌ	unrounded	open-mid	back			
@@ -290,7 +290,7 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ʌ̃ʌ̃	unrounded	open-mid	back	+	nasalization:nasalized	
 ʌ̃ː	unrounded	open-mid	back		nasalization:nasalized,duration:long	
 ʌ̤̃	unrounded	open-mid	back		phonation:breathy-voiced,nasalization:nasalized	
-ʌ̆	unrounded	open-mid	back		phonation:ultra-short	
+ʌ̆	unrounded	open-mid	back		duration:ultra-short	
 ʌ̤	unrounded	open-mid	back		phonation:breathy-voiced	
 ʌ̯ː	unrounded	open-mid	back		syllabicity:non-syllabic,duration:long	
 ʏ	rounded	near-close	near-front			
