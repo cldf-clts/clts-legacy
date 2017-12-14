@@ -90,4 +90,18 @@ def test_ts():
         asjp = TranscriptionSystem(test_data('asjp'))
         bads = TranscriptionSystem('what')
 
+def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase):
+
+    seq = 'tʰ ɔ x ˈth ə r A ˈI ʲ'
+    seq2 = 'th o ?/x a'
+    seq3 = 'th o ?/ a'
+
+    assert dolgo(seq) == list('TVKTVR000')
+    assert sca(seq2)[2] == 'G'
+    assert asjpd(seq2)[2] == 'x'
+    assert sca(seq3)[2] == '0'
+    
+    with pytest.raises(KeyError):
+        dolgo['A']
+        sca['B']
 

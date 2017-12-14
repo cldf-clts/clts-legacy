@@ -11,7 +11,7 @@ import json
 from clldutils.clilib import ArgumentParser, command
 from clldutils.dsv import UnicodeReader
 from clldutils.markup import Table
-from pyclts import TranscriptionSystem
+from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.util import pkg_path
 
 
@@ -125,10 +125,10 @@ def dump(args):
 
 @command()
 def loadmeta(args):
-    bipa = ts.TranscriptionSystem('bipa')
+    bipa = TranscriptionSystem('bipa')
 
     def write_transcriptiondata(data, filename):
-        with open(td_path(filename).as_posix(), 'w') as handler:
+        with open(pkg_path('transcriptiondata', filename).as_posix(), 'w') as handler:
             for line in data:
                 handler.write('\t'.join(line)+'\n')
         print('file <{0}> has been successfully written ({1} lines)'.format(filename,
@@ -136,7 +136,7 @@ def loadmeta(args):
 
     if args.data == 'phoible':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PHOIBLE_ID', 'PHOIBLE_GRAPHEME']]
-        with UnicodeReader(sources_path('Parameters.csv')) as uni:
+        with UnicodeReader(pkg_path('sources', 'Parameters.csv')) as uni:
             for line in uni:
                 glyph = line[-4]
                 url = line[4]
@@ -148,7 +148,7 @@ def loadmeta(args):
     if args.data == 'pbase':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PBASE_URL', 'PBASE_GRAPHEME']]
         url = "http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={0}&inany=false&coreinv=on"
-        with UnicodeReader(sources_path('IPA1999.tsv'), delimiter="\t") as uni:
+        with UnicodeReader(pkg_path('sources', 'IPA1999.tsv'), delimiter="\t") as uni:
             for line in uni:
                 glyph = line[2]
                 url_ = url.format(glyph)

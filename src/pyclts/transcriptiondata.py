@@ -10,12 +10,13 @@ from pyclts.transcriptionsystem import Sound, TranscriptionSystem
 
 
 def iterdata(what, grapheme_col, id_col=None):
-    for row in UnicodeDictReader(
-            pkg_path('transcriptiondata', what), delimiter='\t'):
-        grapheme = {"grapheme": row[grapheme_col]}
-        if id_col:
-            grapheme['id'] = row[id_col]
-        yield row['CLTS_NAME'], row['BIPA_GRAPHEME'], grapheme
+    with UnicodeDictReader(
+            pkg_path('transcriptiondata', what), delimiter='\t') as reader:
+        for row in reader:
+            grapheme = {"grapheme": row[grapheme_col]}
+            if id_col:
+                grapheme['id'] = row[id_col]
+            yield row['CLTS_NAME'], row['BIPA_GRAPHEME'], grapheme
 
 
 def read(what, grapheme_col, id_col=None):
@@ -84,7 +85,7 @@ class TranscriptionData(object):
                 while len(name) >= 4:
                     sound = self.system.get(' '.join(name))
                     if sound:
-                        return sound
+                        return self.data[sound.name]
                     name.pop(0)
 
         raise KeyError(":resolve_sound_classes: No sound could be found.")
