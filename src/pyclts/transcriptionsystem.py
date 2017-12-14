@@ -68,6 +68,7 @@ class TranscriptionSystem(object):
             self._feature_values[dia['value']] = dia['feature']
 
             self.diacritics[dia['type']][dia['grapheme']] = {dia['feature']: dia['value']}
+            self.diacritics[dia['type']][dia['grapheme']] = dia['value']
 
         self.sound_classes = {}
         self._columns = {}  # the basic column structure, to allow for rendering
@@ -192,6 +193,8 @@ class TranscriptionSystem(object):
 
         # check whether sound is in self.sounds
         if nstring in self._sounds:
+            # FIXME this is dangerous, as it may deepcopy the original
+            # character, so we should clone if we normalize
             sound = self._sounds[nstring]
             sound.normalized = nstring != string
             sound.source = string
@@ -224,11 +227,6 @@ class TranscriptionSystem(object):
 
         pre, mid, post = nstring.partition(nstring[match[0].start():match[0].end()])
 
-        #
-        # FIXME: Shouldn't we re-order the diacritics here, and then lookup the
-        # re-assembled symbol?
-        #
-
         base_sound = self._sounds[mid]
         if nstring == base_sound.grapheme:
             base_sound.source = string
@@ -244,14 +242,30 @@ class TranscriptionSystem(object):
             alias=base_sound.alias,
             normalized=nstring != string,
             base=base_sound.grapheme)
-
-        for dia in [p + EMPTY for p in pre] + [EMPTY + p for p in post]:
+        
+        grapheme = ''
+        for dia in [p + EMPTY for p in pre]:
             feature = self.diacritics[base_sound.type].get(dia, {})
             if not feature:
                 return UnknownSound(grapheme=nstring, source=string, ts=self)
-            if self.diacritics[base_sound.type][dia] != dia:
+            if self.diacritics[base_sound.type][dia] != \
+                    self._features[base_sound.type][feature]:
                 features['alias'] = True
-            features.update(feature)
+            features[self._feature_values[feature]] = feature
+            grapheme += self._features[base_sound.type][feature].replace(EMPTY,
+                    '')
+        grapheme += str(base_sound)
+        for dia in [EMPTY + p for p in post]:
+            feature = self.diacritics[base_sound.type].get(dia, {})
+            if not feature:
+                return UnknownSound(grapheme=nstring, source=string, ts=self)
+            if self.diacritics[base_sound.type][dia] != \
+                    self._features[base_sound.type][feature]:
+                features['alias'] = True
+            features[self._feature_values[feature]] = feature
+            grapheme += self._features[base_sound.type][feature].replace(EMPTY,
+                    '')
+        features['grapheme'] = grapheme
 
         sound = self.sound_classes[base_sound.type](**features)
         if sound.generated and sound.grapheme not in self._sounds:

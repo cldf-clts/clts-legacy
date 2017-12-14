@@ -91,6 +91,19 @@ class Sound(Symbol):
         return nfilter(getattr(self, p, None) for p in self._name_order)
 
     def __unicode__(self):
+        """
+        Return the reference representation of the sound.
+
+        Note
+        ----
+        We first try to return the non-alias value in our data. If this fails,
+        we create the sound based on it's feature representation.
+        """
+        if not self.alias and self.grapheme in self.ts._sounds:
+            return self.grapheme
+        elif self.alias and self.name in self.ts._features:
+            return str(self.ts[self.name])
+        
         # search for best base-string
         elements = self._features()
         base_str = self.base or '<?>'
@@ -196,6 +209,7 @@ class Consonant(Sound):
             'syllabicity',
             'voicing',
             'nasalization',
+            'duration',
             'palatalization',
             'labialization',
             'breathiness',
@@ -203,7 +217,7 @@ class Consonant(Sound):
             'glottalization',
             'velarization',
             'pharyngealization',
-            'duration',
+
             'release'])
     _name_order = [
         'preceding', 'syllabicity', 'nasalization', 'palatalization',

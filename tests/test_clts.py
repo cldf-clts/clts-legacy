@@ -161,11 +161,43 @@ def test_transcription_system_consistency(bipa, asjp, gld):
 
     # bipa should always be able to be translated to
     for sound in asjp:
-        print(sound, asjp[sound].name)
+        #print(sound, asjp[sound].name)
         if sound not in bipa:
             assert '<?>' not in str(bipa[asjp[sound].name])
     for sound in gld:
-        print(sound, gld[sound].name)
+        #print(sound, gld[sound].name)
         if sound not in bipa:
             assert '<?>' not in str(bipa[gld[sound].name])
+    good = True
+    for sound in bipa:
+        if bipa[sound].type != 'unknownsound' and not bipa[sound].alias:
+            if sound != str(bipa[sound]):
+                print(sound, str(bipa[sound]))
+                good = False
+        elif bipa[sound].type == 'unknownsound':
+            print(sound)
+            good = False
+    assert good == True
+    good = True
+    for sound in gld:
+        if gld[sound].type != 'unknownsound' and not gld[sound].alias:
+            if sound != str(gld[sound]):
+                print(sound, str(gld[sound]))
+                good = False
+        elif gld[sound].type == 'unknownsound':
+            print(sound)
+            good = False
+    assert good == True
+    good = True
+    for sound in asjp:
+        if asjp[sound].type != 'unknownsound' and not asjp[sound].alias:
+            if sound != str(asjp[sound]):
+                print(sound, str(asjp[sound]))
+                good = False
+        elif asjp[sound].type == 'unknownsound':
+            print(sound)
+            good = False
+    assert good == True
 
+    # important test for alias
+    assert str(bipa['d̤ʷ']) == str(bipa['dʷʱ']) == str(bipa['dʱʷ'])
