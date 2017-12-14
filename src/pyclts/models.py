@@ -14,7 +14,6 @@ __all__ = [
     'Vowel',
     'Tone',
     'Marker',
-    'Click',
     'Diphthong',
     'Cluster',
     'UnknownSound']
@@ -95,14 +94,17 @@ class Sound(Symbol):
         # search for best base-string
         elements = self._features()
         base_str = self.base or '<?>'
+        base_graphemes = []
         while elements:
             base = self.ts._features.get(' '.join(elements + [self.type]))
             if base:
                 base_str = base.grapheme
-                break
+                base_graphemes += [base_str]
             elements.pop(0)
-
-        base_vals = {self.ts._feature_values[elm] for elm in elements}
+        base_str = base_graphemes[-1] if base_graphemes else '<?>'
+        base_vals = {self.ts._feature_values[elm] for elm in 
+                self.ts._sounds[base_str].name.split(' ')[:-1]} if \
+                        base_str != '<?>' else {}
         out = []
         for p in self._write_order['pre']:
             if p not in base_vals:
@@ -118,9 +120,6 @@ class Sound(Symbol):
     @property
     def name(self):
         return ' '.join([f or '' for f in self._features()] + [self.type])
-
-    def get(self, desc):
-        return self.ts.features.get(desc, '')
 
     @property
     def table(self):
@@ -147,19 +146,6 @@ class Sound(Symbol):
                         bundle += ['{0}:{1}'.format(f, val)]
                 tbl += [','.join(bundle)]
         return tbl
-
-
-@attr.s(cmp=False, repr=False)
-class Click(Sound):
-    manner = attr.ib(default=None)
-    place = attr.ib(default=None)
-    phonation = attr.ib(default=None)
-    secondary = attr.ib(default=None)
-    preceding = attr.ib(default=None)
-    voicing = attr.ib(default=None)
-
-    _write_order = dict(pre=['preceding'], post=['phonation'])
-    _name_order = ['preceding', 'phonation', 'place', 'manner', 'voicing', 'secondary']
 
 
 @attr.s(cmp=False)
@@ -195,6 +181,8 @@ class Consonant(Sound):
     pharyngealization = attr.ib(default=None)
     ejection = attr.ib(default=None)
     voicing = attr.ib(default=None)
+    breathiness = attr.ib(default=None)
+    creakiness = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -202,6 +190,7 @@ class Consonant(Sound):
     _write_order = dict(
         pre=['preceding'],
         post=[
+            'creakiness',
             'phonation',
             'ejection',
             'syllabicity',
@@ -209,6 +198,7 @@ class Consonant(Sound):
             'nasalization',
             'palatalization',
             'labialization',
+            'breathiness',
             'aspiration',
             'glottalization',
             'velarization',
@@ -220,7 +210,7 @@ class Consonant(Sound):
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization',
         'duration', 'release', 'voicing',
-        'phonation', 'place', 'ejection', 'manner']
+        'creakiness', 'breathiness', 'phonation', 'place', 'ejection', 'manner']
 
 
 @attr.s(cmp=False, repr=False)
@@ -247,6 +237,11 @@ class ComplexSound(Sound):
                 ts=ts,
                 generated=True
                 )
+
+    @property
+    def table(self):
+        """Overwrite the table attribute for complex sounds"""
+        return [self.grapheme, self.from_sound.name, self.to_sound.name]
         
 
 @attr.s(cmp=False, repr=False)
@@ -269,7 +264,9 @@ class Vowel(Sound):
     nasalization = attr.ib(default=None)
     frication = attr.ib(default=None)
     duration = attr.ib(default=None)
-    phonation = attr.ib(default=None)
+    voicing = attr.ib(default=None)
+    breathiness = attr.ib(default=None)
+    creakiness = attr.ib(default=None)
     release = attr.ib(default=None)
     syllabicity = attr.ib(default=None)
     pharyngealization = attr.ib(default=None)
@@ -278,13 +275,13 @@ class Vowel(Sound):
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
     tone = attr.ib(default=None)
-    voicing = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
         post=[
             'voicing',
-            'phonation',
+            'breathiness',
+            'creakiness',
             'rhotacization',
             'syllabicity',
             'nasalization',
@@ -296,7 +293,8 @@ class Vowel(Sound):
             'frication'])
     _name_order = [
         'duration', 'rhotacization', 'pharyngealization', 'glottalization',
-        'velarization', 'syllabicity', 'nasalization', 'voicing', 'phonation',
+        'velarization', 'syllabicity', 'nasalization', 'voicing', 'creakiness',
+        'breathiness',
         'roundedness', 'height',
         'frication', 'centrality', 'tone']
 

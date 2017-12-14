@@ -13,12 +13,12 @@ def bipa():
 
 @pytest.fixture
 def asjp():
-    return TranscriptionSystem()
+    return TranscriptionSystem('asjp')
 
 
 @pytest.fixture
 def gld():
-    return TranscriptionSystem()
+    return TranscriptionSystem('gld')
 
 
 @pytest.fixture

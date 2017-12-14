@@ -73,7 +73,7 @@ class TranscriptionSystem(object):
         self._columns = {}  # the basic column structure, to allow for rendering
         self._sounds = {}  # Sounds by grapheme
         self._covered = {}
-        for cls in [Consonant, Vowel, Tone, Marker, Click]:
+        for cls in [Consonant, Vowel, Tone, Marker]:
             type_ = cls.__name__.lower()
             self.sound_classes[type_] = cls
             # store information on column structure to allow for rendering of a
@@ -141,16 +141,18 @@ class TranscriptionSystem(object):
         """Parse a sound from its name"""
         if string in self._features:
             return self._features[string]
-        elif string.split(' ')[-1] in ['diphthong', 'cluster']:
+        components = string.split(' ')
+        rest, sound_class = components[:-1], components[-1]
+        if sound_class in ['diphthong', 'cluster']:
             if string.startswith('from ') and 'to ' in string:
-                extension = ' vowel' if 'diphthong' in string else ' consonant'
+                extension = {'diphthong': 'vowel', 'cluster':
+                        'consonant'}[sound_class]
                 string_ = ' '.join(string.split(' ')[1:-1])
                 from_, to_ = string_.split(' to ')
-                if from_+extension in self._features and to_+extension in \
-                        self._features:
-                    s1, s2 = (self._features[from_+extension],
-                            self._features[to_+extension])
-                    if 'diphthong' in string:
+                v1, v2 = from_+' '+extension, to_+' '+extension
+                if v1 in self._features and v2 in self._features:
+                    s1, s2 = (self._features[v1], self._features[v2])
+                    if sound_class == 'diphthong':
                         return Diphthong.from_sounds(str(s1)+str(s2), s1, s2, self)
                     else:
                         return Cluster.from_sounds(str(s1)+str(s2), s1, s2, self)
@@ -159,8 +161,6 @@ class TranscriptionSystem(object):
             else:
                 return UnknownSound(ts=self, grapheme='', source=string)
 
-        components = string.split(' ')
-        rest, sound_class = components[:-1], components[-1]
         if sound_class not in self.sound_classes:
             raise ValueError('no sound class specified')
 
@@ -212,8 +212,8 @@ class TranscriptionSystem(object):
                 if sound1.type == 'vowel':
                     return Diphthong.from_sounds(string, sound1, sound2, self)
                 elif sound1.type == 'consonant' and \
-                        sound1.manner in ('stop', 'implosive') and \
-                        sound2.manner in ('stop', 'implosive'):
+                        sound1.manner in ('stop', 'implosive', 'click', 'nasal') and \
+                        sound2.manner in ('stop', 'implosive', 'affricate', 'fricative'):
                     return Cluster.from_sounds(string, sound1, sound2, self)
 
             return UnknownSound(grapheme=nstring, source=string, ts=self)
@@ -273,17 +273,16 @@ class TranscriptionSystem(object):
     def __contains__(self, item):
         if isinstance(item, Sound):
             return item.name in self._features
-
         return item in self._sounds
+
+    def __iter__(self):
+        return iter(self._sounds)
 
     def get(self, string, default=None):
         """Similar to the get method for dictionaries."""
-        try:
-            out = self[string]
-        except KeyError:
-            return default
+        out = self[string]
         if out.type == 'unknownsound':
-            return default or out
+            return default
         return out
 
     def __call__(self, string, text=False):

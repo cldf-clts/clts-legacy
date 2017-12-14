@@ -25,9 +25,9 @@ for ds in ['powoco-Bahnaric-200-24.csv',
             if segment not in visited:
                 visited.add(segment)
                 print(segment)
-                sound = clts.get(segment)
-                if sound.type == 'unknown':
-                    errors['unkown'] += [segment]
+                sound = clts[segment]
+                if sound.type == 'unknownsound':
+                    errors['unknown'] += [segment]
                 elif not sound.name:
                     errors['problems'] += [segment]
                 elif sound.generated:

@@ -75,17 +75,12 @@ class TranscriptionData(object):
         if self._sc:
             if not sound.type == 'unknownsound':                    
                 name = sound.name.split(' ')
-                if sound.type == 'diphthong':
-                    vowel = ' '.join([n[3:] for n in name if n.startswith('to_')]+['vowel'])
-                    return self.resolve_sound(self.system[vowel])
-                if sound.type == 'cluster':
-                    vowel = ' '.join([n for n in name if
-                        n.startswith('to_')]+['cluster'])
-                    return self.resolve_sound(self.system[vowel])
+                if sound.type in ['diphthong', 'cluster']:
+                    return self.resolve_sound(sound.from_sound)
                 while len(name) >= 4:
                     sound = self.system.get(' '.join(name))
-                    if sound:
-                        return self.data[sound.name]
+                    if sound and sound.name in self.data:
+                        return self.data[sound.name]['grapheme']
                     name.pop(0)
 
         raise KeyError(":resolve_sound_classes: No sound could be found.")
