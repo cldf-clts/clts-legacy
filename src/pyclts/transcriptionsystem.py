@@ -261,26 +261,14 @@ class TranscriptionSystem(object):
             sound += self._features[base_sound.type][feature][1]
 
         features['grapheme'] = sound
-        first_sound = self.sound_classes[base_sound.type](**features)
+        new_sound = self.sound_classes[base_sound.type](**features)
         # check whether grapheme differs from re-generated sound
-        if str(first_sound) != sound:
-            features['grapheme'] = str(first_sound)
-            new_sound = self.sound_classes[base_sound.type](**features)
-            if not new_sound.name in self._features:
-                self._add(new_sound)
-        # if the name is already there, we don't want to add it
-        if not first_sound.name in self._features:
-            self._add(first_sound)
-        else:
-            first_sound.alias = True
-            self._add(first_sound)
+        if str(new_sound) != sound:
+            new_sound.alias = True
         if grapheme != sound:
-            features['alias'] = True
-            features['grapheme'] = grapheme
-            bad_sound = self.sound_classes[base_sound.type](**features)
-            self._add(bad_sound)
-            return bad_sound
-        return first_sound
+            new_sound.alias = True
+            new_sound.grapheme = grapheme
+        return new_sound
 
     def __getitem__(self, string):
         if isinstance(string, Sound):

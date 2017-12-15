@@ -259,16 +259,17 @@ def test_datasets(bipa):
             tmp = dict(zip(rows[0], row))
             sound = bipa[tmp['source']]
             if sound.type not in ['unknownsound', 'marker']:
-                if tmp['nfd-normalized'] == '+':
-                    assert bipa[tmp['source']] != sound.source
-                if tmp['clts-normalized'] == "+":
-                    assert sound.normalized
-                if tmp['aliased'] == '+':
-                    assert sound.alias
-                if tmp['generated']:
-                    assert sound.generated
-                if tmp['stressed']:
-                    assert sound.stress
-                assert sound.name == tmp['name']
-                assert sound.codepoints == tmp['codepoints']
+                if not (sound.type == 'vowel' and sound.tone):
+                    if tmp['nfd-normalized'] == '+':
+                        assert bipa[tmp['source']] != sound.source
+                    if tmp['clts-normalized'] == "+":
+                        assert sound.normalized
+                    if tmp['aliased'] == '+':
+                        assert sound.alias
+                    if tmp['generated']:
+                        assert sound.generated
+                    if tmp['stressed']:
+                        assert sound.stress
+                    assert sound.name == tmp['name']
+                    assert sound.codepoints == tmp['codepoints']
             

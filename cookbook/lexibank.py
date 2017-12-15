@@ -24,22 +24,18 @@ new_table = [[
     'codepoints'
     ]]
 
-for ds in ['powoco-Bahnaric-200-24.csv',
-        'powoco-Uralic-173-8.csv',
-        'powoco-Tujia-109-5.csv',
-        'powoco-Romance-110-43.csv',
-        'powoco-Huon-140-14.csv',
-        'powoco-Chinese-180-18.csv']:
+for ds in ['powoco', 'bowernpny', 'baidial', 'mixezoquean', 'galuciotupi',
+        'palaung', 'gldhmongmien', 'yinku' ]:
     
     tb = TableGroup.from_file(
-            data_path('powoco', 'cldf', 'cldf-metadata.json'))
-    print(ds)
+            data_path(ds, 'cldf', 'cldf-metadata.json'))
+    print(ds, len(visited))
     for item in tb.tables[0]:
         for segment in item['Segments']:
             if segment not in visited:
                 visited.add(segment)
                 sound = clts[segment]
-                print(segment, sound.source, sound.codepoints)
+                #print(segment, sound.source, sound.codepoints)
                 if sound.type == 'unknownsound':
                     new_table += [[segment, 'unknownsound', '', '', '', '', '',
                         '', '', '', '']]
@@ -58,7 +54,7 @@ for ds in ['powoco-Bahnaric-200-24.csv',
                         '+' if sound.normalized else '',
                         '+' if sound.alias else '',
                         '+' if sound.generated else '',
-                        '+' if sound.stress else '',
+                        '+' if sound.stress == 'primary-stress' else '',
                         sound.name,
                         sound.codepoints
                         ]]
