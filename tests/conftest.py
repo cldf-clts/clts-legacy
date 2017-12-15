@@ -3,7 +3,7 @@ from __future__ import unicode_literals, print_function, division
 
 import pytest
 
-from pyclts import TranscriptionSystem
+from pyclts import TranscriptionSystem, TranscriptionData
 
 
 @pytest.fixture
@@ -13,9 +13,40 @@ def bipa():
 
 @pytest.fixture
 def asjp():
-    return TranscriptionSystem()
+    return TranscriptionSystem('asjp')
 
 
 @pytest.fixture
 def gld():
-    return TranscriptionSystem()
+    return TranscriptionSystem('gld')
+
+
+@pytest.fixture
+def sca():
+    return TranscriptionData('sca')
+
+
+@pytest.fixture
+def asjpd():
+    return TranscriptionData('asjp')
+
+
+@pytest.fixture
+def dolgo():
+    return TranscriptionData('dolgo')
+
+
+@pytest.fixture
+def dolgo():
+    return TranscriptionData('dolgo')
+
+
+@pytest.fixture
+def phoible():
+    return TranscriptionData('phoible')
+
+
+@pytest.fixture
+def pbase():
+    return TranscriptionData('pbase')
+

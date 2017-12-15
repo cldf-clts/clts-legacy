@@ -14,7 +14,6 @@ __all__ = [
     'Vowel',
     'Tone',
     'Marker',
-    'Click',
     'Diphthong',
     'Cluster',
     'UnknownSound']
@@ -92,17 +91,35 @@ class Sound(Symbol):
         return nfilter(getattr(self, p, None) for p in self._name_order)
 
     def __unicode__(self):
+        """
+        Return the reference representation of the sound.
+
+        Note
+        ----
+        We first try to return the non-alias value in our data. If this fails,
+        we create the sound based on it's feature representation.
+        """
+        # generated sounds need to be re-produced for double-checking
+        if not self.generated:
+            if not self.alias and self.grapheme in self.ts._sounds:
+                return self.grapheme
+            elif self.alias and self.name in self.ts._features:
+                return str(self.ts[self.name])
+        
         # search for best base-string
         elements = self._features()
         base_str = self.base or '<?>'
+        base_graphemes = []
         while elements:
             base = self.ts._features.get(' '.join(elements + [self.type]))
             if base:
                 base_str = base.grapheme
-                break
+                base_graphemes += [base_str]
             elements.pop(0)
-
-        base_vals = {self.ts._feature_values[elm] for elm in elements}
+        base_str = base_graphemes[-1] if base_graphemes else '<?>'
+        base_vals = {self.ts._feature_values[elm] for elm in 
+                self.ts._sounds[base_str].name.split(' ')[:-1]} if \
+                        base_str != '<?>' else {}
         out = []
         for p in self._write_order['pre']:
             if p not in base_vals:
@@ -118,9 +135,6 @@ class Sound(Symbol):
     @property
     def name(self):
         return ' '.join([f or '' for f in self._features()] + [self.type])
-
-    def get(self, desc):
-        return self.ts.features.get(desc, '')
 
     @property
     def table(self):
@@ -147,19 +161,6 @@ class Sound(Symbol):
                         bundle += ['{0}:{1}'.format(f, val)]
                 tbl += [','.join(bundle)]
         return tbl
-
-
-@attr.s(cmp=False, repr=False)
-class Click(Sound):
-    manner = attr.ib(default=None)
-    place = attr.ib(default=None)
-    phonation = attr.ib(default=None)
-    secondary = attr.ib(default=None)
-    preceding = attr.ib(default=None)
-    voicing = attr.ib(default=None)
-
-    _write_order = dict(pre=['preceding'], post=['phonation'])
-    _name_order = ['preceding', 'phonation', 'place', 'manner', 'voicing', 'secondary']
 
 
 @attr.s(cmp=False)
@@ -195,32 +196,22 @@ class Consonant(Sound):
     pharyngealization = attr.ib(default=None)
     ejection = attr.ib(default=None)
     voicing = attr.ib(default=None)
+    breathiness = attr.ib(default=None)
+    creakiness = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=[
-            'phonation',
-            'ejection',
-            'syllabicity',
-            'voicing',
-            'nasalization',
-            'palatalization',
-            'labialization',
-            'aspiration',
-            'glottalization',
-            'velarization',
-            'pharyngealization',
-            'duration',
-            'release'])
-    _name_order = [
-        'preceding', 'syllabicity', 'nasalization', 'palatalization',
+        post=['creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
+            'nasalization', 'duration', 'palatalization', 'labialization',
+            'breathiness', 'aspiration', 'glottalization', 'velarization',
+            'pharyngealization', 'release'])
+    _name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
-        'pharyngealization',
-        'duration', 'release', 'voicing',
-        'phonation', 'place', 'ejection', 'manner']
+        'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
+        'breathiness', 'phonation', 'place', 'ejection', 'manner']
 
 
 @attr.s(cmp=False, repr=False)
@@ -229,27 +220,31 @@ class ComplexSound(Sound):
     to_sound = attr.ib(default=None)
 
     def __unicode__(self):
-        return self.from_sound.__unicode__() + self.to_sound.__unicode()
+        return self.from_sound.__unicode__() + self.to_sound.__unicode__()
+
+    @property
+    def name(self):
+        n1 = ' '.join(self.from_sound.name.split(' ')[:-1])
+        n2 = ' '.join(self.to_sound.name.split(' ')[:-1])
+        return 'from '+n1+' to '+n2+' '+self.type
 
     @classmethod
     def from_sounds(cls, source, sound1, sound2, ts):
-        items = {
-            'from_'+f: 'from_'+getattr(sound1, f)
-            for f in sound1._name_order if getattr(sound1, f)}
-        items.update(
-            {'to_'+f: 'to_'+getattr(sound2, f)
-             for f in sound2._name_order if getattr(sound2, f)})
         return cls(
-            ts=ts,
-            source=source,
-            from_sound=sound1,
-            to_sound=sound2,
-            grapheme=str(sound1)+str(sound2),
-            generated=True,
-            base=str(sound1)+str(sound2),
-            normalized=sound1.normalized or sound2.normalized,
-            **items)
+                source=source, 
+                grapheme=sound1.grapheme+sound2.grapheme, 
+                from_sound=sound1, 
+                to_sound=sound2, 
+                ts=ts,
+                generated=True,
+                stress = sound1.stress or sound2.stress
+                )
 
+    @property
+    def table(self):
+        """Overwrite the table attribute for complex sounds"""
+        return [self.grapheme, self.from_sound.name, self.to_sound.name]
+        
 
 @attr.s(cmp=False, repr=False)
 class Cluster(ComplexSound):
@@ -262,81 +257,6 @@ class Cluster(ComplexSound):
     invalid sound clusters, we restrict the ```manner``` attribute of the two
     sounds to ```plosive``` and ```implosive```.
     """
-    from_manner = attr.ib(default=None)
-    from_place = attr.ib(default=None)
-    from_aspiration = attr.ib(default=None)
-    from_labialization = attr.ib(default=None)
-    from_palatalization = attr.ib(default=None)
-    from_preceding = attr.ib(default=None)
-    from_velarization = attr.ib(default=None)
-    from_duration = attr.ib(default=None)
-    from_phonation = attr.ib(default=None)
-    from_release = attr.ib(default=None)
-    from_syllabicity = attr.ib(default=None)
-    from_nasalization = attr.ib(default=None)
-    from_glottalization = attr.ib(default=None)
-    from_pharyngealization = attr.ib(default=None)
-    from_ejection = attr.ib(default=None)
-    from_voicing = attr.ib(default=None)
-
-    to_manner = attr.ib(default=None)
-    to_place = attr.ib(default=None)
-    to_aspiration = attr.ib(default=None)
-    to_labialization = attr.ib(default=None)
-    to_palatalization = attr.ib(default=None)
-    to_preceding = attr.ib(default=None)
-    to_velarization = attr.ib(default=None)
-    to_duration = attr.ib(default=None)
-    to_phonation = attr.ib(default=None)
-    to_release = attr.ib(default=None)
-    to_syllabicity = attr.ib(default=None)
-    to_nasalization = attr.ib(default=None)
-    to_glottalization = attr.ib(default=None)
-    to_pharyngealization = attr.ib(default=None)
-    to_ejection = attr.ib(default=None)
-    to_voicing = attr.ib(default=None)
-
-    # write order determines how consonants are written according to their
-    # features, so this normalizes the order of diacritics preceding and
-    # following the base part of the consonant
-    _write_order = dict(
-        pre=[],
-        post=[]
-    )
-    _name_order = [
-        'from_preceding',
-        'from_syllabicity',
-        'from_nasalization',
-        'from_palatalization',
-        'from_labialization',
-        'from_glottalization',
-        'from_aspiration',
-        'from_velarization',
-        'from_pharyngealization',
-        'from_duration',
-        'from_release',
-        'from_voicing',
-        'from_phonation',
-        'from_place',
-        'from_ejection',
-        'from_manner',
-        'to_preceding',
-        'to_syllabicity',
-        'to_nasalization',
-        'to_palatalization',
-        'to_labialization',
-        'to_glottalization',
-        'to_aspiration',
-        'to_velarization',
-        'to_pharyngealization',
-        'to_duration',
-        'to_release',
-        'to_voicing',
-        'to_phonation',
-        'to_place',
-        'to_ejection',
-        'to_manner'
-    ]
 
 
 @attr.s(cmp=False, repr=False)
@@ -346,7 +266,9 @@ class Vowel(Sound):
     nasalization = attr.ib(default=None)
     frication = attr.ib(default=None)
     duration = attr.ib(default=None)
-    phonation = attr.ib(default=None)
+    voicing = attr.ib(default=None)
+    breathiness = attr.ib(default=None)
+    creakiness = attr.ib(default=None)
     release = attr.ib(default=None)
     syllabicity = attr.ib(default=None)
     pharyngealization = attr.ib(default=None)
@@ -355,93 +277,25 @@ class Vowel(Sound):
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
     tone = attr.ib(default=None)
-    voicing = attr.ib(default=None)
+    retraction = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
-        post=[
-            'voicing',
-            'phonation',
-            'rhotacization',
-            'syllabicity',
-            'nasalization',
-            'tone',
-            'pharyngealization',
-            'glottalization',
-            'velarization',
-            'duration',
+        post=['voicing', 'breathiness', 'creakiness', 'retraction',
+            'rhotacization', 'syllabicity', 'nasalization', 'tone',
+            'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
-    _name_order = [
-        'duration', 'rhotacization', 'pharyngealization', 'glottalization',
-        'velarization', 'syllabicity', 'nasalization', 'voicing', 'phonation',
-        'roundedness', 'height',
-        'frication', 'centrality', 'tone']
+    _name_order = ['duration', 'rhotacization', 'pharyngealization',
+            'glottalization', 'velarization', 'syllabicity', 'retraction',
+            'nasalization', 'voicing', 'creakiness', 'breathiness',
+            'roundedness', 'height', 'frication', 'centrality', 'tone']
 
 
 @attr.s(cmp=False, repr=False)
 class Diphthong(ComplexSound):
-    from_roundedness = attr.ib(default=None)
-    from_height = attr.ib(default=None)
-    from_centrality = attr.ib(default=None)
-    to_roundedness = attr.ib(default=None)
-    to_height = attr.ib(default=None)
-    to_centrality = attr.ib(default=None)
-    from_nasalization = attr.ib(default=None)
-    from_frication = attr.ib(default=None)
-    from_duration = attr.ib(default=None)
-    from_phonation = attr.ib(default=None)
-    from_release = attr.ib(default=None)
-    from_syllabicity = attr.ib(default=None)
-    from_pharyngealization = attr.ib(default=None)
-    from_glottalization = attr.ib(default=None)
-    from_rhotacization = attr.ib(default=None)
-    from_velarization = attr.ib(default=None)
-
-    to_nasalization = attr.ib(default=None)
-    to_frication = attr.ib(default=None)
-    to_duration = attr.ib(default=None)
-    to_phonation = attr.ib(default=None)
-    to_release = attr.ib(default=None)
-    to_syllabicity = attr.ib(default=None)
-    to_pharyngealization = attr.ib(default=None)
-    to_glottalization = attr.ib(default=None)
-    to_rhotacization = attr.ib(default=None)
-    to_velarization = attr.ib(default=None)
-
-    # dipthongs are simply handled by adding the three base types for vowel and
-    # consonant, plus the additional features, which are, however, only
-    # supposed to occur on the first vowel
-
-    _write_order = dict(
-        pre=[],
-        post=['to_syllabicity', 'to_nasalization', 'to_duration'])
-
-    _name_order = [
-        'from_phonation',
-        'from_rhotacization',
-        'from_pharyngealization',
-        'from_glottalization',
-        'from_velarization',
-        'from_syllabicity',
-        'from_duration',
-        'from_nasalization',
-        'from_roundedness',
-        'from_height',
-        'from_centrality',
-        'from_frication',
-        'to_phonation',
-        'to_rhotacization',
-        'to_pharyngealization',
-        'to_glottalization',
-        'to_velarization',
-        'to_syllabicity',
-        'to_duration',
-        'to_nasalization',
-        'to_roundedness',
-        'to_height',
-        'to_centrality',
-        'to_frication'
-    ]
+    """
+    A dipthong consists of two vowels.
+    """
 
 
 @attr.s(cmp=False, repr=False)

@@ -49,46 +49,6 @@
             }
         },
         {
-            "url": "clicks.tsv",
-            "tableSchema": {
-                "columns": [
-                    {
-                        "name": "GRAPHEME",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "PHONATION",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "PLACE",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "SECONDARY",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "MANNER",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "EXTRA",
-                        "separator": ",",
-                        "datatype": {"base": "string"}
-                    },
-                    {
-                        "name": "ALIAS",
-                        "datatype": {"base": "boolean", "format": "+|"}
-                    },
-                    {
-                        "name": "NOTE",
-                        "datatype": {"base": "string"}
-                    }
-                ]
-            }
-        },
-        {
             "url": "diacritics.tsv",
             "tableSchema": {
                 "columns": [

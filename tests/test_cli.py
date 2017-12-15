@@ -10,7 +10,7 @@ def _read_tsv(self, path):
     return set(tuple(row[1:]) for row in reader(path, delimiter='\t'))
 
 
-def est_main(self):
+def _test_main(self):
     self._main('report', text='no input')
     self._main('report', arg='xyz', text='invalid input')
     self._main('report', arg=self.data_path('KSL.tsv').as_posix(), text='sounds')

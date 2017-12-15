@@ -1,15 +1,30 @@
 GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʰ	consonant	aspiration	aspirated			
 ◌ː	consonant	duration	long			
+◌’	consonant	ejection	ejective			
+◌'	consonant	ejection	ejective	+		
+◌’	consonant	ejection	ejective	+		
+◌ʼ	consonant	ejection	ejective	+		
+◌ʱ	consonant	breathiness	breathy			
+◌̤	consonant	breathiness	breathy	+		
+ᶰ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+◌̠	vowel	retraction	retracted			
+ᶬ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᶮ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᶯ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᵐ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᴺ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᴹ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+◌ʱ	vowel	breathiness	breathy	+		
+◌̤	vowel	breathiness	breathy			
 ◌ˀ	consonant	glottalization	glottalized			
 ◌ʷ	consonant	labialization	labialized			
 ◌̃	consonant	nasalization	nasalized			
 ◌ᶣ	consonant	palatalization	labio-palatalized			
 ◌ʲ	consonant	palatalization	palatalized			
 ◌ˤ	consonant	pharyngealization	pharyngealized			
-◌ʱ	consonant	phonation	breathy-voiced	+		
-◌̤	consonant	phonation	breathy-voiced			
-◌̰	consonant	phonation	creaky-voiced			
+◌̰	consonant	creakiness	creaky			
+◌̰	vowel	creakiness	creaky			
 ◌˳	consonant	voicing	devoiced	+		
 ◌̥	consonant	voicing	devoiced			
 ◌̊	consonant	voicing	devoiced		up	
@@ -25,6 +40,8 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ˣ	consonant	release	with-voiceless-velar-fricative			
 ˈ◌	consonant	stress	primary-stress			
 ˌ◌	consonant	stress	secondary-stress			
+'◌	consonant	stress	primary-stress	+		
+,◌	consonant	stress	secondary-stress	+		
 ◌̩	consonant	syllabicity	syllabic			
 ◌̍	consonant	syllabicity	syllabic		up	
 ◌ˠ	consonant	velarization	velarized			
@@ -35,19 +52,17 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ˀ	vowel	glottalization	glottalized			
 ◌̃	vowel	nasalization	nasalized			
 ◌ˤ	vowel	pharyngealization	pharyngealized			
-◌̤	vowel	phonation	breathy-voiced			
-◌̰	vowel	phonation	creaky-voiced			
 ◌̆	vowel	duration	ultra-short			
-◌˳	vowel	phonation	voiceless	+		
-◌̥	vowel	phonation	voiceless			
-◌̊	vowel	phonation	voiceless		up	
+◌˳	vowel	voicing	devoiced	+		
+◌̥	vowel	voicing	devoiced			
+◌̊	vowel	voicing	devoiced		up	
 ◌˞	vowel	rhotacization	rhotacized			
 ◌̹	vowel	roundedness	rounded			
 ◌̜	vowel	roundedness	unrounded			
 ˈ◌	vowel	stress	primary-stress			
-ˌ◌	vowel	stress	secondary-stress			
-ˈ◌	click	stress	primary-stress			
-ˌ◌	click	stress	secondary-stress			
+ˌ◌	vowel	stress	secondary-stress					
+'◌	vowel	stress	primary-stress	+		
+,◌	vowel	stress	secondary-stress	+		
 ◌̯	vowel	syllabicity	non-syllabic			
 ◌̑	vowel	syllabicity	non-syllabic		up	
 ◌ˠ	vowel	velarization	velarized			
@@ -59,6 +74,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̌	vowel	tone	with_rising_tone			
 ◌̂	vowel	tone	with_falling_tone			
 ◌↗	vowel	tone	with_global_rise			
-◌↘	vowel	tone	with_glogal_fall			
+◌↘	vowel	tone	with_global_fall			
 ◌↑	vowel	tone	with_upstep			
 ◌↓	vowel	tone	with_downstep			

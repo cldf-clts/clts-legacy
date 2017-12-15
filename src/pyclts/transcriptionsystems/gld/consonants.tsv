@@ -1,105 +1,105 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
+lɦ	voiced	alveolar	lateral-approximant		breathiness:breathy	
+nɦ	voiced	alveolar	nasal		breathiness:breathy	
+mɦ	voiced	bilabial	nasal		breathiness:breathy	
+yɦ	voiced	palatal	approximant		breathiness:breathy	
+vɦ	voiced	labio-dental	fricative		breathiness:breathy	
+qɦ	voiced	uvular	stop		breathiness:breathy	
+ŋɦ	voiced	velar	nasal		breathiness:breathy	
+ɲɦ	voiced	palatal	nasal		breathiness:breathy	
+l̥	voiced	alveolar	lateral-approximant		voicing:devoiced	
+n̥	voiced	alveolar	nasal		voicing:devoiced	
+ɲ̥	voiced	palatal	nasal		voicing:devoiced	
+m̥	voiced	bilabial	nasal		voicing:devoiced	
+n̥ʰ	voiced	alveolar	nasal		aspiration:aspirated,voicing:devoiced	
+ŋ̥	voiced	velar	nasal		voicing:devoiced	
+m̥ʰ	voiced	bilabial	nasal		aspiration:aspirated,voicing:devoiced	
+l̥ʰ	voiced	alveolar	lateral-approximant		aspiration:aspirated,voicing:devoiced	
+ɲ̥ʰ	voiced	palatal	nasal		aspiration:aspirated,voicing:devoiced	
+v̥	voiced	labio-dental	fricative		voicing:devoiced	
 ŋ	voiced	velar	nasal			
 n	voiced	alveolar	nasal			
-t	voiceless	alveolar	plosive			
-p	voiceless	bilabial	plosive			
-k	voiceless	velar	plosive			
 l	voiced	alveolar	lateral-approximant			
 m	voiced	bilabial	nasal			
-q	voiceless	uvular	plosive			
 y	voiced	palatal	approximant			
-h	voiceless	glottal	fricative			
-ɕ	voiceless	alveolo-palatal	affricate			
-kɦ	voiceless	velar	plosive		release:with-breathy-release	
-tɦ	voiceless	alveolar	plosive		release:with-breathy-release	
-pɦ	voiceless	bilabial	plosive		release:with-breathy-release	
-ŋkɦ	voiceless	velar	plosive		preceding:pre-nasalized,release:with-breathy-release	
-ntɦ	voiceless	alveolar	plosive		preceding:pre-nasalized,release:with-breathy-release	
-mpɦ	voiceless	bilabial	plosive		preceding:pre-nasalized,release:with-breathy-release	
-lɦ	breathy-voiced	alveolar	lateral-approximant			
-nɦ	breathy-voiced	alveolar	nasal			
-mɦ	breathy-voiced	bilabial	nasal			
-yɦ	breathy-voiced	palatal	approximant			
-ɕɦ	voiceless	alveolo-palatal	affricate		release:with-breathy-release	
-vɦ	breathy-voiced	labiodental	fricative			
-qɦ	breathy-voiced	uvular	plosive			
-ŋɦ	breathy-voiced	velar	nasal			
-ɲɦ	breathy-voiced	palatal	nasal			
 ɲʰ	voiced	palatal	nasal		aspiration:aspirated	
-ƛ	voiceless	alveolar	lateral-affricate			
 ɦ	voiced	glottal	fricative			
 ɲ	voiced	palatal	nasal			
 w	voiced	labialized-velar	approximant			
-c	voiceless	alveolar	affricate			
-l̥	devoiced	alveolar	lateral-approximant			
-n̥	devoiced	alveolar	nasal			
-f	voiceless	labiodental	fricative			
 ʑ	voiced	alveolo-palatal	sibilant-fricative			
-v	voiced	labiodental	fricative			
-qʰ	voiceless	uvular	plosive		aspiration:aspirated	
-d	voiced	alveolar	plosive			
-č	voiceless	postalveolar	affricate			
-ʆ	voiceless	alveolo-palatal	sibilant-fricative			
+v	voiced	labio-dental	fricative			
+d	voiced	alveolar	stop			
 ŋ̩	voiced	velar	nasal		syllabicity:syllabic	
-kʰ	voiceless	velar	plosive		aspiration:aspirated	
-cʰ	voiceless	alveolar	affricate		aspiration:aspirated	
-s	voiceless	alveolar	sibilant-fricative			
 ɳ	voiced	retroflex	nasal			
 ɣ	voiced	velar	fricative			
-tʰ	voiceless	alveolar	plosive		aspiration:aspirated	
-θ	voiceless	dental	fricative			
-ʋ	voiced	labiodental	approximant			
-ɬ	voiceless	alveolar	lateral-fricative			
-ǯ	voiced	postalveolar	affricate			
-ɲ̥	devoiced	palatal	nasal			
-c̢	voiceless	retroflex	sibilant-affricate			
-m̥	devoiced	bilabial	nasal			
-pʰ	voiceless	bilabial	plosive		aspiration:aspirated	
+ʋ	voiced	labio-dental	approximant			
+ǯ	voiced	postalveolar	sibilant-affricate			
 ž	voiced	postalveolar	sibilant-fricative			
-ʼd	voiced	alveolar	plosive		preceding:pre-glottalized	
+ʼd	voiced	alveolar	stop		preceding:pre-glottalized	
 ɹ	voiced	alveolar	approximant			
-ʈ	voiceless	retroflex	plosive			
-ʔ	voiceless	glottal	plosive			
-x	voiceless	velar	fricative			
-b	voiced	bilabial	plosive			
+b	voiced	bilabial	stop			
 ʐ	voiced	retroflex	sibilant-fricative			
-š	voiceless	postalveolar	sibilant-fricative			
-čʰ	voiceless	postalveolar	sibilant-affricate		aspiration:aspirated	
-n̥ʰ	devoiced	alveolar	nasal		aspiration:aspirated	
-ŋ̥	devoiced	velar	nasal			
-c̢ʰ	voiceless	retroflex	sibilant-affricate		aspiration:aspirated	
-sʰ	voiceless	alveolar	sibilant-fricative		aspiration:aspirated	
 ð	voiced	dental	fricative			
-g	voiced	velar	plosive			
+g	voiced	velar	stop			
 ɴ	voiced	uvular	nasal			
 m̩	voiced	bilabial	nasal		syllabicity:syllabic	
-ʃʰ	voiceless	alveolo-palatal	fricative	+	aspiration:aspirated	
-ʂ	voiceless	retroflex	fricative			
-m̥ʰ	devoiced	bilabial	nasal		aspiration:aspirated	
 ʓ	voiced	alveolo-palatal	sibilant-affricate			
 ʒ	voiced	alveolar	sibilant-affricate			
 ᶚ	voiced	retroflex	sibilant-affricate			
 ɭ	voiced	retroflex	lateral-approximant			
-l̥ʰ	devoiced	alveolar	lateral-approximant		aspiration:aspirated	
 lʰ	voiced	alveolar	lateral-approximant		aspiration:aspirated	
-ʃ	voiceless	alveolo-palatal	sibilant-fricative	+		
-ɕʰ	voiceless	alveolo-palatal	sibilant-affricate		aspiration:aspirated	
 n̩	voiced	alveolar	nasal		syllabicity:syllabic	
-ɭ̥ʰ	devoiced	retroflex	lateral-approximant		aspiration:aspirated	
-fʰ	voiceless	labiodental	fricative		aspiration:aspirated	
-ʆʰ	voiceless	alveolo-palatal	sibilant-fricative		aspiration:aspirated	
-ɲ̥ʰ	devoiced	palatal	nasal		aspiration:aspirated	
-v̥	devoiced	labiodental	fricative			
+ɭ̥ʰ	voiced	retroflex	lateral-approximant		aspiration:aspirated	
 j	voiced	palatal	approximant	+		
 z	voiced	alveolar	fricative			
-dʰ	voiced	alveolar	plosive		aspiration:aspirated	
-ɢ	voiced	uvular	plosive			
-hw	devoiced	labialized-velar	approximant			
-pᶠ	voiceless	labiodental	affricate			
-bᵛ	voiced	labiodental	affricate			
-tᶿ	voiceless	dental	affricate			
+dʰ	voiced	alveolar	stop		aspiration:aspirated	
+ɢ	voiced	uvular	stop			
+hw	voiced	labialized-velar	approximant		voicing:devoiced	
+bᵛ	voiced	labio-dental	affricate			
 dᶞ	voiced	dental	affricate			
-kˣ	voiceless	velar	affricate			
 gˠ	voiced	velar	affricate			
-qᵡ	voiceless	uvular	affricate			
 ɢʶ	voiced	uvular	affricate			
+t	voiceless	alveolar	stop			
+p	voiceless	bilabial	stop			
+k	voiceless	velar	stop			
+q	voiceless	uvular	stop			
+h	voiceless	glottal	fricative			
+ɕ	voiceless	alveolo-palatal	sibilant-affricate			
+kɦ	voiceless	velar	stop		breathiness:breathy	
+tɦ	voiceless	alveolar	stop		breathiness:breathy	
+pɦ	voiceless	bilabial	stop		breathiness:breathy	
+ŋkɦ	voiceless	velar	stop		preceding:pre-nasalized,breathiness:breathy	
+ntɦ	voiceless	alveolar	stop		preceding:pre-nasalized,breathiness:breathy	
+mpɦ	voiceless	bilabial	stop		preceding:pre-nasalized,breathiness:breathy	
+ɕɦ	voiceless	alveolo-palatal	sibilant-affricate		breathiness:breathy	
+ƛ	voiceless	alveolar	lateral-affricate			
+c	voiceless	alveolar	sibilant-affricate			
+f	voiceless	labio-dental	fricative			
+qʰ	voiceless	uvular	stop		aspiration:aspirated	
+č	voiceless	postalveolar	sibilant-affricate			
+ʆ	voiceless	alveolo-palatal	sibilant-fricative			
+kʰ	voiceless	velar	stop		aspiration:aspirated	
+cʰ	voiceless	alveolar	sibilant-affricate		aspiration:aspirated	
+s	voiceless	alveolar	sibilant-fricative			
+tʰ	voiceless	alveolar	stop		aspiration:aspirated	
+θ	voiceless	dental	fricative			
+ɬ	voiceless	alveolar	lateral-fricative			
+c̢	voiceless	retroflex	sibilant-affricate			
+pʰ	voiceless	bilabial	stop		aspiration:aspirated	
+ʈ	voiceless	retroflex	stop			
+ʔ	voiceless	glottal	stop			
+x	voiceless	velar	fricative			
+š	voiceless	postalveolar	sibilant-fricative			
+čʰ	voiceless	postalveolar	sibilant-affricate		aspiration:aspirated	
+c̢ʰ	voiceless	retroflex	sibilant-affricate		aspiration:aspirated	
+sʰ	voiceless	alveolar	sibilant-fricative		aspiration:aspirated	
+ʃʰ	voiceless	alveolo-palatal	sibilant-fricative	+	aspiration:aspirated	
+ʂ	voiceless	retroflex	fricative			
+ʃ	voiceless	alveolo-palatal	sibilant-fricative	+		
+ɕʰ	voiceless	alveolo-palatal	sibilant-affricate		aspiration:aspirated	
+fʰ	voiceless	labio-dental	fricative		aspiration:aspirated	
+ʆʰ	voiceless	alveolo-palatal	sibilant-fricative		aspiration:aspirated,voicing:devoiced	
+pᶠ	voiceless	labio-dental	affricate			
+tᶿ	voiceless	dental	affricate			
+kˣ	voiceless	velar	affricate			
+qᵡ	voiceless	uvular	affricate			

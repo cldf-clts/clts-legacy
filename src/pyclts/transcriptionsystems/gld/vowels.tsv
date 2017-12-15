@@ -17,9 +17,9 @@ iː	unrounded	close	front		duration:long
 ɔ	rounded	open-mid	back			
 ɔɔ	rounded	open-mid	back	+	duration:long	
 ɔː	rounded	open-mid	back		duration:long	
-ǝ	unrounded	mid	central			
-ǝǝ	unrounded	mid	central	+	duration:long	
-ǝː	unrounded	mid	central		duration:long	
+ə	unrounded	mid	central			
+əə	unrounded	mid	central	+	duration:long	
+əː	unrounded	mid	central		duration:long	
 ɛ	unrounded	open-mid	front			
 ɛɛ	unrounded	open-mid	front	+	duration:long	
 ɛː	unrounded	open-mid	front		duration:long	
@@ -50,9 +50,9 @@ iː	unrounded	close	front		duration:long
 ɨ	unrounded	close	central			
 ɨɨ	unrounded	close	central	+	duration:long	
 ɨː	unrounded	close	central		duration:long	
-ı	unrounded	near-close-mid	front			
-ıı	unrounded	near-close-mid	front	+	duration:long	
-ıː	unrounded	near-close-mid	front		duration:long	
+ı	unrounded	near-close	near-front			
+ıı	unrounded	near-close	near-front	+	duration:long	
+ıː	unrounded	near-close	near-front		duration:long	
 ʏ	rounded	near-close-mid	front			
 ʏʏ	rounded	near-close-mid	front	+	duration:long	
 ʏː	rounded	near-close-mid	front		duration:long	
