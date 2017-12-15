@@ -31,9 +31,14 @@ def test_examples(bipa):
     sound = bipa['dʷʱ']
     assert sound.name == 'labialized breathy voiced alveolar stop consonant'
     assert sound.generated
-    assert sound.alias
+    assert not sound.alias
     assert sound.codepoints == 'U+0064 U+02b7 U+02b1'
     assert sound.uname == 'LATIN SMALL LETTER D / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL H WITH HOOK'
+    sound = bipa['dʱʷ']
+    assert sound.name == 'labialized breathy voiced alveolar stop consonant'
+    assert sound.generated
+    assert sound.alias
+    assert sound.codepoints == 'U+0064 U+02b7 U+02b1'
 
 
 def test_parse(bipa):
@@ -62,34 +67,66 @@ def test_parse(bipa):
         bipa._add(res)
         assert res in bipa
 
+    # go for bad diacritics in front and end of a string
+    assert bipa['*a'].type == 'unknownsound'
+    assert bipa['a*'].type == 'unknownsound'
+
+
+def test_call(bipa):
+    assert bipa('th o x t a')[0].alias
+
+
+def test_get(bipa):
+    "test for the case that we have a new default"
+    assert bipa.get('A', '?') == '?'
+
 
 def test_sound_from_name(bipa):
     from pyclts.models import UnknownSound
 
     assert bipa['from unrounded open front to unrounded close-mid front diphthong'].grapheme == 'ae'
-    assert isinstance(bipa['a bad diphthong'], UnknownSound)
     assert bipa['from voiceless alveolar stop to voiceless velar stop cluster'].grapheme == 'tk'
-    with pytest.raises(ValueError):
+
+    try:
         bipa['very bad feature voiced labial stop consonant']
-        
+    except ValueError:
+        assert True
+    try:
+        bipa._from_name('very bad feature with bad consonantixs')
+    except ValueError:
+        assert True
+    try:
+        bipa._from_name('from something to something diphthong')
+    except ValueError:
+        assert True
+    try:
+        bipa._from_name('something diphthong')
+    except ValueError:
+        assert True
+
+    assert bipa['pre-aspirated voiced bilabial nasal consonant'].generated
+    assert not bipa._from_name('voiced nasal bilabial consonant').generated
 
 
 def test_ts(bipa):
     from pyclts.transcriptionsystem import TranscriptionSystem
     from pyclts.models import Cluster,Diphthong
-    with pytest.raises(ValueError):
+    try:
         TranscriptionSystem('')
+    except ValueError:
+        assert True
+    try:
         TranscriptionSystem('_f1')
+    except ValueError:
+        assert True
+    try:
         TranscriptionSystem('_f2')
+    except ValueError:
+        assert True
+    try:
         bads = TranscriptionSystem('what')
-
-    # test clicks data
-    with UnicodeReader(test_data('clicks.tsv'), delimiter='\t') as f:
-        for row in [r for r in f][1:]:
-            grapheme = row[0]
-            gtype = row[4]
-            if gtype == 'stop-cluster':
-                assert isinstance(bipa[grapheme], Cluster)
+    except ValueError:
+        assert True
 
 
 def test_models(bipa, asjp):
@@ -201,3 +238,37 @@ def test_transcription_system_consistency(bipa, asjp, gld):
 
     # important test for alias
     assert str(bipa['d̤ʷ']) == str(bipa['dʷʱ']) == str(bipa['dʱʷ'])
+
+
+def test_clicks(bipa):
+    # test clicks data
+    with UnicodeReader(test_data('clicks.tsv'), delimiter='\t') as f:
+        for row in [r for r in f][1:]:
+            grapheme = row[0]
+            gtype = row[4]
+            if gtype == 'stop-cluster':
+                assert bipa[grapheme].type == 'cluster'
+
+
+def test_datasets(bipa):
+    """Test on a large pre-assembled dataset whether everything is consistent"""
+    
+    with UnicodeReader(test_data('test_data.tsv'), delimiter="\t") as f:
+        rows = [r for r in f]
+        for row in rows[1:]:
+            tmp = dict(zip(rows[0], row))
+            sound = bipa[tmp['source']]
+            if sound.type not in ['unknownsound', 'marker']:
+                if tmp['nfd-normalized'] == '+':
+                    assert bipa[tmp['source']] != sound.source
+                if tmp['clts-normalized'] == "+":
+                    assert sound.normalized
+                if tmp['aliased'] == '+':
+                    assert sound.alias
+                if tmp['generated']:
+                    assert sound.generated
+                if tmp['stressed']:
+                    assert sound.stress
+                assert sound.name == tmp['name']
+                assert sound.codepoints == tmp['codepoints']
+            

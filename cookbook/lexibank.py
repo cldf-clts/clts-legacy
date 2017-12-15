@@ -5,10 +5,24 @@ from pyclts import TranscriptionSystem as TS
 from clldutils.csvw.metadata import TableGroup
 from collections import defaultdict
 from tabulate import tabulate
+from unicodedata import normalize
 clts = TS()
 
 visited = set()
 errors = defaultdict(list)
+new_table = [[
+    'source',
+    'type',
+    'grapheme',
+    'bipa',
+    'nfd-normalized',
+    'clts-normalized',
+    'aliased',
+    'generated',
+    'stressed',
+    'name',
+    'codepoints'
+    ]]
 
 for ds in ['powoco-Bahnaric-200-24.csv',
         'powoco-Uralic-173-8.csv',
@@ -24,8 +38,31 @@ for ds in ['powoco-Bahnaric-200-24.csv',
         for segment in item['Segments']:
             if segment not in visited:
                 visited.add(segment)
-                print(segment)
                 sound = clts[segment]
+                print(segment, sound.source, sound.codepoints)
+                if sound.type == 'unknownsound':
+                    new_table += [[segment, 'unknownsound', '', '', '', '', '',
+                        '', '', '', '']]
+                elif sound.type == 'marker':
+                    new_table += [[segment, 'marker', '', '', '', '', '', '',
+                    '', '', '', '']]
+                else:
+                    assert normalize('NFD', segment) == sound.source
+                    if segment != sound.source:
+                        nfd = '+'
+                    else:
+                        nfd = ''
+                    new_table += [[segment, sound.type, sound.grapheme,
+                        str(sound), 
+                        nfd,
+                        '+' if sound.normalized else '',
+                        '+' if sound.alias else '',
+                        '+' if sound.generated else '',
+                        '+' if sound.stress else '',
+                        sound.name,
+                        sound.codepoints
+                        ]]
+                        
                 if sound.type == 'unknownsound':
                     errors['unknown'] += [segment]
                 elif not sound.name:
@@ -61,3 +98,8 @@ print(tabulate(table1[1:], headers=table1[0]))
 
 print('---visited---')
 print(len(visited))
+
+with open('test_data.tsv', 'w') as f:
+    f.write('\t'.join(new_table[0])+'\n')
+    for line in sorted(new_table[1:], key=lambda x: tuple(x[1:])):
+        f.write('\t'.join(line)+'\n')

@@ -99,10 +99,12 @@ class Sound(Symbol):
         We first try to return the non-alias value in our data. If this fails,
         we create the sound based on it's feature representation.
         """
-        if not self.alias and self.grapheme in self.ts._sounds:
-            return self.grapheme
-        elif self.alias and self.name in self.ts._features:
-            return str(self.ts[self.name])
+        # generated sounds need to be re-produced for double-checking
+        if not self.generated:
+            if not self.alias and self.grapheme in self.ts._sounds:
+                return self.grapheme
+            elif self.alias and self.name in self.ts._features:
+                return str(self.ts[self.name])
         
         # search for best base-string
         elements = self._features()
@@ -202,29 +204,14 @@ class Consonant(Sound):
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=[
-            'creakiness',
-            'phonation',
-            'ejection',
-            'syllabicity',
-            'voicing',
-            'nasalization',
-            'duration',
-            'palatalization',
-            'labialization',
-            'breathiness',
-            'aspiration',
-            'glottalization',
-            'velarization',
-            'pharyngealization',
-
-            'release'])
-    _name_order = [
-        'preceding', 'syllabicity', 'nasalization', 'palatalization',
+        post=['creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
+            'nasalization', 'duration', 'palatalization', 'labialization',
+            'breathiness', 'aspiration', 'glottalization', 'velarization',
+            'pharyngealization', 'release'])
+    _name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
-        'pharyngealization',
-        'duration', 'release', 'voicing',
-        'creakiness', 'breathiness', 'phonation', 'place', 'ejection', 'manner']
+        'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
+        'breathiness', 'phonation', 'place', 'ejection', 'manner']
 
 
 @attr.s(cmp=False, repr=False)
@@ -245,11 +232,12 @@ class ComplexSound(Sound):
     def from_sounds(cls, source, sound1, sound2, ts):
         return cls(
                 source=source, 
-                grapheme=str(sound1)+str(sound2), 
+                grapheme=sound1.grapheme+sound2.grapheme, 
                 from_sound=sound1, 
                 to_sound=sound2, 
                 ts=ts,
-                generated=True
+                generated=True,
+                stress = sound1.stress or sound2.stress
                 )
 
     @property
@@ -289,28 +277,18 @@ class Vowel(Sound):
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
     tone = attr.ib(default=None)
+    retraction = attr.ib(default=None)
 
     _write_order = dict(
         pre=[],
-        post=[
-            'voicing',
-            'breathiness',
-            'creakiness',
-            'rhotacization',
-            'syllabicity',
-            'nasalization',
-            'tone',
-            'pharyngealization',
-            'glottalization',
-            'velarization',
-            'duration',
+        post=['voicing', 'breathiness', 'creakiness', 'retraction',
+            'rhotacization', 'syllabicity', 'nasalization', 'tone',
+            'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
-    _name_order = [
-        'duration', 'rhotacization', 'pharyngealization', 'glottalization',
-        'velarization', 'syllabicity', 'nasalization', 'voicing', 'creakiness',
-        'breathiness',
-        'roundedness', 'height',
-        'frication', 'centrality', 'tone']
+    _name_order = ['duration', 'rhotacization', 'pharyngealization',
+            'glottalization', 'velarization', 'syllabicity', 'retraction',
+            'nasalization', 'voicing', 'creakiness', 'breathiness',
+            'roundedness', 'height', 'frication', 'centrality', 'tone']
 
 
 @attr.s(cmp=False, repr=False)

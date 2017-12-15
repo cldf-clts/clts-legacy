@@ -7,6 +7,14 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌ʼ	consonant	ejection	ejective	+		
 ◌ʱ	consonant	breathiness	breathy			
 ◌̤	consonant	breathiness	breathy	+		
+ᶰ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+◌̠	vowel	retraction	retracted			
+ᶬ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᶮ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᶯ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᵐ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᴺ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
+ᴹ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
 ◌ʱ	vowel	breathiness	breathy	+		
 ◌̤	vowel	breathiness	breathy			
 ◌ˀ	consonant	glottalization	glottalized			
@@ -53,8 +61,8 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̜	vowel	roundedness	unrounded			
 ˈ◌	vowel	stress	primary-stress			
 ˌ◌	vowel	stress	secondary-stress					
-'◌	vowel	stress	primary-stress			
-,◌	vowel	stress	secondary-stress			
+'◌	vowel	stress	primary-stress	+		
+,◌	vowel	stress	secondary-stress	+		
 ◌̯	vowel	syllabicity	non-syllabic			
 ◌̑	vowel	syllabicity	non-syllabic		up	
 ◌ˠ	vowel	velarization	velarized			

@@ -67,6 +67,9 @@ r̩	voiced	alveolar	trill		syllabicity:syllabic
 r̥	voiced	alveolar	trill		voicing:devoiced	
 ȵ	voiced	alveolo-palatal	nasal			
 ȵ̊	voiced	alveolo-palatal	nasal		voicing:devoiced	
+ȴ	voiced	alveolo-palatal	lateral-approximant			
+ʎ̟	voiced	alveolo-palatal	lateral-approximant	+		Following Wikipedia here in labeling this as an alias.
+l̠ʲ	voiced	alveolo-palatal	lateral-approximant	+		Following Wikipedia here in labeling this as an alias.
 ʥ	voiced	alveolo-palatal	sibilant-affricate	+		
 dʑ	voiced	alveolo-palatal	sibilant-affricate			
 dːʑ	voiced	alveolo-palatal	sibilant-affricate		duration:long	
@@ -160,8 +163,8 @@ jː	voiced	palatal	approximant		duration:long
 j̃	voiced	palatal	approximant		nasalization:nasalized	
 ʝ	voiced	palatal	fricative			
 ʄ	voiced	palatal	implosive			
-λ	voiced	palatal	lateral-approximant			
-λ̥	voiced	palatal	lateral-approximant		voicing:devoiced	
+ʎ	voiced	palatal	lateral-approximant			
+ʎ̥	voiced	palatal	lateral-approximant		voicing:devoiced	
 ñ	voiced	palatal	nasal	+		
 ɲ	voiced	palatal	nasal			
 ɲː	voiced	palatal	nasal		duration:long	
@@ -397,7 +400,6 @@ kː	voiceless	velar	stop		duration:long
 kʼ	voiceless	velar	stop		ejection:ejective	
 kw	voiceless	velar	stop	+	labialization:labialized	
 kʷ	voiceless	velar	stop		labialization:labialized	
-kʰʷ	voiceless	velar	stop	+	labialization:labialized,aspiration:aspirated	
 kwh	voiceless	velar	stop	+	labialization:labialized,aspiration:aspirated	
 kʷʰ	voiceless	velar	stop		labialization:labialized,aspiration:aspirated	
 kʷː	voiceless	velar	stop		labialization:labialized,duration:long	
