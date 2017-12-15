@@ -116,8 +116,9 @@ class TranscriptionSystem(object):
 
     def _add(self, sound):
         assert sound.generated
-        self._sounds[sound.grapheme] = sound
-        if not sound.alias:
+        if not sound.grapheme in self._sounds:
+            self._sounds[sound.grapheme] = sound
+        if not sound.alias and not sound.name in self._features:
             self._features[sound.name] = sound
         self._update_regex()
 

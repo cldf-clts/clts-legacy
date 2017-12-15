@@ -116,7 +116,7 @@ class Sound(Symbol):
                 base_str = base.grapheme
                 base_graphemes += [base_str]
             elements.pop(0)
-        base_str = base_graphemes[-1] if base_graphemes else '<?>'
+        base_str = base_graphemes[-1] if base_graphemes else base_str or '<?>'
         base_vals = {self.ts._feature_values[elm] for elm in 
                 self.ts._sounds[base_str].name.split(' ')[:-1]} if \
                         base_str != '<?>' else {}
