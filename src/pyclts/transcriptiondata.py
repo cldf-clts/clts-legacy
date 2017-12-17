@@ -71,7 +71,10 @@ class TranscriptionData(object):
         transcription data are sound classes.
         """
         if sound.name in self.data:
-            return self.data[sound.name]['grapheme']
+            dpoints = self.data[sound.name]
+            if isinstance(dpoints, str):
+                return data
+            return '//'.join([x['grapheme'] for x in dpoints])
         if self._sc:
             if not sound.type == 'unknownsound':                    
                 name = sound.name.split(' ')
