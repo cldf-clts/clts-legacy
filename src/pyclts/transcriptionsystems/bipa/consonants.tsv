@@ -258,7 +258,7 @@ tˤ	voiceless	alveolar	stop		pharyngealization:pharyngealized
 ⁿt	voiceless	alveolar	stop		preceding:pre-nasalized	
 t̚	voiceless	alveolar	stop		release:unreleased	
 tⁿ	voiceless	alveolar	stop		release:with-nasal-release	
-t̬	voiceless	alveolar	stop	+	voicing:voiced	
+t̬	voiceless	alveolar	stop		voicing:revoiced	
 ʦ	voiceless	alveolar	sibilant-affricate	+		
 ts	voiceless	alveolar	sibilant-affricate			
 tsʰ	voiceless	alveolar	sibilant-affricate		aspiration:aspirated	
@@ -273,7 +273,7 @@ sʼ	voiceless	alveolar	sibilant-fricative		ejection:ejective
 sʲ	voiceless	alveolar	sibilant-fricative		palatalization:palatalized	
 s̩	voiceless	alveolar	sibilant-fricative		syllabicity:syllabic	
 sˠ	voiceless	alveolar	sibilant-fricative		velarization:velarized	
-s̬	voiceless	alveolar	sibilant-fricative	+	voicing:revoiced	Check source.
+s̬	voiceless	alveolar	sibilant-fricative		voicing:revoiced	Check source.
 ʨ	voiceless	alveolo-palatal	sibilant-affricate	+		
 tɕ	voiceless	alveolo-palatal	sibilant-affricate			
 tɕʰ	voiceless	alveolo-palatal	sibilant-affricate		aspiration:aspirated	
@@ -323,7 +323,7 @@ t̪s̪ː	voiceless	dental	sibilant-affricate	+	duration:long
 t̪ːs̪	voiceless	dental	sibilant-affricate		duration:long	
 t̪s̪ʼ	voiceless	dental	sibilant-affricate		ejection:ejective	
 t̪s̪ʲ	voiceless	dental	sibilant-affricate		palatalization:palatalized	
-s̪	voiceless	dental	sibilant-fricative	+		
+s̪	voiceless	dental	sibilant-fricative			
 s̪ʼ	voiceless	dental	sibilant-fricative		ejection:ejective	
 s̪ʲ	voiceless	dental	sibilant-fricative		palatalization:palatalized	
 s̪ˠ	voiceless	dental	sibilant-fricative		velarization:velarized	
@@ -353,7 +353,7 @@ cʼ	voiceless	palatal	stop		ejection:ejective
 ç	voiceless	palatal	sibilant-fricative			
 ɧ	voiceless	palatal-velar	fricative			
 ħ	voiceless	pharyngeal	fricative			
-t̠ʃ	voiceless	postalveolar	affricate	+		
+t̠ʃ	voiceless	postalveolar	sibilant-affricate	+		
 t̠	voiceless	postalveolar	stop			
 ʧ	voiceless	postalveolar	sibilant-affricate	+		
 tʃ	voiceless	postalveolar	sibilant-affricate			

@@ -89,6 +89,10 @@ class Sound(Symbol):
 
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
+    
+    @property
+    def featureset(self):
+        return frozenset(self._features()+[self.type])
 
     def __unicode__(self):
         """
@@ -103,15 +107,19 @@ class Sound(Symbol):
         if not self.generated:
             if not self.alias and self.grapheme in self.ts._sounds:
                 return self.grapheme
-            elif self.alias and self.name in self.ts._features:
-                return str(self.ts[self.name])
+            elif self.alias and self.featureset in self.ts._features:
+                return str(self.ts._features[self.featureset])
+            else:
+                # this error can usually not be raised, as we catch them when
+                # loading a ts
+                raise ValueError('Orphaned alias {0}'.format(self.grapheme))
         
         # search for best base-string
-        elements = self._features()
+        elements = self._features() + [self.type]
         base_str = self.base or '<?>'
         base_graphemes = []
         while elements:
-            base = self.ts._features.get(' '.join(elements + [self.type]))
+            base = self.ts._features.get(frozenset(elements))
             if base:
                 base_str = base.grapheme
                 base_graphemes += [base_str]
@@ -173,6 +181,10 @@ class Marker(Symbol):
     @property
     def name(self):
         return self.grapheme
+
+    @property
+    def featureset(self):
+        return frozenset([self.grapheme, self.type])
 
 
 @attr.s(cmp=False, repr=False)

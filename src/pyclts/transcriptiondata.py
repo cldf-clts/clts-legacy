@@ -72,8 +72,8 @@ class TranscriptionData(object):
         """
         if sound.name in self.data:
             dpoints = self.data[sound.name]
-            if isinstance(dpoints, str):
-                return data
+            if isinstance(dpoints, dict):
+                return dpoints['grapheme']
             return '//'.join([x['grapheme'] for x in dpoints])
         if self._sc:
             if not sound.type == 'unknownsound':                    
@@ -83,7 +83,7 @@ class TranscriptionData(object):
                 while len(name) >= 4:
                     sound = self.system.get(' '.join(name))
                     if sound and sound.name in self.data:
-                        return self.data[sound.name]['grapheme']
+                        return self.resolve_sound(sound)
                     name.pop(0)
 
         raise KeyError(":resolve_sound_classes: No sound could be found.")

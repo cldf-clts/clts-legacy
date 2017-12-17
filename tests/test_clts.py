@@ -64,8 +64,8 @@ def test_parse(bipa):
         assert res.type == 'cluster'
         assert 'cluster' in res.name
         assert s == str(s)
-        bipa._add(res)
-        assert res in bipa
+        #bipa._add(res)
+        #assert res in bipa
 
     # go for bad diacritics in front and end of a string
     assert bipa['*a'].type == 'unknownsound'
@@ -259,7 +259,7 @@ def test_datasets(bipa):
             tmp = dict(zip(rows[0], row))
             sound = bipa[tmp['source']]
             if sound.type not in ['unknownsound', 'marker']:
-                if not (sound.type == 'vowel' and sound.tone):
+                if True: #not (sound.type == 'vowel' and sound.tone):
                     if tmp['nfd-normalized'] == '+':
                         assert bipa[tmp['source']] != sound.source
                     if tmp['clts-normalized'] == "+":
@@ -271,5 +271,6 @@ def test_datasets(bipa):
                     if tmp['stressed']:
                         assert sound.stress
                     assert sound.name == tmp['name']
+                    print(tmp['source'], sound, sound.name)
                     assert sound.codepoints == tmp['codepoints']
             
