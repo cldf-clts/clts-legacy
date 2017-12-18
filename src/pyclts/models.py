@@ -3,6 +3,8 @@ from __future__ import unicode_literals, print_function, division
 
 import unicodedata
 
+from six import text_type
+
 import attr
 from clldutils.misc import UnicodeMixin, nfilter
 
@@ -87,8 +89,20 @@ class Sound(Symbol):
         return '<{0}.{1}: {2}>'.format(
             self.__module__, self.__class__.__name__, self.name)
 
+    def __add__(self, other):
+        return self.__unicode__() + other.__unicode__()
+
+    @property
+    def s(self):
+        return self.__unicode__()
+
+
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
+    
+    @property
+    def featureset(self):
+        return frozenset(self._features()+[self.type])
 
     def __unicode__(self):
         """
@@ -103,20 +117,23 @@ class Sound(Symbol):
         if not self.generated:
             if not self.alias and self.grapheme in self.ts._sounds:
                 return self.grapheme
-            elif self.alias and self.name in self.ts._features:
-                return str(self.ts[self.name])
+            elif self.alias and self.featureset in self.ts._features:
+                return str(self.ts._features[self.featureset])
+            else:
+                # this error can usually not be raised, as we catch them when
+                # loading a ts
+                raise ValueError('Orphaned alias {0}'.format(self.grapheme))
         
         # search for best base-string
-        elements = self._features()
+        elements = self._features() + [self.type]
         base_str = self.base or '<?>'
         base_graphemes = []
         while elements:
-            base = self.ts._features.get(' '.join(elements + [self.type]))
+            base = self.ts._features.get(frozenset(elements))
             if base:
-                base_str = base.grapheme
-                base_graphemes += [base_str]
+                base_graphemes.append(base.grapheme)
             elements.pop(0)
-        base_str = base_graphemes[-1] if base_graphemes else '<?>'
+        base_str = base_graphemes[-1] if base_graphemes else base_str or '<?>'
         base_vals = {self.ts._feature_values[elm] for elm in 
                 self.ts._sounds[base_str].name.split(' ')[:-1]} if \
                         base_str != '<?>' else {}
@@ -173,6 +190,10 @@ class Marker(Symbol):
     @property
     def name(self):
         return self.grapheme
+
+    @property
+    def featureset(self):
+        return frozenset([self.grapheme, self.type])
 
 
 @attr.s(cmp=False, repr=False)
@@ -237,7 +258,7 @@ class ComplexSound(Sound):
                 to_sound=sound2, 
                 ts=ts,
                 generated=True,
-                stress = sound1.stress or sound2.stress
+                stress=sound1.stress or sound2.stress
                 )
 
     @property
