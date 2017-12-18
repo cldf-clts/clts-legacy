@@ -1,7 +1,7 @@
 # coding: utf-8
 from __future__ import unicode_literals, print_function, division
 from six import text_type
-from util import test_data
+
 import pytest
 from clldutils.dsv import reader
 
@@ -49,7 +49,7 @@ def test_parse(bipa):
         assert res.generated
     for s in ['a', 't']:
         assert text_type(bipa[s]) == s
-    
+
     # diphthongs
     dips = ['ao', 'ea', 'ai', 'ua']
     for s in dips:
@@ -65,8 +65,6 @@ def test_parse(bipa):
         assert res.type == 'cluster'
         assert 'cluster' in res.name
         assert s == text_type(s)
-        #bipa._add(res)
-        #assert res in bipa
 
     # go for bad diacritics in front and end of a string
     assert bipa['*a'].type == 'unknownsound'
@@ -115,7 +113,6 @@ def test_sound_from_name(bipa):
 
 def test_ts():
     from pyclts.transcriptionsystem import TranscriptionSystem
-    from pyclts.models import Cluster,Diphthong
     try:
         TranscriptionSystem('')
     except ValueError:
@@ -168,11 +165,10 @@ def test_models(bipa, asjp):
 
     # test equality of symbols
     assert Symbol(ts=bipa, grapheme='1', source='1') != Symbol(
-            ts=asjp, grapheme='1', source='1')
+        ts=asjp, grapheme='1', source='1')
 
 
 def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
-
     seq = 'tʰ ɔ x ˈth ə r A ˈI ʲ'
     seq2 = 'th o ?/x a'
     seq3 = 'th o ?/ a'
@@ -188,7 +184,7 @@ def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
     assert asjpd(seq4)[0] == '0'
     assert sca(seq4)[3] == '!'
     assert asjpd(seq4)[3] == '!'
-    
+
     with pytest.raises(KeyError):
         dolgo['A']
         sca['B']
@@ -200,49 +196,39 @@ def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
 
 
 def test_transcription_system_consistency(bipa, asjp, gld):
-
     # bipa should always be able to be translated to
     for sound in asjp:
-        #print(sound, asjp[sound].name)
         if sound not in bipa:
             assert '<?>' not in text_type(bipa[asjp[sound].name])
     for sound in gld:
-        #print(sound, gld[sound].name)
         if sound not in bipa:
             assert '<?>' not in text_type(bipa[gld[sound].name])
-    good = True
     for sound in bipa:
         if bipa[sound].type != 'unknownsound' and not bipa[sound].alias:
             if sound != text_type(bipa[sound]):
-                good = False
+                raise ValueError
         elif bipa[sound].type == 'unknownsound':
-            good = False
-    assert good == True
-    good = True
+            raise ValueError
     for sound in gld:
         if gld[sound].type != 'unknownsound' and not gld[sound].alias:
             if sound != text_type(gld[sound]):
-                good = False
+                raise ValueError
         elif gld[sound].type == 'unknownsound':
-            good = False
-    assert good == True
-    good = True
+            raise ValueError
     for sound in asjp:
         if asjp[sound].type != 'unknownsound' and not asjp[sound].alias:
-            if sound != str(asjp[sound]):
-                good = False
+            if sound != text_type(asjp[sound]):
+                raise ValueError
         elif asjp[sound].type == 'unknownsound':
-            good = False
-    assert good == True
+            raise ValueError
 
     # important test for alias
-    assert bipa['d̤ʷ'].s == bipa['dʷʱ'].s == bipa['dʱʷ'].s
+    assert text_type(bipa['d̤ʷ']) == text_type(bipa['dʷʱ']) == text_type(bipa['dʱʷ'])
 
 
 def test_clicks(bipa, grapheme, gtype):
     if gtype == 'stop-cluster':
         assert bipa[grapheme].type == 'cluster'
-
 
 def test_sounds(
         bipa,
@@ -258,6 +244,7 @@ def test_sounds(
         codepoints
         ):
     """Test on a large pre-assembled dataset whether everything is consistent"""
+
     sound = bipa[source]
     if sound.type not in ['unknownsound', 'marker']:
         if nfd_normalized == '+':
@@ -272,4 +259,3 @@ def test_sounds(
             assert sound.stress
         assert sound.name == name
         assert sound.codepoints == codepoints
-            

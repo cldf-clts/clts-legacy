@@ -3,6 +3,8 @@ from __future__ import unicode_literals, print_function, division
 
 import unicodedata
 
+from six import text_type
+
 import attr
 from clldutils.misc import UnicodeMixin, nfilter
 
@@ -129,8 +131,7 @@ class Sound(Symbol):
         while elements:
             base = self.ts._features.get(frozenset(elements))
             if base:
-                base_str = base.grapheme
-                base_graphemes += [base_str]
+                base_graphemes.append(base.grapheme)
             elements.pop(0)
         base_str = base_graphemes[-1] if base_graphemes else base_str or '<?>'
         base_vals = {self.ts._feature_values[elm] for elm in 
@@ -257,7 +258,7 @@ class ComplexSound(Sound):
                 to_sound=sound2, 
                 ts=ts,
                 generated=True,
-                stress = sound1.stress or sound2.stress
+                stress=sound1.stress or sound2.stress
                 )
 
     @property
