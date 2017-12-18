@@ -214,30 +214,24 @@ def test_transcription_system_consistency(bipa, asjp, gld):
     for sound in bipa:
         if bipa[sound].type != 'unknownsound' and not bipa[sound].alias:
             if sound != text_type(bipa[sound]):
-                print(sound, text_type(bipa[sound]))
                 good = False
         elif bipa[sound].type == 'unknownsound':
-            print(sound)
             good = False
     assert good == True
     good = True
     for sound in gld:
         if gld[sound].type != 'unknownsound' and not gld[sound].alias:
             if sound != text_type(gld[sound]):
-                print(sound, text_type(gld[sound]))
                 good = False
         elif gld[sound].type == 'unknownsound':
-            print(sound)
             good = False
     assert good == True
     good = True
     for sound in asjp:
         if asjp[sound].type != 'unknownsound' and not asjp[sound].alias:
             if sound != str(asjp[sound]):
-                print(sound, str(asjp[sound]))
                 good = False
         elif asjp[sound].type == 'unknownsound':
-            print(sound)
             good = False
     assert good == True
 
@@ -246,7 +240,6 @@ def test_transcription_system_consistency(bipa, asjp, gld):
 
 
 def test_clicks(bipa, grapheme, gtype):
-
     if gtype == 'stop-cluster':
         assert bipa[grapheme].type == 'cluster'
 
@@ -267,18 +260,16 @@ def test_sounds(
     """Test on a large pre-assembled dataset whether everything is consistent"""
     sound = bipa[source]
     if sound.type not in ['unknownsound', 'marker']:
-        if True: #not (sound.type == 'vowel' and sound.tone):
-            if nfd_normalized == '+':
-                assert bipa[source] != sound.source
-            if clts_normalized == "+":
-                assert sound.normalized
-            if aliased == '+':
-                assert sound.alias
-            if generated:
-                assert sound.generated
-            if stressed:
-                assert sound.stress
-            assert sound.name == name
-            print(source, sound, sound.name)
-            assert sound.codepoints == codepoints
+        if nfd_normalized == '+':
+            assert bipa[source] != sound.source
+        if clts_normalized == "+":
+            assert sound.normalized
+        if aliased == '+':
+            assert sound.alias
+        if generated:
+            assert sound.generated
+        if stressed:
+            assert sound.stress
+        assert sound.name == name
+        assert sound.codepoints == codepoints
             
