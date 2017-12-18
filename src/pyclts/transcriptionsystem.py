@@ -154,9 +154,9 @@ class TranscriptionSystem(object):
                 if v1 in self._features and v2 in self._features:
                     s1, s2 = (self._features[v1], self._features[v2])
                     if sound_class == 'diphthong':
-                        return Diphthong.from_sounds(str(s1)+str(s2), s1, s2, self)
+                        return Diphthong.from_sounds(text_type(s1)+text_type(s2), s1, s2, self)
                     else:
-                        return Cluster.from_sounds(str(s1)+str(s2), s1, s2, self)
+                        return Cluster.from_sounds(text_type(s1)+text_type(s2), s1, s2, self)
                 else:
                     raise ValueError('components could not be found in system')
             else:
@@ -171,7 +171,7 @@ class TranscriptionSystem(object):
         args['grapheme'] = ''
         args['ts'] = self
         sound = self.sound_classes[sound_class](**args)
-        glyph = str(sound)
+        glyph = text_type(sound)
         if glyph not in self._sounds:
             sound.generated = True
             return sound
@@ -248,7 +248,7 @@ class TranscriptionSystem(object):
             sound += self._features[base_sound.type][feature][0]
         # add the base sound
         grapheme += base_sound.grapheme
-        sound += str(base_sound)
+        sound += text_type(base_sound)
         for dia in [EMPTY + p for p in post]:
             feature = self.diacritics[base_sound.type].get(dia, {})
             # we are strict: if we don't know the feature, it's an unknown
@@ -262,8 +262,8 @@ class TranscriptionSystem(object):
         features['grapheme'] = sound
         first_sound = self.sound_classes[base_sound.type](**features)
         # check whether grapheme differs from re-generated sound
-        if str(first_sound) != sound:
-            features['grapheme'] = str(first_sound)
+        if text_type(first_sound) != sound:
+            features['grapheme'] = text_type(first_sound)
             new_sound = self.sound_classes[base_sound.type](**features)
             if not new_sound.name in self._features:
                 self._add(new_sound)
