@@ -87,6 +87,14 @@ class Sound(Symbol):
         return '<{0}.{1}: {2}>'.format(
             self.__module__, self.__class__.__name__, self.name)
 
+    def __add__(self, other):
+        return self.__unicode__() + other.__unicode__()
+
+    @property
+    def s(self):
+        return self.__unicode__()
+
+
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
     

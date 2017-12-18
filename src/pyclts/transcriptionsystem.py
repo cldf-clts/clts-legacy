@@ -106,7 +106,7 @@ class TranscriptionSystem(object):
         # is orphaned and needs to be deleted or given an accepted non-aliased
         # sound
         if [x for x in aliases if x[2] not in self._features]:
-            error = ', '.join([str(x[0]+2) +'/'+str(x[1]) for x in aliases if
+            error = ', '.join([text_type(x[0]+2) +'/'+text_type(x[1]) for x in aliases if
                 x[2] not in self._features])
             raise ValueError('Your dataset contains orphaned aliases in line(s) {0}'.format(error))
 
@@ -158,9 +158,9 @@ class TranscriptionSystem(object):
                 if v1 in self._features and v2 in self._features:
                     s1, s2 = (self._features[v1], self._features[v2])
                     if sound_class == 'diphthong':
-                        return Diphthong.from_sounds(str(s1)+str(s2), s1, s2, self)
+                        return Diphthong.from_sounds(s1+s2, s1, s2, self)
                     else:
-                        return Cluster.from_sounds(str(s1)+str(s2), s1, s2, self)
+                        return Cluster.from_sounds(s1+s2, s1, s2, self)
                 else:
                     raise ValueError('components could not be found in system')
             else:
@@ -251,7 +251,7 @@ class TranscriptionSystem(object):
             sound += self._features[base_sound.type][feature][0]
         # add the base sound
         grapheme += base_sound.grapheme
-        sound += str(base_sound)
+        sound += base_sound.s
         for dia in [EMPTY + p for p in post]:
             feature = self.diacritics[base_sound.type].get(dia, {})
             # we are strict: if we don't know the feature, it's an unknown
@@ -265,7 +265,7 @@ class TranscriptionSystem(object):
         features['grapheme'] = sound
         new_sound = self.sound_classes[base_sound.type](**features)
         # check whether grapheme differs from re-generated sound
-        if str(new_sound) != sound:
+        if text_type(new_sound) != sound:
             new_sound.alias = True
         if grapheme != sound:
             new_sound.alias = True

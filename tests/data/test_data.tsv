@@ -1,4 +1,4 @@
-source	type	grapheme	bipa	nfd-normalized	clts-normalized	aliased	generated	stressed	name	codepoints
+source	type	grapheme	bipa	nfd_normalized	clts_normalized	aliased	generated	stressed	name	codepoints
 nh	cluster	nh	nh				+		from voiced alveolar nasal to voiceless glottal fricative cluster	U+006e U+0068
 tt	cluster	tt	tt				+		from voiceless alveolar stop to voiceless alveolar stop cluster	U+0074 U+0074
 b	consonant	b	b						voiced bilabial stop consonant	U+0062
@@ -251,12 +251,12 @@ ui	diphthong	ui	ui				+		from rounded close back to unrounded close front diphth
 ˈoi	diphthong	ˈoi	oi				+	+	from rounded close-mid back to unrounded close front diphthong	U+006f U+0069
 ˈo̯a	diphthong	ˈo̯a	ȏa				+	+	from non-syllabic rounded close-mid back to unrounded open front diphthong	U+006f U+0311 U+0061
 ˈui	diphthong	ˈui	ui				+	+	from rounded close back to unrounded close front diphthong	U+0075 U+0069
-_	marker										
-∼	marker										
-+	marker										
-#	marker										
-→	marker										
-←	marker										
+_	marker									
+∼	marker									
++	marker									
+#	marker									
+→	marker									
+←	marker									
 ²	tone	²	²						short mid-low tone	U+00b2
 ⁵⁴/²	tone	²	²		+				short mid-low tone	U+00b2
 ⁵/²	tone	²	²		+				short mid-low tone	U+00b2
