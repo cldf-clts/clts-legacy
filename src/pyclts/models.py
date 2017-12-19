@@ -219,6 +219,8 @@ class Consonant(Sound):
     voicing = attr.ib(default=None)
     breathiness = attr.ib(default=None)
     creakiness = attr.ib(default=None)
+    sibilancy = attr.ib(default=None)
+    laterality = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -232,7 +234,8 @@ class Consonant(Sound):
     _name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
-        'breathiness', 'phonation', 'place', 'ejection', 'manner']
+        'breathiness', 'phonation', 'place', 'ejection', 'laterality',
+        'sibilancy', 'manner']
 
 
 @attr.s(cmp=False, repr=False)

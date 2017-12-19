@@ -301,3 +301,9 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 ʏ̃ː	rounded	near-close	near-front		nasalization:nasalized,duration:long	
 ʮ	rounded	close	back		frication:with-frication	
 ʯ	rounded	close	central		frication:with-frication	
+ɤ̯	unrounded	close-mid	back		syllabicity:non-syllabic	
+ɔ̑	rounded	open-mid	back	+	syllabicity:non-syllabic	
+ɛ̑	unrounded	open-mid	front	+	syllabicity:non-syllabic	
+ɔ̯	rounded	open-mid	back		syllabicity:non-syllabic	
+ɛ̯	unrounded	open-mid	front		syllabicity:non-syllabic	
+ɤ̑	unrounded	close-mid	back	+	syllabicity:non-syllabic	

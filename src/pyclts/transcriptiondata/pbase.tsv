@@ -1,16 +1,21 @@
 CLTS_NAME	BIPA_GRAPHEME	PBASE_URL	PBASE_GRAPHEME
-voiced alveolar sibilant-affricate consonant	dz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dz&inany=false&coreinv=on	dz
-aspirated voiced alveolar sibilant-affricate consonant	dzʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʰ&inany=false&coreinv=on	dzʰ
-labialized voiced alveolar sibilant-affricate consonant	dzʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʷ&inany=false&coreinv=on	dzʷ
-palatalized voiced alveolar sibilant-affricate consonant	dzʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʲ&inany=false&coreinv=on	dzʲ
-voiceless alveolar sibilant-affricate consonant	ts	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ts&inany=false&coreinv=on	ts
-aspirated voiceless alveolar sibilant-affricate consonant	tsʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʰ&inany=false&coreinv=on	tsʰ
-labialized voiceless alveolar sibilant-affricate consonant	tsʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʷ&inany=false&coreinv=on	tsʷ
-voiceless alveolar ejective sibilant-affricate consonant	tsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼ&inany=false&coreinv=on	tsʼ
-voiceless alveolar ejective sibilant-affricate consonant	tsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼ&inany=false&coreinv=on	tsʼ
-labialized voiceless alveolar ejective sibilant-affricate consonant	tsʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼʷ&inany=false&coreinv=on	tsʼʷ
-labialized voiceless alveolar ejective sibilant-affricate consonant	tsʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼʷ&inany=false&coreinv=on	tsʼʷ
-palatalized voiceless alveolar sibilant-affricate consonant	tsʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʲ&inany=false&coreinv=on	tsʲ
+from pre-nasalized voiced alveolar stop to voiced alveolar sibilant fricative cluster	ⁿdz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdz&inany=false&coreinv=on	ⁿdz
+from pre-nasalized voiceless alveolar stop to voiceless alveolar sibilant fricative cluster	ⁿts	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿts&inany=false&coreinv=on	ⁿts
+from pre-nasalized voiceless alveolar stop to voiceless alveolar ejective sibilant fricative cluster	ⁿtsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtsʼ&inany=false&coreinv=on	ⁿtsʼ
+from pre-nasalized voiceless alveolar stop to voiceless alveolar ejective sibilant fricative cluster	ⁿtsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtsʼ&inany=false&coreinv=on	ⁿtsʼ
+voiced alveolar sibilant affricate consonant	dz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dz&inany=false&coreinv=on	dz
+aspirated voiced alveolar sibilant affricate consonant	dzʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʰ&inany=false&coreinv=on	dzʰ
+labialized voiced alveolar sibilant affricate consonant	dzʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʷ&inany=false&coreinv=on	dzʷ
+palatalized voiced alveolar sibilant affricate consonant	dzʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dzʲ&inany=false&coreinv=on	dzʲ
+voiceless alveolar sibilant affricate consonant	ts	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ts&inany=false&coreinv=on	ts
+aspirated voiceless alveolar sibilant affricate consonant	tsʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʰ&inany=false&coreinv=on	tsʰ
+labialized voiceless alveolar sibilant affricate consonant	tsʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʷ&inany=false&coreinv=on	tsʷ
+voiceless alveolar ejective sibilant affricate consonant	tsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼ&inany=false&coreinv=on	tsʼ
+voiceless alveolar ejective sibilant affricate consonant	tsʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼ&inany=false&coreinv=on	tsʼ
+labialized voiceless alveolar ejective sibilant affricate consonant	tsʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼʷ&inany=false&coreinv=on	tsʼʷ
+labialized voiceless alveolar ejective sibilant affricate consonant	tsʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʼʷ&inany=false&coreinv=on	tsʼʷ
+palatalized voiceless alveolar sibilant affricate consonant	tsʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tsʲ&inany=false&coreinv=on	tsʲ
+from voiceless alveolar stop to voiced alveolar sibilant fricative cluster	tz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tz&inany=false&coreinv=on	tz
 from pre-nasalized voiced alveolar stop to voiced bilabial fricative cluster	ⁿdβ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdβ&inany=false&coreinv=on	ⁿdβ
 from pre-nasalized voiceless alveolar stop to voiceless bilabial fricative cluster	ⁿtɸ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtɸ&inany=false&coreinv=on	ⁿtɸ
 from voiced alveolar stop to voiced bilabial fricative cluster	dβ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dβ&inany=false&coreinv=on	dβ
@@ -18,56 +23,74 @@ from voiceless alveolar stop to aspirated voiceless bilabial fricative cluster	t
 voiced dental affricate consonant	dð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dð&inany=false&coreinv=on	dð
 voiceless alveolar affricate consonant	tθ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tθ&inany=false&coreinv=on	tθ
 from voiced alveolar stop to voiced palatal fricative cluster	dʝ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʝ&inany=false&coreinv=on	dʝ
-voiced retroflex sibilant-affricate consonant	ɖʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʐ&inany=false&coreinv=on	dʐ
-voiceless retroflex sibilant-affricate consonant	ʈʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʂ&inany=false&coreinv=on	tʂ
+voiced retroflex sibilant affricate consonant	ɖʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʐ&inany=false&coreinv=on	dʐ
+voiceless retroflex sibilant affricate consonant	ʈʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʂ&inany=false&coreinv=on	tʂ
 from voiced alveolar stop to voiceless velar fricative cluster	dx	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dx&inany=false&coreinv=on	dx
 from voiceless alveolar stop to voiceless velar fricative cluster	tx	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tx&inany=false&coreinv=on	tx
-voiced alveolo-palatal sibilant-affricate consonant	dʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʑ&inany=false&coreinv=on	dʑ
-voiceless alveolo-palatal sibilant-affricate consonant	tɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɕ&inany=false&coreinv=on	tɕ
-aspirated voiceless alveolo-palatal sibilant-affricate consonant	tɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɕʰ&inany=false&coreinv=on	tɕʰ
-long voiceless postalveolar sibilant-affricate consonant	tːʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tːʃ&inany=false&coreinv=on	tːʃ
+voiced alveolo-palatal sibilant affricate consonant	dʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʑ&inany=false&coreinv=on	dʑ
+voiceless alveolo-palatal sibilant affricate consonant	tɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɕ&inany=false&coreinv=on	tɕ
+aspirated.sibilancy:sibilant voiceless alveolo-palatal affricate consonant	tɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɕʰ&inany=false&coreinv=on	tɕʰ
+long voiceless post-alveolar sibilant affricate consonant	tːʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tːʃ&inany=false&coreinv=on	tːʃ
 voiceless bilabial affricate consonant	pɸ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pɸ&inany=false&coreinv=on	pɸ
-voiced dental sibilant-affricate consonant	d̪z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪&inany=false&coreinv=on	d̪z̪
-labialized voiced dental sibilant-affricate consonant	d̪z̪ʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʷ&inany=false&coreinv=on	d̪z̪ʷ
-palatalized voiced dental sibilant-affricate consonant	d̪z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʲ&inany=false&coreinv=on	d̪z̪ʲ
-voiceless dental sibilant-affricate consonant	t̪s̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪&inany=false&coreinv=on	t̪s̪
-long voiceless dental sibilant-affricate consonant	t̪ːs̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ː&inany=false&coreinv=on	t̪s̪ː
+from voiced bilabial stop to voiced alveolar sibilant fricative cluster	bz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=bz&inany=false&coreinv=on	bz
+from voiced bilabial stop to voiced alveolar sibilant fricative cluster	bz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=bz&inany=false&coreinv=on	bz
+from voiceless bilabial stop to voiceless alveolar sibilant fricative cluster	ps	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ps&inany=false&coreinv=on	ps
+from voiceless bilabial stop to voiceless alveolar sibilant fricative cluster	ps	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ps&inany=false&coreinv=on	ps
+from voiced bilabial stop to voiced alveolar lateral fricative cluster	bɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=bɮ&inany=false&coreinv=on	bɮ
+from voiced bilabial stop to voiced post-alveolar sibilant fricative cluster	bʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=bʒ&inany=false&coreinv=on	bʒ
+from voiceless bilabial stop to aspirated voiceless post-alveolar sibilant fricative cluster	pʃʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʰ&inany=false&coreinv=on	pʃʰ
+from voiceless bilabial stop to voiceless post-alveolar ejective sibilant fricative cluster	pʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʼ&inany=false&coreinv=on	pʃʼ
+from voiceless bilabial stop to voiceless post-alveolar ejective sibilant fricative cluster	pʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʼ&inany=false&coreinv=on	pʃʼ
+voiced dental sibilant affricate consonant	d̪z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪&inany=false&coreinv=on	d̪z̪
+labialized voiced dental sibilant affricate consonant	d̪z̪ʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʷ&inany=false&coreinv=on	d̪z̪ʷ
+palatalized voiced dental sibilant affricate consonant	d̪z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʲ&inany=false&coreinv=on	d̪z̪ʲ
+voiceless dental sibilant affricate consonant	t̪s̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪&inany=false&coreinv=on	t̪s̪
+long voiceless dental sibilant affricate consonant	t̪ːs̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ː&inany=false&coreinv=on	t̪s̪ː
 aspirated voiceless dental affricate consonant	t̪s̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʰ&inany=false&coreinv=on	t̪s̪ʰ
-voiceless dental ejective sibilant-affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
-voiceless dental ejective sibilant-affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+voiceless dental ejective sibilant affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+voiceless dental ejective sibilant affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+from voiced dental stop to voiced post-alveolar sibilant fricative cluster	d̪ʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ʒ&inany=false&coreinv=on	d̪ʒ
+from voiceless dental stop to voiceless post-alveolar sibilant fricative cluster	t̪ʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ʃ&inany=false&coreinv=on	t̪ʃ
 voiced dental affricate consonant	dð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ð&inany=false&coreinv=on	d̪ð
 voiceless dental affricate consonant	t̪θ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪θ&inany=false&coreinv=on	t̪θ
 voiced labio-dental affricate consonant	bv	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=bv&inany=false&coreinv=on	bv
 voiceless labio-dental affricate consonant	pf	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pf&inany=false&coreinv=on	pf
 aspirated voiceless labio-dental affricate consonant	pfʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pfʰ&inany=false&coreinv=on	pfʰ
 from voiceless bilabial stop to voiced labio-dental fricative cluster	pv	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pv&inany=false&coreinv=on	pv
-voiceless alveolar lateral-affricate consonant	tɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬ&inany=false&coreinv=on	tɬ
-aspirated voiceless alveolar lateral-affricate consonant	tɬʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʰ&inany=false&coreinv=on	tɬʰ
-voiceless alveolar ejective lateral-affricate consonant	tɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʼ&inany=false&coreinv=on	tɬʼ
-voiceless alveolar ejective lateral-affricate consonant	tɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʼ&inany=false&coreinv=on	tɬʼ
+from pre-nasalized voiced alveolar stop to voiced alveolar lateral fricative cluster	ⁿdɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdɮ&inany=false&coreinv=on	ⁿdɮ
+from pre-nasalized voiceless alveolar stop to voiceless alveolar lateral fricative cluster	ⁿtɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtɬ&inany=false&coreinv=on	ⁿtɬ
+voiceless alveolar lateral affricate consonant	tɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬ&inany=false&coreinv=on	tɬ
+aspirated voiceless alveolar lateral affricate consonant	tɬʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʰ&inany=false&coreinv=on	tɬʰ
+voiceless alveolar ejective lateral affricate consonant	tɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʼ&inany=false&coreinv=on	tɬʼ
+voiceless alveolar ejective lateral affricate consonant	tɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬʼ&inany=false&coreinv=on	tɬʼ
 voiceless palatal affricate consonant	cç	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=cç&inany=false&coreinv=on	cç
+aspirated voiceless palatal affricate consonant	cçʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=cçʰ&inany=false&coreinv=on	cçʰ
 voiced palatal affricate consonant	ɟʝ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɟʝ&inany=false&coreinv=on	ɟʝ
-pre-nasalized voiced postalveolar affricate consonant	ⁿdʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdʒ&inany=false&coreinv=on	ⁿdʒ
-pre-nasalized voiced postalveolar affricate consonant	ⁿdʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdʒ&inany=false&coreinv=on	ⁿdʒ
-pre-nasalized voiceless postalveolar sibilant-affricate consonant	ⁿtʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃ&inany=false&coreinv=on	ⁿtʃ
-pre-nasalized labialized voiceless postalveolar sibilant-affricate consonant	ⁿtʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʷ&inany=false&coreinv=on	ⁿtʃʷ
-pre-nasalized voiceless postalveolar ejective sibilant-affricate consonant	ⁿtʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʼ&inany=false&coreinv=on	ⁿtʃʼ
-pre-nasalized voiceless postalveolar ejective sibilant-affricate consonant	ⁿtʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʼ&inany=false&coreinv=on	ⁿtʃʼ
-voiced postalveolar sibilant-affricate consonant	dʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒ&inany=false&coreinv=on	dʒ
-aspirated voiced postalveolar sibilant-affricate consonant	dʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʰ&inany=false&coreinv=on	dʒʰ
-labialized voiced postalveolar sibilant-affricate consonant	dʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʷ&inany=false&coreinv=on	dʒʷ
-palatalized voiced postalveolar sibilant-affricate consonant	dʒʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʲ&inany=false&coreinv=on	dʒʲ
-long voiced postalveolar sibilant-affricate consonant	dːʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dːʒ&inany=false&coreinv=on	dːʒ
-voiceless postalveolar sibilant-affricate consonant	tʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃ&inany=false&coreinv=on	tʃ
-pharyngealized voiceless postalveolar sibilant-affricate consonant	tʃˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃˤ&inany=false&coreinv=on	tʃˤ
-aspirated voiceless postalveolar sibilant-affricate consonant	tʃʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʰ&inany=false&coreinv=on	tʃʰ
-labialized voiceless postalveolar sibilant-affricate consonant	tʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʷ&inany=false&coreinv=on	tʃʷ
-voiceless postalveolar ejective sibilant-affricate consonant	tʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʼ&inany=false&coreinv=on	tʃʼ
-voiceless postalveolar ejective sibilant-affricate consonant	tʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʼ&inany=false&coreinv=on	tʃʼ
-palatalized voiceless postalveolar sibilant-affricate consonant	tʃʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʲ&inany=false&coreinv=on	tʃʲ
-voiceless retroflex sibilant-affricate consonant	ʈʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʈʂ&inany=false&coreinv=on	ʈʂ
-aspirated voiceless retroflex sibilant-affricate consonant	ʈʂʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʈʂʰ&inany=false&coreinv=on	ʈʂʰ
-voiced retroflex sibilant-affricate consonant	ɖʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɖʐ&inany=false&coreinv=on	ɖʐ
+from voiceless palatal stop to voiceless alveolo-palatal sibilant fricative cluster	cɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=cɕ&inany=false&coreinv=on	cɕ
+from voiceless palatal stop to aspirated voiceless alveolo-palatal sibilant fricative cluster	cɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=cɕʰ&inany=false&coreinv=on	cɕʰ
+from voiced palatal stop to voiced alveolo-palatal sibilant fricative cluster	ɟʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɟʑ&inany=false&coreinv=on	ɟʑ
+from voiceless palatal stop to voiceless post-alveolar sibilant fricative cluster	cʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=cʃ&inany=false&coreinv=on	cʃ
+pre-nasalized voiced post-alveolar affricate consonant	ⁿdʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdʒ&inany=false&coreinv=on	ⁿdʒ
+pre-nasalized voiced post-alveolar affricate consonant	ⁿdʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdʒ&inany=false&coreinv=on	ⁿdʒ
+pre-nasalized voiceless post-alveolar sibilant affricate consonant	ⁿtʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃ&inany=false&coreinv=on	ⁿtʃ
+pre-nasalized labialized voiceless post-alveolar sibilant affricate consonant	ⁿtʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʷ&inany=false&coreinv=on	ⁿtʃʷ
+pre-nasalized voiceless post-alveolar ejective sibilant affricate consonant	ⁿtʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʼ&inany=false&coreinv=on	ⁿtʃʼ
+pre-nasalized voiceless post-alveolar ejective sibilant affricate consonant	ⁿtʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtʃʼ&inany=false&coreinv=on	ⁿtʃʼ
+voiced post-alveolar sibilant affricate consonant	dʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒ&inany=false&coreinv=on	dʒ
+aspirated voiced post-alveolar sibilant affricate consonant	dʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʰ&inany=false&coreinv=on	dʒʰ
+labialized voiced post-alveolar sibilant affricate consonant	dʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʷ&inany=false&coreinv=on	dʒʷ
+palatalized voiced post-alveolar sibilant affricate consonant	dʒʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʒʲ&inany=false&coreinv=on	dʒʲ
+long voiced post-alveolar sibilant affricate consonant	dːʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dːʒ&inany=false&coreinv=on	dːʒ
+voiceless post-alveolar sibilant affricate consonant	tʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃ&inany=false&coreinv=on	tʃ
+pharyngealized voiceless post-alveolar sibilant affricate consonant	tʃˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃˤ&inany=false&coreinv=on	tʃˤ
+aspirated voiceless post-alveolar sibilant affricate consonant	tʃʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʰ&inany=false&coreinv=on	tʃʰ
+labialized voiceless post-alveolar sibilant affricate consonant	tʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʷ&inany=false&coreinv=on	tʃʷ
+voiceless post-alveolar ejective sibilant affricate consonant	tʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʼ&inany=false&coreinv=on	tʃʼ
+voiceless post-alveolar ejective sibilant affricate consonant	tʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʼ&inany=false&coreinv=on	tʃʼ
+palatalized voiceless post-alveolar sibilant affricate consonant	tʃʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʃʲ&inany=false&coreinv=on	tʃʲ
+voiceless retroflex sibilant affricate consonant	ʈʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʈʂ&inany=false&coreinv=on	ʈʂ
+aspirated voiceless retroflex sibilant affricate consonant	ʈʂʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʈʂʰ&inany=false&coreinv=on	ʈʂʰ
+voiced retroflex sibilant affricate consonant	ɖʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɖʐ&inany=false&coreinv=on	ɖʐ
 voiceless uvular affricate consonant	qχ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qχ&inany=false&coreinv=on	qχ
 aspirated voiceless velar affricate consonant	kxʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kxʰ&inany=false&coreinv=on	kxʰ
 from voiceless velar stop to voiceless labio-dental fricative cluster	kf	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kf&inany=false&coreinv=on	kf
@@ -79,7 +102,7 @@ aspirated voiced labio-dental approximant consonant	ʋʰ	http://pbase.phon.chass
 palatalized voiced labio-dental approximant consonant	ʋʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʋʲ&inany=false&coreinv=on	ʋʲ
 nasalized voiced labio-dental approximant consonant	ʋ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʋ̃&inany=false&coreinv=on	ʋ̃
 voiced labialized-palatal approximant consonant	ɥ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɥ&inany=false&coreinv=on	ɥ
-voiceless labiovelar fricative consonant	ʍ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʍ&inany=false&coreinv=on	ʍ
+voiceless labialized-velar fricative consonant	ʍ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʍ&inany=false&coreinv=on	ʍ
 voiced labialized-velar approximant consonant	w	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=w&inany=false&coreinv=on	w
 long voiced labialized-velar approximant consonant	wː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=wː&inany=false&coreinv=on	wː
 pharyngealized voiced labialized-velar approximant consonant	wˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=wˤ&inany=false&coreinv=on	wˤ
@@ -90,18 +113,23 @@ voiced palatal approximant consonant	j	http://pbase.phon.chass.ncsu.edu/visualiz
 long voiced palatal approximant consonant	jː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=jː&inany=false&coreinv=on	jː
 aspirated voiced palatal approximant consonant	jʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=jʰ&inany=false&coreinv=on	jʰ
 labialized voiced palatal approximant consonant	jʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=jʷ&inany=false&coreinv=on	jʷ
+devoiced voiced palatal approximant consonant	j̊	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=j̥&inany=false&coreinv=on	j̥
 nasalized voiced palatal approximant consonant	j̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=j̃&inany=false&coreinv=on	j̃
 voiced retroflex approximant consonant	ɻ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɻ&inany=false&coreinv=on	ɻ
 voiced velar approximant consonant	ɰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɰ&inany=false&coreinv=on	ɰ
 voiced velar approximant consonant	ɰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɰ&inany=false&coreinv=on	ɰ
 voiceless alveolar click consonant	ǃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃ&inany=false&coreinv=on	ǃ
 from voiceless alveolar click to voiced alveolar stop cluster	ǃd	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃd&inany=false&coreinv=on	ǃd
+from voiceless alveolar click to voiced post-alveolar sibilant fricative cluster	ǃʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃʒ&inany=false&coreinv=on	ǃʒ
 from voiceless alveolar click to voiceless glottal stop cluster	ǃʔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃʔ&inany=false&coreinv=on	ǃʔ
 aspirated voiceless alveolar click consonant	ǃʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃʰ&inany=false&coreinv=on	ǃʰ
+from voiceless alveolar click to voiceless post-alveolar sibilant fricative cluster	ǃʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃʃ&inany=false&coreinv=on	ǃʃ
 from voiceless alveolar click to voiceless uvular stop cluster	ǃq	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃq&inany=false&coreinv=on	ǃq
 from voiceless alveolar click to aspirated voiceless uvular stop cluster	ǃqʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃqʰ&inany=false&coreinv=on	ǃqʰ
+from voiceless alveolar click to voiceless alveolar sibilant fricative cluster	ǃs	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃs&inany=false&coreinv=on	ǃs
 from voiceless alveolar click to voiceless alveolar stop cluster	ǃt	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃt&inany=false&coreinv=on	ǃt
 from voiceless alveolar click to voiceless velar fricative cluster	ǃx	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃx&inany=false&coreinv=on	ǃx
+from voiceless alveolar click to voiced alveolar sibilant fricative cluster	ǃz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǃz&inany=false&coreinv=on	ǃz
 voiced alveolar click consonant	gǃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡǃ&inany=false&coreinv=on	ɡǃ
 voiced alveolar click consonant	gǃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡǃ&inany=false&coreinv=on	ɡǃ
 voiced labial click consonant	gʘ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡʘ&inany=false&coreinv=on	ɡʘ
@@ -118,6 +146,7 @@ from voiceless dental click to voiceless glottal stop cluster	ǀʔ	http://pbase.
 aspirated voiceless dental click consonant	ǀʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǀʰ&inany=false&coreinv=on	ǀʰ
 from voiceless dental click to voiceless uvular stop cluster	ǀq	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǀq&inany=false&coreinv=on	ǀq
 from voiceless dental click to aspirated voiceless uvular stop cluster	ǀqʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǀqʰ&inany=false&coreinv=on	ǀqʰ
+from voiceless dental click to voiceless alveolar sibilant fricative cluster	ǀs	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǀs&inany=false&coreinv=on	ǀs
 from voiceless dental click to voiceless velar fricative cluster	ǀx	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ǀx&inany=false&coreinv=on	ǀx
 voiced dental click consonant	gǀ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡǀ&inany=false&coreinv=on	ɡǀ
 voiced dental click consonant	gǀ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡǀ&inany=false&coreinv=on	ɡǀ
@@ -171,47 +200,50 @@ pharyngealized devoiced voiced alveolar tap consonant	ɾˤ	http://pbase.phon.cha
 palatalized devoiced voiced alveolar tap consonant	ɾʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾʲ&inany=false&coreinv=on	ɾʲ
 nasalized devoiced voiced alveolar tap consonant	ɾ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ̃&inany=false&coreinv=on	ɾ̃
 with-lateral-release devoiced voiced alveolar tap consonant	ɾˡ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾˡ&inany=false&coreinv=on	ɾˡ
-voiced alveolar lateral-flap consonant	ɺ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɺ&inany=false&coreinv=on	ɺ
-voiced retroflex flap consonant	ɽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽ&inany=false&coreinv=on	ɽ
-aspirated voiced retroflex flap consonant	ɽʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽʰ&inany=false&coreinv=on	ɽʰ
-aspirated voiced retroflex flap consonant	ɽʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽʰ&inany=false&coreinv=on	ɽʰ
-pre-nasalized voiceless alveolar sibilant-fricative consonant	ⁿs	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿs&inany=false&coreinv=on	ⁿs
-pre-nasalized voiced alveolar sibilant-fricative consonant	ⁿz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿz&inany=false&coreinv=on	ⁿz
-labialized voiceless postalveolar ejective sibilant-fricative consonant	ʃʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼʷ&inany=false&coreinv=on	ʃʼʷ
-labialized voiceless postalveolar ejective sibilant-fricative consonant	ʃʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼʷ&inany=false&coreinv=on	ʃʼʷ
-voiceless alveolar sibilant-fricative consonant	s	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s&inany=false&coreinv=on	s
-long voiceless alveolar sibilant-fricative consonant	sː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sː&inany=false&coreinv=on	sː
-velarized voiceless alveolar sibilant-fricative consonant	sˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˠ&inany=false&coreinv=on	sˠ
-pharyngealized voiceless alveolar sibilant-fricative consonant	sˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˤ&inany=false&coreinv=on	sˤ
-pharyngealized voiceless alveolar sibilant-fricative consonant	sˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˤ&inany=false&coreinv=on	sˤ
-aspirated voiceless alveolar sibilant-fricative consonant	sʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʰ&inany=false&coreinv=on	sʰ
-labialized voiceless alveolar sibilant-fricative consonant	sʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʷ&inany=false&coreinv=on	sʷ
-voiceless alveolar ejective sibilant-fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
-voiceless alveolar ejective sibilant-fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
-voiceless alveolar ejective sibilant-fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
-palatalized voiceless alveolar sibilant-fricative consonant	sʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʲ&inany=false&coreinv=on	sʲ
-voiced alveolar sibilant-fricative consonant	z	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z&inany=false&coreinv=on	z
-pharyngealized voiced alveolar sibilant-fricative consonant	zˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zˤ&inany=false&coreinv=on	zˤ
-pharyngealized voiced alveolar sibilant-fricative consonant	zˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zˤ&inany=false&coreinv=on	zˤ
-labialized voiced alveolar sibilant-fricative consonant	zʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zʷ&inany=false&coreinv=on	zʷ
-palatalized voiced alveolar sibilant-fricative consonant	zʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zʲ&inany=false&coreinv=on	zʲ
-voiced alveolo-palatal sibilant-fricative consonant	ʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʑ&inany=false&coreinv=on	ʑ
-voiceless alveolo-palatal sibilant-fricative consonant	ɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɕ&inany=false&coreinv=on	ɕ
-aspirated voiceless alveolo-palatal sibilant-fricative consonant	ɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɕʰ&inany=false&coreinv=on	ɕʰ
+voiced alveolar lateral tap consonant	ɺ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɺ&inany=false&coreinv=on	ɺ
+voiced retroflex tap consonant	ɽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽ&inany=false&coreinv=on	ɽ
+aspirated voiced retroflex tap consonant	ɽʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽʰ&inany=false&coreinv=on	ɽʰ
+aspirated voiced retroflex tap consonant	ɽʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽʰ&inany=false&coreinv=on	ɽʰ
+pre-nasalized voiceless alveolar sibilant fricative consonant	ⁿs	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿs&inany=false&coreinv=on	ⁿs
+pre-nasalized voiced alveolar sibilant fricative consonant	ⁿz	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿz&inany=false&coreinv=on	ⁿz
+labialized voiceless post-alveolar ejective sibilant fricative consonant	ʃʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼʷ&inany=false&coreinv=on	ʃʼʷ
+labialized voiceless post-alveolar ejective sibilant fricative consonant	ʃʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼʷ&inany=false&coreinv=on	ʃʼʷ
+from devoiced voiced alveolar nasal to voiceless alveolar sibilant fricative cluster	n̥s	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̥s&inany=false&coreinv=on	n̥s
+from voiced alveolar nasal to labialized voiced alveolar sibilant fricative cluster	nzʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nzʷ&inany=false&coreinv=on	nzʷ
+voiceless alveolar sibilant fricative consonant	s	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s&inany=false&coreinv=on	s
+long voiceless alveolar sibilant fricative consonant	sː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sː&inany=false&coreinv=on	sː
+velarized voiceless alveolar sibilant fricative consonant	sˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˠ&inany=false&coreinv=on	sˠ
+pharyngealized voiceless alveolar sibilant fricative consonant	sˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˤ&inany=false&coreinv=on	sˤ
+pharyngealized voiceless alveolar sibilant fricative consonant	sˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sˤ&inany=false&coreinv=on	sˤ
+aspirated voiceless alveolar sibilant fricative consonant	sʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʰ&inany=false&coreinv=on	sʰ
+labialized voiceless alveolar sibilant fricative consonant	sʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʷ&inany=false&coreinv=on	sʷ
+voiceless alveolar ejective sibilant fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
+voiceless alveolar ejective sibilant fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
+voiceless alveolar ejective sibilant fricative consonant	sʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʼ&inany=false&coreinv=on	sʼ
+palatalized voiceless alveolar sibilant fricative consonant	sʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=sʲ&inany=false&coreinv=on	sʲ
+voiced alveolar sibilant fricative consonant	z	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z&inany=false&coreinv=on	z
+pharyngealized voiced alveolar sibilant fricative consonant	zˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zˤ&inany=false&coreinv=on	zˤ
+pharyngealized voiced alveolar sibilant fricative consonant	zˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zˤ&inany=false&coreinv=on	zˤ
+labialized voiced alveolar sibilant fricative consonant	zʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zʷ&inany=false&coreinv=on	zʷ
+palatalized voiced alveolar sibilant fricative consonant	zʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=zʲ&inany=false&coreinv=on	zʲ
+voiced alveolo-palatal sibilant fricative consonant	ʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʑ&inany=false&coreinv=on	ʑ
+voiceless alveolo-palatal sibilant fricative consonant	ɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɕ&inany=false&coreinv=on	ɕ
+aspirated voiceless alveolo-palatal sibilant fricative consonant	ɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɕʰ&inany=false&coreinv=on	ɕʰ
 voiceless bilabial fricative consonant	ɸ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɸ&inany=false&coreinv=on	ɸ
 voiced bilabial fricative consonant	β	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=β&inany=false&coreinv=on	β
-voiceless dental sibilant-fricative consonant	s̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪&inany=false&coreinv=on	s̪
-long voiceless dental sibilant-fricative consonant	s̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ː&inany=false&coreinv=on	s̪ː
-pharyngealized voiceless dental sibilant-fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
-pharyngealized voiceless dental sibilant-fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
-voiceless dental ejective sibilant-fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
-voiceless dental ejective sibilant-fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
-palatalized voiceless dental sibilant-fricative consonant	s̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʲ&inany=false&coreinv=on	s̪ʲ
-voiced dental sibilant-fricative consonant	z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪&inany=false&coreinv=on	z̪
-long voiced dental sibilant-fricative consonant	z̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ː&inany=false&coreinv=on	z̪ː
-pharyngealized voiced dental sibilant-fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
-pharyngealized voiced dental sibilant-fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
-palatalized voiced dental sibilant-fricative consonant	z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ʲ&inany=false&coreinv=on	z̪ʲ
+from voiced dental nasal to voiced dental sibilant fricative cluster	n̪z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪z̪&inany=false&coreinv=on	n̪z̪
+voiceless dental sibilant fricative consonant	s̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪&inany=false&coreinv=on	s̪
+long voiceless dental sibilant fricative consonant	s̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ː&inany=false&coreinv=on	s̪ː
+pharyngealized voiceless dental sibilant fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
+pharyngealized voiceless dental sibilant fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
+voiceless dental ejective sibilant fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
+voiceless dental ejective sibilant fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
+palatalized voiceless dental sibilant fricative consonant	s̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʲ&inany=false&coreinv=on	s̪ʲ
+voiced dental sibilant fricative consonant	z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪&inany=false&coreinv=on	z̪
+long voiced dental sibilant fricative consonant	z̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ː&inany=false&coreinv=on	z̪ː
+pharyngealized voiced dental sibilant fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
+pharyngealized voiced dental sibilant fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
+palatalized voiced dental sibilant fricative consonant	z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ʲ&inany=false&coreinv=on	z̪ʲ
 voiced glottal fricative consonant	ɦ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɦ&inany=false&coreinv=on	ɦ
 labialized voiced glottal fricative consonant	ɦʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɦʷ&inany=false&coreinv=on	ɦʷ
 palatalized voiced glottal fricative consonant	ɦʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɦʲ&inany=false&coreinv=on	ɦʲ
@@ -246,40 +278,40 @@ labialized voiced labio-dental fricative consonant	vʷ	http://pbase.phon.chass.n
 palatalized voiced labio-dental fricative consonant	vʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=vʲ&inany=false&coreinv=on	vʲ
 palatalized voiced labio-dental fricative consonant	vʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=vʲ&inany=false&coreinv=on	vʲ
 devoiced voiced labio-dental fricative consonant	v̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=v̥&inany=false&coreinv=on	v̥
-pre-nasalized voiceless alveolar lateral-fricative consonant	ⁿɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɬ&inany=false&coreinv=on	ⁿɬ
-pre-nasalized voiced alveolar lateral-fricative consonant	ⁿɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɮ&inany=false&coreinv=on	ⁿɮ
-voiceless alveolar lateral-fricative consonant	ɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬ&inany=false&coreinv=on	ɬ
-labialized voiceless alveolar lateral-fricative consonant	ɬʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʷ&inany=false&coreinv=on	ɬʷ
-voiceless alveolar ejective lateral-fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
-voiceless alveolar ejective lateral-fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
-voiceless alveolar ejective lateral-fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
-voiced alveolar lateral-fricative consonant	ɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɮ&inany=false&coreinv=on	ɮ
-voiceless palatal sibilant-fricative consonant	ç	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ç&inany=false&coreinv=on	ç
+pre-nasalized voiceless alveolar lateral fricative consonant	ⁿɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɬ&inany=false&coreinv=on	ⁿɬ
+pre-nasalized voiced alveolar lateral fricative consonant	ⁿɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɮ&inany=false&coreinv=on	ⁿɮ
+voiceless alveolar lateral fricative consonant	ɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬ&inany=false&coreinv=on	ɬ
+labialized voiceless alveolar lateral fricative consonant	ɬʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʷ&inany=false&coreinv=on	ɬʷ
+voiceless alveolar ejective lateral fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
+voiceless alveolar ejective lateral fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
+voiceless alveolar ejective lateral fricative consonant	ɬʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬʼ&inany=false&coreinv=on	ɬʼ
+voiced alveolar lateral fricative consonant	ɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɮ&inany=false&coreinv=on	ɮ
+voiceless palatal sibilant fricative consonant	ç	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ç&inany=false&coreinv=on	ç
 voiced palatal fricative consonant	ʝ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʝ&inany=false&coreinv=on	ʝ
 voiceless pharyngeal fricative consonant	ħ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ħ&inany=false&coreinv=on	ħ
 labialized voiceless pharyngeal fricative consonant	ħʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ħʷ&inany=false&coreinv=on	ħʷ
 voiced pharyngeal fricative consonant	ʕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʕ&inany=false&coreinv=on	ʕ
 labialized voiced pharyngeal fricative consonant	ʕʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʕʷ&inany=false&coreinv=on	ʕʷ
-pre-nasalized voiced postalveolar sibilant-fricative consonant	ⁿʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʒ&inany=false&coreinv=on	ⁿʒ
-pre-nasalized voiced postalveolar sibilant-fricative consonant	ⁿʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʒ&inany=false&coreinv=on	ⁿʒ
-pre-nasalized voiceless postalveolar sibilant-fricative consonant	ⁿʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʃ&inany=false&coreinv=on	ⁿʃ
-voiced postalveolar sibilant-fricative consonant	ʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒ&inany=false&coreinv=on	ʒ
-long voiced postalveolar sibilant-fricative consonant	ʒː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒː&inany=false&coreinv=on	ʒː
-aspirated voiced postalveolar sibilant-fricative consonant	ʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʰ&inany=false&coreinv=on	ʒʰ
-aspirated voiced postalveolar sibilant-fricative consonant	ʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʰ&inany=false&coreinv=on	ʒʰ
-labialized voiced postalveolar sibilant-fricative consonant	ʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʷ&inany=false&coreinv=on	ʒʷ
-labialized voiced postalveolar sibilant-fricative consonant	ʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʷ&inany=false&coreinv=on	ʒʷ
-palatalized voiced postalveolar sibilant-fricative consonant	ʒʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʲ&inany=false&coreinv=on	ʒʲ
-voiceless postalveolar sibilant-fricative consonant	ʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃ&inany=false&coreinv=on	ʃ
-long voiceless postalveolar sibilant-fricative consonant	ʃː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃː&inany=false&coreinv=on	ʃː
-long voiceless postalveolar sibilant-fricative consonant	ʃː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃː&inany=false&coreinv=on	ʃː
-labialized voiceless postalveolar sibilant-fricative consonant	ʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʷ&inany=false&coreinv=on	ʃʷ
-voiceless postalveolar ejective sibilant-fricative consonant	ʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼ&inany=false&coreinv=on	ʃʼ
-voiceless postalveolar ejective sibilant-fricative consonant	ʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼ&inany=false&coreinv=on	ʃʼ
-palatalized voiceless postalveolar sibilant-fricative consonant	ʃʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʲ&inany=false&coreinv=on	ʃʲ
-voiced retroflex sibilant-fricative consonant	ʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʐ&inany=false&coreinv=on	ʐ
-voiceless retroflex sibilant-fricative consonant	ʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʂ&inany=false&coreinv=on	ʂ
-aspirated voiceless retroflex sibilant-fricative consonant	ʂʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʂʰ&inany=false&coreinv=on	ʂʰ
+pre-nasalized voiced post-alveolar sibilant fricative consonant	ⁿʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʒ&inany=false&coreinv=on	ⁿʒ
+pre-nasalized voiced post-alveolar sibilant fricative consonant	ⁿʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʒ&inany=false&coreinv=on	ⁿʒ
+pre-nasalized voiceless post-alveolar sibilant fricative consonant	ⁿʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿʃ&inany=false&coreinv=on	ⁿʃ
+voiced post-alveolar sibilant fricative consonant	ʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒ&inany=false&coreinv=on	ʒ
+long voiced post-alveolar sibilant fricative consonant	ʒː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒː&inany=false&coreinv=on	ʒː
+aspirated voiced post-alveolar sibilant fricative consonant	ʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʰ&inany=false&coreinv=on	ʒʰ
+aspirated voiced post-alveolar sibilant fricative consonant	ʒʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʰ&inany=false&coreinv=on	ʒʰ
+labialized voiced post-alveolar sibilant fricative consonant	ʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʷ&inany=false&coreinv=on	ʒʷ
+labialized voiced post-alveolar sibilant fricative consonant	ʒʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʷ&inany=false&coreinv=on	ʒʷ
+palatalized voiced post-alveolar sibilant fricative consonant	ʒʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʒʲ&inany=false&coreinv=on	ʒʲ
+voiceless post-alveolar sibilant fricative consonant	ʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃ&inany=false&coreinv=on	ʃ
+long voiceless post-alveolar sibilant fricative consonant	ʃː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃː&inany=false&coreinv=on	ʃː
+long voiceless post-alveolar sibilant fricative consonant	ʃː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃː&inany=false&coreinv=on	ʃː
+labialized voiceless post-alveolar sibilant fricative consonant	ʃʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʷ&inany=false&coreinv=on	ʃʷ
+voiceless post-alveolar ejective sibilant fricative consonant	ʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼ&inany=false&coreinv=on	ʃʼ
+voiceless post-alveolar ejective sibilant fricative consonant	ʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʼ&inany=false&coreinv=on	ʃʼ
+palatalized voiceless post-alveolar sibilant fricative consonant	ʃʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʃʲ&inany=false&coreinv=on	ʃʲ
+voiced retroflex sibilant fricative consonant	ʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʐ&inany=false&coreinv=on	ʐ
+voiceless retroflex sibilant fricative consonant	ʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʂ&inany=false&coreinv=on	ʂ
+aspirated voiceless retroflex sibilant fricative consonant	ʂʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʂʰ&inany=false&coreinv=on	ʂʰ
 voiced uvular fricative consonant	ʁ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʁ&inany=false&coreinv=on	ʁ
 long voiced uvular fricative consonant	ʁː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʁː&inany=false&coreinv=on	ʁː
 pharyngealized voiced uvular fricative consonant	ʁˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʁˤ&inany=false&coreinv=on	ʁˤ
@@ -312,27 +344,29 @@ voiced uvular implosive consonant	ʛ	http://pbase.phon.chass.ncsu.edu/visualize?
 voiced velar implosive consonant	ɠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɠ&inany=false&coreinv=on	ɠ
 labialized voiced velar implosive consonant	ɠʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɠʷ&inany=false&coreinv=on	ɠʷ
 palatalized voiced velar implosive consonant	ɠʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɠʲ&inany=false&coreinv=on	ɠʲ
-voiced dental lateral-approximant consonant	l̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪&inany=false&coreinv=on	l̪
-long voiced dental lateral-approximant consonant	l̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ː&inany=false&coreinv=on	l̪ː
-pharyngealized voiced dental lateral-approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
-pharyngealized voiced dental lateral-approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
-aspirated voiced dental lateral-approximant consonant	l̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʰ&inany=false&coreinv=on	l̪ʰ
-palatalized voiced dental lateral-approximant consonant	l̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʲ&inany=false&coreinv=on	l̪ʲ
-voiced alveolar lateral-approximant consonant	l	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l&inany=false&coreinv=on	l
-long voiced alveolar lateral-approximant consonant	lː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lː&inany=false&coreinv=on	lː
-long voiced alveolar lateral-approximant consonant	lː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lː&inany=false&coreinv=on	lː
-velarized voiced alveolar lateral-approximant consonant	lˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˠ&inany=false&coreinv=on	lˠ
-velarized voiced alveolar lateral-approximant consonant	lˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˠ&inany=false&coreinv=on	lˠ
-pharyngealized voiced alveolar lateral-approximant consonant	lˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˤ&inany=false&coreinv=on	lˤ
-aspirated voiced alveolar lateral-approximant consonant	lʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʰ&inany=false&coreinv=on	lʰ
-labialized voiced alveolar lateral-approximant consonant	lʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʷ&inany=false&coreinv=on	lʷ
-palatalized voiced alveolar lateral-approximant consonant	lʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʲ&inany=false&coreinv=on	lʲ
-devoiced voiced alveolar lateral-approximant consonant	l̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̥&inany=false&coreinv=on	l̥
-syllabic voiced alveolar lateral-approximant consonant	l̩	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̩&inany=false&coreinv=on	l̩
-nasalized voiced alveolar lateral-approximant consonant	l̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̃&inany=false&coreinv=on	l̃
-voiced palatal lateral-approximant consonant	ʎ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ&inany=false&coreinv=on	ʎ
-devoiced voiced palatal lateral-approximant consonant	ʎ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ̥&inany=false&coreinv=on	ʎ̥
-voiced retroflex lateral-approximant consonant	ɭ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɭ&inany=false&coreinv=on	ɭ
+from voiced dental implosive to voiced post-alveolar sibilant fricative cluster	ɗʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɗʒ&inany=false&coreinv=on	ɗʒ
+voiced dental lateral approximant consonant	l̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪&inany=false&coreinv=on	l̪
+long voiced dental lateral approximant consonant	l̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ː&inany=false&coreinv=on	l̪ː
+pharyngealized voiced dental lateral approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
+pharyngealized voiced dental lateral approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
+aspirated voiced dental lateral approximant consonant	l̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʰ&inany=false&coreinv=on	l̪ʰ
+palatalized voiced dental lateral approximant consonant	l̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʲ&inany=false&coreinv=on	l̪ʲ
+voiced alveolar lateral approximant consonant	l	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l&inany=false&coreinv=on	l
+long voiced alveolar lateral approximant consonant	lː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lː&inany=false&coreinv=on	lː
+long voiced alveolar lateral approximant consonant	lː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lː&inany=false&coreinv=on	lː
+velarized voiced alveolar lateral approximant consonant	lˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˠ&inany=false&coreinv=on	lˠ
+velarized voiced alveolar lateral approximant consonant	lˠ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˠ&inany=false&coreinv=on	lˠ
+pharyngealized voiced alveolar lateral approximant consonant	lˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lˤ&inany=false&coreinv=on	lˤ
+aspirated voiced alveolar lateral approximant consonant	lʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʰ&inany=false&coreinv=on	lʰ
+labialized voiced alveolar lateral approximant consonant	lʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʷ&inany=false&coreinv=on	lʷ
+palatalized voiced alveolar lateral approximant consonant	lʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=lʲ&inany=false&coreinv=on	lʲ
+breathy voiced alveolar lateral approximant consonant	lʱ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̤&inany=false&coreinv=on	l̤
+devoiced voiced alveolar lateral approximant consonant	l̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̥&inany=false&coreinv=on	l̥
+syllabic voiced alveolar lateral approximant consonant	l̩	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̩&inany=false&coreinv=on	l̩
+nasalized voiced alveolar lateral approximant consonant	l̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̃&inany=false&coreinv=on	l̃
+voiced palatal lateral approximant consonant	ʎ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ&inany=false&coreinv=on	ʎ
+devoiced voiced palatal lateral approximant consonant	ʎ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ̥&inany=false&coreinv=on	ʎ̥
+voiced retroflex lateral approximant consonant	ɭ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɭ&inany=false&coreinv=on	ɭ
 non-syllabic rounded close-mid back vowel	o̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯&inany=false&coreinv=on	o̯
 non-syllabic unrounded close-mid front vowel	e̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯&inany=false&coreinv=on	e̯
 voiced alveolar nasal consonant	n	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n&inany=false&coreinv=on	n
@@ -358,6 +392,7 @@ pharyngealized voiced bilabial nasal consonant	mˤ	http://pbase.phon.chass.ncsu.
 aspirated voiced bilabial nasal consonant	mʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=mʰ&inany=false&coreinv=on	mʰ
 labialized voiced bilabial nasal consonant	mʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=mʷ&inany=false&coreinv=on	mʷ
 palatalized voiced bilabial nasal consonant	mʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=mʲ&inany=false&coreinv=on	mʲ
+breathy voiced bilabial nasal consonant	mʱ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=m̤&inany=false&coreinv=on	m̤
 devoiced voiced bilabial nasal consonant	m̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=m̥&inany=false&coreinv=on	m̥
 syllabic voiced bilabial nasal consonant	m̩	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=m̩&inany=false&coreinv=on	m̩
 voiced dental nasal consonant	n̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪&inany=false&coreinv=on	n̪
@@ -367,6 +402,8 @@ palatalized voiced dental nasal consonant	n̪ʲ	http://pbase.phon.chass.ncsu.edu
 voiced palatal nasal consonant	ɲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲ&inany=false&coreinv=on	ɲ
 long voiced palatal nasal consonant	ɲː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲː&inany=false&coreinv=on	ɲː
 aspirated voiced palatal nasal consonant	ɲʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲʰ&inany=false&coreinv=on	ɲʰ
+devoiced voiced palatal nasal consonant	ɲ̊	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲ̥&inany=false&coreinv=on	ɲ̥
+devoiced voiced palatal nasal consonant	ɲ̊	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲ̥&inany=false&coreinv=on	ɲ̥
 voiced retroflex nasal consonant	ɳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɳ&inany=false&coreinv=on	ɳ
 labialized voiced retroflex nasal consonant	ɳʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɳʷ&inany=false&coreinv=on	ɳʷ
 voiced uvular nasal consonant	ɴ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɴ&inany=false&coreinv=on	ɴ
@@ -488,6 +525,8 @@ pharyngealized voiceless uvular stop consonant	qˤ	http://pbase.phon.chass.ncsu.
 aspirated voiceless uvular stop consonant	qʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʰ&inany=false&coreinv=on	qʰ
 labialized aspirated voiceless uvular stop consonant	qʷʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʰʷ&inany=false&coreinv=on	qʰʷ
 labialized voiceless uvular stop consonant	qʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷ&inany=false&coreinv=on	qʷ
+labialized voiceless uvular ejective stop consonant	qʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷʼ&inany=false&coreinv=on	qʷʼ
+labialized voiceless uvular ejective stop consonant	qʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷʼ&inany=false&coreinv=on	qʷʼ
 palatalized voiceless uvular stop consonant	qʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʲ&inany=false&coreinv=on	qʲ
 pre-nasalized voiceless velar stop consonant	ⁿk	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿk&inany=false&coreinv=on	ⁿk
 voiced velar stop consonant	g	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɡ&inany=false&coreinv=on	ɡ
@@ -505,12 +544,15 @@ aspirated voiceless velar stop consonant	kʰ	http://pbase.phon.chass.ncsu.edu/vi
 labialized voiceless velar stop consonant	kʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʷ&inany=false&coreinv=on	kʷ
 labialized long voiceless velar stop consonant	kʷː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʷː&inany=false&coreinv=on	kʷː
 from labialized voiceless velar stop to voiced glottal fricative cluster	kʷɦ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʷɦ&inany=false&coreinv=on	kʷɦ
+labialized voiceless velar ejective stop consonant	kʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʷʼ&inany=false&coreinv=on	kʷʼ
+labialized voiceless velar ejective stop consonant	kʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʷʼ&inany=false&coreinv=on	kʷʼ
 palatalized voiceless velar stop consonant	kʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=kʲ&inany=false&coreinv=on	kʲ
 pre-nasalized voiced alveolar trill consonant	ⁿr	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿr&inany=false&coreinv=on	ⁿr
 voiced alveolar trill consonant	r	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r&inany=false&coreinv=on	r
 long voiced alveolar trill consonant	rː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rː&inany=false&coreinv=on	rː
 long voiced alveolar trill consonant	rː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rː&inany=false&coreinv=on	rː
 pharyngealized voiced alveolar trill consonant	rˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rˤ&inany=false&coreinv=on	rˤ
+pharyngealized long voiced alveolar trill consonant	rːˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rˤː&inany=false&coreinv=on	rˤː
 aspirated voiced alveolar trill consonant	rʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʰ&inany=false&coreinv=on	rʰ
 labialized voiced alveolar trill consonant	rʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʷ&inany=false&coreinv=on	rʷ
 palatalized voiced alveolar trill consonant	rʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʲ&inany=false&coreinv=on	rʲ
@@ -715,7 +757,7 @@ voiced labio-dental nasal consonant	ɱ	http://pbase.phon.chass.ncsu.edu/visualiz
 voiced bilabial trill consonant	ʙ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʙ&inany=false&coreinv=on	ʙ
 voiceless epiglottal fricative consonant	ʜ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʜ&inany=false&coreinv=on	ʜ
 voiceless epiglottal stop consonant	ʡ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʡ&inany=false&coreinv=on	ʡ
-voiced velar lateral-approximant consonant	ʟ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʟ&inany=false&coreinv=on	ʟ
+voiced velar lateral approximant consonant	ʟ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʟ&inany=false&coreinv=on	ʟ
 unrounded close-mid central vowel	ɘ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɘ&inany=false&coreinv=on	ɘ
 rounded open-mid central vowel	ɞ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʚ&inany=false&coreinv=on	ʚ
 rounded open front vowel	ɶ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɶ&inany=false&coreinv=on	ɶ

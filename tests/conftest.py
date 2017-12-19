@@ -4,6 +4,7 @@ from __future__ import unicode_literals, print_function, division
 import pytest
 from clldutils.path import Path
 from clldutils.dsv import reader
+import random
 
 from pyclts import TranscriptionSystem, TranscriptionData
 
@@ -22,6 +23,7 @@ def pytest_generate_tests(metafunc):
                 fixturenames.pop(fixturenames.index('bipa'))
             del test['bipa']
             tests.append(tuple(test.values()))
+        tests = random.sample(tests, 20)
         metafunc.parametrize(','.join(n.replace('-', '_') for n in fixturenames), tests)
     elif 'test_clicks' == metafunc.function.__name__:
         tests = []
@@ -29,6 +31,7 @@ def pytest_generate_tests(metafunc):
             Path(__file__).parent / 'data' / 'clicks.tsv', delimiter='\t', dicts=True
         ):
             tests.append((test['GRAPHEME'], test['MANNER']))
+        tests = random.sample(tests, 20)
         metafunc.parametrize('grapheme,gtype', tests)
 
 

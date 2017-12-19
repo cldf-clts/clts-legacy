@@ -141,8 +141,16 @@ def loadmeta(args):
                 glyph = line[-4]
                 url = line[4]
                 sound = bipa[glyph]
-                if sound.type != 'unknownsound' and not (sound.generated and str(sound) != glyph):
+                if sound.type != 'unknownsound' and not (sound.generated and
+                        sound.s != glyph):
                     out += [[sound.name, str(sound), url, glyph]]
+                else:
+                    if sound.type == 'unknownsound':
+                        pass #print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
         write_transcriptiondata(out, 'phoible.tsv')
 
     if args.data == 'pbase':

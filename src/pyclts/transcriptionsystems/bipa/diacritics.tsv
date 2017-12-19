@@ -19,8 +19,10 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̤	vowel	breathiness	breathy			
 ◌ˀ	consonant	glottalization	glottalized			
 ◌ʷ	consonant	labialization	labialized			
+ʷ◌	consonant	preceding	pre-labialized		
 ◌̃	consonant	nasalization	nasalized			
-◌ᶣ	consonant	palatalization	labio-palatalized			
+◌ᶣ	consonant	palatalization	labio-palatalized		
+ʲ◌	consonant	preceding	pre-palatalized			
 ◌ʲ	consonant	palatalization	palatalized			
 ◌ˤ	consonant	pharyngealization	pharyngealized			
 ◌̰	consonant	creakiness	creaky			
@@ -32,6 +34,7 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ʰ◌	consonant	preceding	pre-aspirated			
 ˀ◌	consonant	preceding	pre-glottalized			
 ⁿ◌	consonant	preceding	pre-nasalized			
+◌͉	consonant	release	unreleased	+		
 ◌̚	consonant	release	unreleased			
 ◌ᶿ	consonant	release	with-dental-fricative-release			
 ◌ˡ	consonant	release	with-lateral-release			
