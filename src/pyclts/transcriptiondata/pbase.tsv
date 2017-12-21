@@ -21,7 +21,7 @@ from pre-nasalized voiceless alveolar stop to voiceless bilabial fricative clust
 from voiced alveolar stop to voiced bilabial fricative cluster	dβ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dβ&inany=false&coreinv=on	dβ
 from voiceless alveolar stop to aspirated voiceless bilabial fricative cluster	tɸʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɸʰ&inany=false&coreinv=on	tɸʰ
 voiced dental affricate consonant	dð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dð&inany=false&coreinv=on	dð
-voiceless alveolar affricate consonant	tθ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tθ&inany=false&coreinv=on	tθ
+voiceless dental affricate consonant	t̪θ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tθ&inany=false&coreinv=on	tθ
 from voiced alveolar stop to voiced palatal fricative cluster	dʝ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʝ&inany=false&coreinv=on	dʝ
 voiced retroflex sibilant affricate consonant	ɖʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʐ&inany=false&coreinv=on	dʐ
 voiceless retroflex sibilant affricate consonant	ʈʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʂ&inany=false&coreinv=on	tʂ
@@ -41,14 +41,13 @@ from voiced bilabial stop to voiced post-alveolar sibilant fricative cluster	bʒ
 from voiceless bilabial stop to aspirated voiceless post-alveolar sibilant fricative cluster	pʃʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʰ&inany=false&coreinv=on	pʃʰ
 from voiceless bilabial stop to voiceless post-alveolar ejective sibilant fricative cluster	pʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʼ&inany=false&coreinv=on	pʃʼ
 from voiceless bilabial stop to voiceless post-alveolar ejective sibilant fricative cluster	pʃʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pʃʼ&inany=false&coreinv=on	pʃʼ
-voiced dental sibilant affricate consonant	d̪z̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪&inany=false&coreinv=on	d̪z̪
-labialized voiced dental sibilant affricate consonant	d̪z̪ʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʷ&inany=false&coreinv=on	d̪z̪ʷ
-palatalized voiced dental sibilant affricate consonant	d̪z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪ʲ&inany=false&coreinv=on	d̪z̪ʲ
-voiceless dental sibilant affricate consonant	t̪s̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪&inany=false&coreinv=on	t̪s̪
-long voiceless dental sibilant affricate consonant	t̪ːs̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ː&inany=false&coreinv=on	t̪s̪ː
-aspirated voiceless dental affricate consonant	t̪s̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʰ&inany=false&coreinv=on	t̪s̪ʰ
-voiceless dental ejective sibilant affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
-voiceless dental ejective sibilant affricate consonant	t̪s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+voiced dental sibilant affricate consonant	dz̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪z̪&inany=false&coreinv=on	d̪z̪
+voiceless dental sibilant affricate consonant	ts̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪&inany=false&coreinv=on	t̪s̪
+long voiceless dental sibilant affricate consonant	ts̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ː&inany=false&coreinv=on	t̪s̪ː
+aspirated voiceless dental affricate consonant	ts̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʰ&inany=false&coreinv=on	t̪s̪ʰ
+voiceless dental ejective sibilant affricate consonant	ts̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+voiceless dental ejective sibilant affricate consonant	ts̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪s̪ʼ&inany=false&coreinv=on	t̪s̪ʼ
+from voiceless apical alveolar stop to palatalized voiceless apical alveolar sibilant fricative cluster	t̺s̺ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̺s̺ʲ&inany=false&coreinv=on	t̺s̺ʲ
 from voiced dental stop to voiced post-alveolar sibilant fricative cluster	d̪ʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ʒ&inany=false&coreinv=on	d̪ʒ
 from voiceless dental stop to voiceless post-alveolar sibilant fricative cluster	t̪ʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ʃ&inany=false&coreinv=on	t̪ʃ
 voiced dental affricate consonant	dð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ð&inany=false&coreinv=on	d̪ð
@@ -57,6 +56,12 @@ voiced labio-dental affricate consonant	bv	http://pbase.phon.chass.ncsu.edu/visu
 voiceless labio-dental affricate consonant	pf	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pf&inany=false&coreinv=on	pf
 aspirated voiceless labio-dental affricate consonant	pfʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pfʰ&inany=false&coreinv=on	pfʰ
 from voiceless bilabial stop to voiced labio-dental fricative cluster	pv	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=pv&inany=false&coreinv=on	pv
+from voiceless laminal alveolar stop to voiceless laminal alveolar sibilant fricative cluster	t̻s̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̻s̻&inany=false&coreinv=on	t̻s̻
+from voiced laminal alveolar stop to voiced alveolo-palatal sibilant fricative cluster	d̻ʑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̻ʑ&inany=false&coreinv=on	d̻ʑ
+from voiceless laminal alveolar stop to voiceless alveolo-palatal sibilant fricative cluster	t̻ɕ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̻ɕ&inany=false&coreinv=on	t̻ɕ
+from voiceless laminal alveolar stop to aspirated voiceless alveolo-palatal sibilant fricative cluster	t̻ɕʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̻ɕʰ&inany=false&coreinv=on	t̻ɕʰ
+from voiced laminal alveolar stop to voiced laminal post-alveolar sibilant fricative cluster	d̻ʒ̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̻ʒ̻&inany=false&coreinv=on	d̻ʒ̻
+from voiceless laminal alveolar stop to voiceless laminal post-alveolar sibilant fricative cluster	t̻ʃ̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̻ʃ̻&inany=false&coreinv=on	t̻ʃ̻
 from pre-nasalized voiced alveolar stop to voiced alveolar lateral fricative cluster	ⁿdɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿdɮ&inany=false&coreinv=on	ⁿdɮ
 from pre-nasalized voiceless alveolar stop to voiceless alveolar lateral fricative cluster	ⁿtɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿtɬ&inany=false&coreinv=on	ⁿtɬ
 voiceless alveolar lateral affricate consonant	tɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tɬ&inany=false&coreinv=on	tɬ
@@ -236,6 +241,7 @@ voiceless dental sibilant fricative consonant	s̪	http://pbase.phon.chass.ncsu.e
 long voiceless dental sibilant fricative consonant	s̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ː&inany=false&coreinv=on	s̪ː
 pharyngealized voiceless dental sibilant fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
 pharyngealized voiceless dental sibilant fricative consonant	s̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤ&inany=false&coreinv=on	s̪ˤ
+pharyngealized long voiceless dental sibilant fricative consonant	s̪ˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ˤː&inany=false&coreinv=on	s̪ˤː
 voiceless dental ejective sibilant fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
 voiceless dental ejective sibilant fricative consonant	s̪ʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʼ&inany=false&coreinv=on	s̪ʼ
 palatalized voiceless dental sibilant fricative consonant	s̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̪ʲ&inany=false&coreinv=on	s̪ʲ
@@ -243,6 +249,7 @@ voiced dental sibilant fricative consonant	z̪	http://pbase.phon.chass.ncsu.edu/
 long voiced dental sibilant fricative consonant	z̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ː&inany=false&coreinv=on	z̪ː
 pharyngealized voiced dental sibilant fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
 pharyngealized voiced dental sibilant fricative consonant	z̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤ&inany=false&coreinv=on	z̪ˤ
+pharyngealized long voiced dental sibilant fricative consonant	z̪ˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ˤː&inany=false&coreinv=on	z̪ˤː
 palatalized voiced dental sibilant fricative consonant	z̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̪ʲ&inany=false&coreinv=on	z̪ʲ
 voiced glottal fricative consonant	ɦ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɦ&inany=false&coreinv=on	ɦ
 labialized voiced glottal fricative consonant	ɦʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɦʷ&inany=false&coreinv=on	ɦʷ
@@ -251,6 +258,7 @@ nasalized voiced glottal fricative consonant	ɦ̃	http://pbase.phon.chass.ncsu.e
 voiceless glottal fricative consonant	h	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=h&inany=false&coreinv=on	h
 pharyngealized voiceless glottal fricative consonant	hˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=hˤ&inany=false&coreinv=on	hˤ
 labialized voiceless glottal fricative consonant	hʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=hʷ&inany=false&coreinv=on	hʷ
+labialized long voiceless glottal fricative consonant	hʷː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=hʷː&inany=false&coreinv=on	hʷː
 palatalized voiceless glottal fricative consonant	hʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=hʲ&inany=false&coreinv=on	hʲ
 nasalized voiceless glottal fricative consonant	h̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=h̃&inany=false&coreinv=on	h̃
 voiced dental fricative consonant	ð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ð&inany=false&coreinv=on	ð
@@ -278,6 +286,10 @@ labialized voiced labio-dental fricative consonant	vʷ	http://pbase.phon.chass.n
 palatalized voiced labio-dental fricative consonant	vʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=vʲ&inany=false&coreinv=on	vʲ
 palatalized voiced labio-dental fricative consonant	vʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=vʲ&inany=false&coreinv=on	vʲ
 devoiced voiced labio-dental fricative consonant	v̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=v̥&inany=false&coreinv=on	v̥
+voiceless laminal alveolar sibilant fricative consonant	s̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̻&inany=false&coreinv=on	s̻
+pharyngealized voiceless laminal alveolar sibilant fricative consonant	s̻ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s̻ˤ&inany=false&coreinv=on	s̻ˤ
+voiced laminal alveolar sibilant fricative consonant	z̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̻&inany=false&coreinv=on	z̻
+pharyngealized voiced laminal alveolar sibilant fricative consonant	z̻ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=z̻ˤ&inany=false&coreinv=on	z̻ˤ
 pre-nasalized voiceless alveolar lateral fricative consonant	ⁿɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɬ&inany=false&coreinv=on	ⁿɬ
 pre-nasalized voiced alveolar lateral fricative consonant	ⁿɮ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɮ&inany=false&coreinv=on	ⁿɮ
 voiceless alveolar lateral fricative consonant	ɬ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɬ&inany=false&coreinv=on	ɬ
@@ -349,6 +361,7 @@ voiced dental lateral approximant consonant	l̪	http://pbase.phon.chass.ncsu.edu
 long voiced dental lateral approximant consonant	l̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ː&inany=false&coreinv=on	l̪ː
 pharyngealized voiced dental lateral approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
 pharyngealized voiced dental lateral approximant consonant	l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤ&inany=false&coreinv=on	l̪ˤ
+pharyngealized long voiced dental lateral approximant consonant	l̪ˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ˤː&inany=false&coreinv=on	l̪ˤː
 aspirated voiced dental lateral approximant consonant	l̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʰ&inany=false&coreinv=on	l̪ʰ
 palatalized voiced dental lateral approximant consonant	l̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l̪ʲ&inany=false&coreinv=on	l̪ʲ
 voiced alveolar lateral approximant consonant	l	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l&inany=false&coreinv=on	l
@@ -367,8 +380,8 @@ nasalized voiced alveolar lateral approximant consonant	l̃	http://pbase.phon.ch
 voiced palatal lateral approximant consonant	ʎ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ&inany=false&coreinv=on	ʎ
 devoiced voiced palatal lateral approximant consonant	ʎ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʎ̥&inany=false&coreinv=on	ʎ̥
 voiced retroflex lateral approximant consonant	ɭ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɭ&inany=false&coreinv=on	ɭ
-non-syllabic rounded close-mid back vowel	o̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯&inany=false&coreinv=on	o̯
-non-syllabic unrounded close-mid front vowel	e̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯&inany=false&coreinv=on	e̯
+non-syllabic back rounded close-mid back vowel	o̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯&inany=false&coreinv=on	o̯
+non-syllabic front unrounded close-mid front vowel	e̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯&inany=false&coreinv=on	e̯
 voiced alveolar nasal consonant	n	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n&inany=false&coreinv=on	n
 voiced alveolar ejective nasal consonant	n’	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n’&inany=false&coreinv=on	n’
 voiced alveolar ejective nasal consonant	n’	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n’&inany=false&coreinv=on	n’
@@ -377,6 +390,7 @@ long voiced alveolar nasal consonant	nː	http://pbase.phon.chass.ncsu.edu/visual
 long voiced alveolar nasal consonant	nː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nː&inany=false&coreinv=on	nː
 pharyngealized voiced alveolar nasal consonant	nˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nˤ&inany=false&coreinv=on	nˤ
 pharyngealized voiced alveolar nasal consonant	nˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nˤ&inany=false&coreinv=on	nˤ
+pharyngealized long voiced alveolar nasal consonant	nˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nˤː&inany=false&coreinv=on	nˤː
 aspirated voiced alveolar nasal consonant	nʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nʰ&inany=false&coreinv=on	nʰ
 labialized voiced alveolar nasal consonant	nʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nʷ&inany=false&coreinv=on	nʷ
 palatalized voiced alveolar nasal consonant	nʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=nʲ&inany=false&coreinv=on	nʲ
@@ -399,6 +413,7 @@ voiced dental nasal consonant	n̪	http://pbase.phon.chass.ncsu.edu/visualize?lan
 long voiced dental nasal consonant	n̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪ː&inany=false&coreinv=on	n̪ː
 aspirated voiced dental nasal consonant	n̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪ʰ&inany=false&coreinv=on	n̪ʰ
 palatalized voiced dental nasal consonant	n̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪ʲ&inany=false&coreinv=on	n̪ʲ
+voiced laminal alveolar nasal consonant	n̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̻&inany=false&coreinv=on	n̻
 voiced palatal nasal consonant	ɲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲ&inany=false&coreinv=on	ɲ
 long voiced palatal nasal consonant	ɲː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲː&inany=false&coreinv=on	ɲː
 aspirated voiced palatal nasal consonant	ɲʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɲʰ&inany=false&coreinv=on	ɲʰ
@@ -481,6 +496,7 @@ voiced dental stop consonant	d̪	http://pbase.phon.chass.ncsu.edu/visualize?lang
 long voiced dental stop consonant	d̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ː&inany=false&coreinv=on	d̪ː
 pharyngealized voiced dental stop consonant	d̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ˤ&inany=false&coreinv=on	d̪ˤ
 pharyngealized voiced dental stop consonant	d̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ˤ&inany=false&coreinv=on	d̪ˤ
+pharyngealized long voiced dental stop consonant	d̪ˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ˤː&inany=false&coreinv=on	d̪ˤː
 aspirated voiced dental stop consonant	d̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ʰ&inany=false&coreinv=on	d̪ʰ
 palatalized voiced dental stop consonant	d̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̪ʲ&inany=false&coreinv=on	d̪ʲ
 from voiced dental nasal to voiceless dental stop cluster	n̪t̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n̪t̪&inany=false&coreinv=on	n̪t̪
@@ -489,12 +505,14 @@ with-nasal-release voiceless dental stop consonant	t̪ⁿ	http://pbase.phon.chas
 long voiceless dental stop consonant	t̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ː&inany=false&coreinv=on	t̪ː
 pharyngealized voiceless dental stop consonant	t̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ˤ&inany=false&coreinv=on	t̪ˤ
 pharyngealized voiceless dental stop consonant	t̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ˤ&inany=false&coreinv=on	t̪ˤ
+pharyngealized long voiceless dental stop consonant	t̪ˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ˤː&inany=false&coreinv=on	t̪ˤː
 aspirated voiceless dental stop consonant	t̪ʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ʰ&inany=false&coreinv=on	t̪ʰ
 labialized voiceless dental stop consonant	t̪ʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ʷ&inany=false&coreinv=on	t̪ʷ
 palatalized voiceless dental stop consonant	t̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=t̪ʲ&inany=false&coreinv=on	t̪ʲ
 voiceless glottal stop consonant	ʔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʔ&inany=false&coreinv=on	ʔ
 pharyngealized voiceless glottal stop consonant	ʔˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʔˤ&inany=false&coreinv=on	ʔˤ
 labialized voiceless glottal stop consonant	ʔʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʔʷ&inany=false&coreinv=on	ʔʷ
+voiced laminal alveolar stop consonant	d̻	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=d̻&inany=false&coreinv=on	d̻
 pre-nasalized voiceless palatal stop consonant	ⁿc	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿc&inany=false&coreinv=on	ⁿc
 pre-nasalized voiceless palatal stop consonant	ⁿc	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿc&inany=false&coreinv=on	ⁿc
 pre-nasalized voiced palatal stop consonant	ⁿɟ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ⁿɟ&inany=false&coreinv=on	ⁿɟ
@@ -525,6 +543,7 @@ pharyngealized voiceless uvular stop consonant	qˤ	http://pbase.phon.chass.ncsu.
 aspirated voiceless uvular stop consonant	qʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʰ&inany=false&coreinv=on	qʰ
 labialized aspirated voiceless uvular stop consonant	qʷʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʰʷ&inany=false&coreinv=on	qʰʷ
 labialized voiceless uvular stop consonant	qʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷ&inany=false&coreinv=on	qʷ
+labialized long voiceless uvular stop consonant	qʷː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷː&inany=false&coreinv=on	qʷː
 labialized voiceless uvular ejective stop consonant	qʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷʼ&inany=false&coreinv=on	qʷʼ
 labialized voiceless uvular ejective stop consonant	qʼʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʷʼ&inany=false&coreinv=on	qʷʼ
 palatalized voiceless uvular stop consonant	qʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=qʲ&inany=false&coreinv=on	qʲ
@@ -552,7 +571,7 @@ voiced alveolar trill consonant	r	http://pbase.phon.chass.ncsu.edu/visualize?lan
 long voiced alveolar trill consonant	rː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rː&inany=false&coreinv=on	rː
 long voiced alveolar trill consonant	rː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rː&inany=false&coreinv=on	rː
 pharyngealized voiced alveolar trill consonant	rˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rˤ&inany=false&coreinv=on	rˤ
-pharyngealized long voiced alveolar trill consonant	rːˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rˤː&inany=false&coreinv=on	rˤː
+pharyngealized long voiced alveolar trill consonant	rˤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rˤː&inany=false&coreinv=on	rˤː
 aspirated voiced alveolar trill consonant	rʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʰ&inany=false&coreinv=on	rʰ
 labialized voiced alveolar trill consonant	rʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʷ&inany=false&coreinv=on	rʷ
 palatalized voiced alveolar trill consonant	rʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=rʲ&inany=false&coreinv=on	rʲ
@@ -562,202 +581,248 @@ nasalized voiced alveolar trill consonant	r̃	http://pbase.phon.chass.ncsu.edu/v
 voiced dental trill consonant	r̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r̪&inany=false&coreinv=on	r̪
 palatalized voiced dental trill consonant	r̪ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r̪ʲ&inany=false&coreinv=on	r̪ʲ
 voiced uvular trill consonant	ʀ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʀ&inany=false&coreinv=on	ʀ
-rounded close back vowel	u	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u&inany=false&coreinv=on	u
-long rounded close back vowel	uː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uː&inany=false&coreinv=on	uː
-long rounded close back vowel	uː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uː&inany=false&coreinv=on	uː
-pharyngealized rounded close back vowel	uˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uˤ&inany=false&coreinv=on	uˤ
-ultra-long rounded close back vowel	uːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uːː&inany=false&coreinv=on	uːː
-breathy rounded close back vowel	ṳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṳ&inany=false&coreinv=on	ṳ
-breathy rounded close back vowel	ṳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṳ&inany=false&coreinv=on	ṳ
-devoiced rounded close back vowel	u̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̥&inany=false&coreinv=on	u̥
-creaky rounded close back vowel	ṵ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṵ&inany=false&coreinv=on	ṵ
-nasalized rounded close back vowel	ũ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ũ&inany=false&coreinv=on	ũ
-long nasalized rounded close back vowel	ũː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ũː&inany=false&coreinv=on	ũː
-from rounded close back to unrounded close front diphthong	ui	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ui&inany=false&coreinv=on	ui
-unrounded close back vowel	ɯ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯ&inany=false&coreinv=on	ɯ
-long unrounded close back vowel	ɯː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯː&inany=false&coreinv=on	ɯː
-long unrounded close back vowel	ɯː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯː&inany=false&coreinv=on	ɯː
-nasalized unrounded close back vowel	ɯ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯ̃&inany=false&coreinv=on	ɯ̃
-rounded close central vowel	ʉ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʉ&inany=false&coreinv=on	ʉ
-unrounded close central vowel	ɨ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ&inany=false&coreinv=on	ɨ
-long unrounded close central vowel	ɨː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨː&inany=false&coreinv=on	ɨː
-long unrounded close central vowel	ɨː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨː&inany=false&coreinv=on	ɨː
-rhotacized unrounded close central vowel	ɨ˞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ˞&inany=false&coreinv=on	ɨ˞
-nasalized unrounded close central vowel	ɨ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃&inany=false&coreinv=on	ɨ̃
-nasalized unrounded close central vowel	ɨ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃&inany=false&coreinv=on	ɨ̃
-long nasalized unrounded close central vowel	ɨ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃ː&inany=false&coreinv=on	ɨ̃ː
-rounded close front vowel	y	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=y&inany=false&coreinv=on	y
-long rounded close front vowel	yː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=yː&inany=false&coreinv=on	yː
-nasalized rounded close front vowel	ỹ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ỹ&inany=false&coreinv=on	ỹ
-from rounded close front to unrounded close front diphthong	yi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=yi&inany=false&coreinv=on	yi
-unrounded close front vowel	i	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i&inany=false&coreinv=on	i
-long unrounded close front vowel	iː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iː&inany=false&coreinv=on	iː
-long unrounded close front vowel	iː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iː&inany=false&coreinv=on	iː
-pharyngealized unrounded close front vowel	iˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iˤ&inany=false&coreinv=on	iˤ
-ultra-long unrounded close front vowel	iːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iːː&inany=false&coreinv=on	iːː
-breathy unrounded close front vowel	i̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤&inany=false&coreinv=on	i̤
-breathy unrounded close front vowel	i̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤&inany=false&coreinv=on	i̤
-long breathy unrounded close front vowel	i̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤ː&inany=false&coreinv=on	i̤ː
-devoiced unrounded close front vowel	i̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̥&inany=false&coreinv=on	i̥
-devoiced unrounded close front vowel	i̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̥&inany=false&coreinv=on	i̥
-creaky unrounded close front vowel	ḭ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḭ&inany=false&coreinv=on	ḭ
-long creaky unrounded close front vowel	ḭː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḭː&inany=false&coreinv=on	ḭː
-nasalized unrounded close front vowel	ĩ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ĩ&inany=false&coreinv=on	ĩ
-long nasalized unrounded close front vowel	ĩː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ĩː&inany=false&coreinv=on	ĩː
-from rounded close back to rounded close-mid back diphthong	uo	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uo&inany=false&coreinv=on	uo
-from unrounded close front to unrounded close-mid front diphthong	ie	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ie&inany=false&coreinv=on	ie
-from breathy unrounded close front to breathy unrounded close-mid front diphthong	i̤e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤e̤&inany=false&coreinv=on	i̤e̤
-from rounded close back to unrounded open front diphthong	ua	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ua&inany=false&coreinv=on	ua
-from unrounded close front to unrounded open front diphthong	ia	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ia&inany=false&coreinv=on	ia
-from rounded close back to rounded open-mid back diphthong	uɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uɔ&inany=false&coreinv=on	uɔ
-from unrounded close front to unrounded open-mid front diphthong	iɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iɛ&inany=false&coreinv=on	iɛ
-from rounded close back to unrounded mid central diphthong	uə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uə&inany=false&coreinv=on	uə
-from unrounded close back to unrounded mid central diphthong	ɯə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯə&inany=false&coreinv=on	ɯə
-from unrounded close front to unrounded mid central diphthong	iə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iə&inany=false&coreinv=on	iə
-unrounded nearly-open central vowel	ɐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɐ&inany=false&coreinv=on	ɐ
-long unrounded nearly-open central vowel	ɐː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɐː&inany=false&coreinv=on	ɐː
-unrounded nearly-open front vowel	æ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æ&inany=false&coreinv=on	æ
-long unrounded nearly-open front vowel	æː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æː&inany=false&coreinv=on	æː
-long unrounded nearly-open front vowel	æː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æː&inany=false&coreinv=on	æː
-nasalized unrounded nearly-open front vowel	æ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æ̃&inany=false&coreinv=on	æ̃
-rounded close-mid back vowel	o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o&inany=false&coreinv=on	o
-long rounded close-mid back vowel	oː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oː&inany=false&coreinv=on	oː
-long rounded close-mid back vowel	oː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oː&inany=false&coreinv=on	oː
-pharyngealized rounded close-mid back vowel	oˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oˤ&inany=false&coreinv=on	oˤ
-ultra-long rounded close-mid back vowel	oːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oːː&inany=false&coreinv=on	oːː
-breathy rounded close-mid back vowel	o̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤&inany=false&coreinv=on	o̤
-breathy rounded close-mid back vowel	o̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤&inany=false&coreinv=on	o̤
-long breathy rounded close-mid back vowel	o̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤ː&inany=false&coreinv=on	o̤ː
-pharyngealized breathy rounded close-mid back vowel	o̤ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤ˤ&inany=false&coreinv=on	o̤ˤ
-devoiced rounded close-mid back vowel	o̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̥&inany=false&coreinv=on	o̥
-ultra-short rounded close-mid back vowel	ŏ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ŏ&inany=false&coreinv=on	ŏ
-nasalized rounded close-mid back vowel	õ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õ&inany=false&coreinv=on	õ
-nasalized rounded close-mid back vowel	õ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õ&inany=false&coreinv=on	õ
-long nasalized rounded close-mid back vowel	õː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õː&inany=false&coreinv=on	õː
-rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
-unrounded close-mid back vowel	ɤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤ&inany=false&coreinv=on	ɤ
-long unrounded close-mid back vowel	ɤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤː&inany=false&coreinv=on	ɤː
-long unrounded close-mid back vowel	ɤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤː&inany=false&coreinv=on	ɤː
-rounded close-mid central vowel	ɵ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɵ&inany=false&coreinv=on	ɵ
-rounded close-mid front vowel	ø	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ø&inany=false&coreinv=on	ø
-long rounded close-mid front vowel	øː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=øː&inany=false&coreinv=on	øː
-ultra-short rounded close-mid front vowel	ø̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ø̆&inany=false&coreinv=on	ø̆
-unrounded close-mid front vowel	e	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e&inany=false&coreinv=on	e
-unrounded close-mid front vowel	e	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e&inany=false&coreinv=on	e
-long unrounded close-mid front vowel	eː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eː&inany=false&coreinv=on	eː
-long unrounded close-mid front vowel	eː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eː&inany=false&coreinv=on	eː
-pharyngealized unrounded close-mid front vowel	eˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eˤ&inany=false&coreinv=on	eˤ
-ultra-long unrounded close-mid front vowel	eːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eːː&inany=false&coreinv=on	eːː
-breathy unrounded close-mid front vowel	e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤&inany=false&coreinv=on	e̤
-breathy unrounded close-mid front vowel	e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤&inany=false&coreinv=on	e̤
-long breathy unrounded close-mid front vowel	e̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤ː&inany=false&coreinv=on	e̤ː
-devoiced unrounded close-mid front vowel	e̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̥&inany=false&coreinv=on	e̥
-nasalized unrounded close-mid front vowel	ẽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ẽ&inany=false&coreinv=on	ẽ
-long nasalized unrounded close-mid front vowel	ẽː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ẽː&inany=false&coreinv=on	ẽː
-unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
-from non-syllabic rounded close-mid back to rounded close back diphthong	o̯u	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯u&inany=false&coreinv=on	o̯u
-from non-syllabic unrounded close-mid front to rounded close-mid back diphthong	e̯o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯o&inany=false&coreinv=on	e̯o
-from non-syllabic rounded close-mid back to unrounded open front diphthong	o̯a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯a&inany=false&coreinv=on	o̯a
-from non-syllabic unrounded close-mid front to unrounded open front diphthong	e̯a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯a&inany=false&coreinv=on	e̯a
-from rounded close-mid back to rounded close back diphthong	ou	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ou&inany=false&coreinv=on	ou
-from rounded close-mid back to unrounded close front diphthong	oi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oi&inany=false&coreinv=on	oi
-from unrounded close-mid front to unrounded close front diphthong	ei	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ei&inany=false&coreinv=on	ei
-from unrounded close-mid front to rounded close back diphthong	eu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eu&inany=false&coreinv=on	eu
-from rounded close-mid back to rounded near-close near-back diphthong	oʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oʊ&inany=false&coreinv=on	oʊ
-from unrounded close-mid front to unrounded near-close near-front diphthong	eɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eɪ&inany=false&coreinv=on	eɪ
-from rounded close-mid back to unrounded mid central diphthong	oə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oə&inany=false&coreinv=on	oə
-from rounded close-mid front to unrounded mid central diphthong	øə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=øə&inany=false&coreinv=on	øə
-from unrounded close-mid front to unrounded mid central diphthong	eə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eə&inany=false&coreinv=on	eə
-rounded open back vowel	ɒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɒ&inany=false&coreinv=on	ɒ
-long rounded open back vowel	ɒː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɒː&inany=false&coreinv=on	ɒː
-unrounded open back vowel	ɑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑ&inany=false&coreinv=on	ɑ
-long unrounded open back vowel	ɑː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑː&inany=false&coreinv=on	ɑː
-long unrounded open back vowel	ɑː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑː&inany=false&coreinv=on	ɑː
-nasalized unrounded open back vowel	ɑ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑ̃&inany=false&coreinv=on	ɑ̃
-unrounded open front vowel	a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a&inany=false&coreinv=on	a
-long unrounded open front vowel	aː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aː&inany=false&coreinv=on	aː
-long unrounded open front vowel	aː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aː&inany=false&coreinv=on	aː
-pharyngealized unrounded open front vowel	aˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aˤ&inany=false&coreinv=on	aˤ
-retracted unrounded open front vowel	a̠	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̠&inany=false&coreinv=on	a̠
-breathy unrounded open front vowel	a̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̤&inany=false&coreinv=on	a̤
-pharyngealized breathy unrounded open front vowel	a̤ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̤ˤ&inany=false&coreinv=on	a̤ˤ
-devoiced unrounded open front vowel	ḁ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḁ&inany=false&coreinv=on	ḁ
-creaky unrounded open front vowel	a̰	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̰&inany=false&coreinv=on	a̰
-long creaky unrounded open front vowel	a̰ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̰ː&inany=false&coreinv=on	a̰ː
-ultra-short unrounded open front vowel	ă	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ă&inany=false&coreinv=on	ă
-nasalized unrounded open front vowel	ã	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ã&inany=false&coreinv=on	ã
-nasalized unrounded open front vowel	ã	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ã&inany=false&coreinv=on	ã
-long nasalized unrounded open front vowel	ãː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ãː&inany=false&coreinv=on	ãː
-from unrounded open front to rounded close back diphthong	au	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=au&inany=false&coreinv=on	au
-from unrounded open front to unrounded close front diphthong	ai	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ai&inany=false&coreinv=on	ai
-from unrounded open front to rounded close central diphthong	aʉ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aʉ&inany=false&coreinv=on	aʉ
-from unrounded open front to rounded close-mid back diphthong	ao	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ao&inany=false&coreinv=on	ao
-from unrounded open front to rounded near-close near-back diphthong	aʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aʊ&inany=false&coreinv=on	aʊ
-from unrounded open front to unrounded near-close near-front diphthong	aɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aɪ&inany=false&coreinv=on	aɪ
-rounded near-close near-back vowel	ʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ&inany=false&coreinv=on	ʊ
-long rounded near-close near-back vowel	ʊː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊː&inany=false&coreinv=on	ʊː
-long rounded near-close near-back vowel	ʊː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊː&inany=false&coreinv=on	ʊː
-devoiced rounded near-close near-back vowel	ʊ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̥&inany=false&coreinv=on	ʊ̥
-nasalized rounded near-close near-back vowel	ʊ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̃&inany=false&coreinv=on	ʊ̃
-long nasalized rounded near-close near-back vowel	ʊ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̃ː&inany=false&coreinv=on	ʊ̃ː
-rounded near-close near-front vowel	ʏ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʏ&inany=false&coreinv=on	ʏ
-unrounded near-close near-front vowel	ɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ&inany=false&coreinv=on	ɪ
-long unrounded near-close near-front vowel	ɪː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪː&inany=false&coreinv=on	ɪː
-long unrounded near-close near-front vowel	ɪː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪː&inany=false&coreinv=on	ɪː
-devoiced unrounded near-close near-front vowel	ɪ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̥&inany=false&coreinv=on	ɪ̥
-devoiced unrounded near-close near-front vowel	ɪ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̥&inany=false&coreinv=on	ɪ̥
-nasalized unrounded near-close near-front vowel	ɪ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̃&inany=false&coreinv=on	ɪ̃
-long nasalized unrounded near-close near-front vowel	ɪ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̃ː&inany=false&coreinv=on	ɪ̃ː
-from rounded near-close near-back to rounded open-mid back diphthong	ʊɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊɔ&inany=false&coreinv=on	ʊɔ
-from unrounded near-close near-front to unrounded open-mid front diphthong	ɪɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪɛ&inany=false&coreinv=on	ɪɛ
-rounded open-mid back vowel	ɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ&inany=false&coreinv=on	ɔ
-long rounded open-mid back vowel	ɔː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔː&inany=false&coreinv=on	ɔː
-long rounded open-mid back vowel	ɔː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔː&inany=false&coreinv=on	ɔː
-nasalized rounded open-mid back vowel	ɔ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̃&inany=false&coreinv=on	ɔ̃
-long nasalized rounded open-mid back vowel	ɔ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̃ː&inany=false&coreinv=on	ɔ̃ː
-unrounded open-mid back vowel	ʌ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ&inany=false&coreinv=on	ʌ
-long unrounded open-mid back vowel	ʌː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌː&inany=false&coreinv=on	ʌː
-breathy unrounded open-mid back vowel	ʌ̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̤&inany=false&coreinv=on	ʌ̤
-long breathy unrounded open-mid back vowel	ʌ̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̤ː&inany=false&coreinv=on	ʌ̤ː
-ultra-short unrounded open-mid back vowel	ʌ̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̆&inany=false&coreinv=on	ʌ̆
-nasalized unrounded open-mid back vowel	ʌ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̃&inany=false&coreinv=on	ʌ̃
-long nasalized unrounded open-mid back vowel	ʌ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̃ː&inany=false&coreinv=on	ʌ̃ː
-unrounded open-mid central vowel	ɜ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɜ&inany=false&coreinv=on	ɜ
-long unrounded open-mid central vowel	ɜː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɜː&inany=false&coreinv=on	ɜː
-rounded open-mid front vowel	œ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œ&inany=false&coreinv=on	œ
-long rounded open-mid front vowel	œː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œː&inany=false&coreinv=on	œː
-nasalized rounded open-mid front vowel	œ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œ̃&inany=false&coreinv=on	œ̃
-unrounded open-mid front vowel	ɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ&inany=false&coreinv=on	ɛ
-long unrounded open-mid front vowel	ɛː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛː&inany=false&coreinv=on	ɛː
-long unrounded open-mid front vowel	ɛː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛː&inany=false&coreinv=on	ɛː
-nasalized unrounded open-mid front vowel	ɛ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̃&inany=false&coreinv=on	ɛ̃
-long nasalized unrounded open-mid front vowel	ɛ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̃ː&inany=false&coreinv=on	ɛ̃ː
-from rounded open-mid back to unrounded close front diphthong	ɔi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔi&inany=false&coreinv=on	ɔi
-from rounded open-mid front to rounded close back diphthong	œu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œu&inany=false&coreinv=on	œu
-from rounded open-mid front to unrounded close front diphthong	œi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œi&inany=false&coreinv=on	œi
-rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
-rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
-rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
-unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
-unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
-long unrounded mid central vowel	əː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əː&inany=false&coreinv=on	əː
-unrounded mid central vowel	ə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə&inany=false&coreinv=on	ə
-long unrounded mid central vowel	əː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əː&inany=false&coreinv=on	əː
-pharyngealized unrounded mid central vowel	əˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əˤ&inany=false&coreinv=on	əˤ
-rhotacized unrounded mid central vowel	ə˞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə˞&inany=false&coreinv=on	ə˞
-ultra-short unrounded mid central vowel	ə̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̆&inany=false&coreinv=on	ə̆
-nasalized unrounded mid central vowel	ə̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̃&inany=false&coreinv=on	ə̃
-long nasalized unrounded mid central vowel	ə̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̃ː&inany=false&coreinv=on	ə̃ː
-from unrounded mid central to rounded close back diphthong	əu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əu&inany=false&coreinv=on	əu
-from unrounded mid central to unrounded close front diphthong	əi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əi&inany=false&coreinv=on	əi
-from unrounded mid central to rounded close-mid back diphthong	əo	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əo&inany=false&coreinv=on	əo
-from unrounded mid central to unrounded close-mid front diphthong	əe	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əe&inany=false&coreinv=on	əe
+long central advanced rounded close central vowel	ʉ̟ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʉ̟ː&inany=false&coreinv=on	ʉ̟ː
+front advanced unrounded close front vowel	i̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̟&inany=false&coreinv=on	i̟
+back rounded close back vowel	u	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u&inany=false&coreinv=on	u
+long back rounded close back vowel	uː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uː&inany=false&coreinv=on	uː
+long back rounded close back vowel	uː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uː&inany=false&coreinv=on	uː
+pharyngealized back rounded close back vowel	uˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uˤ&inany=false&coreinv=on	uˤ
+ultra-long back rounded close back vowel	uːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uːː&inany=false&coreinv=on	uːː
+back breathy rounded close back vowel	ṳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṳ&inany=false&coreinv=on	ṳ
+back breathy rounded close back vowel	ṳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṳ&inany=false&coreinv=on	ṳ
+back devoiced rounded close back vowel	u̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̥&inany=false&coreinv=on	u̥
+back creaky rounded close back vowel	ṵ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ṵ&inany=false&coreinv=on	ṵ
+back nasalized rounded close back vowel	ũ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ũ&inany=false&coreinv=on	ũ
+long back nasalized rounded close back vowel	ũː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ũː&inany=false&coreinv=on	ũː
+lowered back rounded close back vowel	u̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̞&inany=false&coreinv=on	u̞
+from back rounded close back to front unrounded close front diphthong	ui	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ui&inany=false&coreinv=on	ui
+back unrounded close back vowel	ɯ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯ&inany=false&coreinv=on	ɯ
+long back unrounded close back vowel	ɯː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯː&inany=false&coreinv=on	ɯː
+long back unrounded close back vowel	ɯː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯː&inany=false&coreinv=on	ɯː
+back nasalized unrounded close back vowel	ɯ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯ̃&inany=false&coreinv=on	ɯ̃
+central rounded close central vowel	ʉ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʉ&inany=false&coreinv=on	ʉ
+central unrounded close central vowel	ɨ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ&inany=false&coreinv=on	ɨ
+long central unrounded close central vowel	ɨː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨː&inany=false&coreinv=on	ɨː
+long central unrounded close central vowel	ɨː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨː&inany=false&coreinv=on	ɨː
+rhotacized central unrounded close central vowel	ɨ˞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ˞&inany=false&coreinv=on	ɨ˞
+central nasalized unrounded close central vowel	ɨ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃&inany=false&coreinv=on	ɨ̃
+central nasalized unrounded close central vowel	ɨ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃&inany=false&coreinv=on	ɨ̃
+long central nasalized unrounded close central vowel	ɨ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̃ː&inany=false&coreinv=on	ɨ̃ː
+front rounded close front vowel	y	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=y&inany=false&coreinv=on	y
+long front rounded close front vowel	yː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=yː&inany=false&coreinv=on	yː
+front nasalized rounded close front vowel	ỹ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ỹ&inany=false&coreinv=on	ỹ
+from front rounded close front to front unrounded close front diphthong	yi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=yi&inany=false&coreinv=on	yi
+front unrounded close front vowel	i	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i&inany=false&coreinv=on	i
+long front unrounded close front vowel	iː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iː&inany=false&coreinv=on	iː
+long front unrounded close front vowel	iː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iː&inany=false&coreinv=on	iː
+pharyngealized front unrounded close front vowel	iˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iˤ&inany=false&coreinv=on	iˤ
+ultra-long front unrounded close front vowel	iːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iːː&inany=false&coreinv=on	iːː
+front breathy unrounded close front vowel	i̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤&inany=false&coreinv=on	i̤
+front breathy unrounded close front vowel	i̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤&inany=false&coreinv=on	i̤
+long front breathy unrounded close front vowel	i̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤ː&inany=false&coreinv=on	i̤ː
+front devoiced unrounded close front vowel	i̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̥&inany=false&coreinv=on	i̥
+front devoiced unrounded close front vowel	i̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̥&inany=false&coreinv=on	i̥
+front creaky unrounded close front vowel	ḭ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḭ&inany=false&coreinv=on	ḭ
+long front creaky unrounded close front vowel	ḭː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḭː&inany=false&coreinv=on	ḭː
+front nasalized unrounded close front vowel	ĩ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ĩ&inany=false&coreinv=on	ĩ
+long front nasalized unrounded close front vowel	ĩː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ĩː&inany=false&coreinv=on	ĩː
+lowered front unrounded close front vowel	i̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̞&inany=false&coreinv=on	i̞
+from non-syllabic back rounded close back to back rounded close-mid back diphthong	u̯o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̯o&inany=false&coreinv=on	u̯o
+from non-syllabic front unrounded close front to front unrounded close-mid front diphthong	i̯e	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̯e&inany=false&coreinv=on	i̯e
+from non-syllabic front unrounded close front to back rounded close-mid back diphthong	i̯o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̯o&inany=false&coreinv=on	i̯o
+from back rounded close back to back rounded close-mid back diphthong	uo	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uo&inany=false&coreinv=on	uo
+from front unrounded close front to front unrounded close-mid front diphthong	ie	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ie&inany=false&coreinv=on	ie
+from front breathy unrounded close front to front breathy unrounded close-mid front diphthong	i̤e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̤e̤&inany=false&coreinv=on	i̤e̤
+from back rounded close back to front unrounded open front diphthong	ua	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ua&inany=false&coreinv=on	ua
+from front unrounded close front to front unrounded open front diphthong	ia	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ia&inany=false&coreinv=on	ia
+from back rounded close back to back rounded open-mid back diphthong	uɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uɔ&inany=false&coreinv=on	uɔ
+from front unrounded close front to front unrounded open-mid front diphthong	iɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iɛ&inany=false&coreinv=on	iɛ
+from back rounded close back to central unrounded mid central diphthong	uə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=uə&inany=false&coreinv=on	uə
+from back unrounded close back to central unrounded mid central diphthong	ɯə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɯə&inany=false&coreinv=on	ɯə
+from front unrounded close front to central unrounded mid central diphthong	iə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=iə&inany=false&coreinv=on	iə
+central unrounded nearly-open central vowel	ɐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɐ&inany=false&coreinv=on	ɐ
+long central unrounded nearly-open central vowel	ɐː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɐː&inany=false&coreinv=on	ɐː
+front unrounded nearly-open front vowel	æ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æ&inany=false&coreinv=on	æ
+long front unrounded nearly-open front vowel	æː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æː&inany=false&coreinv=on	æː
+long front unrounded nearly-open front vowel	æː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æː&inany=false&coreinv=on	æː
+front nasalized unrounded nearly-open front vowel	æ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æ̃&inany=false&coreinv=on	æ̃
+back rounded close-mid back vowel	o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o&inany=false&coreinv=on	o
+long back rounded close-mid back vowel	oː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oː&inany=false&coreinv=on	oː
+long back rounded close-mid back vowel	oː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oː&inany=false&coreinv=on	oː
+pharyngealized back rounded close-mid back vowel	oˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oˤ&inany=false&coreinv=on	oˤ
+ultra-long back rounded close-mid back vowel	oːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oːː&inany=false&coreinv=on	oːː
+back breathy rounded close-mid back vowel	o̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤&inany=false&coreinv=on	o̤
+back breathy rounded close-mid back vowel	o̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤&inany=false&coreinv=on	o̤
+long back breathy rounded close-mid back vowel	o̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤ː&inany=false&coreinv=on	o̤ː
+pharyngealized back breathy rounded close-mid back vowel	o̤ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̤ˤ&inany=false&coreinv=on	o̤ˤ
+back devoiced rounded close-mid back vowel	o̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̥&inany=false&coreinv=on	o̥
+ultra-short back rounded close-mid back vowel	ŏ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ŏ&inany=false&coreinv=on	ŏ
+back nasalized rounded close-mid back vowel	õ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õ&inany=false&coreinv=on	õ
+back nasalized rounded close-mid back vowel	õ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õ&inany=false&coreinv=on	õ
+long back nasalized rounded close-mid back vowel	õː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=õː&inany=false&coreinv=on	õː
+back rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
+back unrounded close-mid back vowel	ɤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤ&inany=false&coreinv=on	ɤ
+long back unrounded close-mid back vowel	ɤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤː&inany=false&coreinv=on	ɤː
+long back unrounded close-mid back vowel	ɤː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɤː&inany=false&coreinv=on	ɤː
+central rounded close-mid central vowel	ɵ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɵ&inany=false&coreinv=on	ɵ
+front rounded close-mid front vowel	ø	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ø&inany=false&coreinv=on	ø
+long front rounded close-mid front vowel	øː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=øː&inany=false&coreinv=on	øː
+ultra-short front rounded close-mid front vowel	ø̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ø̆&inany=false&coreinv=on	ø̆
+front unrounded close-mid front vowel	e	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e&inany=false&coreinv=on	e
+front unrounded close-mid front vowel	e	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e&inany=false&coreinv=on	e
+long front unrounded close-mid front vowel	eː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eː&inany=false&coreinv=on	eː
+long front unrounded close-mid front vowel	eː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eː&inany=false&coreinv=on	eː
+pharyngealized front unrounded close-mid front vowel	eˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eˤ&inany=false&coreinv=on	eˤ
+ultra-long front unrounded close-mid front vowel	eːː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eːː&inany=false&coreinv=on	eːː
+front breathy unrounded close-mid front vowel	e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤&inany=false&coreinv=on	e̤
+front breathy unrounded close-mid front vowel	e̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤&inany=false&coreinv=on	e̤
+long front breathy unrounded close-mid front vowel	e̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̤ː&inany=false&coreinv=on	e̤ː
+front devoiced unrounded close-mid front vowel	e̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̥&inany=false&coreinv=on	e̥
+front nasalized unrounded close-mid front vowel	ẽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ẽ&inany=false&coreinv=on	ẽ
+long front nasalized unrounded close-mid front vowel	ẽː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ẽː&inany=false&coreinv=on	ẽː
+front unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
+from non-syllabic back rounded close-mid back to back rounded close back diphthong	o̯u	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯u&inany=false&coreinv=on	o̯u
+from non-syllabic front unrounded close-mid front to back rounded close-mid back diphthong	e̯o	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯o&inany=false&coreinv=on	e̯o
+from non-syllabic back rounded close-mid back to front unrounded open front diphthong	o̯a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̯a&inany=false&coreinv=on	o̯a
+from non-syllabic front unrounded close-mid front to front unrounded open front diphthong	e̯a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̯a&inany=false&coreinv=on	e̯a
+from back rounded close-mid back to back rounded close back diphthong	ou	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ou&inany=false&coreinv=on	ou
+from back rounded close-mid back to front unrounded close front diphthong	oi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oi&inany=false&coreinv=on	oi
+from front unrounded close-mid front to front unrounded close front diphthong	ei	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ei&inany=false&coreinv=on	ei
+from front unrounded close-mid front to back rounded close back diphthong	eu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eu&inany=false&coreinv=on	eu
+from back rounded close-mid back to near-back rounded near-close near-back diphthong	oʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oʊ&inany=false&coreinv=on	oʊ
+from front unrounded close-mid front to near-front unrounded near-close near-front diphthong	eɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eɪ&inany=false&coreinv=on	eɪ
+from back rounded close-mid back to central unrounded mid central diphthong	oə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=oə&inany=false&coreinv=on	oə
+from front rounded close-mid front to central unrounded mid central diphthong	øə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=øə&inany=false&coreinv=on	øə
+from front unrounded close-mid front to central unrounded mid central diphthong	eə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=eə&inany=false&coreinv=on	eə
+back rounded open back vowel	ɒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɒ&inany=false&coreinv=on	ɒ
+long back rounded open back vowel	ɒː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɒː&inany=false&coreinv=on	ɒː
+back unrounded open back vowel	ɑ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑ&inany=false&coreinv=on	ɑ
+long back unrounded open back vowel	ɑː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑː&inany=false&coreinv=on	ɑː
+long back unrounded open back vowel	ɑː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑː&inany=false&coreinv=on	ɑː
+back nasalized unrounded open back vowel	ɑ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɑ̃&inany=false&coreinv=on	ɑ̃
+front unrounded open front vowel	a	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a&inany=false&coreinv=on	a
+long front unrounded open front vowel	aː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aː&inany=false&coreinv=on	aː
+long front unrounded open front vowel	aː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aː&inany=false&coreinv=on	aː
+pharyngealized front unrounded open front vowel	aˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aˤ&inany=false&coreinv=on	aˤ
+retracted front unrounded open front vowel	a̠	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̠&inany=false&coreinv=on	a̠
+front breathy unrounded open front vowel	a̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̤&inany=false&coreinv=on	a̤
+pharyngealized front breathy unrounded open front vowel	a̤ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̤ˤ&inany=false&coreinv=on	a̤ˤ
+front devoiced unrounded open front vowel	ḁ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ḁ&inany=false&coreinv=on	ḁ
+front creaky unrounded open front vowel	a̰	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̰&inany=false&coreinv=on	a̰
+long front creaky unrounded open front vowel	a̰ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̰ː&inany=false&coreinv=on	a̰ː
+ultra-short front unrounded open front vowel	ă	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ă&inany=false&coreinv=on	ă
+front nasalized unrounded open front vowel	ã	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ã&inany=false&coreinv=on	ã
+front nasalized unrounded open front vowel	ã	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ã&inany=false&coreinv=on	ã
+long front nasalized unrounded open front vowel	ãː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ãː&inany=false&coreinv=on	ãː
+from front unrounded open front to back rounded close back diphthong	au	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=au&inany=false&coreinv=on	au
+from front unrounded open front to front unrounded close front diphthong	ai	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ai&inany=false&coreinv=on	ai
+from front unrounded open front to central rounded close central diphthong	aʉ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aʉ&inany=false&coreinv=on	aʉ
+from front unrounded open front to non-syllabic front unrounded close front diphthong	ai̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ai̯&inany=false&coreinv=on	ai̯
+from front unrounded open front to back rounded close-mid back diphthong	ao	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ao&inany=false&coreinv=on	ao
+from front unrounded open front to near-back rounded near-close near-back diphthong	aʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aʊ&inany=false&coreinv=on	aʊ
+from front unrounded open front to near-front unrounded near-close near-front diphthong	aɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=aɪ&inany=false&coreinv=on	aɪ
+near-back rounded near-close near-back vowel	ʊ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ&inany=false&coreinv=on	ʊ
+long near-back rounded near-close near-back vowel	ʊː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊː&inany=false&coreinv=on	ʊː
+long near-back rounded near-close near-back vowel	ʊː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊː&inany=false&coreinv=on	ʊː
+advanced-tongue-root near-back rounded near-close near-back vowel	ʊ̘	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̘&inany=false&coreinv=on	ʊ̘
+near-back devoiced rounded near-close near-back vowel	ʊ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̥&inany=false&coreinv=on	ʊ̥
+near-back nasalized rounded near-close near-back vowel	ʊ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̃&inany=false&coreinv=on	ʊ̃
+long near-back nasalized rounded near-close near-back vowel	ʊ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊ̃ː&inany=false&coreinv=on	ʊ̃ː
+lowered central unrounded close central vowel	ɨ̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɨ̞&inany=false&coreinv=on	ɨ̞
+near-front rounded near-close near-front vowel	ʏ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʏ&inany=false&coreinv=on	ʏ
+near-front unrounded near-close near-front vowel	ɪ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ&inany=false&coreinv=on	ɪ
+long near-front unrounded near-close near-front vowel	ɪː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪː&inany=false&coreinv=on	ɪː
+long near-front unrounded near-close near-front vowel	ɪː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪː&inany=false&coreinv=on	ɪː
+advanced-tongue-root near-front unrounded near-close near-front vowel	ɪ̘	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̘&inany=false&coreinv=on	ɪ̘
+near-front devoiced unrounded near-close near-front vowel	ɪ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̥&inany=false&coreinv=on	ɪ̥
+near-front devoiced unrounded near-close near-front vowel	ɪ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̥&inany=false&coreinv=on	ɪ̥
+near-front nasalized unrounded near-close near-front vowel	ɪ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̃&inany=false&coreinv=on	ɪ̃
+long near-front nasalized unrounded near-close near-front vowel	ɪ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪ̃ː&inany=false&coreinv=on	ɪ̃ː
+from near-back rounded near-close near-back to non-syllabic near-front rounded near-close near-front diphthong	ʊʏ̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊʏ̯&inany=false&coreinv=on	ʊʏ̯
+from near-back rounded near-close near-back to back rounded open-mid back diphthong	ʊɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʊɔ&inany=false&coreinv=on	ʊɔ
+from near-front unrounded near-close near-front to front unrounded open-mid front diphthong	ɪɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɪɛ&inany=false&coreinv=on	ɪɛ
+back rounded open-mid back vowel	ɔ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ&inany=false&coreinv=on	ɔ
+long back rounded open-mid back vowel	ɔː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔː&inany=false&coreinv=on	ɔː
+long back rounded open-mid back vowel	ɔː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔː&inany=false&coreinv=on	ɔː
+advanced-tongue-root back rounded open-mid back vowel	ɔ̘	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̘&inany=false&coreinv=on	ɔ̘
+back devoiced rounded open-mid back vowel	ɔ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̥&inany=false&coreinv=on	ɔ̥
+back nasalized rounded open-mid back vowel	ɔ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̃&inany=false&coreinv=on	ɔ̃
+long back nasalized rounded open-mid back vowel	ɔ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̃ː&inany=false&coreinv=on	ɔ̃ː
+back unrounded open-mid back vowel	ʌ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ&inany=false&coreinv=on	ʌ
+long back unrounded open-mid back vowel	ʌː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌː&inany=false&coreinv=on	ʌː
+back breathy unrounded open-mid back vowel	ʌ̤	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̤&inany=false&coreinv=on	ʌ̤
+long back breathy unrounded open-mid back vowel	ʌ̤ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̤ː&inany=false&coreinv=on	ʌ̤ː
+ultra-short back unrounded open-mid back vowel	ʌ̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̆&inany=false&coreinv=on	ʌ̆
+back nasalized unrounded open-mid back vowel	ʌ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̃&inany=false&coreinv=on	ʌ̃
+long back nasalized unrounded open-mid back vowel	ʌ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̃ː&inany=false&coreinv=on	ʌ̃ː
+central unrounded open-mid central vowel	ɜ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɜ&inany=false&coreinv=on	ɜ
+long central unrounded open-mid central vowel	ɜː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɜː&inany=false&coreinv=on	ɜː
+front rounded open-mid front vowel	œ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œ&inany=false&coreinv=on	œ
+long front rounded open-mid front vowel	œː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œː&inany=false&coreinv=on	œː
+front nasalized rounded open-mid front vowel	œ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œ̃&inany=false&coreinv=on	œ̃
+front unrounded open-mid front vowel	ɛ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ&inany=false&coreinv=on	ɛ
+long front unrounded open-mid front vowel	ɛː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛː&inany=false&coreinv=on	ɛː
+long front unrounded open-mid front vowel	ɛː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛː&inany=false&coreinv=on	ɛː
+advanced-tongue-root front unrounded open-mid front vowel	ɛ̘	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̘&inany=false&coreinv=on	ɛ̘
+front devoiced unrounded open-mid front vowel	ɛ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̥&inany=false&coreinv=on	ɛ̥
+front nasalized unrounded open-mid front vowel	ɛ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̃&inany=false&coreinv=on	ɛ̃
+long front nasalized unrounded open-mid front vowel	ɛ̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̃ː&inany=false&coreinv=on	ɛ̃ː
+from back rounded open-mid back to front unrounded close front diphthong	ɔi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔi&inany=false&coreinv=on	ɔi
+from front rounded open-mid front to back rounded close back diphthong	œu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œu&inany=false&coreinv=on	œu
+from front rounded open-mid front to front unrounded close front diphthong	œi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=œi&inany=false&coreinv=on	œi
+from back rounded open-mid back to non-syllabic front unrounded close front diphthong	ɔi̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔi̯&inany=false&coreinv=on	ɔi̯
+from front unrounded open-mid front to non-syllabic front unrounded close front diphthong	ɛi̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛi̯&inany=false&coreinv=on	ɛi̯
+lowered back rounded close back vowel	u̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̞&inany=false&coreinv=on	u̞
+lowered back rounded close back vowel	u̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̞&inany=false&coreinv=on	u̞
+lowered back rounded close back vowel	u̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̞&inany=false&coreinv=on	u̞
+lowered front unrounded close front vowel	i̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̞&inany=false&coreinv=on	i̞
+lowered front unrounded close front vowel	i̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̞&inany=false&coreinv=on	i̞
+lowered front unrounded close front vowel	i̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̞&inany=false&coreinv=on	i̞
+lowered front unrounded close front vowel	i̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̞&inany=false&coreinv=on	i̞
+lowered front unrounded nearly-open front vowel	æ̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=æ̞&inany=false&coreinv=on	æ̞
+back rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
+back rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
+back rounded mid back vowel	o̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̞&inany=false&coreinv=on	o̞
+front unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
+front unrounded mid front vowel	e̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̞&inany=false&coreinv=on	e̞
+lowered front unrounded open front vowel	a̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̞&inany=false&coreinv=on	a̞
+lowered front unrounded open front vowel	a̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̞&inany=false&coreinv=on	a̞
+lowered front unrounded open-mid front vowel	ɛ̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɛ̞&inany=false&coreinv=on	ɛ̞
+long central unrounded mid central vowel	əː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əː&inany=false&coreinv=on	əː
+central advanced unrounded mid central vowel	ə̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̟&inany=false&coreinv=on	ə̟
+central unrounded mid central vowel	ə	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə&inany=false&coreinv=on	ə
+long central unrounded mid central vowel	əː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əː&inany=false&coreinv=on	əː
+pharyngealized central unrounded mid central vowel	əˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əˤ&inany=false&coreinv=on	əˤ
+rhotacized central unrounded mid central vowel	ə˞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə˞&inany=false&coreinv=on	ə˞
+ultra-short central unrounded mid central vowel	ə̆	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̆&inany=false&coreinv=on	ə̆
+central nasalized unrounded mid central vowel	ə̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̃&inany=false&coreinv=on	ə̃
+long central nasalized unrounded mid central vowel	ə̃ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̃ː&inany=false&coreinv=on	ə̃ː
+from non-syllabic central unrounded mid central to front unrounded close front diphthong	ə̯i	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̯i&inany=false&coreinv=on	ə̯i
+from central unrounded mid central to back rounded close back diphthong	əu	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əu&inany=false&coreinv=on	əu
+from central unrounded mid central to front unrounded close front diphthong	əi	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əi&inany=false&coreinv=on	əi
+from central unrounded mid central to back rounded close-mid back diphthong	əo	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əo&inany=false&coreinv=on	əo
+from central unrounded mid central to front unrounded close-mid front diphthong	əe	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=əe&inany=false&coreinv=on	əe
+raised back rounded close back vowel	u̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̝&inany=false&coreinv=on	u̝
+long raised back rounded close back vowel	u̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u̝ː&inany=false&coreinv=on	u̝ː
+raised front unrounded close front vowel	i̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̝&inany=false&coreinv=on	i̝
+long raised front unrounded close front vowel	i̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i̝ː&inany=false&coreinv=on	i̝ː
+raised back rounded close-mid back vowel	o̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̝&inany=false&coreinv=on	o̝
+long raised back rounded close-mid back vowel	o̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o̝ː&inany=false&coreinv=on	o̝ː
+raised front unrounded close-mid front vowel	e̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̝&inany=false&coreinv=on	e̝
+long raised front unrounded close-mid front vowel	e̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e̝ː&inany=false&coreinv=on	e̝ː
+raised front unrounded open front vowel	a̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̝&inany=false&coreinv=on	a̝
+raised front unrounded open front vowel	a̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̝&inany=false&coreinv=on	a̝
+long raised front unrounded open front vowel	a̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=a̝ː&inany=false&coreinv=on	a̝ː
+raised back rounded open-mid back vowel	ɔ̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̝&inany=false&coreinv=on	ɔ̝
+long raised back rounded open-mid back vowel	ɔ̝ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɔ̝ː&inany=false&coreinv=on	ɔ̝ː
+raised back unrounded open-mid back vowel	ʌ̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʌ̝&inany=false&coreinv=on	ʌ̝
+raised central unrounded mid central vowel	ə̝	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ə̝&inany=false&coreinv=on	ə̝
 voiced epiglottal fricative consonant	ʢ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʢ&inany=false&coreinv=on	ʢ
 voiced labio-dental nasal consonant	ɱ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɱ&inany=false&coreinv=on	ɱ
 voiced bilabial trill consonant	ʙ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʙ&inany=false&coreinv=on	ʙ
 voiceless epiglottal fricative consonant	ʜ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʜ&inany=false&coreinv=on	ʜ
 voiceless epiglottal stop consonant	ʡ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʡ&inany=false&coreinv=on	ʡ
 voiced velar lateral approximant consonant	ʟ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʟ&inany=false&coreinv=on	ʟ
-unrounded close-mid central vowel	ɘ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɘ&inany=false&coreinv=on	ɘ
-rounded open-mid central vowel	ɞ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʚ&inany=false&coreinv=on	ʚ
-rounded open front vowel	ɶ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɶ&inany=false&coreinv=on	ɶ
+central unrounded close-mid central vowel	ɘ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɘ&inany=false&coreinv=on	ɘ
+central rounded open-mid central vowel	ɞ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ʚ&inany=false&coreinv=on	ʚ
+front rounded open front vowel	ɶ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɶ&inany=false&coreinv=on	ɶ

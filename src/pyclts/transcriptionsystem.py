@@ -62,11 +62,11 @@ class TranscriptionSystem(object):
         self.diacritics = dict(
             consonant={}, vowel={}, click={}, diphthong={}, tone={}, cluster={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
-            if not dia['alias']:
+            if not dia['alias'] and not dia['typography']:
                 self._features[dia['type']][dia['value']] = dia['grapheme']
             # assign feature values to the dictionary
             self._feature_values[dia['value']] = dia['feature']
-            self.diacritics[dia['type']][dia['grapheme']] = {dia['feature']: dia['value']}
+            #self.diacritics[dia['type']][dia['grapheme']] = {dia['feature']: dia['value']}
             self.diacritics[dia['type']][dia['grapheme']] = dia['value']
 
         self.sound_classes = {}

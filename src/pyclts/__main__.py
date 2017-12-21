@@ -142,11 +142,11 @@ def loadmeta(args):
                 url = line[4]
                 sound = bipa[glyph]
                 if sound.type != 'unknownsound' and not (sound.generated and
-                        sound.s != glyph):
-                    out += [[sound.name, str(sound), url, glyph]]
+                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                    out += [[sound.name, sound.s, url, glyph]]
                 else:
                     if sound.type == 'unknownsound':
-                        pass #print(sound)
+                        print(sound)
                     else:
                         if not sound.type in ['cluster', 'diphthong']:
                             tbl = sound.table
