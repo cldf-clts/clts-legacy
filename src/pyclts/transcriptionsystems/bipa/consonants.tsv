@@ -478,13 +478,13 @@ fʷː	voiceless	labio-dental	fricative	+	labialization:labialized,duration:long
 bʷː	voiced	bilabial	stop	+	labialization:labialized,duration:long	
 mʷː	voiced	bilabial	nasal	+	labialization:labialized,duration:long	
 rˤː	voiced	alveolar	trill	+	pharyngealization:pharyngealized,duration:long	
-mˤː	voiced	bilabial	nasal	+	pharyngealization:pharyngealized,duration:long
+mˤː	voiced	bilabial	nasal	+	pharyngealization:pharyngealized,duration:long	
 bːˤ	voiced	bilabial	stop		pharyngealization:pharyngealized,duration:long	
 fːʷ	voiceless	labio-dental	fricative		labialization:labialized,duration:long	
 bːʷ	voiced	bilabial	stop		labialization:labialized,duration:long	
 mːʷ	voiced	bilabial	nasal		labialization:labialized,duration:long	
 rːˤ	voiced	alveolar	trill		pharyngealization:pharyngealized,duration:long	
-mːˤ	voiced	bilabial	nasal		pharyngealization:pharyngealized,duration:long
+mːˤ	voiced	bilabial	nasal		pharyngealization:pharyngealized,duration:long	
 ɭ̩	voiced	retroflex	approximant		syllabicity:syllabic,laterality:lateral	
 l̪̩	voiced	dental	approximant		syllabicity:syllabic,laterality:lateral	
 ð͉	voiced	dental	fricative	+	release:unreleased	
