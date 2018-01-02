@@ -33,8 +33,8 @@ long front unrounded close front vowel	iː	D7A90868F42885077FD3F44A8440B3BB	iː
 voiced labio-dental fricative consonant	v	033ACAA664F151FC56BC9595526BCFA4	v
 long front unrounded open front vowel	aː	2F272C9C5FA2DA70706B565B2DC46DE8	aː
 long back rounded close back vowel	uː	3A9677F59A8D4980D4DEADD51C55FF1C	uː
-short mid-high tone	⁴	0524CD95243C622D69973D187BC3F06F	˦
-short mid-low tone	²	1C26A4A7D5F0697C7EA34BA73FC2F46E	˨
+short from-mid-high tone	⁴	0524CD95243C622D69973D187BC3F06F	˦
+short from-mid-low tone	²	1C26A4A7D5F0697C7EA34BA73FC2F46E	˨
 voiceless dental stop consonant	t̪	2DA484FF3408444AF11E01960C9C893A	t̪
 voiceless alveolar sibilant affricate consonant	ts	106C7FE93D986D037407524D08F3599A	ts
 central unrounded mid central vowel	ə	D9B28B2D674EBA4B03C38B36D77E563E	ə
@@ -61,7 +61,7 @@ voiced velar fricative consonant	ɣ	1832D7834F81DD97E33C58D9F70EC5C6	ɣ
 voiced bilabial implosive consonant	ɓ	CFA86CE56605194A2F338BA3E3974EA3	ɓ
 from voiced bilabial nasal to voiced bilabial stop cluster	mb	8DEC1745406483DE6A8030A28A69B646	mb
 front nasalized unrounded close-mid front vowel	ẽ	1507B68E1E3108371C1F882C40902AA5	ẽ
-short mid tone	³	71337C9E4205D44145532EBCA5DA4EEA	˧
+short from-mid tone	³	71337C9E4205D44145532EBCA5DA4EEA	˧
 voiced palatal stop consonant	ɟ	320B62404207303F61B0F772296C9545	ɟ
 from voiced velar nasal to voiced velar stop cluster	ŋg	95A609A900A52E93F9252FD72E8D136F	ŋɡ
 from voiced alveolar nasal to voiced alveolar stop cluster	nd	6910328C2AAA6011720FA21FFE1665D8	nd
@@ -130,7 +130,7 @@ long central unrounded close central vowel	ɨː	EA4BE781596BA71D03B0E14F300A1669
 labialized voiceless velar fricative consonant	xʷ	CC1E157E56BC1B4B281FF3ACD292F7DF	xʷ
 voiced dental trill consonant	r̪	C425D93352850DE1476444DA0C387C7F	r̪
 back nasalized rounded mid back vowel	õ̞	38C66BF218C24DA30D3C74A7BEC9BD2B	õ̞
-short high tone	⁵	D3A6D5034FDDD41CEFDAD55B7780D218	˥
+short from-high tone	⁵	D3A6D5034FDDD41CEFDAD55B7780D218	˥
 long voiceless velar stop consonant	kː	35B6E18B055F7621FA32D24600C7EDC6	kː
 labialized voiceless glottal fricative consonant	hʷ	4E454EFC24409956D610FB858C201318	hʷ
 voiceless uvular ejective stop consonant	qʼ	F004A6DF8DC34AB3759000D0EEA099AC	qʼ
@@ -147,7 +147,7 @@ voiceless retroflex sibilant affricate consonant	ʈʂ	0C125CB557D530881A8F1E46A3
 voiceless dental ejective stop consonant	t̪ʼ	D3867260AB7CFE5A579FD7E8ACD31024	t̪ʼ
 labialized voiced bilabial stop consonant	bʷ	2060144B3E5025B6C6FAAEBAF9EC4038	bʷ
 breathy voiced bilabial stop consonant	bʱ	584E53EB5DC897FE333F996BB3854365	b̤
-short low tone	¹	A923E0D43B03C879903B9B6602035AD0	˩
+short from-low tone	¹	A923E0D43B03C879903B9B6602035AD0	˩
 aspirated voiceless palatal stop consonant	cʰ	2653DF7B6901A0BABDDFBC146CF52EDE	cʰ
 front rounded close-mid front vowel	ø	5D97E1AF6BCE612603ABA26C7DDB941F	ø
 long voiced bilabial stop consonant	bː	97DED3C2CA0EB378AC531C0752A6906F	bː
@@ -223,7 +223,7 @@ rising from-mid-low to-mid tone	²³	0F2A0269330AAB53C42B7A0A79D63619	˨˧
 long front nasalized unrounded open-mid front vowel	ɛ̃ː	C8E200405D83F3D806F98BC041341BA0	ɛ̃ː
 creaky voiced palatal approximant consonant	j̰	0002A9D045F6F82C34C822EB423E0C40	j̰
 creaky voiced labialized-velar approximant consonant	w̰	CF906E247F184A2FB8CF5B070B6017F2	w̰
-voiceless labialized-velar fricative consonant	ʍ	B2DBBC1A3DE3F1B6731AEEF21C338B9B	ʍ
+voiceless labialized-velar approximant consonant	ʍ	B2DBBC1A3DE3F1B6731AEEF21C338B9B	ʍ
 long voiceless labio-dental fricative consonant	fː	1AEE2DB972C8FD9AFB48C4C1B451C729	fː
 long back nasalized rounded open-mid back vowel	ɔ̃ː	A8502B647A72314DC6621C4135B5EE3E	ɔ̃ː
 long back unrounded close back vowel	ɯː	ABCFAED5F3E3B8EC06B68A672DE107FB	ɯː
@@ -415,7 +415,7 @@ voiceless dental lateral affricate consonant	tɬ̪	6DF329C1B14D4A19C48A031F6A079
 from voiced velar nasal to labialized voiceless velar stop cluster	ŋkʷ	9CE598EF12A905D7C9D4C2DFF1DF5850	ŋkʷ
 from central unrounded mid central to front unrounded close front diphthong	əi	20FC839FE1D89514B132E8CEFDE8C8E8	əi
 voiceless dental ejective sibilant fricative consonant	s̪ʼ	10C8D317F363F73D4CA0D66FDC45ED1C	s̪ʼ
-nasalized voiced alveolar click consonant	ŋǃ	35CC3DCE04D851609CCD72B04506DCA6	ŋǃ
+voiced alveolar nasal-click consonant	ŋǃ	35CC3DCE04D851609CCD72B04506DCA6	ŋǃ
 from voiced velar nasal to palatalized voiced velar stop cluster	ŋgʲ	9380EE7CAFA7E9C0649492960A59AF34	ŋɡʲ
 glottalized voiceless velar stop consonant	kˀ	9897B73F24B6B30A709AF93CE2A80BF8	kˀ
 glottalized voiceless alveolar sibilant fricative consonant	sˀ	DD5AC972AA6EBDDB1B890BCF3B8C3454	sˀ
@@ -497,7 +497,7 @@ voiced laminal alveolar lateral approximant consonant	l̻	3A2EBE8650EB43A5A6D7C0
 from voiced retroflex nasal to voiced retroflex stop cluster	ɳɖ	AA89054E01BE981D8BBE7074765BA301	ɳɖ
 from voiceless alveolar stop to voiceless velar fricative cluster	tx	C51681FC5DA2E54A2C3967AFB5AB804A	tx
 voiceless dental ejective affricate consonant	t̪θ’	D1454D456E0C9686D077A4F36DAF781E	t̪θʼ
-voiceless dental affricate consonant	t̪θ	7A0ED7FE7FB48CEC13BE1C677E37C1D1	t̪θ
+voiceless dental affricate consonant	tθ	7A0ED7FE7FB48CEC13BE1C677E37C1D1	t̪θ
 voiceless velar affricate consonant	kx	E1F8DD5414F4043E63E615EB170BA295	kx
 nasalized voiceless glottal fricative consonant	h̃	06EB82C91B0AA0D03E61911B66696245	h̃
 pre-aspirated voiceless alveolar stop consonant	ʰt	7037C2C03FEF7F234269EC33D2741B4A	ʰt
@@ -530,8 +530,8 @@ long back breathy rounded close-mid back vowel	o̤ː	FFA2D63FC14357632A2F058E187
 aspirated voiced retroflex stop consonant	ɖʰ	A86FE9374CDF8B0B4762996156F388C2	ɖʰ
 raised front unrounded close-mid front vowel	e̝	6CDC690924FF3FB9EBEA1A4BF0122C67	e̝
 long front breathy unrounded close-mid front vowel	e̤ː	9A3509C1FE89F812DE3D85AC8A5478D3	e̤ː
-nasalized voiced lateral click consonant	ŋǁ	709DCF8413120688AD151FECAABC2BEA	ŋǁ
-nasalized voiced dental click consonant	ŋǀ	2E8863075FAFE62BAE2BC8573FC083A3	ŋǀ
+voiced lateral nasal-click consonant	ŋǁ	709DCF8413120688AD151FECAABC2BEA	ŋǁ
+voiced dental nasal-click consonant	ŋǀ	2E8863075FAFE62BAE2BC8573FC083A3	ŋǀ
 mid-long front unrounded close-mid front vowel	eˑ	EF73174DEB1FB7C52AC28939E2274A7A	eˑ
 long central rounded mid central vowel	ɵ̞ː	64E52F5C42AF45C07E1349BEB181A104	ɵ̞ː
 voiced laminal alveolar stop consonant	d̻	7E92332057C9E596A64F461CBA82AF22	d̻
@@ -542,7 +542,6 @@ pre-glottalized voiced palatal nasal consonant	ˀɲ	73B8552DE20BB0548BB9808E8E18
 central unrounded near-close central vowel	ɪ̈	285A8D9A3CA9805FE744FA8CD275ADE9	ɪ̈
 rhotacized central unrounded mid central vowel	ə˞	B45FBB0E1BAFBE920638833D8E40B1C9	ə˞
 voiced uvular nasal consonant	ɴ	C39DA742ED3DD44A5EFDBCC9003F49B6	ɴ
-aspirated voiceless dental affricate consonant	t̪θʰ	290775FE995F61D2C7436F992EDBB34F	t̪θʰ
 pharyngealized voiceless glottal stop consonant	ʔˤ	C1B250A950943FAD18E03833CFC1EF4E	ʔˤ
 voiceless velar ejective fricative consonant	xʼ	9BB5908C6A4AB20FD978A2C6FC4ED2C4	xʼ
 long back nasalized unrounded close back vowel	ɯ̃ː	522AB5875421DEAAD8D1B4D16D5DD114	ɯ̃ː
@@ -686,6 +685,7 @@ from voiceless alveolar stop to voiceless palatal sibilant fricative cluster	tc�
 voiceless apical alveolar stop consonant	t̺	3D547FBDD249CB4EAAC805F63665EB99	t̺
 from voiced velar stop to palatalized voiced bilabial stop cluster	gbʲ	2FF8EE33168D280915E978629A7459FF	ɡbʲ
 labio-palatalized voiced velar stop consonant	gᶣ	27C48407819BE7F32C39F7842DE3D9F1	ɡᶣ
+voiceless velar ejective affricate consonant	kx’	141CE038E609CE179887C726278DB89D	kxʼ
 long central rounded close-mid central vowel	ɵː	88077D69EC74F838E3E0CB894B5E7E70	ɵː
 long voiceless palatal ejective stop consonant	cʼː	A7310B431BDE12C74FC24239370566A4	cʼː
 from voiced alveolar nasal to voiced dental implosive cluster	nɗ	7A6F97AA01C20AF5873075E4ED092D20	nɗ
@@ -810,7 +810,7 @@ from voiced palatal click to voiceless velar fricative cluster	gǂx	C1B71BB77BDA
 voiced post-alveolar ejective sibilant affricate consonant	d̠ʒ’	76A42A7D8ECAE0C5DE8758BA41B44979	d̠ʒʼ
 from back rounded mid back to front unrounded open front diphthong	o̞a	126730F41EF6E33E5D0B89EB1DDBF3F3	o̞a
 from front nasalized unrounded mid front to front nasalized unrounded close front diphthong	ẽ̞ĩ	747334F4B085342EA9A6808056D77071	ẽ̞ĩ
-nasalized voiced palatal click consonant	ŋǂ	8ABCB5099830FA5A580082211BD5223D	ŋǂ
+voiced palatal nasal-click consonant	ŋǂ	8ABCB5099830FA5A580082211BD5223D	ŋǂ
 labialized voiced dental nasal consonant	n̪ʷ	1F3361C4B1EC671ED36DF38DC1DBFFE5	n̪ʷ
 from central unrounded close central to central unrounded mid central diphthong	ɨə	EC47C132DB13B9D93D5E41D2AA89BFD9	ɨə
 labialized glottalized voiceless velar stop consonant	kʷˀ	2CF6738206C42B58A2491E90E03456FF	kʷˀ
@@ -1077,6 +1077,7 @@ labialized long voiceless dental lateral fricative consonant	ɬ̪ʷː	6341BDA905
 pharyngealized voiceless uvular ejective affricate consonant	qχ’ˤ	E76D030C41219EF10F344F17DD6365D7	qχˤʼ
 labialized aspirated voiceless dental stop consonant	t̪ʷʰ	1174FC18E4C47D25CC01E2CA5642C6A0	t̪ʷʰ
 labialized pharyngealized voiceless uvular affricate consonant	qχʷˤ	9CC02BEE8E95AE4063D10D48C0F6695A	qχʷˤ
+long voiceless velar ejective affricate consonant	kx’ː	D63BDDD32106D86DEF285271FD0C818B	kxʼː
 long voiceless uvular affricate consonant	qχː	987387A0E2149102F98C41296BCB7B6A	qχː
 long voiceless dental ejective lateral affricate consonant	tɬ̪ʼː	2E970C040C76A56FCBF069E21B09437C	t̪ɬ̪ʼː
 long voiceless dental lateral affricate consonant	tɬ̪ː	B7DE8E1C9D16E3CEA3C4A8F6DACF1895	t̪ɬ̪ː
@@ -1459,9 +1460,9 @@ nasalized voiced velar approximant consonant	ɰ̃	A290FFF6D30F621CA8D785A003AFBB
 long back nasalized unrounded close-mid back vowel	ɤ̃ː	D63E2B7DC85B9CA193B32D7719103076	ɤ̃ː
 from voiceless bilabial stop to aspirated voiceless alveolar sibilant fricative cluster	psʰ	1C7D3DA060A804A9B4D87C2F452BC01F	psʰ
 from voiced alveolar nasal to voiceless alveolar ejective stop cluster	ntʼ	04249E545B8016C089D14558FEC1E792	ntʼ
-nasalized voiced alveolar ejective click consonant	ŋǃ’	D4CCE22F91DB45890B74E5156808A62D	ŋǃʼ
+voiced alveolar ejective nasal-click consonant	ŋǃ’	D4CCE22F91DB45890B74E5156808A62D	ŋǃʼ
 from voiced bilabial nasal to voiceless bilabial ejective stop cluster	mpʼ	9903722ABAD183C698FF083E567A7855	mpʼ
-nasalized voiced lateral ejective click consonant	ŋǁ’	D4C2FC9154C8E61DC216E622220ADD96	ŋǁʼ
+voiced lateral ejective nasal-click consonant	ŋǁ’	D4C2FC9154C8E61DC216E622220ADD96	ŋǁʼ
 from voiced bilabial nasal to voiceless labio-dental ejective affricate cluster	mpfʼ	1CA416178B6BFDAB90518CB53E9812D2	mpfʼ
 from voiced palatal nasal to voiceless palatal ejective stop cluster	ɲcʼ	E79AD25CAE74F203E8974F29F9137523	ɲcʼ
 from voiced velar nasal to voiceless velar ejective stop cluster	ŋkʼ	E35E253476AD8FF59AE378C9E876C364	ŋkʼ
@@ -1477,20 +1478,32 @@ long voiced alveolar ejective trill consonant	r’ː	806EDC0DF58FB0780DF95F99C4A
 long voiced alveolar ejective lateral approximant consonant	l’ː	24388E43E433683C7F4FE7E62CCD87FA	lʼː
 voiced alveolar ejective trill consonant	r’	6D0450D21BAA2EC3C7176BB735E02E52	rʼ
 from voiced velar stop to voiced bilabial implosive cluster	gɓ	37CC8E68177330DBFFBBF77F2341F464	ɡɓ
+from voiced alveolar ejective stop to voiceless velar ejective affricate cluster	d’kx’	7967AAF3C06AF44484976E5ECB1FA8BE	dʼkxʼ
+from voiced dental ejective stop to voiceless velar ejective affricate cluster	d̪’kx’	19CC4F65DDD532237A3237C1A8DB060F	d̪ʼkxʼ
 pharyngealized front unrounded close-mid front vowel	eˤ	F3405DCEE0352C5535F776631F76369E	eˤ
 aspirated voiced uvular stop consonant	ɢʰ	11F834EBA5F17C03DF6F360BA08678B6	ɢʰ
 from voiced palatal click to aspirated voiceless uvular stop cluster	gǂqʰ	867C7953EC1F41DEE71F0BC2A3047F49	ɡǂqʰ
-nasalized voiced labial click consonant	ŋʘ	D9495231BE4C8F383909D8BD4A247DA0	ŋʘ
+voiced labial nasal-click consonant	ŋʘ	D9495231BE4C8F383909D8BD4A247DA0	ŋʘ
+from voiced dental click to voiceless velar ejective affricate cluster	gǀkx’	AE80ACC5BCDC4E401C05E4D58BAEFAA0	ɡǀkxʼ
+from voiced alveolar click to voiceless velar ejective affricate cluster	gǃkx’	966ABDD5AA8A986C0EDAE894A7632B62	ɡǃkxʼ
 from voiced labial click to aspirated voiceless uvular stop cluster	gʘqʰ	D7CBF17D3DF21B4045955654AE489C9E	ɡʘqʰ
 from voiced dental click to aspirated voiceless uvular stop cluster	gǀqʰ	6CDDB6314DE500CBF16EF16AF2DE430E	ɡǀqʰ
+from voiced palatal click to voiceless velar ejective affricate cluster	gǂkx’	8F6FA92151F56A0FEC9C229F4EE3C729	ɡǂkxʼ
+from voiceless bilabial ejective stop to voiceless velar ejective affricate cluster	pʼkx’	1CEAF06F721DE06EF61A80DA5F1C0E73	pʼkxʼ
 from voiced dental stop to voiceless velar fricative cluster	d̪x	C725352B7367F7286C55D845DCD10CA1	d̪x
+from voiceless alveolar ejective stop to voiceless velar ejective affricate cluster	tʼkx’	25FE0344E362D19B05832975F4905BF4	tʼkxʼ
 from voiced alveolar click to aspirated voiceless uvular stop cluster	gǃqʰ	354A25006F3286D702C98219F2019384	ɡǃqʰ
+from voiced labial click to voiceless velar ejective affricate cluster	gʘkx’	9FB9B04D22D13C66FF528BD450D320EB	ɡʘkxʼ
+from voiced lateral click to voiceless velar ejective affricate cluster	gǁkx’	F20B38FB733DE8A2684FDEBA2F66980D	ɡǁkxʼ
+from voiceless dental ejective stop to voiceless velar ejective affricate cluster	t̪ʼkx’	AFC473D1E60A87B5C7C5F2AD28E1D551	t̪ʼkxʼ
 from voiced lateral click to aspirated voiceless uvular stop cluster	gǁqʰ	381265FF05F38B21C1179AB7AB933C45	ɡǁqʰ
 voiceless labial ejective click consonant	kʘ’	0BE56512CDC5133CCA36FDCAD67202C6	kʘʼ
 voiceless palatal ejective click consonant	kǂ’	78FF70B570134C274B58DA11237A3EE2	kǂʼ
 from voiced labial click to voiceless velar fricative cluster	gʘx	2274D32EDAF53F7F8879D563DC28219B	ɡʘx
 voiced labial click consonant	gʘ	9F406E212B7031317689515200E17141	ɡʘ
 from voiceless dental stop to voiceless velar fricative cluster	t̪x	3355684AFAA36C6D1A5B16A156C60AE7	t̪x
+from voiced velar ejective stop to voiceless velar ejective affricate cluster	g’kx’	5D256687CEFAEB4FE04B2C22F4C610C8	ɡʼkxʼ
+aspirated voiced retroflex nasal-click consonant	ŋǃǃʰ	8C9DC768856B806C6BBBF55F236D7FA7	ŋǃǃʰ
 voiceless retroflex ejective click consonant	kǃǃ’	3F4FBAADFD46AE1A612DCADAE67A82E1	kǃǃʼ
 voiceless retroflex click consonant	ǃǃ	6E03DDBA62C8FC28874E2320C4446C0C	kǃǃ
 from voiced dental click to voiceless velar ejective fricative cluster	gǀxʼ	498BDF29B9EDCC2D100943F0A2C2AD2B	ɡǀxʼ
@@ -1500,8 +1513,10 @@ pharyngealized back nasalized rounded close-mid back vowel	õˤ	B06ED8180D02933
 aspirated voiced alveolar click consonant	gǃʰ	1F143B69FD19493FA78F59AAA4263525	ɡǃʰ
 from voiced alveolar click to voiceless velar ejective fricative cluster	gǃxʼ	1863D9C321E797CCB5DABF69983C7C75	ɡǃxʼ
 from voiced retroflex click to voiceless velar ejective fricative cluster	gǃǃxʼ	8FA1B63A9EE55A2E3D08AAAC60C56807	ɡǃǃxʼ
+aspirated voiced dental nasal-click consonant	ŋǀʰ	28AF93BD95D0E92D38797B27E8254142	ŋǀʰ
 aspirated voiceless dental ejective click consonant	kǀ’ʰ	ABB0EC09B0E9293F73364C4A7C1C5997	kǀʰʼ
 aspirated voiceless alveolar ejective stop consonant	tʼʰ	303EC9AAB9D32C451540C6BB51A53AF9	tʰʼ
+aspirated voiced alveolar nasal-click consonant	ŋǃʰ	53597114D131AE82FB0C6473DC73E6A2	ŋǃʰ
 aspirated voiceless retroflex ejective click consonant	kǃǃ’ʰ	3CD53C8161BAA6F48153CDDEB7F22E66	kǃǃʰʼ
 aspirated voiced dental click consonant	gǀʰ	03CA08D7BCF43FDE896389FC20694F52	ɡǀʰ
 voiced retroflex click consonant	gǃǃ	DB6605EA4E285BED19BDF628D637CF0D	ɡǃǃ
@@ -1509,7 +1524,7 @@ pharyngealized back nasalized rounded close back vowel	ũˤ	B5F29BAC11D7FFFFEBC
 from voiced retroflex click to voiceless velar fricative cluster	gǃǃx	DC19549AF347420D5D28980EEAB1F65B	ɡǃǃx
 aspirated voiceless alveolar ejective click consonant	kǃ’ʰ	22C2D045B233EC9998EE7A8092D75671	kǃʰʼ
 from voiced lateral click to voiceless velar ejective fricative cluster	gǁxʼ	576002A02119FDFAE27C1DF7E9BABA7D	ɡǁxʼ
-nasalized voiced retroflex click consonant	ŋǃǃ	F2459F9B44279D630A4AABDFBD2BA1BA	ŋǃǃ
+voiced retroflex nasal-click consonant	ŋǃǃ	F2459F9B44279D630A4AABDFBD2BA1BA	ŋǃǃ
 voiceless bilabial affricate consonant	pɸ	38BAEE2253F376B5956EC9FE52C26507	pɸ
 aspirated voiced velar nasal consonant	ŋʰ	8BCC1E315A842A1DF3745488F066C7C7	ŋʰ
 from voiced alveolar nasal to voiceless dental fricative cluster	nθ	4061B7BA1015C28DFE16C384688DAD7E	nθ
