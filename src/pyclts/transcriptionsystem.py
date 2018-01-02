@@ -6,8 +6,10 @@ Transcription System module for consistent IPA handling.
 """
 from __future__ import unicode_literals
 import re
+import codecs
 
 from csvw import TableGroup
+import json
 import attr
 from six import string_types, text_type
 
@@ -34,8 +36,7 @@ def translate(string, source_system, target_system):
 
 class TranscriptionSystem(object):
     """
-    A transcription system
-:/sou    """
+    A transcription System."""
     def __init__(self, system='bipa'):
         """
         :param system: The name of a transcription system or a directory containing one.
@@ -54,10 +55,14 @@ class TranscriptionSystem(object):
                 pkg_path('transcriptionsystems', 'transcription-system-metadata.json'))
             self.system._fname = system.joinpath('metadata.json')
 
-        self._features = {'consonant': {}, 'vowel': {}}
+        self._features = {'consonant': {}, 'vowel': {}, 'tone': {}}
         # dictionary for feature values, checks when writing elements from
         # write_order to make sure no output is doubled
         self._feature_values = {}
+
+        # load the general features
+        features = json.load(codecs.open(pkg_path(
+            'transcriptionsystems', 'features.json').as_posix(), 'r', 'utf-8'))
 
         self.diacritics = dict(
             consonant={}, vowel={}, click={}, diphthong={}, tone={}, cluster={})
@@ -94,6 +99,11 @@ class TranscriptionSystem(object):
                 for key, value in item.items():
                     if key not in {'grapheme', 'note', 'alias'} and value and value not in self._feature_values:
                         self._feature_values[value] = key
+                        if type_ != 'marker' and value not in features[type_][key]:
+                            raise ValueError(
+                                    "Your data contains unrecognized features ({0}: {1}, line {2}))".format(
+                                        key, value, l+2))
+
                 self._sounds[item['grapheme']] = sound
                 if not sound.alias:
                     if sound.featureset in self._features:

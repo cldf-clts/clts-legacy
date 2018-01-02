@@ -53,9 +53,9 @@ iː	unrounded	close	front		duration:long
 ı	unrounded	near-close	near-front			
 ıı	unrounded	near-close	near-front	+	duration:long	
 ıː	unrounded	near-close	near-front		duration:long	
-ʏ	rounded	near-close-mid	front			
-ʏʏ	rounded	near-close-mid	front	+	duration:long	
-ʏː	rounded	near-close-mid	front		duration:long	
+ʏ	rounded	near-close	front			
+ʏʏ	rounded	near-close	front	+	duration:long	
+ʏː	rounded	near-close	front		duration:long	
 ü	rounded	close	front			
 üü	rounded	close	front	+	duration:long	
 üː	rounded	close	front		duration:long	
