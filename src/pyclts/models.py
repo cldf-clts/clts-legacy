@@ -161,7 +161,8 @@ class Sound(Symbol):
         features = [
             f for f in self._name_order if f not in self.ts._columns[self.type]]
         # make sure to mark generated sounds
-        if self.generated and self.__unicode__() != self.source:
+        if self.generated and self.s != self.source:
+
             tbl += [self.__unicode__() + ' | ' + self.source]
         else:
             tbl += [self.__unicode__()]
@@ -221,20 +222,23 @@ class Consonant(Sound):
     creakiness = attr.ib(default=None)
     sibilancy = attr.ib(default=None)
     laterality = attr.ib(default=None)
+    laminality = attr.ib(default=None)
+    articulation = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=['creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
-            'nasalization', 'duration', 'palatalization', 'labialization',
+        post=['laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
+            'articulation',
+            'nasalization',  'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
-            'pharyngealization', 'release'])
-    _name_order = ['preceding', 'syllabicity', 'nasalization', 'palatalization',
+            'pharyngealization', 'release', 'duration'])
+    _name_order = ['articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
-        'breathiness', 'phonation', 'place', 'ejection', 'laterality',
+        'breathiness', 'phonation', 'laminality', 'place', 'ejection', 'laterality',
         'sibilancy', 'manner']
 
 
@@ -302,15 +306,24 @@ class Vowel(Sound):
     velarization = attr.ib(default=None)
     tone = attr.ib(default=None)
     retraction = attr.ib(default=None)
+    raising = attr.ib(default=None)
+    centrality = attr.ib(default=None)
+    rounding = attr.ib(default=None)
+    advancement = attr.ib(default=None)
+    tongue_root = attr.ib(default=None)
+    articulation = attr.ib(default=None) # compare https://en.wikipedia.org/wiki/Faucalized_voice
 
     _write_order = dict(
         pre=[],
-        post=['voicing', 'breathiness', 'creakiness', 'retraction',
-            'rhotacization', 'syllabicity', 'nasalization', 'tone',
+        post=['tongue_root', 'raising', 'centrality', 'rounding', 'advancement',
+            'voicing', 'breathiness', 'creakiness', 'retraction',
+           'syllabicity', 'nasalization', 'tone',  'articulation', 'rhotacization', 
             'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
     _name_order = ['duration', 'rhotacization', 'pharyngealization',
             'glottalization', 'velarization', 'syllabicity', 'retraction',
+            'tongue_root', 'raising', 'centrality', 'rounding', 'advancement',
+            'articulation',
             'nasalization', 'voicing', 'creakiness', 'breathiness',
             'roundedness', 'height', 'frication', 'centrality', 'tone']
 

@@ -28,17 +28,17 @@ Another example is to parse a sound that is not yet in our database. We will try
 ```python
 >>> sound = bipa['dʷʱ']
 >>> sound.name
-'labialized breathy-voiced alveolar affricate consonant'
+'labialized breathy voiced alveolar stop consonant'
 >>> sound.generated
 True
 >>> sound.alias
 True
 >>> print(sound)
-d̤ʷ
+dʷʱ
 >>> print(sound.uname)
-LATIN SMALL LETTER D / COMBINING DIAERESIS BELOW / MODIFIER LETTER SMALL W
-print(sound.codepoints)
-U+0064 U+0324 U+02b7
+LATIN SMALL LETTER D / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL H WITH HOOK
+>>> print(sound.codepoints)
+U+0064 U+02b7 U+02b1
 ```
 
 You can see, since we represent breathy-voice phonation differently, we flag this sound as an alias. Also since it is not yet in our database explicitly coded, we flag it as a "generated" sound. In a similar way, you can generate sounds from their names:

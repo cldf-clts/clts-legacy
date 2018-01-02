@@ -24,11 +24,11 @@ GRAPHEME	CONTOUR	START	MIDDLE	END	ALIAS	NOTE
 ⁵³	falling	from-high		to-mid		
 ⁵⁴	falling	from-high		to-mid-high		
 ⁵⁵	flat	from-high		to-high		
-¹	short	low				
-²	short	mid-low				
-³	short	mid				
-⁴	short	mid-high				
-⁵	short	high				
+¹	short	from-low				
+²	short	from-mid-low				
+³	short	from-mid				
+⁴	short	from-mid-high				
+⁵	short	from-high				
 ¹¹²	rising	from-low	via-low	to-mid-low		
 ¹¹³	rising	from-low	via-low	to-mid		
 ¹¹⁴	rising	from-low	via-low	to-mid-high		

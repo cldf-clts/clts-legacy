@@ -126,6 +126,10 @@ def test_ts():
     except ValueError:
         assert True
     try:
+        TranscriptionSystem('_f3')
+    except ValueError:
+        assert True
+    try:
         bads = TranscriptionSystem('what')
     except ValueError:
         assert True
