@@ -1,0 +1,136 @@
+CLTS_NAME	BIPA_GRAPHEME	RUHLEN_ID	RUHLEN_GRAPHEME
+aspirated voiceless alveolar click consonant	ǃʰ	1	!ʰ
+voiceless lateral click consonant	ǁ	2	ǁ
+glottalized voiceless lateral click consonant	ǁˀ	3	ǁˀ
+aspirated voiceless lateral click consonant	ǁʰ	4	ǁʰ
+breathy voiceless lateral click consonant	ǁʱ	5	ǁʱ
+glottalized aspirated voiceless lateral click consonant	ǁʰˀ	6	ǁˀʰ
+with-lateral-release voiced alveolar stop consonant	dˡ	11	dˡ
+voiced alveolar sibilant affricate consonant	dz	18	dᶻ
+voiced alveolar click consonant	gǃ	27	ɡ!
+glottalized aspirated voiced alveolar click consonant	gǃʰˀ	29	ɡ!ˀʰ
+glottalized aspirated voiced lateral click consonant	gǁʰˀ	35	ɡǁˀʰ
+glottalized voiceless alveolar lateral fricative consonant	ɬˀ	41	ɬˀ
+aspirated voiceless alveolar lateral fricative consonant	ɬʰ	44	ɬʰ
+pre-nasalized voiced alveolar stop consonant	ⁿd	57	ⁿd
+pre-nasalized palatalized voiced alveolar stop consonant	ⁿdʲ	58	ⁿdʲ
+pre-nasalized with-lateral-release voiced alveolar stop consonant	ⁿdˡ	59	ⁿdˡ
+breathy voiced alveolar nasal consonant	nʱ	61	nʱ
+pre-nasalized devoiced voiced alveolar tap consonant	ⁿɾ	62	ⁿɾ
+pre-nasalized voiceless alveolar sibilant fricative consonant	ⁿs	63	ⁿs
+pre-nasalized voiceless alveolar stop consonant	ⁿt	64	ⁿt
+pre-nasalized aspirated voiceless alveolar stop consonant	ⁿtʰ	65	ⁿtʰ
+pre-nasalized glottalized with-lateral-release voiceless alveolar stop consonant	ⁿtˀˡ	66	ⁿtˡˀ
+pre-nasalized voiced alveolar sibilant fricative consonant	ⁿz	69	ⁿz
+devoiced voiced alveolar approximant consonant	ɹ̥	76	ɹ̥
+pre-glottalized devoiced voiced alveolar tap consonant	ˀɾ	77	ˀɾ
+long with-lateral-release voiceless alveolar stop consonant	tˡː	82	tːˡ
+glottalized long with-lateral-release voiceless alveolar stop consonant	tˀˡː	83	tːˡˀ
+with-lateral-release voiceless alveolar stop consonant	tˡ	84	tˡ
+glottalized with-lateral-release voiceless alveolar stop consonant	tˀˡ	85	tˡˀ
+with-lateral-release devoiced voiceless alveolar stop consonant	t̥ˡ	86	tˡ̥
+aspirated with-lateral-release voiceless alveolar stop consonant	tʰˡ	87	tˡʰ
+aspirated with-lateral-release devoiced voiceless alveolar stop consonant	t̥ʰˡ	88	tˡ̥ʰ
+voiceless alveolar sibilant affricate consonant	ts	91	tˢ
+pre-glottalized voiced alveolar sibilant fricative consonant	ˀz	100	ˀz
+breathy voiced alveolar sibilant fricative consonant	zʱ	101	zʱ
+from voiceless alveolar stop to voiceless palatal sibilant fricative cluster	tç	102	tç
+from voiceless alveolar stop to aspirated voiceless palatal sibilant fricative cluster	tçʰ	103	tçʰ
+from voiced velar stop to voiced alveolar stop cluster	gd	104	ɡd
+from voiceless velar stop to voiceless alveolar stop cluster	kt	105	kt
+pre-glottalized with-lateral-release voiced bilabial stop consonant	ˀbˡ	108	ˀbˡ
+voiced bilabial affricate consonant	bβ	113	bᵝ
+breathy voiced bilabial nasal consonant	mʱ	122	mʱ
+with-lateral-release voiced bilabial nasal consonant	mˡ	123	mˡ
+with-lateral-release devoiced voiced bilabial nasal consonant	m̥ˡ	124	m̥ˡ
+glottalized voiceless bilabial fricative consonant	ɸˀ	133	ɸˀ
+aspirated with-lateral-release voiceless bilabial stop consonant	pʰˡ	134	pˡʰ
+voiceless bilabial affricate consonant	pɸ	135	pᶲ
+voiceless labial click consonant	ʘ	137	ʘ
+glottalized voiceless labial click consonant	ʘˀ	138	ʘˀ
+aspirated voiceless labial click consonant	ʘʰ	139	ʘʰ
+breathy voiceless labial click consonant	ʘʱ	140	ʘʱ
+from voiced bilabial stop to voiced alveolar stop cluster	bd	145	bd
+from voiced bilabial stop to voiced dental implosive cluster	bɗ	146	bɗ
+from voiced bilabial stop to voiced alveolar lateral fricative cluster	bɮ	148	bɮ
+with-lateral-release voiceless bilabial stop consonant	pˡ	153	pˡ
+from voiceless alveolar stop to voiceless bilabial stop cluster	tp	158	tp
+voiceless labio-dental affricate consonant	pf	162	pᶠ
+voiced dental affricate consonant	dð	178	dᶞ
+voiced alveolar nasal consonant	n	187	ɡ/n
+pre-glottalized voiced dental nasal consonant	ˀn̪	191	ˀn̪
+voiced alveolar nasal consonant	n	199	n/n
+pre-nasalized voiced dental stop consonant	ⁿd̪	201	ⁿd̪
+pre-glottalized voiceless dental sibilant fricative consonant	ˀs̪	210	ˀs̪
+glottalized long voiceless dental sibilant fricative consonant	s̪ˀː	211	s̪ːˀ
+pre-glottalized aspirated voiceless dental stop consonant	ˀt̪ʰ	213	ˀt̪ʰ
+voiceless dental affricate consonant	tθ	214	tᶿ
+palatalized voiced dental sibilant fricative consonant	z̪ʲ	217	z̪ʲ
+pre-glottalized voiceless glottal fricative consonant	ˀh	219	ˀh
+aspirated voiceless glottal stop consonant	ʔʰ	223	ʔʰ
+pre-glottalized voiced dental fricative consonant	ˀð	224	ˀð
+glottalized voiceless labio-dental fricative consonant	fˀ	225	fˀ
+voiceless palatal click consonant	ǂ	234	ǂ
+glottalized voiceless palatal click consonant	ǂˀ	235	ǂˀ
+glottalized voiceless palatal click consonant	ǂˀ	236	ǂˀ
+aspirated voiceless palatal click consonant	ǂʰ	237	ǂʰ
+breathy voiceless palatal click consonant	ǂʱ	238	ǂʱ
+glottalized aspirated voiceless palatal click consonant	ǂʰˀ	239	ǂˀʰ
+glottalized voiceless palatal stop consonant	cˀ	246	cˀ
+devoiced voiceless palatal stop consonant	c̥	249	c̥
+long voiceless palatal sibilant fricative consonant	çː	252	çː
+long voiceless palatal stop consonant	cː	254	cːː
+voiceless palatal ejective affricate consonant	cç’	256	cçʼ
+long voiceless palatal affricate consonant	cçː	257	cçː
+palatalized voiceless palatal sibilant fricative consonant	çʲ	259	çʲ
+palatalized long voiceless palatal stop consonant	cʲː	260	cʲː
+palatalized labialized voiceless palatal stop consonant	cʲʷ	261	cʲʷ
+glottalized aspirated voiced palatal click consonant	gǂʰˀ	266	ɡǂˀʰ
+voiceless alveolar click consonant	ǃ	290	!
+glottalized voiceless alveolar click consonant	ǃˀ	291	!ˀ
+breathy voiceless alveolar click consonant	ǃʱ	292	!ʱ
+glottalized aspirated voiceless alveolar click consonant	ǃʰˀ	293	!ˀʰ
+glottalized voiced pharyngeal fricative consonant	ʕˀ	352	ʕˀ
+labialized glottalized voiced pharyngeal fricative consonant	ʕʷˀ	353	ʕˀʷ
+syllabic voiced alveolar lateral approximant consonant	l̩	363	ḷ
+syllabic voiced alveolar nasal consonant	n̩	367	ṇ
+labialized aspirated voiceless uvular stop consonant	qʷʰ	398	qʰʷ
+labialized glottalized voiceless uvular stop consonant	qʷˀ	399	qˀʷ
+voiceless uvular affricate consonant	qχ	400	qᵡ
+glottalized voiced uvular fricative consonant	ʁˀ	406	ʁˀ
+pre-glottalized voiced uvular fricative consonant	ˀʁ	407	ˀʁ
+pre-glottalized labialized voiced uvular fricative consonant	ˀʁʷ	408	ˀʁʷ
+glottalized voiced velar stop consonant	gˀ	411	ɡˀ
+pre-glottalized voiced velar fricative consonant	ˀɣ	412	ˀɣ
+labialized long voiced velar stop consonant	gʷː	415	ɡːʷ
+palatalized glottalized voiceless velar stop consonant	kʲˀ	420	kˀʲ
+with-lateral-release voiceless velar stop consonant	kˡ	421	kˡ
+glottalized with-lateral-release voiceless velar stop consonant	kˀˡ	422	kˡˀ
+labialized glottalized voiceless velar stop consonant	kʷˀ	424	kˀʷ
+voiceless velar affricate consonant	kx	425	kˣ
+glottalized voiced velar nasal consonant	ŋˀ	429	ŋˀ
+pre-glottalized labialized voiced velar nasal consonant	ˀŋʷ	437	ˀŋʷ
+glottalized voiceless velar fricative consonant	xˀ	438	xˀ
+aspirated voiceless velar fricative consonant	xʰ	439	xʰ
+labialized glottalized voiceless velar fricative consonant	xʷˀ	440	xˀʷ
+non-syllabic back unrounded open back vowel	ɑ̯	441	ɑ̯
+back rounded close with-frication back vowel	ʮ	444	ʮ
+central rounded close with-frication central vowel	ʯ	445	ʯ
+glottalized back rounded close with-frication back vowel	ʮˀ	446	ʮˀ
+glottalized central rounded close with-frication central vowel	ʯˀ	447	ʯˀ
+long back rounded close with-frication back vowel	ʮː	448	ʮː
+retracted front unrounded close front vowel	i̠	454	i̱
+central breathy unrounded close central vowel	ɨ̤	455	ɨ̤
+non-syllabic central unrounded close central vowel	ɨ̯	456	ɨ̯
+back unrounded close back with_rising_tone vowel	ɯ̌	457	ɯ̌
+non-syllabic back unrounded close back vowel	ɯ̯	458	ɯ̯
+retracted back rounded close back vowel	u̠	462	u̱
+voiced labio-dental tap consonant	ⱱ	463	v̆
+glottalized voiced labio-dental fricative consonant	vˀ	466	vˀ
+devoiced voiced labio-dental fricative consonant	v̥	467	v̥
+creaky voiced labio-dental fricative consonant	v̰	468	v̰
+pre-glottalized voiced labio-dental fricative consonant	ˀv	471	ˀv
+long creaky voiced labio-dental fricative consonant	v̰ː	479	vː̰
+long creaky voiced labio-dental fricative consonant	v̰ː	481	v̰ː
+central rounded close with-frication central vowel	ʯ	493	ʯ
+back rounded close with-frication back vowel	ʮ	494	ʮ
