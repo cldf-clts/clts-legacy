@@ -4,6 +4,7 @@ v̆	voiced	labio-dental	tap	+
 dɮ	voiced	alveolar	affricate		laterality:lateral	
 ʣ	voiced	alveolar	affricate	+	sibilancy:sibilant	
 dz	voiced	alveolar	affricate		sibilancy:sibilant	
+dᶻ	voiced	alveolar	affricate	+	sibilancy:sibilant		
 dzː	voiced	alveolar	affricate		duration:long,sibilancy:sibilant	
 dːz	voiced	alveolar	affricate	+	duration:long,sibilancy:sibilant	
 ƛ	voiceless	alveolar	affricate	+	laterality:lateral	
@@ -21,25 +22,31 @@ tsʼ	voiceless	alveolar	affricate		ejection:ejective,sibilancy:sibilant
 tsʲ	voiceless	alveolar	affricate		palatalization:palatalized,sibilancy:sibilant	
 ʥ	voiced	alveolo-palatal	affricate	+	sibilancy:sibilant	
 dʑ	voiced	alveolo-palatal	affricate		sibilancy:sibilant	
+dᶽ	voiced	alveolo-palatal	affricate	+	sibilancy:sibilant	
 dːʑ	voiced	alveolo-palatal	affricate	+	duration:long,sibilancy:sibilant	
 dʑː	voiced	alveolo-palatal	affricate		duration:long,sibilancy:sibilant	
 ʨ	voiceless	alveolo-palatal	affricate	+	sibilancy:sibilant	
 tɕ	voiceless	alveolo-palatal	affricate		sibilancy:sibilant	
+tᶝ	voiceless	alveolo-palatal	affricate	+	sibilancy:sibilant	
 tɕʰ	voiceless	alveolo-palatal	affricate		aspiration:aspirated.sibilancy:sibilant	
 tːɕ	voiceless	alveolo-palatal	affricate	+	duration:long,sibilancy:sibilant	
 tɕː	voiceless	alveolo-palatal	affricate		duration:long,sibilancy:sibilant	
 bβ	voiced	bilabial	affricate			
+bᵝ	voiced	bilabial	affricate	+		
 pɸ	voiceless	bilabial	affricate			
+pᶲ	voiceless	bilabial	affricate	+		
 d̪ð	voiced	dental	affricate	+		
 dð	voiced	dental	affricate			
+dᶞ	voiced	dental	affricate	+		
 d̪ɮ	voiced	dental	affricate		laterality:lateral	Put dentality mark on first character for readability.
 dz̪	voiced	dental	affricate		sibilancy:sibilant	
 d̪z̪	voiced	dental	affricate	+	sibilancy:sibilant	
 d̪z̪ː	voiced	dental	affricate	+	duration:long,sibilancy:sibilant	
 dz̪ː	voiced	dental	affricate		duration:long,sibilancy:sibilant	
 d̪ːz̪	voiced	dental	affricate	+	duration:long,sibilancy:sibilant	
-t̪θ	voiceless	dental	affricate			
-tθ	voiceless	dental	affricate	+		
+tθ	voiceless	dental	affricate			
+tᶿ	voiceless	dental	affricate	+		
+t̪θ	voiceless	dental	affricate	+		
 t̪s̪ʰ	voiceless	dental	affricate	+	aspiration:aspirated	
 ts̪ʰ	voiceless	dental	affricate		aspiration:aspirated	
 t̪ɬ̪	voiceless	dental	affricate	+	laterality:lateral	
@@ -61,6 +68,8 @@ ts̪ʲ	voiceless	dental	affricate		palatalization:palatalized,sibilancy:sibilant
 ʔh	voiceless	glottal	affricate			
 bv	voiced	labio-dental	affricate			
 pf	voiceless	labio-dental	affricate			
+bᵛ	voiced	labio-dental	affricate	+		
+pᶠ	voiceless	labio-dental	affricate	+		
 pfʼ	voiceless	labio-dental	affricate		ejection:ejective	
 ɟʝ	voiced	palatal	affricate			
 cç	voiceless	palatal	affricate			
@@ -74,6 +83,7 @@ dːʒ	voiced	post-alveolar	affricate		duration:long,sibilancy:sibilant
 dʒʲ	voiced	post-alveolar	affricate		palatalization:palatalized,sibilancy:sibilant	
 ʧ	voiceless	post-alveolar	affricate	+	sibilancy:sibilant	
 tʃ	voiceless	post-alveolar	affricate		sibilancy:sibilant	
+tᶴ	voiceless	post-alveolar	affricate	+	sibilancy:sibilant	
 tʃʰ	voiceless	post-alveolar	affricate		aspiration:aspirated,sibilancy:sibilant	
 tːʃ	voiceless	post-alveolar	affricate		duration:long,sibilancy:sibilant	
 tʃʼ	voiceless	post-alveolar	affricate		ejection:ejective,sibilancy:sibilant	
@@ -81,17 +91,25 @@ tʃʲ	voiceless	post-alveolar	affricate		palatalization:palatalized,sibilancy:si
 ⁿtʃ	voiceless	post-alveolar	affricate		preceding:pre-nasalized,sibilancy:sibilant	
 dʐ	voiced	retroflex	affricate	+	sibilancy:sibilant	
 ɖʐ	voiced	retroflex	affricate		sibilancy:sibilant	
+dᶼ	voiced	retroflex	affricate	+	sibilancy:sibilant	
+ɖᶼ	voiced	retroflex	affricate	+	sibilancy:sibilant	
 ɖːʐ	voiced	retroflex	affricate	+	duration:long,sibilancy:sibilant	
 ʈːʂ	voiced	retroflex	affricate		duration:long,sibilancy:sibilant	
 tʂ	voiceless	retroflex	affricate	+	sibilancy:sibilant	
 ʈʂ	voiceless	retroflex	affricate		sibilancy:sibilant	
+tᶳ	voiceless	retroflex	affricate	+	sibilancy:sibilant	
+ʈᶳ	voiceless	retroflex	affricate	+	sibilancy:sibilant	
 ʈʂʰ 	voiceless	retroflex	affricate		aspiration:aspirated,sibilancy:sibilant	
 tʂʰ	voiceless	retroflex	affricate	+	aspiration:aspirated,sibilancy:sibilant	We assume that this sound is not possible.
 ɢʁ	voiced	uvular	affricate			
 qχ	voiceless	uvular	affricate			
 gɣ	voiced	velar	affricate			
 kx	voiceless	velar	affricate			
-kʼ	voiceless	velar	affricate		ejection:ejective	
+ɢʶ	voiced	uvular	affricate	+		
+qᵡ	voiceless	uvular	affricate	+		
+gˠ	voiced	velar	affricate	+		
+kˣ	voiceless	velar	affricate	+		
+kʼ	voiceless	velar	affricate		ejection:ejective,laterality:lateral	
 k	voiceless	velar	affricate		laterality:lateral	
 ɹ	voiced	alveolar	approximant			
 ɹ̩	voiced	alveolar	approximant		syllabicity:syllabic	
