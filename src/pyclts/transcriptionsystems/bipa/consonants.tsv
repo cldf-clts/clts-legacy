@@ -132,49 +132,56 @@ j̃	voiced	palatal	approximant		nasalization:nasalized
 gǃ	voiced	alveolar	click			
 ǃ	voiceless	alveolar	click			
 kǃ	voiceless	alveolar	click	+		
-ŋǃ	voiced	alveolar 	click		nasalization:nasalized	
-ŋ̊ǃ	voiced	alveolar 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋǃ	voiced	alveolar 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgǃ	voiced	alveolar 	click		nasalization:nasalized,preceding:postoralized	
+ŋǃ	voiced	alveolar 	nasal-click			
+ŋ̊ǃ	voiced	alveolar 	nasal-click		voicing:devoiced	
+ˀŋǃ	voiced	alveolar 	nasal-click		preceding:pre-glottalized	
+ŋgǃ	voiced	alveolar 	nasal-click	+	preceding:pre-nasalized	
+ⁿgǃ	voiced	alveolar 	nasal-click		preceding:pre-nasalized	
 gǃǃ	voiced	retroflex	click			
 ǃǃ	voiceless	retroflex	click			
 kǃǃ	voiceless	retroflex	click	+		
-ŋǃǃ	voiced	retroflex 	click		nasalization:nasalized	
-ŋ̊ǃǃ	voiced	retroflex 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋǃǃ	voiced	retroflex 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgǃǃ	voiced	retroflex 	click		nasalization:nasalized,preceding:postoralized	
+ŋǃǃ	voiced	retroflex 	nasal-click			
+ŋ̊ǃǃ	voiced	retroflex 	nasal-click		voicing:devoiced	
+ˀŋǃǃ	voiced	retroflex 	nasal-click		preceding:pre-glottalized	
+ŋgǃǃ	voiced	retroflex 	click	+	preceding:pre-nasalized	
+ⁿgǃǃ	voiced	retroflex 	click		preceding:pre-nasalized	
 gǀ	voiced	dental	click			
 ǀ	voiceless	dental	click			
 kǀ	voiceless	dental	click	+		
-ŋǀ	voiced	dental 	click		nasalization:nasalized	
-ŋ̊ǀ	voiced	dental 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋǀ	voiced	dental 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgǀ	voiced	dental 	click		nasalization:nasalized,preceding:postoralized	
+ŋǀ	voiced	dental 	nasal-click			
+ŋ̊ǀ	voiced	dental 	nasal-click		voicing:devoiced	
+ˀŋǀ	voiced	dental 	nasal-click		preceding:pre-glottalized	
+ŋgǀ	voiced	dental 	click	+	preceding:pre-nasalized	
+ⁿgǀ	voiced	dental 	click		preceding:pre-nasalized	
 gʘ	voiced	labial	click			
 ʘ	voiceless	labial	click			
 kʘ	voiceless	labial	click	+		
-ŋʘ	voiced	labial 	click		nasalization:nasalized	
-ŋ̊ʘ	voiced	labial 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋʘ	voiced	labial 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgʘ	voiced	labial 	click		nasalization:nasalized,preceding:postoralized	
+ŋʘ	voiced	labial 	nasal-click			
+ŋ̊ʘ	voiced	labial 	nasal-click		voicing:devoiced	
+ˀŋʘ	voiced	labial 	nasal-click		preceding:pre-glottalized	
+ŋgʘ	voiced	labial 	click	+	preceding:pre-nasalized	
+ⁿgʘ	voiced	labial 	click		preceding:pre-nasalized	
 gǁ	voiced	lateral	click			
 ǁ	voiceless	lateral	click			
 kǁ	voiceless	lateral	click	+		
-ŋǁ	voiced	lateral 	click		nasalization:nasalized	
-ŋ̊ǁ	voiced	lateral 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋǁ	voiced	lateral 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgǁ	voiced	lateral 	click		nasalization:nasalized,preceding:postoralized	
-ŋǀǀ	voiced	lateral 	click	+	nasalization:nasalized	
-ŋ̊ǀǀ	voiced	lateral 	click	+	nasalization:nasalized,voicing:devoiced	
-ˀŋǀǀ	voiced	lateral 	click	+	nasalization:nasalized,preceding:pre-glottalized	
-ŋgǀǀ	voiced	lateral 	click	+	nasalization:nasalized,preceding:postoralized	
+ŋǁ	voiced	lateral 	nasal-click			
+ŋ̊ǁ	voiced	lateral 	nasal-click		voicing:devoiced	
+ˀŋǁ	voiced	lateral 	nasal-click		preceding:pre-glottalized	
+ŋgǁ	voiced	lateral 	click	+	preceding:pre-nasalized	
+ⁿgǁ	voiced	lateral 	click		preceding:pre-nasalized	
+ŋǀǀ	voiced	lateral 	nasal-click	+		
+ŋ̊ǀǀ	voiced	lateral 	nasal-click	+	voicing:devoiced	
+ˀŋǀǀ	voiced	lateral 	nasal-click	+	preceding:pre-glottalized	
+ŋgǀǀ	voiced	lateral 	click	+	preceding:pre-nasalized	
+ⁿgǀǀ	voiced	lateral 	click	+	preceding:pre-nasalized	
 gǂ	voiced	palatal	click			
 ǂ	voiceless	palatal	click			
 kǂ	voiceless	palatal	click	+		
-ŋǂ	voiced	palatal 	click		nasalization:nasalized	
-ŋ̊ǂ	voiced	palatal 	click		nasalization:nasalized,voicing:devoiced	
-ˀŋǂ	voiced	palatal 	click		nasalization:nasalized,preceding:pre-glottalized	
-ŋgǂ	voiced	palatal 	click		nasalization:nasalized,preceding:postoralized	
+ŋǂ	voiced	palatal 	nasal-click			
+ŋ̊ǂ	voiced	palatal 	nasal-click		voicing:devoiced	
+ˀŋǂ	voiced	palatal 	nasal-click		preceding:pre-glottalized	
+ŋgǂ	voiced	palatal 	click	+	preceding:pre-nasalized	
+ⁿgǂ	voiced	palatal 	click		preceding:pre-nasalized	
 ɮ	voiced	alveolar	fricative		laterality:lateral	
 z	voiced	alveolar	fricative		sibilancy:sibilant	
 z̩	voiced	alveolar	fricative		syllabicity:syllabic,sibilancy:sibilant	
