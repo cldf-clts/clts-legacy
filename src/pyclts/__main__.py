@@ -64,65 +64,6 @@ def table(args):
         print(tbl.render(tablefmt=args.format, condensed=False))
 
 
-@command()
-def dump(args):
-    """Command writes data to different files for re-use across web-applications.
-    """
-    tts = clts.CLTS(args.system)
-    phoible_, pbase_, lingpy_ = phoible(), pbase(), lingpy()
-    to_dump, digling = {}, {}
-    for glyph, sound in tts._sounds.items():
-        if sound.type == 'marker':
-            digling[glyph] = ['marker', '', '', '']
-            to_dump[glyph] = {'type': 'marker'}
-        else:
-            if sound.type == 'consonant':
-                digling[glyph] = [
-                    sound.type,
-                    sound.manner,
-                    sound.place,
-                    sound.phonation + ' ' + sound.table[-2]]
-            if sound.type == 'vowel':
-                digling[glyph] = [
-                    sound.type,
-                    sound.height,
-                    sound.centrality,
-                    sound.roundedness + ' ' + sound.table[-2]]
-            if sound.type == 'diphthong':
-                digling[glyph] = [
-                    sound.type,
-                    sound.from_height + ' ' +sound.to_height,
-                    sound.from_centrality + ' ' + sound.to_centrality,
-                    sound.from_roundedness + ' ' + sound.to_roundedness,
-                    ]
-            if sound.type == 'tone':
-                digling[glyph] = [
-                    sound.type,
-                    sound.start,
-                    ' '.join([x for x in [sound.middle or '', sound.end or '']]),
-                    sound.contour]
-            to_dump[glyph] = {k: getattr(sound, k) for k in sound._name_order}
-            to_dump[glyph]['name'] = sound.name
-            to_dump[glyph]['alias'] = sound.alias
-            to_dump[glyph][args.system] = str(sound)
-            to_dump[glyph]['type'] = sound.type
-            if sound.name in phoible_:
-                to_dump[glyph]['phoible'] = phoible_[sound.name]
-            if sound.name in pbase_:
-                to_dump[glyph]['pbase'] = pbase_[sound.name]
-            if sound.name in lingpy_:
-                to_dump[glyph]['color'] = lingpy_[sound.name]['color']
-
-    with open(data_path(args.system+'-dump.json'), 'w') as handler:
-        handler.write(json.dumps(to_dump, indent=1))
-    with open(data_path('digling-dump.json'), 'w') as handler:
-        handler.write(json.dumps(digling, indent=1))
-    with open(data_path('../app/data.js'), 'w') as handler:
-        handler.write('var '+args.system.upper()+' = '+json.dumps(to_dump)+';\n')
-        handler.write('var normalize = '+json.dumps(tts._normalize)+';\n')
-    print('files written to clts/data')
-
-
 def main(args=None):  # pragma: no cover
     parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
