@@ -3,7 +3,7 @@ from __future__ import unicode_literals, print_function, division
 
 from clldutils.dsv import reader
 
-from pyclts.__main__ import sounds, table, loadmeta
+from pyclts.__main__ import sounds, table
 
 
 def _read_tsv(self, path):

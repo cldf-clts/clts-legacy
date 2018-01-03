@@ -172,6 +172,14 @@ class TranscriptionSystem(object):
                     else:
                         return Cluster.from_sounds(s1+s2, s1, s2, self)
                 else:
+                    # try to generate the sounds if they are not there
+                    s1, s2 = self._from_name(from_+' '+extension), self._from_name(
+                            to_+' '+extension)
+                    if not 'unknownsound' in (s1.type, s2.type):
+                        if sound_class == 'diphthong':
+                            return Diphthong.from_sounds(s1+s2, s1, s2, self)
+                        else:
+                            return Cluster.from_sounds(s1+s2, s1, s2, self)
                     raise ValueError('components could not be found in system')
             else:
                 raise ValueError('name string is erroneously encoded')

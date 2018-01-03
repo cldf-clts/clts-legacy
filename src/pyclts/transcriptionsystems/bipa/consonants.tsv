@@ -1,6 +1,11 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 ⱱ	voiced	labio-dental	tap			
 v̆	voiced	labio-dental	tap	+		
+s̻	voiceless	alveolar	fricative		laminality:laminal,sibilancy:sibilant	
+oz̻	voiced	alveolar	fricative		laminality:laminal,sibilancy:sibilant	
+ʈʂ’	voiceless	retroflex	affricate		sibilancy:sibilant,ejection:ejective
+n̻	voiced	alveolar	nasal		laminality:laminal	
+l̻	voiced	alveolar	approximant		laterality:lateral,laminality:laminal
 dɮ	voiced	alveolar	affricate		laterality:lateral	
 ʣ	voiced	alveolar	affricate	+	sibilancy:sibilant	
 dz	voiced	alveolar	affricate		sibilancy:sibilant	

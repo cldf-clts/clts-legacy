@@ -24,7 +24,7 @@ def loadmeta(data):
             len(out)))
 
     if data == 'phoible':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PHOIBLE_ID', 'PHOIBLE_GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'Parameters.csv')) as uni:
             for line in uni:
@@ -46,15 +46,15 @@ def loadmeta(data):
         print('{0:.2f} covered'.format(len(out) / all_lines))
     
     if data == 'ruhlen':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'RUHLEN_ID', 'RUHLEN_GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'FREQUENCY', 'GRAPHEME']]
         all_lines = 0
-        with UnicodeReader(pkg_path('sources', 'Ruhlen_Features_Fonetikode.csv'), delimiter="\t") as uni:
+        with UnicodeReader(pkg_path('sources', 'ruhlen.tsv'), delimiter="\t") as uni:
             for i, line in enumerate(uni):
                 glyph = line[0]
                 sound = bipa[glyph]
                 if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
                         frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
-                    out += [[sound.name, sound.s, str(i), glyph]]
+                    out += [[sound.name, sound.s, line[1], glyph]]
                 else:
                     if sound.type == 'unknownsound':
                         print(sound)
@@ -67,8 +67,8 @@ def loadmeta(data):
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
     if data == 'lapsyd':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'LAPSYD_ID', 'LAPSYD_GRAPHEME', 
-            'LAPSYD_FEATURES']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME', 
+            'FEATURES']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'lapsyd.tsv'), delimiter="\t") as uni:
             for i, line in enumerate(uni):
@@ -89,7 +89,7 @@ def loadmeta(data):
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
     if data == 'eurasian':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'EURASIAN_URL', 'EURASIAN_GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL', 'GRAPHEME']]
         data = json.load(codecs.open(pkg_path('sources',
             'phono_dbase.json').as_posix(), 'r', 'utf-8'))
         url = 'http://eurasianphonology.info/search_exact?dialects=True&query='
@@ -112,11 +112,8 @@ def loadmeta(data):
         write_transcriptiondata(out, 'eurasian.tsv')
         print('{0:.2f} covered'.format(len(out) / len(visited)))
 
-
-
-
     if data == 'pbase':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'PBASE_URL', 'PBASE_GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL', 'GRAPHEME']]
         url = "http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={0}&inany=false&coreinv=on"
         with UnicodeReader(pkg_path('sources', 'IPA1999.tsv'), delimiter="\t") as uni:
             all_lines = 0
@@ -147,7 +144,7 @@ def loadmeta(data):
 
     if data == 'wikipedia':
         import urllib.request, urllib.error, urllib.parse
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'WIKIPEDIA_URL']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL']]
         wiki = 'https://en.wikipedia.org/wiki/'
         for glyph, sound in bipa._sounds.items():
             if not sound.alias and not sound.type in ['marker', 'diphthong']:

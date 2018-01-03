@@ -1,4 +1,4 @@
-CLTS_NAME	BIPA_GRAPHEME	EURASIAN_URL	EURASIAN_GRAPHEME
+CLTS_NAME	BIPA_GRAPHEME	URL	GRAPHEME
 voiceless bilabial stop consonant	p	http://eurasianphonology.info/search_exact?dialects=True&query=p	p
 voiced bilabial stop consonant	b	http://eurasianphonology.info/search_exact?dialects=True&query=b	b
 voiced bilabial nasal consonant	m	http://eurasianphonology.info/search_exact?dialects=True&query=m	m

@@ -2,7 +2,7 @@
 
 from pylexibank.util import data_path
 from pyclts import TranscriptionSystem as TS
-from clldutils.csvw.metadata import TableGroup
+from csvw.metadata import TableGroup
 from collections import defaultdict
 from tabulate import tabulate
 from unicodedata import normalize

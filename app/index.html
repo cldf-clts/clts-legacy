@@ -6,7 +6,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <script src="data.js" type="text/javascript"></script>
   <script src="script.js" type="text/javascript"></script>
-  <link rel="icon" href="favicon.png" type="image/png"> 
+  <link rel="icon" href="clts.png" type="image/png"> 
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" type="text/css" href="site.css" />
 </head>
@@ -22,7 +22,7 @@ td {
     <div class="sticky-nav"  style="background-color: #2d6ca2;">
     <div class="container-nav">
        <div class="nav-container"  style="background-color: #2d6ca2;" >
-         <div class="navbar-brand"> <a href="">  <img style="width:200px" src="ipa-logo.png" alt="CLTS-LOGO"></a> </div>
+         <div class="navbar-brand"> <a href="">  <img style="width:60px" src="clts.png" alt="CLTS-LOGO"></a> </div>
          <div class="navbar-nav nav-mobile">
           
             <a class="nav-item nav-link btn btn-nav" href="">Home</a>
@@ -46,7 +46,7 @@ td {
   <div class="container">
   <h2 class="headline" style="color:black;">Cross-Linguistic Transcription Systems</h1>
   <p>Just paste or type your text in space-separated form in the text-area field below to test it.</p>
-  <p><textarea style="background-color:lightyellow;" onkeyup="document.getElementById('annotation').innerHTML='';convertCLPA(this.value)"
+  <p><textarea style="background-color:#fff6d5;" onkeyup="document.getElementById('annotation').innerHTML='';convertCLPA(this.value)"
 	    id="input" cols="80" rows="8" 
     placeholder="type your phonetic code here, separating sound segments by spaces"></textarea>
   </p>
@@ -134,14 +134,27 @@ function convertCLPA(value) {
 	var pbase_color = 'white';
 	if ('pbase' in tmp) {
 	  for (var k=0,p; p=tmp['pbase'][k]; k++) {
-	    pbases.push('<a target="_blank" style="color:Crimson" href="' + 
-	      p['id'] + '">' + p['grapheme']+'</a>');
+	    pbases.push('<a target="_blank" style="color:Crimson" href="' + p['url'] + '">' + p['grapheme']+'</a>');
 	    if (p['grapheme'] != tmp['bipa']) {
 	      pbase_color = 'lightblue';
 	    }
 	  }
 	}
 	var pbase = pbases.join(' ');
+
+
+	var eurasians = [];
+	var eurasian_color = 'white';
+	if ('eurasian' in tmp) {
+	  for (var k=0,p; p=tmp['eurasian'][k]; k++) {
+	    eurasians.push('<a target="_blank" style="color:Crimson" href="' + p['url'] + '">' + p['grapheme']+'</a>');
+	    if (p['grapheme'] != tmp['bipa']) {
+	      eurasian_color = 'lightblue';
+	    }
+	  }
+	}
+	var eurasian = eurasians.join(' ');
+
 
 	  
       	var tabletext = '<td style="background-color:'+tmp['color']+';" id="'+tmp['bipa'] + 
@@ -171,6 +184,8 @@ function convertCLPA(value) {
       	tabletext += '<td>'+tmp['name'].replace(' '+tmp['type'], '')+'</td>';
 	tabletext += '<td style="background-color:'+phoible_color+'">'+phoible+'</td>';
 	tabletext += '<td style="background-color:'+pbase_color+'">'+pbase+'</td>';
+	tabletext += '<td style="background-color:'+pbase_color+'">'+eurasian+'</td>';
+
       	table.push([tmp['name'], tmp['bipa'], tabletext]);
 	symbols.push(ssegment);
       }
@@ -194,7 +209,7 @@ function convertCLPA(value) {
   }
   var ttext = '<table style="border:2px solid black;">'
     + '<tr style="border:2px solid gray;">'
-    + '<th>BIPA</th><th>NORM</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>PBASE</th><th>OCC</th></tr>';
+    + '<th>BIPA</th><th>NORM</th><th>ALIAS</th><th>TYPE</th><th>NAME</th><th>PHOIBLE</th><th>PBASE</th><th>EURASIAN</th><th>OCC</th></tr>';
   /* sort the table according to the reverse name */
   table.sort(function (x, y) {
     if (x[0].split("").reverse().join("") < y[0].split("").reverse().join("")) {

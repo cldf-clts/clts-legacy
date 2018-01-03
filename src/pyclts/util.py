@@ -17,6 +17,10 @@ def pkg_path(*comps):
     return Path(__file__).parent.joinpath(*comps)
 
 
+def app_path(*comps):
+    return Path(__file__).parent.parent.parent.joinpath('app', *comps)
+
+
 def norm(string):
     return string.replace(EMPTY, "")
 

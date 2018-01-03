@@ -1,4 +1,4 @@
-CLTS_NAME	BIPA_GRAPHEME	LAPSYD_ID	LAPSYD_GRAPHEME	LAPSYD_FEATURES
+CLTS_NAME	BIPA_GRAPHEME	ID	GRAPHEME	FEATURES
 voiced palatal stop consonant	ɟ	10	ɟ	pulmonic stop voiced palatal
 voiced velar lateral approximant consonant	ʟ	101	ʟ	pulmonic approximant lateral voiced velar
 voiced bilabial implosive consonant	ɓ	107	ɓ	implosive stop voiced bilabial

@@ -9,28 +9,31 @@ from pyclts.util import pkg_path
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
 
 
-def iterdata(what, grapheme_col, id_col=None):
+def iterdata(what, grapheme_col, *cols):
     with UnicodeDictReader(
             pkg_path('transcriptiondata', what), delimiter='\t') as reader:
         for row in reader:
             grapheme = {"grapheme": row[grapheme_col]}
-            if id_col:
-                grapheme['id'] = row[id_col]
+            plus = []
+            if cols:
+                for col in cols:
+                    grapheme[col.lower()] = row[col]
             yield row['CLTS_NAME'], row['BIPA_GRAPHEME'], grapheme
 
 
-def read(what, grapheme_col, id_col=None):
+def read(what, grapheme_col, *cols):
     out = defaultdict(list)
-    for name, bipa, grapheme in iterdata(what, grapheme_col, id_col=id_col):
-        if id_col and grapheme['id'] in [x['id'] for x in out['CLTS_NAME']]:
-            continue
+    for name, bipa, grapheme in iterdata(what, grapheme_col, *cols):
         out[name].append(grapheme)
         out[bipa].append(grapheme)
     return out
 
 
-phoible = partial(read, 'phoible.tsv', 'PHOIBLE_GRAPHEME', 'PHOIBLE_ID')
-pbase = partial(read, 'pbase.tsv', 'PBASE_GRAPHEME', 'PBASE_URL')
+phoible = partial(read, 'phoible.tsv', 'GRAPHEME', 'ID')
+pbase = partial(read, 'pbase.tsv', 'GRAPHEME', 'URL')
+ruhlen = partial(read, 'ruhlen.tsv', 'GRAPHEME', 'FREQUENCY')
+eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
+lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
 
 
 def lingpy(sound_class):
@@ -53,7 +56,10 @@ class TranscriptionData(object):
             "cv": lambda: lingpy('CV_CLASS'),
             "prosody": lambda: lingpy('PROSODY_CLASS'),
             "asjp": lambda: lingpy('ASJP_CLASS'),
-            "color": lambda: lingpy('COLOR_CLASS')
+            "color": lambda: lingpy('COLOR_CLASS'),
+            'lapsyd': lapsyd,
+            'eurasian': eurasian,
+            'ruhlen': ruhlen
         }[data]()
         self.name = data
         self.system = system or TranscriptionSystem()
