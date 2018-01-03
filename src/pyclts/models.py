@@ -125,7 +125,7 @@ class Sound(Symbol):
                 raise ValueError('Orphaned alias {0}'.format(self.grapheme))
         
         # search for best base-string
-        elements = self._features() + [self.type]
+        elements = [f for f in self._features() if f not in ['apical', 'laminal', 'ejective']] + [self.type]
         base_str = self.base or '<?>'
         base_graphemes = []
         while elements:

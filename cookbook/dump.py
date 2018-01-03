@@ -39,18 +39,35 @@ def dump():
                         for f in snd._name_order:
                             all_sounds[glyph][f] = getattr(snd, f)
                         all_sounds[glyph]['name'] = snd.name
+                        all_sounds[glyph]['bipa'] = glyph
+                    for item in td.data[sound]:
+                        if item['grapheme'] not in all_sounds:
+                            all_sounds[item['grapheme']] = all_sounds[glyph]
+                        
                     all_sounds[glyph][td.name] = td.data[sound]
                 else:
                     print(snd.name, snd.s)
                     bads += 1
+    # add sounds from transcription system
+    for sound in tts:
+        if sound not in all_sounds:
+            snd = tts[sound]
+            if snd.type != 'marker':
+                if snd.s in all_sounds:
+                    all_sounds[sound] = all_sounds[snd.s]
+                else:
+                    all_sounds[sound] = {}
+                    for f in snd._name_order:
+                        all_sounds[sound][f] = getattr(snd, f)
+                    all_sounds[sound]['name'] = snd.name
+                    all_sounds[sound]['bipa'] = snd.s
+
     print(bads, len(all_sounds))
-    input()
     for sound in all_sounds:
-        print(sound, all_sounds[sound]['name'])
-        all_sounds[sound]['asjp'] = asjp[sound]
-        all_sounds[sound]['sca'] = sca[sound]
-        all_sounds[sound]['color'] = color[sound]
-        all_sounds[sound]['dolgo'] = dolgo[sound]
+        all_sounds[sound]['asjp'] = [dict(grapheme = asjp[sound])]
+        all_sounds[sound]['sca'] =   [dict(grapheme= sca[sound])]
+        all_sounds[sound]['color'] = [dict(grapheme= color[sound])]
+        all_sounds[sound]['dolgo'] = [dict(grapheme= dolgo[sound])]
         all_sounds[sound]['type'] = tts[sound].type
         all_sounds[sound]['bipa'] = tts[sound].s
 
@@ -80,7 +97,7 @@ def dump():
                     sound.from_sound.roundedness + ' ' + sound.to_sound.roundedness,
                     ]
             if sound.type == 'tone':
-                digling[glyph] = [
+                digling[glyph] = [ 
                     sound.type,
                     sound.start,
                     ' '.join([x for x in [sound.middle or '', sound.end or '']]),
@@ -88,7 +105,7 @@ def dump():
 
     #with open(data_path('digling-dump.json'), 'w') as handler:
     #    handler.write(json.dumps(digling, indent=1))
-    with open(app_path('data.js'), 'w') as handler:
+    with open(app_path('data.js').as_posix(), 'w') as handler:
         handler.write('var BIPA = '+json.dumps(all_sounds,
             indent=2)+';\n')
         handler.write('var normalize = '+json.dumps(tts._normalize)+';\n')

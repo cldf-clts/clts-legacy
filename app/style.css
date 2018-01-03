@@ -492,3 +492,26 @@ div.menu-icon > div {
   }
 }
 
+
+select[multiple] {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  background: lightyellow;
+  color: black;
+  border: 1px dotted lightgray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+select[multiple]:focus option:checked {
+	background: red;
+}
+
+select[multiple]:hover {
+	height: 100px;
+}
+
+

@@ -31,3 +31,6 @@ function get_unicodes(chars) {
   return [cout, unilinks, unicodes];
 }
 
+
+
+

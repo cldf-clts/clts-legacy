@@ -83,7 +83,8 @@ class TranscriptionData(object):
             return '//'.join([x['grapheme'] for x in dpoints])
         if self._sc:
             if not sound.type == 'unknownsound':                    
-                name = sound.name.split(' ')
+                name = [s for s in sound.name.split(' ') if s not in ['apical',
+                    'laminal', 'ejective']]
                 if sound.type in ['diphthong', 'cluster']:
                     return self.resolve_sound(sound.from_sound)
                 while len(name) >= 4:
