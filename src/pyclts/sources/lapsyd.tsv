@@ -151,7 +151,7 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 1682	a̰ː	laryngealized long low central unrounded
 1683	ṵː	laryngealized long high back rounded
 1684	ḭː	laryngealized long high front unrounded
-1685	aˤ	pharyngealized low central unrounded
+1685	aˤ	pharyngealized  low central unrounded
 1688	ḛ̃	nasalized laryngealized higher mid front unrounded
 1689	ɨ̰̃	nasalized laryngealized high central unrounded
 1690	ã̰	nasalized laryngealized low central unrounded
@@ -166,7 +166,7 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 1726	u̝	supra high back rounded
 1727	i̝	supra high front unrounded
 1728	'ə˞'	unspecified mid central unrounded rhotacized
-1729	uˤ	pharyngealized high back rounded
+1729	uˤ	pharyngealized  high back rounded
 173	ɡ	pulmonic stop voiced velar
 1737	ɐː	long raised low central unrounded
 1743	'ɤ̃'	nasalized unspecified mid back unrounded
@@ -282,11 +282,11 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 196	æ	raised low front unrounded
 1960	'tʼ'	ejective stop unspecified coronal place
 1962	vʷ	pulmonic fricative voiced labialized labio-dental
-1965	kˤ	pulmonic stop voiceless pharyngealized velar
-1967	sˤ	pulmonic fricative sibilant voiceless pharyngealized alveolar
-1968	zˤ	pulmonic fricative sibilant voiced pharyngealized alveolar
-1969	l̪ˤ	pulmonic approximant lateral voiced pharyngealized dental
-1970	ɾˤ	pulmonic tap/flap voiced pharyngealized alveolar
+1965	kˤ	pulmonic stop voiceless pharyngealized  velar
+1967	sˤ	pulmonic fricative sibilant voiceless pharyngealized  alveolar
+1968	zˤ	pulmonic fricative sibilant voiced pharyngealized  alveolar
+1969	l̪ˤ	pulmonic approximant lateral voiced pharyngealized  dental
+1970	ɾˤ	pulmonic tap/flap voiced pharyngealized  alveolar
 1973	sˠ	pulmonic fricative sibilant voiceless velarized alveolar
 1974	fˠ	pulmonic fricative voiceless velarized labio-dental
 1975	n̠ʲ	pulmonic nasal voiced palatalized retracted
@@ -322,7 +322,7 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 2045	'tɬʰ'	pulmonic affricate lateral aspirated voiceless unspecified coronal place
 2049	'tsʼ'	ejective affricate sibilant unspecified coronal place
 205	ɔ	lower mid back rounded
-2055	χˤ	pulmonic fricative voiceless pharyngealized uvular
+2055	χˤ	pulmonic fricative voiceless pharyngealized  uvular
 206	ɑ	low back unrounded
 2072	nɺ	pulmonic tap/flap lateral prenasalized alveolar
 2077	'rrʲ'	pulmonic unspecified rhotic voiced palatalized unspecified coronal place
@@ -399,9 +399,9 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 2226	θ̞	pulmonic approximant voiceless dental
 2228	ʀʲ	pulmonic trill voiced palatalized uvular
 2229	wʲ	pulmonic approximant voiced palatalized bilabial velar
-2230	lˤ	pulmonic approximant lateral voiced pharyngealized alveolar
-2231	dˤ	pulmonic stop voiced pharyngealized alveolar
-2232	tˤ	pulmonic stop voiceless pharyngealized alveolar
+2230	lˤ	pulmonic approximant lateral voiced pharyngealized  alveolar
+2231	dˤ	pulmonic stop voiced pharyngealized  alveolar
+2232	tˤ	pulmonic stop voiceless pharyngealized  alveolar
 2233	ɖː	pulmonic stop voiced long retroflex
 2234	'nː'	pulmonic nasal voiced long unspecified coronal place
 2235	w̃	pulmonic approximant nasalized voiced bilabial velar
@@ -412,14 +412,14 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 226	'e'	unspecified mid front unrounded
 227	't'	pulmonic stop voiceless unspecified coronal place
 2274	ɺʲ	pulmonic tap/flap lateral palatalized alveolar
-2276	'tˤ'	pulmonic stop voiceless pharyngealized unspecified coronal place
-2277	'dˤ'	pulmonic stop voiced pharyngealized unspecified coronal place
-2278	'sˤ'	pulmonic fricative sibilant voiceless pharyngealized unspecified coronal place
-2279	ʃˤ	pulmonic fricative sibilant voiceless pharyngealized palato-alveolar
-2280	'zˤ'	pulmonic fricative sibilant voiced pharyngealized unspecified coronal place
-2281	ʒˤ	pulmonic fricative sibilant voiced pharyngealized palato-alveolar
-2282	'nˤ'	pulmonic nasal voiced pharyngealized unspecified coronal place
-2283	'lˤ'	pulmonic approximant lateral voiced pharyngealized unspecified coronal place
+2276	'tˤ'	pulmonic stop voiceless pharyngealized  unspecified coronal place
+2277	'dˤ'	pulmonic stop voiced pharyngealized  unspecified coronal place
+2278	'sˤ'	pulmonic fricative sibilant voiceless pharyngealized  unspecified coronal place
+2279	ʃˤ	pulmonic fricative sibilant voiceless pharyngealized  palato-alveolar
+2280	'zˤ'	pulmonic fricative sibilant voiced pharyngealized  unspecified coronal place
+2281	ʒˤ	pulmonic fricative sibilant voiced pharyngealized  palato-alveolar
+2282	'nˤ'	pulmonic nasal voiced pharyngealized  unspecified coronal place
+2283	'lˤ'	pulmonic approximant lateral voiced pharyngealized  unspecified coronal place
 23	d̠	pulmonic stop voiced palato-alveolar
 232	'd'	pulmonic stop voiced unspecified coronal place
 2321	ə̆	overshort higher mid central unrounded
@@ -609,12 +609,12 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 5504	iː	long high front unrounded
 5505	æː	long raised low front unrounded
 5506	eː	long higher mid front unrounded
-5507	t̪ˤ	pulmonic stop voiceless pharyngealized dental
-5509	s̪ˤ	pulmonic fricative sibilant voiceless pharyngealized dental
+5507	t̪ˤ	pulmonic stop voiceless pharyngealized  dental
+5509	s̪ˤ	pulmonic fricative sibilant voiceless pharyngealized  dental
 5512	l̪	pulmonic approximant lateral voiced dental
-5514	d̪ˤ	pulmonic stop voiced pharyngealized dental
+5514	d̪ˤ	pulmonic stop voiced pharyngealized  dental
 5516	z̪	pulmonic fricative sibilant voiced dental
-5517	z̪ˤ	pulmonic fricative sibilant voiced pharyngealized dental
+5517	z̪ˤ	pulmonic fricative sibilant voiced pharyngealized  dental
 56	ħ	pulmonic fricative voiceless pharyngeal
 57	ʕ	pulmonic fricative voiced pharyngeal
 5770	dz	pulmonic affricate sibilant voiced alveolar
@@ -705,9 +705,9 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 5954	eʊ	diphtong lowered high higher mid front back unrounded rounded rising backing rounding
 5956	ɲd̠ʒ	pulmonic stop fricative sibilant prenasalized voiced alveolar palato-alveolar retracted
 5957	n̰ʲ	pulmonic nasal voiced laryngealized palatalized alveolar
-5958	bˤ	pulmonic stop voiced pharyngealized bilabial
-5959	fˤ	pulmonic fricative voiceless pharyngealized labio-dental
-5960	mˤ	pulmonic nasal voiced pharyngealized bilabial
+5958	bˤ	pulmonic stop voiced pharyngealized  bilabial
+5959	fˤ	pulmonic fricative voiceless pharyngealized  labio-dental
+5960	mˤ	pulmonic nasal voiced pharyngealized  bilabial
 5961	t̪s̪ʲ	pulmonic affricate sibilant voiceless palatalized dental alveolar
 5962	d̪z̪ʲ	pulmonic affricate sibilant voiced palatalized dental alveolar
 5963	t̠ʃʲ	pulmonic affricate sibilant voiceless palatalized palato-alveolar retracted
@@ -745,12 +745,12 @@ LAPSyD ID	GRAPHEME	LAPSyD DESCRIPTION
 6007	ʰkʷ	pulmonic stop pre-aspirated voiceless labialized velar
 6008	w̤	pulmonic approximant voiced breathy voiced bilabial velar
 6009	ɲ̤	pulmonic nasal voiced breathy voiced palatal
-6010	rˤ	pulmonic trill voiced pharyngealized alveolar
+6010	rˤ	pulmonic trill voiced pharyngealized  alveolar
 6011	d̠ʒ̤	pulmonic affricate sibilant voiced breathy voiced palato-alveolar retracted
 6013	ɵː	long higher mid central rounded
 6014	uː̠	long high back rounded retracted
 6015	ŋmʷ	pulmonic nasal voiced labialized velar
-6017	ɑˤ	pharyngealized low back unrounded
+6017	ɑˤ	pharyngealized  low back unrounded
 6018	kʰʷ	pulmonic stop aspirated voiceless labialized velar
 6019	s̫	pulmonic fricative sibilant voiceless alveolar whistled
 6020	z̫	pulmonic fricative sibilant voiced alveolar whistled
