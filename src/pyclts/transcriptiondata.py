@@ -23,24 +23,30 @@ def iterdata(what, grapheme_col, *cols):
 
 def read(what, grapheme_col, *cols):
     out = defaultdict(list)
+    graphemes, names = [], []
     for name, bipa, grapheme in iterdata(what, grapheme_col, *cols):
         out[name].append(grapheme)
         out[bipa].append(grapheme)
-    return out
+        graphemes += [bipa]
+        names += [name]
+    return out, graphemes, names
 
 
 phoible = partial(read, 'phoible.tsv', 'GRAPHEME', 'ID')
 pbase = partial(read, 'pbase.tsv', 'GRAPHEME', 'URL')
-ruhlen = partial(read, 'ruhlen.tsv', 'GRAPHEME', 'FREQUENCY')
+ruhlen = partial(read, 'creanza.tsv', 'GRAPHEME', 'FREQUENCY')
 eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
 lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
 
 
 def lingpy(sound_class):
     out = {}
+    graphemes, names = [], []
     for name, bipa, grapheme in iterdata('lingpy.tsv', sound_class):
         out[bipa] = out[name] = grapheme
-    return out
+        graphemes += [bipa]
+        names += [names]
+    return out, graphemes, names
 
 
 class TranscriptionData(object):
@@ -48,7 +54,7 @@ class TranscriptionData(object):
     Class for handling transcription data.
     """
     def __init__(self, data='phoible', system=None):
-        self.data = {
+        self.data, self.sounds, self.names = {
             "phoible": phoible,
             "pbase": pbase,
             "sca": lambda: lingpy('SCA_CLASS'),
@@ -62,6 +68,7 @@ class TranscriptionData(object):
             'ruhlen': ruhlen
         }[data]()
         self.name = data
+        self.id = data
         self.system = system or TranscriptionSystem()
         # we want to know whether data type is lingpy, as in this case, we want
         # to resolve the mappings
@@ -105,6 +112,9 @@ class TranscriptionData(object):
             return self[sound]
         except KeyError:
             return default
+
+    def items(self, sound, default=None):
+        return self._data.items()
 
     def __call__(self, sounds, default="0"):
         return [self.get(x, default) for x in sounds.split()]

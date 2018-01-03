@@ -25,6 +25,8 @@ tsː	voiceless	alveolar	affricate		duration:long,sibilancy:sibilant
 tːs	voiceless	alveolar	affricate	+	duration:long,sibilancy:sibilant	
 tsʼ	voiceless	alveolar	affricate		ejection:ejective,sibilancy:sibilant	
 tsʲ	voiceless	alveolar	affricate		palatalization:palatalized,sibilancy:sibilant	
+ȶ	voiceless	alveolo-palatal	stop			Not sure whether this sound is really needed.
+ȡ	voiced	alveolo-palatal	stop			Not sure whether this sound is really needed.
 ʥ	voiced	alveolo-palatal	affricate	+	sibilancy:sibilant	
 dʑ	voiced	alveolo-palatal	affricate		sibilancy:sibilant	
 dᶽ	voiced	alveolo-palatal	affricate	+	sibilancy:sibilant	

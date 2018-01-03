@@ -307,6 +307,9 @@ class TranscriptionSystem(object):
     def __iter__(self):
         return iter(self._sounds)
 
+    def items(self):
+        return iter(self._sounds.items())
+
     def get(self, string, default=None):
         """Similar to the get method for dictionaries."""
         out = self[string]

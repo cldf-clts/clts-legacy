@@ -304,10 +304,10 @@ class Vowel(Sound):
     centrality = attr.ib(default=None)
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
+    centralization = attr.ib(default=None)
     tone = attr.ib(default=None)
     retraction = attr.ib(default=None)
     raising = attr.ib(default=None)
-    centrality = attr.ib(default=None)
     rounding = attr.ib(default=None)
     advancement = attr.ib(default=None)
     tongue_root = attr.ib(default=None)
@@ -315,17 +315,17 @@ class Vowel(Sound):
 
     _write_order = dict(
         pre=[],
-        post=['tongue_root', 'raising', 'centrality', 'rounding', 'advancement',
+        post=['tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
             'voicing', 'breathiness', 'creakiness', 'retraction',
            'syllabicity', 'nasalization', 'tone',  'articulation', 'rhotacization', 
             'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
     _name_order = ['duration', 'rhotacization', 'pharyngealization',
             'glottalization', 'velarization', 'syllabicity', 'retraction',
-            'tongue_root', 'raising', 'centrality', 'rounding', 'advancement',
-            'articulation',
-            'nasalization', 'voicing', 'creakiness', 'breathiness',
-            'roundedness', 'height', 'frication', 'centrality', 'tone']
+            'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
+            'articulation', 'nasalization', 'voicing', 'creakiness',
+            'breathiness', 'roundedness', 'height', 'frication', 'centrality',
+            'tone']
 
 
 @attr.s(cmp=False, repr=False)

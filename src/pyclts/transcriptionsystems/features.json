@@ -1,9 +1,11 @@
 {
   "vowel": {
+    "centralization": [
+      "centralized"
+    ],
     "centrality": [
       "back",
       "central",
-      "centralized",
       "front",
       "mid-centralized",
       "near-back",
