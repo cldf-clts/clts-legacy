@@ -66,6 +66,28 @@ def loadmeta(data):
         write_transcriptiondata(out, 'ruhlen.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
+    if data == 'lapsyd':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'LAPSYD_ID', 'LAPSYD_GRAPHEME', 
+            'LAPSYD_FEATURES']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'lapsyd.tsv'), delimiter="\t") as uni:
+            for i, line in enumerate(uni):
+                glyph = line[1]
+                sound = bipa[glyph]
+                if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
+                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                    out += [[sound.name, sound.s, line[0], glyph, line[2]]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound, line[2])
+                    else:
+                        if not sound.type in ['cluster', 'diphthong', 'marker']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+        write_transcriptiondata(out, 'lapsyd.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
+
     if data == 'eurasian':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'EURASIAN_URL', 'EURASIAN_GRAPHEME']]
         data = json.load(codecs.open(pkg_path('sources',
