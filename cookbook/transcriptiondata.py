@@ -44,7 +44,7 @@ def loadmeta(data):
                 all_lines += 1
         write_transcriptiondata(out, 'phoible.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
-    
+
     if data == 'ruhlen':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'FREQUENCY', 'GRAPHEME']]
         all_lines = 0
@@ -66,8 +66,31 @@ def loadmeta(data):
         write_transcriptiondata(out, 'ruhlen.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
+    if data == 'creanza':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'FREQUENCY', 'GRAPHEME']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'creanza.tsv'), delimiter="\t") as uni:
+            for i, line in enumerate(uni):
+                glyph = line[0]
+                if '+' in glyph:
+                    continue
+                sound = bipa[glyph]
+                if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
+                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                    out += [[sound.name, sound.s, line[1], glyph]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong', 'marker']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+        write_transcriptiondata(out, 'creanza.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
+
     if data == 'lapsyd':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME', 
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME',
             'FEATURES']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'lapsyd.tsv'), delimiter="\t") as uni:
@@ -115,10 +138,10 @@ def loadmeta(data):
     if data == 'pbase':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL', 'GRAPHEME']]
         url = "http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={0}&inany=false&coreinv=on"
-        with UnicodeReader(pkg_path('sources', 'IPA1999.tsv'), delimiter="\t") as uni:
+        with UnicodeReader(pkg_path('sources', 'pbase.tsv'), delimiter="\t") as uni:
             all_lines = 0
             for line in uni:
-                glyph = line[2]
+                glyph = line[0]
                 url_ = url.format(glyph)
                 sound = bipa[glyph]
 
@@ -176,6 +199,6 @@ def loadmeta(data):
 if __name__ == '__main__':
     from sys import argv
 
-    if 'data' in argv: 
+    if 'data' in argv:
         dset = argv[argv.index('data')+1]
         loadmeta(dset)
