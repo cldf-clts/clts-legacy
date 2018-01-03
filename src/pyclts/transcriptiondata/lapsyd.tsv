@@ -183,21 +183,21 @@ palatalized voiced bilabial fricative consonant	βʲ	1885	βʲ	pulmonic fricativ
 back rounded close back vowel	u	189	u	high back rounded
 palatalized voiceless glottal stop consonant	ʔʲ	1890	ʔʲ	pulmonic stop voiceless palatalized glottal
 labialized voiceless pharyngeal fricative consonant	ħʷ	1895	ħʷ	pulmonic fricative voiceless labialized pharyngeal
-labialized voiceless alveolar ejective sibilant affricate consonant	tsʼʷ	1897	tsʷʼ	ejective affricate sibilant labialized alveolar
+labialized voiceless alveolar ejective sibilant affricate consonant	ts’ʷ	1897	tsʷʼ	ejective affricate sibilant labialized alveolar
 labialized voiced alveolar sibilant affricate consonant	dzʷ	1898	dzʷ	pulmonic affricate sibilant voiced labialized alveolar
 labialized voiceless alveolar sibilant affricate consonant	tsʷ	1899	tsʷ	pulmonic affricate sibilant voiceless labialized alveolar
 near-back rounded near-close near-back vowel	ʊ	190	ʊ	lowered high back rounded
 voiceless palatal ejective stop consonant	cʼ	1900	cʼ	ejective stop palatal
-labialized voiceless alveolar ejective stop consonant	tʼʷ	1901	tʷʼ	ejective stop labialized alveolar
+labialized voiceless alveolar ejective stop consonant	t’ʷ	1901	tʷʼ	ejective stop labialized alveolar
 labialized voiced velar stop consonant	gʷ	1902	ɡʷ	pulmonic stop voiced labialized velar
 labialized voiced alveolar stop consonant	dʷ	1903	dʷ	pulmonic stop voiced labialized alveolar
 labialized voiceless alveolar stop consonant	tʷ	1904	tʷ	pulmonic stop voiceless labialized alveolar
 labialized voiced pharyngeal fricative consonant	ʕʷ	1906	ʕʷ	pulmonic fricative voiced labialized pharyngeal
-palatalized voiceless uvular ejective stop consonant	qʼʲ	1907	qʲʼ	ejective stop palatalized uvular
+palatalized voiceless uvular ejective stop consonant	q’ʲ	1907	qʲʼ	ejective stop palatalized uvular
 labialized voiced post-alveolar sibilant fricative consonant	ʒʷ	1908	ʒʷ	pulmonic fricative sibilant voiced labialized palato-alveolar
 lowered back unrounded close back vowel	ɯ̞	191	ɯ̞	lowered high back unrounded
 palatalized voiced velar stop consonant	gʲ	1914	ɡʲ	pulmonic stop voiced palatalized velar
-palatalized voiceless velar ejective stop consonant	kʼʲ	1915	kʲʼ	ejective stop palatalized velar
+palatalized voiceless velar ejective stop consonant	k’ʲ	1915	kʲʼ	ejective stop palatalized velar
 voiceless alveolar ejective sibilant fricative consonant	sʼ	1916	sʼ	ejective fricative sibilant alveolar
 back rounded close-mid back vowel	o	192	o	higher mid back rounded
 back unrounded close-mid back vowel	ɤ	193	ɤ	higher mid back unrounded
@@ -252,7 +252,7 @@ back unrounded open-mid back vowel	ʌ	202	ʌ	lower mid back unrounded
 voiceless alveolar ejective lateral fricative consonant	ɬʼ	2024	ɬʼ	ejective fricative lateral alveolar
 voiced labio-dental affricate consonant	bv	2035	bv	pulmonic affricate voiced bilabial labio-dental
 labialized voiceless labio-dental fricative consonant	fʷ	2038	fʷ	pulmonic fricative voiceless labialized labio-dental
-labialized voiceless bilabial ejective stop consonant	pʼʷ	2039	pʷʼ	ejective stop labialized bilabial
+labialized voiceless bilabial ejective stop consonant	p’ʷ	2039	pʷʼ	ejective stop labialized bilabial
 central unrounded nearly-open central vowel	ɐ	204	ɐ	raised low central unrounded
 back rounded open-mid back vowel	ɔ	205	ɔ	lower mid back rounded
 pharyngealized voiceless uvular fricative consonant	χˤ	2055	χˤ	pulmonic fricative voiceless pharyngealized uvular
@@ -443,8 +443,8 @@ from near-back rounded near-close near-back to front unrounded close front dipht
 voiceless dental stop consonant	t̪	5127	t̪	pulmonic stop voiceless dental
 voiceless velar fricative consonant	x	52	x	pulmonic fricative voiceless velar
 front advanced unrounded open front vowel	a̟	5210	a̟	low front unrounded
-labialized voiceless velar ejective fricative consonant	xʼʷ	5258	xʷʼ	ejective fricative labialized velar
-labialized voiceless uvular ejective fricative consonant	χʼʷ	5259	χʷʼ	ejective fricative labialized uvular
+labialized voiceless velar ejective fricative consonant	x’ʷ	5258	xʷʼ	ejective fricative labialized velar
+labialized voiceless uvular ejective fricative consonant	χ’ʷ	5259	χʷʼ	ejective fricative labialized uvular
 labialized voiceless bilabial fricative consonant	ɸʷ	5260	ɸʷ	pulmonic fricative voiceless labialized bilabial
 long central unrounded close central vowel	ɨː	5297	ɨː	long high central unrounded
 voiced velar fricative consonant	ɣ	53	ɣ	pulmonic fricative voiced velar
