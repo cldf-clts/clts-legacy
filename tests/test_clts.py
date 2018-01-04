@@ -12,6 +12,12 @@ def test_translate(bipa, asjp):
     assert translate('ts a', bipa, asjp) == 'c E'
     assert translate('c a', asjp, bipa) == 'ts ɐ'
 
+def test_convert(bipa, asjpd):
+    from pyclts.transcriptiondata import convert
+    assert convert('t o h t a', bipa, asjpd)[0] == 't'
+    assert convert('t ai', bipa, asjpd, unknown='!')[1] == '!'
+
+
 
 def test_getitem(bipa):
     s = bipa['a']

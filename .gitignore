@@ -3,9 +3,18 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+work/
+.*.swp
+*.bak
+.sav
+.gitignore
 # C extensions
 *.so
+cookbook/test_data.tsv
+cookbook/features.json
+cookbook/features.tsv
+cookbook/statistics.md
+.info
 
 # Distribution / packaging
 .Python

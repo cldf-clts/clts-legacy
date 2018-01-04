@@ -8,6 +8,20 @@ from collections import defaultdict
 from pyclts.util import pkg_path
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
 
+def convert(what, from_, to_, entry='grapheme', delimiter='/', unknown="?"):
+    out = []
+    for sound in what.split():
+        try:
+            out.append(
+                delimiter.join(
+                    [itm[entry] for itm in to_.data[from_[sound].name]]
+                        )
+                    )
+        except KeyError:
+            out += [unknown]
+    return out
+
+
 
 def iterdata(what, grapheme_col, *cols):
     with UnicodeDictReader(
@@ -44,7 +58,7 @@ def lingpy(sound_class):
     out = {}
     graphemes, names = [], []
     for name, bipa, grapheme in iterdata('lingpy.tsv', sound_class):
-        out[bipa] = out[name] = grapheme
+        out[bipa] = out[name] = [grapheme]
         graphemes += [bipa]
         names += [names]
     return out, graphemes, names
@@ -86,10 +100,7 @@ class TranscriptionData(object):
         transcription data are sound classes.
         """
         if sound.name in self.data:
-            dpoints = self.data[sound.name]
-            if isinstance(dpoints, dict):
-                return dpoints['grapheme']
-            return '//'.join([x['grapheme'] for x in dpoints])
+            return '//'.join([x['grapheme'] for x in self.data[sound.name]])
         if self._sc:
             if not sound.type == 'unknownsound':                    
                 name = [s for s in sound.name.split(' ') if s not in ['apical',

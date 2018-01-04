@@ -139,14 +139,16 @@ class Sound(Symbol):
                         base_str != '<?>' else {}
         out = []
         for p in self._write_order['pre']:
-            if p not in base_vals:
+            if p not in base_vals and getattr(self, p, '') in self._features():
                 out.append(
-                    norm(self.ts._features[self.type].get(getattr(self, p, ''), '')))
+                    norm(self.ts._features[self.type].get(getattr(self, p, ''),
+                        '<!>')))
         out.append(base_str)
         for p in self._write_order['post']:
-            if p not in base_vals:
+            if p not in base_vals and getattr(self, p, '') in self._features():
                 out.append(
-                    norm(self.ts._features[self.type].get(getattr(self, p, ''), '')))
+                    norm(self.ts._features[self.type].get(getattr(self, p, ''),
+                        '<!>')))
         return ''.join(out)
 
     @property

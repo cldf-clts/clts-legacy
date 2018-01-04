@@ -49,7 +49,6 @@ def loadmeta(data):
         write_transcriptiondata(out, 'nidaba.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
-
     if data == 'phoible':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME']]
         all_lines = 0
@@ -73,27 +72,6 @@ def loadmeta(data):
         print('{0:.2f} covered'.format(len(out) / all_lines))
 
     if data == 'ruhlen':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'FREQUENCY', 'GRAPHEME']]
-        all_lines = 0
-        with UnicodeReader(pkg_path('sources', 'ruhlen.tsv'), delimiter="\t") as uni:
-            for i, line in enumerate(uni):
-                glyph = line[0]
-                sound = bipa[glyph]
-                if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
-                    out += [[sound.name, sound.s, line[1], glyph]]
-                else:
-                    if sound.type == 'unknownsound':
-                        print(sound)
-                    else:
-                        if not sound.type in ['cluster', 'diphthong', 'marker']:
-                            tbl = sound.table
-                            print('\t'.join(tbl))
-                all_lines += 1
-        write_transcriptiondata(out, 'ruhlen.tsv')
-        print('{0:.2f} covered'.format(len(out) / all_lines))
-
-    if data == 'creanza':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'FREQUENCY', 'GRAPHEME']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'creanza.tsv'), delimiter="\t") as uni:
@@ -229,3 +207,8 @@ if __name__ == '__main__':
     if 'data' in argv:
         dset = argv[argv.index('data')+1]
         loadmeta(dset)
+
+    if 'all' in argv:
+        for itm in ['pbase', 'lingpy', 'phoible', 'eurasian', 'ruhlen',
+                'phoible', 'nidaba']:
+            loadmeta(itm)

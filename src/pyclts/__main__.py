@@ -68,7 +68,7 @@ def main(args=None):  # pragma: no cover
     parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
         "--format",
-        default="markdown",
+        default="pipe",
         help="Format of tabular output.")
     parser.add_argument(
         '--nonames', help="do not report the sound names in the output",
