@@ -1,15 +1,34 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
+ᶀ	voiced	bilabial	stop	+	palatalization:palatalized	IPA extensions supplement
+ᶁ	voiced	alveolar	stop	+	palatalization:palatalized	IPA extensions supplement
+ᶂ	voiced	labio-dental	fricative	+	palatalization:palatalized	IPA extensions supplement
+ᶃ	voiced	velar	stop	+	palatalization:palatalized	IPA extensions supplement
+ᶄ	voiceless	velar	stop	+	palatalization:palatalized	IPA extensions supplement
+ᶅ	voiced	alveolar	approximant	+	palatalization:palatalized,laterality:lateral	IPA extensions supplement
+ᶆ	voiced	bilabial	nasal	+	palatalization:palatalized	IPA extensions supplement
+ᶇ	voiced	alveolar	nasal	+	palatalization:palatalized	IPA extensions supplement
+ᶈ	voiceless	bilabial	stop	+	palatalization:palatalized	IPA extensions supplement
+ᶉ	voiced	alveolar	trill	+	palatalization:palatalized	IPA extensions supplement
+rʲ	voiced	alveolar	trill		palatalization:palatalized	
+ᶊ	voiceless	alveolar	fricative	+	palatalization:palatalized,sibilancy:sibilant	IPA extensions supplement
+ᶋ	voiceless	post-alveolar	fricative	+	palatalization:palatalized,sibilancy:sibilant	IPA extensions supplement
+ʃʲ	voiceless	post-alveolar	fricative		palatalization:palatalized,sibilancy:sibilant	
+ᶌ	voiced	labio-dental	fricative	+	palatalization:palatalized	IPA extensions supplement
+ᶍ	voiceless	velar	fricative	+	palatalization:palatalized	IPA extensions supplement
+ᶎ	voiced	alveolar	fricative	+	palatalization:palatalized,sibilancy:sibilant	IPA extensions supplement
+xʲ	voiceless	velar	fricative		palatalization:palatalized	
+zʲ	voiced	alveolar	fricative		palatalization:palatalized,sibilancy:sibilant	
 ⱱ	voiced	labio-dental	tap			
 v̆	voiced	labio-dental	tap	+		
 s̻	voiceless	alveolar	fricative		laminality:laminal,sibilancy:sibilant	
 oz̻	voiced	alveolar	fricative		laminality:laminal,sibilancy:sibilant	
-ʈʂ’	voiceless	retroflex	affricate		sibilancy:sibilant,ejection:ejective
+ʈʂ’	voiceless	retroflex	affricate		sibilancy:sibilant,ejection:ejective	
 n̻	voiced	alveolar	nasal		laminality:laminal	
-l̻	voiced	alveolar	approximant		laterality:lateral,laminality:laminal
+l̻	voiced	alveolar	approximant		laterality:lateral,laminality:laminal	
 dɮ	voiced	alveolar	affricate		laterality:lateral	
 ʣ	voiced	alveolar	affricate	+	sibilancy:sibilant	
 dz	voiced	alveolar	affricate		sibilancy:sibilant	
-dᶻ	voiced	alveolar	affricate	+	sibilancy:sibilant		
+dᶻ	voiced	alveolar	affricate	+	sibilancy:sibilant	
 dzː	voiced	alveolar	affricate		duration:long,sibilancy:sibilant	
 dːz	voiced	alveolar	affricate	+	duration:long,sibilancy:sibilant	
 ƛ	voiceless	alveolar	affricate	+	laterality:lateral	
@@ -17,7 +36,7 @@ tɬ	voiceless	alveolar	affricate		laterality:lateral
 tɬʰ	voiceless	alveolar	affricate		aspiration:aspirated,laterality:lateral	
 tɬʼ	voiceless	alveolar	affricate		ejection:ejective,laterality:lateral	
 ʦ	voiceless	alveolar	affricate	+	sibilancy:sibilant	
-tˢ	voiceless	alveolar	affricate	+	sibilancy:sibilant
+tˢ	voiceless	alveolar	affricate	+	sibilancy:sibilant	
 ts	voiceless	alveolar	affricate		sibilancy:sibilant	
 tsʰ	voiceless	alveolar	affricate		aspiration:aspirated,sibilancy:sibilant	
 tsː	voiceless	alveolar	affricate		duration:long,sibilancy:sibilant	
@@ -547,13 +566,13 @@ fʷː	voiceless	labio-dental	fricative		labialization:labialized,duration:long
 bʷː	voiced	bilabial	stop		labialization:labialized,duration:long	
 mʷː	voiced	bilabial	nasal		labialization:labialized,duration:long	
 rˤː	voiced	alveolar	trill		pharyngealization:pharyngealized,duration:long	
-mˤː	voiced	bilabial	nasal		pharyngealization:pharyngealized,duration:long
+mˤː	voiced	bilabial	nasal		pharyngealization:pharyngealized,duration:long	
 bːˤ	voiced	bilabial	stop	+	pharyngealization:pharyngealized,duration:long	
 fːʷ	voiceless	labio-dental	fricative	+	labialization:labialized,duration:long	
 bːʷ	voiced	bilabial	stop	+	labialization:labialized,duration:long	
 mːʷ	voiced	bilabial	nasal	+	labialization:labialized,duration:long	
 rːˤ	voiced	alveolar	trill	+	pharyngealization:pharyngealized,duration:long	
-mːˤ	voiced	bilabial	nasal	+	pharyngealization:pharyngealized,duration:long
+mːˤ	voiced	bilabial	nasal	+	pharyngealization:pharyngealized,duration:long	
 ɭ̩	voiced	retroflex	approximant		syllabicity:syllabic,laterality:lateral	
 l̪̩	voiced	dental	approximant		syllabicity:syllabic,laterality:lateral	
 ð͉	voiced	dental	fricative	+	release:unreleased	
