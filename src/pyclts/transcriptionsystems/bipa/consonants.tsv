@@ -384,7 +384,8 @@ bː	voiced	bilabial	stop		duration:long
 bʷ	voiced	bilabial	stop		labialization:labialized	
 bʲ	voiced	bilabial	stop		palatalization:palatalized	
 ⁿb	voiced	bilabial	stop		preceding:pre-nasalized	
-b̡	voiced	bilabial	stop		release:unreleased	
+b̡	voiced	bilabial	stop	+	release:unreleased	
+b̚	voiced	bilabial	stop		release:unreleased	
 bⁿ	voiced	bilabial	stop		release:with-nasal-release	
 bˠ	voiced	bilabial	stop		velarization:velarized	
 b̥	voiced	bilabial	stop		voicing:devoiced	
