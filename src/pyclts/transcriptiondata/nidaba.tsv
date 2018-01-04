@@ -49,13 +49,8 @@ voiced dental implosive consonant	ɗ	ɗ	\texthtd	plosive::dental::+voice
 voiced post-alveolar stop consonant	d̠	d̠	\textsubbar{d}	plosive::dental::+voice
 voiceless dental fricative consonant	θ	θ	\textipa{T}	fricative::dental::−voice
 voiced dental fricative consonant	ð	ð	\textipa{D}	fricative::dental::+voice
-voiceless dental affricate consonant	tθ	t̪͡θ	\t{\textsubbridge{t}͡ \textipa{T}}	affricate::dental::−voice
-voiceless dental sibilant affricate consonant	ts̪	t̪͡s̪	\t{\textsubbridge{t}\textsubbridge{s}}	affricate::dental::−voice
-voiced dental sibilant affricate consonant	dz̪	d̪͡z̪	\t{\textsubbridge{d}\textsubbridge{z}}	affricate::dental::+voice
-voiceless dental lateral affricate consonant	tɬ̪	t̪͡ɬ̪	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}	affricate::dental::+voice +lateral
 voiced alveolar sibilant affricate consonant	dz	d͡z	\t{dz}	affricate::dental::+voice
 voiceless dental lateral fricative consonant	ɬ̪	ɬ̪	\textsubbridge{\textbeltl}	fricative::dental::+voice +lateral
-voiced dental affricate consonant	dð	d̪͡ð	\t{\textsubbridge{d}͡ð}	affricate::dental::+voice
 voiced dental lateral approximant consonant	l̪	l̪	\textsubbridge{l}	liquid::dental::+voice +lateral
 voiced dental trill consonant	r̪	r̪	\textsubbridge{r}	liquid::dental::+voice −lateral
 voiced dental nasal consonant	n̪	n̪	\textsubbridge{n}	nasal::dental::+voice +nasal
@@ -824,9 +819,6 @@ aspirated voiced labio-dental affricate consonant	bvʰ	b͡vʰ	\t{b͡v} extsupers
 aspirated voiceless dental stop consonant	t̪ʰ	t̪ʰ	\textsubbridge{t} extsuperscript{h}	plosive::dental::−voice +spread glottis
 aspirated voiced dental stop consonant	d̪ʰ	d̪ʰ	\textsubbridge{d} extsuperscript{h}	plosive::dental::+voice +spread glottis
 aspirated voiced post-alveolar stop consonant	d̠ʰ	d̠ʰ	\textsubbar{d} extsuperscript{h}	plosive::dental::+voice +spread glottis
-aspirated voiceless dental affricate consonant	ts̪ʰ	t̪͡s̪ʰ	\t{\textsubbridge{t}\textsubbridge{s}} extsuperscript{h}	affricate::dental::−voice +spread glottis
-aspirated voiced dental sibilant affricate consonant	dz̪ʰ	d̪͡z̪ʰ	\t{\textsubbridge{d}\textsubbridge{z}} extsuperscript{h}	affricate::dental::+voice +spread glottis
-aspirated voiceless dental lateral affricate consonant	tɬ̪ʰ	t̪͡ɬ̪ʰ	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}} extsuperscript{h}	affricate::dental::+voice +lateral +spread glottis
 aspirated voiced alveolar sibilant affricate consonant	dzʰ	d͡zʰ	\t{dz} extsuperscript{h}	affricate::dental::+voice +spread glottis
 aspirated voiced dental nasal consonant	n̪ʰ	n̪ʰ	\textsubbridge{n} extsuperscript{h}	nasal::dental::+voice +nasal +spread glottis
 aspirated voiceless post-alveolar stop consonant	t̠ʰ	t̠ʰ	\textsubbar{t} extsuperscript{h}	plosive::alveolar::−voice +spread glottis
@@ -850,9 +842,6 @@ labialized voiced labio-dental affricate consonant	bvʷ	b͡vʷ	\t{b͡v}\super w	
 labialized voiceless dental stop consonant	t̪ʷ	t̪ʷ	\textsubbridge{t}\super w	plosive::dental, labial::−voice
 labialized voiced dental stop consonant	d̪ʷ	d̪ʷ	\textsubbridge{d}\super w	plosive::dental, labial::+voice
 labialized voiced post-alveolar stop consonant	d̠ʷ	d̠ʷ	\textsubbar{d}\super w	plosive::dental, labial::+voice
-labialized voiceless dental sibilant affricate consonant	ts̪ʷ	t̪͡s̪ʷ	\t{\textsubbridge{t}\textsubbridge{s}}\super w	affricate::dental, labial::−voice
-labialized voiced dental sibilant affricate consonant	dz̪ʷ	d̪͡z̪ʷ	\t{\textsubbridge{d}\textsubbridge{z}}\super w	affricate::dental, labial::+voice
-labialized voiceless dental lateral affricate consonant	tɬ̪ʷ	t̪͡ɬ̪ʷ	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super w	affricate::dental, labial::+voice +lateral
 labialized voiced alveolar sibilant affricate consonant	dzʷ	d͡zʷ	\t{dz}\super w	affricate::dental, labial::+voice
 labialized voiceless dental lateral fricative consonant	ɬ̪ʷ	ɬ̪ʷ	\textsubbridge{\textbeltl}\super w	fricative::dental, labial::+voice +lateral
 labialized voiced dental nasal consonant	n̪ʷ	n̪ʷ	\textsubbridge{n}\super w	nasal::dental, labial::+voice +nasal
@@ -877,9 +866,6 @@ palatalized voiced labio-dental affricate consonant	bvʲ	b͡vʲ	\t{b͡v}\super j
 palatalized voiceless dental stop consonant	t̪ʲ	t̪ʲ	\textsubbridge{t}\super j	plosive::dental, palatal::−voice
 palatalized voiced dental stop consonant	d̪ʲ	d̪ʲ	\textsubbridge{d}\super j	plosive::dental, palatal::+voice
 palatalized voiced post-alveolar stop consonant	d̠ʲ	d̠ʲ	\textsubbar{d}\super j	plosive::dental, palatal::+voice
-palatalized voiceless dental sibilant affricate consonant	ts̪ʲ	t̪͡s̪ʲ	\t{\textsubbridge{t}\textsubbridge{s}}\super j	affricate::dental, palatal::−voice
-palatalized voiced dental sibilant affricate consonant	dz̪ʲ	d̪͡z̪ʲ	\t{\textsubbridge{d}\textsubbridge{z}}\super j	affricate::dental, palatal::+voice
-palatalized voiceless dental lateral affricate consonant	tɬ̪ʲ	t̪͡ɬ̪ʲ	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super j	affricate::dental, palatal::+voice +lateral
 palatalized voiced alveolar sibilant affricate consonant	dzʲ	d͡zʲ	\t{dz}\super j	affricate::dental, palatal::+voice
 palatalized voiceless dental lateral fricative consonant	ɬ̪ʲ	ɬ̪ʲ	\textsubbridge{\textbeltl}\super j	fricative::dental, palatal::+voice +lateral
 palatalized voiced dental lateral approximant consonant	l̪ʲ	l̪ʲ	\textsubbridge{l}\super j	liquid::dental, palatal::+voice +lateral
@@ -890,7 +876,6 @@ palatalized voiceless alveolar sibilant affricate consonant	tsʲ	t͡sʲ	\t{ts}\s
 palatalized voiced alveolar lateral affricate consonant	dɮʲ	d͡ɮʲ	\t{d͡\textlyoghlig}\super j	affricate::alveolar, palatal::+voice +lateral
 palatalized voiceless alveolar lateral affricate consonant	tɬʲ	t͡ɬʲ	\t{t͡\textbeltl}\super j	affricate::alveolar, palatal::+voice +lateral
 palatalized voiced post-alveolar approximant consonant	ɹ̠ʲ	ɹ̠ʲ	\textsubbar{\textturnr}\super j	liquid::alveolar, palatal::+voice −lateral
-voiced alveolo-palatal lateral approximant consonant	ȴ	l̠ʲ	\textsubbar{l}\super j	liquid::alveolar, palatal::+voice +lateral
 palatalized voiceless post-alveolar sibilant affricate consonant	tʃʲ	t͡ʃʲ	\t{t͡\textipa{S}}\super j	affricate::palatoalveolar, palatal::−voice
 palatalized voiced post-alveolar sibilant affricate consonant	dʒʲ	d͡ʒʲ	\t{d͡\textyogh}\super j	affricate::palatoalveolar, palatal::+voice
 palatalized voiceless retroflex sibilant affricate consonant	ʈʂʲ	ʈ͡ʂʲ	\t{\textrtailt \textrtails}\super j	affricate::retroflex, palatal::−voice
@@ -949,9 +934,6 @@ long voiced dental implosive consonant	ɗː	ɗː	\texthtd\textlengthmark	plosive
 long voiced post-alveolar stop consonant	d̠ː	d̠ː	\textsubbar{d}\textlengthmark	plosive::dental::+voice
 long voiceless dental fricative consonant	θː	θː	\textipa{T}\textlengthmark	fricative::dental::−voice
 long voiced dental fricative consonant	ðː	ðː	\textipa{D}\textlengthmark	fricative::dental::+voice
-long voiceless dental sibilant affricate consonant	ts̪ː	t̪͡s̪ː	\t{\textsubbridge{t}\textsubbridge{s}}\textlengthmark	affricate::dental::−voice
-long voiced dental sibilant affricate consonant	dz̪ː	d̪͡z̪ː	\t{\textsubbridge{d}\textsubbridge{z}}\textlengthmark	affricate::dental::+voice
-long voiceless dental lateral affricate consonant	tɬ̪ː	t̪͡ɬ̪ː	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\textlengthmark	affricate::dental::+voice +lateral
 long voiced alveolar sibilant affricate consonant	dzː	d͡zː	\t{dz}\textlengthmark	affricate::dental::+voice
 long voiceless dental lateral fricative consonant	ɬ̪ː	ɬ̪ː	\textsubbridge{\textbeltl}\textlengthmark	fricative::dental::+voice +lateral
 long voiced dental nasal consonant	n̪ː	n̪ː	\textsubbridge{n}\textlengthmark	nasal::dental::+voice +nasal
@@ -974,7 +956,7 @@ long voiceless retroflex stop consonant	ʈː	ʈː	\textrtailt\textlengthmark	plo
 long voiced retroflex stop consonant	ɖː	ɖː	\textrtaild\textlengthmark	plosive::retroflex::+voice
 long voiceless retroflex sibilant fricative consonant	ʂː	ʂː	\textrtails\textlengthmark	fricative::retroflex::−voice
 long voiced retroflex sibilant fricative consonant	ʐː	ʐː	\textrtailz\textlengthmark	fricative::retroflex::+voice
-long voiceless retroflex sibilant affricate consonant	ʈʂː	ʈ͡ʂː	\t{\textrtailt \textrtails}\textlengthmark	affricate::retroflex::−voice
+long voiced retroflex sibilant affricate consonant	ʈʂː	ʈ͡ʂː	\t{\textrtailt \textrtails}\textlengthmark	affricate::retroflex::−voice
 long voiced retroflex sibilant affricate consonant	ɖʐː	ɖ͡ʐː	\t{ɖ͡\textrtailz}\textlengthmark	affricate::retroflex::+voice
 long voiced retroflex nasal consonant	ɳː	ɳː	\:n\textlengthmark	nasal::retroflex::+voice +nasal
 long voiceless palatal stop consonant	cː	cː	c\textlengthmark	plosive::palatal::−voice
@@ -1216,13 +1198,13 @@ long non-syllabic nasalized devoiced rounded close front vowel	ỹ̥̯ː	ỹ̯̥
 long non-syllabic nasalized devoiced rounded near-close near-front vowel	ʏ̥̯̃ː	ʏ̯̥̃ː	*\textipa{\~\textroundcap{\textipa{Y}}}\textlengthmark	vowel::empty::+high −low −back +round −voice +nasal −spread glottis −constricted glottis
 long non-syllabic nasalized devoiced unrounded near-open front vowel	æ̥̯̃ː	æ̯̥̃ː	*\textipa{\~\textroundcap{\ae}}\textlengthmark	vowel::empty::−high +low −back −round −voice +nasal −spread glottis −constricted glottis
 aspirated long voiceless bilabial stop consonant	pʰː	pʰː	p extsuperscript{h}\textlengthmark	plosive::labial::−voice +spread glottis
-aspirated long voiced bilabial stop consonant	bːʰ	bʰː	b extsuperscript{h}\textlengthmark	plosive::labial::+voice +spread glottis
+aspirated long voiced bilabial stop consonant	bʰː	bʰː	b extsuperscript{h}\textlengthmark	plosive::labial::+voice +spread glottis
 aspirated long voiced bilabial implosive consonant	ɓʰː	ɓʰː	\texthtb extsuperscript{h}\textlengthmark	plosive::labial::+voice +spread glottis
 aspirated long voiced bilabial nasal consonant	mʰː	mʰː	m extsuperscript{h}\textlengthmark	nasal::labial::+voice +nasal +spread glottis
 aspirated long voiced labio-dental nasal consonant	ɱʰː	ɱʰː	\textltailm extsuperscript{h}\textlengthmark	nasal::labiodental::+voice +nasal +spread glottis
 aspirated long voiced dental implosive consonant	ɗʰː	ɗʰː	\texthtd extsuperscript{h}\textlengthmark	plosive::dental::+voice +spread glottis
 aspirated long voiceless alveolar stop consonant	tʰː	tʰː	t extsuperscript{h}\textlengthmark	plosive::alveolar::−voice +spread glottis
-aspirated long voiced alveolar stop consonant	dːʰ	dʰː	d extsuperscript{h}\textlengthmark	plosive::alveolar::+voice +spread glottis
+aspirated long voiced alveolar stop consonant	dʰː	dʰː	d extsuperscript{h}\textlengthmark	plosive::alveolar::+voice +spread glottis
 aspirated long voiced alveolar nasal consonant	nʰː	nʰː	n extsuperscript{h}\textlengthmark	nasal::alveolar::+voice +nasal +spread glottis
 aspirated long voiceless retroflex stop consonant	ʈʰː	ʈʰː	\textrtailt extsuperscript{h}\textlengthmark	plosive::retroflex::−voice +spread glottis
 aspirated long voiced retroflex stop consonant	ɖʰː	ɖʰː	\textrtaild extsuperscript{h}\textlengthmark	plosive::retroflex::+voice +spread glottis
@@ -1614,9 +1596,9 @@ syllabic labialized long voiceless palatal-velar fricative consonant	ɧ̩ʷː	ɧ
 syllabic labialized long voiceless alveolo-palatal sibilant fricative consonant	ɕ̩ʷː	ɕ̩ʷː	\textipa{\s{\textctc}}\super w\textlengthmark	fricative::alveolar, palatal, labial::−voice +syllabic
 syllabic labialized long voiced alveolo-palatal sibilant fricative consonant	ʑ̩ʷː	ʑ̩ʷː	\textipa{\s{\textctz}}\super w\textlengthmark	fricative::alveolar, palatal, labial::+voice +syllabic
 from voiceless velar stop to aspirated long voiceless bilabial stop cluster	kpʰː	k͡pʰː	\t{k͡p} extsuperscript{h}\textlengthmark	plosive::labial, velar::−voice +spread glottis
-from voiced velar stop to aspirated long voiced bilabial stop cluster	gbːʰ	ɡ͡bʰː	\t{g͡b} extsuperscript{h}\textlengthmark	plosive::labial, velar::+voice +spread glottis
+from voiced velar stop to aspirated long voiced bilabial stop cluster	gbʰː	ɡ͡bʰː	\t{g͡b} extsuperscript{h}\textlengthmark	plosive::labial, velar::+voice +spread glottis
 from voiceless bilabial stop to aspirated long voiceless alveolar stop cluster	ptʰː	p͡tʰː	\t{p͡t} extsuperscript{h}\textlengthmark	plosive::labial, alveolar::−voice +spread glottis
-from voiced bilabial stop to aspirated long voiced alveolar stop cluster	bdːʰ	b͡dʰː	\t{b͡d} extsuperscript{h}\textlengthmark	plosive::labial, alveolar::+voice +spread glottis
+from voiced bilabial stop to aspirated long voiced alveolar stop cluster	bdʰː	b͡dʰː	\t{b͡d} extsuperscript{h}\textlengthmark	plosive::labial, alveolar::+voice +spread glottis
 aspirated long voiceless alveolo-palatal sibilant affricate consonant	tɕʰː	t͡ɕʰː	\t{t͡\textctc} extsuperscript{h}\textlengthmark	affricate::alveolar, palatal::−voice +spread glottis
 aspirated long voiced alveolo-palatal sibilant affricate consonant	dʑʰː	d͡ʑʰː	\t{d͡\textctz} extsuperscript{h}\textlengthmark	affricate::alveolar, palatal::+voice +spread glottis
 from voiceless velar stop to labialized long voiceless bilabial stop cluster	kpʷː	k͡pʷː	\t{k͡p}\super w\textlengthmark	plosive::labial, velar::−voice
@@ -1638,8 +1620,6 @@ aspirated long voiced labio-dental affricate consonant	bvʰː	b͡vʰː	\t{b͡v} 
 aspirated long voiceless dental stop consonant	t̪ʰː	t̪ʰː	\textsubbridge{t} extsuperscript{h}\textlengthmark	plosive::dental::−voice +spread glottis
 aspirated long voiced dental stop consonant	d̪ʰː	d̪ʰː	\textsubbridge{d} extsuperscript{h}\textlengthmark	plosive::dental::+voice +spread glottis
 aspirated long voiced post-alveolar stop consonant	d̠ʰː	d̠ʰː	\textsubbar{d} extsuperscript{h}\textlengthmark	plosive::dental::+voice +spread glottis
-aspirated long voiced dental sibilant affricate consonant	dz̪ʰː	d̪͡z̪ʰː	\t{\textsubbridge{d}\textsubbridge{z}} extsuperscript{h}\textlengthmark	affricate::dental::+voice +spread glottis
-aspirated long voiceless dental lateral affricate consonant	tɬ̪ʰː	t̪͡ɬ̪ʰː	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}} extsuperscript{h}\textlengthmark	affricate::dental::+voice +lateral +spread glottis
 aspirated long voiced alveolar sibilant affricate consonant	dzʰː	d͡zʰː	\t{dz} extsuperscript{h}\textlengthmark	affricate::dental::+voice +spread glottis
 aspirated long voiced dental nasal consonant	n̪ʰː	n̪ʰː	\textsubbridge{n} extsuperscript{h}\textlengthmark	nasal::dental::+voice +nasal +spread glottis
 aspirated long voiceless post-alveolar stop consonant	t̠ʰː	t̠ʰː	\textsubbar{t} extsuperscript{h}\textlengthmark	plosive::alveolar::−voice +spread glottis
@@ -1663,9 +1643,6 @@ labialized long voiced labio-dental affricate consonant	bvʷː	b͡vʷː	\t{b͡v}
 labialized long voiceless dental stop consonant	t̪ʷː	t̪ʷː	\textsubbridge{t}\super w\textlengthmark	plosive::dental, labial::−voice
 labialized long voiced dental stop consonant	d̪ʷː	d̪ʷː	\textsubbridge{d}\super w\textlengthmark	plosive::dental, labial::+voice
 labialized long voiced post-alveolar stop consonant	d̠ʷː	d̠ʷː	\textsubbar{d}\super w\textlengthmark	plosive::dental, labial::+voice
-labialized long voiceless dental sibilant affricate consonant	ts̪ʷː	t̪͡s̪ʷː	\t{\textsubbridge{t}\textsubbridge{s}}\super w\textlengthmark	affricate::dental, labial::−voice
-labialized long voiced dental sibilant affricate consonant	dz̪ʷː	d̪͡z̪ʷː	\t{\textsubbridge{d}\textsubbridge{z}}\super w\textlengthmark	affricate::dental, labial::+voice
-labialized long voiceless dental lateral affricate consonant	tɬ̪ʷː	t̪͡ɬ̪ʷː	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super w\textlengthmark	affricate::dental, labial::+voice +lateral
 labialized long voiced alveolar sibilant affricate consonant	dzʷː	d͡zʷː	\t{dz}\super w\textlengthmark	affricate::dental, labial::+voice
 labialized long voiceless dental lateral fricative consonant	ɬ̪ʷː	ɬ̪ʷː	\textsubbridge{\textbeltl}\super w\textlengthmark	fricative::dental, labial::+voice +lateral
 labialized long voiced dental nasal consonant	n̪ʷː	n̪ʷː	\textsubbridge{n}\super w\textlengthmark	nasal::dental, labial::+voice +nasal
@@ -1690,9 +1667,6 @@ palatalized long voiced labio-dental affricate consonant	bvʲː	b͡vʲː	\t{b͡v
 palatalized long voiceless dental stop consonant	t̪ʲː	t̪ʲː	\textsubbridge{t}\super j\textlengthmark	plosive::dental, palatal::−voice
 palatalized long voiced dental stop consonant	d̪ʲː	d̪ʲː	\textsubbridge{d}\super j\textlengthmark	plosive::dental, palatal::+voice
 palatalized long voiced post-alveolar stop consonant	d̠ʲː	d̠ʲː	\textsubbar{d}\super j\textlengthmark	plosive::dental, palatal::+voice
-palatalized long voiceless dental sibilant affricate consonant	ts̪ʲː	t̪͡s̪ʲː	\t{\textsubbridge{t}\textsubbridge{s}}\super j\textlengthmark	affricate::dental, palatal::−voice
-palatalized long voiced dental sibilant affricate consonant	dz̪ʲː	d̪͡z̪ʲː	\t{\textsubbridge{d}\textsubbridge{z}}\super j\textlengthmark	affricate::dental, palatal::+voice
-palatalized long voiceless dental lateral affricate consonant	tɬ̪ʲː	t̪͡ɬ̪ʲː	\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super j\textlengthmark	affricate::dental, palatal::+voice +lateral
 palatalized long voiced alveolar sibilant affricate consonant	dzʲː	d͡zʲː	\t{dz}\super j\textlengthmark	affricate::dental, palatal::+voice
 palatalized long voiceless dental lateral fricative consonant	ɬ̪ʲː	ɬ̪ʲː	\textsubbridge{\textbeltl}\super j\textlengthmark	fricative::dental, palatal::+voice +lateral
 palatalized long voiced dental nasal consonant	n̪ʲː	n̪ʲː	\textsubbridge{n}\super j\textlengthmark	nasal::dental, palatal::+voice +nasal

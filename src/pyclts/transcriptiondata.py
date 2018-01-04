@@ -52,6 +52,7 @@ ruhlen = partial(read, 'creanza.tsv', 'GRAPHEME', 'FREQUENCY')
 eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
 lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
 nidaba = partial(read, 'nidaba.tsv', 'GRAPHEME', 'FEATURES', 'LATEX')
+multimedia = partial(read, 'multimedia.tsv', 'GRAPHEME', 'FEATURES', 'SOUND', 'IMAGE')
 
 
 def lingpy(sound_class):
@@ -81,7 +82,8 @@ class TranscriptionData(object):
             'lapsyd': lapsyd,
             'eurasian': eurasian,
             'ruhlen': ruhlen,
-            'nidaba': nidaba
+            'nidaba': nidaba,
+            'multimedia': multimedia,
         }[data]()
         self.name = data
         self.id = data

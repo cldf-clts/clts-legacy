@@ -92,7 +92,8 @@ dʒʲ	voiced	post-alveolar	affricate		palatalization:palatalized,sibilancy:sibil
 tʃ	voiceless	post-alveolar	affricate		sibilancy:sibilant	
 tᶴ	voiceless	post-alveolar	affricate	+	sibilancy:sibilant	
 tʃʰ	voiceless	post-alveolar	affricate		aspiration:aspirated,sibilancy:sibilant	
-tːʃ	voiceless	post-alveolar	affricate		duration:long,sibilancy:sibilant	
+tːʃ	voiceless	post-alveolar	affricate	+	duration:long,sibilancy:sibilant	
+tʃː	voiceless	post-alveolar	affricate		duration:long,sibilancy:sibilant	
 tʃʼ	voiceless	post-alveolar	affricate		ejection:ejective,sibilancy:sibilant	
 tʃʲ	voiceless	post-alveolar	affricate		palatalization:palatalized,sibilancy:sibilant	
 ⁿtʃ	voiceless	post-alveolar	affricate		preceding:pre-nasalized,sibilancy:sibilant	
@@ -101,7 +102,10 @@ dʐ	voiced	retroflex	affricate	+	sibilancy:sibilant
 dᶼ	voiced	retroflex	affricate	+	sibilancy:sibilant	
 ɖᶼ	voiced	retroflex	affricate	+	sibilancy:sibilant	
 ɖːʐ	voiced	retroflex	affricate	+	duration:long,sibilancy:sibilant	
-ʈːʂ	voiced	retroflex	affricate		duration:long,sibilancy:sibilant	
+ʈʂː	voiced	retroflex	affricate		duration:long,sibilancy:sibilant	
+ʈːʂ	voiced	retroflex	affricate	+	duration:long,sibilancy:sibilant	
+tʂː	voiced	retroflex	affricate	+	duration:long,sibilancy:sibilant	
+tːʂ	voiced	retroflex	affricate	+	duration:long,sibilancy:sibilant	
 tʂ	voiceless	retroflex	affricate	+	sibilancy:sibilant	
 ʈʂ	voiceless	retroflex	affricate		sibilancy:sibilant	
 tᶳ	voiceless	retroflex	affricate	+	sibilancy:sibilant	
@@ -339,12 +343,13 @@ t̠ʃ	voiceless	post-alveolar	affricate	+	sibilancy:sibilant
 ç	voiceless	palatal	fricative		sibilancy:sibilant	
 dʱ	voiced	alveolar	stop		breathiness:breathy	
 d̤	voiced	alveolar	stop	+	breathiness:breathy	
-dːʱ	voiced	alveolar	stop		duration:long,breathiness:breathy	
+dːʱ	voiced	alveolar	stop	+	duration:long,breathiness:breathy	
+dʱː	voiced	alveolar	stop		duration:long,breathiness:breathy	
 d̤ː	voiced	alveolar	stop	+	duration:long,breathiness:breathy	
 d̰	voiced	alveolar	stop		creakiness:creaky	
 d	voiced	alveolar	stop			
-dʰː	voiced	alveolar	stop	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
-dːʰ	voiced	alveolar	stop		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+dʰː	voiced	alveolar	stop		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+dːʰ	voiced	alveolar	stop	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
 dʰ	voiced	alveolar	stop		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
 dː	voiced	alveolar	stop		duration:long	
 dʲ	voiced	alveolar	stop		palatalization:palatalized	
@@ -373,10 +378,11 @@ tⁿ	voiceless	alveolar	stop		release:with-nasal-release
 t̬	voiceless	alveolar	stop		voicing:revoiced	
 bʱ	voiced	bilabial	stop		breathiness:breathy	
 b̤	voiced	bilabial	stop	+	breathiness:breathy	
-bːʱ	voiced	bilabial	stop		duration:long,breathiness:breathy	
+bːʱ	voiced	bilabial	stop	+	duration:long,breathiness:breathy	
+bʱː	voiced	bilabial	stop		duration:long,breathiness:breathy	
 b	voiced	bilabial	stop			
-bʰː	voiced	bilabial	stop	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
-bːʰ	voiced	bilabial	stop		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+bʰː	voiced	bilabial	stop		aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
+bːʰ	voiced	bilabial	stop	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
 bʰ	voiced	bilabial	stop		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
 b̥ʰ	voiced	bilabial	stop		aspiration:aspirated,voicing:devoiced	Alias candidate.
 p̬	voiced	bilabial	stop	+		Check with source.
@@ -527,8 +533,8 @@ dʒʷ	voiced	post-alveolar	affricate		labialization:labialized,sibilancy:sibilan
 l̤	voiced	alveolar	approximant	+	breathiness:breathy,laterality:lateral	
 lʱ	voiced	alveolar	approximant		breathiness:breathy,laterality:lateral	
 d̠ʒ̤	voiced	post-alveolar	affricate	+	breathiness:breathy,sibilancy:sibilant	
-tːʃʼ	voiceless	post-alveolar	affricate		duration:long,ejection:ejective,sibilancy:sibilant	
-tʃʼː	voiceless	post-alveolar	affricate	+	duration:long,ejection:ejective,sibilancy:sibilant	
+tːʃʼ	voiceless	post-alveolar	affricate	+	duration:long,ejection:ejective,sibilancy:sibilant	
+tʃʼː	voiceless	post-alveolar	affricate		duration:long,ejection:ejective,sibilancy:sibilant	
 t̠ʃʼː	voiceless	post-alveolar	affricate	+	duration:long,ejection:ejective,sibilancy:sibilant	
 ʈːʰ	voiceless	retroflex	stop	+	aspiration:aspirated,duration:long	
 pːʰ	voiceless	bilabial	stop	+	aspiration:aspirated,duration:long	
