@@ -35,9 +35,12 @@ def loadmeta(data):
                 features = '{0}::{1}::{2}'.format(stype, place, manner)
                 latex = line[4].strip()
                 sound = bipa[glyph]
-                if sound.type != 'unknownsound' and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
-                    out += [[sound.name, sound.s, glyph, latex, features]]
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):                    
+                        out += [[sound.name, sound.s, glyph, latex, features]]
                 else:
                     if sound.type == 'unknownsound':
                         print(sound)
@@ -57,8 +60,11 @@ def loadmeta(data):
                 glyph = line[-4]
                 url = line[4]
                 sound = bipa[glyph]
-                if sound.type != 'unknownsound' and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
                     out += [[sound.name, sound.s, url, glyph]]
                 else:
                     if sound.type == 'unknownsound':
@@ -80,8 +86,11 @@ def loadmeta(data):
                 if '+' in glyph:
                     continue
                 sound = bipa[glyph]
-                if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
                     out += [[sound.name, sound.s, line[1], glyph]]
                 else:
                     if sound.type == 'unknownsound':
@@ -102,8 +111,11 @@ def loadmeta(data):
             for i, line in enumerate(uni):
                 glyph = line[1]
                 sound = bipa[glyph]
-                if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
                     out += [[sound.name, sound.s, line[0], glyph, line[2]]]
                 else:
                     if sound.type == 'unknownsound':
@@ -127,8 +139,10 @@ def loadmeta(data):
                 if glyph not in visited:
                     visited.add(glyph)
                     sound = bipa[glyph]
-                    if sound.type not in ['unknownsound', 'marker'] and not (sound.generated and
-                            frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                    if sound.type not in ['unknownsound', 'marker'] and not \
+                        (sound.generated and frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and \
+                        (len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
                         out += [[sound.name, sound.s, url + str(glyph), glyph]]
                     else:
                         if sound.type == 'unknownsound':
@@ -149,9 +163,11 @@ def loadmeta(data):
                 glyph = line[0]
                 url_ = url.format(glyph)
                 sound = bipa[glyph]
-
-                if sound.type != 'unknownsound' and not (sound.generated and
-                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                        sound.generated and
+                        frozenset(bipa._norm(glyph)) !=
+                        frozenset(bipa._norm(sound.s))) and (
+                                len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):                         
                     out += [[sound.name, str(sound), url_, glyph]]
                 else:
                     print(sound)
