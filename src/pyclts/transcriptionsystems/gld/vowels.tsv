@@ -53,18 +53,18 @@ iː	unrounded	close	front		duration:long
 ı	unrounded	near-close	near-front			
 ıı	unrounded	near-close	near-front	+	duration:long	
 ıː	unrounded	near-close	near-front		duration:long	
-ʏ	rounded	near-close	front			
-ʏʏ	rounded	near-close	front	+	duration:long	
-ʏː	rounded	near-close	front		duration:long	
+ʏ	rounded	near-close	near-front			
+ʏʏ	rounded	near-close	near-front	+	duration:long	
+ʏː	rounded	near-close	near-front		duration:long	
 ü	rounded	close	front			
 üü	rounded	close	front	+	duration:long	
 üː	rounded	close	front		duration:long	
 ã	unrounded	open	front		nasalization:nasalized	
 ãã	unrounded	open	front	+	nasalization:nasalized,duration:long	
 ãː	unrounded	open	front		nasalization:nasalized,duration:long	
-ä	unrounded	nearly-open	front			
-ää	unrounded	nearly-open	front	+	duration:long	
-äː	unrounded	nearly-open	front		duration:long	
+ä	unrounded	near-open	front			
+ää	unrounded	near-open	front	+	duration:long	
+äː	unrounded	near-open	front		duration:long	
 ö	rounded	open-mid	front			
 öö	rounded	open-mid	front	+	duration:long	
 öː	rounded	open-mid	front		duration:long	

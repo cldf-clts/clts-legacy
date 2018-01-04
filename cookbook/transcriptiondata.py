@@ -23,6 +23,33 @@ def loadmeta(data):
         print('file <{0}> has been successfully written ({1} lines)'.format(filename,
             len(out)))
 
+    if data == 'nidaba':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME', 'LATEX', 'FEATURES']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'nidaba.co.uk'), delimiter='\t') as uni:
+            for line in uni:
+                glyph = line[0].strip()
+                place = line[1].strip()
+                stype = line[2].strip()
+                manner = line[3].strip()
+                features = '{0}::{1}::{2}'.format(stype, place, manner)
+                latex = line[4].strip()
+                sound = bipa[glyph]
+                if sound.type != 'unknownsound' and not (sound.generated and
+                        frozenset(bipa._norm(glyph)) != frozenset(bipa._norm(sound.s))):
+                    out += [[sound.name, sound.s, glyph, latex, features]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+        write_transcriptiondata(out, 'nidaba.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
+
+
     if data == 'phoible':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME']]
         all_lines = 0

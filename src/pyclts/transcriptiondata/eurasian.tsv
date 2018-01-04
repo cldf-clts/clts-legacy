@@ -54,7 +54,7 @@ unrounded close front vowel	i	http://eurasianphonology.info/search_exact?dialect
 unrounded open-mid front vowel	ɛ	http://eurasianphonology.info/search_exact?dialects=True&query=ɛ	ɛ
 unrounded close-mid front vowel	e	http://eurasianphonology.info/search_exact?dialects=True&query=e	e
 advanced unrounded open front vowel	a̟	http://eurasianphonology.info/search_exact?dialects=True&query=a̟	a̟
-unrounded nearly-open central vowel	ɐ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ	ɐ
+unrounded near-open central vowel	ɐ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ	ɐ
 unrounded mid central vowel	ə	http://eurasianphonology.info/search_exact?dialects=True&query=ə	ə
 unrounded open back vowel	ɑ	http://eurasianphonology.info/search_exact?dialects=True&query=ɑ	ɑ
 rounded open-mid back vowel	ɔ	http://eurasianphonology.info/search_exact?dialects=True&query=ɔ	ɔ
@@ -63,11 +63,11 @@ rounded close back vowel	u	http://eurasianphonology.info/search_exact?dialects=T
 ultra-short unrounded open back vowel	ɑ̆	http://eurasianphonology.info/search_exact?dialects=True&query=ɑ̆	ɑ̆
 ultra-short unrounded close-mid front vowel	ĕ	http://eurasianphonology.info/search_exact?dialects=True&query=ĕ	ĕ
 from unrounded open-mid front to advanced unrounded open front diphthong	ɛa̟	http://eurasianphonology.info/search_exact?dialects=True&query=ɛa̟	ɛa̟
-from unrounded open-mid front to unrounded nearly-open central diphthong	ɛɐ	http://eurasianphonology.info/search_exact?dialects=True&query=ɛɐ	ɛɐ
-from unrounded close front to unrounded nearly-open central diphthong	iɐ	http://eurasianphonology.info/search_exact?dialects=True&query=iɐ	iɐ
+from unrounded open-mid front to unrounded near-open central diphthong	ɛɐ	http://eurasianphonology.info/search_exact?dialects=True&query=ɛɐ	ɛɐ
+from unrounded close front to unrounded near-open central diphthong	iɐ	http://eurasianphonology.info/search_exact?dialects=True&query=iɐ	iɐ
 from unrounded close front to unrounded mid central diphthong	iə	http://eurasianphonology.info/search_exact?dialects=True&query=iə	iə
 from rounded close back to unrounded mid central diphthong	uə	http://eurasianphonology.info/search_exact?dialects=True&query=uə	uə
-from rounded close back to unrounded nearly-open central diphthong	uɐ	http://eurasianphonology.info/search_exact?dialects=True&query=uɐ	uɐ
+from rounded close back to unrounded near-open central diphthong	uɐ	http://eurasianphonology.info/search_exact?dialects=True&query=uɐ	uɐ
 from rounded close back to advanced unrounded open front diphthong	ua̟	http://eurasianphonology.info/search_exact?dialects=True&query=ua̟	ua̟
 from rounded close back to rounded open-mid back diphthong	uɔ	http://eurasianphonology.info/search_exact?dialects=True&query=uɔ	uɔ
 from rounded close back to unrounded close-mid front diphthong	ue	http://eurasianphonology.info/search_exact?dialects=True&query=ue	ue
@@ -101,8 +101,8 @@ voiceless glottal fricative consonant	h	http://eurasianphonology.info/search_exa
 long unrounded close front vowel	iː	http://eurasianphonology.info/search_exact?dialects=True&query=iː	iː
 long unrounded close-mid front vowel	eː	http://eurasianphonology.info/search_exact?dialects=True&query=eː	eː
 long unrounded open-mid front vowel	ɛː	http://eurasianphonology.info/search_exact?dialects=True&query=ɛː	ɛː
-unrounded nearly-open front vowel	æ	http://eurasianphonology.info/search_exact?dialects=True&query=æ	æ
-long unrounded nearly-open front vowel	æː	http://eurasianphonology.info/search_exact?dialects=True&query=æː	æː
+unrounded near-open front vowel	æ	http://eurasianphonology.info/search_exact?dialects=True&query=æ	æ
+long unrounded near-open front vowel	æː	http://eurasianphonology.info/search_exact?dialects=True&query=æː	æː
 long rounded close front vowel	yː	http://eurasianphonology.info/search_exact?dialects=True&query=yː	yː
 rounded close-mid front vowel	ø	http://eurasianphonology.info/search_exact?dialects=True&query=ø	ø
 long rounded close-mid front vowel	øː	http://eurasianphonology.info/search_exact?dialects=True&query=øː	øː
@@ -112,12 +112,12 @@ long rounded close-mid back vowel	oː	http://eurasianphonology.info/search_exact
 rounded open back vowel	ɒ	http://eurasianphonology.info/search_exact?dialects=True&query=ɒ	ɒ
 long rounded open back vowel	ɒː	http://eurasianphonology.info/search_exact?dialects=True&query=ɒː	ɒː
 from unrounded close-mid front to non-syllabic unrounded close front diphthong	ei̯	http://eurasianphonology.info/search_exact?dialects=True&query=ei̯	ei̯
-from unrounded nearly-open front to non-syllabic unrounded close front diphthong	æi̯	http://eurasianphonology.info/search_exact?dialects=True&query=æi̯	æi̯
+from unrounded near-open front to non-syllabic unrounded close front diphthong	æi̯	http://eurasianphonology.info/search_exact?dialects=True&query=æi̯	æi̯
 from rounded close-mid back to non-syllabic unrounded close front diphthong	oi̯	http://eurasianphonology.info/search_exact?dialects=True&query=oi̯	oi̯
 from unrounded close front to non-syllabic unrounded mid central diphthong	iə̯	http://eurasianphonology.info/search_exact?dialects=True&query=iə̯	iə̯
 from rounded close front to non-syllabic unrounded mid central diphthong	yə̯	http://eurasianphonology.info/search_exact?dialects=True&query=yə̯	yə̯
 from rounded close back to non-syllabic unrounded mid central diphthong	uə̯	http://eurasianphonology.info/search_exact?dialects=True&query=uə̯	uə̯
-from unrounded nearly-open front to non-syllabic rounded close back diphthong	æu̯	http://eurasianphonology.info/search_exact?dialects=True&query=æu̯	æu̯
+from unrounded near-open front to non-syllabic rounded close back diphthong	æu̯	http://eurasianphonology.info/search_exact?dialects=True&query=æu̯	æu̯
 from rounded close-mid back to non-syllabic rounded close back diphthong	ou̯	http://eurasianphonology.info/search_exact?dialects=True&query=ou̯	ou̯
 aspirated voiceless bilabial stop consonant	pʰ	http://eurasianphonology.info/search_exact?dialects=True&query=pʰ	pʰ
 aspirated voiceless alveolar stop consonant	tʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tʰ	tʰ
@@ -140,7 +140,7 @@ unrounded open-mid central vowel	ɜ	http://eurasianphonology.info/search_exact?d
 from unrounded close front to unrounded mid front diphthong	ie̞	http://eurasianphonology.info/search_exact?dialects=True&query=ie̞	ie̞
 long unrounded open-mid central vowel	ɜː	http://eurasianphonology.info/search_exact?dialects=True&query=ɜː	ɜː
 long rounded mid back vowel	o̞ː	http://eurasianphonology.info/search_exact?dialects=True&query=o̞ː	o̞ː
-creaky unrounded nearly-open front vowel	æ̰	http://eurasianphonology.info/search_exact?dialects=True&query=æ̰	æ̰
+creaky unrounded near-open front vowel	æ̰	http://eurasianphonology.info/search_exact?dialects=True&query=æ̰	æ̰
 creaky unrounded open front vowel	a̰	http://eurasianphonology.info/search_exact?dialects=True&query=a̰	a̰
 creaky unrounded mid front vowel	e̞̰	http://eurasianphonology.info/search_exact?dialects=True&query=e̞̰	e̞̰
 creaky rounded mid central vowel	ɵ̞̰	http://eurasianphonology.info/search_exact?dialects=True&query=ɵ̞̰	ɵ̞̰
@@ -332,7 +332,7 @@ voiced retroflex sibilant affricate consonant	ɖʐ	http://eurasianphonology.info
 from pre-nasalized voiced alveolar stop to voiced alveolar sibilant fricative cluster	ⁿdz	http://eurasianphonology.info/search_exact?dialects=True&query=ⁿdz	ⁿdz
 pre-nasalized voiced retroflex sibilant affricate consonant	ⁿɖʐ	http://eurasianphonology.info/search_exact?dialects=True&query=ⁿɖʐ	ⁿɖʐ
 pre-nasalized voiced post-alveolar affricate consonant	ⁿdʒ	http://eurasianphonology.info/search_exact?dialects=True&query=ⁿdʒ	ⁿdʒ
-from unrounded nearly-open central to non-syllabic unrounded close front diphthong	ɐi̯	http://eurasianphonology.info/search_exact?dialects=True&query=ɐi̯	ɐi̯
+from unrounded near-open central to non-syllabic unrounded close front diphthong	ɐi̯	http://eurasianphonology.info/search_exact?dialects=True&query=ɐi̯	ɐi̯
 aspirated voiceless retroflex stop consonant	ʈʰ	http://eurasianphonology.info/search_exact?dialects=True&query=ʈʰ	ʈʰ
 voiced glottal fricative consonant	ɦ	http://eurasianphonology.info/search_exact?dialects=True&query=ɦ	ɦ
 devoiced voiced alveolar trill consonant	r̥	http://eurasianphonology.info/search_exact?dialects=True&query=r̥	r̥
@@ -346,9 +346,9 @@ devoiced voiced bilabial nasal consonant	m̥	http://eurasianphonology.info/searc
 devoiced voiced palatal nasal consonant	ɲ̊	http://eurasianphonology.info/search_exact?dialects=True&query=ɲ̊	ɲ̊
 devoiced voiced velar nasal consonant	ŋ̊	http://eurasianphonology.info/search_exact?dialects=True&query=ŋ̊	ŋ̊
 voiced uvular stop consonant	ɢ	http://eurasianphonology.info/search_exact?dialects=True&query=ɢ	ɢ
-aspirated.sibilancy:sibilant voiceless alveolo-palatal affricate consonant	tɕʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tɕʰ	tɕʰ
+aspirated voiceless alveolo-palatal sibilant affricate consonant	tɕʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tɕʰ	tɕʰ
 raised unrounded close back vowel	ɯ̝	http://eurasianphonology.info/search_exact?dialects=True&query=ɯ̝	ɯ̝
-nasalized unrounded nearly-open front vowel	æ̃	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃	æ̃
+nasalized unrounded near-open front vowel	æ̃	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃	æ̃
 aspirated voiceless alveolar sibilant fricative consonant	sʰ	http://eurasianphonology.info/search_exact?dialects=True&query=sʰ	sʰ
 aspirated voiceless alveolo-palatal sibilant fricative consonant	ɕʰ	http://eurasianphonology.info/search_exact?dialects=True&query=ɕʰ	ɕʰ
 aspirated voiceless velar fricative consonant	xʰ	http://eurasianphonology.info/search_exact?dialects=True&query=xʰ	xʰ
@@ -447,28 +447,28 @@ from nasalized rounded close back to nasalized unrounded open front diphthong	u�
 from nasalized unrounded near-close near-front to nasalized unrounded mid central diphthong	ɪ̃ə̃	http://eurasianphonology.info/search_exact?dialects=True&query=ɪ̃ə̃	ɪ̃ə̃
 from non-syllabic unrounded close front to unrounded open-mid front diphthong	i̯ɛ	http://eurasianphonology.info/search_exact?dialects=True&query=i̯ɛ	i̯ɛ
 from non-syllabic rounded close back to rounded open-mid back diphthong	u̯ɔ	http://eurasianphonology.info/search_exact?dialects=True&query=u̯ɔ	u̯ɔ
-from unrounded nearly-open front to non-syllabic unrounded near-close near-front diphthong	æɪ̯	http://eurasianphonology.info/search_exact?dialects=True&query=æɪ̯	æɪ̯
+from unrounded near-open front to non-syllabic unrounded near-close near-front diphthong	æɪ̯	http://eurasianphonology.info/search_exact?dialects=True&query=æɪ̯	æɪ̯
 from rounded open-mid back to non-syllabic rounded near-close near-back diphthong	ɔʊ̯	http://eurasianphonology.info/search_exact?dialects=True&query=ɔʊ̯	ɔʊ̯
 from long unrounded open front to unrounded near-close near-front diphthong	aːɪ	http://eurasianphonology.info/search_exact?dialects=True&query=aːɪ	aːɪ
 from unrounded open back to non-syllabic rounded near-close near-back diphthong	ɑʊ̯	http://eurasianphonology.info/search_exact?dialects=True&query=ɑʊ̯	ɑʊ̯
-from unrounded nearly-open front to unrounded open-mid front diphthong	æɛ	http://eurasianphonology.info/search_exact?dialects=True&query=æɛ	æɛ
+from unrounded near-open front to unrounded open-mid front diphthong	æɛ	http://eurasianphonology.info/search_exact?dialects=True&query=æɛ	æɛ
 from rounded close back to long rounded open-mid back diphthong	uɔː	http://eurasianphonology.info/search_exact?dialects=True&query=uɔː	uɔː
 from unrounded close front to long unrounded open-mid front diphthong	iɛː	http://eurasianphonology.info/search_exact?dialects=True&query=iɛː	iɛː
 from nasalized rounded close back to long nasalized rounded open-mid back diphthong	ũɔ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=ũɔ̃ː	ũɔ̃ː
 long nasalized rounded open back vowel	ɒ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=ɒ̃ː	ɒ̃ː
 from nasalized unrounded close front to long nasalized unrounded open-mid front diphthong	ĩɛ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=ĩɛ̃ː	ĩɛ̃ː
 nasalized rounded close-mid front vowel	ø̃	http://eurasianphonology.info/search_exact?dialects=True&query=ø̃	ø̃
-from nasalized unrounded nearly-open front to non-syllabic nasalized unrounded near-close near-front diphthong	æ̃ɪ̯̃	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃ɪ̯̃	æ̃ɪ̯̃
+from nasalized unrounded near-open front to non-syllabic nasalized unrounded near-close near-front diphthong	æ̃ɪ̯̃	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃ɪ̯̃	æ̃ɪ̯̃
 from nasalized rounded open-mid back to non-syllabic nasalized rounded near-close near-back diphthong	ɔ̃ʊ̯̃	http://eurasianphonology.info/search_exact?dialects=True&query=ɔ̃ʊ̯̃	ɔ̃ʊ̯̃
 long nasalized rounded close front vowel	ỹː	http://eurasianphonology.info/search_exact?dialects=True&query=ỹː	ỹː
 long nasalized rounded close-mid front vowel	ø̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=ø̃ː	ø̃ː
 nasalized rounded close front vowel	ỹ	http://eurasianphonology.info/search_exact?dialects=True&query=ỹ	ỹ
-from rounded close back to unrounded nearly-open front diphthong	uæ	http://eurasianphonology.info/search_exact?dialects=True&query=uæ	uæ
+from rounded close back to unrounded near-open front diphthong	uæ	http://eurasianphonology.info/search_exact?dialects=True&query=uæ	uæ
 from unrounded mid central to rounded close-mid back diphthong	əo	http://eurasianphonology.info/search_exact?dialects=True&query=əo	əo
 from unrounded open front to rounded close-mid back diphthong	ao	http://eurasianphonology.info/search_exact?dialects=True&query=ao	ao
 from unrounded close front to rounded close back diphthong	iu	http://eurasianphonology.info/search_exact?dialects=True&query=iu	iu
-from unrounded nearly-open central to rounded close back diphthong	ɐu	http://eurasianphonology.info/search_exact?dialects=True&query=ɐu	ɐu
-from unrounded nearly-open central to unrounded close front diphthong	ɐi	http://eurasianphonology.info/search_exact?dialects=True&query=ɐi	ɐi
+from unrounded near-open central to rounded close back diphthong	ɐu	http://eurasianphonology.info/search_exact?dialects=True&query=ɐu	ɐu
+from unrounded near-open central to unrounded close front diphthong	ɐi	http://eurasianphonology.info/search_exact?dialects=True&query=ɐi	ɐi
 long rounded near-close near-front vowel	ʏː	http://eurasianphonology.info/search_exact?dialects=True&query=ʏː	ʏː
 long nasalized unrounded open back vowel	ɑ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=ɑ̃ː	ɑ̃ː
 from long unrounded open front to rounded close back diphthong	aːu	http://eurasianphonology.info/search_exact?dialects=True&query=aːu	aːu
@@ -608,7 +608,7 @@ pharyngealized voiced labio-dental fricative consonant	vˤ	http://eurasianphonol
 pharyngealized voiced post-alveolar sibilant fricative consonant	ʒˤ	http://eurasianphonology.info/search_exact?dialects=True&query=ʒˤ	ʒˤ
 from long unrounded close front to unrounded open-mid front diphthong	iːɛ	http://eurasianphonology.info/search_exact?dialects=True&query=iːɛ	iːɛ
 from long rounded close back to unrounded open-mid back diphthong	uːʌ	http://eurasianphonology.info/search_exact?dialects=True&query=uːʌ	uːʌ
-from non-syllabic unrounded open-mid front to long unrounded nearly-open front diphthong	ɛ̯æː	http://eurasianphonology.info/search_exact?dialects=True&query=ɛ̯æː	ɛ̯æː
+from non-syllabic unrounded open-mid front to long unrounded near-open front diphthong	ɛ̯æː	http://eurasianphonology.info/search_exact?dialects=True&query=ɛ̯æː	ɛ̯æː
 from rounded open-mid back to long unrounded open front diphthong	ɔaː	http://eurasianphonology.info/search_exact?dialects=True&query=ɔaː	ɔaː
 lowered unrounded near-close near-front vowel	ɪ̞	http://eurasianphonology.info/search_exact?dialects=True&query=ɪ̞	ɪ̞
 devoiced voiced dental stop consonant	d̪̥	http://eurasianphonology.info/search_exact?dialects=True&query=d̪̥	d̪̥
@@ -717,7 +717,7 @@ breathy voiced velar stop consonant	gʱ	http://eurasianphonology.info/search_exa
 voiced velar implosive consonant	ɠ	http://eurasianphonology.info/search_exact?dialects=True&query=ɠ	ɠ
 ultra-short unrounded near-close near-front vowel	ɪ̆	http://eurasianphonology.info/search_exact?dialects=True&query=ɪ̆	ɪ̆
 ultra-short rounded near-close near-back vowel	ʊ̆	http://eurasianphonology.info/search_exact?dialects=True&query=ʊ̆	ʊ̆
-ultra-short unrounded nearly-open central vowel	ɐ̆	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̆	ɐ̆
+ultra-short unrounded near-open central vowel	ɐ̆	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̆	ɐ̆
 breathy voiced alveolar lateral approximant consonant	lʱ	http://eurasianphonology.info/search_exact?dialects=True&query=lʱ	lʱ
 breathy voiced alveolar trill consonant	rʱ	http://eurasianphonology.info/search_exact?dialects=True&query=rʱ	rʱ
 breathy voiced post-alveolar sibilant affricate consonant	dʒʱ	http://eurasianphonology.info/search_exact?dialects=True&query=dʒʱ	dʒʱ
@@ -733,13 +733,13 @@ breathy unrounded close back vowel	ɯ̤	http://eurasianphonology.info/search_exa
 breathy unrounded close-mid front vowel	e̤	http://eurasianphonology.info/search_exact?dialects=True&query=e̤	e̤
 breathy rounded close-mid back vowel	o̤	http://eurasianphonology.info/search_exact?dialects=True&query=o̤	o̤
 breathy unrounded open front vowel	a̤	http://eurasianphonology.info/search_exact?dialects=True&query=a̤	a̤
-nasalized unrounded nearly-open central vowel	ɐ̃	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̃	ɐ̃
+nasalized unrounded near-open central vowel	ɐ̃	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̃	ɐ̃
 voiced bilabial approximant consonant	β̞	http://eurasianphonology.info/search_exact?dialects=True&query=β̞	β̞
 voiced dental approximant consonant	ð̞	http://eurasianphonology.info/search_exact?dialects=True&query=ð̞	ð̞
 from rounded close back to rounded mid back diphthong	uo̞	http://eurasianphonology.info/search_exact?dialects=True&query=uo̞	uo̞
 from rounded close front to rounded mid front diphthong	yø̞	http://eurasianphonology.info/search_exact?dialects=True&query=yø̞	yø̞
-from rounded close front to unrounded nearly-open front diphthong	yæ	http://eurasianphonology.info/search_exact?dialects=True&query=yæ	yæ
-from unrounded close front to unrounded nearly-open front diphthong	iæ	http://eurasianphonology.info/search_exact?dialects=True&query=iæ	iæ
+from rounded close front to unrounded near-open front diphthong	yæ	http://eurasianphonology.info/search_exact?dialects=True&query=yæ	yæ
+from unrounded close front to unrounded near-open front diphthong	iæ	http://eurasianphonology.info/search_exact?dialects=True&query=iæ	iæ
 voiceless apical alveolar stop consonant	t̺	http://eurasianphonology.info/search_exact?dialects=True&query=t̺	t̺
 less-rounded rounded near-close near-back vowel	ʊ̜	http://eurasianphonology.info/search_exact?dialects=True&query=ʊ̜	ʊ̜
 mid-long advanced unrounded open back vowel	ɑ̟ˑ	http://eurasianphonology.info/search_exact?dialects=True&query=ɑ̟ˑ	ɑ̟ˑ
@@ -750,7 +750,7 @@ rounded near-close central vowel	ʊ̈	http://eurasianphonology.info/search_exact
 mid-long lowered rounded close back vowel	u̞ˑ	http://eurasianphonology.info/search_exact?dialects=True&query=u̞ˑ	u̞ˑ
 mid-long unrounded close-mid front vowel	eˑ	http://eurasianphonology.info/search_exact?dialects=True&query=eˑ	eˑ
 long rounded mid central vowel	ɵ̞ː	http://eurasianphonology.info/search_exact?dialects=True&query=ɵ̞ː	ɵ̞ː
-mid-long unrounded nearly-open front vowel	æˑ	http://eurasianphonology.info/search_exact?dialects=True&query=æˑ	æˑ
+mid-long unrounded near-open front vowel	æˑ	http://eurasianphonology.info/search_exact?dialects=True&query=æˑ	æˑ
 mid-long rounded close front vowel	yˑ	http://eurasianphonology.info/search_exact?dialects=True&query=yˑ	yˑ
 mid-long rounded close-mid front vowel	øˑ	http://eurasianphonology.info/search_exact?dialects=True&query=øˑ	øˑ
 mid-long unrounded close back vowel	ɯˑ	http://eurasianphonology.info/search_exact?dialects=True&query=ɯˑ	ɯˑ
@@ -814,7 +814,7 @@ nasalized unrounded close-mid central vowel	ɘ̃	http://eurasianphonology.info/s
 from unrounded close front to unrounded open-mid central diphthong	iɜ	http://eurasianphonology.info/search_exact?dialects=True&query=iɜ	iɜ
 from unrounded close front to nasalized unrounded open-mid front diphthong	iɛ̃	http://eurasianphonology.info/search_exact?dialects=True&query=iɛ̃	iɛ̃
 from rounded close front to nasalized unrounded close front diphthong	yĩ	http://eurasianphonology.info/search_exact?dialects=True&query=yĩ	yĩ
-from unrounded close front to nasalized unrounded nearly-open front diphthong	iæ̃	http://eurasianphonology.info/search_exact?dialects=True&query=iæ̃	iæ̃
+from unrounded close front to nasalized unrounded near-open front diphthong	iæ̃	http://eurasianphonology.info/search_exact?dialects=True&query=iæ̃	iæ̃
 from rounded close front to unrounded close front diphthong	yi	http://eurasianphonology.info/search_exact?dialects=True&query=yi	yi
 from rounded close front to unrounded open-mid central diphthong	yɜ	http://eurasianphonology.info/search_exact?dialects=True&query=yɜ	yɜ
 from rounded close back to unrounded open-mid central diphthong	uɜ	http://eurasianphonology.info/search_exact?dialects=True&query=uɜ	uɜ
@@ -1006,14 +1006,14 @@ syllabic voiced labio-dental approximant consonant	ʋ̩	http://eurasianphonology
 syllabic voiceless alveolar sibilant fricative consonant	s̩	http://eurasianphonology.info/search_exact?dialects=True&query=s̩	s̩
 syllabic voiceless labio-dental fricative consonant	f̩	http://eurasianphonology.info/search_exact?dialects=True&query=f̩	f̩
 lowered unrounded close back vowel	ɯ̞	http://eurasianphonology.info/search_exact?dialects=True&query=ɯ̞	ɯ̞
-long unrounded nearly-open central vowel	ɐː	http://eurasianphonology.info/search_exact?dialects=True&query=ɐː	ɐː
+long unrounded near-open central vowel	ɐː	http://eurasianphonology.info/search_exact?dialects=True&query=ɐː	ɐː
 syllabic voiced alveolar trill consonant	r̩	http://eurasianphonology.info/search_exact?dialects=True&query=r̩	r̩
 nasalized rounded close central vowel	ʉ̃	http://eurasianphonology.info/search_exact?dialects=True&query=ʉ̃	ʉ̃
 aspirated velarized voiceless bilabial stop consonant	pʰˠ	http://eurasianphonology.info/search_exact?dialects=True&query=pˠʰ	pˠʰ
 velarized voiced labio-dental fricative consonant	vˠ	http://eurasianphonology.info/search_exact?dialects=True&query=vˠ	vˠ
 aspirated velarized voiceless dental stop consonant	t̪ʰˠ	http://eurasianphonology.info/search_exact?dialects=True&query=t̪ˠʰ	t̪ˠʰ
 raised rounded open-mid back vowel	ɔ̝	http://eurasianphonology.info/search_exact?dialects=True&query=ɔ̝	ɔ̝
-from unrounded nearly-open central to unrounded near-close near-front diphthong	ɐɪ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐɪ	ɐɪ
+from unrounded near-open central to unrounded near-close near-front diphthong	ɐɪ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐɪ	ɐɪ
 from rounded open-mid back to rounded near-close near-back diphthong	ɔʊ	http://eurasianphonology.info/search_exact?dialects=True&query=ɔʊ	ɔʊ
 from long unrounded close front to unrounded mid central diphthong	iːə	http://eurasianphonology.info/search_exact?dialects=True&query=iːə	iːə
 from long rounded close back to unrounded mid central diphthong	uːə	http://eurasianphonology.info/search_exact?dialects=True&query=uːə	uːə
@@ -1042,8 +1042,8 @@ creaky unrounded close with-frication back vowel	ɿ̰	http://eurasianphonology.i
 from unrounded open-mid front to rounded close central diphthong	ɛʉ	http://eurasianphonology.info/search_exact?dialects=True&query=ɛʉ	ɛʉ
 voiceless dental sibilant affricate consonant	ts̪	http://eurasianphonology.info/search_exact?dialects=True&query=ts̪	ts̪
 from unrounded open-mid central to unrounded close front diphthong	ɜi	http://eurasianphonology.info/search_exact?dialects=True&query=ɜi	ɜi
-from long unrounded nearly-open front to unrounded close front diphthong	æːi	http://eurasianphonology.info/search_exact?dialects=True&query=æːi	æːi
-from long unrounded nearly-open front to rounded near-close near-back diphthong	æːʊ	http://eurasianphonology.info/search_exact?dialects=True&query=æːʊ	æːʊ
+from long unrounded near-open front to unrounded close front diphthong	æːi	http://eurasianphonology.info/search_exact?dialects=True&query=æːi	æːi
+from long unrounded near-open front to rounded near-close near-back diphthong	æːʊ	http://eurasianphonology.info/search_exact?dialects=True&query=æːʊ	æːʊ
 from unrounded open back to rounded near-close near-back diphthong	ɑʊ	http://eurasianphonology.info/search_exact?dialects=True&query=ɑʊ	ɑʊ
 from unrounded close back to unrounded mid central diphthong	ɯə	http://eurasianphonology.info/search_exact?dialects=True&query=ɯə	ɯə
 from unrounded close-mid front to nasalized unrounded near-close near-front diphthong	eɪ̃	http://eurasianphonology.info/search_exact?dialects=True&query=eɪ̃	eɪ̃
@@ -1161,7 +1161,7 @@ from creaky unrounded open front to creaky unrounded close back diphthong	a̰ɯ�
 from creaky unrounded mid central to creaky unrounded close back diphthong	ə̰ɯ̰	http://eurasianphonology.info/search_exact?dialects=True&query=ə̰ɯ̰	ə̰ɯ̰
 creaky rounded near-close near-back vowel	ʊ̰	http://eurasianphonology.info/search_exact?dialects=True&query=ʊ̰	ʊ̰
 from voiceless dental stop to voiceless alveolar sibilant fricative cluster	t̪s	http://eurasianphonology.info/search_exact?dialects=True&query=t̪s	t̪s
-from unrounded nearly-open front to unrounded close front diphthong	æi	http://eurasianphonology.info/search_exact?dialects=True&query=æi	æi
+from unrounded near-open front to unrounded close front diphthong	æi	http://eurasianphonology.info/search_exact?dialects=True&query=æi	æi
 from voiced dental stop to voiced alveolar sibilant fricative cluster	d̪z	http://eurasianphonology.info/search_exact?dialects=True&query=d̪z	d̪z
 voiced uvular approximant consonant	ʁ̞	http://eurasianphonology.info/search_exact?dialects=True&query=ʁ̞	ʁ̞
 long pharyngealized unrounded open-mid back vowel	ʌˤː	http://eurasianphonology.info/search_exact?dialects=True&query=ʌˤː	ʌˤː
@@ -1181,7 +1181,7 @@ from unrounded open front to non-syllabic unrounded close front diphthong	ai̯	h
 from unrounded open front to non-syllabic rounded close back diphthong	au̯	http://eurasianphonology.info/search_exact?dialects=True&query=au̯	au̯
 from unrounded mid central to non-syllabic unrounded close front diphthong	əi̯	http://eurasianphonology.info/search_exact?dialects=True&query=əi̯	əi̯
 from unrounded mid central to non-syllabic rounded close back diphthong	əu̯	http://eurasianphonology.info/search_exact?dialects=True&query=əu̯	əu̯
-from pharyngealized unrounded close front to unrounded nearly-open front diphthong	iˤæ	http://eurasianphonology.info/search_exact?dialects=True&query=iˤæ	iˤæ
+from pharyngealized unrounded close front to unrounded near-open front diphthong	iˤæ	http://eurasianphonology.info/search_exact?dialects=True&query=iˤæ	iˤæ
 from voiced apical alveolar stop to voiced apical alveolar sibilant fricative cluster	d̺z̺	http://eurasianphonology.info/search_exact?dialects=True&query=d̺z̺	d̺z̺
 long voiceless apical alveolar sibilant fricative consonant	s̺ː	http://eurasianphonology.info/search_exact?dialects=True&query=s̺ː	s̺ː
 from voiced apical alveolar stop to long voiced apical alveolar sibilant fricative cluster	d̺z̺ː	http://eurasianphonology.info/search_exact?dialects=True&query=d̺z̺ː	d̺z̺ː
@@ -1242,7 +1242,7 @@ voiceless alveolar ejective lateral affricate consonant	tɬʼ	http://eurasianpho
 voiceless post-alveolar ejective sibilant affricate consonant	tʃʼ	http://eurasianphonology.info/search_exact?dialects=True&query=tʃ’	tʃ’
 pharyngealized unrounded open-mid front vowel	ɛˤ	http://eurasianphonology.info/search_exact?dialects=True&query=ɛˤ	ɛˤ
 lowered unrounded open back vowel	ɑ̞	http://eurasianphonology.info/search_exact?dialects=True&query=ɑ̞	ɑ̞
-from unrounded nearly-open central to rounded near-close near-back diphthong	ɐʊ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐʊ	ɐʊ
+from unrounded near-open central to rounded near-close near-back diphthong	ɐʊ	http://eurasianphonology.info/search_exact?dialects=True&query=ɐʊ	ɐʊ
 from rounded close-mid front to unrounded near-close near-front diphthong	øɪ	http://eurasianphonology.info/search_exact?dialects=True&query=øɪ	øɪ
 voiceless post-alveolar stop consonant	t̠	http://eurasianphonology.info/search_exact?dialects=True&query=t̠	t̠
 voiced post-alveolar stop consonant	d̠	http://eurasianphonology.info/search_exact?dialects=True&query=d̠	d̠
@@ -1275,12 +1275,12 @@ aspirated voiced alveolar sibilant fricative consonant	zʰ	http://eurasianphonol
 aspirated voiced alveolo-palatal sibilant fricative consonant	ʑʰ	http://eurasianphonology.info/search_exact?dialects=True&query=ʑʰ	ʑʰ
 aspirated voiced palatal approximant consonant	jʰ	http://eurasianphonology.info/search_exact?dialects=True&query=jʰ	jʰ
 from long nasalized rounded close-mid back to rounded close back diphthong	õːu	http://eurasianphonology.info/search_exact?dialects=True&query=õːu	õːu
-from nasalized unrounded nearly-open front to unrounded close front diphthong	æ̃i	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃i	æ̃i
+from nasalized unrounded near-open front to unrounded close front diphthong	æ̃i	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃i	æ̃i
 from long rounded close-mid back to rounded close back diphthong	oːu	http://eurasianphonology.info/search_exact?dialects=True&query=oːu	oːu
 from long unrounded open back to unrounded close front diphthong	ɑːi	http://eurasianphonology.info/search_exact?dialects=True&query=ɑːi	ɑːi
 long raised unrounded open-mid front vowel	ɛ̝ː	http://eurasianphonology.info/search_exact?dialects=True&query=ɛ̝ː	ɛ̝ː
 long raised rounded open-mid back vowel	ɔ̝ː	http://eurasianphonology.info/search_exact?dialects=True&query=ɔ̝ː	ɔ̝ː
-advanced unrounded nearly-open central vowel	ɐ̟	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̟	ɐ̟
+advanced unrounded near-open central vowel	ɐ̟	http://eurasianphonology.info/search_exact?dialects=True&query=ɐ̟	ɐ̟
 pharyngealized voiced retroflex approximant consonant	ɻˤ	http://eurasianphonology.info/search_exact?dialects=True&query=ɻˤ	ɻˤ
 palatalized voiceless retroflex stop consonant	ʈʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ʈʲ	ʈʲ
 palatalized voiced retroflex stop consonant	ɖʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɖʲ	ɖʲ
@@ -1292,5 +1292,5 @@ palatalized voiceless retroflex sibilant fricative consonant	ʂʲ	http://eurasia
 labialized voiceless retroflex sibilant fricative consonant	ʂʷ	http://eurasianphonology.info/search_exact?dialects=True&query=ʂʷ	ʂʷ
 labialized voiced retroflex sibilant fricative consonant	ʐʷ	http://eurasianphonology.info/search_exact?dialects=True&query=ʐʷ	ʐʷ
 rhotacized rounded close-mid back vowel	o˞	http://eurasianphonology.info/search_exact?dialects=True&query=o˞	o˞
-long nasalized unrounded nearly-open front vowel	æ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃ː	æ̃ː
+long nasalized unrounded near-open front vowel	æ̃ː	http://eurasianphonology.info/search_exact?dialects=True&query=æ̃ː	æ̃ː
 devoiced voiced retroflex nasal consonant	ɳ̥	http://eurasianphonology.info/search_exact?dialects=True&query=ɳ̥	ɳ̥

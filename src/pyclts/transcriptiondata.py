@@ -37,6 +37,7 @@ pbase = partial(read, 'pbase.tsv', 'GRAPHEME', 'URL')
 ruhlen = partial(read, 'creanza.tsv', 'GRAPHEME', 'FREQUENCY')
 eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
 lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
+nidaba = partial(read, 'nidaba.tsv', 'GRAPHEME', 'FEATURES', 'LATEX')
 
 
 def lingpy(sound_class):
@@ -65,7 +66,8 @@ class TranscriptionData(object):
             "color": lambda: lingpy('COLOR_CLASS'),
             'lapsyd': lapsyd,
             'eurasian': eurasian,
-            'ruhlen': ruhlen
+            'ruhlen': ruhlen,
+            'nidaba': nidaba
         }[data]()
         self.name = data
         self.id = data

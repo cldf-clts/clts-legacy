@@ -108,7 +108,7 @@ tsʰ	consonant	tsʰ	tsʰ						aspirated voiceless alveolar sibilant affricate co
 ʒ/tsʰ	consonant	tsʰ	tsʰ		+				aspirated voiceless alveolar sibilant affricate consonant	U+0074 U+0073 U+02b0
 tsː	consonant	tsː	tsː						long voiceless alveolar sibilant affricate consonant	U+0074 U+0073 U+02d0
 tɕ	consonant	tɕ	tɕ						voiceless alveolo-palatal sibilant affricate consonant	U+0074 U+0255
-tɕʰ	consonant	tɕʰ	tɕʰ						aspirated.sibilancy:sibilant voiceless alveolo-palatal affricate consonant	U+0074 U+0255 U+02b0
+tɕʰ	consonant	tɕʰ	tɕʰ						aspirated voiceless alveolo-palatal sibilant affricate consonant	U+0074 U+0255 U+02b0
 tɬ	consonant	tɬ	tɬ						voiceless alveolar lateral affricate consonant	U+0074 U+026c
 tʂ	consonant	tʂ	ʈʂ			+			voiceless retroflex sibilant affricate consonant	U+0288 U+0282
 tʂʰ	consonant	tʂʰ	ʈʂʰ			+			aspirated voiceless retroflex sibilant affricate consonant	U+0288 U+0282 U+02b0
@@ -635,14 +635,14 @@ ũ	vowel	ũ	ũ						nasalized rounded close back vowel	U+0075 U+0303
 y	vowel	y	y						rounded close front vowel	U+0079
 yː	vowel	yː	yː						long rounded close front vowel	U+0079 U+02d0
 ỹ	vowel	ỹ	ỹ	+					nasalized rounded close front vowel	U+0079 U+0303
-æ	vowel	æ	æ						unrounded nearly-open front vowel	U+00e6
-æː	vowel	æː	æː						long unrounded nearly-open front vowel	U+00e6 U+02d0
-æ̃	vowel	æ̃	æ̃						nasalized unrounded nearly-open front vowel	U+00e6 U+0303
+æ	vowel	æ	æ						unrounded near-open front vowel	U+00e6
+æː	vowel	æː	æː						long unrounded near-open front vowel	U+00e6 U+02d0
+æ̃	vowel	æ̃	æ̃						nasalized unrounded near-open front vowel	U+00e6 U+0303
 ø	vowel	ø	ø						rounded close-mid front vowel	U+00f8
 øː	vowel	øː	øː						long rounded close-mid front vowel	U+00f8 U+02d0
 œ	vowel	œ	œ						rounded open-mid front vowel	U+0153
-ɐ	vowel	ɐ	ɐ						unrounded nearly-open central vowel	U+0250
-ɐː	vowel	ɐː	ɐː						long unrounded nearly-open central vowel	U+0250 U+02d0
+ɐ	vowel	ɐ	ɐ						unrounded near-open central vowel	U+0250
+ɐː	vowel	ɐː	ɐː						long unrounded near-open central vowel	U+0250 U+02d0
 ɑ	vowel	ɑ	ɑ						unrounded open back vowel	U+0251
 ɑː	vowel	ɑː	ɑː						long unrounded open back vowel	U+0251 U+02d0
 ɑ̃	vowel	ɑ̃	ɑ̃						nasalized unrounded open back vowel	U+0251 U+0303
@@ -719,8 +719,8 @@ ïï/ɨː	vowel	ɨː	ɨː		+				long unrounded close central vowel	U+0268 U+02
 ˈuː	vowel	ˈuː	uː			+	+	+	long rounded close back vowel	U+0075 U+02d0
 ˈy	vowel	ˈy	y			+	+	+	rounded close front vowel	U+0079
 ˈyː	vowel	ˈyː	yː			+	+	+	long rounded close front vowel	U+0079 U+02d0
-ˈæ	vowel	ˈæ	æ			+	+	+	unrounded nearly-open front vowel	U+00e6
-ˈæː	vowel	ˈæː	æː			+	+	+	long unrounded nearly-open front vowel	U+00e6 U+02d0
+ˈæ	vowel	ˈæ	æ			+	+	+	unrounded near-open front vowel	U+00e6
+ˈæː	vowel	ˈæː	æː			+	+	+	long unrounded near-open front vowel	U+00e6 U+02d0
 ˈœ	vowel	ˈœ	œ			+	+	+	rounded open-mid front vowel	U+0153
 ˈœː	vowel	ˈœː	œː			+	+	+	long rounded open-mid front vowel	U+0153 U+02d0
 ˈɒ	vowel	ˈɒ	ɒ			+	+	+	rounded open back vowel	U+0252

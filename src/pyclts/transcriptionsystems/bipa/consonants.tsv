@@ -35,7 +35,7 @@ dʑː	voiced	alveolo-palatal	affricate		duration:long,sibilancy:sibilant
 ʨ	voiceless	alveolo-palatal	affricate	+	sibilancy:sibilant	
 tɕ	voiceless	alveolo-palatal	affricate		sibilancy:sibilant	
 tᶝ	voiceless	alveolo-palatal	affricate	+	sibilancy:sibilant	
-tɕʰ	voiceless	alveolo-palatal	affricate		aspiration:aspirated.sibilancy:sibilant	
+tɕʰ	voiceless	alveolo-palatal	affricate		aspiration:aspirated,sibilancy:sibilant	
 tːɕ	voiceless	alveolo-palatal	affricate	+	duration:long,sibilancy:sibilant	
 tɕː	voiceless	alveolo-palatal	affricate		duration:long,sibilancy:sibilant	
 bβ	voiced	bilabial	affricate			

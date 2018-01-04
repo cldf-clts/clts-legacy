@@ -1,6 +1,6 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 ɹ	voiced	alveolar	approximant			
-z	voiced	alveolar	fricative			
+z	voiced	alveolar	fricative		sibilancy:sibilant	
 ƛ	voiceless	alveolar	affricate		laterality:lateral	
 lɦ	voiced	alveolar	approximant		breathiness:breathy,laterality:lateral	
 l̥	voiced	alveolar	approximant		voicing:devoiced,laterality:lateral	
@@ -74,7 +74,7 @@ j	voiced	palatal	approximant	+
 čʰ	voiceless	post-alveolar	affricate		aspiration:aspirated,sibilancy:sibilant	
 ž	voiced	post-alveolar	fricative		sibilancy:sibilant	
 š	voiceless	post-alveolar	fricative		sibilancy:sibilant	
-ʂ	voiceless	retroflex	fricative			
+ʂ	voiceless	retroflex	fricative		sibilancy:sibilant	
 ɭ	voiced	retroflex	approximant		laterality:lateral	
 ɭ̥ʰ	voiced	retroflex	approximant		aspiration:aspirated,laterality:lateral	
 ɳ	voiced	retroflex	nasal			

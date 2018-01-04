@@ -87,15 +87,15 @@ yˑ	rounded	close	front		duration:mid-long
 ỹ	rounded	close	front		nasalization:nasalized	
 ỹỹ	rounded	close	front	+	nasalization:nasalized,duration:long	
 ỹː	rounded	close	front		nasalization:nasalized,duration:long	
-æ	unrounded	nearly-open	front			
-ææ	unrounded	nearly-open	front	+	duration:long	
-æː	unrounded	nearly-open	front		duration:long	
-æːː	unrounded	nearly-open	front		duration:ultra-long	
-æˑ	unrounded	nearly-open	front		duration:mid-long	
-æ̃	unrounded	nearly-open	front		nasalization:nasalized	
-æ̃æ̃	unrounded	nearly-open	front	+	nasalization:nasalized,duration:long	
-æ̃ː	unrounded	nearly-open	front		nasalization:nasalized,duration:long	
-æ̰	unrounded	nearly-open	front		creakiness:creaky	
+æ	unrounded	near-open	front			
+ææ	unrounded	near-open	front	+	duration:long	
+æː	unrounded	near-open	front		duration:long	
+æːː	unrounded	near-open	front		duration:ultra-long	
+æˑ	unrounded	near-open	front		duration:mid-long	
+æ̃	unrounded	near-open	front		nasalization:nasalized	
+æ̃æ̃	unrounded	near-open	front	+	nasalization:nasalized,duration:long	
+æ̃ː	unrounded	near-open	front		nasalization:nasalized,duration:long	
+æ̰	unrounded	near-open	front		creakiness:creaky	
 ø	rounded	close-mid	front			
 øø	rounded	close-mid	front	+	duration:long	
 øː	rounded	close-mid	front		duration:long	
@@ -116,13 +116,13 @@ ỹː	rounded	close	front		nasalization:nasalized,duration:long
 œ̃	rounded	open-mid	front		nasalization:nasalized	
 œ̃œ̃	rounded	open-mid	front	+	nasalization:nasalized,duration:long	
 œ̃ː	rounded	open-mid	front		nasalization:nasalized,duration:long	
-ɐ	unrounded	nearly-open	central			
-ɐɐ	unrounded	nearly-open	central	+	duration:long	
-ɐː	unrounded	nearly-open	central		duration:long	
-ɐ̃	unrounded	nearly-open	central		nasalization:nasalized	
-ɐ̃ɐ̃	unrounded	nearly-open	central	+	nasalization:nasalized,duration:long	
-ɐ̃ː	unrounded	nearly-open	central		nasalization:nasalized,duration:long	
-ɐ̯	unrounded	nearly-open	central		syllabicity:non-syllabic	
+ɐ	unrounded	near-open	central			
+ɐɐ	unrounded	near-open	central	+	duration:long	
+ɐː	unrounded	near-open	central		duration:long	
+ɐ̃	unrounded	near-open	central		nasalization:nasalized	
+ɐ̃ɐ̃	unrounded	near-open	central	+	nasalization:nasalized,duration:long	
+ɐ̃ː	unrounded	near-open	central		nasalization:nasalized,duration:long	
+ɐ̯	unrounded	near-open	central		syllabicity:non-syllabic	
 ɐ̹	rounded	near-open	central	+		
 ɐ̹ɐ̹	rounded	near-open	central	+	duration:long	
 ɐ̹ː	rounded	near-open	central	+	duration:long	

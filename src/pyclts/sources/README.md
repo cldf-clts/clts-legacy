@@ -2,11 +2,11 @@
 
 ## PBase (Mielke 2008)
 
-The file is originally taken from the Windows-Version of an PBase, where the inventory was listed. The file was modified slightly and we use it now solely to generate the link to the website of the Project.
+We created a dump of the transcriptions from the web-interface and link back to it in our application.
 
 ## Ruhlen's Global Linguistic Database (Ruhlen 2008)
 
-The data has been downloaded from the URL of the project, and we have tried to clean it as good as possible, to have a consistent representation. We select only those sounds which occur at least in 5 different languages, and we generally ignore the clicks, as the representation is rather idiosyncratic and we do not know how to interpret them.
+The data is accessible from the [Tower of Babel Website](http://starling.rinet.ru), but it is not in a good shape to be used, as the online version contains HTML markup rather than Unicode, and the Excel version contains non-resolvable characters due to some non-unicode encoding. We therefore use the version provided by [Creanza et al. 2015](:bib:Creanza2015), where the data was apparently manually remastered, so that we can now list the symbol used by Ruhlen's database as well as the frequency.
 
 ## Phoible (Moran et al. 2014)
 
@@ -19,4 +19,8 @@ We use the data from the JSON-dump provided by the editors and offer the URL to 
 ## LAPSYD
 
 We created a dump of the data by browsing the segments. As the database does not offer any API, we cannot link to it, but we show the features that are being used internally in the project.
+
+## Nidaba
+
+The [Nidaba](http://nidaba.co.uk) project lists some interesting feature-data on all IPA-segments found in the database. We downloaded the data from [this link](http://nidaba.co.uk/Contents/Segments) and converted it to text file (URL date: 24.09.2017). As the website is under some maintenance and we did not retrieve an answer by the author on our suggestion to allow to link to a single element so far, we can only list the symbols in this context. They are valuable, however, as the author provides the code for writing the symbols in LaTeX.
 
