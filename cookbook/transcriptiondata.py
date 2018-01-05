@@ -23,6 +23,30 @@ def loadmeta(data):
         print('file <{0}> has been successfully written ({1} lines)'.format(filename,
             len(out)))
 
+    if data == 'beijingdaxue':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'bjdx.tsv'), delimiter='\t') as uni:
+            for line in uni:
+                glyph = line[0].strip()
+                bps = line[1].strip()
+                sound = bipa[bps]
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(bps)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(bps)) == len(bipa._norm(sound.s))):                    
+                        out += [[sound.name, sound.s, glyph]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+        write_transcriptiondata(out, 'beijingdaxue.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
     if data == 'nidaba':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME', 'LATEX', 'FEATURES']]
         all_lines = 0

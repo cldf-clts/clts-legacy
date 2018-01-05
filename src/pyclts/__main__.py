@@ -9,9 +9,10 @@ import argparse
 import json
 
 from clldutils.clilib import ArgumentParser, command
-from clldutils.dsv import UnicodeReader
+from clldutils.dsv import UnicodeReader, reader
 from clldutils.markup import Table
 from pyclts.transcriptionsystem import TranscriptionSystem
+from pyclts.transcriptiondata import TranscriptionData
 from pyclts.util import pkg_path
 
 
@@ -31,6 +32,21 @@ def sounds(args):
             data += [['?', sound.source, '?', '?', '?']]
     tbl = Table(args.system.upper(), 'SOURCE', 'GENERATED', 'ALIAS', 'NAME', rows=data)
     print(tbl.render(tablefmt=args.format, condensed=False))
+
+
+@command()
+def dump(args):
+    bipa = TranscriptionSystem('bipa')
+    for line in reader(pkg_path('transcriptiondata', 'transcriptiondata.tsv'),
+            delimiter='\t', namedtuples=True):
+        td = TranscriptionData(line.ID)
+        for name in td.sounds:
+            
+
+    for line in reader(pkg_path('transcriptionsystems',
+        'transcriptionsystems.tsv'), delimiter='\t', namedtuples=True):
+        ts = TranscriptionSystem(line.ID)
+         
 
 
 @command()
