@@ -176,8 +176,9 @@ function convertCLPA(value) {
 	  tabletext += '<td></td>';
 	}
 	tabletext += '<td>'+cls+'</td>';
-	tabletext += '<td>'+tmp['name'].replace(' '+tmp['type'], '')+'</td>';
-
+	tabletext += '<td><a target="_blank" href="clts.py?name=' + 
+	  tmp['name']+'">' + 
+	  tmp['name'].replace(' '+tmp['type'], '')+'</a></td>';
 	for (option in options) {
 	  if (options[option]) {
 	    tmp_data = [];

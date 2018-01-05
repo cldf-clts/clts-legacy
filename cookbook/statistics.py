@@ -6,7 +6,8 @@ tss = {'bipa' : TranscriptionSystem('bipa'),
         'gld' : TranscriptionSystem('gld'), 
         'asjp': TranscriptionSystem('asjp')
         }
-tds = ['phoible', 'ruhlen', 'pbase', 'lapsyd', 'eurasian', 'nidaba']
+tds = ['phoible', 'ruhlen', 'pbase', 'lapsyd', 'eurasian', 'nidaba',
+        'multimedia', 'diachronica']
 
 all_sounds = defaultdict(dict)
 for ts_ in tss:
@@ -47,7 +48,7 @@ for i, s in enumerate(sorted(all_sounds, key=lambda x: len(all_sounds[x]),
     if not tss['bipa'][s].alias:
         row = [i, s]
         for x in ['bipa', 'gld', 'asjp', 'phoible', 'ruhlen', 'pbase',
-                'lapsyd', 'eurasian', 'nidaba']:
+                'lapsyd', 'eurasian', 'nidaba', 'multimedia', 'diachronica']:
             row += [all_sounds[s].get(x, '')]
         table += [row]
 
@@ -57,8 +58,10 @@ print('# Co-occurrence statistics')
 print('TD 1 | TD 2 | Sounds | Overlap')
 print('--- | --- | --- | --- ')
 matrix = [[0 for x in range(4)] for y in range(4)]
-for i, sA in enumerate(['phoible', 'eurasian', 'pbase', 'lapsyd', 'nidaba']):
-    for j, sB in enumerate(['phoible', 'eurasian', 'pbase', 'lapsyd', 'nidaba']):
+for i, sA in enumerate(['phoible', 'eurasian', 'pbase', 'lapsyd', 'nidaba',
+    'multimedia', 'diachronica']):
+    for j, sB in enumerate(['phoible', 'eurasian', 'pbase', 'lapsyd', 'nidaba',
+        'multimedia', 'diachronica']):
         if i < j:
             coms = len([x for x in all_sounds if all_sounds[x].get(sA) and
                 all_sounds[x].get(sB)])

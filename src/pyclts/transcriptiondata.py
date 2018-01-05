@@ -53,6 +53,7 @@ eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
 lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
 nidaba = partial(read, 'nidaba.tsv', 'GRAPHEME', 'FEATURES', 'LATEX')
 multimedia = partial(read, 'multimedia.tsv', 'GRAPHEME', 'FEATURES', 'SOUND', 'IMAGE')
+diachronica = partial(read, 'diachronica.tsv', 'GRAPHEME', 'URL')
 
 
 def lingpy(sound_class):
@@ -84,6 +85,7 @@ class TranscriptionData(object):
             'ruhlen': ruhlen,
             'nidaba': nidaba,
             'multimedia': multimedia,
+            'diachronica': diachronica
         }[data]()
         self.name = data
         self.id = data

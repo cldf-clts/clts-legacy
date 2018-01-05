@@ -404,7 +404,7 @@ bʰː	voiced	bilabial	stop		aspiration:aspirated,duration:long	Aspirated voiced 
 bːʰ	voiced	bilabial	stop	+	aspiration:aspirated,duration:long	Aspirated voiced is breathy-voice.
 bʰ	voiced	bilabial	stop		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
 b̥ʰ	voiced	bilabial	stop		aspiration:aspirated,voicing:devoiced	Alias candidate.
-p̬	voiced	bilabial	stop	+		Check with source.
+p̬	voiceless	bilabial	stop		voicing:revoiced	
 bː	voiced	bilabial	stop		duration:long	
 bʷ	voiced	bilabial	stop		labialization:labialized	
 bʲ	voiced	bilabial	stop		palatalization:palatalized	
