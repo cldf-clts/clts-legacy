@@ -1,0 +1,108 @@
+CLTS_NAME	BIPA_GRAPHEME	GRAPHEME
+unrounded open back vowel	ɑ	a
+voiced bilabial stop consonant	b	b
+revoiced voiceless labial click consonant	ʘ̬	b˿
+voiced labio-dental stop consonant	<?><!>	b͔
+voiced alveolar stop consonant	d	d
+revoiced voiceless alveolar click consonant	ǃ̬	d˿
+unrounded close-mid front vowel	e	e
+long unrounded close-mid front vowel	eː	ē
+mid-long unrounded close-mid front vowel	eˑ	ĕ
+non-syllabic unrounded close-mid front vowel	e̯	e̯
+voiceless labio-dental fricative consonant	f	f
+voiced velar stop consonant	g	g
+revoiced voiceless palatal click consonant	ǂ̬	g˿
+voiced uvular stop consonant	ɢ	g͔
+unrounded close front vowel	i	i
+long unrounded close front vowel	iː	ī
+mid-long unrounded close front vowel	iˑ	ĭ
+non-syllabic unrounded close front vowel	i̯	i̯
+voiced palatal fricative consonant	ʝ	j
+voiceless velar stop consonant	k	k
+voiceless palatal click consonant	ǂ	k˿
+voiceless uvular stop consonant	q	k͔
+voiced alveolar lateral approximant consonant	l	l
+voiced bilabial nasal consonant	m	m
+voiced labio-dental nasal consonant	ɱ	m͔
+voiced alveolar nasal consonant	n	n
+rounded close-mid back vowel	o	o
+long rounded close-mid back vowel	oː	ō
+mid-long rounded close-mid back vowel	oˑ	ŏ
+non-syllabic rounded close-mid back vowel	o̯	o̯
+voiceless bilabial stop consonant	p	p
+voiceless labial click consonant	ʘ	p˿
+voiceless labio-dental stop consonant	<?><!>	p͔
+voiced alveolar trill consonant	r	r
+voiceless alveolar sibilant fricative consonant	s	s
+voiceless alveolar stop consonant	t	t
+voiceless alveolar click consonant	ǃ	t˿
+rounded close back vowel	u	u
+long rounded close back vowel	uː	ū
+mid-long rounded close back vowel	uˑ	ŭ
+non-syllabic rounded close back vowel	u̯	u̯
+voiced labio-dental fricative consonant	v	v
+long rounded close front vowel	yː	ȳ
+mid-long rounded close front vowel	yˑ	y̆
+non-syllabic rounded close front vowel	y̯	y̯
+voiced alveolar sibilant fricative consonant	z	z
+rounded open back vowel	ɒ	å
+rounded close-mid front vowel	ø	ö
+long rounded close-mid front vowel	øː	ø̄
+mid-long rounded close-mid front vowel	øˑ	ø̆
+non-syllabic rounded close-mid front vowel	ø̯	ø̯
+rounded close front vowel	y	ü
+palatalized voiced alveolar consonant	<?><!>ʲ	ď
+palatalized voiced alveolar lateral approximant consonant	lʲ	ĺ
+palatalized voiced alveolar nasal consonant	nʲ	ń
+voiced velar nasal consonant	ŋ	ŋ
+voiced palatal nasal consonant	ɲ	ŋ́
+voiced uvular nasal consonant	ɴ	ŋ͔
+palatalized voiced alveolar trill consonant	rʲ	ŕ
+palatalized voiceless alveolar sibilant fricative consonant	sʲ	ś
+voiceless post-alveolar sibilant fricative consonant	ʃ	š
+palatalized voiceless post-alveolar sibilant fricative consonant	ʃʲ	š́
+palatalized voiceless alveolar stop consonant	tʲ	ť
+palatalized voiced alveolar sibilant fricative consonant	zʲ	ź
+voiced post-alveolar sibilant fricative consonant	ʒ	ž
+palatalized voiced post-alveolar sibilant fricative consonant	ʒʲ	ž́
+voiced palatal stop consonant	ɟ	ǵ
+long unrounded open back vowel	ɑː	ɑ̄
+mid-long unrounded open back vowel	ɑˑ	ɑ̆
+non-syllabic unrounded open back vowel	ɑ̯	ɑ̯
+long rounded open back vowel	ɒː	ɒ̄
+mid-long rounded open back vowel	ɒˑ	ɒ̆
+non-syllabic rounded open back vowel	ɒ̯	ɒ̯
+devoiced voiced velar stop consonant	g̊	ɢ
+devoiced voiced palatal stop consonant	ɟ̥	ɢ́
+devoiced voiced uvular stop consonant	ɢ̥	ɢ͔
+devoiced voiced alveolar nasal consonant	n̥	ɴ
+palatalized voiceless alveolar nasal consonant	<?><!>ʲ	ɴ́
+devoiced voiced alveolar trill consonant	r̥	ʀ
+palatalized voiceless alveolar trill consonant	<?><!>ʲ	ʀ́
+devoiced voiced bilabial stop consonant	b̥	ʙ
+devoiced voiced labio-dental stop consonant	<?><!>̥	ʙ͔
+devoiced voiced alveolar lateral approximant consonant	l̥	ʟ
+palatalized voiceless alveolar lateral approximant consonant	<?><!>ʲ	ʟ́
+voiced velar approximant consonant	ɰ	ˀ
+voiced bilabial fricative consonant	β	β
+voiced velar fricative consonant	ɣ	γ
+voiced uvular fricative consonant	ʁ	γ͔
+voiced dental fricative consonant	ð	δ
+voiced uvular trill consonant	ʀ	ρ
+voiceless bilabial fricative consonant	ɸ	φ
+voiceless velar fricative consonant	x	χ
+voiceless palatal sibilant fricative consonant	ç	χ́
+voiceless uvular fricative consonant	χ	χ͔
+voiced bilabial trill consonant	ʙ	ψ
+voiceless dental fricative consonant	θ	ϑ
+devoiced voiced alveolar stop consonant	d̥	ᴅ
+palatalized devoiced voiced alveolar stop consonant	d̥ʲ	ᴅ́
+devoiced voiced bilabial nasal consonant	m̥	ᴍ
+devoiced voiced labio-dental nasal consonant	ɱ̊	ᴍ͔
+devoiced voiced velar nasal consonant	ŋ̊	ᴎ
+devoiced voiced palatal nasal consonant	ɲ̊	ᴎ́
+voiceless uvular nasal consonant	<?><!>	ᴎ͔
+voiceless glottal fricative consonant	h	ᴤ
+devoiced voiced uvular trill consonant	ʀ̥	ᴩ
+devoiced voiced bilabial trill consonant	ʙ̥	ᴪ
+voiceless palatal stop consonant	c	ḱ
