@@ -54,6 +54,7 @@ lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
 nidaba = partial(read, 'nidaba.tsv', 'GRAPHEME', 'FEATURES', 'LATEX')
 multimedia = partial(read, 'multimedia.tsv', 'GRAPHEME', 'FEATURES', 'SOUND', 'IMAGE')
 diachronica = partial(read, 'diachronica.tsv', 'GRAPHEME', 'URL')
+beijingdaxue = partial(read, 'beijingdaxue.tsv', 'GRAPHEME')
 
 
 def lingpy(sound_class):
@@ -62,7 +63,7 @@ def lingpy(sound_class):
     for name, bipa, grapheme in iterdata('lingpy.tsv', sound_class):
         out[bipa] = out[name] = [grapheme]
         graphemes += [bipa]
-        names += [names]
+        names += [name]
     return out, graphemes, names
 
 
@@ -85,7 +86,8 @@ class TranscriptionData(object):
             'ruhlen': ruhlen,
             'nidaba': nidaba,
             'multimedia': multimedia,
-            'diachronica': diachronica
+            'diachronica': diachronica,
+            'beijingdaxue': beijingdaxue,
         }[data]()
         self.name = data
         self.id = data
