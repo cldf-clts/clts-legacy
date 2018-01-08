@@ -12,9 +12,12 @@ def convert(what, from_, to_, entry='grapheme', delimiter='/', unknown="?"):
     out = []
     for sound in what.split():
         try:
+            fsound = from_[sound]
+            if fsound.type == 'unknownsound':
+                raise KeyError
             out.append(
                 delimiter.join(
-                    [itm[entry] for itm in to_.data[from_[sound].name]]
+                    [itm[entry] for itm in to_.data[fsound.name]]
                         )
                     )
         except KeyError:
@@ -28,7 +31,6 @@ def iterdata(what, grapheme_col, *cols):
             pkg_path('transcriptiondata', what), delimiter='\t') as reader:
         for row in reader:
             grapheme = {"grapheme": row[grapheme_col]}
-            plus = []
             if cols:
                 for col in cols:
                     grapheme[col.lower()] = row[col]
@@ -46,7 +48,7 @@ def read(what, grapheme_col, *cols):
     return out, graphemes, names
 
 
-phoible = partial(read, 'phoible.tsv', 'GRAPHEME', 'ID')
+phoible = partial(read, 'phoible.tsv', 'GRAPHEME', 'URL')
 pbase = partial(read, 'pbase.tsv', 'GRAPHEME', 'URL')
 ruhlen = partial(read, 'creanza.tsv', 'GRAPHEME', 'FREQUENCY')
 eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
@@ -75,12 +77,6 @@ class TranscriptionData(object):
         self.data, self.sounds, self.names = {
             "phoible": phoible,
             "pbase": pbase,
-            "sca": lambda: lingpy('SCA_CLASS'),
-            "dolgo": lambda: lingpy('DOLGOPOLSKY_CLASS'),
-            "cv": lambda: lingpy('CV_CLASS'),
-            "prosody": lambda: lingpy('PROSODY_CLASS'),
-            "asjp": lambda: lingpy('ASJP_CLASS'),
-            "color": lambda: lingpy('COLOR_CLASS'),
             'lapsyd': lapsyd,
             'eurasian': eurasian,
             'ruhlen': ruhlen,
@@ -89,12 +85,10 @@ class TranscriptionData(object):
             'diachronica': diachronica,
             'beijingdaxue': beijingdaxue,
         }[data]()
-        self.name = data
         self.id = data
         self.system = system or TranscriptionSystem()
         # we want to know whether data type is lingpy, as in this case, we want
         # to resolve the mappings
-        self._sc = data in ['sca', 'dolgo', 'cv', 'prosody', 'asjp', 'color']
 
     def resolve_sound(self, sound):
         """Function tries to identify a sound in the data.
@@ -107,19 +101,7 @@ class TranscriptionData(object):
         """
         if sound.name in self.data:
             return '//'.join([x['grapheme'] for x in self.data[sound.name]])
-        if self._sc:
-            if not sound.type == 'unknownsound':                    
-                name = [s for s in sound.name.split(' ') if s not in ['apical',
-                    'laminal', 'ejective']]
-                if sound.type in ['diphthong', 'cluster']:
-                    return self.resolve_sound(sound.from_sound)
-                while len(name) >= 4:
-                    sound = self.system.get(' '.join(name))
-                    if sound and sound.name in self.data:
-                        return self.resolve_sound(sound)
-                    name.pop(0)
-
-        raise KeyError(":resolve_sound_classes: No sound could be found.")
+        raise KeyError(":td:resolve_sound: No sound could be found.")
 
     def __getitem__(self, sound):
         if isinstance(sound, Sound):

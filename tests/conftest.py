@@ -6,7 +6,7 @@ from clldutils.path import Path
 from clldutils.dsv import reader
 import random
 
-from pyclts import TranscriptionSystem, TranscriptionData
+from pyclts import TranscriptionSystem, TranscriptionData, SoundClasses
 
 
 def pytest_generate_tests(metafunc):
@@ -42,7 +42,7 @@ def bipa():
 
 @pytest.fixture
 def asjp():
-    return TranscriptionSystem('asjp')
+    return TranscriptionSystem('asjpcode')
 
 
 @pytest.fixture
@@ -52,22 +52,22 @@ def gld():
 
 @pytest.fixture
 def sca():
-    return TranscriptionData('sca')
+    return SoundClasses('sca')
 
 
 @pytest.fixture
 def asjpd():
-    return TranscriptionData('asjp')
+    return SoundClasses('asjp')
 
 
 @pytest.fixture
 def dolgo():
-    return TranscriptionData('dolgo')
+    return SoundClasses('dolgo')
 
 
 @pytest.fixture
 def dolgo():
-    return TranscriptionData('dolgo')
+    return SoundClasses('dolgo')
 
 
 @pytest.fixture

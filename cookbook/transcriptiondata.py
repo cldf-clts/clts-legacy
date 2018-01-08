@@ -45,6 +45,7 @@ def loadmeta(data):
                             tbl = sound.table
                             print('\t'.join(tbl))
                 all_lines += 1
+
         write_transcriptiondata(out, 'beijingdaxue.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
     if data == 'nidaba':
@@ -102,7 +103,7 @@ def loadmeta(data):
 
 
     if data == 'phoible':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL', 'GRAPHEME']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'Parameters.csv')) as uni:
             for line in uni:
@@ -114,7 +115,8 @@ def loadmeta(data):
                             frozenset(bipa._norm(glyph)) !=
                             frozenset(bipa._norm(sound.s))) and (
                                     len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
-                    out += [[sound.name, sound.s, url, glyph]]
+                                out += [[sound.name, sound.s,
+                                'http://phoible.org/parameters/'+url, glyph]]
                 else:
                     if sound.type == 'unknownsound':
                         print(sound)

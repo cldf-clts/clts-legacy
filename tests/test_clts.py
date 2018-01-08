@@ -6,16 +6,18 @@ import pytest
 from clldutils.dsv import reader
 
 
-def test_translate(bipa, asjp):
+def test_translate(bipa, asjp, asjpd):
     from pyclts import translate
 
     assert translate('ts a', bipa, asjp) == 'c E'
     assert translate('c a', asjp, bipa) == 'ts ɐ'
+    assert translate('t o h t a', bipa, asjpd)[0] == 't'
 
-def test_convert(bipa, asjpd):
+
+def test_convert(bipa, phoible):
     from pyclts.transcriptiondata import convert
-    assert convert('t o h t a', bipa, asjpd)[0] == 't'
-    assert convert('t ai', bipa, asjpd, unknown='!')[1] == '!'
+    assert convert('t ai', bipa, phoible, unknown='!')[1] == 'ai'
+    assert convert('t H', bipa, phoible, unknown='!')[1] == '!'
 
 
 

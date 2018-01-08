@@ -70,6 +70,7 @@ devoiced voiced alveolar tap consonant	ɾ	ɾ	\textfishhookr	liquid::alveolar::+v
 voiced alveolar approximant consonant	ɹ	ɹ	\textturnr	liquid::alveolar::+voice −lateral
 voiced post-alveolar approximant consonant	ɹ̠	ɹ̠	\textsubbar{\textturnr}	liquid::alveolar::+voice −lateral
 voiced alveolar lateral approximant consonant	l	l	l	liquid::alveolar::+voice +lateral
+voiced post-alveolar lateral approximant consonant	l̠	l̠	\textsubbar{l}	liquid::alveolar::+voice +lateral
 voiced alveolar nasal consonant	n	n	n	nasal::alveolar::+voice +nasal
 voiceless post-alveolar sibilant fricative consonant	ʃ	ʃ	\textipa{S}	fricative::palatoalveolar::−voice
 voiced post-alveolar sibilant fricative consonant	ʒ	ʒ	\textyogh	fricative::palatoalveolar::+voice
@@ -876,6 +877,7 @@ palatalized voiceless alveolar sibilant affricate consonant	tsʲ	t͡sʲ	\t{ts}\s
 palatalized voiced alveolar lateral affricate consonant	dɮʲ	d͡ɮʲ	\t{d͡\textlyoghlig}\super j	affricate::alveolar, palatal::+voice +lateral
 palatalized voiceless alveolar lateral affricate consonant	tɬʲ	t͡ɬʲ	\t{t͡\textbeltl}\super j	affricate::alveolar, palatal::+voice +lateral
 palatalized voiced post-alveolar approximant consonant	ɹ̠ʲ	ɹ̠ʲ	\textsubbar{\textturnr}\super j	liquid::alveolar, palatal::+voice −lateral
+palatalized voiced post-alveolar lateral approximant consonant	l̠ʲ	l̠ʲ	\textsubbar{l}\super j	liquid::alveolar, palatal::+voice +lateral
 palatalized voiceless post-alveolar sibilant affricate consonant	tʃʲ	t͡ʃʲ	\t{t͡\textipa{S}}\super j	affricate::palatoalveolar, palatal::−voice
 palatalized voiced post-alveolar sibilant affricate consonant	dʒʲ	d͡ʒʲ	\t{d͡\textyogh}\super j	affricate::palatoalveolar, palatal::+voice
 palatalized voiceless retroflex sibilant affricate consonant	ʈʂʲ	ʈ͡ʂʲ	\t{\textrtailt \textrtails}\super j	affricate::retroflex, palatal::−voice

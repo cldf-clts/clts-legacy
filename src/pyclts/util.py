@@ -13,6 +13,18 @@ EMPTY = "◌"
 UNKNOWN = "�"
 
 
+def is_valid_sound(sound, ts):
+    """Check the consistency of a given transcription system conversino"""
+    if sound.type in ['unknownsound', 'marker']:
+        return False
+    s1 = ts[sound.name]
+    s2 = ts[sound.s]
+    if s1.name == s2.name and s1.s == s2.s:
+        return True
+    return False
+
+
+
 def pkg_path(*comps):
     return Path(__file__).parent.joinpath(*comps)
 

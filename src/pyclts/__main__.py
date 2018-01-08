@@ -13,7 +13,8 @@ from clldutils.dsv import UnicodeReader, reader
 from clldutils.markup import Table
 from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
-from pyclts.util import pkg_path, data_path
+from pyclts.soundclasses import SoundClasses
+from pyclts.util import pkg_path, data_path, is_valid_sound
 
 
 @command()
@@ -53,14 +54,14 @@ def dump(args):
     # start from assembling bipa-sounds
     for grapheme, sound in bipa.items():
         if not sound.type in ['marker']:
+            
             if not sound.alias and not sound.name in sounds:
                 sounds[sound.name] = {
                         'grapheme': grapheme,
+                        'unicode': sound.uname or '',
                         'aliases': set([grapheme]),
-                        'representation': 1,
-                        'td': set(),
-                        'ts': set(['bipa']),
-                        'sc': set()
+                        'reflexes': set(['bipa:'+grapheme]),
+                        'generated': '0',
                         }
             else:
                 if sound.name in sounds:
@@ -69,62 +70,77 @@ def dump(args):
                     sounds[sound.name] = {
                             'grapheme': sound.s,
                             'aliases': set([grapheme, sound.s]),
-                            'representation': 1,
-                            'td': set(),
-                            'ts': set(['bipa']),
-                            'sc': set()
+                            'unicode': sound.uname or '',
+                            'reflexes': set(['bipa:'+sound.s]),
+                            'generated': '0',
                             }
-    
+    sound_classes, transcriptions = [], []
+    visited = set()
     # add sounds systematically by their alias
-    for line in reader(pkg_path('transcriptiondata', 'transcriptiondata.tsv'),
+    for line in reader(data_path('datasets.tsv'),
             delimiter='\t', namedtuples=True):
-        td = TranscriptionData(line.ID)
-        if td.id not in ['asjp', 'sca', 'prosody', 'dolgo', 'color']:
+        if line.TYPE == 'sc':
+            sound_classes += [line.NAME]
+        elif line.TYPE == 'ts':
+            transcriptions += [line.NAME]
+        elif line.TYPE == 'td':
+            td = TranscriptionData(line.NAME)
             for name in td.names:
                 nodiscard = True
                 if name not in sounds:
                     bipa_sound = bipa[name]
                     # check for consistency of mapping here
-                    if check(bipa_sound, bipa):
+                    if is_valid_sound(bipa_sound, bipa):
                         sounds[name] = {
                                 'grapheme': bipa_sound.s,
                                 'aliases': set([bipa_sound.s]),
-                                'representation': 1,
-                                'td': set(),
-                                'ts': set(['bipa']),
-                                'sc': set()}
+                                'reflexes': set(['bipa:'+bipa_sound.s]),
+                                'generated': '1',
+                                'unicode': bipa_sound.uname or '',
+                                }
                     else:
                         nodiscard = False
                 if nodiscard:
-                    sounds[name]['representation'] += 1
                     for item in td.data[name]:
-                        sounds[name]['aliases'].add(item['grapheme'])
-                        sounds[name]['td'].add(td.id)
-                        # add the values here
-                        data += [(
-                            item['grapheme'],
-                            name,
-                            td.id,
-                            item.get('frequency', ''),
-                            item.get('url', ''),
-                            item.get('id', ''),
-                            item.get('features', ''),
-                            item.get('image', ''),
-                            item.get('sound', ''))]
+                        if (td.id, item['grapheme']) not in visited:
+                            sounds[name]['aliases'].add(item['grapheme'])
+                            sounds[name]['reflexes'].add(td.id+':'+item['grapheme'])
+                            # add the values here
+                            data += [(
+                                item['grapheme'],
+                                name,
+                                sounds[name]['grapheme'],
+                                td.id,
+                                'td',
+                                item.get('frequency', ''),
+                                item.get('url', ''),
+                                item.get('features', ''),
+                                item.get('image', ''),
+                                item.get('sound', ''))]
+                            visited.add((grapheme, td.id))
+        
 
     # sound classes have a generative component, so we need to treat them
     # separately
-    for td_ in ['sca', 'color', 'asjp', 'dolgo', 'prosody']:
-        td = TranscriptionData(td_)
+    for sc_ in sound_classes:
+        sc = SoundClasses(sc_)
         for name in sounds:
             try:
-                grapheme = td[name]
-                sounds[name]['sc'].add((td.id, grapheme))
-                classes += [(
-                    sounds[name]['grapheme'],
+                grapheme = sc[name]
+                sounds[name]['reflexes'].add(sc.id+':'+grapheme)
+                data += [(
                     grapheme,
                     name,
-                    td.id)] 
+                    sounds[name]['grapheme'],
+                    sc.id,
+                    'sc',
+                    '0', 
+                    '',
+                    '',
+                    '',
+                    ''
+                    )
+                    ] 
 
             except KeyError:
                 print(name, sounds[name]['grapheme'])
@@ -132,51 +148,42 @@ def dump(args):
             
     # last run, check again for each of the remaining transcription systems,
     # whether we can translate the sound
-    for line in reader(pkg_path('transcriptionsystems',
-        'transcriptionsystems.tsv'), delimiter="\t", namedtuples=True):
-        if line.ID != 'bipa':
-            ts = TranscriptionSystem(line.ID)
+    for tr in transcriptions:
+        if tr != 'bipa':
+            ts = TranscriptionSystem(tr)
             for name in sounds:
                 try:
                     ts_sound = ts[name]
-                    # check for consistency of mapping
-                    if check(ts_sound, ts):
-                        sounds[name]['ts'].add(ts.id)
-                        sounds[name]['representation'] += 1
+                    if is_valid_sound(ts_sound, ts):
+                        sounds[name]['reflexes'].add(ts.id+':'+ts_sound.s)
                         sounds[name]['aliases'].add(ts_sound.s)
+                        data += [(
+                            ts_sound.s,
+                            name,
+                            sounds[name]['grapheme'],
+                            ts.id,
+                            'ts',
+                            '0', '', '', '', '')]
                 except ValueError:
                     pass
                 except TypeError:
                     print(ts.id, name)
 
-    with open(data_path('sounds.tsv'), 'w') as f:
-        f.write('ID\tGRAPHEME\tALIASES\tREPRESENTATION\tTRANSCRIPTION_SYSTEMS\tTRANSCRIPTION_DATA\tSOUND_CLASSES\n')
-        for k, v in sorted(sounds.items(), key=lambda x: x[1]['representation'],
+    with open(data_path('sounds.tsv').as_posix(), 'w') as f:
+        f.write('NAME\tGRAPHEME\tUNICODE\tALIASES\tGENERATED\tREFLEXES\n')
+        for k, v in sorted(sounds.items(), key=lambda x: len(x[1]['reflexes']),
                 reverse=True):
-            f.write('\t'.join([k, v['grapheme'], ', '.join(sorted(v['aliases'])),
-                str(v['representation']), ', '.join(sorted(v['ts'])), 
-                ', '.join(sorted(v['td'])),
-                ', '.join(['{0}:{1}'.format(k, v) for k, v in sorted(v['sc'])])
-                    ])+'\n')
+            f.write('\t'.join([k, v['grapheme'], v['unicode'],
+            ','.join(sorted(v['aliases'])), v['generated'],
+            ','.join(sorted(v['reflexes']))
+                ])+'\n')
 
-    with open(data_path('classes.tsv'), 'w') as f:
-        f.write('GRAPHEME\tSOUND_CLASS\tNAME\tSOUND_CLASS_MODEL\n')
-        for line in classes:
-            f.write('\t'.join(line)+'\n')
-
-    with open(data_path('graphemes.tsv'), 'w') as f:
+    with open(data_path('graphemes.tsv').as_posix(), 'w') as f:
         f.write('\t'.join([
-            'GRAPHEME', 'NAME', 'TRANSCRIPTION_DATA', 'FREQUENCY', 'URL', 'ID',
+            'GRAPHEME', 'NAME', 'BIPA', 'DATASET', 'DATATYPE', 'FREQUENCY', 'URL',
             'FEATURES', 'IMAGE', 'SOUND'])+'\n')
         for line in data:
             f.write('\t'.join(line)+'\n')
-
-            
-
-    #for line in reader(pkg_path('transcriptionsystems',
-    #    'transcriptionsystems.tsv'), delimiter='\t', namedtuples=True):
-    #    ts = TranscriptionSystem(line.ID)
-         
 
 
 @command()

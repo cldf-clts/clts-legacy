@@ -54,6 +54,8 @@ class Symbol(UnicodeMixin):
             return ' / '.join(unicodedata.name(ss) for ss in self.__unicode__())
         except TypeError:
             return '-'
+        except ValueError:
+            return '?'
 
     @property
     def codepoints(self):
