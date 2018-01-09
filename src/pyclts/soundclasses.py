@@ -11,7 +11,8 @@ from pyclts.transcriptiondata import iterdata
 def lingpy(sound_class):
     out = {}
     graphemes, names = [], []
-    for sound_name, sound_bipa, grapheme in iterdata('lingpy.tsv', sound_class):
+    for sound_name, sound_bipa, grapheme in iterdata('lingpy.tsv', sound_class,
+            folder='soundclasses'):
         out[sound_bipa] = out[sound_name] = grapheme
         graphemes += [sound_bipa]
         names += [sound_name]
@@ -22,7 +23,7 @@ class SoundClasses(object):
     """
     Class for handling sound class models.
     """
-    def __init__(self, data='phoible', system=None):
+    def __init__(self, data='sca', system=None):
         self.data, self.sounds, self.names = {
             "sca": lambda: lingpy('SCA_CLASS'),
             "dolgo": lambda: lingpy('DOLGOPOLSKY_CLASS'),

@@ -26,9 +26,9 @@ def convert(what, from_, to_, entry='grapheme', delimiter='/', unknown="?"):
 
 
 
-def iterdata(what, grapheme_col, *cols):
+def iterdata(what, grapheme_col, *cols, folder='transcriptiondata'):
     with UnicodeDictReader(
-            pkg_path('transcriptiondata', what), delimiter='\t') as reader:
+            pkg_path(folder, what), delimiter='\t') as reader:
         for row in reader:
             grapheme = {"grapheme": row[grapheme_col]}
             if cols:
