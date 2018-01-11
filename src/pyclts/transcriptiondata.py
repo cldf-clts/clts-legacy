@@ -41,7 +41,7 @@ def read(what):
     graphemes, names = [], [] 
     for name, bipa, grapheme in iterdata(what, 'GRAPHEME', 'URL',
             'BIPA_GRAPHEME', 'GENERATED', 'URL', 'LATEX', 'FEATURES', 'SOUND',
-            'IMAGE', 'COUNT', 'NOTE'):
+            'IMAGE', 'COUNT', 'NOTE', 'EXPLICIT'):
         out[name].append(grapheme)
         out[bipa].append(grapheme)
         graphemes += [bipa]

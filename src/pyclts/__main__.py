@@ -51,14 +51,17 @@ def td(args):
     for f in pkg_path('sources').iterdir():
         if not f.parts[-1][0] in '._' and f.parts[-1][-3:] == 'tsv':
             print(f.parts[-1], end="\t")
-            out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'GRAPHEME', 'URL'] + columns]
+            out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'EXPLICIT',
+                'GRAPHEME', 'URL'] + columns]
             for row in reader(f, dicts=True, delimiter='\t'):
                 if not row['BIPA']:
                     bipa_sound = bipa[row['GRAPHEME']]
                     generated = '+' if bipa_sound.generated else ''
+                    explicit = ''
                 else:
                     bipa_sound = bipa[row['BIPA']]
                     generated = '+' if bipa_sound.generated else ''
+                    explicit = '+'
                 if is_valid_sound(bipa_sound, bipa) and bipa_sound.type != 'marker':
                     bipa_grapheme = bipa_sound.s
                     bipa_name = bipa_sound.name
@@ -68,7 +71,7 @@ def td(args):
                     url = urls[f.parts[-1]].format(**row)
                 else:
                     url = row.get('URL', '')
-                out.append([bipa_grapheme, bipa_name, generated, row['GRAPHEME'], url] + [
+                out.append([bipa_grapheme, bipa_name, generated, explicit, row['GRAPHEME'], url] + [
                     row.get(c, '') for c in columns])
             found = len([o for o in out if o[0] != '<NA>'])
             total = len(out)
