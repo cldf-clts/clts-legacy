@@ -81,63 +81,63 @@ w	voiced labialized-velar approximant consonant		w			a voiced labial-velar appro
 ɧ	voiceless palatal-velar fricative consonant		ɧ			a simultaneous voiceless postalveolar and velar fricative	IPAsounds/sim_VL_postalveolar_velar_fricative.mp3	IPA-175.gif		
 ʜ	voiceless epiglottal fricative consonant		ʜ			a voiceless epiglottal fricative	IPAsounds/VL_epiglottal_fricative.mp3	IPA-172.gif		
 ʢ	voiced epiglottal fricative consonant		ʢ			a voiced epiglottal fricative or approximant	IPAsounds/V_epiglottal_fricative.mp3	IPA-174.gif		
-kp	from voiceless velar stop to voiceless bilabial stop cluster		kp			an affricated kp	IPAsounds/kp_affricate.mp3	IPA-433.gif		
+kp	from voiceless velar stop to voiceless bilabial stop cluster	+	kp			an affricated kp	IPAsounds/kp_affricate.mp3	IPA-433.gif		
 ts	voiceless alveolar sibilant affricate consonant		ts			an affricated ts	IPAsounds/ts_affricate.mp3	IPA-103-132-509.gif		
 ʡ	voiceless epiglottal stop consonant		ʡ			an epiglottal plosive	IPAsounds/epiglottal_plosive.mp3	IPA-173.gif		
 n̥	devoiced voiced alveolar nasal consonant		n̥			a devoiced voiced alveolar nasal	IPAsounds/devoiced_V_alveolar_nasal.mp3	IPA-116-402A.gif		
 d̥	devoiced voiced alveolar stop consonant		d̥			a devoiced voiced alveolar plosive	IPAsounds/devoiced_V_alveolar_plosive.mp3	IPA-104-402A.gif		
 bʱ	breathy voiced bilabial stop consonant		bʱ			a breathy voiced bilabial plosive	IPAsounds/breathy-voiced_bilabial_plosive.mp3	IPA-102-405.gif		
-a̤	breathy unrounded open front vowel		a̤			a breathy voiced open front unrounded vowel	IPAsounds/breathy-voiced_open_front_unrounded.mp3	IPA-304-405.gif		
+a̤	breathy unrounded open front vowel	+	a̤			a breathy voiced open front unrounded vowel	IPAsounds/breathy-voiced_open_front_unrounded.mp3	IPA-304-405.gif		
 t̪	voiceless dental stop consonant		t̪			a dentalized voiceless alveolar plosive	IPAsounds/dentalized_VL_alveolar_plosive.mp3	IPA-103-408.gif		
 d̪	voiced dental stop consonant		d̪			a dentalized voiced alveolar plosive	IPAsounds/dentalized_V_alveolar_plosive.mp3	IPA-104-408.gif		
 s̬	revoiced voiceless alveolar sibilant fricative consonant		s̬			a voiced voiceless alveolar fricative	IPAsounds/voiced_VL_alveolar_fricative.mp3	IPA-132-403.gif		
 t̬	revoiced voiceless alveolar stop consonant		t̬			a voiced voiceless alveolar plosive	IPAsounds/voiced_VL_alveolar_plosive.mp3	IPA-103-403.gif		
-b̰	creaky voiced bilabial stop consonant		b̰			a creaky voiced voiced bilabial plosive	IPAsounds/creaky-voiced_V_bilabial_plosive.mp3	IPA-102-406.gif		
+b̰	creaky voiced bilabial stop consonant	+	b̰			a creaky voiced voiced bilabial plosive	IPAsounds/creaky-voiced_V_bilabial_plosive.mp3	IPA-102-406.gif		
 a̰	creaky unrounded open front vowel		a̰			a creaky voiced open front unrounded vowel	IPAsounds/creaky-voiced_open_front_unrounded.mp3	IPA-304-406.gif		
-t̺	voiceless apical alveolar stop consonant		t̺			an apical voiceless alveolar plosive	IPAsounds/apical_VL_alveolar_plosive.mp3	IPA-103-409.gif		
-d̺	voiced apical alveolar stop consonant		d̺			an apical voiced alveolar plosive	IPAsounds/apical_V_alveolar_plosive.mp3	IPA-104-409.gif		
+t̺	voiceless apical alveolar stop consonant	+	t̺			an apical voiceless alveolar plosive	IPAsounds/apical_VL_alveolar_plosive.mp3	IPA-103-409.gif		
+d̺	voiced apical alveolar stop consonant	+	d̺			an apical voiced alveolar plosive	IPAsounds/apical_V_alveolar_plosive.mp3	IPA-104-409.gif		
 tʰ	aspirated voiceless alveolar stop consonant		tʰ			an aspirated voiceless alveolar plosive	IPAsounds/aspirated_VL_alveolar_plosive.mp3	IPA-103-404.gif		
 dʰ	aspirated voiced alveolar stop consonant		dʰ			an aspirated voiced alveolar plosive	IPAsounds/aspirated_V_alveolar_plosive.mp3	IPA-104-404.gif		
-<NA>			t̫			a linguolabialized voiceless alveolar plosive	IPAsounds/linguolabialized_VL_alveolar_plosive.mp3	IPA-103-407.gif		
-<NA>			d̫			a linguolabialized voiced alveolar plosive	IPAsounds/linguolabialized_V_alveolar_plosive.mp3	IPA-104-407.gif		
-t̻	voiceless laminal alveolar stop consonant		t̻			a laminal voiceless alveolar plosive	IPAsounds/laminal_VL_alveolar_plosive.mp3	IPA-103-410.gif		
-d̻	voiced laminal alveolar stop consonant		d̻			a laminal voiced alveolar plosive	IPAsounds/laminal_V_alveolar_plosive.mp3	IPA-104-410.gif		
-ɔ̹	more-rounded rounded open-mid back vowel		ɔ̹			a more rounded open-mid back rounded vowel	IPAsounds/more-rounded_open-mid_back_rounded .mp3	IPA-306-411.gif		
+<NA>	<NA>		t̫			a linguolabialized voiceless alveolar plosive	IPAsounds/linguolabialized_VL_alveolar_plosive.mp3	IPA-103-407.gif		
+<NA>	<NA>		d̫			a linguolabialized voiced alveolar plosive	IPAsounds/linguolabialized_V_alveolar_plosive.mp3	IPA-104-407.gif		
+t̻	voiceless laminal alveolar stop consonant	+	t̻			a laminal voiceless alveolar plosive	IPAsounds/laminal_VL_alveolar_plosive.mp3	IPA-103-410.gif		
+d̻	voiced laminal alveolar stop consonant	+	d̻			a laminal voiced alveolar plosive	IPAsounds/laminal_V_alveolar_plosive.mp3	IPA-104-410.gif		
+ɔ̹	more-rounded rounded open-mid back vowel	+	ɔ̹			a more rounded open-mid back rounded vowel	IPAsounds/more-rounded_open-mid_back_rounded .mp3	IPA-306-411.gif		
 tʷ	labialized voiceless alveolar stop consonant		tʷ			a labialized voiceless alveolar plosive	IPAsounds/labialized_VL_alveolar_plosive.mp3	IPA-103-420.gif		
-dʷ	labialized voiced alveolar stop consonant		dʷ			a labialized voiced alveolar plosive	IPAsounds/labialized_V_alveolar_plosive.mp3	IPA-104-420.gif		
+dʷ	labialized voiced alveolar stop consonant	+	dʷ			a labialized voiced alveolar plosive	IPAsounds/labialized_V_alveolar_plosive.mp3	IPA-104-420.gif		
 ẽ	nasalized unrounded close-mid front vowel		ẽ			nasalized close-mid front unrounded vowel	IPAsounds/nasalized_close-mid_front_unrounded.mp3	IPA-302-424.gif		
-ɔ̜	less-rounded rounded open-mid back vowel		ɔ̜			a less rounded open-mid back rounded vowel	IPAsounds/less-rounded_open-mid_back_rounded .mp3	IPA-306-412.gif		
+ɔ̜	less-rounded rounded open-mid back vowel	+	ɔ̜			a less rounded open-mid back rounded vowel	IPAsounds/less-rounded_open-mid_back_rounded .mp3	IPA-306-412.gif		
 tʲ	palatalized voiceless alveolar stop consonant		tʲ			a palatalized voiceless alveolar plosive	IPAsounds/palatalized_VL_alveolar plosive.mp3	IPA-103-421.gif		
 dʲ	palatalized voiced alveolar stop consonant		dʲ			a palatalized voiced alveolar plosive	IPAsounds/palatalized_V_alveolar plosive.mp3	IPA-104-421.gif		
 dⁿ	with-nasal-release voiced alveolar stop consonant		dⁿ			a nasal released voiced alveolar plosive	IPAsounds/nasal-release_V_alveolar_plosive.mp3	IPA-104-425.gif		
-u̟	advanced rounded close back vowel		u̟			an advanced close back rounded vowel	IPAsounds/advanced_close_back_rounded.mp3	IPA-308-413.gif		
-tˠ	velarized voiceless alveolar stop consonant		tˠ			a velarized voiceless alveolar plosive	IPAsounds/velarized_VL_alveolar_plosive.mp3	IPA-103-422.gif		
-dˠ	velarized voiced alveolar stop consonant		dˠ			a velarized voiced alveolar plosive	IPAsounds/velarized_V_alveolar_plosive.mp3	IPA-104-422.gif		
-dˡ	with-lateral-release voiced alveolar stop consonant		dˡ			a laterally released voiced alveolar plosive	IPAsounds/lateral-release_V_alveolar_plosive.mp3	IPA-104-426.gif		
-e̠	retracted unrounded close-mid front vowel		e̠			a retracted close-mid front unrounded vowel	IPAsounds/retracted_close-mid_front_unrounded.mp3	IPA-302-414.gif		
+u̟	advanced rounded close back vowel	+	u̟			an advanced close back rounded vowel	IPAsounds/advanced_close_back_rounded.mp3	IPA-308-413.gif		
+tˠ	velarized voiceless alveolar stop consonant	+	tˠ			a velarized voiceless alveolar plosive	IPAsounds/velarized_VL_alveolar_plosive.mp3	IPA-103-422.gif		
+dˠ	velarized voiced alveolar stop consonant	+	dˠ			a velarized voiced alveolar plosive	IPAsounds/velarized_V_alveolar_plosive.mp3	IPA-104-422.gif		
+dˡ	with-lateral-release voiced alveolar stop consonant	+	dˡ			a laterally released voiced alveolar plosive	IPAsounds/lateral-release_V_alveolar_plosive.mp3	IPA-104-426.gif		
+e̠	retracted unrounded close-mid front vowel	+	e̠			a retracted close-mid front unrounded vowel	IPAsounds/retracted_close-mid_front_unrounded.mp3	IPA-302-414.gif		
 tˤ	pharyngealized voiceless alveolar stop consonant		tˤ			a pharyngealized voiceless alveolar plosive	IPAsounds/pharyngealized_VL_alveolar_plosive.mp3	IPA-103-423.gif		
 dˤ	pharyngealized voiced alveolar stop consonant		dˤ			a pharyngealized voiced alveolar plosive	IPAsounds/pharyngealized_V_alveolar_plosive.mp3	IPA-104-423.gif		
-d̚	unreleased voiced alveolar stop consonant		d̚			a voiced alveolar plosive with no audible release	IPAsounds/no-audible-release_V_alveolar_plosive.mp3	IPA-104-427.gif		
-<NA>			ë			a centralized close-mid front unrounded vowel	IPAsounds/centralized_close-mid_front_unrounded.mp3	IPA-302-415.gif		
-<NA>			ɫ			a velarized or pharyngealized alveolar lateral approximant	IPAsounds/velarized_V_alveolar_lateral-approximant.mp3	IPA-209.gif		
-<NA>			e̽			a mid-centralized close-mid front unrounded vowel'	IPAsounds/mid-centralized_close-mid_front_unrounded.mp3	IPA-302-416.gif		
-e̝	raised unrounded close-mid front vowel		e̝			a raised close-mid front unrounded vowel'	IPAsounds/raised_close-mid_front_unrounded.mp3	IPA-302-429.gif		
-<NA>			ɹ̝			a raised voiced alveolar fricative	IPAsounds/raised_V_alveolar_fricative.mp3	IPA-151-429.gif		
-<NA>						##	IPAsounds/##.mp3	IPA-116-431.gif		
+d̚	unreleased voiced alveolar stop consonant	+	d̚			a voiced alveolar plosive with no audible release	IPAsounds/no-audible-release_V_alveolar_plosive.mp3	IPA-104-427.gif		
+<NA>	<NA>	+	ë			a centralized close-mid front unrounded vowel	IPAsounds/centralized_close-mid_front_unrounded.mp3	IPA-302-415.gif		
+<NA>	<NA>		ɫ			a velarized or pharyngealized alveolar lateral approximant	IPAsounds/velarized_V_alveolar_lateral-approximant.mp3	IPA-209.gif		
+<NA>	<NA>	+	e̽			a mid-centralized close-mid front unrounded vowel'	IPAsounds/mid-centralized_close-mid_front_unrounded.mp3	IPA-302-416.gif		
+e̝	raised unrounded close-mid front vowel	+	e̝			a raised close-mid front unrounded vowel'	IPAsounds/raised_close-mid_front_unrounded.mp3	IPA-302-429.gif		
+<NA>	<NA>		ɹ̝			a raised voiced alveolar fricative	IPAsounds/raised_V_alveolar_fricative.mp3	IPA-151-429.gif		
+<NA>	<NA>					##	IPAsounds/##.mp3	IPA-116-431.gif		
 e̞	unrounded mid front vowel		e̞			a lowered close-mid front unrounded vowel'	IPAsounds/lowered_close-mid_front_unrounded.mp3	IPA-302-430.gif		
 β̞	voiced bilabial approximant consonant		β̞			a lowered bilabial approximant'	IPAsounds/lowered_V_bilabial_approximant.mp3	IPA-127-430.gif		
 e̯	non-syllabic unrounded close-mid front vowel		e̯			a non-syllabic close-mid front unrounded vowel'	IPAsounds/non-syllabic_close-mid_front_unrounded.mp3	IPA-302-432.gif		
-e̘	advanced-tongue-root unrounded close-mid front vowel		e̘			an advanced tongue root close-mid front unrounded vowel'	IPAsounds/advanced-tongue-root_close-mid_front_unrounded.mp3	IPA-302-417.gif		
+e̘	advanced-tongue-root unrounded close-mid front vowel	+	e̘			an advanced tongue root close-mid front unrounded vowel'	IPAsounds/advanced-tongue-root_close-mid_front_unrounded.mp3	IPA-302-417.gif		
 ə˞	rhotacized unrounded mid central vowel		ɚ			rhotic mid central vowel	IPAsounds/rhotic_mid_central.mp3	IPA-327.gif		
-<NA>			a̢			rhotic open front unrounded vowel	IPAsounds/rhotic_open_front_unrounded.mp3	IPA-304-419.gif		
-e̙	retracted-tongue-root unrounded close-mid front vowel		e̙			a retracted tongue root close-mid front unrounded vowel'	IPAsounds/retracted-tongue-root_close-mid_front_unrounded.mp3	IPA-302-418.gif		
-<NA>			e̋			an extra-high tome close-mid front unrounded vowel	IPAsounds/extra-high-tone_close-mid_front_unrounded.mp3	IPA-302-512.gif		
-<NA>			ě			a rising contour close-mid front unrounded vowel	IPAsounds/rising-contour_close-mid_front_unrounded.mp3	IPA-302-524.gif		
-<NA>			é			a high-tone close-mid front unrounded vowel	IPAsounds/high-tone_close-mid_front_unrounded.mp3	IPA-302-513.gif		
-<NA>			ê			a falling contour close-mid front unrounded vowel	IPAsounds/falling-contour_close-mid_front_unrounded.mp3	IPA-302-525.gif		
-<NA>			ē			a mid-tone close-mid front unrounded vowel	IPAsounds/mid-tone_close-mid_front_unrounded.mp3	IPA-302-514.gif		
-<NA>						a high-rising contour close-mid front unrounded vowel	IPAsounds/high-rising-contour_close-mid_front_unrounded.mp3	IPA-302-526.gif		
-<NA>			è			a low-tone close-mid front unrounded vowel	IPAsounds/low-tone_close-mid_front_unrounded.mp3	IPA-302-515.gif		
-<NA>						a low-rising contour close-mid front unrounded vowel	IPAsounds/low-rising-contour_close-mid_front_unrounded.mp3	IPA-302-527.gif		
-<NA>			ȅ			an extra-low tone close-mid front unrounded vowel	IPAsounds/extra-low-tone_close-mid_front_unrounded.mp3	IPA-302-516.gif		
-<NA>						a rising-falling contour close-mid front unrounded vowel	IPAsounds/rising-falling-contour_close-mid_front_unrounded.mp3	IPA-302-528.gif		
+<NA>	<NA>		a̢			rhotic open front unrounded vowel	IPAsounds/rhotic_open_front_unrounded.mp3	IPA-304-419.gif		
+e̙	retracted-tongue-root unrounded close-mid front vowel	+	e̙			a retracted tongue root close-mid front unrounded vowel'	IPAsounds/retracted-tongue-root_close-mid_front_unrounded.mp3	IPA-302-418.gif		
+<NA>	<NA>	+	e̋			an extra-high tome close-mid front unrounded vowel	IPAsounds/extra-high-tone_close-mid_front_unrounded.mp3	IPA-302-512.gif		
+<NA>	<NA>	+	ě			a rising contour close-mid front unrounded vowel	IPAsounds/rising-contour_close-mid_front_unrounded.mp3	IPA-302-524.gif		
+<NA>	<NA>	+	é			a high-tone close-mid front unrounded vowel	IPAsounds/high-tone_close-mid_front_unrounded.mp3	IPA-302-513.gif		
+<NA>	<NA>	+	ê			a falling contour close-mid front unrounded vowel	IPAsounds/falling-contour_close-mid_front_unrounded.mp3	IPA-302-525.gif		
+<NA>	<NA>	+	ē			a mid-tone close-mid front unrounded vowel	IPAsounds/mid-tone_close-mid_front_unrounded.mp3	IPA-302-514.gif		
+<NA>	<NA>					a high-rising contour close-mid front unrounded vowel	IPAsounds/high-rising-contour_close-mid_front_unrounded.mp3	IPA-302-526.gif		
+<NA>	<NA>	+	è			a low-tone close-mid front unrounded vowel	IPAsounds/low-tone_close-mid_front_unrounded.mp3	IPA-302-515.gif		
+<NA>	<NA>					a low-rising contour close-mid front unrounded vowel	IPAsounds/low-rising-contour_close-mid_front_unrounded.mp3	IPA-302-527.gif		
+<NA>	<NA>	+	ȅ			an extra-low tone close-mid front unrounded vowel	IPAsounds/extra-low-tone_close-mid_front_unrounded.mp3	IPA-302-516.gif		
+<NA>	<NA>					a rising-falling contour close-mid front unrounded vowel	IPAsounds/rising-falling-contour_close-mid_front_unrounded.mp3	IPA-302-528.gif		

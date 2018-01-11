@@ -55,15 +55,15 @@ def td(args):
             for row in reader(f, dicts=True, delimiter='\t'):
                 if not row['BIPA']:
                     bipa_sound = bipa[row['GRAPHEME']]
-                    generated = ''
+                    generated = '+' if bipa_sound.generated else ''
                 else:
                     bipa_sound = bipa[row['BIPA']]
-                    generated = '+'
+                    generated = '+' if bipa_sound.generated else ''
                 if is_valid_sound(bipa_sound, bipa) and bipa_sound.type != 'marker':
                     bipa_grapheme = bipa_sound.s
                     bipa_name = bipa_sound.name
                 else:
-                    bipa_grapheme, bipa_name = '<NA>', ''
+                    bipa_grapheme, bipa_name = '<NA>', '<NA>'
                 if f.parts[-1] in urls:
                     url = urls[f.parts[-1]].format(**row)
                 else:
@@ -75,7 +75,7 @@ def td(args):
             gens = len([o for o in out if o[2] == '+'])
             print('{0:.2f}% ({1} out of {2})'.format(found / total, found,
                 total))
-            with open(pkg_path('transcriptiondata', f.parts[-1]), 'w') as f:
+            with open(pkg_path('transcriptiondata', f.parts[-1]).as_posix(), 'w') as f:
                 for line in out:
                     f.write('\t'.join(line)+'\n')
 
