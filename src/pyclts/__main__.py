@@ -121,7 +121,9 @@ def dump(args):
                             'alias': '+' if sound.alias else '',
                             'normalized': '+' if sound.normalized else ''
                             }
-            data += [( grapheme, sound.name, sound.s, 'bipa', 'ts', '', '', '', '0', '',
+
+            data += [(grapheme, sound.name, sound.s, sound.type, '', '+', '',
+                '', 'bipa', 'ts', '0',
                 '', '', '', sound.note or '')]
             
             visited.add(('bipa', grapheme))
@@ -163,6 +165,7 @@ def dump(args):
                             data += [(item['grapheme'], name,
                                 sounds[name]['grapheme'], sounds[name]['type'],
                                 sounds[name]['generated'],
+                                item['explicit'],
                                 sounds[name]['alias'],
                                 sounds[name]['normalized'], td.id, 'td',
                                 item.get('frequency', ''), item.get('url',
@@ -181,6 +184,7 @@ def dump(args):
                 sounds[name]['reflexes'].add(sc.id+':'+grapheme)
                 data += [( grapheme, name, sounds[name]['grapheme'], 
                     sounds[name]['type'], sounds[name]['generated'],
+                    '+' if name in sc.data else '',
                     sounds[name]['alias'], sounds[name]['normalized'],
                     sc.id,
                     'sc', '0', '', '', '', '', '')] 
@@ -201,6 +205,7 @@ def dump(args):
                         sounds[name]['aliases'].add(ts_sound.s)
                         data += [( ts_sound.s, name, sounds[name]['grapheme'],
                             sounds[name]['type'], sounds[name]['generated'],
+                            '' if sounds[name]['generated'] else '+',
                             sounds[name]['alias'],
                             sounds[name]['normalized'],
                             ts.id, 'ts', '0', '', '', '', '', '')]
@@ -220,7 +225,7 @@ def dump(args):
 
     with open(data_path('graphemes.tsv').as_posix(), 'w') as f:
         f.write('\t'.join([
-            'GRAPHEME', 'NAME', 'BIPA', 'SOUNDTYPE', 'GENERATED', 'ALIAS',
+            'GRAPHEME', 'NAME', 'BIPA', 'SOUNDTYPE', 'GENERATED', 'EXPLICIT', 'ALIAS',
             'NORMALIZED', 'DATASET', 'DATATYPE', 'FREQUENCY', 'URL',
             'FEATURES', 'IMAGE', 'SOUND', 'NOTE'])+'\n')
         for line in data:
