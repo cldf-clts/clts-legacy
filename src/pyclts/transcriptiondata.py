@@ -25,7 +25,6 @@ def convert(what, from_, to_, entry='grapheme', delimiter='/', unknown="?"):
     return out
 
 
-
 def iterdata(what, grapheme_col, *cols, folder='transcriptiondata'):
     with UnicodeDictReader(
             pkg_path(folder, what), delimiter='\t') as reader:
@@ -37,10 +36,12 @@ def iterdata(what, grapheme_col, *cols, folder='transcriptiondata'):
             yield row['CLTS_NAME'], row['BIPA_GRAPHEME'], grapheme
 
 
-def read(what, grapheme_col, *cols):
+def read(what):
     out = defaultdict(list)
-    graphemes, names = [], []
-    for name, bipa, grapheme in iterdata(what, grapheme_col, *cols):
+    graphemes, names = [], [] 
+    for name, bipa, grapheme in iterdata(what, 'GRAPHEME', 'URL',
+            'BIPA_GRAPHEME', 'GENERATED', 'URL', 'LATEX', 'FEATURES', 'SOUND',
+            'IMAGE', 'COUNT', 'NOTE', 'EXPLICIT'):
         out[name].append(grapheme)
         out[bipa].append(grapheme)
         graphemes += [bipa]
@@ -48,25 +49,15 @@ def read(what, grapheme_col, *cols):
     return out, graphemes, names
 
 
-phoible = partial(read, 'phoible.tsv', 'GRAPHEME', 'URL')
-pbase = partial(read, 'pbase.tsv', 'GRAPHEME', 'URL')
-ruhlen = partial(read, 'creanza.tsv', 'GRAPHEME', 'FREQUENCY')
-eurasian = partial(read, 'eurasian.tsv', 'GRAPHEME', 'URL')
-lapsyd = partial(read, 'lapsyd.tsv', 'GRAPHEME', 'ID', 'FEATURES')
-nidaba = partial(read, 'nidaba.tsv', 'GRAPHEME', 'FEATURES', 'LATEX')
-multimedia = partial(read, 'multimedia.tsv', 'GRAPHEME', 'FEATURES', 'SOUND', 'IMAGE')
-diachronica = partial(read, 'diachronica.tsv', 'GRAPHEME', 'URL')
-beijingdaxue = partial(read, 'beijingdaxue.tsv', 'GRAPHEME')
-
-
-def lingpy(sound_class):
-    out = {}
-    graphemes, names = [], []
-    for name, bipa, grapheme in iterdata('lingpy.tsv', sound_class):
-        out[bipa] = out[name] = [grapheme]
-        graphemes += [bipa]
-        names += [name]
-    return out, graphemes, names
+phoible = partial(read, 'phoible.tsv')
+pbase = partial(read, 'pbase.tsv')
+ruhlen = partial(read, 'ruhlen.tsv')
+eurasian = partial(read, 'eurasian.tsv')
+lapsyd = partial(read, 'lapsyd.tsv')
+nidaba = partial(read, 'nidaba.tsv')
+multimedia = partial(read, 'multimedia.tsv')
+diachronica = partial(read, 'diachronica.tsv')
+beijingdaxue = partial(read, 'beijingdaxue.tsv')
 
 
 class TranscriptionData(object):
@@ -74,16 +65,9 @@ class TranscriptionData(object):
     Class for handling transcription data.
     """
     def __init__(self, data='phoible', system=None):
-        self.data, self.sounds, self.names = {
-            "phoible": phoible,
-            "pbase": pbase,
-            'lapsyd': lapsyd,
-            'eurasian': eurasian,
-            'ruhlen': ruhlen,
-            'nidaba': nidaba,
-            'multimedia': multimedia,
-            'diachronica': diachronica,
-            'beijingdaxue': beijingdaxue,
+        self.data, self.sounds, self.names = {td: partial(read, td+'.tsv') for td in [
+            'phoible', 'pbase', 'lapsyd', 'eurasian', 'ruhlen', 'nidaba',
+            'multimedia', 'diachronica', 'beijingdaxue']
         }[data]()
         self.id = data
         self.system = system or TranscriptionSystem()

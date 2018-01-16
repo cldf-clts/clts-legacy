@@ -7,6 +7,9 @@ import sys
 from collections import defaultdict
 import argparse
 import json
+import glob
+
+import tabulate
 
 from clldutils.clilib import ArgumentParser, command
 from clldutils.dsv import UnicodeReader, reader
@@ -15,7 +18,6 @@ from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
 from pyclts.soundclasses import SoundClasses
 from pyclts.util import pkg_path, data_path, is_valid_sound
-
 
 @command()
 def sounds(args):
@@ -36,17 +38,53 @@ def sounds(args):
 
 
 @command()
-def dump(args):
-    def check(sound, ts):
-        """Check the consistency of a given transcription system conversino"""
-        if sound.type in ['unknownsound', 'marker']:
-            return False
-        s1 = ts[sound.name]
-        s2 = ts[sound.s]
-        if s1.name == s2.name and s1.s == s2.s:
-            return True
-        return False
+def td(args):
+    """Prepare transcriptiondata from the transcription sources."""
+    columns = ['LATEX', 'FEATURES', 'SOUND', 'IMAGE', 'COUNT', 'NOTE']
+    bipa = TranscriptionSystem('bipa')
+    urls = {
+            'phoible.tsv': 'http://phoible.org/parameters/{ID}',
+            'eurasian.tsv': 'http://eurasianphonology.info/search_exact?dialects=True&query={GRAPHEME}',
+            'pbase.tsv': 'http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={GRAPHEME}&inany=false&coreinv=on',
 
+            }
+    for f in pkg_path('sources').iterdir():
+        if not f.parts[-1][0] in '._' and f.parts[-1][-3:] == 'tsv':
+            print(f.parts[-1], end="\t")
+            out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'EXPLICIT',
+                'GRAPHEME', 'URL'] + columns]
+            for row in reader(f, dicts=True, delimiter='\t'):
+                if not row['BIPA']:
+                    bipa_sound = bipa[row['GRAPHEME']]
+                    generated = '+' if bipa_sound.generated else ''
+                    explicit = ''
+                else:
+                    bipa_sound = bipa[row['BIPA']]
+                    generated = '+' if bipa_sound.generated else ''
+                    explicit = '+'
+                if is_valid_sound(bipa_sound, bipa) and bipa_sound.type != 'marker':
+                    bipa_grapheme = bipa_sound.s
+                    bipa_name = bipa_sound.name
+                else:
+                    bipa_grapheme, bipa_name = '<NA>', '<NA>'
+                if f.parts[-1] in urls:
+                    url = urls[f.parts[-1]].format(**row)
+                else:
+                    url = row.get('URL', '')
+                out.append([bipa_grapheme, bipa_name, generated, explicit, row['GRAPHEME'], url] + [
+                    row.get(c, '') for c in columns])
+            found = len([o for o in out if o[0] != '<NA>'])
+            total = len(out)
+            gens = len([o for o in out if o[2] == '+'])
+            print('{0:.2f}% ({1} out of {2})'.format(found / total, found,
+                total))
+            with open(pkg_path('transcriptiondata', f.parts[-1]).as_posix(), 'w') as f:
+                for line in out:
+                    f.write('\t'.join(line)+'\n')
+
+
+@command()
+def dump(args):
     sounds = defaultdict(dict)
     data = [] 
     classes = []
@@ -62,8 +100,11 @@ def dump(args):
                         'unicode': sound.uname or '',
                         'aliases': set([grapheme]),
                         'reflexes': set(['bipa:'+grapheme]),
-                        'generated': '0',
-                        'note': sound.note or ''
+                        'generated': '',
+                        'note': sound.note or '',
+                        'type': sound.type,
+                        'alias': '+' if sound.alias else '',
+                        'normalized': '+' if sound.normalized else ''
                         }
             else:
                 if sound.name in sounds:
@@ -74,10 +115,15 @@ def dump(args):
                             'aliases': set([grapheme, sound.s]),
                             'unicode': sound.uname or '',
                             'reflexes': set(['bipa:'+sound.s]),
-                            'generated': '0',
-                            'note': sound.note or ''
+                            'generated': '',
+                            'note': sound.note or '',
+                            'type': sound.type,
+                            'alias': '+' if sound.alias else '',
+                            'normalized': '+' if sound.normalized else ''
                             }
-            data += [( grapheme, sound.name, sound.s, 'bipa', 'ts', '0', '',
+
+            data += [(grapheme, sound.name, sound.s, sound.type, '', '+', '',
+                '', 'bipa', 'ts', '0',
                 '', '', '', sound.note or '')]
             
             visited.add(('bipa', grapheme))
@@ -101,9 +147,12 @@ def dump(args):
                                 'grapheme': bipa_sound.s,
                                 'aliases': set([bipa_sound.s]),
                                 'reflexes': set(['bipa:'+bipa_sound.s]),
-                                'generated': '1',
+                                'generated': '+',
                                 'unicode': bipa_sound.uname or '',
-                                'note': ''
+                                'note': '',
+                                'type': bipa_sound.type,
+                                'alias': '+' if bipa_sound.alias else '',
+                                'normalized': '+' if bipa_sound.normalized else ''
                                 }
                     else:
                         nodiscard = False
@@ -113,11 +162,16 @@ def dump(args):
                             sounds[name]['aliases'].add(item['grapheme'])
                             sounds[name]['reflexes'].add(td.id+':'+item['grapheme'])
                             # add the values here
-                            data += [( item['grapheme'], name,
-                                sounds[name]['grapheme'], td.id, 'td',
-                                item.get('frequency', ''), item.get('url', ''),
-                                item.get('features', ''), item.get('image',
-                                    ''), item.get('sound', '')), '']
+                            data += [(item['grapheme'], name,
+                                sounds[name]['grapheme'], sounds[name]['type'],
+                                sounds[name]['generated'],
+                                item['explicit'],
+                                sounds[name]['alias'],
+                                sounds[name]['normalized'], td.id, 'td',
+                                item.get('frequency', ''), item.get('url',
+                                    ''), item.get('features', ''),
+                                item.get('image', ''), item.get('sound', ''),
+                                '')]
                             visited.add((grapheme, td.id))
 
     # sound classes have a generative component, so we need to treat them
@@ -128,7 +182,11 @@ def dump(args):
             try:
                 grapheme = sc[name]
                 sounds[name]['reflexes'].add(sc.id+':'+grapheme)
-                data += [( grapheme, name, sounds[name]['grapheme'], sc.id,
+                data += [( grapheme, name, sounds[name]['grapheme'], 
+                    sounds[name]['type'], sounds[name]['generated'],
+                    '+' if name in sc.data else '',
+                    sounds[name]['alias'], sounds[name]['normalized'],
+                    sc.id,
                     'sc', '0', '', '', '', '', '')] 
 
             except KeyError:
@@ -146,6 +204,10 @@ def dump(args):
                         sounds[name]['reflexes'].add(ts.id+':'+ts_sound.s)
                         sounds[name]['aliases'].add(ts_sound.s)
                         data += [( ts_sound.s, name, sounds[name]['grapheme'],
+                            sounds[name]['type'], sounds[name]['generated'],
+                            '' if sounds[name]['generated'] else '+',
+                            sounds[name]['alias'],
+                            sounds[name]['normalized'],
                             ts.id, 'ts', '0', '', '', '', '', '')]
                 except ValueError:
                     pass
@@ -153,20 +215,50 @@ def dump(args):
                     print(ts.id, name)
 
     with open(data_path('sounds.tsv').as_posix(), 'w') as f:
-        f.write('\t'.join(['NAME', 'GRAPHEME', 'UNICODE', 'ALIASES', 'GENERATED',
+        f.write('\t'.join(['NAME', 'TYPE', 'GRAPHEME', 'UNICODE', 'ALIASES', 'GENERATED',
             'REFLEXES', 'NOTE'])+'\n')
         for k, v in sorted(sounds.items(), key=lambda x: len(x[1]['reflexes']),
                 reverse=True):
-            f.write('\t'.join([k, v['grapheme'], v['unicode'],
+            f.write('\t'.join([k, v['type'], v['grapheme'], v['unicode'],
                 ','.join(sorted(v['aliases'])), v['generated'],
                 ','.join(sorted(v['reflexes'])), v['note']])+'\n')
 
     with open(data_path('graphemes.tsv').as_posix(), 'w') as f:
         f.write('\t'.join([
-            'GRAPHEME', 'NAME', 'BIPA', 'DATASET', 'DATATYPE', 'FREQUENCY', 'URL',
+            'GRAPHEME', 'NAME', 'BIPA', 'SOUNDTYPE', 'GENERATED', 'EXPLICIT', 'ALIAS',
+            'NORMALIZED', 'DATASET', 'DATATYPE', 'FREQUENCY', 'URL',
             'FEATURES', 'IMAGE', 'SOUND', 'NOTE'])+'\n')
         for line in data:
             f.write('\t'.join(line)+'\n')
+
+@command()
+def stats(args):
+    sounds = {}
+    for row in reader(data_path('sounds.tsv'), delimiter='\t', dicts=True):
+        sounds[row['NAME']] = row
+    graphs = {}
+    for row in reader(data_path('graphemes.tsv'), delimiter='\t', dicts=True):
+        graphs['{GRAPHEME}-{NAME}-{DATASET}'.format(**row)] = row
+
+    graphdict = defaultdict(list)
+    for id_, row in graphs.items():
+        if row['DATATYPE'] == 'td':
+            graphdict[row['GRAPHEME']] += [row['DATASET']]
+    
+    text = [['DATA', 'STATS', 'PERC']]
+    text += [['Unique graphemes', 
+        len(set([row['GRAPHEME'] for row in graphs.values()]))]]
+    text += [['different sounds', len(sounds), '']]
+    text += [['singletons', len([g for g in graphdict if len(set(graphdict[g]))
+        == 1]), '']]
+    text += [['multiples', len([g for g in graphdict if len(set(graphdict[g]))
+        > 1]), '']]
+    for sc in ['consonant', 'vowel', 'tone', 'diphthong', 'cluster']:
+        consonants = len([s for s in sounds.values() if s['TYPE'] == sc])
+        total = len(sounds)
+        text += [[sc+'s', consonants, '{0:.2f}'.format(consonants / total)]]
+
+    print(tabulate.tabulate(text, headers='firstrow'))
 
 
 @command()
