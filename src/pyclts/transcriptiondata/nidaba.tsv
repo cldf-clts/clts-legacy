@@ -87,7 +87,7 @@ r	voiced alveolar trill consonant			r		r	alveolar:liquid:+voice −lateral
 ɺ	voiced alveolar lateral tap consonant			ɺ		\textturnlonglegr	alveolar:liquid:+voice +lateral				
 <NA>	<NA>			ɺ̠		\textsubbar{\textturnlonglegr}	alveolar:liquid:+voice +lateral				
 <NA>	<NA>			ɾ̪		\textsubbridge{\textfishhookr}	alveolar:liquid:+voice −lateral				
-ɾ	devoiced voiced alveolar tap consonant			ɾ		\textfishhookr	alveolar:liquid:+voice −lateral				
+ɾ	voiced alveolar tap consonant			ɾ		\textfishhookr	alveolar:liquid:+voice −lateral				
 <NA>	<NA>			ɾ̠		\textsubbar{\textfishhookr}	alveolar:liquid:+voice −lateral				
 ɹ	voiced alveolar approximant consonant			ɹ		\textturnr	alveolar:liquid:+voice −lateral				
 ɹ̠	voiced post-alveolar approximant consonant			ɹ̠		\textsubbar{\textturnr}	alveolar:liquid:+voice −lateral				
@@ -287,7 +287,7 @@ m̥	devoiced voiced bilabial nasal consonant			m̥		*m	labial:nasal:−voice +na
 ɱ̊	devoiced voiced labio-dental nasal consonant			ɱ̥		*\textltailm	labiodental:nasal:−voice +nasal				
 r̥	devoiced voiced alveolar trill consonant			r̥		*r	alveolar:liquid:−voice −lateral				
 ɺ̥	devoiced voiced alveolar lateral tap consonant	+		ɺ̥		*\textturnlonglegr	alveolar:liquid:−voice +lateral				
-ɾ	devoiced voiced alveolar tap consonant	+		ɾ̥		*\textfishhookr	alveolar:liquid:−voice −lateral				
+ɾ̥	devoiced voiced alveolar tap consonant			ɾ̥		*\textfishhookr	alveolar:liquid:−voice −lateral				
 ɹ̥	devoiced voiced alveolar approximant consonant	+		ɹ̥		*\textturnr	alveolar:liquid:−voice −lateral				
 l̥	devoiced voiced alveolar lateral approximant consonant			l̥		*l	alveolar:liquid:−voice +lateral				
 <NA>	<NA>			ɫ̥		*\textltilde	alveolar:liquid:−voice +lateral				
@@ -445,7 +445,7 @@ z̩	syllabic voiced alveolar sibilant fricative consonant			z̩		\textipa{\s{z}}
 ɮ̩	syllabic voiced alveolar lateral fricative consonant	+		ɮ̩		\textipa{\s{\textlyoghlig}}	alveolar:fricative:+voice +lateral +syllabic				
 r̩	syllabic voiced alveolar trill consonant			r̩		\textipa{\s{r}}	alveolar:liquid:+voice −lateral +syllabic				
 ɺ̩	syllabic voiced alveolar lateral tap consonant	+		ɺ̩		\textipa{\s{\textturnlonglegr}}	alveolar:liquid:+voice +lateral +syllabic				
-ɾ̩	syllabic devoiced voiced alveolar tap consonant	+		ɾ̩		\textipa{\s{\textfishhookr}}	alveolar:liquid:+voice −lateral +syllabic				
+ɾ̩	syllabic voiced alveolar tap consonant	+		ɾ̩		\textipa{\s{\textfishhookr}}	alveolar:liquid:+voice −lateral +syllabic				
 ɹ̩	syllabic voiced alveolar approximant consonant			ɹ̩		\textipa{\s{\textturnr}}	alveolar:liquid:+voice −lateral +syllabic				
 l̩	syllabic voiced alveolar lateral approximant consonant			l̩		\textsyllabic{l}	alveolar:liquid:+voice +lateral +syllabic				
 <NA>	<NA>			ɫ̩		\textsyllabic{\textltilde}	alveolar:liquid:+voice +lateral +syllabic				
@@ -491,7 +491,7 @@ m̩̥	syllabic devoiced voiced bilabial nasal consonant	+		m̥̩		\textipa{\s{ *
 ɱ̩̥	syllabic devoiced voiced labio-dental nasal consonant	+		ɱ̥̩		\textipa{\s{ *\textltailm}}	labiodental:nasal:−voice +nasal +syllabic				
 r̩̥	syllabic devoiced voiced alveolar trill consonant	+		r̥̩		\textipa{\s{ *r}}	alveolar:liquid:−voice −lateral +syllabic				
 ɺ̩̥	syllabic devoiced voiced alveolar lateral tap consonant	+		ɺ̥̩		\textipa{\s{ *\textturnlonglegr}}	alveolar:liquid:−voice +lateral +syllabic				
-ɾ̩	syllabic devoiced voiced alveolar tap consonant	+		ɾ̥̩		\textipa{\s{ *\textfishhookr}}	alveolar:liquid:−voice −lateral +syllabic				
+ɾ̩̥	syllabic devoiced voiced alveolar tap consonant	+		ɾ̥̩		\textipa{\s{ *\textfishhookr}}	alveolar:liquid:−voice −lateral +syllabic				
 ɹ̩̥	syllabic devoiced voiced alveolar approximant consonant	+		ɹ̥̩		\textipa{\s{ *\textturnr}}	alveolar:liquid:−voice −lateral +syllabic				
 l̩̥	syllabic devoiced voiced alveolar lateral approximant consonant	+		l̥̩		\textipa{\s{ *l}}	alveolar:liquid:−voice +lateral +syllabic				
 <NA>	<NA>			ɫ̥̩		\textipa{\s{ *\textltilde}}	alveolar:liquid:−voice +lateral +syllabic				
@@ -528,7 +528,7 @@ zʲ	palatalized voiced alveolar sibilant fricative consonant			zʲ		z\super j	al
 ɮʲ	palatalized voiced alveolar lateral fricative consonant	+		ɮʲ		\textlyoghlig\super j	alveolar, palatal:fricative:+voice +lateral				
 rʲ	palatalized voiced alveolar trill consonant			rʲ		r\super j	alveolar, palatal:liquid:+voice −lateral				
 ɺʲ	palatalized voiced alveolar lateral tap consonant	+		ɺʲ		\textturnlonglegr\super j	alveolar, palatal:liquid:+voice +lateral				
-ɾʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾʲ		\textfishhookr\super j	alveolar, palatal:liquid:+voice −lateral				
+ɾʲ	palatalized voiced alveolar tap consonant	+		ɾʲ		\textfishhookr\super j	alveolar, palatal:liquid:+voice −lateral				
 ɹʲ	palatalized voiced alveolar approximant consonant	+		ɹʲ		\textturnr\super j	alveolar, palatal:liquid:+voice −lateral				
 lʲ	palatalized voiced alveolar lateral approximant consonant			lʲ		l\super j	alveolar, palatal:liquid:+voice +lateral				
 <NA>	<NA>			ɫʲ		\textltilde\super j	alveolar, palatal:liquid:+voice +lateral				
@@ -574,7 +574,7 @@ m̥ʲ	palatalized devoiced voiced bilabial nasal consonant	+		m̥ʲ		*m\super j	
 ɱ̥ʲ	palatalized devoiced voiced labio-dental nasal consonant	+		ɱ̥ʲ		*\textltailm\super j	labiodental, palatal:nasal:−voice +nasal				
 r̥ʲ	palatalized devoiced voiced alveolar trill consonant	+		r̥ʲ		*r\super j	alveolar, palatal:liquid:−voice −lateral				
 ɺ̥ʲ	palatalized devoiced voiced alveolar lateral tap consonant	+		ɺ̥ʲ		*\textturnlonglegr\super j	alveolar, palatal:liquid:−voice +lateral				
-ɾʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾ̥ʲ		*\textfishhookr\super j	alveolar, palatal:liquid:−voice −lateral				
+ɾ̥ʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾ̥ʲ		*\textfishhookr\super j	alveolar, palatal:liquid:−voice −lateral				
 ɹ̥ʲ	palatalized devoiced voiced alveolar approximant consonant	+		ɹ̥ʲ		*\textturnr\super j	alveolar, palatal:liquid:−voice −lateral				
 l̥ʲ	palatalized devoiced voiced alveolar lateral approximant consonant	+		l̥ʲ		*l\super j	alveolar, palatal:liquid:−voice +lateral				
 <NA>	<NA>			ɫ̥ʲ		*\textltilde\super j	alveolar, palatal:liquid:−voice +lateral				

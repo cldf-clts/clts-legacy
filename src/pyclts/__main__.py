@@ -82,6 +82,28 @@ def td(args):
                 for line in out:
                     f.write('\t'.join(line)+'\n')
 
+@command()
+def sc(args):
+    from lingpy.sequence.sound_classes import token2class
+    from lingpy.data import Model
+    bipa = TranscriptionSystem('bipa')
+    classes = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
+    conv = {x: x.upper()+'_CLASS' for x in classes}
+    conv['art'] = 'PROSODY_CLASS'
+    conv['dolgo'] = 'DOLGOPOLSKY_CLASS'
+    count = 0
+    with open(pkg_path('soundclasses', 'lingpy.tsv').as_posix(), 'w') as f:
+        f.write('CLTS_NAME\tBIPA_GRAPHEME\t'+'\t'.join([
+            conv[x] for x in classes])+'\n')
+        for grapheme, sound in bipa.items():
+            if not sound.alias:
+                f.write(sound.name+'\t'+grapheme)
+                for cls in classes:
+                    f.write('\t'+token2class(grapheme, Model(cls)))
+                f.write('\n')
+                count += 1
+    print('Wrote {0} sound classes to file.'.format(count))
+
 
 @command()
 def dump(args):

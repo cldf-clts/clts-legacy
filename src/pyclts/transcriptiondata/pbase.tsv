@@ -349,15 +349,15 @@ d’kx’	from voiced alveolar ejective stop to voiceless velar ejective affrica
 d’kx’	from voiced alveolar ejective stop to voiceless velar ejective affricate cluster	+		dʼkxʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=dʼkxʼ&inany=false&coreinv=on		conso:ejective_to_affricate:alveolar_to_velar:voiced_to_voiceless:glottalized				
 tʼkx’	from voiceless alveolar ejective stop to voiceless velar ejective affricate cluster	+		tʼkxʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʼkxʼ&inany=false&coreinv=on		conso:ejective_to_affricate:alveolar_to_velar:voiceless:glottalized				
 tʼkx’	from voiceless alveolar ejective stop to voiceless velar ejective affricate cluster	+		tʼkxʼ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=tʼkxʼ&inany=false&coreinv=on		conso:ejective_to_affricate:alveolar_to_velar:voiceless:glottalized				
-ɾ	devoiced voiced alveolar tap consonant			ɾ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ&inany=false&coreinv=on		conso:flap:alveolar:voiced:plain				
-ɾˤ	pharyngealized devoiced voiced alveolar tap consonant	+		ɾˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾˤ&inany=false&coreinv=on		conso:flap:alveolar:voiced:pharyngealized				
-ɾʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾʲ&inany=false&coreinv=on		conso:flap:alveolar:voiced:palatalized				
-ɾ̃	nasalized devoiced voiced alveolar tap consonant	+		ɾ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ̃&inany=false&coreinv=on		conso:flap:alveolar:voiced:nasalized				
+ɾ	voiced alveolar tap consonant			ɾ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ&inany=false&coreinv=on		conso:flap:alveolar:voiced:plain				
+ɾˤ	pharyngealized voiced alveolar tap consonant	+		ɾˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾˤ&inany=false&coreinv=on		conso:flap:alveolar:voiced:pharyngealized				
+ɾʲ	palatalized voiced alveolar tap consonant	+		ɾʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾʲ&inany=false&coreinv=on		conso:flap:alveolar:voiced:palatalized				
+ɾ̃	nasalized voiced alveolar tap consonant	+		ɾ̃	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ̃&inany=false&coreinv=on		conso:flap:alveolar:voiced:nasalized				
 <NA>	<NA>			ɾ̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ̪&inany=false&coreinv=on		conso:flap:dental:voiced:plain				
 <NA>	<NA>			ɾ̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾ̪ˤ&inany=false&coreinv=on		conso:flap:dental:voiced:pharyngealized				
 <NA>	<NA>			ɾð	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾð&inany=false&coreinv=on		conso:flap:interdental:voiced:plain				
 <NA>	<NA>			vɾ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=vɾ&inany=false&coreinv=on		conso:flap:labiodental:voiced:plain				
-ɾˡ	with-lateral-release devoiced voiced alveolar tap consonant	+		ɾˡ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾˡ&inany=false&coreinv=on		conso:flap:lateral:voiced:plain				
+ɾˡ	with-lateral-release voiced alveolar tap consonant	+		ɾˡ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɾˡ&inany=false&coreinv=on		conso:flap:lateral:voiced:plain				
 ɺ	voiced alveolar lateral tap consonant			ɺ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɺ&inany=false&coreinv=on		conso:flap:lateral:voiced:plain				
 ɽ	voiced retroflex tap consonant			ɽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽ&inany=false&coreinv=on		conso:flap:retroflex:voiced:plain				
 ɽʰ	aspirated voiced retroflex tap consonant	+		ɽʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=ɽʰ&inany=false&coreinv=on		conso:flap:retroflex:voiced:aspirated				

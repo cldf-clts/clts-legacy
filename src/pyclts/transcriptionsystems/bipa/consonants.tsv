@@ -100,8 +100,10 @@ t̚	voiceless	alveolar	stop		release:unreleased
 tⁿ	voiceless	alveolar	stop		release:with-nasal-release	
 t̬	voiceless	alveolar	stop		voicing:revoiced	
 ɺ	voiced	alveolar	tap		laterality:lateral	
-ɾ	voiced	alveolar	tap		voicing:devoiced	
+ɾ	voiced	alveolar	tap			
+ɾ̥	voiced	alveolar	tap		voicing:devoiced	
 r	voiced	alveolar	trill			
+r̃	voiced	alveolar	trill		nasalization:nasalized	
 rː	voiced	alveolar	trill		duration:long	
 rˤ	voiced	alveolar	trill		pharyngealization:pharyngealized	
 r̩	voiced	alveolar	trill		syllabicity:syllabic	
@@ -560,7 +562,7 @@ g̈	voiced	velar	stop	+	breathiness:breathy
 gʰ	voiced	velar	stop		aspiration:aspirated	I think, aspirated voiced sounds are always breathy-voiced.
 g	voiced	velar	stop			
 g̊ʰ	voiced	velar	stop		aspiration:aspirated,voicing:devoiced	Alias candidate
-k̬	voiced	velar	stop	+		Check with source.
+k̬	voiced	velar	stop		voicing:revoiced	Check with source.
 gː	voiced	velar	stop		duration:long	
 gʷ	voiced	velar	stop		labialization:labialized	
 gʲ	voiced	velar	stop		palatalization:palatalized	

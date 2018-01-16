@@ -559,13 +559,13 @@ g̰	creaky voiced velar stop consonant	+		ɡ̰						1
 <NA>	<NA>			ɹ̣						98	
 <NA>	<NA>			ɹ̣̥						1	
 ɹ̥	devoiced voiced alveolar approximant consonant	+		ɹ̥						1	
-ɾ	devoiced voiced alveolar tap consonant			ɾ						465	
+ɾ	voiced alveolar tap consonant			ɾ						465	
 <NA>	<NA>			ɾ˜						3	
 <NA>	<NA>			ɾ̌						1	
 <NA>	<NA>			ɾ̣						77	
 <NA>	<NA>			ɾ̣̤						6	
-<NA>	<NA>	+		ɾ̤						2	
-ɾ	devoiced voiced alveolar tap consonant	+		ɾ̥						7	
+ɾʱ	breathy voiced alveolar tap consonant	+		ɾ̤						2	
+ɾ̥	devoiced voiced alveolar tap consonant			ɾ̥						7	
 ʁ	voiced uvular fricative consonant			ʁ						8	
 ʁʷ	labialized voiced uvular fricative consonant	+		ʁʷ						3	
 ʁˀ	glottalized voiced uvular fricative consonant	+		ʁˀ						0	
@@ -642,7 +642,7 @@ g̰	creaky voiced velar stop consonant	+		ɡ̰						1
 ˀɟ	pre-glottalized voiced palatal stop consonant	+		ˀɟ						3	
 <NA>	<NA>			ˀɡ̌						2	
 ˀɣ	pre-glottalized voiced velar fricative consonant	+		ˀɣ						1	
-ˀɾ	pre-glottalized devoiced voiced alveolar tap consonant	+		ˀɾ						4	
+ˀɾ	pre-glottalized voiced alveolar tap consonant	+		ˀɾ						4	
 ˀʁ	pre-glottalized voiced uvular fricative consonant	+		ˀʁ						0	
 ˀʁʷ	pre-glottalized labialized voiced uvular fricative consonant	+		ˀʁʷ						0	
 vː	long voiced labio-dental fricative consonant			vː						2	
@@ -704,7 +704,7 @@ v	voiced labio-dental fricative consonant			v						3
 <NA>	<NA>			ⁿtˢ						1	
 <NA>	<NA>			ⁿtˢʰ						1	
 ⁿz	pre-nasalized voiced alveolar sibilant fricative consonant	+		ⁿz						12	
-ⁿɾ	pre-nasalized devoiced voiced alveolar tap consonant	+		ⁿɾ						1	
+ⁿɾ	pre-nasalized voiced alveolar tap consonant	+		ⁿɾ						1	
 <NA>	<NA>			ⁿ̃čʰ						1	
 <NA>	<NA>			ⁿ̃ž						4	
 <NA>	<NA>			ⁿ̃ɟ						20	

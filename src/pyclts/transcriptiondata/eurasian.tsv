@@ -86,7 +86,7 @@ u̯ɑ	from non-syllabic rounded close back to unrounded open back diphthong	+		u
 t̪	voiceless dental stop consonant			t̪	http://eurasianphonology.info/search_exact?dialects=True&query=t̪					113	
 d̪	voiced dental stop consonant			d̪	http://eurasianphonology.info/search_exact?dialects=True&query=d̪					123	
 <NA>	<NA>			(z)	http://eurasianphonology.info/search_exact?dialects=True&query=(z)					1	
-ɾ	devoiced voiced alveolar tap consonant			ɾ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ					81	
+ɾ	voiced alveolar tap consonant			ɾ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ					81	
 <NA>	<NA>			(ʃ)	http://eurasianphonology.info/search_exact?dialects=True&query=(ʃ)					1	
 b̥	devoiced voiced bilabial stop consonant			b̥	http://eurasianphonology.info/search_exact?dialects=True&query=b̥					17	
 pf	voiceless labio-dental affricate consonant			pf	http://eurasianphonology.info/search_exact?dialects=True&query=pf					2	
@@ -199,7 +199,7 @@ s̻	voiceless laminal alveolar sibilant fricative consonant			s̻	http://eurasia
 n̻	voiced laminal alveolar nasal consonant			n̻	http://eurasianphonology.info/search_exact?dialects=True&query=n̻					11	
 l̻	voiced laminal alveolar lateral approximant consonant			l̻	http://eurasianphonology.info/search_exact?dialects=True&query=l̻					6	
 <NA>	<NA>			ɫ̻	http://eurasianphonology.info/search_exact?dialects=True&query=ɫ̻					1	
-ɾ̻	devoiced voiced laminal alveolar tap consonant	+		ɾ̻	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̻					1	
+ɾ̻	voiced laminal alveolar tap consonant	+		ɾ̻	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̻					1	
 e̞	unrounded mid front vowel			e̞	http://eurasianphonology.info/search_exact?dialects=True&query=e̞					56	
 ɯ	unrounded close back vowel			ɯ	http://eurasianphonology.info/search_exact?dialects=True&query=ɯ					57	
 ɯː	long unrounded close back vowel			ɯː	http://eurasianphonology.info/search_exact?dialects=True&query=ɯː					16	
@@ -281,8 +281,8 @@ t̠ʲ	palatalized voiceless post-alveolar stop consonant	+		t̠ʲ	http://eurasia
 d̠ʲ	palatalized voiced post-alveolar stop consonant	+		d̠ʲ	http://eurasianphonology.info/search_exact?dialects=True&query=d̠ʲ					1	
 n̪ˠ	velarized voiced dental nasal consonant			n̪ˠ	http://eurasianphonology.info/search_exact?dialects=True&query=n̪ˠ					2	
 <NA>	<NA>			n̠ʲ	http://eurasianphonology.info/search_exact?dialects=True&query=n̠ʲ					1	
-ɾˠ	velarized devoiced voiced alveolar tap consonant	+		ɾˠ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾˠ					2	
-ɾʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾʲ					7	
+ɾˠ	velarized voiced alveolar tap consonant	+		ɾˠ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾˠ					2	
+ɾʲ	palatalized voiced alveolar tap consonant	+		ɾʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾʲ					7	
 l̪ˠ	velarized voiced dental lateral approximant consonant	+		l̪ˠ	http://eurasianphonology.info/search_exact?dialects=True&query=l̪ˠ					2	
 l̠ʲ	palatalized voiced post-alveolar lateral approximant consonant			l̠ʲ	http://eurasianphonology.info/search_exact?dialects=True&query=l̠ʲ					1	
 sˠ	velarized voiceless alveolar sibilant fricative consonant			sˠ	http://eurasianphonology.info/search_exact?dialects=True&query=sˠ					2	
@@ -590,7 +590,7 @@ ḛ	creaky unrounded close-mid front vowel			ḛ	http://eurasianphonology.info/s
 ts̺	voiceless apical alveolar sibilant affricate consonant	+		ts̺	http://eurasianphonology.info/search_exact?dialects=True&query=ts̺					6	
 ts̻	voiceless laminal alveolar sibilant affricate consonant	+		ts̻	http://eurasianphonology.info/search_exact?dialects=True&query=ts̻					5	
 l̺	voiced apical alveolar lateral approximant consonant	+		l̺	http://eurasianphonology.info/search_exact?dialects=True&query=l̺					15	
-ɾ̺	devoiced voiced apical alveolar tap consonant	+		ɾ̺	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̺					8	
+ɾ̺	voiced apical alveolar tap consonant	+		ɾ̺	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̺					8	
 dz̻	voiced laminal alveolar sibilant affricate consonant	+		dz̻	http://eurasianphonology.info/search_exact?dialects=True&query=dz̻					2	
 z̺	voiced apical alveolar sibilant fricative consonant	+		z̺	http://eurasianphonology.info/search_exact?dialects=True&query=z̺					17	
 h̃	nasalized voiceless glottal fricative consonant			h̃	http://eurasianphonology.info/search_exact?dialects=True&query=h̃					3	
@@ -862,8 +862,8 @@ t̺s̺	from voiceless apical alveolar stop to voiceless apical alveolar sibilant
 <NA>	<NA>	+		ʊ̞̈	http://eurasianphonology.info/search_exact?dialects=True&query=ʊ̞̈					1	
 ʉ̞	lowered rounded close central vowel	+		ʉ̞	http://eurasianphonology.info/search_exact?dialects=True&query=ʉ̞					1	
 ɬˠ	velarized voiceless alveolar lateral fricative consonant	+		ɬˠ	http://eurasianphonology.info/search_exact?dialects=True&query=ɬˠ					2	
-ɾ	devoiced voiced alveolar tap consonant	+		ɾ̥	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̥					6	
-ɾʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾ̥ʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̥ʲ					2	
+ɾ̥	devoiced voiced alveolar tap consonant			ɾ̥	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̥					6	
+ɾ̥ʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾ̥ʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɾ̥ʲ					2	
 ⁿd̪	pre-nasalized voiced dental stop consonant			ⁿd̪	http://eurasianphonology.info/search_exact?dialects=True&query=ⁿd̪					2	
 tsʰː	aspirated long voiceless alveolar sibilant affricate consonant	+		tsːʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tsːʰ					3	
 tʃʰː	aspirated long voiceless post-alveolar sibilant affricate consonant	+		tʃːʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tʃːʰ					3	
