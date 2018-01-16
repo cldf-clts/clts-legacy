@@ -9,6 +9,8 @@ import argparse
 import json
 import glob
 
+import tabulate
+
 from clldutils.clilib import ArgumentParser, command
 from clldutils.dsv import UnicodeReader, reader
 from clldutils.markup import Table
@@ -16,8 +18,6 @@ from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
 from pyclts.soundclasses import SoundClasses
 from pyclts.util import pkg_path, data_path, is_valid_sound
-
-
 
 @command()
 def sounds(args):
@@ -215,7 +215,7 @@ def dump(args):
                     print(ts.id, name)
 
     with open(data_path('sounds.tsv').as_posix(), 'w') as f:
-        f.write('\t'.join(['NAME', 'GRAPHEME', 'UNICODE', 'ALIASES', 'GENERATED',
+        f.write('\t'.join(['NAME', 'TYPE', 'GRAPHEME', 'UNICODE', 'ALIASES', 'GENERATED',
             'REFLEXES', 'NOTE'])+'\n')
         for k, v in sorted(sounds.items(), key=lambda x: len(x[1]['reflexes']),
                 reverse=True):
@@ -230,6 +230,35 @@ def dump(args):
             'FEATURES', 'IMAGE', 'SOUND', 'NOTE'])+'\n')
         for line in data:
             f.write('\t'.join(line)+'\n')
+
+@command()
+def stats(args):
+    sounds = {}
+    for row in reader(data_path('sounds.tsv'), delimiter='\t', dicts=True):
+        sounds[row['NAME']] = row
+    graphs = {}
+    for row in reader(data_path('graphemes.tsv'), delimiter='\t', dicts=True):
+        graphs['{GRAPHEME}-{NAME}-{DATASET}'.format(**row)] = row
+
+    graphdict = defaultdict(list)
+    for id_, row in graphs.items():
+        if row['DATATYPE'] == 'td':
+            graphdict[row['GRAPHEME']] += [row['DATASET']]
+    
+    text = [['DATA', 'STATS', 'PERC']]
+    text += [['Unique graphemes', 
+        len(set([row['GRAPHEME'] for row in graphs.values()]))]]
+    text += [['different sounds', len(sounds), '']]
+    text += [['singletons', len([g for g in graphdict if len(set(graphdict[g]))
+        == 1]), '']]
+    text += [['multiples', len([g for g in graphdict if len(set(graphdict[g]))
+        > 1]), '']]
+    for sc in ['consonant', 'vowel', 'tone', 'diphthong', 'cluster']:
+        consonants = len([s for s in sounds.values() if s['TYPE'] == sc])
+        total = len(sounds)
+        text += [[sc+'s', consonants, '{0:.2f}'.format(consonants / total)]]
+
+    print(tabulate.tabulate(text, headers='firstrow'))
 
 
 @command()
