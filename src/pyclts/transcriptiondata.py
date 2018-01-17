@@ -49,17 +49,6 @@ def read(what):
     return out, graphemes, names
 
 
-phoible = partial(read, 'phoible.tsv')
-pbase = partial(read, 'pbase.tsv')
-ruhlen = partial(read, 'ruhlen.tsv')
-eurasian = partial(read, 'eurasian.tsv')
-lapsyd = partial(read, 'lapsyd.tsv')
-nidaba = partial(read, 'nidaba.tsv')
-multimedia = partial(read, 'multimedia.tsv')
-diachronica = partial(read, 'diachronica.tsv')
-beijingdaxue = partial(read, 'beijingdaxue.tsv')
-
-
 class TranscriptionData(object):
     """
     Class for handling transcription data.
@@ -67,7 +56,7 @@ class TranscriptionData(object):
     def __init__(self, data='phoible', system=None):
         self.data, self.sounds, self.names = {td: partial(read, td+'.tsv') for td in [
             'phoible', 'pbase', 'lapsyd', 'eurasian', 'ruhlen', 'nidaba',
-            'multimedia', 'diachronica', 'beijingdaxue']
+            'multimedia', 'diachronica', 'beijingdaxue', 'panphon', 'apics']
         }[data]()
         self.id = data
         self.system = system or TranscriptionSystem()
