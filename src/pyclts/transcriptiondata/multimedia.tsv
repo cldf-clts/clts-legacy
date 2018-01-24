@@ -25,7 +25,6 @@ r	voiced alveolar trill consonant			r			a voiced alveolar trill	IPAsounds/V_alve
 ⱱ	voiced labio-dental tap consonant			ⱱ			a voiced labialdental flap	IPAsounds/V_labialdental_flap.mp3	IPA-184.gif		
 ɾ	voiced alveolar tap consonant			ɾ			a voiced alveolar tap	IPAsounds/V_alveolar_tap.mp3	IPA-124.gif		
 ɽ	voiced retroflex tap consonant			ɽ			a voiced retroflex tap	IPAsounds/V_retroflex_tap.mp3	IPA-125.gif		
-ɱ	voiced labio-dental nasal consonant			ɱ			a voiceless bilabial fricative	IPAsounds/VL_bilabial_fricative.mp3	IPA-126.gif		
 β	voiced bilabial fricative consonant			β			a voiced bilabial fricative	IPAsounds/V_bilabial_fricative.mp3	IPA-127.gif		
 f	voiceless labio-dental fricative consonant			f			a voiced labiodental fricative	IPAsounds/VL_labiodental_fricative.mp3	IPA-128.gif		
 v	voiced labio-dental fricative consonant			v			a voiced labiodental fricative	IPAsounds/V_labiodental_fricative.mp3	IPA-129.gif		
@@ -136,8 +135,5 @@ e̙	retracted-tongue-root unrounded close-mid front vowel	+		e̙			a retracted t
 <NA>	<NA>	+		é			a high-tone close-mid front unrounded vowel	IPAsounds/high-tone_close-mid_front_unrounded.mp3	IPA-302-513.gif		
 <NA>	<NA>	+		ê			a falling contour close-mid front unrounded vowel	IPAsounds/falling-contour_close-mid_front_unrounded.mp3	IPA-302-525.gif		
 <NA>	<NA>	+		ē			a mid-tone close-mid front unrounded vowel	IPAsounds/mid-tone_close-mid_front_unrounded.mp3	IPA-302-514.gif		
-<NA>	<NA>						a high-rising contour close-mid front unrounded vowel	IPAsounds/high-rising-contour_close-mid_front_unrounded.mp3	IPA-302-526.gif		
 <NA>	<NA>	+		è			a low-tone close-mid front unrounded vowel	IPAsounds/low-tone_close-mid_front_unrounded.mp3	IPA-302-515.gif		
-<NA>	<NA>						a low-rising contour close-mid front unrounded vowel	IPAsounds/low-rising-contour_close-mid_front_unrounded.mp3	IPA-302-527.gif		
 <NA>	<NA>	+		ȅ			an extra-low tone close-mid front unrounded vowel	IPAsounds/extra-low-tone_close-mid_front_unrounded.mp3	IPA-302-516.gif		
-<NA>	<NA>						a rising-falling contour close-mid front unrounded vowel	IPAsounds/rising-falling-contour_close-mid_front_unrounded.mp3	IPA-302-528.gif		

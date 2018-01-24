@@ -3,22 +3,12 @@ from __future__ import unicode_literals, print_function, division
 from six import text_type
 
 import pytest
-from clldutils.dsv import reader
 
 
 def test_translate(bipa, asjp, asjpd):
-    from pyclts import translate
-
-    assert translate('ts a', bipa, asjp) == 'c E'
-    assert translate('c a', asjp, bipa) == 'ts ɐ'
-    assert translate('t o h t a', bipa, asjpd)[0] == 't'
-
-
-def test_convert(bipa, phoible):
-    from pyclts.transcriptiondata import convert
-    assert convert('t ai', bipa, phoible, unknown='!')[1] == 'ai'
-    assert convert('t H', bipa, phoible, unknown='!')[1] == '!'
-
+    assert bipa.translate('ts a', asjp) == 'c E'
+    assert asjp.translate('c a', bipa) == 'ts ɐ'
+    assert bipa.translate('t o h t a', asjpd)[0] == 't'
 
 
 def test_getitem(bipa):
@@ -121,26 +111,16 @@ def test_sound_from_name(bipa):
 
 def test_ts():
     from pyclts.transcriptionsystem import TranscriptionSystem
-    try:
+    with pytest.raises(AssertionError):
         TranscriptionSystem('')
-    except ValueError:
-        assert True
-    try:
+    with pytest.raises(ValueError):
         TranscriptionSystem('_f1')
-    except ValueError:
-        assert True
-    try:
+    with pytest.raises(ValueError):
         TranscriptionSystem('_f2')
-    except ValueError:
-        assert True
-    try:
+    with pytest.raises(ValueError):
         TranscriptionSystem('_f3')
-    except ValueError:
-        assert True
-    try:
-        bads = TranscriptionSystem('what')
-    except ValueError:
-        assert True
+    with pytest.raises(ValueError):
+        _ = TranscriptionSystem('what')
 
 
 def test_models(bipa, asjp):
@@ -199,12 +179,18 @@ def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
 
     with pytest.raises(KeyError):
         dolgo['A']
+
+    with pytest.raises(KeyError):
         sca['B']
 
     # test data from sound name
     assert sca.resolve_sound(bipa['ʰb']) == 'P'
     assert sca.resolve_sound(bipa['ae']) == 'A'
     assert sca.resolve_sound(bipa['tk']) == 'T'
+
+    assert phoible.resolve_sound('m') == 'm'
+    with pytest.raises(KeyError):
+        phoible.resolve_sound(bipa['tk'])
 
 
 def test_transcription_system_consistency(bipa, asjp, gld):

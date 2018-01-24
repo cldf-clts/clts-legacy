@@ -4320,13 +4320,10 @@ e̯	non-syllabic unrounded close-mid front vowel			e̯			-syl +son -cons +cont -
 œ̯	non-syllabic rounded open-mid front vowel	+		œ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric -tense -long				
 ø̯	non-syllabic rounded close-mid front vowel	+		ø̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric +tense -long				
 ə̯	non-syllabic unrounded mid central vowel	+		ə̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̯	non-syllabic unrounded close-mid central vowel	+		ɘ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ɜ̯	non-syllabic unrounded open-mid central vowel	+		ɜ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̯	non-syllabic unrounded near-open central vowel			ɐ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̯	non-syllabic unrounded open-mid back vowel	+		ʌ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɔ̯	non-syllabic rounded open-mid back vowel			ɔ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̯	non-syllabic rounded close-mid central vowel	+		ɵ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɞ̯	non-syllabic rounded open-mid central vowel	+		ɞ̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̯	non-syllabic rounded close-mid back vowel			o̯			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 ɻ̥	devoiced voiced retroflex approximant consonant	+		ɻ̥			-syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -ant +cor -distr -lab -hi -lo -back -round -velaric -long				
 <NA>	<NA>			ɻ̞			-syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant +cor -distr -lab -hi -lo -back -round -velaric -long				
@@ -5544,34 +5541,22 @@ eː	long unrounded close-mid front vowel			eː			+syl +son -cons +cont -delrel -
 œ̘ː	long advanced-tongue-root rounded open-mid front vowel	+		œ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric +tense +long				
 øː	long rounded close-mid front vowel			øː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric +tense +long				
 ə̥	devoiced unrounded mid central vowel	+		ə̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̥	devoiced unrounded close-mid central vowel	+		ɘ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̞	lowered unrounded mid central vowel	+		ə̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̞	lowered unrounded close-mid central vowel	+		ɘ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̙	retracted-tongue-root unrounded mid central vowel	+		ə̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̙	retracted-tongue-root unrounded close-mid central vowel	+		ɘ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ɜ̙	retracted-tongue-root unrounded open-mid central vowel	+		ɜ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ɐ̙	retracted-tongue-root unrounded near-open central vowel	+		ɐ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ʌ̙	retracted-tongue-root unrounded open-mid back vowel	+		ʌ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̆	ultra-short unrounded mid central vowel			ə̆			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̆	ultra-short unrounded close-mid central vowel	+		ɘ̆			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̝	raised unrounded mid central vowel	+		ə̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̝	raised unrounded close-mid central vowel	+		ɘ̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə	unrounded mid central vowel			ə			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ	unrounded close-mid central vowel			ɘ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-<NA>	<NA>	+		ɘ̈			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̟	advanced unrounded mid central vowel	+		ə̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̟	advanced unrounded close-mid central vowel	+		ɘ̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̠	retracted unrounded mid central vowel	+		ə̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̠	retracted unrounded close-mid central vowel	+		ɘ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̥ː	long devoiced unrounded mid central vowel	+		ə̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘ̥ː	long devoiced unrounded close-mid central vowel	+		ɘ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘ̙ː	long retracted-tongue-root unrounded close-mid central vowel	+		ɘ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɜ̙ː	long retracted-tongue-root unrounded open-mid central vowel	+		ɜ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɐ̙ː	long retracted-tongue-root unrounded near-open central vowel	+		ɐ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ʌ̙ː	long retracted-tongue-root unrounded open-mid back vowel	+		ʌ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 əː	long unrounded mid central vowel			əː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ə̙ː	long retracted-tongue-root unrounded mid central vowel	+		ə̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘː	long unrounded close-mid central vowel			ɘː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɜ̥	devoiced unrounded open-mid central vowel	+		ɜ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̥	devoiced unrounded near-open central vowel	+		ɐ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̥	devoiced unrounded open-mid back vowel	+		ʌ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
@@ -5599,7 +5584,6 @@ eː	long unrounded close-mid front vowel			eː			+syl +son -cons +cont -delrel -
 ɐ̠	retracted unrounded near-open central vowel	+		ɐ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̠	retracted unrounded open-mid back vowel	+		ʌ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̘	advanced-tongue-root unrounded near-open central vowel	+		ɐ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
-ɘ̘	advanced-tongue-root unrounded close-mid central vowel	+		ɘ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɜ̘	advanced-tongue-root unrounded open-mid central vowel	+		ɜ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɜ̥ː	long devoiced unrounded open-mid central vowel	+		ɜ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɐ̥ː	long devoiced unrounded near-open central vowel	+		ɐ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
@@ -5607,67 +5591,38 @@ eː	long unrounded close-mid front vowel			eː			+syl +son -cons +cont -delrel -
 ɐ̘ː	long advanced-tongue-root unrounded near-open central vowel	+		ɐ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ʌ̘ː	long advanced-tongue-root unrounded open-mid back vowel	+		ʌ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ə̘ː	long advanced-tongue-root unrounded mid central vowel	+		ə̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
-ɘ̘ː	long advanced-tongue-root unrounded close-mid central vowel	+		ɘ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɜ̘ː	long advanced-tongue-root unrounded open-mid central vowel	+		ɜ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ʌː	long unrounded open-mid back vowel			ʌː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɜː	long unrounded open-mid central vowel			ɜː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɐː	long unrounded near-open central vowel			ɐː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɔ̥	devoiced rounded open-mid back vowel	+		ɔ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̥	devoiced rounded close-mid central vowel	+		ɵ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̞	lowered rounded open-mid back vowel	+		ɔ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̞	rounded mid central vowel			ɵ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 o̙	retracted-tongue-root rounded close-mid back vowel	+		o̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̙	retracted-tongue-root rounded open-mid back vowel	+		ɔ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̙	retracted-tongue-root rounded close-mid central vowel	+		ɵ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɞ̙	retracted-tongue-root rounded open-mid central vowel	+		ɞ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̆	ultra-short rounded open-mid back vowel	+		ɔ̆			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̆	ultra-short rounded close-mid central vowel	+		ɵ̆			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̝	raised rounded open-mid back vowel	+		ɔ̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ	rounded open-mid back vowel			ɔ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ	rounded close-mid central vowel			ɵ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̝	raised rounded close-mid central vowel	+		ɵ̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 <NA>	<NA>	+		ɔ̈			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-<NA>	<NA>	+		ɵ̈			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̟	advanced rounded open-mid back vowel	+		ɔ̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̟	advanced rounded close-mid central vowel	+		ɵ̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̠	retracted rounded open-mid back vowel	+		ɔ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̠	retracted rounded close-mid central vowel	+		ɵ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̥ː	long devoiced rounded open-mid back vowel	+		ɔ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵ̥ː	long devoiced rounded close-mid central vowel	+		ɵ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 o̙ː	long retracted-tongue-root rounded close-mid back vowel	+		o̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 ɔ̙ː	long retracted-tongue-root rounded open-mid back vowel	+		ɔ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵ̙ː	long retracted-tongue-root rounded close-mid central vowel	+		ɵ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɞ̙ː	long retracted-tongue-root rounded open-mid central vowel	+		ɞ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 ɔː	long rounded open-mid back vowel			ɔː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵː	long rounded close-mid central vowel			ɵː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 o̥	devoiced rounded close-mid back vowel			o̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̥	devoiced rounded open-mid central vowel	+		ɞ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̘	advanced-tongue-root rounded close-mid back vowel	+		o̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̞	rounded mid back vowel			o̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̞	rounded near-open central vowel			ɞ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 ŏ	ultra-short rounded close-mid back vowel			ŏ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̆	ultra-short rounded open-mid central vowel	+		ɞ̆			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̝	raised rounded close-mid back vowel	+		o̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o	rounded close-mid back vowel			o			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ	rounded open-mid central vowel			ɞ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̝	raised rounded open-mid central vowel	+		ɞ̝			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 <NA>	<NA>	+		ö			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-<NA>	<NA>	+		ɞ̈			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̟	advanced rounded close-mid back vowel	+		o̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̟	advanced rounded open-mid central vowel	+		ɞ̟			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̠	retracted rounded close-mid back vowel	+		o̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̠	retracted rounded open-mid central vowel	+		ɞ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 ɔ̘	advanced-tongue-root rounded open-mid back vowel	+		ɔ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɵ̘	advanced-tongue-root rounded close-mid central vowel	+		ɵ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̘	advanced-tongue-root rounded open-mid central vowel	+		ɞ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̥ː	long devoiced rounded close-mid back vowel	+		o̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞ̥ː	long devoiced rounded open-mid central vowel	+		ɞ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 o̘ː	long advanced-tongue-root rounded close-mid back vowel	+		o̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 ɔ̘ː	long advanced-tongue-root rounded open-mid back vowel	+		ɔ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɵ̘ː	long advanced-tongue-root rounded close-mid central vowel	+		ɵ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞ̘ː	long advanced-tongue-root rounded open-mid central vowel	+		ɞ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 oː	long rounded close-mid back vowel			oː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞː	long rounded open-mid central vowel			ɞː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 ɻ̩	syllabic voiced retroflex approximant consonant	+		ɻ̩			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant +cor -distr -lab -hi -lo -back -round -velaric -long				
 æ̙	retracted-tongue-root unrounded near-open front vowel	+		æ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo -back -round -velaric -tense -long				
 æ̙ː	long retracted-tongue-root unrounded near-open front vowel	+		æ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo -back -round -velaric -tense +long				
@@ -5698,18 +5653,14 @@ oː	long rounded close-mid back vowel			oː			+syl +son -cons +cont -delrel -lat
 ɶ̘ː	long advanced-tongue-root rounded open front vowel	+		ɶ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo -back +round -velaric +tense +long				
 ɶː	long rounded open front vowel			ɶː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo -back +round -velaric +tense +long				
 ə̥ˤ	pharyngealized devoiced unrounded mid central vowel	+		ə̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
-ɘ̥ˤ	pharyngealized devoiced unrounded close-mid central vowel	+		ɘ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ɛ̥ˤ	pharyngealized devoiced unrounded open-mid front vowel	+		ɛ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 a̙	retracted-tongue-root unrounded open front vowel	+		a̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 əˤ	pharyngealized unrounded mid central vowel	+		əˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
-ɘˤ	pharyngealized unrounded close-mid central vowel	+		ɘˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ɛˤ	pharyngealized unrounded open-mid front vowel	+		ɛˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 a̙ː	long retracted-tongue-root unrounded open front vowel	+		a̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
 ɛˤː	long pharyngealized unrounded open-mid front vowel	+		ɛˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
 əˤː	long pharyngealized unrounded mid central vowel	+		əˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
-ɘˤː	long pharyngealized unrounded close-mid central vowel	+		ɘˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
 əˤː	long pharyngealized unrounded mid central vowel	+		əːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
-ɘˤː	long pharyngealized unrounded close-mid central vowel	+		ɘːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
 ɛˤː	long pharyngealized unrounded open-mid front vowel	+		ɛːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense +long				
 ḁˤ	pharyngealized devoiced unrounded open front vowel	+		ḁˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
 e̥ˤ	pharyngealized devoiced unrounded close-mid front vowel	+		e̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
@@ -5749,22 +5700,17 @@ eˤː	long pharyngealized unrounded close-mid front vowel	+		eːˤ			+syl +son -
 ʌˤː	long pharyngealized unrounded open-mid back vowel	+		ʌˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense +long				
 œ̥ˤ	pharyngealized devoiced rounded open-mid front vowel	+		œ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɔ̥ˤ	pharyngealized devoiced rounded open-mid back vowel	+		ɔ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
-ɵ̥ˤ	pharyngealized devoiced rounded close-mid central vowel	+		ɵ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɒ̙	retracted-tongue-root rounded open back vowel	+		ɒ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 œˤ	pharyngealized rounded open-mid front vowel	+		œˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɔˤ	pharyngealized rounded open-mid back vowel	+		ɔˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
-ɵˤ	pharyngealized rounded close-mid central vowel	+		ɵˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɒ̙ː	long retracted-tongue-root rounded open back vowel	+		ɒ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
 œˤː	long pharyngealized rounded open-mid front vowel	+		œˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
 ɔˤː	long pharyngealized rounded open-mid back vowel	+		ɔˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
-ɵˤː	long pharyngealized rounded close-mid central vowel	+		ɵˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
 œˤː	long pharyngealized rounded open-mid front vowel	+		œːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
 ɔˤː	long pharyngealized rounded open-mid back vowel	+		ɔːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
-ɵˤː	long pharyngealized rounded close-mid central vowel	+		ɵːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense +long				
 o̥ˤ	pharyngealized devoiced rounded close-mid back vowel	+		o̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ø̥ˤ	pharyngealized devoiced rounded close-mid front vowel	+		ø̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̥ˤ	pharyngealized devoiced rounded open back vowel	+		ɒ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
-ɞ̥ˤ	pharyngealized devoiced rounded open-mid central vowel	+		ɞ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɶ̥ˤ	pharyngealized devoiced rounded open front vowel	+		ɶ̥ˤ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̥	devoiced rounded open back vowel	+		ɒ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̘	advanced-tongue-root rounded open back vowel	+		ɒ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
@@ -5778,10 +5724,8 @@ o̥ˤ	pharyngealized devoiced rounded close-mid back vowel	+		o̥ˤ			+syl +son 
 oˤ	pharyngealized rounded close-mid back vowel			oˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 øˤ	pharyngealized rounded close-mid front vowel	+		øˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒˤ	pharyngealized rounded open back vowel	+		ɒˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
-ɞˤ	pharyngealized rounded open-mid central vowel	+		ɞˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɶˤ	pharyngealized rounded open front vowel	+		ɶˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̥ː	long devoiced rounded open back vowel	+		ɒ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
-ɞˤː	long pharyngealized rounded open-mid central vowel	+		ɞˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɶˤː	long pharyngealized rounded open front vowel	+		ɶˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɒ̘ː	long advanced-tongue-root rounded open back vowel	+		ɒ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 oˤː	long pharyngealized rounded close-mid back vowel	+		oˤː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
@@ -5790,7 +5734,6 @@ oˤː	long pharyngealized rounded close-mid back vowel	+		oˤː			+syl +son -con
 oˤː	long pharyngealized rounded close-mid back vowel	+		oːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 øˤː	long pharyngealized rounded close-mid front vowel	+		øːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɒˤː	long pharyngealized rounded open back vowel	+		ɒːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
-ɞˤː	long pharyngealized rounded open-mid central vowel	+		ɞːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɶˤː	long pharyngealized rounded open front vowel	+		ɶːˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɒː	long rounded open back vowel			ɒː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɪ̥	devoiced unrounded near-close near-front vowel			ɪ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo -back -round -velaric -tense -long				
@@ -5836,21 +5779,18 @@ i̘ː	long advanced-tongue-root unrounded close front vowel	+		i̘ː			+syl +son
 ʏ̘	advanced-tongue-root rounded near-close near-front vowel	+		ʏ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo -back +round -velaric +tense -long				
 ʏ̘ː	long advanced-tongue-root rounded near-close near-front vowel	+		ʏ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo -back +round -velaric +tense +long				
 ə̥ˠ	velarized devoiced unrounded mid central vowel	+		ə̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
-ɘ̥ˠ	velarized devoiced unrounded close-mid central vowel	+		ɘ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɛ̥ˠ	velarized devoiced unrounded open-mid front vowel	+		ɛ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɪ̥ˠ	velarized devoiced unrounded near-close near-front vowel	+		ɪ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɯ̥	devoiced unrounded close back vowel			ɯ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 e̙ˠ	velarized retracted-tongue-root unrounded close-mid front vowel	+		e̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 i̙ˠ	velarized retracted-tongue-root unrounded close front vowel	+		i̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ə̙ˠ	velarized retracted-tongue-root unrounded mid central vowel	+		ə̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
-ɘ̙ˠ	velarized retracted-tongue-root unrounded close-mid central vowel	+		ɘ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɜ̙ˠ	velarized retracted-tongue-root unrounded open-mid central vowel	+		ɜ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɛ̙ˠ	velarized retracted-tongue-root unrounded open-mid front vowel	+		ɛ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ʌ̙ˠ	velarized retracted-tongue-root unrounded open-mid back vowel	+		ʌ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɪ̙ˠ	velarized retracted-tongue-root unrounded near-close near-front vowel	+		ɪ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɐ̙ˠ	velarized retracted-tongue-root unrounded near-open central vowel	+		ɐ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 əˠ	velarized unrounded mid central vowel	+		əˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
-ɘˠ	velarized unrounded close-mid central vowel	+		ɘˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɛˠ	velarized unrounded open-mid front vowel	+		ɛˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɪˠ	velarized unrounded near-close near-front vowel	+		ɪˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɯ̞	lowered unrounded close back vowel	+		ɯ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
@@ -5866,7 +5806,6 @@ i̙ˠ	velarized retracted-tongue-root unrounded close front vowel	+		i̙ˠ			+sy
 ɨ̙ː	long retracted-tongue-root unrounded close central vowel	+		ɨ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
 ɯ̙ː	long retracted-tongue-root unrounded close back vowel	+		ɯ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
 əˠː	long velarized unrounded mid central vowel	+		əːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
-ɘˠː	long velarized unrounded close-mid central vowel	+		ɘːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
 ɛˠː	long velarized unrounded open-mid front vowel	+		ɛːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
 ɪˠː	long velarized unrounded near-close near-front vowel	+		ɪːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
 ɯː	long unrounded close back vowel			ɯː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
@@ -5885,7 +5824,6 @@ iˠ	velarized unrounded close front vowel	+		iˠ			+syl +son -cons +cont -delrel
 e̘ˠ	velarized advanced-tongue-root unrounded close-mid front vowel	+		e̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
 i̘ˠ	velarized advanced-tongue-root unrounded close front vowel	+		i̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
 ə̘ˠ	velarized advanced-tongue-root unrounded mid central vowel	+		ə̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
-ɘ̘ˠ	velarized advanced-tongue-root unrounded close-mid central vowel	+		ɘ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
 ɜ̘ˠ	velarized advanced-tongue-root unrounded open-mid central vowel	+		ɜ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
 ɛ̘ˠ	velarized advanced-tongue-root unrounded open-mid front vowel	+		ɛ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
 ʌ̘ˠ	velarized advanced-tongue-root unrounded open-mid back vowel	+		ʌ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense -long				
@@ -5910,19 +5848,15 @@ iˠː	long velarized unrounded close front vowel	+		iːˠ			+syl +son -cons +con
 ɐˠː	long velarized unrounded near-open central vowel	+		ɐːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back -round -velaric +tense +long				
 œ̥ˠ	velarized devoiced rounded open-mid front vowel	+		œ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔ̥ˠ	velarized devoiced rounded open-mid back vowel	+		ɔ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɵ̥ˠ	velarized devoiced rounded close-mid central vowel	+		ɵ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʏ̥ˠ	velarized devoiced rounded near-close near-front vowel	+		ʏ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̥	devoiced rounded near-close near-back vowel			ʊ̥			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 o̙ˠ	velarized retracted-tongue-root rounded close-mid back vowel	+		o̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ø̙ˠ	velarized retracted-tongue-root rounded close-mid front vowel	+		ø̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 œ̙ˠ	velarized retracted-tongue-root rounded open-mid front vowel	+		œ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔ̙ˠ	velarized retracted-tongue-root rounded open-mid back vowel	+		ɔ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɵ̙ˠ	velarized retracted-tongue-root rounded close-mid central vowel	+		ɵ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɞ̙ˠ	velarized retracted-tongue-root rounded open-mid central vowel	+		ɞ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʏ̙ˠ	velarized retracted-tongue-root rounded near-close near-front vowel	+		ʏ̙ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 œˠ	velarized rounded open-mid front vowel	+		œˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔˠ	velarized rounded open-mid back vowel	+		ɔˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɵˠ	velarized rounded close-mid central vowel	+		ɵˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʏˠ	velarized rounded near-close near-front vowel	+		ʏˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̞	lowered rounded near-close near-back vowel	+		ʊ̞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̙	retracted-tongue-root rounded near-close near-back vowel	+		ʊ̙			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
@@ -5934,27 +5868,21 @@ o̙ˠ	velarized retracted-tongue-root rounded close-mid back vowel	+		o̙ˠ			+s
 ʊ̠	retracted rounded near-close near-back vowel	+		ʊ̠			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̥ː	long devoiced rounded near-close near-back vowel	+		ʊ̥ː			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 ʊ̙ː	long retracted-tongue-root rounded near-close near-back vowel	+		ʊ̙ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
-ɵˠː	long velarized rounded close-mid central vowel	+		ɵːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 œˠː	long velarized rounded open-mid front vowel	+		œːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 ɔˠː	long velarized rounded open-mid back vowel	+		ɔːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 ʏˠː	long velarized rounded near-close near-front vowel	+		ʏːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 ʊː	long rounded near-close near-back vowel			ʊː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 o̥ˠ	velarized devoiced rounded close-mid back vowel	+		o̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ø̥ˠ	velarized devoiced rounded close-mid front vowel	+		ø̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɞ̥ˠ	velarized devoiced rounded open-mid central vowel	+		ɞ̥ˠ			+syl +son -cons +cont -delrel -lat -nas -voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 oˠ	velarized rounded close-mid back vowel	+		oˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 øˠ	velarized rounded close-mid front vowel	+		øˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɞˠ	velarized rounded open-mid central vowel	+		ɞˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 o̘ˠ	velarized advanced-tongue-root rounded close-mid back vowel	+		o̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ø̘ˠ	velarized advanced-tongue-root rounded close-mid front vowel	+		ø̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 œ̘ˠ	velarized advanced-tongue-root rounded open-mid front vowel	+		œ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ɔ̘ˠ	velarized advanced-tongue-root rounded open-mid back vowel	+		ɔ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɵ̘ˠ	velarized advanced-tongue-root rounded close-mid central vowel	+		ɵ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɞ̘ˠ	velarized advanced-tongue-root rounded open-mid central vowel	+		ɞ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ʏ̘ˠ	velarized advanced-tongue-root rounded near-close near-front vowel	+		ʏ̘ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ʊ̘	advanced-tongue-root rounded near-close near-back vowel	+		ʊ̘			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ʊ̘ː	long advanced-tongue-root rounded near-close near-back vowel	+		ʊ̘ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense +long				
-ɞˠː	long velarized rounded open-mid central vowel	+		ɞːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense +long				
 oˠː	long velarized rounded close-mid back vowel	+		oːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense +long				
 øˠː	long velarized rounded close-mid front vowel	+		øːˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -cor -lab +hi -lo +back +round -velaric +tense +long				
 j̩	syllabic voiced palatal approximant consonant	+		j̩			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo -back -round -velaric -long				
@@ -5965,13 +5893,10 @@ j̩	syllabic voiced palatal approximant consonant	+		j̩			+syl +son -cons +cont
 e˞	rhotacized unrounded close-mid front vowel	+		e˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo -back +round -velaric +tense -long				
 i˞	rhotacized unrounded close front vowel	+		i˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo -back +round -velaric +tense -long				
 ø˞	rhotacized rounded close-mid front vowel	+		ø˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo -back +round -velaric +tense -long				
-ɵ˞	rhotacized rounded close-mid central vowel	+		ɵ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɯ˞	rhotacized unrounded close back vowel	+		ɯ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ˞	rhotacized rounded near-close near-back vowel	+		ʊ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔ˞	rhotacized rounded open-mid back vowel	+		ɔ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
 ə˞	rhotacized unrounded mid central vowel			ə˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɘ˞	rhotacized unrounded close-mid central vowel	+		ɘ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɞ˞	rhotacized rounded open-mid central vowel	+		ɞ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric +tense -long				
 o˞	rhotacized rounded close-mid back vowel	+		o˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric +tense -long				
 ɜ˞	rhotacized unrounded open-mid central vowel	+		ɜ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric +tense -long				
 ɨ˞	rhotacized unrounded close central vowel	+		ɨ˞			+syl +son -cons +cont -delrel -lat -nas +voi -sg -cg -ant -cor -lab +hi -lo +back +round -velaric +tense -long				
@@ -6088,13 +6013,9 @@ ḛː	long creaky unrounded close-mid front vowel	+		ḛː			+syl +son -cons +co
 øˀ	glottalized rounded close-mid front vowel	+		øˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo -back +round -velaric +tense -long				
 ø̰ː	long creaky rounded close-mid front vowel	+		ø̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo -back +round -velaric +tense +long				
 əˀ	glottalized unrounded mid central vowel	+		əˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘˀ	glottalized unrounded close-mid central vowel	+		ɘˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 <NA>	<NA>			ˀə			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-<NA>	<NA>			ˀɘ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̰	creaky unrounded mid central vowel			ə̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̰	creaky unrounded close-mid central vowel	+		ɘ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̰ː	long creaky unrounded mid central vowel	+		ə̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘ̰ː	long creaky unrounded close-mid central vowel	+		ɘ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɜ̰	creaky unrounded open-mid central vowel	+		ɜ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̰	creaky unrounded near-open central vowel	+		ɐ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̰	creaky unrounded open-mid back vowel	+		ʌ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
@@ -6108,21 +6029,13 @@ ḛː	long creaky unrounded close-mid front vowel	+		ḛː			+syl +son -cons +co
 ɐ̰ː	long creaky unrounded near-open central vowel	+		ɐ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ʌ̰ː	long creaky unrounded open-mid back vowel	+		ʌ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 <NA>	<NA>			ˀɔ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-<NA>	<NA>			ˀɵ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̰	creaky rounded open-mid back vowel			ɔ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̰	creaky rounded close-mid central vowel	+		ɵ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔˀ	glottalized rounded open-mid back vowel	+		ɔˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵˀ	glottalized rounded close-mid central vowel	+		ɵˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̰ː	long creaky rounded open-mid back vowel	+		ɔ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵ̰ː	long creaky rounded close-mid central vowel	+		ɵ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 <NA>	<NA>			ˀo			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-<NA>	<NA>			ˀɞ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̰	creaky rounded close-mid back vowel			o̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̰	creaky rounded open-mid central vowel	+		ɞ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 oˀ	glottalized rounded close-mid back vowel	+		oˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞˀ	glottalized rounded open-mid central vowel	+		ɞˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̰ː	long creaky rounded close-mid back vowel	+		o̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞ̰ː	long creaky rounded open-mid central vowel	+		ɞ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 æˀ	glottalized unrounded near-open front vowel	+		æˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 <NA>	<NA>			ˀæ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 æ̰	creaky unrounded near-open front vowel			æ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo -back -round -velaric +tense -long				
@@ -6132,7 +6045,6 @@ o̰ː	long creaky rounded close-mid back vowel	+		o̰ː			+syl +son -cons +cont 
 ɶˀ	glottalized rounded open front vowel	+		ɶˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo -back +round -velaric +tense -long				
 ɶ̰ː	long creaky rounded open front vowel	+		ɶ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo -back +round -velaric +tense +long				
 ə̰ˤ	pharyngealized creaky unrounded mid central vowel	+		ə̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric -tense -long				
-ɘ̰ˤ	pharyngealized creaky unrounded close-mid central vowel	+		ɘ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ɛ̰ˤ	pharyngealized creaky unrounded open-mid front vowel	+		ɛ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 aˀ	glottalized unrounded open front vowel	+		aˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric +tense -long				
 <NA>	<NA>			ˀa			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric +tense -long				
@@ -6146,14 +6058,12 @@ ḛˤ	pharyngealized creaky unrounded close-mid front vowel	+		ḛˤ			+syl +son
 a̰ː	long creaky unrounded open front vowel	+		a̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric +tense +long				
 œ̰ˤ	pharyngealized creaky rounded open-mid front vowel	+		œ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɔ̰ˤ	pharyngealized creaky rounded open-mid back vowel	+		ɔ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric -tense -long				
-ɵ̰ˤ	pharyngealized creaky rounded close-mid central vowel	+		ɵ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɒˀ	glottalized rounded open back vowel	+		ɒˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 <NA>	<NA>			ˀɒ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̰	creaky rounded open back vowel	+		ɒ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 o̰ˤ	pharyngealized creaky rounded close-mid back vowel	+		o̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ø̰ˤ	pharyngealized creaky rounded close-mid front vowel	+		ø̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̰ˤ	pharyngealized creaky rounded open back vowel	+		ɒ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
-ɞ̰ˤ	pharyngealized creaky rounded open-mid central vowel	+		ɞ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɶ̰ˤ	pharyngealized creaky rounded open front vowel	+		ɶ̰ˤ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̰ː	long creaky rounded open back vowel	+		ɒ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab -hi +lo +back +round -velaric +tense +long				
 ɪ̰	creaky unrounded near-close near-front vowel			ɪ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo -back -round -velaric -tense -long				
@@ -6171,7 +6081,6 @@ ḭː	long creaky unrounded close front vowel			ḭː			+syl +son -cons +cont -d
 ɯ̰	creaky unrounded close back vowel	+		ɯ̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 <NA>	<NA>			ˀɯ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ə̰ˠ	velarized creaky unrounded mid central vowel	+		ə̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
-ɘ̰ˠ	velarized creaky unrounded close-mid central vowel	+		ɘ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɛ̰ˠ	velarized creaky unrounded open-mid front vowel	+		ɛ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɪ̰ˠ	velarized creaky unrounded near-close near-front vowel	+		ɪ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɯˀ	glottalized unrounded close back vowel	+		ɯˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back -round -velaric -tense -long				
@@ -6190,12 +6099,10 @@ ḭˠ	velarized creaky unrounded close front vowel	+		ḭˠ			+syl +son -cons +c
 <NA>	<NA>			ˀʊ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 œ̰ˠ	velarized creaky rounded open-mid front vowel	+		œ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔ̰ˠ	velarized creaky rounded open-mid back vowel	+		ɔ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɵ̰ˠ	velarized creaky rounded close-mid central vowel	+		ɵ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʏ̰ˠ	velarized creaky rounded near-close near-front vowel	+		ʏ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̰ː	long creaky rounded near-close near-back vowel	+		ʊ̰ː			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 o̰ˠ	velarized creaky rounded close-mid back vowel	+		o̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ø̰ˠ	velarized creaky rounded close-mid front vowel	+		ø̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɞ̰ˠ	velarized creaky rounded open-mid central vowel	+		ɞ̰ˠ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 yˀ	glottalized rounded close front vowel	+		yˀ			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor +lab +hi -lo -back +round -velaric +tense -long				
 <NA>	<NA>			ˀy			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor +lab +hi -lo -back +round -velaric +tense -long				
 y̰	creaky rounded close front vowel	+		y̰			+syl +son -cons +cont -delrel -lat -nas +voi -sg +cg -cor +lab +hi -lo -back +round -velaric +tense -long				
@@ -6230,11 +6137,8 @@ e̤ː	long breathy unrounded close-mid front vowel	+		e̤ː			+syl +son -cons +c
 ø̤	breathy rounded close-mid front vowel	+		ø̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo -back +round -velaric +tense -long				
 ø̤ː	long breathy rounded close-mid front vowel	+		ø̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo -back +round -velaric +tense +long				
 ə̥̤	devoiced breathy unrounded mid central vowel	+		ə̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̥̤	devoiced breathy unrounded close-mid central vowel	+		ɘ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̤	breathy unrounded mid central vowel	+		ə̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̤	breathy unrounded close-mid central vowel	+		ɘ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̤ː	long breathy unrounded mid central vowel	+		ə̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘ̤ː	long breathy unrounded close-mid central vowel	+		ɘ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɜ̥̤	devoiced breathy unrounded open-mid central vowel	+		ɜ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̥̤	devoiced breathy unrounded near-open central vowel	+		ɐ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̥̤	devoiced breathy unrounded open-mid back vowel	+		ʌ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
@@ -6245,17 +6149,11 @@ e̤ː	long breathy unrounded close-mid front vowel	+		e̤ː			+syl +son -cons +c
 ɐ̤ː	long breathy unrounded near-open central vowel	+		ɐ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ʌ̤ː	long breathy unrounded open-mid back vowel	+		ʌ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɔ̥̤	devoiced breathy rounded open-mid back vowel	+		ɔ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̥̤	devoiced breathy rounded close-mid central vowel	+		ɵ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̤	breathy rounded close-mid central vowel	+		ɵ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̤	breathy rounded open-mid back vowel	+		ɔ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̤ː	long breathy rounded open-mid back vowel	+		ɔ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵ̤ː	long breathy rounded close-mid central vowel	+		ɵ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 o̥̤	devoiced breathy rounded close-mid back vowel	+		o̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̥̤	devoiced breathy rounded open-mid central vowel	+		ɞ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̤	breathy rounded open-mid central vowel	+		ɞ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̤	breathy rounded close-mid back vowel			o̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 o̤ː	long breathy rounded close-mid back vowel	+		o̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞ̤ː	long breathy rounded open-mid central vowel	+		ɞ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 æ̥̤	devoiced breathy unrounded near-open front vowel	+		æ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 æ̤	breathy unrounded near-open front vowel	+		æ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 æ̤ː	long breathy unrounded near-open front vowel	+		æ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo -back -round -velaric +tense +long				
@@ -6263,7 +6161,6 @@ o̤ː	long breathy rounded close-mid back vowel	+		o̤ː			+syl +son -cons +cont
 ɶ̤	breathy rounded open front vowel	+		ɶ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo -back +round -velaric +tense -long				
 ɶ̤ː	long breathy rounded open front vowel	+		ɶ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo -back +round -velaric +tense +long				
 ə̤ˤ	pharyngealized breathy unrounded mid central vowel	+		ə̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
-ɘ̤ˤ	pharyngealized breathy unrounded close-mid central vowel	+		ɘ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ɛ̤ˤ	pharyngealized breathy unrounded open-mid front vowel	+		ɛ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ḁ̤	devoiced breathy unrounded open front vowel	+		a̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
 a̤ˤ	pharyngealized breathy unrounded open front vowel	+		a̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
@@ -6276,12 +6173,10 @@ a̤	breathy unrounded open front vowel	+		a̤			+syl +son -cons +cont -delrel -l
 a̤ː	long breathy unrounded open front vowel	+		a̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back -round -velaric +tense +long				
 œ̤ˤ	pharyngealized breathy rounded open-mid front vowel	+		œ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɔ̤ˤ	pharyngealized breathy rounded open-mid back vowel	+		ɔ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
-ɵ̤ˤ	pharyngealized breathy rounded close-mid central vowel	+		ɵ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɒ̥̤	devoiced breathy rounded open back vowel	+		ɒ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 o̤ˤ	pharyngealized breathy rounded close-mid back vowel	+		o̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ø̤ˤ	pharyngealized breathy rounded close-mid front vowel	+		ø̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̤ˤ	pharyngealized breathy rounded open back vowel	+		ɒ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
-ɞ̤ˤ	pharyngealized breathy rounded open-mid central vowel	+		ɞ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɶ̤ˤ	pharyngealized breathy rounded open front vowel	+		ɶ̤ˤ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̤	breathy rounded open back vowel	+		ɒ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̤ː	long breathy rounded open back vowel	+		ɒ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
@@ -6297,7 +6192,6 @@ i̤ː	long breathy unrounded close front vowel	+		i̤ː			+syl +son -cons +cont 
 ɯ̥̤	devoiced breathy unrounded close back vowel	+		ɯ̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɯ̤	breathy unrounded close back vowel			ɯ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ə̤ˠ	velarized breathy unrounded mid central vowel	+		ə̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
-ɘ̤ˠ	velarized breathy unrounded close-mid central vowel	+		ɘ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɛ̤ˠ	velarized breathy unrounded open-mid front vowel	+		ɛ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɪ̤ˠ	velarized breathy unrounded near-close near-front vowel	+		ɪ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense -long				
 ɯ̤ː	long breathy unrounded close back vowel	+		ɯ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back -round -velaric -tense +long				
@@ -6313,12 +6207,10 @@ i̤ˠ	velarized breathy unrounded close front vowel	+		i̤ˠ			+syl +son -cons +
 ʊ̤	breathy rounded near-close near-back vowel	+		ʊ̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 œ̤ˠ	velarized breathy rounded open-mid front vowel	+		œ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ɔ̤ˠ	velarized breathy rounded open-mid back vowel	+		ɔ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
-ɵ̤ˠ	velarized breathy rounded close-mid central vowel	+		ɵ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʏ̤ˠ	velarized breathy rounded near-close near-front vowel	+		ʏ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense -long				
 ʊ̤ː	long breathy rounded near-close near-back vowel	+		ʊ̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric -tense +long				
 o̤ˠ	velarized breathy rounded close-mid back vowel	+		o̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 ø̤ˠ	velarized breathy rounded close-mid front vowel	+		ø̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
-ɞ̤ˠ	velarized breathy rounded open-mid central vowel	+		ɞ̤ˠ			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor -lab +hi -lo +back +round -velaric +tense -long				
 y̥̤	devoiced breathy rounded close front vowel	+		y̤̥			+syl +son -cons +cont -delrel -lat -nas -voi +sg -cg -cor +lab +hi -lo -back +round -velaric +tense -long				
 y̤	breathy rounded close front vowel	+		y̤			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor +lab +hi -lo -back +round -velaric +tense -long				
 y̤ː	long breathy rounded close front vowel	+		y̤ː			+syl +son -cons +cont -delrel -lat -nas +voi +sg -cg -cor +lab +hi -lo -back +round -velaric +tense +long				
@@ -6347,29 +6239,22 @@ ẽː	long nasalized unrounded close-mid front vowel			ẽː			+syl +son -cons +
 ø̃	nasalized rounded close-mid front vowel			ø̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric +tense -long				
 ø̃ː	long nasalized rounded close-mid front vowel			ø̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo -back +round -velaric +tense +long				
 ə̃	nasalized unrounded mid central vowel			ə̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̃	nasalized unrounded close-mid central vowel			ɘ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ə̃ː	long nasalized unrounded mid central vowel			ə̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
-ɘ̃ː	long nasalized unrounded close-mid central vowel			ɘ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric -tense +long				
 ɜ̃	nasalized unrounded open-mid central vowel			ɜ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̃	nasalized unrounded near-open central vowel			ɐ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̃	nasalized unrounded open-mid back vowel			ʌ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̃ː	long nasalized unrounded open-mid back vowel			ʌ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɜ̃ː	long nasalized unrounded open-mid central vowel			ɜ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
 ɐ̃ː	long nasalized unrounded near-open central vowel			ɐ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back -round -velaric +tense +long				
-ɵ̃	nasalized rounded close-mid central vowel			ɵ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̃	nasalized rounded open-mid back vowel			ɔ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 ɔ̃ː	long nasalized rounded open-mid back vowel			ɔ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
-ɵ̃ː	long nasalized rounded close-mid central vowel			ɵ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric -tense +long				
 õ	nasalized rounded close-mid back vowel			õ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̃	nasalized rounded open-mid central vowel			ɞ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 õː	long nasalized rounded close-mid back vowel			õː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
-ɞ̃ː	long nasalized rounded open-mid central vowel			ɞ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi -lo +back +round -velaric +tense +long				
 æ̃	nasalized unrounded near-open front vowel			æ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 æ̃ː	long nasalized unrounded near-open front vowel			æ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo -back -round -velaric +tense +long				
 ɶ̃	nasalized rounded open front vowel			ɶ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo -back +round -velaric +tense -long				
 ɶ̃ː	long nasalized rounded open front vowel			ɶ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo -back +round -velaric +tense +long				
 ə̃ˤ	pharyngealized nasalized unrounded mid central vowel	+		ə̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
-ɘ̃ˤ	pharyngealized nasalized unrounded close-mid central vowel	+		ɘ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ɛ̃ˤ	pharyngealized nasalized unrounded open-mid front vowel	+		ɛ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric -tense -long				
 ãˤ	pharyngealized nasalized unrounded open front vowel	+		ãˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
 ẽˤ	pharyngealized nasalized unrounded close-mid front vowel	+		ẽˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense -long				
@@ -6381,11 +6266,9 @@ ã	nasalized unrounded open front vowel			ã			+syl +son -cons +cont -delrel -l
 ãː	long nasalized unrounded open front vowel			ãː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back -round -velaric +tense +long				
 œ̃ˤ	pharyngealized nasalized rounded open-mid front vowel	+		œ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 ɔ̃ˤ	pharyngealized nasalized rounded open-mid back vowel	+		ɔ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
-ɵ̃ˤ	pharyngealized nasalized rounded close-mid central vowel	+		ɵ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric -tense -long				
 õˤ	pharyngealized nasalized rounded close-mid back vowel	+		õˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ø̃ˤ	pharyngealized nasalized rounded close-mid front vowel	+		ø̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̃ˤ	pharyngealized nasalized rounded open back vowel	+		ɒ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
-ɞ̃ˤ	pharyngealized nasalized rounded open-mid central vowel	+		ɞ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɶ̃ˤ	pharyngealized nasalized rounded open front vowel	+		ɶ̃ˤ			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̃	nasalized rounded open back vowel			ɒ̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense -long				
 ɒ̃ː	long nasalized rounded open back vowel			ɒ̃ː			+syl +son -cons +cont -delrel -lat +nas +voi -sg -cg -cor -lab -hi +lo +back +round -velaric +tense +long				
@@ -6418,14 +6301,11 @@ ḛ̃	nasalized creaky unrounded close-mid front vowel	+		ḛ̃			+syl +son -con
 œ̰̃	nasalized creaky rounded open-mid front vowel	+		œ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo -back +round -velaric -tense -long				
 ø̰̃	nasalized creaky rounded close-mid front vowel	+		ø̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo -back +round -velaric +tense -long				
 ə̰̃	nasalized creaky unrounded mid central vowel	+		ə̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
-ɘ̰̃	nasalized creaky unrounded close-mid central vowel	+		ɘ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric -tense -long				
 ɜ̰̃	nasalized creaky unrounded open-mid central vowel	+		ɜ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɐ̰̃	nasalized creaky unrounded near-open central vowel	+		ɐ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ʌ̰̃	nasalized creaky unrounded open-mid back vowel	+		ʌ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back -round -velaric +tense -long				
 ɔ̰̃	nasalized creaky rounded open-mid back vowel	+		ɔ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
-ɵ̰̃	nasalized creaky rounded close-mid central vowel	+		ɵ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric -tense -long				
 õ̰	nasalized creaky rounded close-mid back vowel	+		õ̰			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
-ɞ̰̃	nasalized creaky rounded open-mid central vowel	+		ɞ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi -lo +back +round -velaric +tense -long				
 æ̰̃	nasalized creaky unrounded near-open front vowel	+		æ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi +lo -back -round -velaric +tense -long				
 ɶ̰̃	nasalized creaky rounded open front vowel	+		ɶ̰̃			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi +lo -back +round -velaric +tense -long				
 ã̰	nasalized creaky unrounded open front vowel	+		ã̰			+syl +son -cons +cont -delrel -lat +nas +voi -sg +cg -cor -lab -hi +lo +back -round -velaric +tense -long				

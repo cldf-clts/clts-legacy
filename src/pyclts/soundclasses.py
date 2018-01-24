@@ -1,25 +1,22 @@
 # coding: utf-8
 from __future__ import unicode_literals
-from functools import partial
 
-from collections import defaultdict
-
-from pyclts.util import pkg_path
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
-from pyclts.transcriptiondata import iterdata
+from pyclts.util import iterdata
+from pyclts.models import TranscriptionBase
+
 
 def lingpy(sound_class):
     out = {}
     graphemes, names = [], []
-    for sound_name, sound_bipa, grapheme in iterdata('lingpy.tsv', sound_class,
-            folder='soundclasses'):
+    for sound_name, sound_bipa, grapheme in iterdata('soundclasses', 'lingpy.tsv', sound_class):
         out[sound_bipa] = out[sound_name] = grapheme
         graphemes += [sound_bipa]
         names += [sound_name]
     return out, graphemes, names
 
 
-class SoundClasses(object):
+class SoundClasses(TranscriptionBase):
     """
     Class for handling sound class models.
     """
@@ -46,6 +43,7 @@ class SoundClasses(object):
         features in order to yield the next approximate sound class, if the
         transcription data are sound classes.
         """
+        sound = sound if isinstance(sound, Sound) else self.system[sound]
         if sound.name in self.data:
             return self.data[sound.name]['grapheme']
         if not sound.type == 'unknownsound':
@@ -61,20 +59,3 @@ class SoundClasses(object):
                     return self.resolve_sound(sound)
                 name.pop(0)
         raise KeyError(":sc:resolve_sound: No sound could be found.")
-
-    def __getitem__(self, sound):
-        if isinstance(sound, Sound):
-            return self.resolve_sound(sound)
-        return self.resolve_sound(self.system[sound])
-    
-    def get(self, sound, default=None):
-        try:
-            return self[sound]
-        except KeyError:
-            return default
-
-    def items(self, sound, default=None):
-        return self._data.items()
-
-    def __call__(self, sounds, default="0"):
-        return [self.get(x, default) for x in sounds.split()]

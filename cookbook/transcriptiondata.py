@@ -258,7 +258,7 @@ def loadmeta(data):
         from lingpy.sequence.sound_classes import token2class
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS',
                 'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
-        for glyph, sound in bipa._sounds.items():
+        for glyph, sound in bipa.sounds.items():
             if not sound.alias:
                 out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
                          in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
@@ -269,7 +269,7 @@ def loadmeta(data):
         import urllib.request, urllib.error, urllib.parse
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL']]
         wiki = 'https://en.wikipedia.org/wiki/'
-        for glyph, sound in bipa._sounds.items():
+        for glyph, sound in bipa.sounds.items():
             if not sound.alias and not sound.type in ['marker', 'diphthong']:
                 if not sound.type == 'click':
                     url1 = wiki + '_'.join(sound.name.split(' ')[:-1])

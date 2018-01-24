@@ -6,13 +6,13 @@ bipa = TranscriptionSystem()
 
 table = []
 
-for k, v in bipa._features['consonant'].items():
+for k, v in bipa.features['consonant'].items():
     row = ['consonant', bipa._feature_values[k], k, v]
     table += [row]
     
     
 
-for k, v in bipa._features['vowel'].items():
+for k, v in bipa.features['vowel'].items():
     row = ['vowel', bipa._feature_values[k], k, v]
     table += [row]
     
@@ -20,11 +20,11 @@ for k, v in bipa._features['vowel'].items():
     
     
 
-for s in bipa._sounds:
+for s in bipa.sounds:
     if not bipa[s].type == 'marker':
         for f in bipa[s]._features():
             if not bipa[s].type in [ 'tone', 'marker']:
-                table += [[bipa[s].type, bipa._feature_values[f], getattr(bipa[s], bipa._feature_values[f]), bipa._features[bipa[s].type].get(f, '')]]
+                table += [[bipa[s].type, bipa._feature_values[f], getattr(bipa[s], bipa._feature_values[f]), bipa.features[bipa[s].type].get(f, '')]]
             elif bipa[s].type == 'tone':
                 table += [[bipa[s].type, bipa._feature_values[f],
                     getattr(bipa[s], bipa._feature_values[f]), '']]

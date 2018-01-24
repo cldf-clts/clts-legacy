@@ -106,21 +106,11 @@
             "datatype": {"base": "string"}
           },
           {
-            "name": "ALIASES",
-            "datatype": {"base": "string"},
-            "separator": ","
-          },
-          {
             "name": "GENERATED",
             "datatype": {
               "base": "boolean",
               "format": "1|0"
             }
-          },
-          {
-            "name": "REFLEXES",
-            "datatype": {"base": "string"},
-            "separator": ","
           },
           {
             "name": "NOTE",

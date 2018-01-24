@@ -6,11 +6,13 @@ import unicodedata
 from six import text_type
 
 import attr
-from clldutils.misc import UnicodeMixin, nfilter
+from clldutils.misc import UnicodeMixin, nfilter, lazyproperty
 
 from pyclts.util import norm
 
 __all__ = [
+    'is_valid_sound',
+    'TranscriptionBase',
     'Sound',
     'Consonant',
     'Vowel',
@@ -19,6 +21,46 @@ __all__ = [
     'Diphthong',
     'Cluster',
     'UnknownSound']
+EXCLUDE_FEATURES = ['apical', 'laminal', 'ejective']
+
+
+def is_valid_sound(sound, ts):
+    """Check the consistency of a given transcription system conversino"""
+    if isinstance(sound, (Marker, UnknownSound)):
+        return False
+    s1 = ts[sound.name]
+    s2 = ts[sound.s]
+    return s1.name == s2.name and s1.s == s2.s
+
+
+class TranscriptionBase(object):
+    """
+    A Transcription system behaves like a dict in some ways, and provides an additional
+    __call__ method as shortcut for translating sequences of sound specifications to
+    lists of Sound objects.
+    """
+    def resolve_sound(self, sound):
+        raise NotImplementedError
+
+    def __getitem__(self, sound):
+        """Return a Sound instance matching the specification."""
+        return self.resolve_sound(sound)
+
+    def get(self, sound, default=None):
+        try:
+            res = self[sound]
+            if isinstance(res, UnknownSound) and default:
+                return default
+            return res
+        except KeyError:
+            return default
+
+    def __call__(self, sounds, default="0"):
+        return [self.get(x, default=default) for x in sounds.split()]
+
+    def translate(self, string, target_system):
+        return ' '.join(
+            '{0}'.format(target_system.get(self[s], '?')) for s in string.split())
 
 
 @attr.s(cmp=False)
@@ -29,7 +71,7 @@ class Symbol(UnicodeMixin):
     generated = attr.ib(default=False, validator=attr.validators.instance_of(bool))
     note = attr.ib(default=None)
 
-    @property
+    @lazyproperty
     def type(self):
         return self.__class__.__name__.lower()
 
@@ -98,13 +140,12 @@ class Sound(Symbol):
     def s(self):
         return self.__unicode__()
 
-
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
     
     @property
     def featureset(self):
-        return frozenset(self._features()+[self.type])
+        return frozenset(self._features() + [self.type])
 
     def __unicode__(self):
         """
@@ -117,40 +158,39 @@ class Sound(Symbol):
         """
         # generated sounds need to be re-produced for double-checking
         if not self.generated:
-            if not self.alias and self.grapheme in self.ts._sounds:
+            if not self.alias and self.grapheme in self.ts.sounds:
                 return self.grapheme
-            elif self.alias and self.featureset in self.ts._features:
-                return str(self.ts._features[self.featureset])
+            elif self.alias and self.featureset in self.ts.features:
+                return text_type(self.ts.features[self.featureset])
             else:
                 # this error can usually not be raised, as we catch them when
                 # loading a ts
                 raise ValueError('Orphaned alias {0}'.format(self.grapheme))
         
         # search for best base-string
-        elements = [f for f in self._features() if f not in ['apical', 'laminal', 'ejective']] + [self.type]
+        elements = [f for f in self._features() if f not in EXCLUDE_FEATURES] + [self.type]
         base_str = self.base or '<?>'
         base_graphemes = []
         while elements:
-            base = self.ts._features.get(frozenset(elements))
+            base = self.ts.features.get(frozenset(elements))
             if base:
                 base_graphemes.append(base.grapheme)
             elements.pop(0)
         base_str = base_graphemes[-1] if base_graphemes else base_str or '<?>'
-        base_vals = {self.ts._feature_values[elm] for elm in 
-                self.ts._sounds[base_str].name.split(' ')[:-1]} if \
-                        base_str != '<?>' else {}
+        base_vals = {
+            self.ts._feature_values[elm] for elm in
+            self.ts.sounds[base_str].name.split(' ')[:-1]} if \
+            base_str != '<?>' else {}
         out = []
         for p in self._write_order['pre']:
             if p not in base_vals and getattr(self, p, '') in self._features():
                 out.append(
-                    norm(self.ts._features[self.type].get(getattr(self, p, ''),
-                        '<!>')))
+                    norm(self.ts.features[self.type].get(getattr(self, p, ''), '<!>')))
         out.append(base_str)
         for p in self._write_order['post']:
             if p not in base_vals and getattr(self, p, '') in self._features():
                 out.append(
-                    norm(self.ts._features[self.type].get(getattr(self, p, ''),
-                        '<!>')))
+                    norm(self.ts.features[self.type].get(getattr(self, p, ''), '<!>')))
         return ''.join(out)
 
     @property
@@ -163,14 +203,13 @@ class Sound(Symbol):
         """
         tbl = []
         features = [
-            f for f in self._name_order if f not in self.ts._columns[self.type]]
+            f for f in self._name_order if f not in self.ts.columns[self.type]]
         # make sure to mark generated sounds
         if self.generated and self.s != self.source:
-
             tbl += [self.__unicode__() + ' | ' + self.source]
         else:
             tbl += [self.__unicode__()]
-        for name in self.ts._columns[self.type][1:]:
+        for name in self.ts.columns[self.type][1:]:
             if name != 'extra' and name != 'alias':
                 tbl += [getattr(self, name) or '']
             elif name == 'alias':
