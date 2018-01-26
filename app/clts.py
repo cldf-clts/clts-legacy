@@ -14,6 +14,7 @@ print "Content-type: text/html; charset=utf-8"
 xargs = dict(
         name = '',
         plain = '',
+        dbase = '',
         )
 args = {}
 tmp_args = cgi.FieldStorage()
@@ -28,32 +29,59 @@ dbpath = 'data.sqlite3'
 db = sqlite3.connect(dbpath)
 cursor = db.cursor()
 
-if not args.get('plain'):
+dbase = args.get('dbase', ':')
+
+if not args.get('name'):
     print ''
-    print '<html><body>'
-    print '<style>th{background: gray;color:white;}td {border:2px solid gray;}'
-    print '.comment {color:red;}'
-    print '.keywords {color:darkgreen;}'
-    print '</style>'
-    print '<p>Querying <i>'+args['name']+'</i></p>'
-    print '<table><tr><th>DATASET</th><th>PARAMETER</th><th>VALUE</th></tr>';
-    for line in cursor.execute(
-            'select * from data where name="'+args['name']+'";'):
-        print '<tr>'
-        print '<td>' + line[1].split(':')[0].encode('utf-8') +'</td>'
-        print '<td>' + line[1].split(':')[1].encode('utf-8')+'</td>'
-        print '<td>' + line[2].encode('utf-8')+'</td>'
-        print '</tr>'
-    print '</table></body></html>'
+    print 'No sound submitted.'
 
 else:
-    print 'Content-Disposition: attachment; filename="clts.json"'
-    print
-    out = {}
-    for line in cursor.execute(
-            'select * from data where name="'+args['name']+'";'):
-        out[line[1]] = line[2]
-    print json.dumps(out)
+    if '_' in args['name']:
+        name = args['name'].replace('_', ' ')
+    else:
+        name = args['name']
+    
+    
+    if not args.get('plain'):
+        print ''
+        print '<html><body>'
+        print '<style>th{background: gray;color:white;}td {border:2px solid gray;}'
+        print '.comment {color:red;}'
+        print '.keywords {color:darkgreen;}'
+        print '</style>'
+        print '<p>Querying CLTS for <i>'+name+'</i>:</p>'
+        print '<table><tr><th>DATASET</th><th>PARAMETER</th><th>VALUE</th><th>VERSION</th><th>DATE</th></tr>';
+        color = 'white'
+        for line in cursor.execute(
+                'select * from data where name="'+name+'";'):
+            if dbase in line[1]:
+                print '<tr>'
+                dset, param = [x.encode('utf-8') for x in line[1].split(':')]
+                value = line[2].encode('utf-8')
+                print '<td>' + dset +'</td>'
+                if dset == 'color':
+                    color = value
+                if param in ['url', 'image', 'sound']:
+                    value = '<a target="_blank" href="'+value+'">'+value+'</a>'
+                elif param in ['grapheme', 'sound-class']:
+                    value = '<span class="sound">'+value+'</span>'
+                print '<td>' + param +'</td>'
+                print '<td>' + value +'</td>'
+                print '<td>' + line[3].encode('utf-8')+'</td>'
+                print '<td>' + line[4].encode('utf-8')+'</td>'
+                print '</tr>'
+        print '</table>'
+        print '<style>.sound {background-color:'+color+';}</style>'
+        print '</body></html>'
+    
+    else:
+        print 'Content-Disposition: attachment; filename="clts.json"'
+        print
+        out = {}
+        for line in cursor.execute(
+                'select * from data where name="'+name+'";'):
+            out[line[1]] = [line[2], line[3], line[4]]
+        print json.dumps(out)
 
 
 

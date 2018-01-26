@@ -6,43 +6,25 @@ Transcription System module for consistent IPA handling.
 """
 from __future__ import unicode_literals
 import re
-import codecs
 
-from csvw import TableGroup
-import json
-import attr
 from six import string_types, text_type
 
-from pyclts.util import pkg_path, nfd, norm, EMPTY
+from csvw import TableGroup
+from clldutils import jsonlib
+import attr
+
+from pyclts.util import pkg_path, nfd, norm, EMPTY, itertable
 from pyclts.models import *
 
 
-def itertable(table):
-    "Auxiliary function for iterating over a data table."
-    for item in table:
-        res = {
-            key.lower(): nfd(value) if isinstance(value, text_type) else value
-            for key, value in item.items()}
-        for extra in res.pop('extra', []):
-            key, _, value = extra.strip().partition(':')
-            res[key] = value
-        yield res
-
-
-def translate(string, source_system, target_system):
-    return ' '.join(
-        '{0}'.format(target_system.get(source_system[s], '?')) for s in string.split())
-
-
-class TranscriptionSystem(object):
+class TranscriptionSystem(TranscriptionBase):
     """
     A transcription System."""
     def __init__(self, system='bipa'):
         """
         :param system: The name of a transcription system or a directory containing one.
         """
-        if not system:
-            raise ValueError("You cannot specify an empty transcription system")
+        assert system
         if isinstance(system, string_types):
             system = pkg_path('transcriptionsystems', system)
             if not (system.exists() and system.is_dir()):
@@ -55,28 +37,27 @@ class TranscriptionSystem(object):
                 pkg_path('transcriptionsystems', 'transcription-system-metadata.json'))
             self.system._fname = system.joinpath('metadata.json')
 
-        self._features = {'consonant': {}, 'vowel': {}, 'tone': {}}
+        self.features = {'consonant': {}, 'vowel': {}, 'tone': {}}
         # dictionary for feature values, checks when writing elements from
         # write_order to make sure no output is doubled
         self._feature_values = {}
 
         # load the general features
-        features = json.load(codecs.open(pkg_path(
-            'transcriptionsystems', 'features.json').as_posix(), 'r', 'utf-8'))
+        features = jsonlib.load(pkg_path('transcriptionsystems', 'features.json'))
 
         self.diacritics = dict(
             consonant={}, vowel={}, click={}, diphthong={}, tone={}, cluster={})
         for dia in itertable(self.system.tabledict['diacritics.tsv']):
             if not dia['alias'] and not dia['typography']:
-                self._features[dia['type']][dia['value']] = dia['grapheme']
+                self.features[dia['type']][dia['value']] = dia['grapheme']
             # assign feature values to the dictionary
             self._feature_values[dia['value']] = dia['feature']
             #self.diacritics[dia['type']][dia['grapheme']] = {dia['feature']: dia['value']}
             self.diacritics[dia['type']][dia['grapheme']] = dia['value']
 
         self.sound_classes = {}
-        self._columns = {}  # the basic column structure, to allow for rendering
-        self._sounds = {}  # Sounds by grapheme
+        self.columns = {}  # the basic column structure, to allow for rendering
+        self.sounds = {}  # Sounds by grapheme
         self._covered = {}
         # check for unresolved aliased sounds
         aliases = []
@@ -86,12 +67,13 @@ class TranscriptionSystem(object):
             # store information on column structure to allow for rendering of a
             # sound in this form, which will make it easier to insert it when
             # finding generated sounds
-            self._columns[type_] = [c['name'].lower() for c in \
-                    self.system.tabledict['{0}s.tsv'.format(type_)].asdict(
-                        )['tableSchema']['columns']]
+            self.columns[type_] = [
+                c['name'].lower() for c in
+                self.system.tabledict['{0}s.tsv'.format(type_)]
+                    .asdict()['tableSchema']['columns']]
             for l, item in enumerate(itertable(
                     self.system.tabledict['{0}s.tsv'.format(type_)])):
-                if item['grapheme'] in self._sounds:
+                if item['grapheme'] in self.sounds:
                     raise ValueError('duplicate grapheme in {0}:{1}: {2}'.format(
                         type_ + 's.tsv', l + 2, item['grapheme']))
                 sound = cls(ts=self, **item)
@@ -104,20 +86,20 @@ class TranscriptionSystem(object):
                                     "Your data contains unrecognized features ({0}: {1}, line {2}))".format(
                                         key, value, l+2))
 
-                self._sounds[item['grapheme']] = sound
+                self.sounds[item['grapheme']] = sound
                 if not sound.alias:
-                    if sound.featureset in self._features:
+                    if sound.featureset in self.features:
                         raise ValueError('duplicate features in {0}:{1}: {2}'.format(
                             type_ + 's.tsv', l + 2, sound.name))
-                    self._features[sound.featureset] = sound
+                    self.features[sound.featureset] = sound
                 else:
                     aliases += [(l, sound.type, sound.featureset)]
         # check for consistency of aliases: if an alias has no counterpart, it
         # is orphaned and needs to be deleted or given an accepted non-aliased
         # sound
-        if [x for x in aliases if x[2] not in self._features]:
-            error = ', '.join([text_type(x[0]+2) +'/'+text_type(x[1]) for x in aliases if
-                x[2] not in self._features])
+        if [x for x in aliases if x[2] not in self.features]:
+            error = ', '.join([text_type(x[0]+2) +'/' + text_type(x[1]) for x in aliases if
+                               x[2] not in self.features])
             raise ValueError('Your dataset contains orphaned aliases in line(s) {0}'.format(error))
 
         # basic regular expression, used to match the basic sounds in the system.
@@ -131,8 +113,8 @@ class TranscriptionSystem(object):
 
     def _update_regex(self):
         self._regex = re.compile('|'.join(
-            map(re.escape, sorted(self._sounds, key=lambda x: len(x),
-                reverse=True))))
+            map(re.escape, sorted(self.sounds, key=lambda x: len(x),
+                                  reverse=True))))
 
     @property
     def id(self):
@@ -153,8 +135,8 @@ class TranscriptionSystem(object):
 
     def _from_name(self, string):
         """Parse a sound from its name"""
-        if frozenset(string.split(' ')) in self._features:
-            return self._features[frozenset(string.split(' '))]
+        if frozenset(string.split(' ')) in self.features:
+            return self.features[frozenset(string.split(' '))]
         components = string.split(' ')
         rest, sound_class = components[:-1], components[-1]
         if sound_class in ['diphthong', 'cluster']:
@@ -165,8 +147,8 @@ class TranscriptionSystem(object):
                 from_, to_ = string_.split(' to ')
                 v1, v2 = frozenset(from_.split(' ')+[extension]), frozenset(
                         to_.split(' ')+[extension])
-                if v1 in self._features and v2 in self._features:
-                    s1, s2 = (self._features[v1], self._features[v2])
+                if v1 in self.features and v2 in self.features:
+                    s1, s2 = (self.features[v1], self.features[v2])
                     if sound_class == 'diphthong':
                         return Diphthong.from_sounds(s1+s2, s1, s2, self)
                     else:
@@ -175,11 +157,11 @@ class TranscriptionSystem(object):
                     # try to generate the sounds if they are not there
                     s1, s2 = self._from_name(from_+' '+extension), self._from_name(
                             to_+' '+extension)
-                    if not 'unknownsound' in (s1.type, s2.type):
+                    if not isinstance(s1, UnknownSound) and not isinstance(s2, UnknownSound):
                         if sound_class == 'diphthong':
-                            return Diphthong.from_sounds(s1+s2, s1, s2, self)
+                            return Diphthong.from_sounds(s1 + s2, s1, s2, self)
                         else:
-                            return Cluster.from_sounds(s1+s2, s1, s2, self)
+                            return Cluster.from_sounds(s1 + s2, s1, s2, self)
                     raise ValueError('components could not be found in system')
             else:
                 raise ValueError('name string is erroneously encoded')
@@ -193,10 +175,10 @@ class TranscriptionSystem(object):
         args['grapheme'] = ''
         args['ts'] = self
         sound = self.sound_classes[sound_class](**args)
-        if sound.featureset not in self._features:
+        if sound.featureset not in self.features:
             sound.generated = True
             return sound
-        return self._features[sound.featureset]
+        return self.features[sound.featureset]
 
     def _parse(self, string):
         """Parse a string and return its features.
@@ -213,8 +195,8 @@ class TranscriptionSystem(object):
         nstring = self._norm(string)
 
         # check whether sound is in self.sounds
-        if nstring in self._sounds:
-            sound = self._sounds[nstring]
+        if nstring in self.sounds:
+            sound = self.sounds[nstring]
             sound.normalized = nstring != string
             sound.source = string
             return sound
@@ -244,7 +226,7 @@ class TranscriptionSystem(object):
             return UnknownSound(grapheme=nstring, source=string, ts=self)
 
         pre, mid, post = nstring.partition(nstring[match[0].start():match[0].end()])
-        base_sound = self._sounds[mid]
+        base_sound = self.sounds[mid]
 
         # A base sound with diacritics or a custom symbol.
         features = attr.asdict(base_sound)
@@ -266,7 +248,7 @@ class TranscriptionSystem(object):
             # we add the unaliased version to the grapheme
             grapheme += dia[0]
             # we add the corrected version (if this is needed) to the sound
-            sound += self._features[base_sound.type][feature][0]
+            sound += self.features[base_sound.type][feature][0]
         # add the base sound
         grapheme += base_sound.grapheme
         sound += base_sound.s
@@ -278,7 +260,7 @@ class TranscriptionSystem(object):
                 return UnknownSound(grapheme=nstring, source=string, ts=self)
             features[self._feature_values[feature]] = feature
             grapheme += dia[1]
-            sound += self._features[base_sound.type][feature][1]
+            sound += self.features[base_sound.type][feature][1]
 
         features['grapheme'] = sound
         new_sound = self.sound_classes[base_sound.type](**features)
@@ -290,9 +272,9 @@ class TranscriptionSystem(object):
             new_sound.grapheme = grapheme
         return new_sound
 
-    def __getitem__(self, string):
+    def resolve_sound(self, string):
         if isinstance(string, Sound):
-            return self._features[string.featureset]
+            return self.features[string.featureset]
         if set(string.split(' ')).intersection(set(list(self.sound_classes)+['diphthong',
                 'cluster'])) :
             return self._from_name(string)
@@ -301,24 +283,8 @@ class TranscriptionSystem(object):
 
     def __contains__(self, item):
         if isinstance(item, Sound):
-            return item.featureset in self._features
-        return item in self._sounds
+            return item.featureset in self.features
+        return item in self.sounds
 
     def __iter__(self):
-        return iter(self._sounds)
-
-    def items(self):
-        return iter(self._sounds.items())
-
-    def get(self, string, default=None):
-        """Similar to the get method for dictionaries."""
-        out = self[string]
-        if out.type == 'unknownsound':
-            return default
-        return out
-
-    def __call__(self, string, text=False):
-        res = [
-            self.get(s)
-            for s in (string.split(' ') if isinstance(string, text_type) else string)]
-        return ' '.join('{0}'.format(s) for s in res) if text else res
+        return iter(self.sounds)

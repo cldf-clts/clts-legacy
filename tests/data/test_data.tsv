@@ -85,7 +85,7 @@ n̪	consonant	n̪	n̪						voiced dental nasal consonant	U+006e U+032a
 n̪ː	consonant	n̪ː	n̪ː				+		long voiced dental nasal consonant	U+006e U+032a U+02d0
 p	consonant	p	p						voiceless bilabial stop consonant	U+0070
 pf	consonant	pf	pf						voiceless labio-dental affricate consonant	U+0070 U+0066
-pfʰ	consonant	pfʰ	pfʰ				+		aspirated voiceless labio-dental affricate consonant	U+0070 U+0066 U+02b0
+pfʰ	consonant	pfʰ	pfʰ						aspirated voiceless labio-dental affricate consonant	U+0070 U+0066 U+02b0
 pʰ	consonant	pʰ	pʰ						aspirated voiceless bilabial stop consonant	U+0070 U+02b0
 pʼ	consonant	pʼ	pʼ						voiceless bilabial ejective stop consonant	U+0070 U+02bc
 pː	consonant	pː	pː						long voiceless bilabial stop consonant	U+0070 U+02d0
@@ -95,7 +95,7 @@ qʱ	consonant	qʱ	qʱ				+		breathy voiceless uvular stop consonant	U+0071 U+02b
 qː	consonant	qː	qː				+		long voiceless uvular stop consonant	U+0071 U+02d0
 r	consonant	r	r						voiced alveolar trill consonant	U+0072
 rʰ	consonant	rʰ	rʰ				+		aspirated voiced alveolar trill consonant	U+0072 U+02b0
-rʲ	consonant	rʲ	rʲ				+		palatalized voiced alveolar trill consonant	U+0072 U+02b2
+rʲ	consonant	rʲ	rʲ						palatalized voiced alveolar trill consonant	U+0072 U+02b2
 rː	consonant	rː	rː						long voiced alveolar trill consonant	U+0072 U+02d0
 r̥	consonant	r̥	r̥						devoiced voiced alveolar trill consonant	U+0072 U+0325
 s	consonant	s	s						voiceless alveolar sibilant fricative consonant	U+0073
@@ -179,7 +179,7 @@ Ḏ/ð	consonant	ð	ð		+				voiced dental fricative consonant	U+00f0
 ɹ	consonant	ɹ	ɹ						voiced alveolar approximant consonant	U+0279
 ɺ	consonant	ɺ	ɺ						voiced alveolar lateral tap consonant	U+027a
 ɽ	consonant	ɽ	ɽ						voiced retroflex tap consonant	U+027d
-ɾ	consonant	ɾ	ɾ						devoiced voiced alveolar tap consonant	U+027e
+ɾ	consonant	ɾ	ɾ						voiced alveolar tap consonant	U+027e
 ʀ	consonant	ʀ	ʀ						voiced uvular trill consonant	U+0280
 ʁ	consonant	ʁ	ʁ						voiced uvular fricative consonant	U+0281
 ʂ	consonant	ʂ	ʂ						voiceless retroflex sibilant fricative consonant	U+0282

@@ -19,16 +19,17 @@ def dump():
     """Command writes data to different files for re-use across web-applications.
     """
     tts = TranscriptionSystem('bipa')
-    phoible, color, sca, dolgo, asjp, ruhlen, pbase, eurasian, lapsyd = [
+    phoible, color, sca, dolgo, asjp, ruhlen, pbase, eurasian, lapsyd, diachronica, multimedia = [
             TranscriptionData(x) for x in ['phoible', 'color', 'sca', 'dolgo',
                 'asjp', 'ruhlen',
-            'pbase', 'eurasian', 'lapsyd']]
+            'pbase', 'eurasian', 'lapsyd', 'diachronica', 'multimedia']]
 
     # retrieve all sounds in the datasets
     to_dump, digling = {}, {}
     all_sounds = {}
     bads = 0
-    for td in [phoible, ruhlen, pbase, eurasian, lapsyd]:
+    for td in [phoible, ruhlen, pbase, eurasian, lapsyd, diachronica,
+            multimedia]:
         for sound in td.data:
             if ' ' in sound:
                 snd = tts[sound]

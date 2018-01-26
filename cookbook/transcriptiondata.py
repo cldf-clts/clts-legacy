@@ -23,6 +23,31 @@ def loadmeta(data):
         print('file <{0}> has been successfully written ({1} lines)'.format(filename,
             len(out)))
 
+    if data == 'beijingdaxue':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'bjdx.tsv'), delimiter='\t') as uni:
+            for line in uni:
+                glyph = line[0].strip()
+                bps = line[1].strip()
+                sound = bipa[bps]
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(bps)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(bps)) == len(bipa._norm(sound.s))):                    
+                        out += [[sound.name, sound.s, glyph]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+
+        write_transcriptiondata(out, 'beijingdaxue.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
     if data == 'nidaba':
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME', 'LATEX', 'FEATURES']]
         all_lines = 0
@@ -51,9 +76,34 @@ def loadmeta(data):
                 all_lines += 1
         write_transcriptiondata(out, 'nidaba.tsv')
         print('{0:.2f} covered'.format(len(out) / all_lines))
+    
+    if data == 'diachronica':
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'GRAPHEME', 'URL']]
+        all_lines = 0
+        with UnicodeReader(pkg_path('sources', 'diachronica.tsv'), delimiter='\t') as uni:
+            for line in uni:
+                glyph = line[0]
+                sound = bipa[glyph]
+                if sound.type not in ['unknownsound', 'marker'] and not (
+                            sound.generated and
+                            frozenset(bipa._norm(glyph)) !=
+                            frozenset(bipa._norm(sound.s))) and (
+                                    len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):                    
+                        out += [[sound.name, sound.s, glyph, line[1]]]
+                else:
+                    if sound.type == 'unknownsound':
+                        print(sound)
+                    else:
+                        if not sound.type in ['cluster', 'diphthong', 'marker']:
+                            tbl = sound.table
+                            print('\t'.join(tbl))
+                all_lines += 1
+        write_transcriptiondata(out, 'diachronica.tsv')
+        print('{0:.2f} covered'.format(len(out) / all_lines))
+
 
     if data == 'phoible':
-        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'ID', 'GRAPHEME']]
+        out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL', 'GRAPHEME']]
         all_lines = 0
         with UnicodeReader(pkg_path('sources', 'Parameters.csv')) as uni:
             for line in uni:
@@ -65,7 +115,8 @@ def loadmeta(data):
                             frozenset(bipa._norm(glyph)) !=
                             frozenset(bipa._norm(sound.s))) and (
                                     len(bipa._norm(glyph)) == len(bipa._norm(sound.s))):
-                    out += [[sound.name, sound.s, url, glyph]]
+                                out += [[sound.name, sound.s,
+                                'http://phoible.org/parameters/'+url, glyph]]
                 else:
                     if sound.type == 'unknownsound':
                         print(sound)
@@ -207,7 +258,7 @@ def loadmeta(data):
         from lingpy.sequence.sound_classes import token2class
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'CV_CLASS', 'PROSODY_CLASS', 'SCA_CLASS',
                 'DOLGOPOLSKY_CLASS', 'ASJP_CLASS', 'COLOR_CLASS']]
-        for glyph, sound in bipa._sounds.items():
+        for glyph, sound in bipa.sounds.items():
             if not sound.alias:
                 out += [[sound.name, str(sound)] + [token2class(glyph, m) for m
                          in ['cv', 'art', 'sca', 'dolgo', 'asjp', '_color']]]
@@ -218,7 +269,7 @@ def loadmeta(data):
         import urllib.request, urllib.error, urllib.parse
         out = [['CLTS_NAME', 'BIPA_GRAPHEME', 'URL']]
         wiki = 'https://en.wikipedia.org/wiki/'
-        for glyph, sound in bipa._sounds.items():
+        for glyph, sound in bipa.sounds.items():
             if not sound.alias and not sound.type in ['marker', 'diphthong']:
                 if not sound.type == 'click':
                     url1 = wiki + '_'.join(sound.name.split(' ')[:-1])
@@ -254,5 +305,5 @@ if __name__ == '__main__':
 
     if 'all' in argv:
         for itm in ['pbase', 'lingpy', 'phoible', 'eurasian', 'ruhlen',
-                'phoible', 'nidaba']:
+                'phoible', 'nidaba', 'multimedia', 'diachronica']:
             loadmeta(itm)
