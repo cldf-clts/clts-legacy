@@ -34,6 +34,8 @@ tsʲ	voiceless	alveolar	affricate		palatalization:palatalized,sibilancy:sibilant
 ɹ	voiced	alveolar	approximant			
 ɹ̩	voiced	alveolar	approximant		syllabicity:syllabic	
 l	voiced	alveolar	approximant		laterality:lateral	
+ɫ	voiced	alveolar	approximant	+	laterality:lateral,velarization:velarized	We discourage to use this alias for regularity's sake.
+lˠ	voiced	alveolar	approximant		laterality:lateral,velarization:velarized	
 lː	voiced	alveolar	approximant		duration:long,laterality:lateral	
 lʲ	voiced	alveolar	approximant		palatalization:palatalized,laterality:lateral	
 ḷ	voiced	alveolar	approximant	+	syllabicity:syllabic,laterality:lateral	
@@ -91,6 +93,7 @@ tʷ	voiceless	alveolar	stop		labialization:labialized
 tʰʷ	voiceless	alveolar	stop	+	labialization:labialized,aspiration:aspirated	
 tʷʰ	voiceless	alveolar	stop		labialization:labialized,aspiration:aspirated	
 tʲ	voiceless	alveolar	stop		palatalization:palatalized	
+ƫ	voiceless	alveolar	stop	+	palatalization:palatalized	Common alias in some older versions of IPA.
 tʰʲ	voiceless	alveolar	stop		palatalization:palatalized,aspiration:aspirated	
 tˤ	voiceless	alveolar	stop		pharyngealization:pharyngealized	
 ʰt	voiceless	alveolar	stop		preceding:pre-aspirated	
@@ -411,6 +414,7 @@ j̥	voiced	palatal	approximant	+	voicing:devoiced
 ʕ	voiced	pharyngeal	fricative			
 ħ	voiceless	pharyngeal	fricative			
 ᶋ	voiceless	post-alveolar	fricative	+	palatalization:palatalized,sibilancy:sibilant	IPA extensions supplement
+ʆ	voiceless	post-alveolar	fricative	+	palatalization:palatalized,sibilancy:sibilant	Obsolete IPA character.
 ʃʲ	voiceless	post-alveolar	fricative		palatalization:palatalized,sibilancy:sibilant	
 dʒʱ	voiced	post-alveolar	affricate		breathiness:breathy,sibilancy:sibilant	
 d̤ʒ	voiced	post-alveolar	affricate	+	breathiness:breathy,sibilancy:sibilant	

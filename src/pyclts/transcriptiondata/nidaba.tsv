@@ -93,7 +93,7 @@ r	voiced alveolar trill consonant			r		r	alveolar:liquid:+voice −lateral
 ɹ̠	voiced post-alveolar approximant consonant			ɹ̠		\textsubbar{\textturnr}	alveolar:liquid:+voice −lateral				
 l	voiced alveolar lateral approximant consonant			l		l	alveolar:liquid:+voice +lateral				
 l̠	voiced post-alveolar lateral approximant consonant			l̠		\textsubbar{l}	alveolar:liquid:+voice +lateral				
-<NA>	<NA>			ɫ		\textltilde	alveolar:liquid:+voice +lateral				
+lˠ	velarized voiced alveolar lateral approximant consonant			ɫ		\textltilde	alveolar:liquid:+voice +lateral				
 n	voiced alveolar nasal consonant			n		n	alveolar:nasal:+voice +nasal				
 <NA>	<NA>			n̠		\textipa{\=*n}	alveolar:nasal:+voice +nasal				
 ʃ	voiceless post-alveolar sibilant fricative consonant			ʃ		\textipa{S}	palatoalveolar:fricative:−voice				
@@ -290,7 +290,7 @@ r̥	devoiced voiced alveolar trill consonant			r̥		*r	alveolar:liquid:−voice 
 ɾ̥	devoiced voiced alveolar tap consonant			ɾ̥		*\textfishhookr	alveolar:liquid:−voice −lateral				
 ɹ̥	devoiced voiced alveolar approximant consonant	+		ɹ̥		*\textturnr	alveolar:liquid:−voice −lateral				
 l̥	devoiced voiced alveolar lateral approximant consonant			l̥		*l	alveolar:liquid:−voice +lateral				
-<NA>	<NA>			ɫ̥		*\textltilde	alveolar:liquid:−voice +lateral				
+l̥ˠ	velarized devoiced voiced alveolar lateral approximant consonant	+		ɫ̥		*\textltilde	alveolar:liquid:−voice +lateral				
 n̥	devoiced voiced alveolar nasal consonant			n̥		*n	alveolar:nasal:−voice +nasal				
 ɽ̥	devoiced voiced retroflex tap consonant	+		ɽ̥		*\textrtailr	retroflex:liquid:−voice −lateral				
 ɻ̥	devoiced voiced retroflex approximant consonant	+		ɻ̥		*\textturnrrtail	retroflex:liquid:−voice −lateral				
@@ -448,7 +448,7 @@ r̩	syllabic voiced alveolar trill consonant			r̩		\textipa{\s{r}}	alveolar:liq
 ɾ̩	syllabic voiced alveolar tap consonant	+		ɾ̩		\textipa{\s{\textfishhookr}}	alveolar:liquid:+voice −lateral +syllabic				
 ɹ̩	syllabic voiced alveolar approximant consonant			ɹ̩		\textipa{\s{\textturnr}}	alveolar:liquid:+voice −lateral +syllabic				
 l̩	syllabic voiced alveolar lateral approximant consonant			l̩		\textsyllabic{l}	alveolar:liquid:+voice +lateral +syllabic				
-<NA>	<NA>			ɫ̩		\textsyllabic{\textltilde}	alveolar:liquid:+voice +lateral +syllabic				
+l̩ˠ	syllabic velarized voiced alveolar lateral approximant consonant	+		ɫ̩		\textsyllabic{\textltilde}	alveolar:liquid:+voice +lateral +syllabic				
 n̩	syllabic voiced alveolar nasal consonant			n̩		\textsyllabic{n}	alveolar:nasal:+voice +nasal +syllabic				
 ʃ̩	syllabic voiceless post-alveolar sibilant fricative consonant	+		ʃ̩		\textipa{\sS}	palatoalveolar:fricative:−voice +syllabic				
 ʒ̍	syllabic voiced post-alveolar sibilant fricative consonant			ʒ̩		\textipa{\s{\textyogh}}	palatoalveolar:fricative:+voice +syllabic				
@@ -494,7 +494,7 @@ r̩̥	syllabic devoiced voiced alveolar trill consonant	+		r̥̩		\textipa{\s{ *
 ɾ̩̥	syllabic devoiced voiced alveolar tap consonant	+		ɾ̥̩		\textipa{\s{ *\textfishhookr}}	alveolar:liquid:−voice −lateral +syllabic				
 ɹ̩̥	syllabic devoiced voiced alveolar approximant consonant	+		ɹ̥̩		\textipa{\s{ *\textturnr}}	alveolar:liquid:−voice −lateral +syllabic				
 l̩̥	syllabic devoiced voiced alveolar lateral approximant consonant	+		l̥̩		\textipa{\s{ *l}}	alveolar:liquid:−voice +lateral +syllabic				
-<NA>	<NA>			ɫ̥̩		\textipa{\s{ *\textltilde}}	alveolar:liquid:−voice +lateral +syllabic				
+l̩̥ˠ	syllabic velarized devoiced voiced alveolar lateral approximant consonant	+		ɫ̥̩		\textipa{\s{ *\textltilde}}	alveolar:liquid:−voice +lateral +syllabic				
 n̩̥	syllabic devoiced voiced alveolar nasal consonant	+		n̥̩		\textipa{\s{ *n}}	alveolar:nasal:−voice +nasal +syllabic				
 ɽ̩̥	syllabic devoiced voiced retroflex tap consonant	+		ɽ̥̩		\textipa{\s{ *\textrtailr}}	retroflex:liquid:−voice −lateral +syllabic				
 ɻ̩̥	syllabic devoiced voiced retroflex approximant consonant	+		ɻ̥̩		\textipa{\s{ *\textturnrrtail}}	retroflex:liquid:−voice −lateral +syllabic				
@@ -531,7 +531,7 @@ rʲ	palatalized voiced alveolar trill consonant			rʲ		r\super j	alveolar, palat
 ɾʲ	palatalized voiced alveolar tap consonant	+		ɾʲ		\textfishhookr\super j	alveolar, palatal:liquid:+voice −lateral				
 ɹʲ	palatalized voiced alveolar approximant consonant	+		ɹʲ		\textturnr\super j	alveolar, palatal:liquid:+voice −lateral				
 lʲ	palatalized voiced alveolar lateral approximant consonant			lʲ		l\super j	alveolar, palatal:liquid:+voice +lateral				
-<NA>	<NA>			ɫʲ		\textltilde\super j	alveolar, palatal:liquid:+voice +lateral				
+lʲˠ	palatalized velarized voiced alveolar lateral approximant consonant	+		ɫʲ		\textltilde\super j	alveolar, palatal:liquid:+voice +lateral				
 nʲ	palatalized voiced alveolar nasal consonant			nʲ		n\super j	alveolar, palatal:nasal:+voice +nasal				
 ʃʲ	palatalized voiceless post-alveolar sibilant fricative consonant			ʃʲ		\textipa{S}\super j	palatoalveolar, palatal:fricative:−voice				
 ʒʲ	palatalized voiced post-alveolar sibilant fricative consonant	+		ʒʲ		\textyogh\super j	palatoalveolar, palatal:fricative:+voice				
@@ -577,7 +577,7 @@ r̥ʲ	palatalized devoiced voiced alveolar trill consonant	+		r̥ʲ		*r\super j	
 ɾ̥ʲ	palatalized devoiced voiced alveolar tap consonant	+		ɾ̥ʲ		*\textfishhookr\super j	alveolar, palatal:liquid:−voice −lateral				
 ɹ̥ʲ	palatalized devoiced voiced alveolar approximant consonant	+		ɹ̥ʲ		*\textturnr\super j	alveolar, palatal:liquid:−voice −lateral				
 l̥ʲ	palatalized devoiced voiced alveolar lateral approximant consonant	+		l̥ʲ		*l\super j	alveolar, palatal:liquid:−voice +lateral				
-<NA>	<NA>			ɫ̥ʲ		*\textltilde\super j	alveolar, palatal:liquid:−voice +lateral				
+l̥ʲˠ	palatalized velarized devoiced voiced alveolar lateral approximant consonant	+		ɫ̥ʲ		*\textltilde\super j	alveolar, palatal:liquid:−voice +lateral				
 n̥ʲ	palatalized devoiced voiced alveolar nasal consonant	+		n̥ʲ		*n\super j	alveolar, palatal:nasal:−voice +nasal				
 ɽ̥ʲ	palatalized devoiced voiced retroflex tap consonant	+		ɽ̥ʲ		*\textrtailr\super j	retroflex, palatal:liquid:−voice −lateral				
 ɻ̥ʲ	palatalized devoiced voiced retroflex approximant consonant	+		ɻ̥ʲ		*\textturnrrtail\super j	retroflex, palatal:liquid:−voice −lateral				
