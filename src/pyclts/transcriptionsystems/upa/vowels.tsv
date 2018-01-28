@@ -12,6 +12,7 @@ e	unrounded	close-mid	front
 ē	unrounded	close-mid	front		duration:long	
 e̯	unrounded	close-mid	front		syllabicity:non-syllabic	
 i	unrounded	close	front			
+ᴉ	unrounded	near-close	near-front		
 ĭ	unrounded	close	front		duration:mid-long	
 ī	unrounded	close	front		duration:long	
 i̯	unrounded	close	front		syllabicity:non-syllabic	
@@ -26,6 +27,7 @@ o̯	rounded	close-mid	back		syllabicity:non-syllabic
 u	rounded	close	back			
 ŭ	rounded	close	back		duration:mid-long	
 ü	rounded	close	front			
+ᴞ	rounded	near-close	near-front		
 ū	rounded	close	back		duration:long	
 u̯	rounded	close	back		syllabicity:non-syllabic	
 y̆	rounded	close	front		duration:mid-long	
