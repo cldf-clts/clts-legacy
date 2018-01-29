@@ -60,7 +60,7 @@ class TranscriptionBase(object):
 
     def translate(self, string, target_system):
         return ' '.join(
-            '{0}'.format(target_system.get(self[s], '?')) for s in string.split())
+            '{0}'.format(target_system.get(self[s].name or '?', '?')) for s in string.split())
 
 
 @attr.s(cmp=False)
