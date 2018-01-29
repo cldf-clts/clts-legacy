@@ -340,7 +340,7 @@ tɬ̪ʼ	voiceless dental ejective lateral affricate consonant			t̪ɬ̪ʼ	http:/
 ɛ̤	breathy unrounded open-mid front vowel	+		ɛ̤	http://phoible.org/parameters/C117BAFE1B6E84BD415D0A5650EACCC4		0:-:+:-:-:-:+:+:0:+:-:-:-:-:-:0:0:-:0:0:0:+:-:-:+:-:-:-:-:+:-:+:-:0:-:-:0			2155	
 ɱf	from voiced labio-dental nasal to voiceless labio-dental fricative cluster	+		ɱf	http://phoible.org/parameters/A8DF5DEC65F0B364A2F94B522E976B58		0:-:-:-:-:+:+,-:-,+:+:-:-:-:+,-:-:+:-:+:-:0:0:0:-:0:0:0:0:0:0:0:+,-:-:-:-:-:-:-:-			2155	
 t̰	creaky voiceless alveolar stop consonant	+		t̰	http://phoible.org/parameters/641796D23D5C33828E2EA3666E9DBD89		0:-:-:-:-:+:-:-:-:-:-:-:-:-:-:0:0:+:+:-:-:-:0:0:0:0:0:0:0:-:-:-:+:-:-:-:-			2155	
-lˠ	velarized voiced alveolar lateral approximant consonant	+		lˠ	http://phoible.org/parameters/0D5532C7D78A47723C3DCBA529FD22B6		0:-:-:-:-:+:+:+:0:+:-:-:-:+:-:0:0:+:+:-:-:+:+:-:-:+:0:0:0:+:-:-:-:-:-:-:-			2155	
+lˠ	velarized voiced alveolar lateral approximant consonant			lˠ	http://phoible.org/parameters/0D5532C7D78A47723C3DCBA529FD22B6		0:-:-:-:-:+:+:+:0:+:-:-:-:+:-:0:0:+:+:-:-:+:+:-:-:+:0:0:0:+:-:-:-:-:-:-:-			2155	
 ə̆	ultra-short unrounded mid central vowel			ə̆	http://phoible.org/parameters/983ADF6F0E3D956C103BE19FB490FF5C		0:-:+:+:-:-:+:+:0:+:-:-:-:-:-:0:0:-:0:0:0:+:-:-:-:-:-:-:-:+:-:-:-:0:-:-:0			2155	
 ˀm	pre-glottalized voiced bilabial nasal consonant	+		ˀm	http://phoible.org/parameters/BA640BECA114188D583D6BE46A93283F		0:-:-:-:-:+:+:-:0:-:-:-:+:-:+:-:-:-:0:0:0:-:0:0:0:0:0:0:0:+:-:-:+:-:-:-:-			2155	
 ˀj	pre-glottalized voiced palatal approximant consonant	+		ˀj	http://phoible.org/parameters/9FBC0DCDD27008A35254FDBE10148877		0:-:-:-:-:-:+:+:0:+:-:-:-:-:-:0:0:-:0:0:0:+:+:-:+:-:+:0:0:+:-:-:+:-:-:-:-			2155	
@@ -1576,7 +1576,7 @@ iɛː	from unrounded close front to long unrounded open-mid front diphthong	+		i
 ⁴⁵⁴	contour from-mid-high via-high to-mid-high tone			˦˥˦	http://phoible.org/parameters/FC7911F58CB856E42EF89AF8E1F989F8		+:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0			2155	
 tɬ̰	creaky voiceless alveolar lateral affricate consonant	+		tɬ̰	http://phoible.org/parameters/3B95EC115181C23D1DE4A5ACD5932FBA		0:-:-:-:-:+:-:-:+:-:-:-:-:+:-:0:0:+:+:-:-:-:0:0:0:0:0:0:0:-:-:-:+:-:-:-:-			2155	
 ʉi	from rounded close central to unrounded close front diphthong	+		ʉi	http://phoible.org/parameters/9E571FF69AFA117AAB767B47A8F50E07		0:-:+:-:-:-:+:+:0:+:-:-:-:-:+,-:+:-:-:0:0:0:+:+:-:-,+:-:+:-:-:+:-:-:-:0:-:-:0			2155	
-<NA>	<NA>			ɫ	http://phoible.org/parameters/D926DA3DF32136EB5051F2749BFA976F		0:-:-:-:-:+:+:+:0:+:-:-:-:+:-:0:0:+:+:-:-:+:-:-:-:+:0:0:0:+:-:-:-:-:-:-:-			2155	
+lˠ	velarized voiced alveolar lateral approximant consonant			ɫ	http://phoible.org/parameters/D926DA3DF32136EB5051F2749BFA976F		0:-:-:-:-:+:+:+:0:+:-:-:-:+:-:0:0:+:+:-:-:+:-:-:-:+:0:0:0:+:-:-:-:-:-:-:-			2155	
 ɨ̥	devoiced unrounded close central vowel	+		ɨ̥	http://phoible.org/parameters/A091D5BE5E94E04BB5D325F3B4D1C13D		0:-:+:-:-:-:+:+:0:+:-:-:-:-:-:0:0:-:0:0:0:+:+:-:-:-:+:-:-:-:-:+:-:0:-:-:0			2155	
 ɛ̰̃	nasalized creaky unrounded open-mid front vowel	+		ɛ̰̃	http://phoible.org/parameters/AEDB7F2F9C5415DE8A96F80CCF03BC89		0:-:+:-:-:-:+:+:0:+:-:-:+:-:-:0:0:-:0:0:0:+:-:-:+:-:-:-:-:+:-:-:+:0:-:-:0			2155	
 ˀl̪̥	pre-glottalized devoiced voiced dental lateral approximant consonant	+		ˀl̪̥	http://phoible.org/parameters/80DC02254E75DB621FED2FFB8BD2B11B		0:-:-:-:-:+:+:+:0:+:-:-:-:+:-:0:0:+:+:+:-:-:0:0:0:0:0:0:0:-:-:+:-:-:-:-:-			2155	
