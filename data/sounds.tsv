@@ -446,6 +446,7 @@ velarized voiced palatal implosive consonant	consonant	ʄˠ	LATIN SMALL LETTER D
 velarized voiced palatal fricative consonant	consonant	ʝˠ	LATIN SMALL LETTER J WITH CROSSED-TAIL / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced palatal approximant consonant	consonant	jˠ	LATIN SMALL LETTER J / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced palatal affricate consonant	consonant	ɟʝˠ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL / MODIFIER LETTER SMALL GAMMA	+	
+velarized voiced laminal alveolar lateral approximant consonant	consonant	l̻ˠ	LATIN SMALL LETTER L / COMBINING SQUARE BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced labio-dental nasal consonant	consonant	ɱˠ	LATIN SMALL LETTER M WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced labio-dental fricative consonant	consonant	vˠ	LATIN SMALL LETTER V / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced labio-dental approximant consonant	consonant	ʋˠ	LATIN SMALL LETTER V WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
@@ -469,6 +470,7 @@ velarized voiced bilabial implosive consonant	consonant	ɓˠ	LATIN SMALL LETTER 
 velarized voiced bilabial fricative consonant	consonant	βˠ	GREEK SMALL LETTER BETA / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced bilabial approximant consonant	consonant	β̞ˠ	GREEK SMALL LETTER BETA / COMBINING DOWN TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced bilabial affricate consonant	consonant	bβˠ	LATIN SMALL LETTER B / GREEK SMALL LETTER BETA / MODIFIER LETTER SMALL GAMMA	+	
+velarized voiced apical alveolar lateral approximant consonant	consonant	l̺ˠ	LATIN SMALL LETTER L / COMBINING INVERTED BRIDGE BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolo-palatal sibilant fricative consonant	consonant	ʑˠ	LATIN SMALL LETTER Z WITH CURL / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolo-palatal sibilant affricate consonant	consonant	dʑˠ	LATIN SMALL LETTER D / LATIN SMALL LETTER Z WITH CURL / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolar trill consonant	consonant	rˠ	LATIN SMALL LETTER R / MODIFIER LETTER SMALL GAMMA	+	
@@ -479,7 +481,7 @@ velarized voiced alveolar sibilant affricate consonant	consonant	dzˠ	LATIN SMAL
 velarized voiced alveolar nasal consonant	consonant	nˠ	LATIN SMALL LETTER N / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolar lateral tap consonant	consonant	ɺˠ	LATIN SMALL LETTER TURNED R WITH LONG LEG / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolar lateral fricative consonant	consonant	ɮˠ	LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL GAMMA	+	
-velarized voiced alveolar lateral approximant consonant	consonant	lˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA	+	
+velarized voiced alveolar lateral approximant consonant	consonant	lˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA		
 velarized voiced alveolar lateral affricate consonant	consonant	dɮˠ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL GAMMA	+	
 velarized voiced alveolar approximant consonant	consonant	ɹˠ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL GAMMA	+	
 velarized unrounded open-mid front vowel	vowel	ɛˠ	LATIN SMALL LETTER OPEN E / MODIFIER LETTER SMALL GAMMA	+	
@@ -531,6 +533,11 @@ velarized retracted-tongue-root rounded close-mid central vowel	vowel	ɵ̙ˠ	LAT
 velarized retracted-tongue-root rounded close-mid back vowel	vowel	o̙ˠ	LATIN SMALL LETTER O / COMBINING RIGHT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized retracted-tongue-root rounded close front vowel	vowel	y̙ˠ	LATIN SMALL LETTER Y / COMBINING RIGHT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized retracted-tongue-root rounded close central vowel	vowel	ʉ̙ˠ	LATIN SMALL LETTER U BAR / COMBINING RIGHT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
+velarized pharyngealized voiced alveolar lateral approximant consonant	consonant	lˠˤ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+velarized pharyngealized long voiced alveolar lateral approximant consonant	consonant	lˠˤː	LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
+velarized pharyngealized devoiced voiced alveolar lateral approximant consonant	consonant	l̥ˠˤ	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+velarized pharyngealized creaky voiced alveolar lateral approximant consonant	consonant	l̰ˠˤ	LATIN SMALL LETTER L / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+velarized pharyngealized breathy voiced alveolar lateral approximant consonant	consonant	lʱˠˤ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 velarized long voiceless velar stop consonant	consonant	kˠː	LATIN SMALL LETTER K / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 velarized long voiceless velar fricative consonant	consonant	xˠː	LATIN SMALL LETTER X / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 velarized long voiceless velar affricate consonant	consonant	kxˠː	LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -637,6 +644,9 @@ velarized long voiced alveolar lateral fricative consonant	consonant	ɮˠː	LATI
 velarized long voiced alveolar lateral approximant consonant	consonant	lˠː	LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 velarized long voiced alveolar lateral affricate consonant	consonant	dɮˠː	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 velarized long voiced alveolar approximant consonant	consonant	ɹˠː	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+velarized long devoiced voiced alveolar lateral approximant consonant	consonant	l̥ˠː	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+velarized long creaky voiced alveolar lateral approximant consonant	consonant	l̰ˠː	LATIN SMALL LETTER L / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+velarized long breathy voiced alveolar lateral approximant consonant	consonant	lʱˠː	LATIN SMALL LETTER L / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 velarized devoiced voiced velar nasal consonant	consonant	ŋ̥ˠ	LATIN SMALL LETTER ENG / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized devoiced voiced velar lateral approximant consonant	consonant	ʟ̥ˠ	LATIN LETTER SMALL CAPITAL L / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized devoiced voiced velar approximant consonant	consonant	ɰ̥ˠ	LATIN SMALL LETTER TURNED M WITH LONG LEG / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
@@ -689,6 +699,7 @@ velarized devoiced rounded close-mid central vowel	vowel	ɵ̥ˠ	LATIN SMALL LETT
 velarized devoiced rounded close-mid back vowel	vowel	o̥ˠ	LATIN SMALL LETTER O / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized devoiced rounded close front vowel	vowel	y̥ˠ	LATIN SMALL LETTER Y / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized devoiced rounded close central vowel	vowel	ʉ̥ˠ	LATIN SMALL LETTER U BAR / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
+velarized devoiced breathy voiced alveolar lateral approximant consonant	consonant	l̥ʱˠ	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
 velarized creaky voiced velar stop consonant	consonant	g̰ˠ	LATIN SMALL LETTER G / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized creaky voiced velar nasal consonant	consonant	ŋ̰ˠ	LATIN SMALL LETTER ENG / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized creaky voiced velar lateral approximant consonant	consonant	ʟ̰ˠ	LATIN LETTER SMALL CAPITAL L / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA	+	
@@ -963,9 +974,20 @@ ultra-short rounded close-mid back vowel	vowel	ŏ	LATIN SMALL LETTER O / COMBIN
 ultra-short rounded close front vowel	vowel	y̆	LATIN SMALL LETTER Y / COMBINING BREVE	+	
 ultra-short rounded close central vowel	vowel	ʉ̆	LATIN SMALL LETTER U BAR / COMBINING BREVE	+	
 ultra-short rounded close back vowel	vowel	ŭ	LATIN SMALL LETTER U / COMBINING BREVE	+	
+ultra-short raised unrounded near-open front vowel	vowel	æ̝̆	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING BREVE	+	
+ultra-short raised unrounded near-close near-front vowel	vowel	ɪ̝̆	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING BREVE	+	
+ultra-short raised rounded close back vowel	vowel	ŭ̝	LATIN SMALL LETTER U / COMBINING UP TACK BELOW / COMBINING BREVE	+	
 ultra-short nasalized unrounded open-mid front vowel	vowel	ɛ̃̆	LATIN SMALL LETTER OPEN E / COMBINING TILDE / COMBINING BREVE	+	
+ultra-short nasalized unrounded mid central vowel	vowel	ə̃̆	LATIN SMALL LETTER SCHWA / COMBINING TILDE / COMBINING BREVE	+	
+ultra-short nasalized unrounded close front vowel	vowel	ĩ̆	LATIN SMALL LETTER I / COMBINING TILDE / COMBINING BREVE	+	
+ultra-short more-rounded rounded close back vowel	vowel	ŭ̹	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW / COMBINING BREVE	+	
+ultra-short lowered unrounded open-mid front vowel	vowel	ɛ̞̆	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
+ultra-short lowered unrounded near-close near-front vowel	vowel	ɪ̞̆	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
 ultra-short lowered unrounded mid central vowel	vowel	ə̞̆	LATIN SMALL LETTER SCHWA / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
 ultra-short lowered unrounded close back vowel	vowel	ɯ̞̆	LATIN SMALL LETTER TURNED M / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
+ultra-short lowered rounded open-mid back vowel	vowel	ɔ̞̆	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
+ultra-short lowered rounded close back vowel	vowel	ŭ̞	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
+ultra-short less-rounded rounded close back vowel	vowel	ŭ̜	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / COMBINING BREVE	+	
 ultra-short advanced unrounded mid central vowel	vowel	ə̟̆	LATIN SMALL LETTER SCHWA / COMBINING PLUS SIGN BELOW / COMBINING BREVE	+	
 ultra-long unrounded open-mid front vowel	vowel	ɛːː	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / MODIFIER LETTER TRIANGULAR COLON		
 ultra-long unrounded near-open front vowel	vowel	æːː	LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON / MODIFIER LETTER TRIANGULAR COLON		
@@ -1051,6 +1073,9 @@ syllabic voiced alveolar lateral tap consonant	consonant	ɺ̩	LATIN SMALL LETTER
 syllabic voiced alveolar lateral fricative consonant	consonant	ɮ̩	LATIN SMALL LETTER LEZH / COMBINING VERTICAL LINE BELOW	+	
 syllabic voiced alveolar lateral approximant consonant	consonant	l̩	LATIN SMALL LETTER L / COMBINING VERTICAL LINE BELOW		
 syllabic voiced alveolar approximant consonant	consonant	ɹ̩	LATIN SMALL LETTER TURNED R / COMBINING VERTICAL LINE BELOW		
+syllabic velarized voiced alveolar lateral approximant consonant	consonant	l̩ˠ	LATIN SMALL LETTER L / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL GAMMA	+	
+syllabic velarized long voiced alveolar lateral approximant consonant	consonant	l̩ˠː	LATIN SMALL LETTER L / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+syllabic velarized devoiced voiced alveolar lateral approximant consonant	consonant	l̩̥ˠ	LATIN SMALL LETTER L / COMBINING VERTICAL LINE BELOW / COMBINING RING BELOW / MODIFIER LETTER SMALL GAMMA	+	
 syllabic palatalized voiceless velar stop consonant	consonant	k̩ʲ	LATIN SMALL LETTER K / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL J	+	
 syllabic palatalized voiceless velar fricative consonant	consonant	x̩ʲ	LATIN SMALL LETTER X / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL J	+	
 syllabic palatalized voiceless uvular stop consonant	consonant	q̩ʲ	LATIN SMALL LETTER Q / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL J	+	
@@ -1500,6 +1525,9 @@ rhotacized nasalized unrounded mid central vowel	vowel	ə̃˞	LATIN SMALL LETTER
 rhotacized nasalized devoiced unrounded mid central vowel	vowel	ə̥̃˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized devoiced unrounded mid central vowel	vowel	ə̥˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized advanced unrounded open front vowel	vowel	a̟˞	LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW / MODIFIER LETTER RHOTIC HOOK	+	
+revoiced voiceless velar fricative consonant	consonant	x̬	LATIN SMALL LETTER X / COMBINING CARON BELOW	+	
+revoiced voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̬	LATIN SMALL LETTER ESH / COMBINING CARON BELOW	+	
+revoiced voiceless labio-dental fricative consonant	consonant	f̬	LATIN SMALL LETTER F / COMBINING CARON BELOW	+	
 revoiced voiceless glottal stop consonant	consonant	ʔ̬	LATIN LETTER GLOTTAL STOP / COMBINING CARON BELOW	+	
 revoiced voiceless dental fricative consonant	consonant	θ̬	GREEK SMALL LETTER THETA / COMBINING CARON BELOW		
 revoiced voiceless bilabial stop consonant	consonant	p̬	LATIN SMALL LETTER P / COMBINING CARON BELOW		
@@ -1507,6 +1535,10 @@ revoiced voiceless alveolar stop consonant	consonant	t̬	LATIN SMALL LETTER T / 
 revoiced voiceless alveolar sibilant fricative consonant	consonant	s̬	LATIN SMALL LETTER S / COMBINING CARON BELOW		
 revoiced voiceless alveolar click consonant	consonant	ǃ̬	LATIN LETTER RETROFLEX CLICK / COMBINING CARON BELOW	+	
 revoiced voiced velar stop consonant	consonant	k̬	LATIN SMALL LETTER K / COMBINING CARON BELOW		Check with source.
+revoiced voiced palatal approximant consonant	consonant	j̬	LATIN SMALL LETTER J / COMBINING CARON BELOW	+	
+revoiced voiced bilabial stop consonant	consonant	b̬	LATIN SMALL LETTER B / COMBINING CARON BELOW	+	
+revoiced voiced alveolar stop consonant	consonant	d̬	LATIN SMALL LETTER D / COMBINING CARON BELOW	+	
+revoiced voiced alveolar sibilant fricative consonant	consonant	z̬	LATIN SMALL LETTER Z / COMBINING CARON BELOW	+	
 retracted-tongue-root unrounded open-mid front vowel	vowel	ɛ̙	LATIN SMALL LETTER OPEN E / COMBINING RIGHT TACK BELOW	+	
 retracted-tongue-root unrounded open-mid central vowel	vowel	ɜ̙	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RIGHT TACK BELOW	+	
 retracted-tongue-root unrounded open-mid back vowel	vowel	ʌ̙	LATIN SMALL LETTER TURNED V / COMBINING RIGHT TACK BELOW	+	
@@ -1565,6 +1597,10 @@ retracted rounded close-mid back vowel	vowel	o̠	LATIN SMALL LETTER O / COMBININ
 retracted rounded close front vowel	vowel	y̠	LATIN SMALL LETTER Y / COMBINING MINUS SIGN BELOW	+	
 retracted rounded close central vowel	vowel	ʉ̠	LATIN SMALL LETTER U BAR / COMBINING MINUS SIGN BELOW	+	
 retracted rounded close back vowel	vowel	u̠	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW	+	
+retracted raised rounded open-mid front vowel	vowel	œ̝̠	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted nasalized unrounded close front vowel	vowel	ĩ̠	LATIN SMALL LETTER I / COMBINING MINUS SIGN BELOW / COMBINING TILDE	+	
+retracted more-rounded unrounded open back vowel	vowel	ɑ̹̠	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted lowered nasalized rounded close front vowel	vowel	ỹ̞̠	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING MINUS SIGN BELOW / COMBINING TILDE	+	
 raised unrounded open-mid front vowel	vowel	ɛ̝	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid central vowel	vowel	ɜ̝	LATIN SMALL LETTER REVERSED OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid back vowel	vowel	ʌ̝	LATIN SMALL LETTER TURNED V / COMBINING UP TACK BELOW	+	
@@ -1593,12 +1629,25 @@ raised rounded close-mid back vowel	vowel	o̝	LATIN SMALL LETTER O / COMBINING U
 raised rounded close front vowel	vowel	y̝	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW	+	
 raised rounded close central vowel	vowel	ʉ̝	LATIN SMALL LETTER U BAR / COMBINING UP TACK BELOW	+	
 raised rounded close back vowel	vowel	u̝	LATIN SMALL LETTER U / COMBINING UP TACK BELOW	+	
+raised nasalized unrounded open-mid front vowel	vowel	ɛ̝̃	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized unrounded open back vowel	vowel	ɑ̝̃	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized unrounded near-open front vowel	vowel	æ̝̃	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized unrounded near-close near-front vowel	vowel	ɪ̝̃	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING TILDE	+	
 raised nasalized unrounded close-mid front vowel	vowel	ẽ̝	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized unrounded close front vowel	vowel	ĩ̝	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized rounded open-mid back vowel	vowel	ɔ̝̃	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized rounded near-close near-back vowel	vowel	ʊ̝̃	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised nasalized rounded close-mid front vowel	vowel	ø̝̃	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / COMBINING TILDE	+	
 raised nasalized rounded close-mid back vowel	vowel	õ̝	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING TILDE	+	
+raised more-rounded unrounded open-mid front vowel	vowel	ɛ̝̹	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
 raised more-rounded unrounded open back vowel	vowel	ɑ̝̹	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
+raised more-rounded unrounded near-close near-front vowel	vowel	ɪ̝̹	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
+raised more-rounded rounded close-mid back vowel	vowel	o̝̹	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
+raised less-rounded rounded open-mid back vowel	vowel	ɔ̝̜	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
 raised advanced unrounded open back vowel	vowel	ɑ̝̟	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING PLUS SIGN BELOW	+	
 pre-nasalized with-lateral-release voiced alveolar stop consonant	consonant	ⁿdˡ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER D / MODIFIER LETTER SMALL L	+	
 pre-nasalized voiceless velar stop consonant	consonant	ⁿk	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER K		
+pre-nasalized voiceless velar fricative consonant	consonant	ⁿx	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER X	+	
 pre-nasalized voiceless uvular stop consonant	consonant	ⁿq	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER Q	+	
 pre-nasalized voiceless retroflex sibilant affricate consonant	consonant	ⁿʈʂ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK	+	
 pre-nasalized voiceless post-alveolar sibilant fricative consonant	consonant	ⁿʃ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER ESH	+	
@@ -1627,6 +1676,7 @@ pre-nasalized voiced palatal nasal consonant	consonant	ⁿɲ	SUPERSCRIPT LATIN S
 pre-nasalized voiced palatal click consonant	consonant	ⁿgǂ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER ALVEOLAR CLICK		
 pre-nasalized voiced lateral click consonant	consonant	ⁿgǁ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER LATERAL CLICK		
 pre-nasalized voiced labio-dental fricative consonant	consonant	ⁿv	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER V	+	
+pre-nasalized voiced labialized-velar approximant consonant	consonant	ⁿw	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER W	+	
 pre-nasalized voiced labial click consonant	consonant	ⁿgʘ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER BILABIAL CLICK		
 pre-nasalized voiced dental stop consonant	consonant	ⁿd̪	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER D / COMBINING BRIDGE BELOW		
 pre-nasalized voiced dental click consonant	consonant	ⁿgǀ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER DENTAL CLICK		
@@ -1790,6 +1840,7 @@ pre-glottalized voiced alveolar lateral fricative consonant	consonant	ˀɮ	MODIF
 pre-glottalized voiced alveolar lateral approximant consonant	consonant	ˀl	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER L	+	
 pre-glottalized voiced alveolar lateral affricate consonant	consonant	ˀdɮ	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH	+	
 pre-glottalized voiced alveolar approximant consonant	consonant	ˀɹ	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER TURNED R	+	
+pre-glottalized velarized voiced alveolar lateral approximant consonant	consonant	ˀlˠ	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER L / MODIFIER LETTER SMALL GAMMA	+	
 pre-glottalized unreleased voiced bilabial stop consonant	consonant	ˀb̚	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER B / COMBINING LEFT ANGLE ABOVE	+	
 pre-glottalized labialized voiceless velar stop consonant	consonant	ˀkʷ	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER K / MODIFIER LETTER SMALL W	+	
 pre-glottalized labialized voiced velar nasal consonant	consonant	ˀŋʷ	MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER ENG / MODIFIER LETTER SMALL W	+	
@@ -1813,6 +1864,7 @@ pre-aspirated voiceless dental sibilant fricative consonant	consonant	ʰs̪	MODI
 pre-aspirated voiceless bilabial stop consonant	consonant	ʰp	MODIFIER LETTER SMALL H / LATIN SMALL LETTER P		
 pre-aspirated voiceless alveolar stop consonant	consonant	ʰt	MODIFIER LETTER SMALL H / LATIN SMALL LETTER T		
 pre-aspirated voiced labialized-velar approximant consonant	consonant	ʰw	MODIFIER LETTER SMALL H / LATIN SMALL LETTER W	+	
+pre-aspirated voiced alveolar trill consonant	consonant	ʰr	MODIFIER LETTER SMALL H / LATIN SMALL LETTER R	+	
 pre-aspirated voiced alveolar stop consonant	consonant	ʰd	MODIFIER LETTER SMALL H / LATIN SMALL LETTER D	+	
 pre-aspirated voiced alveolar nasal consonant	consonant	ʰn	MODIFIER LETTER SMALL H / LATIN SMALL LETTER N	+	
 pre-aspirated palatalized voiceless velar stop consonant	consonant	ʰkʲ	MODIFIER LETTER SMALL H / LATIN SMALL LETTER K / MODIFIER LETTER SMALL J	+	
@@ -2546,8 +2598,14 @@ palatalized voiced alveolar lateral approximant consonant	consonant	lʲ	LATIN SM
 palatalized voiced alveolar lateral affricate consonant	consonant	dɮʲ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL J	+	
 palatalized voiced alveolar ejective nasal consonant	consonant	n’ʲ	LATIN SMALL LETTER N / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL J	+	
 palatalized voiced alveolar approximant consonant	consonant	ɹʲ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL J	+	
+palatalized velarized voiced alveolar lateral approximant consonant	consonant	lʲˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL GAMMA	+	
+palatalized velarized long voiced alveolar lateral approximant consonant	consonant	lʲˠː	LATIN SMALL LETTER L / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+palatalized velarized devoiced voiced alveolar lateral approximant consonant	consonant	l̥ʲˠ	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL GAMMA	+	
+palatalized velarized creaky voiced alveolar lateral approximant consonant	consonant	l̰ʲˠ	LATIN SMALL LETTER L / COMBINING TILDE BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL GAMMA	+	
+palatalized velarized breathy voiced alveolar lateral approximant consonant	consonant	lʲʱˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
 palatalized unreleased voiceless bilabial stop consonant	consonant	pʲ̚	LATIN SMALL LETTER P / MODIFIER LETTER SMALL J / COMBINING LEFT ANGLE ABOVE	+	
 palatalized unreleased voiceless alveolar stop consonant	consonant	tʲ̚	LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / COMBINING LEFT ANGLE ABOVE	+	
+palatalized revoiced voiceless alveolar stop consonant	consonant	t̬ʲ	LATIN SMALL LETTER T / COMBINING CARON BELOW / MODIFIER LETTER SMALL J	+	
 palatalized pharyngealized voiceless uvular stop consonant	consonant	qʲˤ	LATIN SMALL LETTER Q / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized pharyngealized voiceless uvular fricative consonant	consonant	χʲˤ	GREEK SMALL LETTER CHI / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized pharyngealized voiceless uvular ejective stop consonant	consonant	q’ʲˤ	LATIN SMALL LETTER Q / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
@@ -2788,6 +2846,7 @@ palatalized labialized voiced alveolar lateral fricative consonant	consonant	ɮ�
 palatalized labialized voiced alveolar lateral approximant consonant	consonant	lʲʷ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W	+	
 palatalized labialized voiced alveolar lateral affricate consonant	consonant	dɮʲʷ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W	+	
 palatalized labialized voiced alveolar approximant consonant	consonant	ɹʲʷ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W	+	
+palatalized labialized velarized voiced alveolar lateral approximant consonant	consonant	lʲʷˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
 palatalized labialized pharyngealized voiceless uvular stop consonant	consonant	qʲʷˤ	LATIN SMALL LETTER Q / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized labialized pharyngealized voiceless uvular ejective stop consonant	consonant	q’ʲʷˤ	LATIN SMALL LETTER Q / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized labialized pharyngealized voiced uvular fricative consonant	consonant	ʁʲʷˤ	LATIN LETTER SMALL CAPITAL INVERTED R / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
@@ -3304,6 +3363,10 @@ nasalized voiced alveolar lateral approximant consonant	consonant	l̃	LATIN SMAL
 nasalized voiced alveolar lateral affricate consonant	consonant	dɮ̃	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / COMBINING TILDE	+	
 nasalized voiced alveolar ejective lateral approximant consonant	consonant	l’̃	LATIN SMALL LETTER L / RIGHT SINGLE QUOTATION MARK / COMBINING TILDE	+	
 nasalized voiced alveolar approximant consonant	consonant	ɹ̃	LATIN SMALL LETTER TURNED R / COMBINING TILDE	+	
+nasalized velarized voiced alveolar lateral approximant consonant	consonant	l̃ˠ	LATIN SMALL LETTER L / COMBINING TILDE / MODIFIER LETTER SMALL GAMMA	+	
+nasalized velarized pharyngealized voiced alveolar lateral approximant consonant	consonant	l̃ˠˤ	LATIN SMALL LETTER L / COMBINING TILDE / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+nasalized velarized long voiced alveolar lateral approximant consonant	consonant	l̃ˠː	LATIN SMALL LETTER L / COMBINING TILDE / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+nasalized velarized creaky voiced alveolar lateral approximant consonant	consonant	l̰̃ˠ	LATIN SMALL LETTER L / COMBINING TILDE BELOW / COMBINING TILDE / MODIFIER LETTER SMALL GAMMA	+	
 nasalized unrounded open-mid front vowel	vowel	ɛ̃	LATIN SMALL LETTER OPEN E / COMBINING TILDE		
 nasalized unrounded open-mid central vowel	vowel	ɜ̃	LATIN SMALL LETTER REVERSED OPEN E / COMBINING TILDE		
 nasalized unrounded open-mid back vowel	vowel	ʌ̃	LATIN SMALL LETTER TURNED V / COMBINING TILDE		
@@ -3399,6 +3462,7 @@ nasalized pharyngealized voiced alveolar lateral affricate consonant	consonant	d
 nasalized pharyngealized voiced alveolar approximant consonant	consonant	ɹ̃ˤ	LATIN SMALL LETTER TURNED R / COMBINING TILDE / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 nasalized palatalized voiceless pharyngeal fricative consonant	consonant	ħ̃ʲ	LATIN SMALL LETTER H WITH STROKE / COMBINING TILDE / MODIFIER LETTER SMALL J	+	
 nasalized palatalized voiced labio-dental fricative consonant	consonant	ṽʲ	LATIN SMALL LETTER V / COMBINING TILDE / MODIFIER LETTER SMALL J	+	
+nasalized long voiceless labio-dental fricative consonant	consonant	f̃ː	LATIN SMALL LETTER F / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 nasalized long voiced velar stop consonant	consonant	g̃ː	LATIN SMALL LETTER G / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 nasalized long voiced velar lateral approximant consonant	consonant	ʟ̃ː	LATIN LETTER SMALL CAPITAL L / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 nasalized long voiced velar implosive consonant	consonant	ɠ̃ː	LATIN SMALL LETTER G WITH HOOK / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -3574,29 +3638,141 @@ nasalized creaky rounded close back vowel	vowel	ṵ̃	LATIN SMALL LETTER U / COM
 nasalized breathy unrounded open-mid back vowel	vowel	ʌ̤̃	LATIN SMALL LETTER TURNED V / COMBINING DIAERESIS BELOW / COMBINING TILDE		
 nasalized breathy unrounded open front vowel	vowel	ã̤	LATIN SMALL LETTER A / COMBINING DIAERESIS BELOW / COMBINING TILDE	+	
 nasalized breathy unrounded close-mid front vowel	vowel	ẽ̤	LATIN SMALL LETTER E / COMBINING DIAERESIS BELOW / COMBINING TILDE	+	
+nasalized breathy unrounded close front vowel	vowel	ĩ̤	LATIN SMALL LETTER I / COMBINING DIAERESIS BELOW / COMBINING TILDE	+	
 nasalized breathy rounded close-mid back vowel	vowel	õ̤	LATIN SMALL LETTER O / COMBINING DIAERESIS BELOW / COMBINING TILDE	+	
 nasalized breathy rounded close back vowel	vowel	ṳ̃	LATIN SMALL LETTER U / COMBINING DIAERESIS BELOW / COMBINING TILDE	+	
+more-rounded unrounded open-mid front vowel	vowel	ɛ̹	LATIN SMALL LETTER OPEN E / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded open-mid central vowel	vowel	ɜ̹	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RIGHT HALF RING BELOW	+	
+more-rounded unrounded open back vowel	vowel	ɑ̹	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded mid central vowel	vowel	ə̹	LATIN SMALL LETTER SCHWA / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded close with-frication central vowel	vowel	ʅ̹	LATIN SMALL LETTER SQUAT REVERSED ESH / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded close with-frication back vowel	vowel	ɿ̹	LATIN SMALL LETTER REVERSED R WITH FISHHOOK / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded close central vowel	vowel	ɨ̹	LATIN SMALL LETTER I WITH STROKE / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded open-mid back vowel	vowel	ɔ̹	LATIN SMALL LETTER OPEN O / COMBINING RIGHT HALF RING BELOW	+	
+more-rounded rounded close-mid back vowel	vowel	o̹	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW	+	
+more-rounded rounded close front vowel	vowel	y̹	LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW	+	
+more-rounded rounded close back vowel	vowel	u̹	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded advanced unrounded close-mid back vowel	vowel	ɤ̹̟	LATIN SMALL LETTER RAMS HORN / COMBINING RIGHT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
 mid-long unrounded open-mid front vowel	vowel	ɛˑ	LATIN SMALL LETTER OPEN E / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open front vowel	vowel	aˑ	LATIN SMALL LETTER A / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded open back vowel	vowel	ɑˑ	LATIN SMALL LETTER ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded near-open front vowel	vowel	æˑ	LATIN SMALL LETTER AE / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long unrounded near-close near-front vowel	vowel	ɪˑ	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded mid front vowel	vowel	e̞ˑ	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long unrounded mid central vowel	vowel	əˑ	LATIN SMALL LETTER SCHWA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded close-mid front vowel	vowel	eˑ	LATIN SMALL LETTER E / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded close-mid back vowel	vowel	ɤˑ	LATIN SMALL LETTER RAMS HORN / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded close front vowel	vowel	iˑ	LATIN SMALL LETTER I / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded close back vowel	vowel	ɯˑ	LATIN SMALL LETTER TURNED M / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open-mid front vowel	vowel	œˑ	LATIN SMALL LIGATURE OE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open-mid back vowel	vowel	ɔˑ	LATIN SMALL LETTER OPEN O / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open back vowel	vowel	ɒˑ	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded near-close near-front vowel	vowel	ʏˑ	LATIN LETTER SMALL CAPITAL Y / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded near-close near-back vowel	vowel	ʊˑ	LATIN SMALL LETTER UPSILON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded mid front vowel	vowel	ø̞ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded mid back vowel	vowel	o̞ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded close-mid front vowel	vowel	øˑ	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long rounded close-mid back vowel	vowel	oˑ	LATIN SMALL LETTER O / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long rounded close front vowel	vowel	yˑ	LATIN SMALL LETTER Y / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long rounded close back vowel	vowel	uˑ	LATIN SMALL LETTER U / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long retracted unrounded open-mid front vowel	vowel	ɛ̠ˑ	LATIN SMALL LETTER OPEN E / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted unrounded open front vowel	vowel	a̠ˑ	LATIN SMALL LETTER A / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted unrounded open back vowel	vowel	ɑ̠ˑ	LATIN SMALL LETTER ALPHA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted unrounded near-open front vowel	vowel	æ̠ˑ	LATIN SMALL LETTER AE / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted unrounded mid central vowel	vowel	ə̠ˑ	LATIN SMALL LETTER SCHWA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted rounded open-mid front vowel	vowel	œ̠ˑ	LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted rounded open-mid back vowel	vowel	ɔ̠ˑ	LATIN SMALL LETTER OPEN O / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted rounded near-close near-back vowel	vowel	ʊ̠ˑ	LATIN SMALL LETTER UPSILON / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted rounded close-mid front vowel	vowel	ø̠ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted rounded close front vowel	vowel	y̠ˑ	LATIN SMALL LETTER Y / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted more-rounded unrounded open back vowel	vowel	ɑ̹̠ˑ	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long retracted less-rounded rounded near-close near-front vowel	vowel	ʏ̜̠ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded open-mid front vowel	vowel	ɛ̝ˑ	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded open front vowel	vowel	a̝ˑ	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded open back vowel	vowel	ɑ̝ˑ	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded near-open front vowel	vowel	æ̝ˑ	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded near-close near-front vowel	vowel	ɪ̝ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded close-mid front vowel	vowel	e̝ˑ	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded close front vowel	vowel	i̝ˑ	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded open-mid front vowel	vowel	œ̝ˑ	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded open-mid back vowel	vowel	ɔ̝ˑ	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded near-close near-front vowel	vowel	ʏ̝ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded near-close near-back vowel	vowel	ʊ̝ˑ	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded close-mid front vowel	vowel	ø̝ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded close-mid back vowel	vowel	o̝ˑ	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded close front vowel	vowel	y̝ˑ	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized unrounded open-mid front vowel	vowel	ɛ̝̃ˑ	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized unrounded open front vowel	vowel	ã̝ˑ	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized unrounded near-close near-front vowel	vowel	ɪ̝̃ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized unrounded close-mid front vowel	vowel	ẽ̝ˑ	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized rounded open-mid back vowel	vowel	ɔ̝̃ˑ	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised nasalized rounded near-close near-back vowel	vowel	ʊ̝̃ˑ	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised more-rounded unrounded open back vowel	vowel	ɑ̝̹ˑ	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised less-rounded rounded open-mid back vowel	vowel	ɔ̝̜ˑ	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised less-rounded rounded close-mid back vowel	vowel	o̝̜ˑ	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded open-mid front vowel	vowel	ɛ̃ˑ	LATIN SMALL LETTER OPEN E / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded open front vowel	vowel	ãˑ	LATIN SMALL LETTER A / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded open back vowel	vowel	ɑ̃ˑ	LATIN SMALL LETTER ALPHA / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded near-open front vowel	vowel	æ̃ˑ	LATIN SMALL LETTER AE / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded near-close near-front vowel	vowel	ɪ̃ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded mid central vowel	vowel	ə̃ˑ	LATIN SMALL LETTER SCHWA / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded close-mid front vowel	vowel	ẽˑ	LATIN SMALL LETTER E / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized unrounded close front vowel	vowel	ĩˑ	LATIN SMALL LETTER I / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded open-mid back vowel	vowel	ɔ̃ˑ	LATIN SMALL LETTER OPEN O / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded near-close near-back vowel	vowel	ʊ̃ˑ	LATIN SMALL LETTER UPSILON / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded mid front vowel	vowel	ø̞̃ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded mid back vowel	vowel	õ̞ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded close-mid front vowel	vowel	ø̃ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded close-mid back vowel	vowel	õˑ	LATIN SMALL LETTER O / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded close front vowel	vowel	ỹˑ	LATIN SMALL LETTER Y / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long nasalized rounded close back vowel	vowel	ũˑ	LATIN SMALL LETTER U / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded unrounded open-mid front vowel	vowel	ɛ̹ˑ	LATIN SMALL LETTER OPEN E / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded unrounded open front vowel	vowel	a̹ˑ	LATIN SMALL LETTER A / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded unrounded open back vowel	vowel	ɑ̹ˑ	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded unrounded mid front vowel	vowel	e̞̹ˑ	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded open-mid front vowel	vowel	œ̹ˑ	LATIN SMALL LIGATURE OE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded open-mid back vowel	vowel	ɔ̹ˑ	LATIN SMALL LETTER OPEN O / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded near-close near-front vowel	vowel	ʏ̹ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close-mid front vowel	vowel	ø̹ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close-mid back vowel	vowel	o̹ˑ	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close front vowel	vowel	y̹ˑ	LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close back vowel	vowel	u̹ˑ	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded nasalized rounded close-mid back vowel	vowel	õ̹ˑ	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded open-mid front vowel	vowel	ɛ̞ˑ	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded open front vowel	vowel	a̞ˑ	LATIN SMALL LETTER A / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded open back vowel	vowel	ɑ̞ˑ	LATIN SMALL LETTER ALPHA / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded near-open front vowel	vowel	æ̞ˑ	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded near-close near-front vowel	vowel	ɪ̞ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded close front vowel	vowel	i̞ˑ	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded open-mid front vowel	vowel	œ̞ˑ	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded open-mid back vowel	vowel	ɔ̞ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded near-close near-front vowel	vowel	ʏ̞ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded near-close near-back vowel	vowel	ʊ̞ˑ	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded close front vowel	vowel	y̞ˑ	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded close back vowel	vowel	u̞ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered nasalized unrounded open-mid front vowel	vowel	ɛ̞̃ˑ	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered nasalized unrounded near-close near-front vowel	vowel	ɪ̞̃ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered nasalized unrounded close front vowel	vowel	ĩ̞ˑ	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered nasalized rounded near-close near-back vowel	vowel	ʊ̞̃ˑ	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered nasalized rounded close back vowel	vowel	ũ̞ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered more-rounded unrounded close front vowel	vowel	i̞̹ˑ	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered less-rounded rounded open-mid front vowel	vowel	œ̞̜ˑ	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered less-rounded rounded open-mid back vowel	vowel	ɔ̞̜ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered less-rounded rounded close back vowel	vowel	u̞̜ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered less-rounded nasalized rounded close back vowel	vowel	ũ̞̜ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered advanced rounded open-mid back vowel	vowel	ɔ̞̟ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded open-mid front vowel	vowel	œ̜ˑ	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded open-mid back vowel	vowel	ɔ̜ˑ	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded near-close near-front vowel	vowel	ʏ̜ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded near-close near-back vowel	vowel	ʊ̜ˑ	LATIN SMALL LETTER UPSILON / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded mid back vowel	vowel	o̞̜ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close-mid front vowel	vowel	ø̜ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close-mid back vowel	vowel	o̜ˑ	LATIN SMALL LETTER O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close front vowel	vowel	y̜ˑ	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close back vowel	vowel	u̜ˑ	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded nasalized rounded open-mid back vowel	vowel	ɔ̜̃ˑ	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long devoiced unrounded close front vowel	vowel	i̥ˑ	LATIN SMALL LETTER I / COMBINING RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long devoiced rounded close back vowel	vowel	u̥ˑ	LATIN SMALL LETTER U / COMBINING RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long creaky unrounded open-mid front vowel	vowel	ɛ̰ˑ	LATIN SMALL LETTER OPEN E / COMBINING TILDE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long creaky unrounded open front vowel	vowel	a̰ˑ	LATIN SMALL LETTER A / COMBINING TILDE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long creaky rounded open-mid back vowel	vowel	ɔ̰ˑ	LATIN SMALL LETTER OPEN O / COMBINING TILDE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -3607,8 +3783,17 @@ mid-long breathy unrounded close-mid front vowel	vowel	e̤ˑ	LATIN SMALL LETTER 
 mid-long breathy unrounded close front vowel	vowel	i̤ˑ	LATIN SMALL LETTER I / COMBINING DIAERESIS BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long breathy rounded open-mid back vowel	vowel	ɔ̤ˑ	LATIN SMALL LETTER OPEN O / COMBINING DIAERESIS BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long breathy rounded close-mid back vowel	vowel	o̤ˑ	LATIN SMALL LETTER O / COMBINING DIAERESIS BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced unrounded open front vowel	vowel	a̟ˑ	LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long advanced unrounded open back vowel	vowel	ɑ̟ˑ	LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced unrounded mid front vowel	vowel	e̞̟ˑ	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced unrounded close-mid front vowel	vowel	e̟ˑ	LATIN SMALL LETTER E / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced rounded open-mid front vowel	vowel	œ̟ˑ	LATIN SMALL LIGATURE OE / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced rounded open-mid back vowel	vowel	ɔ̟ˑ	LATIN SMALL LETTER OPEN O / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced rounded near-close near-back vowel	vowel	ʊ̟ˑ	LATIN SMALL LETTER UPSILON / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced rounded close-mid front vowel	vowel	ø̟ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long advanced rounded close-mid back vowel	vowel	o̟ˑ	LATIN SMALL LETTER O / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced rounded close back vowel	vowel	u̟ˑ	LATIN SMALL LETTER U / COMBINING PLUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long advanced nasalized unrounded open back vowel	vowel	ɑ̟̃ˑ	LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 lowered unrounded open-mid front vowel	vowel	ɛ̞	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid central vowel	vowel	ɜ̞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid back vowel	vowel	ʌ̞	LATIN SMALL LETTER TURNED V / COMBINING DOWN TACK BELOW	+	
@@ -3632,9 +3817,15 @@ lowered rounded close front vowel	vowel	y̞	LATIN SMALL LETTER Y / COMBINING DOW
 lowered rounded close central vowel	vowel	ʉ̞	LATIN SMALL LETTER U BAR / COMBINING DOWN TACK BELOW	+	
 lowered rounded close back vowel	vowel	u̞	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW	+	
 lowered nasalized unrounded near-open front vowel	vowel	æ̞̃	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
+lowered nasalized unrounded near-close near-front vowel	vowel	ɪ̞̃	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
 lowered nasalized unrounded close front vowel	vowel	ĩ̞	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
 lowered nasalized unrounded close central vowel	vowel	ɨ̞̃	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
 lowered nasalized rounded open-mid back vowel	vowel	ɔ̞̃	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
+lowered nasalized rounded close back vowel	vowel	ũ̞	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
+lowered more-rounded unrounded close front vowel	vowel	i̞̹	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
+lowered less-rounded rounded open-mid back vowel	vowel	ɔ̞̜	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
+lowered less-rounded rounded close front vowel	vowel	y̞̜	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
+lowered less-rounded rounded close back vowel	vowel	u̞̜	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
 lowered creaky unrounded close central vowel	vowel	ɨ̞̰	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE BELOW	+	
 long with-lateral-release voiceless alveolar stop consonant	consonant	tˡː	LATIN SMALL LETTER T / MODIFIER LETTER SMALL L / MODIFIER LETTER TRIANGULAR COLON	+	
 long voiceless velar stop consonant	consonant	kː	LATIN SMALL LETTER K / MODIFIER LETTER TRIANGULAR COLON		
@@ -3858,7 +4049,12 @@ long rounded close front vowel	vowel	yː	LATIN SMALL LETTER Y / MODIFIER LETTER 
 long rounded close central vowel	vowel	ʉː	LATIN SMALL LETTER U BAR / MODIFIER LETTER TRIANGULAR COLON		
 long rounded close back vowel	vowel	uː	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON		
 long rhotacized unrounded open front vowel	vowel	a˞ː	LATIN SMALL LETTER A / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized unrounded open back vowel	vowel	ɑ˞ː	LATIN SMALL LETTER ALPHA / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized unrounded near-close near-front vowel	vowel	ɪ˞ː	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized unrounded mid central vowel	vowel	ə˞ː	LATIN SMALL LETTER SCHWA / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized rounded open-mid front vowel	vowel	œ˞ː	LATIN SMALL LIGATURE OE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized rounded open-mid back vowel	vowel	ɔ˞ː	LATIN SMALL LETTER OPEN O / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized rounded close front vowel	vowel	y˞ː	LATIN SMALL LETTER Y / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized pharyngealized unrounded close front vowel	vowel	i˞ˤː	LATIN SMALL LETTER I / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized pharyngealized rounded close back vowel	vowel	u˞ˤː	LATIN SMALL LETTER U / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized non-syllabic unrounded mid central vowel	vowel	ə̯˞ː	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -3899,18 +4095,30 @@ long retracted-tongue-root rounded close back vowel	vowel	u̙ː	LATIN SMALL LETT
 long retracted-tongue-root advanced unrounded open front vowel	vowel	a̙̟ː	LATIN SMALL LETTER A / COMBINING RIGHT TACK BELOW / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted unrounded open-mid front vowel	vowel	ɛ̠ː	LATIN SMALL LETTER OPEN E / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted unrounded open front vowel	vowel	a̠ː	LATIN SMALL LETTER A / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long retracted unrounded open back vowel	vowel	ɑ̠ː	LATIN SMALL LETTER ALPHA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted rounded open-mid front vowel	vowel	œ̠ː	LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted rounded open-mid central vowel	vowel	ɞ̠ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long retracted rounded open-mid back vowel	vowel	ɔ̠ː	LATIN SMALL LETTER OPEN O / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long retracted rounded near-close near-back vowel	vowel	ʊ̠ː	LATIN SMALL LETTER UPSILON / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long retracted rounded close-mid back vowel	vowel	o̠ː	LATIN SMALL LETTER O / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted rounded close back vowel	vowel	u̠ː	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long retracted nasalized rounded close back vowel	vowel	ũ̠ː	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open-mid front vowel	vowel	ɛ̝ː	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open front vowel	vowel	a̝ː	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open back vowel	vowel	ɑ̝ː	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised unrounded near-open front vowel	vowel	æ̝ː	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded near-close near-front vowel	vowel	ɪ̝ː	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded close-mid front vowel	vowel	e̝ː	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded close front vowel	vowel	i̝ː	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded open-mid front vowel	vowel	œ̝ː	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded open-mid back vowel	vowel	ɔ̝ː	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded near-close near-back vowel	vowel	ʊ̝ː	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded close-mid front vowel	vowel	ø̝ː	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close-mid back vowel	vowel	o̝ː	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded close front vowel	vowel	y̝ː	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close back vowel	vowel	u̝ː	LATIN SMALL LETTER U / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised nasalized rounded open-mid back vowel	vowel	ɔ̝̃ː	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised nasalized rounded close-mid back vowel	vowel	õ̝ː	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long pharyngealized unrounded open-mid front vowel	vowel	ɛˤː	LATIN SMALL LETTER OPEN E / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 long pharyngealized unrounded open-mid central vowel	vowel	ɜˤː	LATIN SMALL LETTER REVERSED OPEN E / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 long pharyngealized unrounded open-mid back vowel	vowel	ʌˤː	LATIN SMALL LETTER TURNED V / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4120,24 +4328,41 @@ long nasalized devoiced rounded close central vowel	vowel	ʉ̥̃ː	LATIN SMALL L
 long nasalized devoiced rounded close back vowel	vowel	ũ̥ː	LATIN SMALL LETTER U / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized breathy unrounded open-mid front vowel	vowel	ɛ̤̃ː	LATIN SMALL LETTER OPEN E / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized breathy unrounded mid central vowel	vowel	ə̤̃ː	LATIN SMALL LETTER SCHWA / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long nasalized breathy unrounded close-mid front vowel	vowel	ẽ̤ː	LATIN SMALL LETTER E / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized breathy unrounded close front vowel	vowel	ĩ̤ː	LATIN SMALL LETTER I / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized breathy rounded open-mid back vowel	vowel	ɔ̤̃ː	LATIN SMALL LETTER OPEN O / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized breathy rounded close back vowel	vowel	ṳ̃ː	LATIN SMALL LETTER U / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long more-rounded unrounded open-mid central vowel	vowel	ɜ̹ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long more-rounded unrounded open front vowel	vowel	a̹ː	LATIN SMALL LETTER A / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long more-rounded unrounded close central vowel	vowel	ɨ̹ː	LATIN SMALL LETTER I WITH STROKE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long more-rounded rounded open-mid front vowel	vowel	œ̹ː	LATIN SMALL LIGATURE OE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long more-rounded rounded close back vowel	vowel	u̹ː	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded open-mid front vowel	vowel	ɛ̞ː	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered unrounded open front vowel	vowel	a̞ː	LATIN SMALL LETTER A / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered unrounded near-open front vowel	vowel	æ̞ː	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered unrounded near-close near-front vowel	vowel	ɪ̞ː	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded close front vowel	vowel	i̞ː	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded close central vowel	vowel	ɨ̞ː	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded open-mid front vowel	vowel	œ̞ː	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded open-mid back vowel	vowel	ɔ̞ː	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered rounded near-close near-back vowel	vowel	ʊ̞ː	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered rounded close front vowel	vowel	y̞ː	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded close back vowel	vowel	u̞ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered nasalized unrounded close front vowel	vowel	ĩ̞ː	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered nasalized unrounded close central vowel	vowel	ɨ̞̃ː	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered nasalized rounded open-mid back vowel	vowel	ɔ̞̃ː	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered nasalized rounded close front vowel	vowel	ỹ̞ː	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered nasalized rounded close back vowel	vowel	ũ̞ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered more-rounded rounded close back vowel	vowel	u̞̹ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid front vowel	vowel	œ̜ː	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid central vowel	vowel	ɞ̜ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid back vowel	vowel	ɔ̜ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long less-rounded rounded near-close near-front vowel	vowel	ʏ̜ː	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded mid front vowel	vowel	ø̞̜ː	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded mid back vowel	vowel	o̞̜ː	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long less-rounded rounded close-mid front vowel	vowel	ø̜ː	LATIN SMALL LETTER O WITH STROKE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long less-rounded rounded close-mid back vowel	vowel	o̜ː	LATIN SMALL LETTER O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long less-rounded rounded close back vowel	vowel	u̜ː	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded nasalized rounded open-mid central vowel	vowel	ɞ̜̃ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded nasalized rounded open-mid back vowel	vowel	ɔ̜̃ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded advanced rounded open-mid back vowel	vowel	ɔ̜̟ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4416,15 +4641,23 @@ long advanced unrounded open front vowel	vowel	a̟ː	LATIN SMALL LETTER A / COMB
 long advanced unrounded open back vowel	vowel	ɑ̟ː	LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced unrounded close-mid back vowel	vowel	ɤ̟ː	LATIN SMALL LETTER RAMS HORN / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced unrounded close central vowel	vowel	ɨ̟ː	LATIN SMALL LETTER I WITH STROKE / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long advanced rounded open-mid front vowel	vowel	œ̟ː	LATIN SMALL LIGATURE OE / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long advanced rounded open-mid back vowel	vowel	ɔ̟ː	LATIN SMALL LETTER OPEN O / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced rounded close-mid central vowel	vowel	ɵ̟ː	LATIN SMALL LETTER BARRED O / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long advanced rounded close-mid back vowel	vowel	o̟ː	LATIN SMALL LETTER O / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced rounded close central vowel	vowel	ʉ̟ː	LATIN SMALL LETTER U BAR / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long advanced nasalized unrounded open front vowel	vowel	ã̟ː	LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+long advanced nasalized unrounded open back vowel	vowel	ɑ̟̃ː	LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 less-rounded unrounded close front vowel	vowel	i̜	LATIN SMALL LETTER I / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded open-mid front vowel	vowel	œ̜	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded open-mid central vowel	vowel	ɞ̜	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded open-mid back vowel	vowel	ɔ̜	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW	+	
+less-rounded rounded near-close near-front vowel	vowel	ʏ̜	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded near-close near-back vowel	vowel	ʊ̜	LATIN SMALL LETTER UPSILON / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded mid front vowel	vowel	ø̞̜	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded mid back vowel	vowel	o̞̜	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
+less-rounded rounded close-mid back vowel	vowel	o̜	LATIN SMALL LETTER O / COMBINING LEFT HALF RING BELOW	+	
+less-rounded rounded close front vowel	vowel	y̜	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded close back vowel	vowel	u̜	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW	+	
 less-rounded creaky rounded open-mid central vowel	vowel	ɞ̜̰	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / COMBINING TILDE BELOW	+	
 less-rounded advanced rounded open-mid back vowel	vowel	ɔ̜̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
@@ -4518,6 +4751,7 @@ labio-palatalized voiced alveolar lateral fricative consonant	consonant	ɮᶣ	LA
 labio-palatalized voiced alveolar lateral approximant consonant	consonant	lᶣ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL TURNED H	+	
 labio-palatalized voiced alveolar lateral affricate consonant	consonant	dɮᶣ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL TURNED H	+	
 labio-palatalized voiced alveolar approximant consonant	consonant	ɹᶣ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL TURNED H	+	
+labio-palatalized velarized voiced alveolar lateral approximant consonant	consonant	lᶣˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL TURNED H / MODIFIER LETTER SMALL GAMMA	+	
 labio-palatalized aspirated voiceless velar stop consonant	consonant	kᶣʰ	LATIN SMALL LETTER K / MODIFIER LETTER SMALL TURNED H / MODIFIER LETTER SMALL H	+	
 labio-palatalized aspirated voiceless velar fricative consonant	consonant	xᶣʰ	LATIN SMALL LETTER X / MODIFIER LETTER SMALL TURNED H / MODIFIER LETTER SMALL H	+	
 labio-palatalized aspirated voiceless velar affricate consonant	consonant	kxᶣʰ	LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER SMALL TURNED H / MODIFIER LETTER SMALL H	+	
@@ -4824,6 +5058,11 @@ labialized velarized voiced alveolar lateral fricative consonant	consonant	ɮʷ�
 labialized velarized voiced alveolar lateral approximant consonant	consonant	lʷˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
 labialized velarized voiced alveolar lateral affricate consonant	consonant	dɮʷˠ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
 labialized velarized voiced alveolar approximant consonant	consonant	ɹʷˠ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
+labialized velarized pharyngealized voiced alveolar lateral approximant consonant	consonant	lʷˠˤ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+labialized velarized long voiced alveolar lateral approximant consonant	consonant	lʷˠː	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+labialized velarized devoiced voiced alveolar lateral approximant consonant	consonant	l̥ʷˠ	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
+labialized velarized creaky voiced alveolar lateral approximant consonant	consonant	l̰ʷˠ	LATIN SMALL LETTER L / COMBINING TILDE BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL GAMMA	+	
+labialized velarized breathy voiced alveolar lateral approximant consonant	consonant	lʷʱˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
 labialized unreleased voiceless velar stop consonant	consonant	kʷ̚	LATIN SMALL LETTER K / MODIFIER LETTER SMALL W / COMBINING LEFT ANGLE ABOVE	+	
 labialized pharyngealized voiceless velar stop consonant	consonant	kʷˤ	LATIN SMALL LETTER K / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 labialized pharyngealized voiceless velar fricative consonant	consonant	xʷˤ	LATIN SMALL LETTER X / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
@@ -5189,6 +5428,7 @@ labialized glottalized voiced alveolar lateral fricative consonant	consonant	ɮ�
 labialized glottalized voiced alveolar lateral approximant consonant	consonant	lʷˀ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER GLOTTAL STOP	+	
 labialized glottalized voiced alveolar lateral affricate consonant	consonant	dɮʷˀ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER SMALL W / MODIFIER LETTER GLOTTAL STOP	+	
 labialized glottalized voiced alveolar approximant consonant	consonant	ɹʷˀ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER SMALL W / MODIFIER LETTER GLOTTAL STOP	+	
+labialized glottalized velarized voiced alveolar lateral approximant consonant	consonant	lʷˀˠ	LATIN SMALL LETTER L / MODIFIER LETTER SMALL W / MODIFIER LETTER GLOTTAL STOP / MODIFIER LETTER SMALL GAMMA	+	
 labialized devoiced voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̥ʷ	LATIN SMALL LETTER ESH / COMBINING RING BELOW / MODIFIER LETTER SMALL W	+	
 labialized devoiced voiced velar stop consonant	consonant	g̥ʷ	LATIN SMALL LETTER G / COMBINING RING BELOW / MODIFIER LETTER SMALL W	+	
 labialized devoiced voiced velar nasal consonant	consonant	ŋ̥ʷ	LATIN SMALL LETTER ENG / COMBINING RING BELOW / MODIFIER LETTER SMALL W	+	
@@ -5731,6 +5971,7 @@ glottalized voiced alveolar lateral approximant consonant	consonant	lˀ	LATIN SM
 glottalized voiced alveolar lateral affricate consonant	consonant	dɮˀ	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / MODIFIER LETTER GLOTTAL STOP	+	
 glottalized voiced alveolar ejective nasal consonant	consonant	n’ˀ	LATIN SMALL LETTER N / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER GLOTTAL STOP	+	
 glottalized voiced alveolar approximant consonant	consonant	ɹˀ	LATIN SMALL LETTER TURNED R / MODIFIER LETTER GLOTTAL STOP	+	
+glottalized velarized voiced alveolar lateral approximant consonant	consonant	lˀˠ	LATIN SMALL LETTER L / MODIFIER LETTER GLOTTAL STOP / MODIFIER LETTER SMALL GAMMA	+	
 glottalized unrounded open-mid front vowel	vowel	ɛˀ	LATIN SMALL LETTER OPEN E / MODIFIER LETTER GLOTTAL STOP	+	
 glottalized unrounded open-mid central vowel	vowel	ɜˀ	LATIN SMALL LETTER REVERSED OPEN E / MODIFIER LETTER GLOTTAL STOP	+	
 glottalized unrounded open-mid back vowel	vowel	ʌˀ	LATIN SMALL LETTER TURNED V / MODIFIER LETTER GLOTTAL STOP	+	
@@ -5777,6 +6018,8 @@ glottalized aspirated voiced lateral click consonant	consonant	gǁʰˀ	LATIN SMA
 glottalized aspirated voiced dental click consonant	consonant	gǀʰˀ	LATIN SMALL LETTER G / LATIN LETTER DENTAL CLICK / MODIFIER LETTER SMALL H / MODIFIER LETTER GLOTTAL STOP	+	
 glottalized aspirated voiced alveolar click consonant	consonant	gǃʰˀ	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / MODIFIER LETTER SMALL H / MODIFIER LETTER GLOTTAL STOP	+	
 from voiceless velar stop to with-nasal-release voiceless bilabial stop cluster	cluster	kpⁿ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / SUPERSCRIPT LATIN SMALL LETTER N	+	
+from voiceless velar stop to voiceless velar stop cluster	cluster	kk	LATIN SMALL LETTER K / LATIN SMALL LETTER K	+	
+from voiceless velar stop to voiceless uvular fricative cluster	cluster	kχ	LATIN SMALL LETTER K / GREEK SMALL LETTER CHI	+	
 from voiceless velar stop to voiceless labio-dental fricative cluster	cluster	kf	LATIN SMALL LETTER K / LATIN SMALL LETTER F	+	
 from voiceless velar stop to voiceless bilabial stop cluster	cluster	kp	LATIN SMALL LETTER K / LATIN SMALL LETTER P	+	
 from voiceless velar stop to voiceless bilabial ejective stop cluster	cluster	kpʼ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER APOSTROPHE	+	
@@ -6197,27 +6440,49 @@ from voiced alveolar click to voiceless velar ejective fricative cluster	cluster
 from voiced alveolar click to voiceless velar ejective affricate cluster	cluster	gǃkx’	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / LATIN SMALL LETTER K / LATIN SMALL LETTER X / RIGHT SINGLE QUOTATION MARK	+	
 from voiced alveolar click to voiceless velar affricate cluster	cluster	gǃkx	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / LATIN SMALL LETTER K / LATIN SMALL LETTER X	+	
 from voiced alveolar click to glottalized voiceless velar affricate cluster	cluster	gǃkxˀ	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER GLOTTAL STOP	+	
+from unrounded open-mid front to unrounded open-mid central diphthong	diphthong	ɛɜ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER REVERSED OPEN E	+	
 from unrounded open-mid front to unrounded open front diphthong	diphthong	ɛa	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER A	+	
+from unrounded open-mid front to unrounded open back diphthong	diphthong	ɛɑ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER ALPHA	+	
+from unrounded open-mid front to unrounded near-open front diphthong	diphthong	ɛæ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER AE	+	
 from unrounded open-mid front to unrounded near-open central diphthong	diphthong	ɛɐ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER TURNED A	+	
 from unrounded open-mid front to unrounded near-close near-front diphthong	diphthong	ɛɪ	LATIN SMALL LETTER OPEN E / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded open-mid front to unrounded mid central diphthong	diphthong	ɛə	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER SCHWA	+	
 from unrounded open-mid front to unrounded close-mid front diphthong	diphthong	ɛe	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER E	+	
 from unrounded open-mid front to unrounded close front diphthong	diphthong	ɛi	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER I	+	
 from unrounded open-mid front to unrounded close back diphthong	diphthong	ɛɯ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER TURNED M	+	
+from unrounded open-mid front to ultra-short unrounded open back diphthong	diphthong	ɛɑ̆	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER ALPHA / COMBINING BREVE	+	
+from unrounded open-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	ɛɪ̆	LATIN SMALL LETTER OPEN E / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛə̆	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from unrounded open-mid front to rounded near-close near-front diphthong	diphthong	ɛʏ	LATIN SMALL LETTER OPEN E / LATIN LETTER SMALL CAPITAL Y	+	
 from unrounded open-mid front to rounded near-close near-back diphthong	diphthong	ɛʊ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER UPSILON	+	
 from unrounded open-mid front to rounded mid back diphthong	diphthong	ɛo̞	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW	+	
 from unrounded open-mid front to rounded close-mid back diphthong	diphthong	ɛo	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER O	+	
 from unrounded open-mid front to rounded close central diphthong	diphthong	ɛʉ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER U BAR	+	
 from unrounded open-mid front to rounded close back diphthong	diphthong	ɛu	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER U	+	
+from unrounded open-mid front to rhotacized unrounded mid central diphthong	diphthong	ɛə˞	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER SCHWA / MODIFIER LETTER RHOTIC HOOK	+	
 from unrounded open-mid front to non-syllabic unrounded close front diphthong	diphthong	ɛi̯	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from unrounded open-mid front to non-syllabic rounded close back diphthong	diphthong	ɛu̯	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
+from unrounded open-mid front to nasalized unrounded close front diphthong	diphthong	ɛĩ	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER I / COMBINING TILDE	+	
+from unrounded open-mid front to long unrounded close front diphthong	diphthong	ɛiː	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON	+	
+from unrounded open-mid front to glottalized unrounded near-close near-front diphthong	diphthong	ɛɪˀ	LATIN SMALL LETTER OPEN E / LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER GLOTTAL STOP	+	
 from unrounded open-mid front to advanced unrounded open front diphthong	diphthong	ɛa̟	LATIN SMALL LETTER OPEN E / LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW	+	
 from unrounded open-mid central to unrounded close front diphthong	diphthong	ɜi	LATIN SMALL LETTER REVERSED OPEN E / LATIN SMALL LETTER I	+	
+from unrounded open-mid central to rounded near-close near-front diphthong	diphthong	ɜʏ	LATIN SMALL LETTER REVERSED OPEN E / LATIN LETTER SMALL CAPITAL Y	+	
+from unrounded open-mid central to rounded near-close near-back diphthong	diphthong	ɜʊ	LATIN SMALL LETTER REVERSED OPEN E / LATIN SMALL LETTER UPSILON	+	
+from unrounded open-mid central to rounded close-mid back diphthong	diphthong	ɜo	LATIN SMALL LETTER REVERSED OPEN E / LATIN SMALL LETTER O	+	
+from unrounded open-mid central to rounded close central diphthong	diphthong	ɜʉ	LATIN SMALL LETTER REVERSED OPEN E / LATIN SMALL LETTER U BAR	+	
+from unrounded open-mid central to rounded close back diphthong	diphthong	ɜu	LATIN SMALL LETTER REVERSED OPEN E / LATIN SMALL LETTER U	+	
 from unrounded open-mid central to non-syllabic unrounded near-close near-front diphthong	diphthong	ɜɪ̯	LATIN SMALL LETTER REVERSED OPEN E / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW	+	
+from unrounded open-mid back to unrounded near-close near-front diphthong	diphthong	ʌɪ	LATIN SMALL LETTER TURNED V / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded open-mid back to unrounded mid central diphthong	diphthong	ʌə	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER SCHWA	+	
 from unrounded open-mid back to unrounded close front diphthong	diphthong	ʌi	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER I	+	
+from unrounded open-mid back to rounded near-close near-back diphthong	diphthong	ʌʊ	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER UPSILON	+	
+from unrounded open-mid back to rounded close front diphthong	diphthong	ʌy	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER Y	+	
+from unrounded open-mid back to rounded close central diphthong	diphthong	ʌʉ	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER U BAR	+	
 from unrounded open-mid back to rounded close back diphthong	diphthong	ʌu	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER U	+	
+from unrounded open-mid back to long unrounded close front diphthong	diphthong	ʌiː	LATIN SMALL LETTER TURNED V / LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded open front to unrounded open-mid front diphthong	diphthong	aɛ	LATIN SMALL LETTER A / LATIN SMALL LETTER OPEN E	+	
+from unrounded open front to unrounded open back diphthong	diphthong	aɑ	LATIN SMALL LETTER A / LATIN SMALL LETTER ALPHA	+	
 from unrounded open front to unrounded near-close near-front diphthong	diphthong	aɪ	LATIN SMALL LETTER A / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded open front to unrounded mid front diphthong	diphthong	ae̞	LATIN SMALL LETTER A / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from unrounded open front to unrounded mid central diphthong	diphthong	aə	LATIN SMALL LETTER A / LATIN SMALL LETTER SCHWA	+	
@@ -6225,9 +6490,13 @@ from unrounded open front to unrounded close-mid front diphthong	diphthong	ae	LA
 from unrounded open front to unrounded close front diphthong	diphthong	ai	LATIN SMALL LETTER A / LATIN SMALL LETTER I	+	
 from unrounded open front to unrounded close central diphthong	diphthong	aɨ	LATIN SMALL LETTER A / LATIN SMALL LETTER I WITH STROKE	+	
 from unrounded open front to unrounded close back diphthong	diphthong	aɯ	LATIN SMALL LETTER A / LATIN SMALL LETTER TURNED M	+	
+from unrounded open front to ultra-short unrounded near-close near-front diphthong	diphthong	aɪ̆	LATIN SMALL LETTER A / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from unrounded open front to ultra-short nasalized unrounded near-close near-front diphthong	diphthong	aɪ̃̆	LATIN SMALL LETTER A / LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / COMBINING BREVE	+	
 from unrounded open front to rounded open-mid back diphthong	diphthong	aɔ	LATIN SMALL LETTER A / LATIN SMALL LETTER OPEN O	+	
 from unrounded open front to rounded near-close near-back diphthong	diphthong	aʊ	LATIN SMALL LETTER A / LATIN SMALL LETTER UPSILON	+	
 from unrounded open front to rounded mid back diphthong	diphthong	ao̞	LATIN SMALL LETTER A / LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW	+	
+from unrounded open front to rounded close-mid front diphthong	diphthong	aø	LATIN SMALL LETTER A / LATIN SMALL LETTER O WITH STROKE	+	
+from unrounded open front to rounded close-mid central diphthong	diphthong	aɵ	LATIN SMALL LETTER A / LATIN SMALL LETTER BARRED O	+	
 from unrounded open front to rounded close-mid back diphthong	diphthong	ao	LATIN SMALL LETTER A / LATIN SMALL LETTER O	+	
 from unrounded open front to rounded close front diphthong	diphthong	ay	LATIN SMALL LETTER A / LATIN SMALL LETTER Y	+	
 from unrounded open front to rounded close central diphthong	diphthong	aʉ	LATIN SMALL LETTER A / LATIN SMALL LETTER U BAR	+	
@@ -6239,22 +6508,37 @@ from unrounded open front to non-syllabic unrounded close front diphthong	diphth
 from unrounded open front to non-syllabic rounded close-mid central diphthong	diphthong	aɵ̯	LATIN SMALL LETTER A / LATIN SMALL LETTER BARRED O / COMBINING INVERTED BREVE BELOW	+	
 from unrounded open front to non-syllabic rounded close back diphthong	diphthong	au̯	LATIN SMALL LETTER A / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from unrounded open front to nasalized unrounded near-close near-front diphthong	diphthong	aɪ̃	LATIN SMALL LETTER A / LATIN LETTER SMALL CAPITAL I / COMBINING TILDE	+	
+from unrounded open front to nasalized unrounded close front diphthong	diphthong	aĩ	LATIN SMALL LETTER A / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from unrounded open front to nasalized unrounded close back diphthong	diphthong	aɯ̃	LATIN SMALL LETTER A / LATIN SMALL LETTER TURNED M / COMBINING TILDE	+	
 from unrounded open front to nasalized rounded near-close near-back diphthong	diphthong	aʊ̃	LATIN SMALL LETTER A / LATIN SMALL LETTER UPSILON / COMBINING TILDE	+	
 from unrounded open front to long rounded close back diphthong	diphthong	auː	LATIN SMALL LETTER A / LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded open front to long non-syllabic unrounded close front diphthong	diphthong	ai̯ː	LATIN SMALL LETTER A / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from unrounded open back to unrounded near-close near-front diphthong	diphthong	ɑɪ	LATIN SMALL LETTER ALPHA / LATIN LETTER SMALL CAPITAL I	+	
+from unrounded open back to unrounded mid central diphthong	diphthong	ɑə	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER SCHWA	+	
 from unrounded open back to unrounded close-mid front diphthong	diphthong	ɑe	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER E	+	
 from unrounded open back to unrounded close front diphthong	diphthong	ɑi	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER I	+	
+from unrounded open back to ultra-short unrounded mid central diphthong	diphthong	ɑə̆	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from unrounded open back to ultra-short rounded near-close near-back diphthong	diphthong	ɑʊ̆	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER UPSILON / COMBINING BREVE	+	
+from unrounded open back to rounded open-mid back diphthong	diphthong	ɑɔ	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER OPEN O	+	
 from unrounded open back to rounded open back diphthong	diphthong	ɑɒ	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER TURNED ALPHA	+	
 from unrounded open back to rounded near-close near-back diphthong	diphthong	ɑʊ	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER UPSILON	+	
+from unrounded open back to rounded close-mid central diphthong	diphthong	ɑɵ	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER BARRED O	+	
 from unrounded open back to rounded close-mid back diphthong	diphthong	ɑo	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER O	+	
 from unrounded open back to rounded close back diphthong	diphthong	ɑu	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER U	+	
 from unrounded open back to non-syllabic unrounded close front diphthong	diphthong	ɑi̯	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from unrounded open back to non-syllabic rounded near-close near-back diphthong	diphthong	ɑʊ̯	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER UPSILON / COMBINING INVERTED BREVE BELOW	+	
 from unrounded near-open front to unrounded open-mid front diphthong	diphthong	æɛ	LATIN SMALL LETTER AE / LATIN SMALL LETTER OPEN E	+	
 from unrounded near-open front to unrounded near-close near-front diphthong	diphthong	æɪ	LATIN SMALL LETTER AE / LATIN LETTER SMALL CAPITAL I	+	
+from unrounded near-open front to unrounded mid central diphthong	diphthong	æə	LATIN SMALL LETTER AE / LATIN SMALL LETTER SCHWA	+	
 from unrounded near-open front to unrounded close-mid front diphthong	diphthong	æe	LATIN SMALL LETTER AE / LATIN SMALL LETTER E	+	
 from unrounded near-open front to unrounded close front diphthong	diphthong	æi	LATIN SMALL LETTER AE / LATIN SMALL LETTER I	+	
+from unrounded near-open front to unrounded close central diphthong	diphthong	æɨ	LATIN SMALL LETTER AE / LATIN SMALL LETTER I WITH STROKE	+	
+from unrounded near-open front to ultra-short unrounded near-close near-front diphthong	diphthong	æɪ̆	LATIN SMALL LETTER AE / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from unrounded near-open front to ultra-short unrounded mid central diphthong	diphthong	æə̆	LATIN SMALL LETTER AE / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from unrounded near-open front to rounded near-close near-front diphthong	diphthong	æʏ	LATIN SMALL LETTER AE / LATIN LETTER SMALL CAPITAL Y	+	
+from unrounded near-open front to rounded near-close near-back diphthong	diphthong	æʊ	LATIN SMALL LETTER AE / LATIN SMALL LETTER UPSILON	+	
+from unrounded near-open front to rounded close-mid front diphthong	diphthong	æø	LATIN SMALL LETTER AE / LATIN SMALL LETTER O WITH STROKE	+	
+from unrounded near-open front to rounded close-mid back diphthong	diphthong	æo	LATIN SMALL LETTER AE / LATIN SMALL LETTER O	+	
 from unrounded near-open front to rounded close central diphthong	diphthong	æʉ	LATIN SMALL LETTER AE / LATIN SMALL LETTER U BAR	+	
 from unrounded near-open front to rounded close back diphthong	diphthong	æu	LATIN SMALL LETTER AE / LATIN SMALL LETTER U	+	
 from unrounded near-open front to non-syllabic unrounded near-close near-front diphthong	diphthong	æɪ̯	LATIN SMALL LETTER AE / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW	+	
@@ -6264,31 +6548,45 @@ from unrounded near-open front to non-syllabic rounded close back diphthong	diph
 from unrounded near-open central to unrounded near-close near-front diphthong	diphthong	ɐɪ	LATIN SMALL LETTER TURNED A / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded near-open central to unrounded close front diphthong	diphthong	ɐi	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER I	+	
 from unrounded near-open central to rounded near-close near-back diphthong	diphthong	ɐʊ	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER UPSILON	+	
+from unrounded near-open central to rounded close-mid back diphthong	diphthong	ɐo	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER O	+	
+from unrounded near-open central to rounded close central diphthong	diphthong	ɐʉ	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER U BAR	+	
 from unrounded near-open central to rounded close back diphthong	diphthong	ɐu	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER U	+	
 from unrounded near-open central to non-syllabic unrounded close front diphthong	diphthong	ɐi̯	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from unrounded near-close near-front to unrounded open-mid front diphthong	diphthong	ɪɛ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER OPEN E	+	
+from unrounded near-close near-front to unrounded open-mid central diphthong	diphthong	ɪɜ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER REVERSED OPEN E	+	
 from unrounded near-close near-front to unrounded open-mid back diphthong	diphthong	ɪʌ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER TURNED V	+	
 from unrounded near-close near-front to unrounded open front diphthong	diphthong	ɪa	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER A	+	
+from unrounded near-close near-front to unrounded near-open central diphthong	diphthong	ɪɐ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER TURNED A	+	
 from unrounded near-close near-front to unrounded mid front diphthong	diphthong	ɪe̞	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from unrounded near-close near-front to unrounded mid central diphthong	diphthong	ɪə	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER SCHWA	+	
+from unrounded near-close near-front to unrounded close-mid front diphthong	diphthong	ɪe	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER E	+	
+from unrounded near-close near-front to unrounded close-mid back diphthong	diphthong	ɪɤ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER RAMS HORN	+	
 from unrounded near-close near-front to unrounded close front diphthong	diphthong	ɪi	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER I	+	
+from unrounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ɪə̆	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from unrounded near-close near-front to rounded near-close near-back diphthong	diphthong	ɪʊ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER UPSILON	+	
 from unrounded near-close near-front to rounded close back diphthong	diphthong	ɪu	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER U	+	
+from unrounded near-close near-front to rhotacized unrounded mid central diphthong	diphthong	ɪə˞	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER SCHWA / MODIFIER LETTER RHOTIC HOOK	+	
 from unrounded near-close near-front to long unrounded open-mid front diphthong	diphthong	ɪɛː	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded mid front to unrounded open front diphthong	diphthong	e̞a	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A	+	
 from unrounded mid front to unrounded mid central diphthong	diphthong	e̞ə	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
 from unrounded mid front to unrounded close front diphthong	diphthong	e̞i	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I	+	
+from unrounded mid front to ultra-short unrounded mid central diphthong	diphthong	e̞ə̆	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from unrounded mid front to rounded mid back diphthong	diphthong	e̞o̞	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW	+	
 from unrounded mid front to rounded close back diphthong	diphthong	e̞u	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER U	+	
 from unrounded mid front to non-syllabic rounded close back diphthong	diphthong	e̞u̯	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from unrounded mid central to unrounded open front diphthong	diphthong	əa	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER A	+	
+from unrounded mid central to unrounded near-close near-front diphthong	diphthong	əɪ	LATIN SMALL LETTER SCHWA / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded mid central to unrounded close-mid front diphthong	diphthong	əe	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER E	+	
 from unrounded mid central to unrounded close front diphthong	diphthong	əi	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER I	+	
 from unrounded mid central to unrounded close central diphthong	diphthong	əɨ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER I WITH STROKE	+	
 from unrounded mid central to unrounded close back diphthong	diphthong	əɯ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER TURNED M	+	
 from unrounded mid central to rounded open back diphthong	diphthong	əɒ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER TURNED ALPHA	+	
+from unrounded mid central to rounded near-close near-front diphthong	diphthong	əʏ	LATIN SMALL LETTER SCHWA / LATIN LETTER SMALL CAPITAL Y	+	
 from unrounded mid central to rounded near-close near-back diphthong	diphthong	əʊ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER UPSILON	+	
+from unrounded mid central to rounded close-mid front diphthong	diphthong	əø	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER O WITH STROKE	+	
 from unrounded mid central to rounded close-mid back diphthong	diphthong	əo	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER O	+	
 from unrounded mid central to rounded close front diphthong	diphthong	əy	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER Y	+	
+from unrounded mid central to rounded close central diphthong	diphthong	əʉ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER U BAR	+	
 from unrounded mid central to rounded close back diphthong	diphthong	əu	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER U	+	
 from unrounded mid central to retracted-tongue-root unrounded close central diphthong	diphthong	əɨ̙	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER I WITH STROKE / COMBINING RIGHT TACK BELOW	+	
 from unrounded mid central to non-syllabic unrounded close front diphthong	diphthong	əi̯	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
@@ -6296,12 +6594,18 @@ from unrounded mid central to non-syllabic rounded close back diphthong	diphthon
 from unrounded mid central to nasalized unrounded close front diphthong	diphthong	əĩ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from unrounded mid central to nasalized unrounded close back diphthong	diphthong	əɯ̃	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER TURNED M / COMBINING TILDE	+	
 from unrounded mid central to nasalized rounded close back diphthong	diphthong	əũ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER U / COMBINING TILDE	+	
+from unrounded mid central to mid-long rounded close-mid back diphthong	diphthong	əoˑ	LATIN SMALL LETTER SCHWA / LATIN SMALL LETTER O / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 from unrounded close-mid front to unrounded open-mid front diphthong	diphthong	eɛ	LATIN SMALL LETTER E / LATIN SMALL LETTER OPEN E	+	
+from unrounded close-mid front to unrounded open-mid back diphthong	diphthong	eʌ	LATIN SMALL LETTER E / LATIN SMALL LETTER TURNED V	+	
 from unrounded close-mid front to unrounded open front diphthong	diphthong	ea	LATIN SMALL LETTER E / LATIN SMALL LETTER A	+	
+from unrounded close-mid front to unrounded open back diphthong	diphthong	eɑ	LATIN SMALL LETTER E / LATIN SMALL LETTER ALPHA	+	
+from unrounded close-mid front to unrounded near-open central diphthong	diphthong	eɐ	LATIN SMALL LETTER E / LATIN SMALL LETTER TURNED A	+	
 from unrounded close-mid front to unrounded near-close near-front diphthong	diphthong	eɪ	LATIN SMALL LETTER E / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded close-mid front to unrounded mid central diphthong	diphthong	eə	LATIN SMALL LETTER E / LATIN SMALL LETTER SCHWA	+	
 from unrounded close-mid front to unrounded close-mid central diphthong	diphthong	eɘ	LATIN SMALL LETTER E / LATIN SMALL LETTER REVERSED E	+	
 from unrounded close-mid front to unrounded close front diphthong	diphthong	ei	LATIN SMALL LETTER E / LATIN SMALL LETTER I	+	
+from unrounded close-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	eɪ̆	LATIN SMALL LETTER E / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from unrounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	eə̆	LATIN SMALL LETTER E / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from unrounded close-mid front to rounded open-mid back diphthong	diphthong	eɔ	LATIN SMALL LETTER E / LATIN SMALL LETTER OPEN O	+	
 from unrounded close-mid front to rounded near-close near-back diphthong	diphthong	eʊ	LATIN SMALL LETTER E / LATIN SMALL LETTER UPSILON	+	
 from unrounded close-mid front to rounded close-mid back diphthong	diphthong	eo	LATIN SMALL LETTER E / LATIN SMALL LETTER O	+	
@@ -6310,9 +6614,12 @@ from unrounded close-mid front to retracted-tongue-root unrounded close front di
 from unrounded close-mid front to non-syllabic unrounded close front diphthong	diphthong	ei̯	LATIN SMALL LETTER E / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from unrounded close-mid front to non-syllabic rounded close back diphthong	diphthong	eu̯	LATIN SMALL LETTER E / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from unrounded close-mid front to nasalized unrounded near-close near-front diphthong	diphthong	eɪ̃	LATIN SMALL LETTER E / LATIN LETTER SMALL CAPITAL I / COMBINING TILDE	+	
+from unrounded close-mid front to nasalized unrounded mid central diphthong	diphthong	eə̃	LATIN SMALL LETTER E / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
+from unrounded close-mid front to long unrounded mid central diphthong	diphthong	eəː	LATIN SMALL LETTER E / LATIN SMALL LETTER SCHWA / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close-mid central to unrounded close front diphthong	diphthong	ɘi	LATIN SMALL LETTER REVERSED E / LATIN SMALL LETTER I	+	
 from unrounded close-mid central to rounded close front diphthong	diphthong	ɘy	LATIN SMALL LETTER REVERSED E / LATIN SMALL LETTER Y	+	
 from unrounded close-mid back to unrounded close front diphthong	diphthong	ɤi	LATIN SMALL LETTER RAMS HORN / LATIN SMALL LETTER I	+	
+from unrounded close-mid back to rounded close back diphthong	diphthong	ɤu	LATIN SMALL LETTER RAMS HORN / LATIN SMALL LETTER U	+	
 from unrounded close front to unrounded open-mid front diphthong	diphthong	iɛ	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN E	+	
 from unrounded close front to unrounded open-mid central diphthong	diphthong	iɜ	LATIN SMALL LETTER I / LATIN SMALL LETTER REVERSED OPEN E	+	
 from unrounded close front to unrounded open-mid back diphthong	diphthong	iʌ	LATIN SMALL LETTER I / LATIN SMALL LETTER TURNED V	+	
@@ -6320,31 +6627,49 @@ from unrounded close front to unrounded open front diphthong	diphthong	ia	LATIN 
 from unrounded close front to unrounded open back diphthong	diphthong	iɑ	LATIN SMALL LETTER I / LATIN SMALL LETTER ALPHA	+	
 from unrounded close front to unrounded near-open front diphthong	diphthong	iæ	LATIN SMALL LETTER I / LATIN SMALL LETTER AE	+	
 from unrounded close front to unrounded near-open central diphthong	diphthong	iɐ	LATIN SMALL LETTER I / LATIN SMALL LETTER TURNED A	+	
+from unrounded close front to unrounded near-close near-front diphthong	diphthong	iɪ	LATIN SMALL LETTER I / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded close front to unrounded mid front diphthong	diphthong	ie̞	LATIN SMALL LETTER I / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from unrounded close front to unrounded mid central diphthong	diphthong	iə	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA	+	
 from unrounded close front to unrounded close-mid front diphthong	diphthong	ie	LATIN SMALL LETTER I / LATIN SMALL LETTER E	+	
 from unrounded close front to unrounded close-mid central diphthong	diphthong	iɘ	LATIN SMALL LETTER I / LATIN SMALL LETTER REVERSED E	+	
 from unrounded close front to unrounded close-mid back diphthong	diphthong	iɤ	LATIN SMALL LETTER I / LATIN SMALL LETTER RAMS HORN	+	
 from unrounded close front to unrounded close central diphthong	diphthong	iɨ	LATIN SMALL LETTER I / LATIN SMALL LETTER I WITH STROKE	+	
+from unrounded close front to unrounded close back diphthong	diphthong	iɯ	LATIN SMALL LETTER I / LATIN SMALL LETTER TURNED M	+	
+from unrounded close front to ultra-short unrounded near-close near-front diphthong	diphthong	iɪ̆	LATIN SMALL LETTER I / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from unrounded close front to ultra-short unrounded mid central diphthong	diphthong	iə̆	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from unrounded close front to ultra-short lowered unrounded mid central diphthong	diphthong	iə̞̆	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
+from unrounded close front to rounded open-mid front diphthong	diphthong	iœ	LATIN SMALL LETTER I / LATIN SMALL LIGATURE OE	+	
 from unrounded close front to rounded open-mid back diphthong	diphthong	iɔ	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN O	+	
 from unrounded close front to rounded near-close near-back diphthong	diphthong	iʊ	LATIN SMALL LETTER I / LATIN SMALL LETTER UPSILON	+	
 from unrounded close front to rounded mid back diphthong	diphthong	io̞	LATIN SMALL LETTER I / LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW	+	
 from unrounded close front to rounded close-mid front diphthong	diphthong	iø	LATIN SMALL LETTER I / LATIN SMALL LETTER O WITH STROKE	+	
 from unrounded close front to rounded close-mid back diphthong	diphthong	io	LATIN SMALL LETTER I / LATIN SMALL LETTER O	+	
 from unrounded close front to rounded close back diphthong	diphthong	iu	LATIN SMALL LETTER I / LATIN SMALL LETTER U	+	
+from unrounded close front to rhotacized unrounded mid central diphthong	diphthong	iə˞	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / MODIFIER LETTER RHOTIC HOOK	+	
 from unrounded close front to retracted unrounded open-mid front diphthong	diphthong	iɛ̠	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN E / COMBINING MINUS SIGN BELOW	+	
 from unrounded close front to non-syllabic unrounded near-close near-front diphthong	diphthong	iɪ̯	LATIN SMALL LETTER I / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW	+	
 from unrounded close front to non-syllabic unrounded mid central diphthong	diphthong	iə̯	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW	+	
 from unrounded close front to non-syllabic rounded close back diphthong	diphthong	iu̯	LATIN SMALL LETTER I / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from unrounded close front to nasalized unrounded open-mid front diphthong	diphthong	iɛ̃	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN E / COMBINING TILDE	+	
+from unrounded close front to nasalized unrounded open front diphthong	diphthong	iã	LATIN SMALL LETTER I / LATIN SMALL LETTER A / COMBINING TILDE	+	
+from unrounded close front to nasalized unrounded open back diphthong	diphthong	iɑ̃	LATIN SMALL LETTER I / LATIN SMALL LETTER ALPHA / COMBINING TILDE	+	
 from unrounded close front to nasalized unrounded near-open front diphthong	diphthong	iæ̃	LATIN SMALL LETTER I / LATIN SMALL LETTER AE / COMBINING TILDE	+	
+from unrounded close front to nasalized unrounded mid central diphthong	diphthong	iə̃	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
 from unrounded close front to nasalized unrounded close-mid front diphthong	diphthong	iẽ	LATIN SMALL LETTER I / LATIN SMALL LETTER E / COMBINING TILDE	+	
+from unrounded close front to nasalized rounded open-mid back diphthong	diphthong	iɔ̃	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN O / COMBINING TILDE	+	
+from unrounded close front to nasalized rounded open back diphthong	diphthong	iɒ̃	LATIN SMALL LETTER I / LATIN SMALL LETTER TURNED ALPHA / COMBINING TILDE	+	
+from unrounded close front to nasalized rounded close-mid back diphthong	diphthong	iõ	LATIN SMALL LETTER I / LATIN SMALL LETTER O / COMBINING TILDE	+	
+from unrounded close front to nasalized rounded close back diphthong	diphthong	iũ	LATIN SMALL LETTER I / LATIN SMALL LETTER U / COMBINING TILDE	+	
+from unrounded close front to lowered unrounded mid central diphthong	diphthong	iə̞	LATIN SMALL LETTER I / LATIN SMALL LETTER SCHWA / COMBINING DOWN TACK BELOW	+	
 from unrounded close front to long unrounded open-mid front diphthong	diphthong	iɛː	LATIN SMALL LETTER I / LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close front to long unrounded open front diphthong	diphthong	iaː	LATIN SMALL LETTER I / LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON	+	
+from unrounded close front to long unrounded near-open front diphthong	diphthong	iæː	LATIN SMALL LETTER I / LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close front to long unrounded close-mid front diphthong	diphthong	ieː	LATIN SMALL LETTER I / LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close front to long rounded close-mid back diphthong	diphthong	ioː	LATIN SMALL LETTER I / LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close front to long nasalized unrounded close-mid front diphthong	diphthong	iẽː	LATIN SMALL LETTER I / LATIN SMALL LETTER E / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded close front to advanced unrounded open front diphthong	diphthong	ia̟	LATIN SMALL LETTER I / LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW	+	
+from unrounded close front to advanced unrounded open back diphthong	diphthong	iɑ̟	LATIN SMALL LETTER I / LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW	+	
+from unrounded close front to advanced nasalized unrounded open back diphthong	diphthong	iɑ̟̃	LATIN SMALL LETTER I / LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / COMBINING TILDE	+	
 from unrounded close central to unrounded open-mid front diphthong	diphthong	ɨɛ	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER OPEN E	+	
 from unrounded close central to unrounded open front diphthong	diphthong	ɨa	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER A	+	
 from unrounded close central to unrounded mid central diphthong	diphthong	ɨə	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER SCHWA	+	
@@ -6359,63 +6684,139 @@ from unrounded close back to unrounded close front diphthong	diphthong	ɯi	LATIN
 from unrounded close back to rounded close-mid back diphthong	diphthong	ɯo	LATIN SMALL LETTER TURNED M / LATIN SMALL LETTER O	+	
 from unrounded close back to non-syllabic unrounded near-close near-front diphthong	diphthong	ɯɪ̯	LATIN SMALL LETTER TURNED M / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW	+	
 from unreleased voiceless alveolar stop to voiceless alveolar sibilant fricative cluster	cluster	t̚s	LATIN SMALL LETTER T / COMBINING LEFT ANGLE ABOVE / LATIN SMALL LETTER S	+	
+from ultra-short unrounded open-mid front to unrounded open front diphthong	diphthong	ɛ̆a	LATIN SMALL LETTER OPEN E / COMBINING BREVE / LATIN SMALL LETTER A	+	
+from ultra-short unrounded open-mid front to mid-long unrounded open front diphthong	diphthong	ɛ̆aˑ	LATIN SMALL LETTER OPEN E / COMBINING BREVE / LATIN SMALL LETTER A / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short unrounded open back to mid-long raised unrounded open-mid front diphthong	diphthong	ɑ̆ɛ̝ˑ	LATIN SMALL LETTER ALPHA / COMBINING BREVE / LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short unrounded open back to lowered unrounded open-mid front diphthong	diphthong	ɑ̆ɛ̞	LATIN SMALL LETTER ALPHA / COMBINING BREVE / LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW	+	
+from ultra-short unrounded near-close near-front to unrounded open-mid front diphthong	diphthong	ɪ̆ɛ	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER OPEN E	+	
+from ultra-short unrounded near-close near-front to unrounded mid central diphthong	diphthong	ɪ̆ə	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER SCHWA	+	
+from ultra-short unrounded near-close near-front to unrounded close front diphthong	diphthong	ɪ̆i	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER I	+	
+from ultra-short unrounded near-close near-front to rounded close back diphthong	diphthong	ɪ̆u	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER U	+	
+from ultra-short unrounded near-close near-front to mid-long unrounded open-mid front diphthong	diphthong	ɪ̆ɛˑ	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER OPEN E / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short unrounded near-close near-front to mid-long unrounded near-open front diphthong	diphthong	ɪ̆æˑ	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER AE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short unrounded near-close near-front to mid-long lowered unrounded open-mid front diphthong	diphthong	ɪ̆ɛ̞ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short unrounded near-close near-front to long unrounded open-mid front diphthong	diphthong	ɪ̆ɛː	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE / LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON	+	
+from ultra-short unrounded mid central to unrounded close front diphthong	diphthong	ə̆i	LATIN SMALL LETTER SCHWA / COMBINING BREVE / LATIN SMALL LETTER I	+	
+from ultra-short rounded open-mid back to unrounded open back diphthong	diphthong	ɔ̆ɑ	LATIN SMALL LETTER OPEN O / COMBINING BREVE / LATIN SMALL LETTER ALPHA	+	
+from ultra-short rounded open-mid back to long raised unrounded open front diphthong	diphthong	ɔ̆a̝ː	LATIN SMALL LETTER OPEN O / COMBINING BREVE / LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from ultra-short rounded close front to ultra-short unrounded mid central diphthong	diphthong	y̆ə̆	LATIN SMALL LETTER Y / COMBINING BREVE / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from ultra-short rounded close front to mid-long rounded mid front diphthong	diphthong	y̆ø̞ˑ	LATIN SMALL LETTER Y / COMBINING BREVE / LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+from ultra-short lowered rounded open-mid back to long raised unrounded open front diphthong	diphthong	ɔ̞̆a̝ː	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING BREVE / LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 from strong voiceless post-alveolar stop to voiceless post-alveolar sibilant fricative cluster	cluster	t̠͈ʃ	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER ESH	+	
 from strong voiceless post-alveolar stop to long voiceless post-alveolar sibilant fricative cluster	cluster	t̠͈ʃː	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER ESH / MODIFIER LETTER TRIANGULAR COLON	+	
 from strong voiceless post-alveolar stop to labialized voiceless post-alveolar sibilant fricative cluster	cluster	t̠͈ʃʷ	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER ESH / MODIFIER LETTER SMALL W	+	
 from strong voiceless alveolar stop to voiceless alveolar sibilant fricative cluster	cluster	t͈s	LATIN SMALL LETTER T / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER S	+	
 from strong voiceless alveolar stop to labialized voiceless alveolar sibilant fricative cluster	cluster	t͈sʷ	LATIN SMALL LETTER T / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER S / MODIFIER LETTER SMALL W	+	
 from strong voiced post-alveolar stop to voiced post-alveolar sibilant fricative cluster	cluster	d̠͈ʒ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / COMBINING DOUBLE VERTICAL LINE BELOW / LATIN SMALL LETTER EZH	+	
+from rounded open-mid front to unrounded near-close near-front diphthong	diphthong	œɪ	LATIN SMALL LIGATURE OE / LATIN LETTER SMALL CAPITAL I	+	
+from rounded open-mid front to unrounded mid central diphthong	diphthong	œə	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER SCHWA	+	
 from rounded open-mid front to unrounded close front diphthong	diphthong	œi	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER I	+	
+from rounded open-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	œɪ̆	LATIN SMALL LIGATURE OE / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from rounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	œə̆	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded open-mid front to ultra-short rounded close front diphthong	diphthong	œy̆	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER Y / COMBINING BREVE	+	
+from rounded open-mid front to ultra-short more-rounded rounded close front diphthong	diphthong	œy̹̆	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW / COMBINING BREVE	+	
+from rounded open-mid front to rounded near-close near-front diphthong	diphthong	œʏ	LATIN SMALL LIGATURE OE / LATIN LETTER SMALL CAPITAL Y	+	
+from rounded open-mid front to rounded near-close near-back diphthong	diphthong	œʊ	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER UPSILON	+	
+from rounded open-mid front to rounded close-mid back diphthong	diphthong	œo	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER O	+	
 from rounded open-mid front to rounded close front diphthong	diphthong	œy	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER Y	+	
 from rounded open-mid front to rounded close back diphthong	diphthong	œu	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER U	+	
+from rounded open-mid front to mid-long rounded close front diphthong	diphthong	œyˑ	LATIN SMALL LIGATURE OE / LATIN SMALL LETTER Y / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 from rounded open-mid central to non-syllabic unrounded close-mid front diphthong	diphthong	ɞe̯	LATIN SMALL LETTER CLOSED REVERSED OPEN E / LATIN SMALL LETTER E / COMBINING INVERTED BREVE BELOW	+	
 from rounded open-mid central to non-syllabic rounded near-close near-front diphthong	diphthong	ɞʏ̯	LATIN SMALL LETTER CLOSED REVERSED OPEN E / LATIN LETTER SMALL CAPITAL Y / COMBINING INVERTED BREVE BELOW	+	
 from rounded open-mid back to unrounded open-mid front diphthong	diphthong	ɔɛ	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER OPEN E	+	
 from rounded open-mid back to unrounded open front diphthong	diphthong	ɔa	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER A	+	
+from rounded open-mid back to unrounded open back diphthong	diphthong	ɔɑ	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER ALPHA	+	
+from rounded open-mid back to unrounded near-open central diphthong	diphthong	ɔɐ	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER TURNED A	+	
 from rounded open-mid back to unrounded near-close near-front diphthong	diphthong	ɔɪ	LATIN SMALL LETTER OPEN O / LATIN LETTER SMALL CAPITAL I	+	
 from rounded open-mid back to unrounded mid central diphthong	diphthong	ɔə	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER SCHWA	+	
 from rounded open-mid back to unrounded close-mid front diphthong	diphthong	ɔe	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER E	+	
 from rounded open-mid back to unrounded close front diphthong	diphthong	ɔi	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER I	+	
+from rounded open-mid back to ultra-short unrounded near-close near-front diphthong	diphthong	ɔɪ̆	LATIN SMALL LETTER OPEN O / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔə̆	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from rounded open-mid back to rounded near-close near-front diphthong	diphthong	ɔʏ	LATIN SMALL LETTER OPEN O / LATIN LETTER SMALL CAPITAL Y	+	
 from rounded open-mid back to rounded near-close near-back diphthong	diphthong	ɔʊ	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER UPSILON	+	
 from rounded open-mid back to rounded close-mid back diphthong	diphthong	ɔo	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER O	+	
 from rounded open-mid back to rounded close front diphthong	diphthong	ɔy	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER Y	+	
 from rounded open-mid back to rounded close back diphthong	diphthong	ɔu	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER U	+	
+from rounded open-mid back to rhotacized unrounded mid central diphthong	diphthong	ɔə˞	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER SCHWA / MODIFIER LETTER RHOTIC HOOK	+	
 from rounded open-mid back to non-syllabic unrounded close front diphthong	diphthong	ɔi̯	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from rounded open-mid back to non-syllabic rounded near-close near-back diphthong	diphthong	ɔʊ̯	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER UPSILON / COMBINING INVERTED BREVE BELOW	+	
 from rounded open-mid back to non-syllabic rounded close-mid back diphthong	diphthong	ɔo̯	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER O / COMBINING INVERTED BREVE BELOW	+	
 from rounded open-mid back to non-syllabic rounded close back diphthong	diphthong	ɔu̯	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
+from rounded open-mid back to nasalized unrounded close-mid front diphthong	diphthong	ɔẽ	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER E / COMBINING TILDE	+	
 from rounded open-mid back to long unrounded open front diphthong	diphthong	ɔaː	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON	+	
+from rounded open-mid back to long unrounded mid central diphthong	diphthong	ɔəː	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER SCHWA / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded open-mid back to long non-syllabic rounded close front diphthong	diphthong	ɔy̯ː	LATIN SMALL LETTER OPEN O / LATIN SMALL LETTER Y / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from rounded open back to unrounded near-close near-front diphthong	diphthong	ɒɪ	LATIN SMALL LETTER TURNED ALPHA / LATIN LETTER SMALL CAPITAL I	+	
+from rounded open back to unrounded mid central diphthong	diphthong	ɒə	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER SCHWA	+	
+from rounded open back to unrounded close-mid back diphthong	diphthong	ɒɤ	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER RAMS HORN	+	
+from rounded open back to unrounded close front diphthong	diphthong	ɒi	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER I	+	
+from rounded open back to rounded open-mid back diphthong	diphthong	ɒɔ	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER OPEN O	+	
+from rounded open back to rounded near-close near-back diphthong	diphthong	ɒʊ	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER UPSILON	+	
+from rounded open back to rounded close back diphthong	diphthong	ɒu	LATIN SMALL LETTER TURNED ALPHA / LATIN SMALL LETTER U	+	
+from rounded near-close near-front to unrounded open-mid front diphthong	diphthong	ʏɛ	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER OPEN E	+	
+from rounded near-close near-front to unrounded near-open central diphthong	diphthong	ʏɐ	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER TURNED A	+	
+from rounded near-close near-front to unrounded mid central diphthong	diphthong	ʏə	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER SCHWA	+	
+from rounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ʏə̆	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded near-close near-front to ultra-short rounded close front diphthong	diphthong	ʏy̆	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER Y / COMBINING BREVE	+	
+from rounded near-close near-front to rounded close-mid back diphthong	diphthong	ʏo	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER O	+	
+from rounded near-close near-front to rounded close front diphthong	diphthong	ʏy	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER Y	+	
+from rounded near-close near-front to rounded close central diphthong	diphthong	ʏʉ	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER U BAR	+	
+from rounded near-close near-front to rounded close back diphthong	diphthong	ʏu	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER U	+	
 from rounded near-close near-front to non-syllabic unrounded close front diphthong	diphthong	ʏi̯	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from rounded near-close near-back to unrounded open-mid front diphthong	diphthong	ʊɛ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER OPEN E	+	
 from rounded near-close near-back to unrounded open front diphthong	diphthong	ʊa	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER A	+	
+from rounded near-close near-back to unrounded open back diphthong	diphthong	ʊɑ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER ALPHA	+	
+from rounded near-close near-back to unrounded near-open central diphthong	diphthong	ʊɐ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER TURNED A	+	
 from rounded near-close near-back to unrounded near-close near-front diphthong	diphthong	ʊɪ	LATIN SMALL LETTER UPSILON / LATIN LETTER SMALL CAPITAL I	+	
 from rounded near-close near-back to unrounded mid central diphthong	diphthong	ʊə	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER SCHWA	+	
 from rounded near-close near-back to unrounded close-mid front diphthong	diphthong	ʊe	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER E	+	
 from rounded near-close near-back to unrounded close front diphthong	diphthong	ʊi	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER I	+	
+from rounded near-close near-back to ultra-short unrounded open back diphthong	diphthong	ʊɑ̆	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER ALPHA / COMBINING BREVE	+	
+from rounded near-close near-back to ultra-short unrounded near-open front diphthong	diphthong	ʊæ̆	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER AE / COMBINING BREVE	+	
+from rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊə̆	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from rounded near-close near-back to rounded open-mid back diphthong	diphthong	ʊɔ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER OPEN O	+	
+from rounded near-close near-back to rounded close-mid back diphthong	diphthong	ʊo	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER O	+	
 from rounded near-close near-back to rounded close back diphthong	diphthong	ʊu	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER U	+	
 from rounded near-close near-back to non-syllabic rounded near-close near-front diphthong	diphthong	ʊʏ̯	LATIN SMALL LETTER UPSILON / LATIN LETTER SMALL CAPITAL Y / COMBINING INVERTED BREVE BELOW	+	
+from rounded near-close near-back to mid-long rounded open-mid back diphthong	diphthong	ʊɔˑ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER OPEN O / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 from rounded near-close central to unrounded close front diphthong	diphthong	ʊ̈i	LATIN SMALL LETTER UPSILON / COMBINING DIAERESIS / LATIN SMALL LETTER I	+	
+from rounded mid front to ultra-short unrounded mid central diphthong	diphthong	ø̞ə̆	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded mid front to ultra-short rounded close front diphthong	diphthong	ø̞y̆	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
 from rounded mid back to unrounded open front diphthong	diphthong	o̞a	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A	+	
 from rounded mid back to unrounded mid front diphthong	diphthong	o̞e̞	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from rounded mid back to unrounded close front diphthong	diphthong	o̞i	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I	+	
+from rounded mid back to ultra-short unrounded open-mid front diphthong	diphthong	o̞ɛ̆	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from rounded mid back to ultra-short unrounded mid central diphthong	diphthong	o̞ə̆	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded mid back to ultra-short rounded open-mid front diphthong	diphthong	o̞œ̆	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LIGATURE OE / COMBINING BREVE	+	
 from rounded mid back to rounded close back diphthong	diphthong	o̞u	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER U	+	
 from rounded mid back to pharyngealized unrounded open front diphthong	diphthong	o̞aˤ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from rounded mid back to pharyngealized unrounded close front diphthong	diphthong	o̞iˤ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from rounded mid back to non-syllabic unrounded close front diphthong	diphthong	o̞i̯	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from rounded close-mid front to unrounded near-open central diphthong	diphthong	øɐ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER TURNED A	+	
 from rounded close-mid front to unrounded near-close near-front diphthong	diphthong	øɪ	LATIN SMALL LETTER O WITH STROKE / LATIN LETTER SMALL CAPITAL I	+	
 from rounded close-mid front to unrounded mid central diphthong	diphthong	øə	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER SCHWA	+	
 from rounded close-mid front to unrounded close-mid central diphthong	diphthong	øɘ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER REVERSED E	+	
 from rounded close-mid front to unrounded close front diphthong	diphthong	øi	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER I	+	
+from rounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	øə̆	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded close-mid front to ultra-short rounded close front diphthong	diphthong	øy̆	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER Y / COMBINING BREVE	+	
+from rounded close-mid front to rounded open-mid back diphthong	diphthong	øɔ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER OPEN O	+	
+from rounded close-mid front to rounded near-close near-front diphthong	diphthong	øʏ	LATIN SMALL LETTER O WITH STROKE / LATIN LETTER SMALL CAPITAL Y	+	
+from rounded close-mid front to rounded near-close near-back diphthong	diphthong	øʊ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER UPSILON	+	
 from rounded close-mid front to rounded close front diphthong	diphthong	øy	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER Y	+	
+from rounded close-mid front to rounded close central diphthong	diphthong	øʉ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER U BAR	+	
 from rounded close-mid front to rounded close back diphthong	diphthong	øu	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER U	+	
 from rounded close-mid front to non-syllabic unrounded near-close near-front diphthong	diphthong	øɪ̯	LATIN SMALL LETTER O WITH STROKE / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW	+	
 from rounded close-mid front to non-syllabic rounded close front diphthong	diphthong	øy̯	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER Y / COMBINING INVERTED BREVE BELOW	+	
+from rounded close-mid front to glottalized rounded open-mid back diphthong	diphthong	øɔˀ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER OPEN O / MODIFIER LETTER GLOTTAL STOP	+	
 from rounded close-mid central to unrounded mid central diphthong	diphthong	ɵə	LATIN SMALL LETTER BARRED O / LATIN SMALL LETTER SCHWA	+	
+from rounded close-mid central to rounded near-close near-back diphthong	diphthong	ɵʊ	LATIN SMALL LETTER BARRED O / LATIN SMALL LETTER UPSILON	+	
 from rounded close-mid central to rounded close front diphthong	diphthong	ɵy	LATIN SMALL LETTER BARRED O / LATIN SMALL LETTER Y	+	
+from rounded close-mid central to rounded close back diphthong	diphthong	ɵu	LATIN SMALL LETTER BARRED O / LATIN SMALL LETTER U	+	
 from rounded close-mid back to unrounded open-mid front diphthong	diphthong	oɛ	LATIN SMALL LETTER O / LATIN SMALL LETTER OPEN E	+	
 from rounded close-mid back to unrounded open front diphthong	diphthong	oa	LATIN SMALL LETTER O / LATIN SMALL LETTER A	+	
+from rounded close-mid back to unrounded open back diphthong	diphthong	oɑ	LATIN SMALL LETTER O / LATIN SMALL LETTER ALPHA	+	
+from rounded close-mid back to unrounded near-open central diphthong	diphthong	oɐ	LATIN SMALL LETTER O / LATIN SMALL LETTER TURNED A	+	
 from rounded close-mid back to unrounded near-close near-front diphthong	diphthong	oɪ	LATIN SMALL LETTER O / LATIN LETTER SMALL CAPITAL I	+	
 from rounded close-mid back to unrounded mid front diphthong	diphthong	oe̞	LATIN SMALL LETTER O / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from rounded close-mid back to unrounded mid central diphthong	diphthong	oə	LATIN SMALL LETTER O / LATIN SMALL LETTER SCHWA	+	
@@ -6423,6 +6824,7 @@ from rounded close-mid back to unrounded close-mid front diphthong	diphthong	oe	
 from rounded close-mid back to unrounded close-mid central diphthong	diphthong	oɘ	LATIN SMALL LETTER O / LATIN SMALL LETTER REVERSED E	+	
 from rounded close-mid back to unrounded close front diphthong	diphthong	oi	LATIN SMALL LETTER O / LATIN SMALL LETTER I	+	
 from rounded close-mid back to unrounded close central diphthong	diphthong	oɨ	LATIN SMALL LETTER O / LATIN SMALL LETTER I WITH STROKE	+	
+from rounded close-mid back to ultra-short unrounded mid central diphthong	diphthong	oə̆	LATIN SMALL LETTER O / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from rounded close-mid back to rounded open-mid back diphthong	diphthong	oɔ	LATIN SMALL LETTER O / LATIN SMALL LETTER OPEN O	+	
 from rounded close-mid back to rounded near-close near-back diphthong	diphthong	oʊ	LATIN SMALL LETTER O / LATIN SMALL LETTER UPSILON	+	
 from rounded close-mid back to rounded close central diphthong	diphthong	oʉ	LATIN SMALL LETTER O / LATIN SMALL LETTER U BAR	+	
@@ -6430,17 +6832,29 @@ from rounded close-mid back to rounded close back diphthong	diphthong	ou	LATIN S
 from rounded close-mid back to retracted-tongue-root rounded close back diphthong	diphthong	ou̙	LATIN SMALL LETTER O / LATIN SMALL LETTER U / COMBINING RIGHT TACK BELOW	+	
 from rounded close-mid back to non-syllabic unrounded close front diphthong	diphthong	oi̯	LATIN SMALL LETTER O / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from rounded close-mid back to non-syllabic rounded close back diphthong	diphthong	ou̯	LATIN SMALL LETTER O / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
+from rounded close-mid back to nasalized unrounded near-open central diphthong	diphthong	oɐ̃	LATIN SMALL LETTER O / LATIN SMALL LETTER TURNED A / COMBINING TILDE	+	
 from rounded close-mid back to nasalized rounded near-close near-back diphthong	diphthong	oʊ̃	LATIN SMALL LETTER O / LATIN SMALL LETTER UPSILON / COMBINING TILDE	+	
+from rounded close-mid back to glottalized rounded open-mid back diphthong	diphthong	oɔˀ	LATIN SMALL LETTER O / LATIN SMALL LETTER OPEN O / MODIFIER LETTER GLOTTAL STOP	+	
 from rounded close front to unrounded open-mid front diphthong	diphthong	yɛ	LATIN SMALL LETTER Y / LATIN SMALL LETTER OPEN E	+	
 from rounded close front to unrounded open-mid central diphthong	diphthong	yɜ	LATIN SMALL LETTER Y / LATIN SMALL LETTER REVERSED OPEN E	+	
+from rounded close front to unrounded open-mid back diphthong	diphthong	yʌ	LATIN SMALL LETTER Y / LATIN SMALL LETTER TURNED V	+	
 from rounded close front to unrounded open front diphthong	diphthong	ya	LATIN SMALL LETTER Y / LATIN SMALL LETTER A	+	
+from rounded close front to unrounded open back diphthong	diphthong	yɑ	LATIN SMALL LETTER Y / LATIN SMALL LETTER ALPHA	+	
 from rounded close front to unrounded near-open front diphthong	diphthong	yæ	LATIN SMALL LETTER Y / LATIN SMALL LETTER AE	+	
+from rounded close front to unrounded near-open central diphthong	diphthong	yɐ	LATIN SMALL LETTER Y / LATIN SMALL LETTER TURNED A	+	
+from rounded close front to unrounded near-close near-front diphthong	diphthong	yɪ	LATIN SMALL LETTER Y / LATIN LETTER SMALL CAPITAL I	+	
 from rounded close front to unrounded mid central diphthong	diphthong	yə	LATIN SMALL LETTER Y / LATIN SMALL LETTER SCHWA	+	
 from rounded close front to unrounded close-mid front diphthong	diphthong	ye	LATIN SMALL LETTER Y / LATIN SMALL LETTER E	+	
+from rounded close front to unrounded close-mid back diphthong	diphthong	yɤ	LATIN SMALL LETTER Y / LATIN SMALL LETTER RAMS HORN	+	
 from rounded close front to unrounded close front diphthong	diphthong	yi	LATIN SMALL LETTER Y / LATIN SMALL LETTER I	+	
+from rounded close front to unrounded close central diphthong	diphthong	yɨ	LATIN SMALL LETTER Y / LATIN SMALL LETTER I WITH STROKE	+	
+from rounded close front to ultra-short unrounded mid central diphthong	diphthong	yə̆	LATIN SMALL LETTER Y / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from rounded close front to rounded open-mid front diphthong	diphthong	yœ	LATIN SMALL LETTER Y / LATIN SMALL LIGATURE OE	+	
+from rounded close front to rounded open-mid back diphthong	diphthong	yɔ	LATIN SMALL LETTER Y / LATIN SMALL LETTER OPEN O	+	
+from rounded close front to rounded open back diphthong	diphthong	yɒ	LATIN SMALL LETTER Y / LATIN SMALL LETTER TURNED ALPHA	+	
 from rounded close front to rounded mid front diphthong	diphthong	yø̞	LATIN SMALL LETTER Y / LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW	+	
 from rounded close front to rounded close-mid front diphthong	diphthong	yø	LATIN SMALL LETTER Y / LATIN SMALL LETTER O WITH STROKE	+	
+from rounded close front to rounded close-mid central diphthong	diphthong	yɵ	LATIN SMALL LETTER Y / LATIN SMALL LETTER BARRED O	+	
 from rounded close front to rounded close-mid back diphthong	diphthong	yo	LATIN SMALL LETTER Y / LATIN SMALL LETTER O	+	
 from rounded close front to rounded close back diphthong	diphthong	yu	LATIN SMALL LETTER Y / LATIN SMALL LETTER U	+	
 from rounded close front to non-syllabic unrounded mid central diphthong	diphthong	yə̯	LATIN SMALL LETTER Y / LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW	+	
@@ -6448,6 +6862,7 @@ from rounded close front to non-syllabic unrounded close front diphthong	diphtho
 from rounded close front to non-syllabic rounded close back diphthong	diphthong	yu̯	LATIN SMALL LETTER Y / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from rounded close front to nasalized unrounded close front diphthong	diphthong	yĩ	LATIN SMALL LETTER Y / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from rounded close front to long rounded open-mid front diphthong	diphthong	yœː	LATIN SMALL LETTER Y / LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON	+	
+from rounded close central to unrounded mid central diphthong	diphthong	ʉə	LATIN SMALL LETTER U BAR / LATIN SMALL LETTER SCHWA	+	
 from rounded close central to unrounded close front diphthong	diphthong	ʉi	LATIN SMALL LETTER U BAR / LATIN SMALL LETTER I	+	
 from rounded close central to rounded close back diphthong	diphthong	ʉu	LATIN SMALL LETTER U BAR / LATIN SMALL LETTER U	+	
 from rounded close central to retracted rounded open-mid front diphthong	diphthong	ʉœ̠	LATIN SMALL LETTER U BAR / LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW	+	
@@ -6464,10 +6879,17 @@ from rounded close back to unrounded near-close near-front diphthong	diphthong	u
 from rounded close back to unrounded mid front diphthong	diphthong	ue̞	LATIN SMALL LETTER U / LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW	+	
 from rounded close back to unrounded mid central diphthong	diphthong	uə	LATIN SMALL LETTER U / LATIN SMALL LETTER SCHWA	+	
 from rounded close back to unrounded close-mid front diphthong	diphthong	ue	LATIN SMALL LETTER U / LATIN SMALL LETTER E	+	
+from rounded close back to unrounded close-mid back diphthong	diphthong	uɤ	LATIN SMALL LETTER U / LATIN SMALL LETTER RAMS HORN	+	
 from rounded close back to unrounded close front diphthong	diphthong	ui	LATIN SMALL LETTER U / LATIN SMALL LETTER I	+	
 from rounded close back to unrounded close central diphthong	diphthong	uɨ	LATIN SMALL LETTER U / LATIN SMALL LETTER I WITH STROKE	+	
+from rounded close back to ultra-short unrounded open-mid front diphthong	diphthong	uɛ̆	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from rounded close back to ultra-short unrounded mid central diphthong	diphthong	uə̆	LATIN SMALL LETTER U / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from rounded close back to ultra-short rounded open-mid back diphthong	diphthong	uɔ̆	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN O / COMBINING BREVE	+	
+from rounded close back to ultra-short rounded near-close near-back diphthong	diphthong	uʊ̆	LATIN SMALL LETTER U / LATIN SMALL LETTER UPSILON / COMBINING BREVE	+	
 from rounded close back to rounded open-mid front diphthong	diphthong	uœ	LATIN SMALL LETTER U / LATIN SMALL LIGATURE OE	+	
 from rounded close back to rounded open-mid back diphthong	diphthong	uɔ	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN O	+	
+from rounded close back to rounded open back diphthong	diphthong	uɒ	LATIN SMALL LETTER U / LATIN SMALL LETTER TURNED ALPHA	+	
+from rounded close back to rounded near-close near-back diphthong	diphthong	uʊ	LATIN SMALL LETTER U / LATIN SMALL LETTER UPSILON	+	
 from rounded close back to rounded mid back diphthong	diphthong	uo̞	LATIN SMALL LETTER U / LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW	+	
 from rounded close back to rounded close-mid back diphthong	diphthong	uo	LATIN SMALL LETTER U / LATIN SMALL LETTER O	+	
 from rounded close back to rhotacized unrounded open back diphthong	diphthong	uɑ˞	LATIN SMALL LETTER U / LATIN SMALL LETTER ALPHA / MODIFIER LETTER RHOTIC HOOK	+	
@@ -6476,13 +6898,29 @@ from rounded close back to non-syllabic unrounded close front diphthong	diphthon
 from rounded close back to nasalized unrounded open-mid front diphthong	diphthong	uɛ̃	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN E / COMBINING TILDE	+	
 from rounded close back to nasalized unrounded open front diphthong	diphthong	uã	LATIN SMALL LETTER U / LATIN SMALL LETTER A / COMBINING TILDE	+	
 from rounded close back to nasalized unrounded open back diphthong	diphthong	uɑ̃	LATIN SMALL LETTER U / LATIN SMALL LETTER ALPHA / COMBINING TILDE	+	
+from rounded close back to nasalized unrounded mid central diphthong	diphthong	uə̃	LATIN SMALL LETTER U / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
 from rounded close back to nasalized unrounded close-mid front diphthong	diphthong	uẽ	LATIN SMALL LETTER U / LATIN SMALL LETTER E / COMBINING TILDE	+	
 from rounded close back to long unrounded open front diphthong	diphthong	uaː	LATIN SMALL LETTER U / LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded close back to long rounded open-mid back diphthong	diphthong	uɔː	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded close back to long rounded close-mid back diphthong	diphthong	uoː	LATIN SMALL LETTER U / LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded close back to advanced unrounded open front diphthong	diphthong	ua̟	LATIN SMALL LETTER U / LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW	+	
 from retracted-tongue-root unrounded close back to non-syllabic unrounded close front diphthong	diphthong	ɯ̙i̯	LATIN SMALL LETTER TURNED M / COMBINING RIGHT TACK BELOW / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from retracted rounded open-mid front to ultra-short rounded close front diphthong	diphthong	œ̠y̆	LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
 from retracted rounded close back to rounded close back diphthong	diphthong	u̠u	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER U	+	
+from raised unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛ̝ə̆	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised unrounded open front to ultra-short unrounded near-close near-front diphthong	diphthong	a̝ɪ̆	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from raised unrounded open back to ultra-short unrounded near-close near-front diphthong	diphthong	ɑ̝ɪ̆	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from raised unrounded near-open front to ultra-short unrounded near-close near-front diphthong	diphthong	æ̝ɪ̆	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from raised unrounded near-close near-front to unrounded mid central diphthong	diphthong	ɪ̝ə	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA	+	
+from raised unrounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ɪ̝ə̆	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised unrounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	e̝ə̆	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised unrounded close front to ultra-short unrounded mid central diphthong	diphthong	i̝ə̆	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised rounded open-mid front to ultra-short rounded close front diphthong	diphthong	œ̝y̆	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
+from raised rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔ̝ə̆	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised rounded near-close near-back to ultra-short unrounded open-mid front diphthong	diphthong	ʊ̝ɛ̆	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from raised rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̝ə̆	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from raised rounded close-mid front to ultra-short rounded close front diphthong	diphthong	ø̝y̆	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
+from raised rounded close-mid back to ultra-short unrounded mid central diphthong	diphthong	o̝ə̆	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from pre-nasalized voiceless velar stop to voiceless bilabial stop cluster	cluster	ⁿkp	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER K / LATIN SMALL LETTER P	+	
 from pre-nasalized voiceless dental stop to aspirated voiceless dental sibilant fricative cluster	cluster	ⁿt̪s̪ʰ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER T / COMBINING BRIDGE BELOW / LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / MODIFIER LETTER SMALL H	+	
 from pre-nasalized voiceless alveolar stop to voiceless bilabial fricative cluster	cluster	ⁿtɸ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER T / LATIN SMALL LETTER PHI	+	
@@ -6534,11 +6972,14 @@ from non-syllabic rounded close back to rounded open-mid back diphthong	diphthon
 from non-syllabic rounded close back to rounded close-mid back diphthong	diphthong	u̯o	LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER O	+	
 from non-syllabic rounded close back to nasalized rounded close-mid back diphthong	diphthong	u̯õ	LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER O / COMBINING TILDE	+	
 from nasalized unrounded open-mid front to unrounded mid central diphthong	diphthong	ɛ̃ə	LATIN SMALL LETTER OPEN E / COMBINING TILDE / LATIN SMALL LETTER SCHWA	+	
+from nasalized unrounded open-mid front to unrounded close front diphthong	diphthong	ɛ̃i	LATIN SMALL LETTER OPEN E / COMBINING TILDE / LATIN SMALL LETTER I	+	
+from nasalized unrounded open-mid front to nasalized unrounded close front diphthong	diphthong	ɛ̃ĩ	LATIN SMALL LETTER OPEN E / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized unrounded open-mid front to nasalized rounded open-mid back diphthong	diphthong	ɛ̃ɔ̃	LATIN SMALL LETTER OPEN E / COMBINING TILDE / LATIN SMALL LETTER OPEN O / COMBINING TILDE	+	
 from nasalized unrounded open-mid front to nasalized rounded close back diphthong	diphthong	ɛ̃ũ	LATIN SMALL LETTER OPEN E / COMBINING TILDE / LATIN SMALL LETTER U / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized unrounded open-mid front diphthong	diphthong	ãɛ̃	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER OPEN E / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized unrounded close-mid front diphthong	diphthong	ãẽ	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER E / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized unrounded close front diphthong	diphthong	ãĩ	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
+from nasalized unrounded open front to nasalized rounded open-mid back diphthong	diphthong	ãɔ̃	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER OPEN O / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized rounded close-mid back diphthong	diphthong	ãõ	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER O / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized rounded close central diphthong	diphthong	ãʉ̃	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER U BAR / COMBINING TILDE	+	
 from nasalized unrounded open front to nasalized rounded close back diphthong	diphthong	ãũ	LATIN SMALL LETTER A / COMBINING TILDE / LATIN SMALL LETTER U / COMBINING TILDE	+	
@@ -6546,12 +6987,15 @@ from nasalized unrounded open front to long non-syllabic unrounded near-close ne
 from nasalized unrounded open back to nasalized rounded open-mid back diphthong	diphthong	ɑ̃ɔ̃	LATIN SMALL LETTER ALPHA / COMBINING TILDE / LATIN SMALL LETTER OPEN O / COMBINING TILDE	+	
 from nasalized unrounded near-open front to unrounded close front diphthong	diphthong	æ̃i	LATIN SMALL LETTER AE / COMBINING TILDE / LATIN SMALL LETTER I	+	
 from nasalized unrounded near-open front to non-syllabic nasalized unrounded near-close near-front diphthong	diphthong	æ̃ɪ̯̃	LATIN SMALL LETTER AE / COMBINING TILDE / LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW / COMBINING TILDE	+	
+from nasalized unrounded near-open front to nasalized unrounded close front diphthong	diphthong	æ̃ĩ	LATIN SMALL LETTER AE / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized unrounded near-close near-front to unrounded open-mid front diphthong	diphthong	ɪ̃ɛ	LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / LATIN SMALL LETTER OPEN E	+	
+from nasalized unrounded near-close near-front to ultra-short nasalized unrounded mid central diphthong	diphthong	ɪ̃ə̃̆	LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / LATIN SMALL LETTER SCHWA / COMBINING TILDE / COMBINING BREVE	+	
 from nasalized unrounded near-close near-front to nasalized unrounded mid central diphthong	diphthong	ɪ̃ə̃	LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
 from nasalized unrounded near-close near-front to long unrounded open-mid front diphthong	diphthong	ɪ̃ɛː	LATIN LETTER SMALL CAPITAL I / COMBINING TILDE / LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON	+	
 from nasalized unrounded mid central to nasalized unrounded close front diphthong	diphthong	ə̃ĩ	LATIN SMALL LETTER SCHWA / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized unrounded mid central to nasalized rounded close back diphthong	diphthong	ə̃ũ	LATIN SMALL LETTER SCHWA / COMBINING TILDE / LATIN SMALL LETTER U / COMBINING TILDE	+	
 from nasalized unrounded close-mid front to nasalized unrounded near-close near-front diphthong	diphthong	ẽɪ̃	LATIN SMALL LETTER E / COMBINING TILDE / LATIN LETTER SMALL CAPITAL I / COMBINING TILDE	+	
+from nasalized unrounded close-mid front to nasalized unrounded mid central diphthong	diphthong	ẽə̃	LATIN SMALL LETTER E / COMBINING TILDE / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
 from nasalized unrounded close-mid front to nasalized unrounded close front diphthong	diphthong	ẽĩ	LATIN SMALL LETTER E / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized unrounded close front to nasalized unrounded open front diphthong	diphthong	ĩã	LATIN SMALL LETTER I / COMBINING TILDE / LATIN SMALL LETTER A / COMBINING TILDE	+	
 from nasalized unrounded close front to nasalized unrounded close-mid front diphthong	diphthong	ĩẽ	LATIN SMALL LETTER I / COMBINING TILDE / LATIN SMALL LETTER E / COMBINING TILDE	+	
@@ -6561,9 +7005,14 @@ from nasalized unrounded close central to nasalized unrounded close front diphth
 from nasalized unrounded close back to unrounded mid central diphthong	diphthong	ɯ̃ə	LATIN SMALL LETTER TURNED M / COMBINING TILDE / LATIN SMALL LETTER SCHWA	+	
 from nasalized rounded open-mid front to nasalized unrounded open-mid front diphthong	diphthong	œ̃ɛ̃	LATIN SMALL LIGATURE OE / COMBINING TILDE / LATIN SMALL LETTER OPEN E / COMBINING TILDE	+	
 from nasalized rounded open-mid back to non-syllabic nasalized rounded near-close near-back diphthong	diphthong	ɔ̃ʊ̯̃	LATIN SMALL LETTER OPEN O / COMBINING TILDE / LATIN SMALL LETTER UPSILON / COMBINING INVERTED BREVE BELOW / COMBINING TILDE	+	
+from nasalized rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̃ə̆	LATIN SMALL LETTER UPSILON / COMBINING TILDE / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from nasalized rounded close-mid back to nasalized unrounded open-mid front diphthong	diphthong	õɛ̃	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER OPEN E / COMBINING TILDE	+	
 from nasalized rounded close-mid back to nasalized unrounded open front diphthong	diphthong	õã	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER A / COMBINING TILDE	+	
+from nasalized rounded close-mid back to nasalized unrounded near-open central diphthong	diphthong	õɐ̃	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER TURNED A / COMBINING TILDE	+	
+from nasalized rounded close-mid back to nasalized unrounded mid central diphthong	diphthong	õə̃	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER SCHWA / COMBINING TILDE	+	
 from nasalized rounded close-mid back to nasalized unrounded close front diphthong	diphthong	õĩ	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized rounded close-mid back to nasalized rounded close back diphthong	diphthong	õũ	LATIN SMALL LETTER O / COMBINING TILDE / LATIN SMALL LETTER U / COMBINING TILDE	+	
+from nasalized rounded close front to unrounded open-mid front diphthong	diphthong	ỹɛ	LATIN SMALL LETTER Y / COMBINING TILDE / LATIN SMALL LETTER OPEN E	+	
 from nasalized rounded close front to rounded open-mid front diphthong	diphthong	ỹœ	LATIN SMALL LETTER Y / COMBINING TILDE / LATIN SMALL LIGATURE OE	+	
 from nasalized rounded close front to long rounded open-mid front diphthong	diphthong	ỹœː	LATIN SMALL LETTER Y / COMBINING TILDE / LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON	+	
 from nasalized rounded close back to rounded close-mid back diphthong	diphthong	ũo	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER O	+	
@@ -6571,38 +7020,135 @@ from nasalized rounded close back to nasalized unrounded open front diphthong	di
 from nasalized rounded close back to nasalized unrounded close front diphthong	diphthong	ũĩ	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized rounded close back to long rounded close-mid back diphthong	diphthong	ũoː	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON	+	
 from nasalized rounded close back to long nasalized rounded open-mid back diphthong	diphthong	ũɔ̃ː	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER OPEN O / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+from lowered unrounded open-mid front to unrounded mid central diphthong	diphthong	ɛ̞ə	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
+from lowered unrounded open-mid front to unrounded close front diphthong	diphthong	ɛ̞i	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I	+	
+from lowered unrounded open-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	ɛ̞ɪ̆	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from lowered unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛ̞ə̆	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered unrounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ɪ̞ə̆	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered unrounded close front to unrounded mid central diphthong	diphthong	i̞ə	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
+from lowered unrounded close front to ultra-short unrounded mid central diphthong	diphthong	i̞ə̆	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded open-mid front to ultra-short rounded close front diphthong	diphthong	œ̞y̆	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
 from lowered rounded open-mid front to lowered unrounded open-mid front diphthong	diphthong	œ̞ɛ̞	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW	+	
+from lowered rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔ̞ə̆	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded open-mid back to rounded close back diphthong	diphthong	ɔ̞u	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER U	+	
+from lowered rounded near-close near-back to ultra-short unrounded open-mid front diphthong	diphthong	ʊ̞ɛ̆	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from lowered rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̞ə̆	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded close front to unrounded mid central diphthong	diphthong	y̞ə	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
+from lowered rounded close front to ultra-short unrounded mid central diphthong	diphthong	y̞ə̆	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded close back to unrounded mid central diphthong	diphthong	u̞ə	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
+from lowered rounded close back to ultra-short unrounded open-mid front diphthong	diphthong	u̞ɛ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from lowered rounded close back to ultra-short unrounded near-close near-front diphthong	diphthong	u̞ɪ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from lowered rounded close back to ultra-short unrounded mid central diphthong	diphthong	u̞ə̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded close back to ultra-short rounded open-mid back diphthong	diphthong	u̞ɔ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN O / COMBINING BREVE	+	
+from lowered rounded close back to ultra-short rounded near-close near-back diphthong	diphthong	u̞ʊ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER UPSILON / COMBINING BREVE	+	
 from long voiceless post-alveolar stop to voiceless post-alveolar sibilant fricative cluster	cluster	t̠ːʃ	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER ESH	+	
+from long unrounded open-mid front to unrounded mid central diphthong	diphthong	ɛːə	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long unrounded open-mid front to unrounded close front diphthong	diphthong	ɛːi	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛːə̆	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long unrounded open-mid back to unrounded mid central diphthong	diphthong	ʌːə	LATIN SMALL LETTER TURNED V / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long unrounded open front to unrounded near-close near-front diphthong	diphthong	aːɪ	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN LETTER SMALL CAPITAL I	+	
+from long unrounded open front to unrounded mid central diphthong	diphthong	aːə	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long unrounded open front to unrounded close front diphthong	diphthong	aːi	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
 from long unrounded open front to unrounded close central diphthong	diphthong	aːɨ	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I WITH STROKE	+	
 from long unrounded open front to unrounded close back diphthong	diphthong	aːɯ	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER TURNED M	+	
+from long unrounded open front to ultra-short unrounded mid central diphthong	diphthong	aːə̆	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long unrounded open front to rounded close front diphthong	diphthong	aːy	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER Y	+	
 from long unrounded open front to rounded close back diphthong	diphthong	aːu	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U	+	
 from long unrounded open front to non-syllabic unrounded close front diphthong	diphthong	aːi̯	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from long unrounded open front to non-syllabic rounded close back diphthong	diphthong	aːu̯	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
+from long unrounded open back to unrounded open back diphthong	diphthong	ɑːɑ	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER ALPHA	+	
+from long unrounded open back to unrounded mid central diphthong	diphthong	ɑːə	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long unrounded open back to unrounded close front diphthong	diphthong	ɑːi	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded open back to ultra-short unrounded open-mid front diphthong	diphthong	ɑːɛ̆	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from long unrounded open back to ultra-short unrounded near-close near-front diphthong	diphthong	ɑːɪ̆	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from long unrounded open back to ultra-short unrounded mid central diphthong	diphthong	ɑːə̆	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long unrounded open back to ultra-short nasalized unrounded mid central diphthong	diphthong	ɑːə̃̆	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING TILDE / COMBINING BREVE	+	
 from long unrounded open back to non-syllabic unrounded close front diphthong	diphthong	ɑːi̯	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from long unrounded near-open front to unrounded close front diphthong	diphthong	æːi	LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded near-open front to ultra-short unrounded mid central diphthong	diphthong	æːə̆	LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long unrounded near-open front to rounded near-close near-back diphthong	diphthong	æːʊ	LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER UPSILON	+	
+from long unrounded near-close near-front to unrounded mid central diphthong	diphthong	ɪːə	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long unrounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ɪːə̆	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long unrounded mid front to ultra-short unrounded mid central diphthong	diphthong	e̞ːə̆	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long unrounded mid front to ultra-short nasalized unrounded mid central diphthong	diphthong	e̞ːə̃̆	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING TILDE / COMBINING BREVE	+	
 from long unrounded mid central to unrounded close front diphthong	diphthong	əːi	LATIN SMALL LETTER SCHWA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded mid central to rounded close back diphthong	diphthong	əːu	LATIN SMALL LETTER SCHWA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U	+	
+from long unrounded close-mid front to unrounded mid central diphthong	diphthong	eːə	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long unrounded close-mid front to unrounded close front diphthong	diphthong	eːi	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded close-mid front to unrounded close central diphthong	diphthong	eːɨ	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I WITH STROKE	+	
+from long unrounded close-mid front to ultra-short unrounded open back diphthong	diphthong	eːɑ̆	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER ALPHA / COMBINING BREVE	+	
+from long unrounded close-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	eːɪ̆	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from long unrounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	eːə̆	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long unrounded close-mid front to non-syllabic unrounded close front diphthong	diphthong	eːi̯	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from long unrounded close front to unrounded open-mid front diphthong	diphthong	iːɛ	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E	+	
 from long unrounded close front to unrounded mid central diphthong	diphthong	iːə	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long unrounded close front to unrounded close-mid front diphthong	diphthong	iːe	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER E	+	
+from long unrounded close front to unrounded close front diphthong	diphthong	iːi	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long unrounded close front to ultra-short unrounded near-close near-front diphthong	diphthong	iːɪ̆	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+from long unrounded close front to ultra-short unrounded mid central diphthong	diphthong	iːə̆	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long unrounded close back to unrounded close front diphthong	diphthong	ɯːi	LATIN SMALL LETTER TURNED M / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long rounded open-mid front to unrounded close front diphthong	diphthong	œːi	LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long rounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	œːə̆	LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded open-mid back to unrounded open back diphthong	diphthong	ɔːɑ	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER ALPHA	+	
+from long rounded open-mid back to unrounded mid central diphthong	diphthong	ɔːə	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long rounded open-mid back to unrounded close front diphthong	diphthong	ɔːi	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔːə̆	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded open-mid back to rounded open-mid back diphthong	diphthong	ɔːɔ	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN O	+	
+from long rounded open-mid back to rounded close back diphthong	diphthong	ɔːu	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U	+	
+from long rounded open back to unrounded mid central diphthong	diphthong	ɒːə	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long rounded open back to ultra-short unrounded open-mid front diphthong	diphthong	ɒːɛ̆	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from long rounded open back to ultra-short unrounded mid central diphthong	diphthong	ɒːə̆	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long rounded open back to non-syllabic unrounded close front diphthong	diphthong	ɒːi̯	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from long rounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ʏːə̆	LATIN LETTER SMALL CAPITAL Y / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded near-close near-back to ultra-short unrounded open-mid front diphthong	diphthong	ʊːɛ̆	LATIN SMALL LETTER UPSILON / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from long rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊːə̆	LATIN SMALL LETTER UPSILON / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded mid front to ultra-short unrounded mid central diphthong	diphthong	ø̞ːə̆	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded mid back to ultra-short unrounded mid central diphthong	diphthong	o̞ːə̆	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded close-mid front to unrounded mid central diphthong	diphthong	øːə	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long rounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	øːə̆	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded close-mid front to rounded close front diphthong	diphthong	øːy	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER Y	+	
 from long rounded close-mid front to non-syllabic rounded close front diphthong	diphthong	øːy̯	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER Y / COMBINING INVERTED BREVE BELOW	+	
+from long rounded close-mid central to rounded open-mid back diphthong	diphthong	ɵːɔ	LATIN SMALL LETTER BARRED O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN O	+	
+from long rounded close-mid back to unrounded open back diphthong	diphthong	oːɑ	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER ALPHA	+	
+from long rounded close-mid back to unrounded near-open front diphthong	diphthong	oːæ	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER AE	+	
+from long rounded close-mid back to unrounded mid central diphthong	diphthong	oːə	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long rounded close-mid back to unrounded close-mid front diphthong	diphthong	oːe	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER E	+	
+from long rounded close-mid back to unrounded close front diphthong	diphthong	oːi	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long rounded close-mid back to ultra-short unrounded mid central diphthong	diphthong	oːə̆	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded close-mid back to rounded open-mid back diphthong	diphthong	oːɔ	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN O	+	
 from long rounded close-mid back to rounded close back diphthong	diphthong	oːu	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U	+	
 from long rounded close-mid back to non-syllabic rounded close back diphthong	diphthong	oːu̯	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
+from long rounded close front to unrounded mid central diphthong	diphthong	yːə	LATIN SMALL LETTER Y / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long rounded close front to ultra-short unrounded mid central diphthong	diphthong	yːə̆	LATIN SMALL LETTER Y / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long rounded close back to unrounded open-mid back diphthong	diphthong	uːʌ	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER TURNED V	+	
 from long rounded close back to unrounded open front diphthong	diphthong	uːa	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER A	+	
 from long rounded close back to unrounded mid central diphthong	diphthong	uːə	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
 from long rounded close back to unrounded close-mid front diphthong	diphthong	uːe	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER E	+	
 from long rounded close back to unrounded close front diphthong	diphthong	uːi	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I	+	
+from long rounded close back to ultra-short unrounded open-mid front diphthong	diphthong	uːɛ̆	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
+from long rounded close back to ultra-short unrounded mid central diphthong	diphthong	uːə̆	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded close back to ultra-short rounded open-mid back diphthong	diphthong	uːɔ̆	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN O / COMBINING BREVE	+	
+from long rounded close back to ultra-short rounded near-close near-back diphthong	diphthong	uːʊ̆	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER UPSILON / COMBINING BREVE	+	
+from long rounded close back to rounded open-mid back diphthong	diphthong	uːɔ	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN O	+	
+from long rhotacized rounded open-mid front to unrounded mid central diphthong	diphthong	œ˞ːə	LATIN SMALL LIGATURE OE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long raised unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛ̝ːə̆	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised unrounded open front to ultra-short unrounded mid central diphthong	diphthong	a̝ːə̆	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised unrounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	e̝ːə̆	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised rounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	œ̝ːə̆	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔ̝ːə̆	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̝ːə̆	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised rounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	ø̝ːə̆	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long raised rounded close-mid back to ultra-short unrounded mid central diphthong	diphthong	o̝ːə̆	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long nasalized unrounded open-mid front to non-syllabic unrounded close front diphthong	diphthong	ɛ̃ːi̯	LATIN SMALL LETTER OPEN E / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from long nasalized unrounded close-mid front to ultra-short unrounded mid central diphthong	diphthong	ẽːə̆	LATIN SMALL LETTER E / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long nasalized rounded open-mid back to ultra-short unrounded mid central diphthong	diphthong	ɔ̃ːə̆	LATIN SMALL LETTER OPEN O / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long nasalized rounded close-mid back to rounded close back diphthong	diphthong	õːu	LATIN SMALL LETTER O / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER U	+	
+from long lowered unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛ̞ːə̆	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long lowered unrounded near-close near-front to unrounded mid central diphthong	diphthong	ɪ̞ːə	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA	+	
+from long lowered unrounded close front to ultra-short unrounded mid central diphthong	diphthong	i̞ːə̆	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long lowered rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̞ːə̆	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long lowered rounded close front to ultra-short unrounded mid central diphthong	diphthong	y̞ːə̆	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long lowered rounded close back to ultra-short unrounded mid central diphthong	diphthong	u̞ːə̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from labialized voiceless velar stop to voiced glottal fricative cluster	cluster	kʷɦ	LATIN SMALL LETTER K / MODIFIER LETTER SMALL W / LATIN SMALL LETTER H WITH HOOK	+	
 from glottalized voiceless bilabial stop to glottalized voiceless velar affricate cluster	cluster	pˀkxˀ	LATIN SMALL LETTER P / MODIFIER LETTER GLOTTAL STOP / LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER GLOTTAL STOP	+	
 from devoiced voiced retroflex stop to devoiced voiced retroflex sibilant fricative cluster	cluster	ɖ̥ʐ̥	LATIN SMALL LETTER D WITH TAIL / COMBINING RING BELOW / LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING RING BELOW	+	
@@ -6688,7 +7234,11 @@ falling from-high to-mid tone	tone	⁵³	SUPERSCRIPT FIVE / SUPERSCRIPT THREE
 falling from-high to-low tone	tone	⁵¹	SUPERSCRIPT FIVE / SUPERSCRIPT ONE		
 devoiced voiceless velar fricative consonant	consonant	x̥	LATIN SMALL LETTER X / COMBINING RING BELOW	+	
 devoiced voiceless palatal stop consonant	consonant	c̥	LATIN SMALL LETTER C / COMBINING RING BELOW	+	
+devoiced voiceless labio-dental fricative consonant	consonant	f̥	LATIN SMALL LETTER F / COMBINING RING BELOW	+	
 devoiced voiceless glottal stop consonant	consonant	ʔ̥	LATIN LETTER GLOTTAL STOP / COMBINING RING BELOW	+	
+devoiced voiceless alveolar stop consonant	consonant	t̥	LATIN SMALL LETTER T / COMBINING RING BELOW	+	
+devoiced voiceless alveolar sibilant fricative consonant	consonant	s̥	LATIN SMALL LETTER S / COMBINING RING BELOW	+	
+devoiced voiceless alveolar lateral fricative consonant	consonant	ɬ̥	LATIN SMALL LETTER L WITH BELT / COMBINING RING BELOW	+	
 devoiced voiced velar stop consonant	consonant	g̊	LATIN SMALL LETTER G / COMBINING RING ABOVE		
 devoiced voiced velar nasal consonant	consonant	ŋ̊	LATIN SMALL LETTER ENG / COMBINING RING ABOVE		
 devoiced voiced velar lateral approximant consonant	consonant	ʟ̥	LATIN LETTER SMALL CAPITAL L / COMBINING RING BELOW		
@@ -7418,6 +7968,7 @@ aspirated devoiced voiced labio-dental nasal consonant	consonant	ɱ̥ʰ	LATIN SM
 aspirated devoiced voiced bilabial stop consonant	consonant	b̥ʰ	LATIN SMALL LETTER B / COMBINING RING BELOW / MODIFIER LETTER SMALL H		Alias candidate.
 aspirated devoiced voiced bilabial nasal consonant	consonant	m̥ʰ	LATIN SMALL LETTER M / COMBINING RING BELOW / MODIFIER LETTER SMALL H	+	
 aspirated devoiced voiced alveolar trill consonant	consonant	r̥ʰ	LATIN SMALL LETTER R / COMBINING RING BELOW / MODIFIER LETTER SMALL H	+	
+aspirated devoiced voiced alveolar stop consonant	consonant	d̥ʰ	LATIN SMALL LETTER D / COMBINING RING BELOW / MODIFIER LETTER SMALL H	+	
 aspirated devoiced voiced alveolar nasal consonant	consonant	n̥ʰ	LATIN SMALL LETTER N / COMBINING RING BELOW / MODIFIER LETTER SMALL H	+	
 aspirated devoiced voiced alveolar lateral approximant consonant	consonant	l̥ʰ	LATIN SMALL LETTER L / COMBINING RING BELOW / MODIFIER LETTER SMALL H	+	
 advanced-tongue-root unrounded open-mid front vowel	vowel	ɛ̘	LATIN SMALL LETTER OPEN E / COMBINING LEFT TACK BELOW	+	
@@ -7478,4 +8029,5 @@ advanced rounded close front vowel	vowel	y̟	LATIN SMALL LETTER Y / COMBINING PL
 advanced rounded close central vowel	vowel	ʉ̟	LATIN SMALL LETTER U BAR / COMBINING PLUS SIGN BELOW	+	
 advanced rounded close back vowel	vowel	u̟	LATIN SMALL LETTER U / COMBINING PLUS SIGN BELOW	+	
 advanced nasalized unrounded open front vowel	vowel	ã̟	LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW / COMBINING TILDE	+	
+advanced nasalized unrounded open back vowel	vowel	ɑ̟̃	LATIN SMALL LETTER ALPHA / COMBINING PLUS SIGN BELOW / COMBINING TILDE	+	
 advanced nasalized unrounded mid back vowel	vowel	ɤ̞̟̃	LATIN SMALL LETTER RAMS HORN / COMBINING DOWN TACK BELOW / COMBINING PLUS SIGN BELOW / COMBINING TILDE	+	
