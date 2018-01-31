@@ -296,7 +296,7 @@ au	from unrounded open front to rounded close back diphthong	+		au	http://eurasi
 ʐ	voiced retroflex sibilant fricative consonant			ʐ	http://eurasianphonology.info/search_exact?dialects=True&query=ʐ					58	
 tsʰ	aspirated voiceless alveolar sibilant affricate consonant			tsʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tsʰ					110	
 <NA>	<NA>	+		pʲʰ	http://eurasianphonology.info/search_exact?dialects=True&query=pʲʰ					3	
-<NA>	<NA>	+		tʲʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tʲʰ					3	
+tʲʰ	palatalized aspirated voiceless alveolar stop consonant			tʲʰ	http://eurasianphonology.info/search_exact?dialects=True&query=tʲʰ					3	
 kʲʰ	palatalized aspirated voiceless velar stop consonant	+		kʲʰ	http://eurasianphonology.info/search_exact?dialects=True&query=kʲʰ					4	
 kʲ	palatalized voiceless velar stop consonant			kʲ	http://eurasianphonology.info/search_exact?dialects=True&query=kʲ					18	
 xʲ	palatalized voiceless velar fricative consonant			xʲ	http://eurasianphonology.info/search_exact?dialects=True&query=xʲ					11	
@@ -482,7 +482,7 @@ ṳ̃ː	long nasalized breathy rounded close back vowel	+		ṳ̃ː	http://eurasi
 ɯ̽	unrounded near-close near-back vowel			ɯ̽	http://eurasianphonology.info/search_exact?dialects=True&query=ɯ̽					10	
 ɽ̃	nasalized voiced retroflex tap consonant	+		ɽ̃	http://eurasianphonology.info/search_exact?dialects=True&query=ɽ̃					6	
 pʰʲ	palatalized aspirated voiceless bilabial stop consonant			pʰʲ	http://eurasianphonology.info/search_exact?dialects=True&query=pʰʲ					5	
-tʰʲ	palatalized aspirated voiceless alveolar stop consonant			tʰʲ	http://eurasianphonology.info/search_exact?dialects=True&query=tʰʲ					3	
+tʲʰ	palatalized aspirated voiceless alveolar stop consonant	+		tʰʲ	http://eurasianphonology.info/search_exact?dialects=True&query=tʰʲ					3	
 kʲʰ	palatalized aspirated voiceless velar stop consonant	+		kʰʲ	http://eurasianphonology.info/search_exact?dialects=True&query=kʰʲ					5	
 nˠ	velarized voiced alveolar nasal consonant	+		nˠ	http://eurasianphonology.info/search_exact?dialects=True&query=nˠ					1	
 ɣʲ	palatalized voiced velar fricative consonant	+		ɣʲ	http://eurasianphonology.info/search_exact?dialects=True&query=ɣʲ					4	

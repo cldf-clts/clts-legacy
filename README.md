@@ -11,14 +11,18 @@ For starters, try this quick example:
 
 ```python
 >>> from pyclts import TranscriptionSystem as TS
->>> bipa = TS() # broad IPA
->>> ajsp = TS('asjp') # asjp transcription system
+>>> bipa = TS('bipa') # broad IPA
+>>> ajsp = TS('asjpcode') # asjp transcription system
 >>> snd1 = bipa['ts']
 >>> snd2 = asjp['c']
 >>> snd1.name
 'voiceless alveolar affricate consonant'
 >>> snd2.name
 'voiceless alveolar affricate consonant'
+>>> bipa.translate('ts a ŋ ə', asjp)
+'c E N 3'
+>>> asjp.translate('C a y', bipa)
+'tʃ ɐ j'
 ```
 
 You can see that internally, we represent the sounds `ts` and `c`, depending on the alphabet from which they are taken.
@@ -26,7 +30,7 @@ You can see that internally, we represent the sounds `ts` and `c`, depending on 
 Another example is to parse a sound that is not yet in our database. We will try to create this sound automatically and infer its features from the set of diacritics and the base sound:
 
 ```python
->>> sound = bipa['dʷʱ']
+>>> sound = bipa['dʱʷ']
 >>> sound.name
 'labialized breathy voiced alveolar stop consonant'
 >>> sound.generated
@@ -44,7 +48,7 @@ U+0064 U+02b7 U+02b1
 You can see, since we represent breathy-voice phonation differently, we flag this sound as an alias. Also since it is not yet in our database explicitly coded, we flag it as a "generated" sound. In a similar way, you can generate sounds from their names:
 
 ```python
->>> sound = bipa['aspirated voiced aspirated bilabial plosive consonant']
+>>> sound = bipa['pre-aspirated voiced aspirated bilabial stop consonant']
 >>> print(sound)
 ʰbʰ
 >>> sound.generated
@@ -58,19 +62,18 @@ Note that this sound probably does not exist in any language, but we generate it
 You can also use our transcription data to convert from one transcription system to a given dataset (note that backwards-conversion may not be possible, as transcription data is often limited):
 
 ```
->>> from pyclts.ts import translate, TranscriptionSystem
->>> from pyclts.td import TranscriptionData
+>>> from pyclts.ts import SoundClasses 
 >>> bipa = TranscriptionSystem('bipa')
->>> sca = TranscriptionData('sca')
->>> translate('f a: t ə r', bipa, sca)
+>>> sca = SoundClasses('sca')
+>>> bipa.translate('f a: t ə r', sca)
     'B A T E R'
 ```
 
 But the translation can even be done in a much simpler way, by loading the transcription data directly:
 
 ```
->>> form pyclts.td import TranscriptionData
->>> sca = TranscriptionData('sca')
+>>> from pyclts.ts import SoundClasses 
+>>> sca = SoundClasses('sca')
 >>> sca('v a t ə r')
     ['B', 'A', 'T', 'E', 'R']
 ```
@@ -78,10 +81,12 @@ But the translation can even be done in a much simpler way, by loading the trans
 
 ## Basic Structure of the Package
 
-The ```clts``` package offers two basic types of data generated and managed in Python code:
+The ```clts``` package offers three basic types of data generated and managed in Python code:
 
 * transcription systems (```pyclts.transcriptionsystems.TranscriptionSystem```), a system that can *generate* sounds
 * transcription data (```pyclts.transcriptiondata.TranscriptionData```): a dataset with a *fixed number of sounds*
+* sound classes (```pyclts.soundclasses.SoundClasses```): a dataset with a direct mapping from sounds to a concrete character (the sound class)
+
 
 Transcription data is linked to our transcription system by the grapheme for the B(road) IPA transcription system, which serves as our default, and the name, which follows the IPA conventions with some modifications which were needed to make sure that we can represent sounds that we regularly find in cross-linguistic datasets.
 

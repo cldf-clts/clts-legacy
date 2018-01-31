@@ -971,8 +971,8 @@ gʷʰː	labialized aspirated long voiced velar stop consonant	+		ɡʷʰː			-syl
 ǃʰː	aspirated long voiceless alveolar click consonant	+		ǃʰː			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -round +velaric +long				
 ǃʲʰ	palatalized aspirated voiceless alveolar click consonant	+		ǃʲʰ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round +velaric -long				
 ǃʲʰ	palatalized aspirated voiceless alveolar click consonant	+		ǃʰʲ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round +velaric -long				
-tʰʲ	palatalized aspirated voiceless alveolar stop consonant			tʰʲ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
-<NA>	<NA>	+		tʲʰ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
+tʲʰ	palatalized aspirated voiceless alveolar stop consonant	+		tʰʲ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
+tʲʰ	palatalized aspirated voiceless alveolar stop consonant			tʲʰ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
 dʲʱ	palatalized breathy voiced alveolar stop consonant	+		d̤ʲ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
 dʲʰ	palatalized aspirated voiced alveolar stop consonant	+		dʲʰ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
 dʲʰ	palatalized aspirated voiced alveolar stop consonant	+		dʰʲ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr -lab +hi -lo -back -round -velaric -long				
@@ -1085,8 +1085,8 @@ bʷʰˠ	labialized aspirated velarized voiced bilabial stop consonant	+		bʷˠʰ
 bʷʱ	labialized breathy voiced bilabial stop consonant	+		b̤ʷ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant -cor +lab +hi -lo +back +round -velaric -long				
 pʷʰː	labialized aspirated long voiceless bilabial stop consonant	+		pʷʰː			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant -cor +lab +hi -lo +back +round -velaric +long				
 bʷʰː	labialized aspirated long voiced bilabial stop consonant	+		bʷʰː			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant -cor +lab +hi -lo +back +round -velaric +long				
-ptʰʲ	from voiceless bilabial stop to palatalized aspirated voiceless alveolar stop cluster	+		p͡tʰʲ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
-<NA>	<NA>	+		p͡tʲʰ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
+ptʲʰ	from voiceless bilabial stop to palatalized aspirated voiceless alveolar stop cluster	+		p͡tʰʲ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
+ptʲʰ	from voiceless bilabial stop to palatalized aspirated voiceless alveolar stop cluster	+		p͡tʲʰ			-syl -son +cons -cont -delrel -lat -nas -voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
 bdʲʱ	from voiced bilabial stop to palatalized breathy voiced alveolar stop cluster	+		b͡d̤ʲ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
 bdʲʰ	from voiced bilabial stop to palatalized aspirated voiced alveolar stop cluster	+		b͡dʲʰ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
 bdʲʰ	from voiced bilabial stop to palatalized aspirated voiced alveolar stop cluster	+		b͡dʰʲ			-syl -son +cons -cont -delrel -lat -nas +voi +sg -cg +ant +cor -distr +lab +hi -lo -back -round -velaric -long				
