@@ -117,14 +117,9 @@ def sc(args):
 class Grapheme(object):
     GRAPHEME = attr.ib()
     NAME = attr.ib()
-    BIPA = attr.ib()
-    SOUNDTYPE = attr.ib()
-    GENERATED = attr.ib()
     EXPLICIT = attr.ib()
     ALIAS = attr.ib()
-    NORMALIZED = attr.ib()
     DATASET = attr.ib()
-    DATATYPE = attr.ib(validator=attr.validators.in_(['ts', 'td', 'sc']))
     FREQUENCY = attr.ib(default=0)
     URL = attr.ib(default='')
     FEATURES = attr.ib(default='')
@@ -159,14 +154,9 @@ def dump(args):
             data.append(Grapheme(
                 grapheme,
                 sound.name,
-                sound.s,
-                sound.type,
-                '',
                 '+',
                 '',
-                '',
                 'bipa',
-                'ts',
                 '0',
                 '',
                 '',
@@ -182,38 +172,33 @@ def dump(args):
     # add sounds systematically by their alias
     for td in datasets['td']:
         for name in td.names:
-            if name in sounds:
-                continue
-
             bipa_sound = bipa[name]
             # check for consistency of mapping here
             if not is_valid_sound(bipa_sound, bipa):
                 continue
 
-            sounds[name] = {
-                'grapheme': bipa_sound.s,
-                'aliases': {bipa_sound.s},
-                'generated': '+',
-                'unicode': bipa_sound.uname or '',
-                'note': '',
-                'type': bipa_sound.type,
-                'alias': '+' if bipa_sound.alias else '',
-                'normalized': '+' if bipa_sound.normalized else ''
-            }
+            sound = sounds.get(name)
+            if not sound:
+                sound = sounds[name] = {
+                    'grapheme': bipa_sound.s,
+                    'aliases': {bipa_sound.s},
+                    'generated': '+',
+                    'unicode': bipa_sound.uname or '',
+                    'note': '',
+                    'type': bipa_sound.type,
+                    'alias': '+' if bipa_sound.alias else '',
+                    'normalized': '+' if bipa_sound.normalized else ''
+                }
+
             for item in td.data[name]:
-                sounds[name]['aliases'].add(item['grapheme'])
+                sound['aliases'].add(item['grapheme'])
                 # add the values here
                 data.append(Grapheme(
                     item['grapheme'],
                     name,
-                    sounds[name]['grapheme'],
-                    sounds[name]['type'],
-                    sounds[name]['generated'],
                     item['explicit'],
                     '',  # sounds[name]['alias'],
-                    sounds[name]['normalized'],
                     td.id,
-                    'td',
                     item.get('frequency', ''),
                     item.get('url', ''),
                     item.get('features', ''),
@@ -230,16 +215,10 @@ def dump(args):
                 data.append(Grapheme(
                     grapheme,
                     name,
-                    sounds[name]['grapheme'],
-                    sounds[name]['type'],
-                    sounds[name]['generated'],
                     '+' if name in sc.data else '',
-                    sounds[name]['alias'],
-                    sounds[name]['normalized'],
+                    '',
                     sc.id,
-                    'sc',
                 ))
-
             except KeyError:
                 print(name, sounds[name]['grapheme'])
 
@@ -255,14 +234,9 @@ def dump(args):
                         data.append(Grapheme(
                             ts_sound.s,
                             name,
-                            sounds[name]['grapheme'],
-                            sounds[name]['type'],
-                            sounds[name]['generated'],
                             '' if sounds[name]['generated'] else '+',
                             '',  # sounds[name]['alias'],
-                            sounds[name]['normalized'],
                             ts.id,
-                            'ts',
                         ))
                 except ValueError:
                     pass
@@ -277,23 +251,7 @@ def dump(args):
                 k, v['type'], v['grapheme'], v['unicode'], v['generated'], v['note']])
 
     with UnicodeWriter(data_path('graphemes.tsv'), delimiter='\t') as writer:
-        writer.writerow([
-            'GRAPHEME',
-            'NAME',
-            'BIPA',
-            'SOUNDTYPE',
-            'GENERATED',
-            'EXPLICIT',
-            'ALIAS',
-            'NORMALIZED',
-            'DATASET',
-            'DATATYPE',
-            'FREQUENCY',
-            'URL',
-            'FEATURES',
-            'IMAGE',
-            'SOUND',
-            'NOTE'])
+        writer.writerow([f.name for f in attr.fields(Grapheme)])
         for row in data:
             writer.writerow(attr.astuple(row))
 
