@@ -3107,7 +3107,7 @@ palatalized aspirated voiceless bilabial fricative consonant	consonant	ɸʲʰ	LA
 palatalized aspirated voiceless bilabial affricate consonant	consonant	pɸʲʰ	LATIN SMALL LETTER P / LATIN SMALL LETTER PHI / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 palatalized aspirated voiceless alveolo-palatal sibilant fricative consonant	consonant	ɕʲʰ	LATIN SMALL LETTER C WITH CURL / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 palatalized aspirated voiceless alveolo-palatal sibilant affricate consonant	consonant	tɕʲʰ	LATIN SMALL LETTER T / LATIN SMALL LETTER C WITH CURL / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
-palatalized aspirated voiceless alveolar stop consonant	consonant	tʰʲ	LATIN SMALL LETTER T / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL J		
+palatalized aspirated voiceless alveolar stop consonant	consonant	tʲʰ	LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H		
 palatalized aspirated voiceless alveolar sibilant fricative consonant	consonant	sʲʰ	LATIN SMALL LETTER S / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 palatalized aspirated voiceless alveolar sibilant affricate consonant	consonant	tsʲʰ	LATIN SMALL LETTER T / LATIN SMALL LETTER S / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 palatalized aspirated voiceless alveolar lateral fricative consonant	consonant	ɬʲʰ	LATIN SMALL LETTER L WITH BELT / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
@@ -6136,7 +6136,7 @@ from voiceless bilabial stop to palatalized voiceless alveolar ejective stop clu
 from voiceless bilabial stop to palatalized long voiceless alveolar stop cluster	cluster	ptʲː	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
 from voiceless bilabial stop to palatalized labialized voiceless alveolar stop cluster	cluster	ptʲʷ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W	+	
 from voiceless bilabial stop to palatalized labialized aspirated voiceless alveolar stop cluster	cluster	ptʲʷʰ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL W / MODIFIER LETTER SMALL H	+	
-from voiceless bilabial stop to palatalized aspirated voiceless alveolar stop cluster	cluster	ptʰʲ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL J	+	
+from voiceless bilabial stop to palatalized aspirated voiceless alveolar stop cluster	cluster	ptʲʰ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 from voiceless bilabial stop to long voiceless alveolar stop cluster	cluster	ptː	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER TRIANGULAR COLON	+	
 from voiceless bilabial stop to long voiceless alveolar ejective stop cluster	cluster	pt’ː	LATIN SMALL LETTER P / LATIN SMALL LETTER T / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER TRIANGULAR COLON	+	
 from voiceless bilabial stop to labialized voiceless alveolar stop cluster	cluster	ptʷ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL W	+	
@@ -6266,6 +6266,7 @@ from voiced retroflex nasal to voiced retroflex stop cluster	cluster	ɳɖ	LATIN 
 from voiced retroflex nasal to voiced retroflex sibilant affricate cluster	cluster	ɳɖʐ	LATIN SMALL LETTER N WITH RETROFLEX HOOK / LATIN SMALL LETTER D WITH TAIL / LATIN SMALL LETTER Z WITH RETROFLEX HOOK	+	
 from voiced retroflex nasal to voiced glottal fricative cluster	cluster	ɳɦ	LATIN SMALL LETTER N WITH RETROFLEX HOOK / LATIN SMALL LETTER H WITH HOOK	+	
 from voiced retroflex nasal to aspirated voiceless retroflex sibilant affricate cluster	cluster	ɳʈʂʰ	LATIN SMALL LETTER N WITH RETROFLEX HOOK / LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK / MODIFIER LETTER SMALL H	+	
+from voiced post-alveolar stop to voiced alveolo-palatal sibilant fricative cluster	cluster	d̠ʑ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER Z WITH CURL	+	
 from voiced palatal stop to voiced glottal fricative cluster	cluster	ɟɦ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER H WITH HOOK	+	
 from voiced palatal stop to voiced alveolo-palatal sibilant fricative cluster	cluster	ɟʑ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER Z WITH CURL	+	
 from voiced palatal nasal to voiceless palatal stop cluster	cluster	ɲc	LATIN SMALL LETTER N WITH LEFT HOOK / LATIN SMALL LETTER C	+	

@@ -134,7 +134,8 @@ def dump(args):
     data = []
     bipa = TranscriptionSystem('bipa')
     # start from assembling bipa-sounds
-    for grapheme, sound in sorted(bipa.sounds.items(), key=lambda p: p[1].alias):
+    for grapheme, sound in sorted(bipa.sounds.items(), key=lambda p: p[1].alias
+            if p[1].alias else False):
         if sound.type not in ['marker']:
             if sound.alias:
                 assert sound.name in sounds
