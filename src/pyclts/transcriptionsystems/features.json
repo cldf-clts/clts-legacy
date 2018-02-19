@@ -101,8 +101,7 @@
   },
   "consonant": {
     "aspiration": [
-      "aspirated",
-      "aspirated.sibilancy:sibilant"
+      "aspirated"
     ],
     "sibilancy": [
       "sibilant"
