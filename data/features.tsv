@@ -52,7 +52,6 @@ vowel	articulation	strong
 vowel	breathiness	breathy
 vowel	glottalization	glottalized
 consonant	aspiration	aspirated
-consonant	aspiration	aspirated.sibilancy:sibilant
 consonant	sibilancy	sibilant
 consonant	creakiness	creaky
 consonant	release	unreleased
