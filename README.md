@@ -72,7 +72,7 @@ You can also use our transcription data to convert from one transcription system
 But the translation can even be done in a much simpler way, by loading the transcription data directly:
 
 ```
->>> from pyclts.ts import SoundClasses 
+>>> from pyclts.soundclasses import SoundClasses 
 >>> sca = SoundClasses('sca')
 >>> sca('v a t ə r')
     ['B', 'A', 'T', 'E', 'R']
