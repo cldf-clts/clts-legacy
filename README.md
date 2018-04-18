@@ -62,7 +62,7 @@ Note that this sound probably does not exist in any language, but we generate it
 You can also use our transcription data to convert from one transcription system to a given dataset (note that backwards-conversion may not be possible, as transcription data is often limited):
 
 ```
->>> from pyclts.ts import SoundClasses 
+>>> from pyclts.soundclasses import SoundClasses 
 >>> bipa = TranscriptionSystem('bipa')
 >>> sca = SoundClasses('sca')
 >>> bipa.translate('f a: t ə r', sca)
