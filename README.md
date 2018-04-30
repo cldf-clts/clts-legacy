@@ -1,24 +1,21 @@
 Cross-Linguistic Transcription System
 =====================================
 
-**+++IMPORTANT DISCLAIMER+++**
-
-Software and data underlying this repository are currently under heavy maintenance and will probably still change a lot before we will be able to publish a first official version. We would therefore kindly request all potential users to **NOT** re-use this software for their own applications in this stage and instead wait until we have a first officially published **citeable** version.
-
 This is an attempt to create a system that allows to translate and compare different phonetic transcription systems. 
 
 For starters, try this quick example:
 
 ```python
+>>> from __future__ import unicode_literals
 >>> from pyclts import TranscriptionSystem as TS
 >>> bipa = TS('bipa') # broad IPA
->>> ajsp = TS('asjpcode') # asjp transcription system
+>>> asjp = TS('asjpcode') # asjp transcription system
 >>> snd1 = bipa['ts']
 >>> snd2 = asjp['c']
 >>> snd1.name
-'voiceless alveolar affricate consonant'
+'voiceless alveolar sibilant affricate consonant'
 >>> snd2.name
-'voiceless alveolar affricate consonant'
+'voiceless alveolar sibilant affricate consonant'
 >>> bipa.translate('ts a ŋ ə', asjp)
 'c E N 3'
 >>> asjp.translate('C a y', bipa)
@@ -61,8 +58,8 @@ Note that this sound probably does not exist in any language, but we generate it
 
 You can also use our transcription data to convert from one transcription system to a given dataset (note that backwards-conversion may not be possible, as transcription data is often limited):
 
-```
->>> from pyclts.soundclasses import SoundClasses 
+```python
+>>> from pyclts import TranscriptionSystem, SoundClasses 
 >>> bipa = TranscriptionSystem('bipa')
 >>> sca = SoundClasses('sca')
 >>> bipa.translate('f a: t ə r', sca)
@@ -71,8 +68,7 @@ You can also use our transcription data to convert from one transcription system
 
 But the translation can even be done in a much simpler way, by loading the transcription data directly:
 
-```
->>> from pyclts.soundclasses import SoundClasses 
+```python
 >>> sca = SoundClasses('sca')
 >>> sca('v a t ə r')
     ['B', 'A', 'T', 'E', 'R']
@@ -81,7 +77,7 @@ But the translation can even be done in a much simpler way, by loading the trans
 
 ## Basic Structure of the Package
 
-The ```clts``` package offers three basic types of data generated and managed in Python code:
+The ```pyclts``` package offers three basic types of data generated and managed in Python code:
 
 * transcription systems (```pyclts.transcriptionsystems.TranscriptionSystem```), a system that can *generate* sounds
 * transcription data (```pyclts.transcriptiondata.TranscriptionData```): a dataset with a *fixed number of sounds*
