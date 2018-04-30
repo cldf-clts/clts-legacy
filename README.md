@@ -1,6 +1,11 @@
 Cross-Linguistic Transcription System
 =====================================
 
+[![Build Status](https://travis-ci.org/cldf/clts.png)](https://travis-ci.org/cldf/clts)
+[![codecov](https://codecov.io/gh/cldf/clts/branch/master/graph/badge.svg)](https://codecov.io/gh/cldf/clts)
+[![PyPI](https://img.shields.io/pypi/v/pyclts.svg)](https://pypi.org/project/pyclts)
+
+
 This is an attempt to create a system that allows to translate and compare different phonetic transcription systems. 
 
 For starters, try this quick example:
