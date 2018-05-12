@@ -1,5 +1,5 @@
 
-Releasing pyclpa
+Releasing pyclts
 ================
 
 - Do platform test via tox:
@@ -10,22 +10,31 @@ tox -r
 - Make sure statement coverage is at 100%
 - Make sure flake8 passes:
 ```
-flake8 --ignore=E711,E712,D100,D101,D103,D102,D301 --max-line-length=100 pyclpa
+flake8 src
 ```
 
-- Change version to the new version number in
-
+- Update the version number, by removing the trailing `.dev0` in:
   - `setup.py`
-  - `pyclpa/__init__.py`
+  - `src/pyclts/__init__.py`
 
-- Bump version number:
-```
-git commit -a -m"bumped version number"
+- Create the release commit:
+```shell
+git commit -a -m "release <VERSION>"
 ```
 
 - Create a release tag:
 ```
-git tag -a v<version> -m"first version to be released on pypi"
+git tag -a v<VERSION> -m"<VERSION> release"
+```
+
+- Release to PyPI (see https://github.com/di/markdown-description-example/issues/1#issuecomment-374474296):
+```shell
+rm dist/*
+python setup.py sdist
+twine upload dist/*
+rm dist/*
+python setup.py bdist_wheel
+twine upload dist/*
 ```
 
 - Push to github:
@@ -34,8 +43,12 @@ git push origin
 git push --tags
 ```
 
-- Make sure your system Python has ``setuptools-git`` installed and release to PyPI:
-```
-git checkout tags/v$1
-python setup.py sdist register upload
+- Increment version number and append `.dev0` to the version number for the new development cycle:
+  - `src/pyclts/__init__.py`
+  - `setup.py`
+
+- Commit/push the version change:
+```shell
+git commit -a -m "bump version for development"
+git push origin
 ```
