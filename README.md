@@ -1,5 +1,5 @@
-Cross-Linguistic Transcription System
-=====================================
+Cross-Linguistic Transcription Systems
+======================================
 
 **+++IMPORTANT DISCLAIMER+++**
 
@@ -97,7 +97,7 @@ feature | handled by | note | example
 normalized | ```ts._norm()```, ```ts[sound].normalized``` | this refers to one-to-one character replacement with obviously wrong unicode lookalikes | ```λ``` (wrong) vs. ```ʎ``` (correct)
 alias | transcription system data (```+``` indicates alias), ```ts['sound'].alias``` | this refers to "free" IPA variants that are widely used and are therefore officially accepted for "broad ipa" or any other TS, but one variant is usually chosen as the preferred one | ```ts``` (normal) vs. ```ʦ``` (alias)
 source | ```ts['sound'].source``` | the unnormalized form as it is given to the TS | ```bipa['λ'].source == 'λ'```
-grapheme | ```ts['sound'].grapheme``` | the normalized form which has not been resolved by an alias | ```bipa['ʦ'].grapheme == 'ʦ'
+grapheme | ```ts[lingpy/'sound'].grapheme``` | the normalized form which has not been resolved by an alias | ```bipa['ʦ'].grapheme == 'ʦ'
 string/unicode | ```ts['sound'].__unicode__()``` | the normalized form in which a potential alias is replaced by its "accepted" counterpart | ```str(bipa['ʦ']) == 'ts'```
 name | ```bipa['sound'].name``` | the canonical representation of the feature system that defines a sound, with the sound class (consonant, cluster, vowel, diphthong) in the end, and the feature bundle following the order given in the ```pyclts.models``` description of the corresponding sound class. This representation serves as the basis for translation among different TS. | ```bipa['ts'].name == 'voiceless alveolar sibilant-affricate consonant'```
 generated | ```ts['sound'].generated``` | If a sound is not yet know to a given TS, the algorithm tries to generate it by de-composing it into its *base part* and adding features to the left and to the right, based on the *diacritics*. If a sound has been generated, this is traced with help of the attribute. Normally, generated sounds need to be double-checked by the experts, as their grapheme representation may be erroneous. Thus, while the sound ```kʷʰ``` can be regularly defined in a TS (like BIPA), a user might query ```kʰʷ```, in which case the sound would be generated internally, the grapheme would be stored in its normalized form (which is identical with the base), but the ```str()```-representation would contain the correct order, and the character would be automatically qualified as an alias of an existing one.  | ```str(TS['kʰʷ']) == 'kʷʰ' and TS['kʰʷ'].grapheme == 'kʰʷ' and TS[''kʰʷ'].alias and TS['kʰʷ'].generated``` 
