@@ -147,6 +147,10 @@ class Sound(Symbol):
     def featureset(self):
         return frozenset(self._features() + [self.type])
 
+    def similarity(self, other):
+        f1, f2 = self.featureset, other.featureset
+        return len(f1.intersection(f2)) / len(f1.union(f2))
+
     def __unicode__(self):
         """
         Return the reference representation of the sound.

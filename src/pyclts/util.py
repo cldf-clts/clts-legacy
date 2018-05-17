@@ -16,19 +16,6 @@ EMPTY = "◌"
 UNKNOWN = "�"
 
 
-def similarity(soundA, soundB, dtype='difference'):
-    f1, f2 = set(soundA.featureset), set(soundB.featureset)
-    f12 = f1.union(f2)
-    f1_2 = f1.intersection(f2)
-    f_12 = f1.difference(f2)
-    if dtype == 'difference':
-        return f_12
-    elif dtype == 'intersection':
-        return f1_2
-
-    return 1 - f1_2 / f12 
-
-
 def pkg_path(*comps):
     return Path(__file__).parent.joinpath(*comps)
 

@@ -1,19 +1,11 @@
 # coding: utf-8
-"""
-Main command line interface to the pyclpa package.
-"""
 from __future__ import unicode_literals, print_function
-import sys
-from collections import defaultdict
-import argparse
 import json
 
-from clldutils.clilib import ArgumentParser, command
-from clldutils.dsv import UnicodeReader
-from clldutils.markup import Table
 from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
-from pyclts.util import pkg_path, app_path
+from pyclts.util import app_path
+
 
 def dump():
     """Command writes data to different files for re-use across web-applications.
@@ -111,6 +103,7 @@ def dump():
             indent=2)+';\n')
         handler.write('var normalize = '+json.dumps(tts._normalize)+';\n')
     print('files written ')
+
 
 if __name__ == "__main__":
     dump()

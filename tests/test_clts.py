@@ -4,6 +4,8 @@ from six import text_type
 
 import pytest
 
+from pyclts.models import Marker, UnknownSound
+
 
 def test_translate(bipa, asjp, asjpd):
     assert bipa.translate('ts a', asjp) == 'c E'
@@ -67,6 +69,10 @@ def test_parse(bipa):
     # go for bad diacritics in front and end of a string
     assert bipa['*a'].type == 'unknownsound'
     assert bipa['a*'].type == 'unknownsound'
+
+    # marker
+    assert isinstance(bipa['_'], Marker)
+    assert isinstance(bipa['_\u0329'], UnknownSound)
 
 
 def test_call(bipa):
@@ -158,6 +164,8 @@ def test_models(bipa, asjp):
     # test equality of symbols
     assert Symbol(ts=bipa, grapheme='1', source='1') != Symbol(
         ts=asjp, grapheme='1', source='1')
+
+    assert pytest.approx(1.0) == bipa['t'].similarity(asjp['t'])
 
 
 def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):

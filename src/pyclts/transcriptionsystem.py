@@ -227,6 +227,10 @@ class TranscriptionSystem(TranscriptionBase):
 
         pre, mid, post = nstring.partition(nstring[match[0].start():match[0].end()])
         base_sound = self.sounds[mid]
+        if isinstance(base_sound, Marker):
+            if pre or post:
+                return UnknownSound(grapheme=nstring, source=string, ts=self)
+            return base_sound
 
         # A base sound with diacritics or a custom symbol.
         features = attr.asdict(base_sound)
