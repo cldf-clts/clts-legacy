@@ -14,6 +14,7 @@ setup(
         'attrs',
         'clldutils>=1.13.6',
         'csvw>=1.0',
+        'uritemplate',
     ],
     extras_require={
         'dev': ['flake8', 'wheel', 'twine'],

@@ -40,7 +40,7 @@ class TranscriptionBase(object):
     lists of Sound objects.
     """
     def resolve_sound(self, sound):
-        raise NotImplementedError
+        raise NotImplementedError  # pragma: no cover
 
     def __getitem__(self, sound):
         """Return a Sound instance matching the specification."""
@@ -166,11 +166,10 @@ class Sound(Symbol):
                 return self.grapheme
             elif self.alias and self.featureset in self.ts.features:
                 return text_type(self.ts.features[self.featureset])
-            else:
-                # this error can usually not be raised, as we catch them when
-                # loading a ts
-                raise ValueError('Orphaned alias {0}'.format(self.grapheme))
-        
+            # this can usually not happen, as we catch these errors when loading a ts!
+            raise ValueError(
+                'Orphaned alias {0}'.format(self.grapheme))  # pragma: no cover
+
         # search for best base-string
         elements = [f for f in self._features() if f not in EXCLUDE_FEATURES] + [self.type]
         base_str = self.base or '<?>'

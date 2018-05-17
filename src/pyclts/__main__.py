@@ -1,33 +1,36 @@
 # coding: utf-8
 """
-Main command line interface to the pyclpa package.
+Main command line interface to the pyclts package.
 """
-from __future__ import unicode_literals, print_function
+from __future__ import unicode_literals, print_function, division
 import sys
-from collections import defaultdict
-import argparse
+from collections import defaultdict, Counter
 
+from six import text_type
 import tabulate
+from uritemplate import URITemplate
 import attr
 
-from clldutils.clilib import ArgumentParser, command
+from clldutils.clilib import ArgumentParserWithLogging, command
 from clldutils.dsv import reader, UnicodeWriter
 from clldutils.markup import Table
+from clldutils.path import Path
+
 from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
-from pyclts.soundclasses import SoundClasses
-from pyclts.util import pkg_path, data_path
+from pyclts.soundclasses import SoundClasses, SOUNDCLASS_SYSTEMS
 from pyclts.models import is_valid_sound
+from pyclts.util import pkg_path
 
 
 @command()
 def sounds(args):
     tts = TranscriptionSystem(args.system)
-    tts_sounds = [tts.get(sound) for sound in args.args]
     data = []
-    for sound in tts_sounds:
+    for sound in args.args:
+        sound = tts.get(sound if isinstance(sound, text_type) else sound.decode('utf8'))
         if sound.type != 'unknownsound':
-            data += [[str(sound),
+            data += [[text_type(sound),
                       sound.source or ' ',
                       '1' if sound.generated else ' ',
                       sound.grapheme if sound.alias else ' ',
@@ -39,78 +42,64 @@ def sounds(args):
 
 
 @command()
-def td(args):
+def _make_package(args):  # pragma: no cover
     """Prepare transcriptiondata from the transcription sources."""
-    columns = ['LATEX', 'FEATURES', 'SOUND', 'IMAGE', 'COUNT', 'NOTE']
-    bipa = TranscriptionSystem('bipa')
-    urls = {
-        'phoible.tsv': 'http://phoible.org/parameters/{ID}',
-        'eurasian.tsv': 'http://eurasianphonology.info/search_exact?dialects=True&query={GRAPHEME}',
-        'pbase.tsv': 'http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input={GRAPHEME}&inany=false&coreinv=on',
-
-    }
-    for f in pkg_path('sources').iterdir():
-        if not f.parts[-1][0] in '._' and f.parts[-1][-3:] == 'tsv':
-            print(f.parts[-1], end="\t")
-            out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'EXPLICIT',
-                    'GRAPHEME', 'URL'] + columns]
-            graphemes = set()
-            for row in reader(f, dicts=True, delimiter='\t'):
-                if row['GRAPHEME'] in graphemes:
-                    continue
-                graphemes.add(row['GRAPHEME'])
-                if not row['BIPA']:
-                    bipa_sound = bipa[row['GRAPHEME']]
-                    generated = '+' if bipa_sound.generated else ''
-                    explicit = ''
-                else:
-                    bipa_sound = bipa[row['BIPA']]
-                    generated = '+' if bipa_sound.generated else ''
-                    explicit = '+'
-                if is_valid_sound(bipa_sound, bipa) and bipa_sound.type != 'marker':
-                    bipa_grapheme = bipa_sound.s
-                    bipa_name = bipa_sound.name
-                else:
-                    bipa_grapheme, bipa_name = '<NA>', '<NA>'
-                if f.parts[-1] in urls:
-                    url = urls[f.parts[-1]].format(**row)
-                else:
-                    url = row.get('URL', '')
-                out.append(
-                    [bipa_grapheme, bipa_name, generated, explicit, row['GRAPHEME'],
-                     url] + [
-                        row.get(c, '') for c in columns])
-            found = len([o for o in out if o[0] != '<NA>'])
-            total = len(out)
-            gens = len([o for o in out if o[2] == '+'])
-            print('{0:.2f}% ({1} out of {2})'.format(found / total, found,
-                                                     total))
-            with UnicodeWriter(pkg_path('transcriptiondata', f.parts[-1]),
-                               delimiter='\t') as writer:
-                writer.writerows(out)
-
-
-@command()
-def sc(args):
     from lingpy.sequence.sound_classes import token2class
     from lingpy.data import Model
+
+    columns = ['LATEX', 'FEATURES', 'SOUND', 'IMAGE', 'COUNT', 'NOTE']
     bipa = TranscriptionSystem('bipa')
-    classes = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
-    conv = {x: x.upper() + '_CLASS' for x in classes}
-    conv['art'] = 'PROSODY_CLASS'
-    conv['dolgo'] = 'DOLGOPOLSKY_CLASS'
+    for src in reader(args.repos / 'sources' / 'index.tsv', dicts=True, delimiter='\t'):
+        if src['TYPE'] != 'td':
+            continue
+        graphemesp = args.repos / 'sources' / src['NAME'] / 'graphemes.tsv'
+        if not graphemesp.exists():
+            continue
+        args.log.info('TranscriptionData {0} ...'.format(src['NAME']))
+        uritemplate = URITemplate(src['URITEMPLATE']) if src['URITEMPLATE'] else None
+        out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'EXPLICIT',
+                'GRAPHEME', 'URL'] + columns]
+        graphemes = set()
+        for row in reader(graphemesp, dicts=True, delimiter='\t'):
+            if row['GRAPHEME'] in graphemes:
+                args.log.warn('skipping duplicate grapheme: {0}'.format(row['GRAPHEME']))
+                continue
+            graphemes.add(row['GRAPHEME'])
+            if not row['BIPA']:
+                bipa_sound = bipa[row['GRAPHEME']]
+                explicit = ''
+            else:
+                bipa_sound = bipa[row['BIPA']]
+                explicit = '+'
+            generated = '+' if bipa_sound.generated else ''
+            if is_valid_sound(bipa_sound, bipa):
+                bipa_grapheme = bipa_sound.s
+                bipa_name = bipa_sound.name
+            else:
+                bipa_grapheme, bipa_name = '<NA>', '<NA>'
+            url = uritemplate.expand(**row) if uritemplate else row.get('URL', '')
+            out.append(
+                [bipa_grapheme, bipa_name, generated, explicit, row['GRAPHEME'],
+                 url] + [
+                    row.get(c, '') for c in columns])
+        found = len([o for o in out if o[0] != '<NA>'])
+        args.log.info('... {0} of {1} graphemes found ({2:.0f}%)'.format(
+            found, len(out), found / len(out) * 100))
+        with UnicodeWriter(
+            pkg_path('transcriptiondata', '{0}.tsv'.format(src['NAME'])), delimiter='\t'
+        ) as writer:
+            writer.writerows(out)
+
     count = 0
-    with open(pkg_path('soundclasses', 'lingpy.tsv').as_posix(), 'w') as f:
-        f.write('CLTS_NAME\tBIPA_GRAPHEME\t' + '\t'.join([
-            conv[x] for x in classes]) + '\n')
-        for grapheme, sound in bipa.items():
+    with UnicodeWriter(pkg_path('soundclasses', 'lingpy.tsv'), delimiter='\t') as writer:
+        writer.writerow(['CLTS_NAME', 'BIPA_GRAPHEME'] + SOUNDCLASS_SYSTEMS)
+        for grapheme, sound in sorted(bipa.sounds.items()):
             if not sound.alias:
-                f.write(sound.name + '\t' + grapheme)
-                for cls in classes:
-                    f.write('\t' + token2class(grapheme, Model(cls)))
-                f.write('\n')
+                writer.writerow(
+                    [sound.name, grapheme] +
+                    [token2class(grapheme, Model(cls)) for cls in SOUNDCLASS_SYSTEMS])
                 count += 1
-    print('Wrote {0} sound classes to file.'.format(count))
+    args.log.info('SoundClasses: {0} written to file.'.format(count))
 
 
 @attr.s
@@ -129,13 +118,16 @@ class Grapheme(object):
 
 
 @command()
-def dump(args):
+def dump(args, test=False):
+    def data_path(*comps):
+        return args.repos.joinpath('data', *comps)
+
     sounds = defaultdict(dict)
     data = []
     bipa = TranscriptionSystem('bipa')
     # start from assembling bipa-sounds
-    for grapheme, sound in sorted(bipa.sounds.items(), key=lambda p: p[1].alias
-            if p[1].alias else False):
+    for grapheme, sound in sorted(
+            bipa.sounds.items(), key=lambda p: p[1].alias if p[1].alias else False):
         if sound.type not in ['marker']:
             if sound.alias:
                 assert sound.name in sounds
@@ -164,13 +156,9 @@ def dump(args):
                 '',
                 sound.note or ''))
 
-    mapping = {'td': TranscriptionData, 'ts': TranscriptionSystem, 'sc': SoundClasses}
-    datasets = defaultdict(list)
-    for line in reader(data_path('datasets.tsv'), delimiter='\t', namedtuples=True):
-        datasets[line.TYPE].append(mapping[line.TYPE](line.NAME))
-
     # add sounds systematically by their alias
-    for td in datasets['td']:
+    for td in pkg_path('transcriptiondata').iterdir():
+        td = TranscriptionData(td.stem)
         for name in td.names:
             bipa_sound = bipa[name]
             # check for consistency of mapping here
@@ -205,10 +193,13 @@ def dump(args):
                     item.get('image', ''),
                     item.get('sound', ''),
                 ))
+        if test:
+            break
 
     # sound classes have a generative component, so we need to treat them
     # separately
-    for sc in datasets['sc']:
+    for sc in SOUNDCLASS_SYSTEMS:
+        sc = SoundClasses(sc)
         for name in sounds:
             try:
                 grapheme = sc[name]
@@ -219,29 +210,35 @@ def dump(args):
                     '',
                     sc.id,
                 ))
-            except KeyError:
-                print(name, sounds[name]['grapheme'])
+            except KeyError:  # pragma: no cover
+                args.log.debug(name, sounds[name]['grapheme'])
+        if test:
+            break
 
     # last run, check again for each of the remaining transcription systems,
     # whether we can translate the sound
-    for ts in datasets['ts']:
-        if ts.id != 'bipa':
-            for name in sounds:
-                try:
-                    ts_sound = ts[name]
-                    if is_valid_sound(ts_sound, ts):
-                        sounds[name]['aliases'].add(ts_sound.s)
-                        data.append(Grapheme(
-                            ts_sound.s,
-                            name,
-                            '' if sounds[name]['generated'] else '+',
-                            '',  # sounds[name]['alias'],
-                            ts.id,
-                        ))
-                except ValueError:
-                    pass
-                except TypeError:
-                    print(ts.id, name)
+    for ts in pkg_path('transcriptionsystems').iterdir():
+        if (not ts.is_dir()) or ts.name.startswith('_') or ts.name == 'bipa':
+            continue  # pragma: no cover
+        ts = TranscriptionSystem(ts.name)
+        for name in sounds:
+            try:
+                ts_sound = ts[name]
+                if is_valid_sound(ts_sound, ts):
+                    sounds[name]['aliases'].add(ts_sound.s)
+                    data.append(Grapheme(
+                        ts_sound.s,
+                        name,
+                        '' if sounds[name]['generated'] else '+',
+                        '',  # sounds[name]['alias'],
+                        ts.id,
+                    ))
+            except ValueError:
+                pass
+            except TypeError:
+                args.log.debug('{0}: {1}'.format(ts.id, name))
+        if test:
+            break
 
     with UnicodeWriter(data_path('sounds.tsv'), delimiter='\t') as writer:
         writer.writerow([
@@ -258,6 +255,8 @@ def dump(args):
 
 @command()
 def stats(args):
+    def data_path(*comps):
+        return args.repos.joinpath('data', *comps)
     sounds = {}
     for row in reader(data_path('sounds.tsv'), delimiter='\t', dicts=True):
         sounds[row['NAME']] = row
@@ -267,21 +266,19 @@ def stats(args):
 
     graphdict = defaultdict(list)
     for id_, row in graphs.items():
-        if row['DATATYPE'] == 'td':
-            graphdict[row['GRAPHEME']] += [row['DATASET']]
+        graphdict[row['GRAPHEME']] += [row['DATASET']]
 
     text = [['DATA', 'STATS', 'PERC']]
-    text += [['Unique graphemes',
-              len(set([row['GRAPHEME'] for row in graphs.values()]))]]
-    text += [['different sounds', len(sounds), '']]
-    text += [['singletons', len([g for g in graphdict if len(set(graphdict[g]))
-                                 == 1]), '']]
-    text += [['multiples', len([g for g in graphdict if len(set(graphdict[g]))
-                                > 1]), '']]
-    for sc in ['consonant', 'vowel', 'tone', 'diphthong', 'cluster']:
-        consonants = len([s for s in sounds.values() if s['TYPE'] == sc])
-        total = len(sounds)
-        text += [[sc + 's', consonants, '{0:.2f}'.format(consonants / total)]]
+    text.append(
+        ['Unique graphemes', len(set(row['GRAPHEME'] for row in graphs.values())), ''])
+    text.append(['different sounds', len(sounds), ''])
+    text.append(
+        ['singletons', len([g for g in graphdict if len(set(graphdict[g])) == 1]), ''])
+    text.append(
+        ['multiples', len([g for g in graphdict if len(set(graphdict[g])) > 1]), ''])
+    total = len(sounds)
+    for type_, count in Counter([s['TYPE'] for s in sounds.values()]).most_common():
+        text.append([type_ + 's', count, '{0:.2f}'.format(count / total)])
 
     print(tabulate.tabulate(text, headers='firstrow'))
 
@@ -289,7 +286,8 @@ def stats(args):
 @command()
 def table(args):
     tts = TranscriptionSystem(args.system)
-    tts_sounds = [tts.get(sound) for sound in args.args]
+    tts_sounds = [tts.get(sound if isinstance(sound, text_type) else sound.decode('utf8'))
+                  for sound in args.args]
     if args.filter == 'generated':
         tts_sounds = [s for s in tts_sounds if s.generated]
     elif args.filter == 'unknown':
@@ -319,7 +317,12 @@ def table(args):
 
 
 def main(args=None):  # pragma: no cover
-    parser = ArgumentParser('pyclts', formatter_class=argparse.RawTextHelpFormatter)
+    parser = ArgumentParserWithLogging('pyclts')
+    parser.add_argument(
+        "--repos",
+        default=Path(__file__).parent.parent.parent,
+        type=Path,
+        help="Path to clts repos.")
     parser.add_argument(
         "--format",
         default="pipe",

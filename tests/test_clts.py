@@ -4,13 +4,18 @@ from six import text_type
 
 import pytest
 
-from pyclts.models import Marker, UnknownSound
+from pyclts.models import Marker, UnknownSound, is_valid_sound, Symbol, Sound
 
 
 def test_translate(bipa, asjp, asjpd):
     assert bipa.translate('ts a', asjp) == 'c E'
     assert asjp.translate('c a', bipa) == 'ts ɐ'
     assert bipa.translate('t o h t a', asjpd)[0] == 't'
+
+
+def test_is_valid_sound(bipa):
+    assert not is_valid_sound(bipa['_'], bipa)
+    assert not is_valid_sound(bipa['ä'], bipa)
 
 
 def test_getitem(bipa):
@@ -49,6 +54,9 @@ def test_parse(bipa):
         assert res.generated
     for s in ['a', 't']:
         assert text_type(bipa[s]) == s
+    a = bipa['a']
+    comps = a.name.split()
+    assert bipa[' '.join(list(reversed(comps[:-2])) + [comps[-1]])]
 
     # diphthongs
     dips = ['ao', 'ea', 'ai', 'ua']
@@ -94,22 +102,17 @@ def test_sound_from_name(bipa):
             'from voiceless alveolar stop to voiceless velar stop cluster'
             ].grapheme == 'tk'
 
-    try:
+    with pytest.raises(ValueError):
         bipa['very bad feature voiced labial stop consonant']
-    except ValueError:
-        assert True
-    try:
+
+    with pytest.raises(ValueError):
         bipa._from_name('very bad feature with bad consonantixs')
-    except ValueError:
-        assert True
-    try:
+
+    with pytest.raises(ValueError):
         bipa._from_name('from something to something diphthong')
-    except ValueError:
-        assert True
-    try:
+
+    with pytest.raises(ValueError):
         bipa._from_name('something diphthong')
-    except ValueError:
-        assert True
 
     assert bipa['pre-aspirated voiced bilabial nasal consonant'].generated
     assert not bipa._from_name('voiced nasal bilabial consonant').generated
@@ -130,12 +133,12 @@ def test_ts():
 
 
 def test_models(bipa, asjp):
-    from pyclts.models import Symbol
     sym = Symbol(ts=bipa, grapheme='s', source='s', generated=False, note='')
     assert text_type(sym) == sym.source == sym.grapheme
     assert sym == sym
     assert not sym.name
     assert sym.uname == "LATIN SMALL LETTER S"
+
     # complex sounds are always generated
     assert bipa['ae'].generated
     assert bipa['tk'].generated
@@ -144,6 +147,7 @@ def test_models(bipa, asjp):
     s1 = bipa['t']
     s2 = 't'
     assert s1 != s2
+    assert not Sound(ts=None, grapheme='a') == 5
 
     # repr test for sound
     assert s1.name in repr(s1)
@@ -157,6 +161,8 @@ def test_models(bipa, asjp):
 
     # test the unicode name
     assert Symbol(ts='', grapheme=[['1', '2'], '2'], source='').uname == '-'
+    s = Symbol(ts=None, grapheme='\x84')  # U+0084 <control>
+    assert s.uname == '?'
 
     # test complex sound
     assert text_type(bipa['ae']) == 'ae'
@@ -235,6 +241,7 @@ def test_transcription_system_consistency(bipa, asjp, gld):
 def test_clicks(bipa, grapheme, gtype):
     if gtype == 'stop-cluster':
         assert bipa[grapheme].type == 'cluster'
+
 
 def test_sounds(
         bipa,

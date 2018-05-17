@@ -5,15 +5,7 @@ from pyclts.transcriptionsystem import Sound, TranscriptionSystem
 from pyclts.util import iterdata
 from pyclts.models import TranscriptionBase
 
-
-def lingpy(sound_class):
-    out = {}
-    graphemes, names = [], []
-    for sound_name, sound_bipa, grapheme in iterdata('soundclasses', 'lingpy.tsv', sound_class):
-        out[sound_bipa] = out[sound_name] = grapheme
-        graphemes += [sound_bipa]
-        names += [sound_name]
-    return out, graphemes, names
+SOUNDCLASS_SYSTEMS = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
 
 
 class SoundClasses(TranscriptionBase):
@@ -21,18 +13,17 @@ class SoundClasses(TranscriptionBase):
     Class for handling sound class models.
     """
     def __init__(self, data='sca', system=None):
-        self.data, self.sounds, self.names = {
-            "sca": lambda: lingpy('SCA_CLASS'),
-            "dolgo": lambda: lingpy('DOLGOPOLSKY_CLASS'),
-            "cv": lambda: lingpy('CV_CLASS'),
-            "prosody": lambda: lingpy('PROSODY_CLASS'),
-            "asjp": lambda: lingpy('ASJP_CLASS'),
-            "color": lambda: lingpy('COLOR_CLASS'),
-        }[data]()
+        assert data in SOUNDCLASS_SYSTEMS
+        self.data, self.sounds, self.names = {}, [], []
+
+        for sound_name, sound_bipa, grapheme in iterdata(
+                'soundclasses', 'lingpy.tsv', data):
+            self.data[sound_bipa] = self.data[sound_name] = grapheme
+            self.sounds.append(sound_bipa)
+            self.names.append(sound_name)
+
         self.id = data
         self.system = system or TranscriptionSystem()
-        # we want to know whether data type is lingpy, as in this case, we want
-        # to resolve the mappings
 
     def resolve_sound(self, sound):
         """Function tries to identify a sound in the data.
