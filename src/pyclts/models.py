@@ -249,12 +249,14 @@ class Consonant(Sound):
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=['laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
+        post=[
+            'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
             'articulation',
-            'nasalization',  'palatalization', 'labialization',
+            'nasalization', 'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
             'pharyngealization', 'release', 'duration'])
-    _name_order = ['articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
+    _name_order = [
+        'articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
         'breathiness', 'phonation', 'laminality', 'place', 'ejection', 'laterality',
@@ -273,25 +275,25 @@ class ComplexSound(Sound):
     def name(self):
         n1 = ' '.join(self.from_sound.name.split(' ')[:-1])
         n2 = ' '.join(self.to_sound.name.split(' ')[:-1])
-        return 'from '+n1+' to '+n2+' '+self.type
+        return 'from ' + n1 + ' to ' + n2 + ' ' + self.type
 
     @classmethod
     def from_sounds(cls, source, sound1, sound2, ts):
         return cls(
-                source=source, 
-                grapheme=sound1.grapheme+sound2.grapheme, 
-                from_sound=sound1, 
-                to_sound=sound2, 
-                ts=ts,
-                generated=True,
-                stress=sound1.stress or sound2.stress
-                )
+            source=source,
+            grapheme=sound1.grapheme + sound2.grapheme,
+            from_sound=sound1,
+            to_sound=sound2,
+            ts=ts,
+            generated=True,
+            stress=sound1.stress or sound2.stress
+        )
 
     @property
     def table(self):
         """Overwrite the table attribute for complex sounds"""
         return [self.grapheme, self.from_sound.name, self.to_sound.name]
-        
+
 
 @attr.s(cmp=False, repr=False)
 class Cluster(ComplexSound):
@@ -330,21 +332,24 @@ class Vowel(Sound):
     rounding = attr.ib(default=None)
     advancement = attr.ib(default=None)
     tongue_root = attr.ib(default=None)
-    articulation = attr.ib(default=None) # compare https://en.wikipedia.org/wiki/Faucalized_voice
+    articulation = attr.ib(default=None)  # compare
+    # https://en.wikipedia.org/wiki/Faucalized_voice
 
     _write_order = dict(
         pre=[],
-        post=['tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
+        post=[
+            'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
             'voicing', 'breathiness', 'creakiness', 'retraction',
-           'syllabicity', 'nasalization', 'tone',  'articulation', 'rhotacization', 
+            'syllabicity', 'nasalization', 'tone', 'articulation', 'rhotacization',
             'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
-    _name_order = ['duration', 'rhotacization', 'pharyngealization',
-            'glottalization', 'velarization', 'syllabicity', 'retraction',
-            'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
-            'articulation', 'nasalization', 'voicing', 'creakiness',
-            'breathiness', 'roundedness', 'height', 'frication', 'centrality',
-            'tone']
+    _name_order = [
+        'duration', 'rhotacization', 'pharyngealization',
+        'glottalization', 'velarization', 'syllabicity', 'retraction',
+        'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
+        'articulation', 'nasalization', 'voicing', 'creakiness',
+        'breathiness', 'roundedness', 'height', 'frication', 'centrality',
+        'tone']
 
 
 @attr.s(cmp=False, repr=False)

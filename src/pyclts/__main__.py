@@ -152,8 +152,8 @@ def _make_app_data(args, test=False):
 
     datafile = args.repos.app_path('data.js')
     with datafile.open('w', encoding='utf8') as handler:
-        handler.write('var BIPA = ' + json.dumps(all_sounds, indent=2)+';\n')
-        handler.write('var normalize = ' + json.dumps(tts._normalize)+';\n')
+        handler.write('var BIPA = ' + json.dumps(all_sounds, indent=2) + ';\n')
+        handler.write('var normalize = ' + json.dumps(tts._normalize) + ';\n')
     args.log.info('{0} written'.format(datafile))
 
 
