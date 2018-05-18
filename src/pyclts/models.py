@@ -12,7 +12,6 @@ from pyclts.util import norm
 
 __all__ = [
     'is_valid_sound',
-    'TranscriptionBase',
     'Sound',
     'Consonant',
     'Vowel',
@@ -31,36 +30,6 @@ def is_valid_sound(sound, ts):
     s1 = ts[sound.name]
     s2 = ts[sound.s]
     return s1.name == s2.name and s1.s == s2.s
-
-
-class TranscriptionBase(object):
-    """
-    A Transcription system behaves like a dict in some ways, and provides an additional
-    __call__ method as shortcut for translating sequences of sound specifications to
-    lists of Sound objects.
-    """
-    def resolve_sound(self, sound):
-        raise NotImplementedError  # pragma: no cover
-
-    def __getitem__(self, sound):
-        """Return a Sound instance matching the specification."""
-        return self.resolve_sound(sound)
-
-    def get(self, sound, default=None):
-        try:
-            res = self[sound]
-            if isinstance(res, UnknownSound) and default:
-                return default
-            return res
-        except KeyError:
-            return default
-
-    def __call__(self, sounds, default="0"):
-        return [self.get(x, default=default) for x in sounds.split()]
-
-    def translate(self, string, target_system):
-        return ' '.join(
-            '{0}'.format(target_system.get(self[s].name or '?', '?')) for s in string.split())
 
 
 @attr.s(cmp=False)

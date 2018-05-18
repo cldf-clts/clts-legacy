@@ -2,8 +2,7 @@
 from __future__ import unicode_literals
 
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
-from pyclts.util import iterdata
-from pyclts.models import TranscriptionBase
+from pyclts.util import read_data, TranscriptionBase
 
 SOUNDCLASS_SYSTEMS = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
 
@@ -12,18 +11,14 @@ class SoundClasses(TranscriptionBase):
     """
     Class for handling sound class models.
     """
-    def __init__(self, data='sca', system=None):
-        assert data in SOUNDCLASS_SYSTEMS
-        self.data, self.sounds, self.names = {}, [], []
-
-        for sound_name, sound_bipa, grapheme in iterdata(
-                'soundclasses', 'lingpy.tsv', data):
-            self.data[sound_bipa] = self.data[sound_name] = grapheme
-            self.sounds.append(sound_bipa)
-            self.names.append(sound_name)
-
-        self.id = data
-        self.system = system or TranscriptionSystem()
+    def __init__(self, id_):
+        if not hasattr(self, 'data'):
+            # Only initialize, if this is really a new instance!
+            assert id_ in SOUNDCLASS_SYSTEMS
+            self.data, self.sounds, self.names = read_data(
+                'soundclasses', 'lingpy.tsv', id_)
+            self.data = {k: v[0] for k, v in self.data.items()}
+            self.system = TranscriptionSystem('bipa')
 
     def resolve_sound(self, sound):
         """Function tries to identify a sound in the data.
@@ -40,10 +35,10 @@ class SoundClasses(TranscriptionBase):
         if not sound.type == 'unknownsound':
             if sound.type in ['diphthong', 'cluster']:
                 return self.resolve_sound(sound.from_sound)
-            name = [s for s in sound.name.split(' ') if 
-                self.system._feature_values.get(s, '') not in [
-                    'laminality', 'ejection', 'tone'
-                ]]
+            name = [
+                s for s in sound.name.split(' ') if
+                self.system._feature_values.get(s, '') not in
+                ['laminality', 'ejection', 'tone']]
             while len(name) >= 4:
                 sound = self.system.get(' '.join(name))
                 if sound and sound.name in self.data:

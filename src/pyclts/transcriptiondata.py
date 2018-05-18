@@ -1,34 +1,34 @@
 # coding: utf-8
 from __future__ import unicode_literals
 
-from collections import defaultdict
-
-from pyclts.util import iterdata
+from pyclts.util import read_data, TranscriptionBase
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
-from pyclts.models import TranscriptionBase
 
 
 class TranscriptionData(TranscriptionBase):
     """
     Class for handling transcription data.
     """
-    def __init__(self, data='phoible', system=None):
-        self.data, self.sounds, self.names = defaultdict(list), [], []
-        for name, bipa, grapheme in iterdata(
-            'transcriptiondata',
-            data + '.tsv',
-            'GRAPHEME', 'URL',
-            'BIPA_GRAPHEME', 'GENERATED', 'URL', 'LATEX', 'FEATURES', 'SOUND',
-            'IMAGE', 'COUNT', 'NOTE', 'EXPLICIT'
-        ):
-            self.data[name].append(grapheme)
-            self.data[bipa].append(grapheme)
-            self.sounds += [bipa]
-            self.names += [name]
-        self.id = data
-        self.system = system or TranscriptionSystem()
-        # we want to know whether data type is lingpy, as in this case, we want
-        # to resolve the mappings
+    def __init__(self, id_):
+        if not hasattr(self, 'data'):
+            # Only initialize, if this is really a new instance!
+            self.data, self.sounds, self.names = read_data(
+                'transcriptiondata',
+                id_ + '.tsv',
+                'GRAPHEME',
+                'URL',
+                'BIPA_GRAPHEME',
+                'GENERATED',
+                'URL',
+                'LATEX',
+                'FEATURES',
+                'SOUND',
+                'IMAGE',
+                'COUNT',
+                'NOTE',
+                'EXPLICIT'
+            )
+            self.system = TranscriptionSystem('bipa')
 
     def resolve_sound(self, sound):
         """Function tries to identify a sound in the data.

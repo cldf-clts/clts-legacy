@@ -7,12 +7,6 @@ import pytest
 from pyclts.models import Marker, UnknownSound, is_valid_sound, Symbol, Sound
 
 
-def test_translate(bipa, asjp, asjpd):
-    assert bipa.translate('ts a', asjp) == 'c E'
-    assert asjp.translate('c a', bipa) == 'ts ɐ'
-    assert bipa.translate('t o h t a', asjpd)[0] == 't'
-
-
 def test_is_valid_sound(bipa):
     assert not is_valid_sound(bipa['_'], bipa)
     assert not is_valid_sound(bipa['ä'], bipa)
@@ -48,27 +42,22 @@ def test_examples(bipa):
 
 
 def test_parse(bipa):
-    sounds = ['ʰdʱ', "ˈa", 'á']
-    for s in sounds:
-        res = bipa[s]
-        assert res.generated
-    for s in ['a', 't']:
-        assert text_type(bipa[s]) == s
+    assert all(bipa[s].generated for s in ['ʰdʱ', "ˈa", 'á'])
+    assert all(text_type(bipa[s]) == s for s in ['a', 't'])
+
     a = bipa['a']
     comps = a.name.split()
     assert bipa[' '.join(list(reversed(comps[:-2])) + [comps[-1]])]
 
     # diphthongs
-    dips = ['ao', 'ea', 'ai', 'ua']
-    for s in dips:
+    for s in ['ao', 'ea', 'ai', 'ua']:
         res = bipa[s]
         assert res.type == 'diphthong'
         assert res.name.endswith('diphthong')
         assert s == text_type(s)
 
     # clusters
-    clus = ['tk', 'pk', 'dg', 'bdʰ']
-    for s in clus:
+    for s in ['tk', 'pk', 'dg', 'bdʰ']:
         res = bipa[s]
         assert res.type == 'cluster'
         assert 'cluster' in res.name
@@ -80,6 +69,8 @@ def test_parse(bipa):
 
     # marker
     assert isinstance(bipa['_'], Marker)
+
+    # decorated marker
     assert isinstance(bipa['_\u0329'], UnknownSound)
 
 
@@ -92,44 +83,38 @@ def test_get(bipa):
     assert bipa.get('A', '?') == '?'
 
 
-def test_sound_from_name(bipa):
-    from pyclts.models import UnknownSound
-
-    assert bipa[
-            'from unrounded open front to unrounded close-mid front diphthong'
-            ].grapheme == 'ae'
-    assert bipa[
-            'from voiceless alveolar stop to voiceless velar stop cluster'
-            ].grapheme == 'tk'
-
-    with pytest.raises(ValueError):
-        bipa['very bad feature voiced labial stop consonant']
-
-    with pytest.raises(ValueError):
-        bipa._from_name('very bad feature with bad consonantixs')
-
-    with pytest.raises(ValueError):
-        bipa._from_name('from something to something diphthong')
-
-    with pytest.raises(ValueError):
-        bipa._from_name('something diphthong')
-
-    assert bipa['pre-aspirated voiced bilabial nasal consonant'].generated
-    assert not bipa._from_name('voiced nasal bilabial consonant').generated
+@pytest.mark.parametrize(
+    "name,check",
+    [
+        (
+            'from unrounded open front to unrounded close-mid front diphthong',
+            lambda s: s.grapheme == 'ae'),
+        (
+            'from voiceless alveolar stop to voiceless velar stop cluster',
+            lambda s: s.grapheme == 'tk'),
+        ('pre-aspirated voiced bilabial nasal consonant', lambda s: s.generated),
+        ('voiced nasal bilabial consonant', lambda s: not s.generated),
+        # complex sounds are always generated
+        ('ae', lambda s: s.generated),
+        ('tk', lambda s: s.generated),
+    ]
+)
+def test_sound_from_name(name, check, bipa):
+    assert check(bipa[name])
 
 
-def test_ts():
-    from pyclts.transcriptionsystem import TranscriptionSystem
-    with pytest.raises(AssertionError):
-        TranscriptionSystem('')
+def test_sound_from_name_error(bipa):
     with pytest.raises(ValueError):
-        TranscriptionSystem('_f1')
+        _ = bipa['very bad feature voiced labial stop consonant']
+
     with pytest.raises(ValueError):
-        TranscriptionSystem('_f2')
+        _ = bipa._from_name('very bad feature with bad consonantixs')
+
     with pytest.raises(ValueError):
-        TranscriptionSystem('_f3')
+        _ = bipa._from_name('from something to something diphthong')
+
     with pytest.raises(ValueError):
-        _ = TranscriptionSystem('what')
+        _ = bipa._from_name('something diphthong')
 
 
 def test_models(bipa, asjp):
@@ -138,10 +123,6 @@ def test_models(bipa, asjp):
     assert sym == sym
     assert not sym.name
     assert sym.uname == "LATIN SMALL LETTER S"
-
-    # complex sounds are always generated
-    assert bipa['ae'].generated
-    assert bipa['tk'].generated
 
     # equality tests in model for sound
     s1 = bipa['t']
@@ -174,7 +155,7 @@ def test_models(bipa, asjp):
     assert pytest.approx(1.0) == bipa['t'].similarity(asjp['t'])
 
 
-def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
+def test_transcriptiondata(sca, dolgo, asjpd, phoible, bipa):
     seq = 'tʰ ɔ x ˈth ə r A ˈI ʲ'
     seq2 = 'th o ?/x a'
     seq3 = 'th o ?/ a'
@@ -192,10 +173,10 @@ def test_transcriptiondata(sca, dolgo, asjpd, phoible, pbase, bipa):
     assert asjpd(seq4)[3] == '!'
 
     with pytest.raises(KeyError):
-        dolgo['A']
+        _ = dolgo['A']
 
     with pytest.raises(KeyError):
-        sca['B']
+        _ = sca['B']
 
     # test data from sound name
     assert sca.resolve_sound(bipa['ʰb']) == 'P'

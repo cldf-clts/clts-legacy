@@ -14,16 +14,20 @@ def test_features(capsys, mocker):
 
 
 def test_sounds_cmd(capsys, mocker):
-    sounds(mocker.Mock(system='bipa', args=['a', 'kh']))
+    sounds(mocker.Mock(system='bipa', args=['a', 'kh', 'zz']))
     out, err = capsys.readouterr()
     assert 'kʰ' in out
 
 
 def test_table(capsys, mocker):
-    table(mocker.Mock(system='bipa', args=['a', 'kh']))
+    table(mocker.Mock(system='bipa', args=['a', 'kh', 'zz']))
     out, err = capsys.readouterr()
     assert '# vowel' in out
     assert '# consonant' in out
+    assert '# Unknown sounds' in out
+    table(mocker.Mock(system='bipa', args=['a', 'kh', 'zz'], filter='unknown'))
+    table(mocker.Mock(system='bipa', args=['a', 'kh', 'zz'], filter='known'))
+    table(mocker.Mock(system='bipa', args=['a', 'kh', 'zz'], filter='generated'))
 
 
 def test_make_app_data(capsys, mocker, tmpdir):

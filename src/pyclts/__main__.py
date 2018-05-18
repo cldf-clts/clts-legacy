@@ -18,7 +18,6 @@ from clldutils.markup import Table
 from clldutils.path import Path
 
 from pyclts.transcriptionsystem import TranscriptionSystem
-from pyclts.transcriptiondata import TranscriptionData
 from pyclts.soundclasses import SOUNDCLASS_SYSTEMS
 from pyclts.models import is_valid_sound
 from pyclts.util import pkg_path
@@ -143,7 +142,7 @@ def _make_app_data(args, test=False):
         for sound in all_sounds:
             try:
                 all_sounds[sound][sc.id] = [dict(grapheme=sc[sound])]
-            except KeyError:
+            except KeyError:  # pragma: no cover
                 pass
             if i == 0:
                 if hasattr(sound, 's'):
@@ -362,7 +361,8 @@ def table(args):
             data[sound.type] += [sound.table]
         else:
             ucount += 1
-            data['unknownsound'] += [[str(ucount), sound.source or '', sound.grapheme]]
+            data['unknownsound'].append(
+                [text_type(ucount), sound.source or '', sound.grapheme])
     for cls in tts.sound_classes:
         if cls in data:
             print('# {0}\n'.format(cls))

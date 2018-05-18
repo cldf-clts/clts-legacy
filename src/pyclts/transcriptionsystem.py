@@ -7,36 +7,34 @@ Transcription System module for consistent IPA handling.
 from __future__ import unicode_literals
 import re
 
-from six import string_types, text_type
+from six import text_type
 
 from csvw import TableGroup
 from clldutils import jsonlib
 import attr
 
-from pyclts.util import pkg_path, nfd, norm, EMPTY, itertable
+from pyclts.util import pkg_path, nfd, norm, EMPTY, itertable, TranscriptionBase
 from pyclts.models import *
 
 
 class TranscriptionSystem(TranscriptionBase):
     """
     A transcription System."""
-    def __init__(self, system='bipa'):
+    def __init__(self, id_):
         """
         :param system: The name of a transcription system or a directory containing one.
         """
-        assert system
-        if isinstance(system, string_types):
-            system = pkg_path('transcriptionsystems', system)
-            if not (system.exists() and system.is_dir()):
-                raise ValueError('unknown system: {0}'.format(system))
-        smd = system.joinpath('metadata.json')
+        if hasattr(self, 'features'):
+            # Only initialize, if this is really a new instance!
+            return
+        assert id_
+        system = pkg_path('transcriptionsystems', id_)
+        if not (system.exists() and system.is_dir()):
+            raise ValueError('unknown system: {0}'.format(id_))
 
-        if smd.exists():
-            self.system = TableGroup.from_file(smd)  # pragma: no cover
-        else:
-            self.system = TableGroup.from_file(
-                pkg_path('transcriptionsystems', 'transcription-system-metadata.json'))
-            self.system._fname = smd
+        self.system = TableGroup.from_file(
+            pkg_path('transcriptionsystems', 'transcription-system-metadata.json'))
+        self.system._fname = system / 'metadata.json'
 
         self.features = {'consonant': {}, 'vowel': {}, 'tone': {}}
         # dictionary for feature values, checks when writing elements from
@@ -83,7 +81,7 @@ class TranscriptionSystem(TranscriptionBase):
                         self._feature_values[value] = key
                         if type_ != 'marker' and value not in features[type_][key]:
                             raise ValueError(
-                                "Your data contains unrecognized features ({0}: {1}, line {2}))".format(
+                                "Unrecognized features ({0}: {1}, line {2}))".format(
                                     key, value, l+2))
 
                 self.sounds[item['grapheme']] = sound
@@ -102,7 +100,7 @@ class TranscriptionSystem(TranscriptionBase):
                 text_type(x[0] + 2) + '/' + text_type(x[1])
                 for x in aliases if x[2] not in self.features)
             raise ValueError(
-                'Your dataset contains orphaned aliases in line(s) {0}'.format(error))
+                'Orphaned aliases in line(s) {0}'.format(error))
 
         # basic regular expression, used to match the basic sounds in the system.
         self._regex = None
@@ -115,12 +113,7 @@ class TranscriptionSystem(TranscriptionBase):
 
     def _update_regex(self):
         self._regex = re.compile('|'.join(
-            map(re.escape, sorted(self.sounds, key=lambda x: len(x),
-                                  reverse=True))))
-
-    @property
-    def id(self):
-        return self.system._fname.parent.name
+            map(re.escape, sorted(self.sounds, key=lambda x: len(x), reverse=True))))
 
     def _norm(self, string):
         """Extended normalization: normalize by list of norm-characers, split
@@ -143,8 +136,7 @@ class TranscriptionSystem(TranscriptionBase):
         rest, sound_class = components[:-1], components[-1]
         if sound_class in ['diphthong', 'cluster']:
             if string.startswith('from ') and 'to ' in string:
-                extension = {'diphthong': 'vowel', 'cluster':
-                        'consonant'}[sound_class]
+                extension = {'diphthong': 'vowel', 'cluster': 'consonant'}[sound_class]
                 string_ = ' '.join(string.split(' ')[1:-1])
                 from_, to_ = string_.split(' to ')
                 v1, v2 = frozenset(from_.split(' ')+[extension]), frozenset(
