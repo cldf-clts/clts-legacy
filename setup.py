@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyclts',
-    version="0.1.1.dev0",
+    version="0.2.0",
     description='A python library to check phonetic transcriptions',
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
