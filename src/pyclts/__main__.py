@@ -308,7 +308,7 @@ def features(args):
     for sound in bipa.sounds.values():
         if sound.type not in ['marker', 'unknownsound']:
             for k, v in sound.featuredict.items():
-                features.add((sound.type, k, v))
+                features.add((sound.type, k, v or ''))
     table = Table('TYPE', 'FEATURE', 'VALUE')
     table.extend(sorted(features))
     print(table.render(tablefmt='simple'))
