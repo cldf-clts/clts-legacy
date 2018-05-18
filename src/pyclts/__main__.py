@@ -5,6 +5,7 @@ Main command line interface to the pyclts package.
 from __future__ import unicode_literals, print_function, division
 import sys
 from collections import defaultdict, Counter
+import json
 
 from six import text_type
 import tabulate
@@ -18,9 +19,10 @@ from clldutils.path import Path
 
 from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.transcriptiondata import TranscriptionData
-from pyclts.soundclasses import SoundClasses, SOUNDCLASS_SYSTEMS
+from pyclts.soundclasses import SOUNDCLASS_SYSTEMS
 from pyclts.models import is_valid_sound
 from pyclts.util import pkg_path
+from pyclts.api import CLTS
 
 
 @command()
@@ -49,18 +51,13 @@ def _make_package(args):  # pragma: no cover
 
     columns = ['LATEX', 'FEATURES', 'SOUND', 'IMAGE', 'COUNT', 'NOTE']
     bipa = TranscriptionSystem('bipa')
-    for src in reader(args.repos / 'sources' / 'index.tsv', dicts=True, delimiter='\t'):
-        if src['TYPE'] != 'td':
-            continue
-        graphemesp = args.repos / 'sources' / src['NAME'] / 'graphemes.tsv'
-        if not graphemesp.exists():
-            continue
+    for src, rows in args.repos.iter_sources(type='td'):
         args.log.info('TranscriptionData {0} ...'.format(src['NAME']))
         uritemplate = URITemplate(src['URITEMPLATE']) if src['URITEMPLATE'] else None
         out = [['BIPA_GRAPHEME', 'CLTS_NAME', 'GENERATED', 'EXPLICIT',
                 'GRAPHEME', 'URL'] + columns]
         graphemes = set()
-        for row in reader(graphemesp, dicts=True, delimiter='\t'):
+        for row in rows:
             if row['GRAPHEME'] in graphemes:
                 args.log.warn('skipping duplicate grapheme: {0}'.format(row['GRAPHEME']))
                 continue
@@ -102,6 +99,65 @@ def _make_package(args):  # pragma: no cover
     args.log.info('SoundClasses: {0} written to file.'.format(count))
 
 
+@command()
+def _make_app_data(args, test=False):
+    tts = TranscriptionSystem('bipa')
+
+    def sound_to_dict(snd):
+        res = {'name': snd.name, 'bipa': snd.s, 'type': snd.type}
+        for f in snd._name_order:
+            res[f] = getattr(snd, f)
+        return res
+
+    # retrieve all sounds in the datasets
+    all_sounds = {}
+    for td in args.repos.iter_transcriptiondata():
+        for sound in td.data:
+            if ' ' in sound:
+                snd = tts[sound]
+                glyph = snd.s
+                assert '<?>' not in snd.s
+                if snd.s not in all_sounds:
+                    all_sounds[glyph] = sound_to_dict(snd)
+                for item in td.data[sound]:
+                    if item['grapheme'] not in all_sounds:
+                        all_sounds[item['grapheme']] = all_sounds[glyph]
+
+                all_sounds[glyph][td.id] = td.data[sound]
+        if test:
+            break
+
+    # add sounds from transcription system
+    for sound in tts:
+        if sound not in all_sounds:
+            snd = tts[sound]
+            if snd.type != 'marker':
+                if snd.s in all_sounds:
+                    all_sounds[sound] = all_sounds[snd.s]
+                else:
+                    all_sounds[sound] = sound_to_dict(snd)
+
+    args.log.info('{0} unique graphemes loaded'.format(len(all_sounds)))
+
+    for i, sc in enumerate(args.repos.iter_soundclass()):
+        for sound in all_sounds:
+            try:
+                all_sounds[sound][sc.id] = [dict(grapheme=sc[sound])]
+            except KeyError:
+                pass
+            if i == 0:
+                if hasattr(sound, 's'):
+                    all_sounds[sound]['bipa'] = tts[sound].s
+        if test:
+            break
+
+    datafile = args.repos.app_path('data.js')
+    with datafile.open('w', encoding='utf8') as handler:
+        handler.write('var BIPA = ' + json.dumps(all_sounds, indent=2)+';\n')
+        handler.write('var normalize = ' + json.dumps(tts._normalize)+';\n')
+    args.log.info('{0} written'.format(datafile))
+
+
 @attr.s
 class Grapheme(object):
     GRAPHEME = attr.ib()
@@ -119,9 +175,6 @@ class Grapheme(object):
 
 @command()
 def dump(args, test=False):
-    def data_path(*comps):
-        return args.repos.joinpath('data', *comps)
-
     sounds = defaultdict(dict)
     data = []
     bipa = TranscriptionSystem('bipa')
@@ -157,8 +210,7 @@ def dump(args, test=False):
                 sound.note or ''))
 
     # add sounds systematically by their alias
-    for td in pkg_path('transcriptiondata').iterdir():
-        td = TranscriptionData(td.stem)
+    for td in args.repos.iter_transcriptiondata():
         for name in td.names:
             bipa_sound = bipa[name]
             # check for consistency of mapping here
@@ -198,8 +250,7 @@ def dump(args, test=False):
 
     # sound classes have a generative component, so we need to treat them
     # separately
-    for sc in SOUNDCLASS_SYSTEMS:
-        sc = SoundClasses(sc)
+    for sc in args.repos.iter_soundclass():
         for name in sounds:
             try:
                 grapheme = sc[name]
@@ -217,10 +268,7 @@ def dump(args, test=False):
 
     # last run, check again for each of the remaining transcription systems,
     # whether we can translate the sound
-    for ts in pkg_path('transcriptionsystems').iterdir():
-        if (not ts.is_dir()) or ts.name.startswith('_') or ts.name == 'bipa':
-            continue  # pragma: no cover
-        ts = TranscriptionSystem(ts.name)
+    for ts in args.repos.iter_transcriptionsystem(exclude=['bipa']):
         for name in sounds:
             try:
                 ts_sound = ts[name]
@@ -240,28 +288,39 @@ def dump(args, test=False):
         if test:
             break
 
-    with UnicodeWriter(data_path('sounds.tsv'), delimiter='\t') as writer:
+    with UnicodeWriter(args.repos.data_path('sounds.tsv'), delimiter='\t') as writer:
         writer.writerow([
             'NAME', 'TYPE', 'GRAPHEME', 'UNICODE', 'GENERATED', 'NOTE'])
         for k, v in sorted(sounds.items(), reverse=True):
             writer.writerow([
                 k, v['type'], v['grapheme'], v['unicode'], v['generated'], v['note']])
 
-    with UnicodeWriter(data_path('graphemes.tsv'), delimiter='\t') as writer:
+    with UnicodeWriter(args.repos.data_path('graphemes.tsv'), delimiter='\t') as writer:
         writer.writerow([f.name for f in attr.fields(Grapheme)])
         for row in data:
             writer.writerow(attr.astuple(row))
 
 
 @command()
+def features(args):
+    bipa = TranscriptionSystem(args.system)
+    features = set()
+    for sound in bipa.sounds.values():
+        if sound.type not in ['marker', 'unknownsound']:
+            for k, v in sound.featuredict.items():
+                features.add((sound.type, k, v))
+    table = Table('TYPE', 'FEATURE', 'VALUE')
+    table.extend(sorted(features))
+    print(table.render(tablefmt='simple'))
+
+
+@command()
 def stats(args):
-    def data_path(*comps):
-        return args.repos.joinpath('data', *comps)
     sounds = {}
-    for row in reader(data_path('sounds.tsv'), delimiter='\t', dicts=True):
+    for row in reader(args.repos.data_path('sounds.tsv'), delimiter='\t', dicts=True):
         sounds[row['NAME']] = row
     graphs = {}
-    for row in reader(data_path('graphemes.tsv'), delimiter='\t', dicts=True):
+    for row in reader(args.repos.data_path('graphemes.tsv'), delimiter='\t', dicts=True):
         graphs['{GRAPHEME}-{NAME}-{DATASET}'.format(**row)] = row
 
     graphdict = defaultdict(list)
@@ -320,8 +379,8 @@ def main(args=None):  # pragma: no cover
     parser = ArgumentParserWithLogging('pyclts')
     parser.add_argument(
         "--repos",
-        default=Path(__file__).parent.parent.parent,
-        type=Path,
+        default=CLTS(repos=Path(__file__).parent.parent.parent),
+        type=CLTS,
         help="Path to clts repos.")
     parser.add_argument(
         "--format",
@@ -338,8 +397,7 @@ def main(args=None):  # pragma: no cover
         default="phoible")
     parser.add_argument(
         '--system', help="specify the transcription system you want to load",
-        default="bipa"
-    )
+        default="bipa")
 
     res = parser.main(args=args)
     if args is None:  # pragma: no cover

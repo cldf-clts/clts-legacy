@@ -142,7 +142,11 @@ class Sound(Symbol):
 
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
-    
+
+    @property
+    def featuredict(self):
+        return {f: getattr(self, f, None) for f in self._name_order}
+
     @property
     def featureset(self):
         return frozenset(self._features() + [self.type])
