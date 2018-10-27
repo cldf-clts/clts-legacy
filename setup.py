@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
-
+import codecs
 
 setup(
     name='pyclts',
     version="0.2.1.dev0",
     description='A python library to check phonetic transcriptions',
-    #long_description=open("README.md").read(),
-    #long_description_content_type='text/markdown',
+    long_description=codecs.open("README.md", 'r', 'utf-8').read(),
+    long_description_content_type='text/markdown',
     author='Johann-Mattis List, Tiago Tresoldi and Robert Forkel',
     author_email='mattis.list@lingpy.org',
     url='https://github.com/cldf/clts',
