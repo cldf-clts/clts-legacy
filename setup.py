@@ -11,7 +11,7 @@ setup(
     author_email='mattis.list@lingpy.org',
     url='https://github.com/cldf/clts',
     install_requires=[
-        'attrs>=17.4.0',
+        'attrs>=18.2',
         'clldutils>=1.13.6',
         'csvw>=1.0',
         'uritemplate',
