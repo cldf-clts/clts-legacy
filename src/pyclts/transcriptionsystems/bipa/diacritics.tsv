@@ -59,8 +59,8 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌͈	vowel	articulation	strong			
 ◌ʱ	vowel	breathiness	breathy	+		
 ◌̤	vowel	breathiness	breathy			
-◌̈	vowel	centrality	centralized			
-◌̽	vowel	centrality	mid-centralized			
+◌̈	vowel	centralization	centralized			
+◌̽	vowel	centralization	mid-centralized			
 ◌̰	vowel	creakiness	creaky			
 ◌̄	vowel	duration	long	+		
 ◌̄	vowel	duration	long	+		
