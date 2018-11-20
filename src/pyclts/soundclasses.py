@@ -15,9 +15,13 @@ class SoundClasses(TranscriptionBase):
         if not hasattr(self, 'data'):
             # Only initialize, if this is really a new instance!
             assert id_ in SOUNDCLASS_SYSTEMS
-            self.data, self.sounds, self.names = read_data(
+            data, self.sounds, self.names = read_data(
                 'soundclasses', 'lingpy.tsv', id_)
-            self.data = {k: v[0] for k, v in self.data.items()}
+            self.data = {}
+            self.classes = set()
+            for k, v in data.items():
+                self.data[k] = v[0]
+                self.classes.add(v[0]['grapheme'])
             self.system = TranscriptionSystem('bipa')
 
     def resolve_sound(self, sound):
