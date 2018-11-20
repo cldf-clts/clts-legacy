@@ -9,7 +9,7 @@ from pyclts.models import Marker, UnknownSound, is_valid_sound, Symbol, Sound
 
 def test_is_valid_sound(bipa):
     assert not is_valid_sound(bipa['_'], bipa)
-    assert not is_valid_sound(bipa['ä'], bipa)
+    assert is_valid_sound(bipa['ä'], bipa)
 
 
 def test_getitem(bipa):
