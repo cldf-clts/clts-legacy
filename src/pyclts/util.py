@@ -2,8 +2,8 @@
 """Auxiliary functions for pyclts."""
 
 from __future__ import unicode_literals, print_function, division
-
 import unicodedata
+from collections import defaultdict
 
 from six import text_type
 
@@ -16,29 +16,50 @@ EMPTY = "◌"
 UNKNOWN = "�"
 
 
-def similarity(soundA, soundB, dtype='difference'):
-    f1, f2 = set(soundA.featureset), set(soundB.featureset)
-    f12 = f1.union(f2)
-    f1_2 = f1.intersection(f2)
-    f_12 = f1.difference(f2)
-    if dtype == 'difference':
-        return f_12
-    elif dtype == 'intersection':
-        return f1_2
+class TranscriptionBase(object):
+    #
+    # This base class makes sure only one instance per (sub-class, id_) is created.
+    # We do this to avoid re-reading the instance data from disk repeatedly. To make this
+    # work, derived classes must do the heavy-lifting in __init__ conditionally, i.e.
+    # check, whether the instance has been initialized before.
+    #
+    __instances = {}
 
-    return 1 - f1_2 / f12 
+    def __new__(cls, id_, **kw):
+        key = (cls.__name__, id_)
+        if key not in cls.__instances:
+            # Only create a new instance if the combination (cls, id_) hasn't been seen
+            # before.
+            cls.__instances[key] = object.__new__(cls)
+        cls.__instances[key].id = id_
+        return cls.__instances[key]
+
+    def resolve_sound(self, sound):
+        raise NotImplementedError  # pragma: no cover
+
+    def __getitem__(self, sound):
+        """Return a Sound instance matching the specification."""
+        return self.resolve_sound(sound)
+
+    def get(self, sound, default=None):
+        try:
+            res = self[sound]
+            if getattr(res, 'type', None) == 'unknownsound' and default:
+                return default
+            return res
+        except KeyError:
+            return default
+
+    def __call__(self, sounds, default="0"):
+        return [self.get(x, default=default) for x in sounds.split()]
+
+    def translate(self, string, target_system):
+        return ' '.join('{0}'.format(
+            target_system.get(self[s].name or '?', '?')) for s in string.split())
 
 
 def pkg_path(*comps):
     return Path(__file__).parent.joinpath(*comps)
-
-
-def app_path(*comps):
-    return Path(__file__).parent.parent.parent.joinpath('app', *comps)
-
-
-def data_path(*comps):
-    return Path(__file__).parent.parent.parent.joinpath('data', *comps)
 
 
 def norm(string):
@@ -60,15 +81,16 @@ def itertable(table):
         yield res
 
 
-def iterdata(folder, fname, grapheme_col, *cols):
-    seen = set()
+def read_data(folder, fname, grapheme_col, *cols):
+    data, sounds, names = defaultdict(list), [], []
+
     for row in reader(pkg_path(folder, fname), delimiter='\t', dicts=True):
         grapheme = {"grapheme": row[grapheme_col]}
-        if folder != 'soundclasses' and grapheme['grapheme'] in seen:
-            print(folder, fname)
-            print(grapheme['grapheme'])
-            raise ValueError
-        seen.add(grapheme['grapheme'])
         for col in cols:
             grapheme[col.lower()] = row[col]
-        yield row['CLTS_NAME'], row['BIPA_GRAPHEME'], grapheme
+        data[row['BIPA_GRAPHEME']].append(grapheme)
+        data[row['CLTS_NAME']].append(grapheme)
+        sounds.append(row['BIPA_GRAPHEME'])
+        names.append(row['CLTS_NAME'])
+
+    return data, sounds, names

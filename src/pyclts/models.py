@@ -12,7 +12,6 @@ from pyclts.util import norm
 
 __all__ = [
     'is_valid_sound',
-    'TranscriptionBase',
     'Sound',
     'Consonant',
     'Vowel',
@@ -31,36 +30,6 @@ def is_valid_sound(sound, ts):
     s1 = ts[sound.name]
     s2 = ts[sound.s]
     return s1.name == s2.name and s1.s == s2.s
-
-
-class TranscriptionBase(object):
-    """
-    A Transcription system behaves like a dict in some ways, and provides an additional
-    __call__ method as shortcut for translating sequences of sound specifications to
-    lists of Sound objects.
-    """
-    def resolve_sound(self, sound):
-        raise NotImplementedError
-
-    def __getitem__(self, sound):
-        """Return a Sound instance matching the specification."""
-        return self.resolve_sound(sound)
-
-    def get(self, sound, default=None):
-        try:
-            res = self[sound]
-            if isinstance(res, UnknownSound) and default:
-                return default
-            return res
-        except KeyError:
-            return default
-
-    def __call__(self, sounds, default="0"):
-        return [self.get(x, default=default) for x in sounds.split()]
-
-    def translate(self, string, target_system):
-        return ' '.join(
-            '{0}'.format(target_system.get(self[s].name or '?', '?')) for s in string.split())
 
 
 @attr.s(cmp=False)
@@ -142,10 +111,18 @@ class Sound(Symbol):
 
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
-    
+
+    @property
+    def featuredict(self):
+        return {f: getattr(self, f, None) for f in self._name_order}
+
     @property
     def featureset(self):
         return frozenset(self._features() + [self.type])
+
+    def similarity(self, other):
+        f1, f2 = self.featureset, other.featureset
+        return len(f1.intersection(f2)) / len(f1.union(f2))
 
     def __unicode__(self):
         """
@@ -162,11 +139,10 @@ class Sound(Symbol):
                 return self.grapheme
             elif self.alias and self.featureset in self.ts.features:
                 return text_type(self.ts.features[self.featureset])
-            else:
-                # this error can usually not be raised, as we catch them when
-                # loading a ts
-                raise ValueError('Orphaned alias {0}'.format(self.grapheme))
-        
+            # this can usually not happen, as we catch these errors when loading a ts!
+            raise ValueError(
+                'Orphaned alias {0}'.format(self.grapheme))  # pragma: no cover
+
         # search for best base-string
         elements = [f for f in self._features() if f not in EXCLUDE_FEATURES] + [self.type]
         base_str = self.base or '<?>'
@@ -273,12 +249,14 @@ class Consonant(Sound):
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=['laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
+        post=[
+            'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
             'articulation',
-            'nasalization',  'palatalization', 'labialization',
+            'nasalization', 'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
             'pharyngealization', 'release', 'duration'])
-    _name_order = ['articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
+    _name_order = [
+        'articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
         'breathiness', 'phonation', 'laminality', 'place', 'ejection', 'laterality',
@@ -297,25 +275,25 @@ class ComplexSound(Sound):
     def name(self):
         n1 = ' '.join(self.from_sound.name.split(' ')[:-1])
         n2 = ' '.join(self.to_sound.name.split(' ')[:-1])
-        return 'from '+n1+' to '+n2+' '+self.type
+        return 'from ' + n1 + ' to ' + n2 + ' ' + self.type
 
     @classmethod
     def from_sounds(cls, source, sound1, sound2, ts):
         return cls(
-                source=source, 
-                grapheme=sound1.grapheme+sound2.grapheme, 
-                from_sound=sound1, 
-                to_sound=sound2, 
-                ts=ts,
-                generated=True,
-                stress=sound1.stress or sound2.stress
-                )
+            source=source,
+            grapheme=sound1.grapheme + sound2.grapheme,
+            from_sound=sound1,
+            to_sound=sound2,
+            ts=ts,
+            generated=True,
+            stress=sound1.stress or sound2.stress
+        )
 
     @property
     def table(self):
         """Overwrite the table attribute for complex sounds"""
         return [self.grapheme, self.from_sound.name, self.to_sound.name]
-        
+
 
 @attr.s(cmp=False, repr=False)
 class Cluster(ComplexSound):
@@ -354,21 +332,24 @@ class Vowel(Sound):
     rounding = attr.ib(default=None)
     advancement = attr.ib(default=None)
     tongue_root = attr.ib(default=None)
-    articulation = attr.ib(default=None) # compare https://en.wikipedia.org/wiki/Faucalized_voice
+    articulation = attr.ib(default=None)  # compare
+    # https://en.wikipedia.org/wiki/Faucalized_voice
 
     _write_order = dict(
         pre=[],
-        post=['tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
+        post=[
+            'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
             'voicing', 'breathiness', 'creakiness', 'retraction',
-           'syllabicity', 'nasalization', 'tone',  'articulation', 'rhotacization', 
+            'syllabicity', 'nasalization', 'tone', 'articulation', 'rhotacization',
             'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication'])
-    _name_order = ['duration', 'rhotacization', 'pharyngealization',
-            'glottalization', 'velarization', 'syllabicity', 'retraction',
-            'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
-            'articulation', 'nasalization', 'voicing', 'creakiness',
-            'breathiness', 'roundedness', 'height', 'frication', 'centrality',
-            'tone']
+    _name_order = [
+        'duration', 'rhotacization', 'pharyngealization',
+        'glottalization', 'velarization', 'syllabicity', 'retraction',
+        'tongue_root', 'raising', 'centralization', 'rounding', 'advancement',
+        'articulation', 'nasalization', 'voicing', 'creakiness',
+        'breathiness', 'roundedness', 'height', 'frication', 'centrality',
+        'tone']
 
 
 @attr.s(cmp=False, repr=False)
