@@ -93,8 +93,6 @@ consonant	phonation	voiced
 consonant	phonation	voiceless
 consonant	duration	long
 consonant	duration	mid-long
-consonant	duration	ultra-long
-consonant	duration	ultra-short
 consonant	stress	primary-stress
 consonant	stress	primary-stress
 consonant	stress	primary-stress
