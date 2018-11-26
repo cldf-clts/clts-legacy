@@ -115,7 +115,9 @@ consonant	laminality	laminal
 consonant	articulation	strong
 consonant	breathiness	breathy
 consonant	glottalization	glottalized
-tone	middle	via-high
+consonant	raising	lowered
+consonant	raising	raised
+vone	middle	via-high
 tone	middle	via-low
 tone	middle	via-mid
 tone	middle	via-mid-high
