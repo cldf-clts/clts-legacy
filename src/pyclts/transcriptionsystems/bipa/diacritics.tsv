@@ -5,7 +5,8 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̤	consonant	breathiness	breathy	+		
 ◌̰	consonant	creakiness	creaky			
 ◌ː	consonant	duration	long			
-◌’	consonant	ejection	ejective			
+◌ˑ	consonant	duration	mid-long			
+◌̆’	consonant	ejection	ejective			
 ◌'	consonant	ejection	ejective	+		
 ◌’	consonant	ejection	ejective	+		
 ◌ʼ	consonant	ejection	ejective	+		
