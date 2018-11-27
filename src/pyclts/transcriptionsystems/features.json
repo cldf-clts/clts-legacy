@@ -1,8 +1,10 @@
 {
   "vowel": {
-    "centralization": [
+    "relative_articulation": [
       "centralized",
-      "mid-centralized"
+      "mid-centralized",
+      "advanced",
+      "retracted"
     ],
     "centrality": [
       "back",
@@ -21,9 +23,6 @@
     "stress": [
       "primary-stress",
       "secondary-stress"
-    ],
-    "retraction": [
-      "retracted"
     ],
     "pharyngealization": [
       "pharyngealized"
@@ -55,9 +54,6 @@
     ],
     "frication": [
       "with-frication"
-    ],
-    "advancement": [
-      "advanced"
     ],
     "roundedness": [
       "rounded",
@@ -100,6 +96,12 @@
     ]
   },
   "consonant": {
+    "relative_articulation": [
+        "centralized",
+        "mid-centralized",
+        "advanced",
+        "retracted"
+    ],
     "aspiration": [
       "aspirated"
     ],
@@ -126,8 +128,9 @@
       "epiglottal",
       "glottal",
       "labial",
-      "labialized-palatal",
-      "labialized-velar",
+      "linguolabial",
+      "labio-palatal",
+      "labio-velar",
       "labio-dental",
       "palatal",
       "palatal-velar",
@@ -169,7 +172,8 @@
       "voiceless"
     ],
     "duration": [
-      "long"
+      "long",
+      "mid-long"
     ],
     "stress": [
       "primary-stress",
@@ -202,6 +206,10 @@
     ],
     "breathiness": [
       "breathy"
+    ],
+    "raising": [
+      "lowered",
+      "raised"
     ],
     "glottalization": [
       "glottalized"

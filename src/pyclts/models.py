@@ -243,6 +243,8 @@ class Consonant(Sound):
     laterality = attr.ib(default=None)
     laminality = attr.ib(default=None)
     articulation = attr.ib(default=None)
+    raising = attr.ib(default=None)
+    relative_articulation = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -250,12 +252,14 @@ class Consonant(Sound):
     _write_order = dict(
         pre=['preceding'],
         post=[
+            'raising', 'relative_articulation',
             'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
             'articulation',
             'nasalization', 'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
             'pharyngealization', 'release', 'duration'])
     _name_order = [
+        'raising', 'relative_articulation',
         'articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
@@ -325,12 +329,10 @@ class Vowel(Sound):
     centrality = attr.ib(default=None)
     glottalization = attr.ib(default=None)
     velarization = attr.ib(default=None)
-    centralization = attr.ib(default=None)
+    relative_articulation = attr.ib(default=None)
     tone = attr.ib(default=None)
-    retraction = attr.ib(default=None)
     raising = attr.ib(default=None)
     rounding = attr.ib(default=None)
-    advancement = attr.ib(default=None)
     tongue_root = attr.ib(default=None)
     articulation = attr.ib(default=None)  # compare
     # https://en.wikipedia.org/wiki/Faucalized_voice
@@ -338,16 +340,16 @@ class Vowel(Sound):
     _write_order = dict(
         pre=[],
         post=[
-            'tongue_root', 'raising', 'centrality', 'rounding', 'advancement',
-            'voicing', 'breathiness', 'creakiness', 'retraction',
+            'tongue_root', 'raising', 'centrality', 'rounding',
+            'voicing', 'breathiness', 'creakiness',
             'syllabicity', 'nasalization', 'tone', 'articulation', 'rhotacization',
             'pharyngealization', 'glottalization', 'velarization', 'duration',
-            'frication', 'centralization'])
+            'frication', 'relative_articulation'])
     _name_order = [
         'duration', 'rhotacization', 'pharyngealization',
-        'glottalization', 'velarization', 'syllabicity', 'retraction',
-        'centralization', 
-        'tongue_root', 'raising', 'rounding', 'advancement',
+        'glottalization', 'velarization', 'syllabicity',
+        'relative_articulation',
+        'tongue_root', 'raising', 'rounding',
         'articulation', 'nasalization', 'voicing', 'creakiness',
         'breathiness', 'roundedness', 'height', 'frication', 'centrality',
         'tone']
