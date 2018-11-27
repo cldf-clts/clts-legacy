@@ -23,7 +23,7 @@ z	voiced alveolar sibilant fricative consonant			z						718
 x	voiceless velar fricative consonant			x						579	
 e	unrounded close-mid front vowel			e						531	
 o	rounded close-mid back vowel			o						511	
-w	voiced labialized-velar approximant consonant			w						497	
+w	voiced labio-velar approximant consonant			w						497	
 ʃ	voiceless post-alveolar sibilant fricative consonant			ʃ						483	
 ɪ	unrounded near-close near-front vowel			ɪ						446	
 y	rounded close front vowel			y						442	
@@ -241,7 +241,7 @@ y̞ː	long lowered rounded close front vowel	+		y̞ː						28
 ø̞ːə̆	from long rounded mid front to ultra-short unrounded mid central diphthong	+		ø̞ːə̆						28	
 ʈ	voiceless retroflex stop consonant			ʈ						28	
 l̠	voiced post-alveolar lateral approximant consonant			l̠						27	
-ɥ	voiced labialized-palatal approximant consonant			ɥ						27	
+ɥ	voiced labio-palatal approximant consonant			ɥ						27	
 æ̝	raised unrounded near-open front vowel	+		æ̝						27	
 <NA>	<NA>			t̞						27	
 ɔu	from rounded open-mid back to rounded close back diphthong	+		ɔu						27	
@@ -345,7 +345,7 @@ ãː	long nasalized unrounded open front vowel			ãː						14
 <NA>	<NA>			r̠						14	
 o̝ː	long raised rounded close-mid back vowel	+		o̝ː						14	
 n̩ː	syllabic long voiced alveolar nasal consonant	+		nː̩						14	
-w̃	nasalized voiced labialized-velar approximant consonant			w̃						14	
+w̃	nasalized voiced labio-velar approximant consonant			w̃						14	
 <NA>	<NA>			tˑ						14	
 iɛ	from unrounded close front to unrounded open-mid front diphthong	+		iɛ						13	
 ɔ̞ː	long lowered rounded open-mid back vowel	+		ɔ̞ː						13	
@@ -706,7 +706,7 @@ y̞ːə̆	from long lowered rounded close front to ultra-short unrounded mid cen
 ỹˑ	mid-long nasalized rounded close front vowel	+		ỹˑ						3	
 ɔ̝̃	raised nasalized rounded open-mid back vowel	+		ɔ̝̃						3	
 <NA>	<NA>	+		û̞						3	
-w̃ː	nasalized long voiced labialized-velar approximant consonant	+		w̃ː						3	
+w̃ː	nasalized long voiced labio-velar approximant consonant	+		w̃ː						3	
 ɔ̠ˑ	mid-long retracted rounded open-mid back vowel	+		ɔ̠ˑ						3	
 <NA>	<NA>			k̠̆						3	
 <NA>	<NA>	+		ô̹						3	
@@ -733,7 +733,7 @@ ŭ̜	ultra-short less-rounded rounded close back vowel	+		ŭ̜						3
 <NA>	<NA>	+		ê̝ː						3	
 oi	from rounded close-mid back to unrounded close front diphthong	+		oi						3	
 ɔ˞	rhotacized rounded open-mid back vowel	+		ɔ˞						3	
-ʍ	voiceless labialized-velar approximant consonant			ʍ						3	
+ʍ	voiceless labio-velar approximant consonant			ʍ						3	
 ɑo	from unrounded open back to rounded close-mid back diphthong	+		ɑo						3	
 ə̝	raised unrounded mid central vowel	+		ə̝						3	
 l̃	nasalized voiced alveolar lateral approximant consonant	+		l̃						3	
@@ -1060,7 +1060,7 @@ ya	from rounded close front to unrounded open front diphthong	+		ya						1
 yæ	from rounded close front to unrounded near-open front diphthong	+		yæ						1	
 iõ	from unrounded close front to nasalized rounded close-mid back diphthong	+		iõ						1	
 iɒ̃	from unrounded close front to nasalized rounded open back diphthong	+		iɒ̃						1	
-wː	long voiced labialized-velar approximant consonant			wː						1	
+wː	long voiced labio-velar approximant consonant			wː						1	
 ɪ̝ə	from raised unrounded near-close near-front to unrounded mid central diphthong	+		ɪ̝ə						1	
 ɪ̝̃	raised nasalized unrounded near-close near-front vowel	+		ɪ̝̃						1	
 ɸʰ	aspirated voiceless bilabial fricative consonant	+		ɸʰ						1	

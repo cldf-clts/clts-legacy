@@ -334,12 +334,12 @@ kʘ	voiceless	labial	click	+
 ˀŋʘ	voiced	labial 	nasal-click		preceding:pre-glottalized
 ŋgʘ	voiced	labial 	click	+	preceding:pre-nasalized
 ⁿgʘ	voiced	labial 	click		preceding:pre-nasalized
-ɥ	voiced	labialized-palatal	approximant
-w	voiced	labialized-velar	approximant
-wː	voiced	labialized-velar	approximant		duration:long
-w̃	voiced	labialized-velar	approximant		nasalization:nasalized
-wˠ	voiced	labialized-velar	approximant		velarization:velarized
-ʍ	voiceless	labialized-velar	approximant
+ɥ	voiced	labio-palatal	approximant
+w	voiced	labio-velar	approximant
+wː	voiced	labio-velar	approximant		duration:long
+w̃	voiced	labio-velar	approximant		nasalization:nasalized
+wˠ	voiced	labio-velar	approximant		velarization:velarized
+ʍ	voiceless	labio-velar	approximant
 ᶂ	voiced	labio-dental	fricative	+	palatalization:palatalized	IPA extensions supplement
 ᶌ	voiced	labio-dental	fricative	+	palatalization:palatalized	IPA extensions supplement
 ⱱ	voiced	labio-dental	tap

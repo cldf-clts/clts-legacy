@@ -29,7 +29,7 @@ g	voiced velar stop consonant			g	http://eurasianphonology.info/search_exact?dia
 ŋ	voiced velar nasal consonant			ŋ	http://eurasianphonology.info/search_exact?dialects=True&query=%C5%8B					259	
 x	voiceless velar fricative consonant			x	http://eurasianphonology.info/search_exact?dialects=True&query=x					185	
 ɣ	voiced velar fricative consonant			ɣ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A3					111	
-w	voiced labialized-velar approximant consonant			w	http://eurasianphonology.info/search_exact?dialects=True&query=w					276	
+w	voiced labio-velar approximant consonant			w	http://eurasianphonology.info/search_exact?dialects=True&query=w					276	
 pʲ	palatalized voiceless bilabial stop consonant			pʲ	http://eurasianphonology.info/search_exact?dialects=True&query=p%CA%B2					27	
 bʲ	palatalized voiced bilabial stop consonant			bʲ	http://eurasianphonology.info/search_exact?dialects=True&query=b%CA%B2					23	
 mʲ	palatalized voiced bilabial nasal consonant			mʲ	http://eurasianphonology.info/search_exact?dialects=True&query=m%CA%B2					29	
@@ -548,7 +548,7 @@ gʰ	aspirated voiced velar stop consonant			gʰ	http://eurasianphonology.info/se
 dʰ	aspirated voiced alveolar stop consonant			dʰ	http://eurasianphonology.info/search_exact?dialects=True&query=d%CA%B0					15	
 dʒʰ	aspirated voiced post-alveolar sibilant affricate consonant	+		dʒʰ	http://eurasianphonology.info/search_exact?dialects=True&query=d%CA%92%CA%B0					7	
 ɖʰ	aspirated voiced retroflex stop consonant	+		ɖʰ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%96%CA%B0					19	
-wʰ	aspirated voiced labialized-velar approximant consonant	+		wʰ	http://eurasianphonology.info/search_exact?dialects=True&query=w%CA%B0					1	
+wʰ	aspirated voiced labio-velar approximant consonant	+		wʰ	http://eurasianphonology.info/search_exact?dialects=True&query=w%CA%B0					1	
 ɕː	long voiceless alveolo-palatal sibilant fricative consonant	+		ɕː	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%95%CB%90					6	
 iɪ̯	from unrounded close front to non-syllabic unrounded near-close near-front diphthong	+		iɪ̯	http://eurasianphonology.info/search_exact?dialects=True&query=i%C9%AA%CC%AF					2	
 ɯɪ̯	from unrounded close back to non-syllabic unrounded near-close near-front diphthong	+		ɯɪ̯	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%AF%C9%AA%CC%AF					1	
@@ -636,7 +636,7 @@ qʼʷ	labialized voiceless uvular ejective stop consonant			qʷʼ	http://eurasia
 ʁʲ	palatalized voiced uvular fricative consonant	+		ʁʲ	http://eurasianphonology.info/search_exact?dialects=True&query=%CA%81%CA%B2					2	
 χʲ	palatalized voiceless uvular fricative consonant	+		χʲ	http://eurasianphonology.info/search_exact?dialects=True&query=%CF%87%CA%B2					4	
 ħʷ	labialized voiceless pharyngeal fricative consonant	+		ħʷ	http://eurasianphonology.info/search_exact?dialects=True&query=%C4%A7%CA%B7					2	
-ɥˤ	pharyngealized voiced labialized-palatal approximant consonant	+		ɥˤ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5%CB%A4					2	
+ɥˤ	pharyngealized voiced labio-palatal approximant consonant	+		ɥˤ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5%CB%A4					2	
 χʷˤ	labialized pharyngealized voiceless uvular fricative consonant	+		χˤʷ	http://eurasianphonology.info/search_exact?dialects=True&query=%CF%87%CB%A4%CA%B7					1	
 χˤ	pharyngealized voiceless uvular fricative consonant	+		χˤ	http://eurasianphonology.info/search_exact?dialects=True&query=%CF%87%CB%A4					1	
 <NA>	<NA>	+		äː	http://eurasianphonology.info/search_exact?dialects=True&query=%C3%A4%CB%90					5	
@@ -648,7 +648,7 @@ zʷ	labialized voiced alveolar sibilant fricative consonant	+		zʷ	http://eurasi
 ts’ʷ	labialized voiceless alveolar ejective sibilant affricate consonant	+		tsʼʷ	http://eurasianphonology.info/search_exact?dialects=True&query=ts%CA%BC%CA%B7					2	
 ɬʲ	palatalized voiceless alveolar lateral fricative consonant	+		ɬʲ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%AC%CA%B2					4	
 ŋʲ	palatalized voiced velar nasal consonant	+		ŋʲ	http://eurasianphonology.info/search_exact?dialects=True&query=%C5%8B%CA%B2					3	
-wʲ	palatalized voiced labialized-velar approximant consonant	+		wʲ	http://eurasianphonology.info/search_exact?dialects=True&query=w%CA%B2					3	
+wʲ	palatalized voiced labio-velar approximant consonant	+		wʲ	http://eurasianphonology.info/search_exact?dialects=True&query=w%CA%B2					3	
 uœ	from rounded close back to rounded open-mid front diphthong	+		uœ	http://eurasianphonology.info/search_exact?dialects=True&query=u%C5%93					1	
 œ̠	retracted rounded open-mid front vowel	+		œ̠	http://eurasianphonology.info/search_exact?dialects=True&query=%C5%93%CC%A0					1	
 ɞ̠	retracted rounded open-mid central vowel	+		ɞ̠	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%9E%CC%A0					1	
@@ -769,9 +769,9 @@ u̞ː	long lowered rounded close back vowel	+		u̞ː	http://eurasianphonology.in
 ɪ̯ɔ	from non-syllabic unrounded near-close near-front to rounded open-mid back diphthong	+		ɪ̯ɔ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%AA%CC%AF%C9%94					1	
 ɪ̯u̞	from non-syllabic unrounded near-close near-front to lowered rounded close back diphthong	+		ɪ̯u̞	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%AA%CC%AFu%CC%9E					1	
 ʊ̯ɔ	from non-syllabic rounded near-close near-back to rounded open-mid back diphthong	+		ʊ̯ɔ	http://eurasianphonology.info/search_exact?dialects=True&query=%CA%8A%CC%AF%C9%94					1	
-w̥	devoiced voiced labialized-velar approximant consonant	+		w̥	http://eurasianphonology.info/search_exact?dialects=True&query=w%CC%A5					1	
-ɥ	voiced labialized-palatal approximant consonant			ɥ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5					5	
-ɥ̥	devoiced voiced labialized-palatal approximant consonant	+		ɥ̊	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5%CC%8A					1	
+w̥	devoiced voiced labio-velar approximant consonant	+		w̥	http://eurasianphonology.info/search_exact?dialects=True&query=w%CC%A5					1	
+ɥ	voiced labio-palatal approximant consonant			ɥ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5					5	
+ɥ̥	devoiced voiced labio-palatal approximant consonant	+		ɥ̊	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A5%CC%8A					1	
 œ̃	nasalized rounded open-mid front vowel			œ̃	http://eurasianphonology.info/search_exact?dialects=True&query=%C5%93%CC%83					3	
 əy	from unrounded mid central to rounded close front diphthong	+		əy	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%99y					1	
 <NA>	<NA>			ãw̃	http://eurasianphonology.info/search_exact?dialects=True&query=a%CC%83w%CC%83					1	
@@ -814,7 +814,7 @@ t̪ˤ	pharyngealized voiceless dental stop consonant			t̪ˤ	http://eurasianphon
 s̪ˤ	pharyngealized voiceless dental sibilant fricative consonant	+		s̪ˤ	http://eurasianphonology.info/search_exact?dialects=True&query=s%CC%AA%CB%A4					1	
 z̪ˤ	pharyngealized voiced dental sibilant fricative consonant	+		z̪ˤ	http://eurasianphonology.info/search_exact?dialects=True&query=z%CC%AA%CB%A4					1	
 ɤ̞	unrounded mid back vowel			ɤ̞	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%A4%CC%9E					2	
-ʍ	voiceless labialized-velar approximant consonant			ʍ	http://eurasianphonology.info/search_exact?dialects=True&query=%CA%8D					8	
+ʍ	voiceless labio-velar approximant consonant			ʍ	http://eurasianphonology.info/search_exact?dialects=True&query=%CA%8D					8	
 ɰ	voiced velar approximant consonant			ɰ	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%B0					8	
 ɯ̤	breathy unrounded close back vowel			ɯ̤	http://eurasianphonology.info/search_exact?dialects=True&query=%C9%AF%CC%A4					2	
 e̤	breathy unrounded close-mid front vowel			e̤	http://eurasianphonology.info/search_exact?dialects=True&query=e%CC%A4					6	

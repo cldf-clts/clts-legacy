@@ -13,7 +13,7 @@ o	rounded close-mid back vowel			o						187
 j	voiced palatal approximant consonant			j						185	
 e	unrounded close-mid front vowel			e						184	
 l	voiced alveolar lateral approximant consonant			l						176	
-w	voiced labialized-velar approximant consonant			w						172	
+w	voiced labio-velar approximant consonant			w						172	
 r	voiced alveolar trill consonant			r						162	
 d	voiced alveolar stop consonant			d						146	
 b	voiced bilabial stop consonant			b						146	
@@ -87,7 +87,7 @@ ui	from rounded close back to unrounded close front diphthong	+		ui						20
 ⁰	short neutral tone			⁰						19	
 ³³	flat from-mid to-mid tone			³³						19	
 ɤ	unrounded close-mid back vowel			ɤ						19	
-ɥ	voiced labialized-palatal approximant consonant			ɥ						19	
+ɥ	voiced labio-palatal approximant consonant			ɥ						19	
 mː	long voiced bilabial nasal consonant			mː						18	
 ³¹	falling from-mid to-low tone			³¹						18	
 õ	nasalized rounded close-mid back vowel			õ						17	
@@ -280,7 +280,7 @@ lʰ	aspirated voiced alveolar lateral approximant consonant	+		lʰ						2
 ⁿb	pre-nasalized voiced bilabial stop consonant	+		ᵐb						2	
 cː	long voiceless palatal stop consonant			cː						1	
 ʕ	voiced pharyngeal fricative consonant			ʕ						1	
-w̃	nasalized voiced labialized-velar approximant consonant			w̃						1	
+w̃	nasalized voiced labio-velar approximant consonant			w̃						1	
 h̃	nasalized voiceless glottal fricative consonant			h̃						1	
 ɵː	long rounded close-mid central vowel			ɵː						1	
 yi	from rounded close front to unrounded close front diphthong	+		yi						1	
@@ -342,7 +342,7 @@ oə	from rounded close-mid back to unrounded mid central diphthong	+		oə						1
 ỹː	long nasalized rounded close front vowel			ỹː						1	
 ʈː	long voiceless retroflex stop consonant	+		ʈː						1	
 zʰ	aspirated voiced alveolar sibilant fricative consonant	+		zʰ						1	
-wʰ	aspirated voiced labialized-velar approximant consonant	+		wʰ						1	
+wʰ	aspirated voiced labio-velar approximant consonant	+		wʰ						1	
 ʏː	long rounded near-close near-front vowel			ʏː						1	
 ɶ	rounded open front vowel			ɶ						1	
 pʼ	voiceless bilabial ejective stop consonant			pʼ						1	

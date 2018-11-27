@@ -401,11 +401,11 @@ v̰	creaky voiced labio-dental fricative consonant	+		v̰						31
 v̰ː	long creaky voiced labio-dental fricative consonant	+		v̰ː						6	
 <NA>	<NA>			v̱						3	
 <NA>	<NA>			vᶛ						5	
-w	voiced labialized-velar approximant consonant			w						1684	
-wˀ	glottalized voiced labialized-velar approximant consonant	+		wˀ						6	
+w	voiced labio-velar approximant consonant			w						1684	
+wˀ	glottalized voiced labio-velar approximant consonant	+		wˀ						6	
 <NA>	<NA>			w˜						13	
-wʱ	breathy voiced labialized-velar approximant consonant	+		w̤						1	
-w̥	devoiced voiced labialized-velar approximant consonant	+		w̥						41	
+wʱ	breathy voiced labio-velar approximant consonant	+		w̤						1	
+w̥	devoiced voiced labio-velar approximant consonant	+		w̥						41	
 x	voiceless velar fricative consonant			x						476	
 xʰ	aspirated voiceless velar fricative consonant	+		xʰ						1	
 xʷ	labialized voiceless velar fricative consonant			xʷ						59	
@@ -530,7 +530,7 @@ g̰	creaky voiced velar stop consonant	+		ɡ̰						1
 ɣʷ	labialized voiced velar fricative consonant			ɣʷ						11	
 <NA>	<NA>			ɣ˜						2	
 ɤ	unrounded close-mid back vowel			ɤ						44	
-ɥ	voiced labialized-palatal approximant consonant			ɥ						24	
+ɥ	voiced labio-palatal approximant consonant			ɥ						24	
 <NA>	<NA>			ɥ˜						1	
 ɦ	voiced glottal fricative consonant			ɦ						44	
 ɨ	unrounded close central vowel			ɨ						292	
@@ -632,7 +632,7 @@ g̰	creaky voiced velar stop consonant	+		ɡ̰						1
 ˀt	pre-glottalized voiceless alveolar stop consonant	+		ˀt						2	
 ˀt̪ʰ	pre-glottalized aspirated voiceless dental stop consonant	+		ˀt̪ʰ						2	
 ˀv	pre-glottalized voiced labio-dental fricative consonant	+		ˀv						1	
-ˀw	pre-glottalized voiced labialized-velar approximant consonant	+		ˀw						41	
+ˀw	pre-glottalized voiced labio-velar approximant consonant	+		ˀw						41	
 ˀz	pre-glottalized voiced alveolar sibilant fricative consonant	+		ˀz						0	
 <NA>	<NA>			ˀẓ						1	
 ˀð	pre-glottalized voiced dental fricative consonant	+		ˀð						2	
