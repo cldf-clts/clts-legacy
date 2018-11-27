@@ -204,6 +204,10 @@
     "breathiness": [
       "breathy"
     ],
+    "raising": [
+      "lowered",
+      "raised"
+    ],
     "glottalization": [
       "glottalized"
     ]
