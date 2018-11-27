@@ -1,8 +1,10 @@
 {
   "vowel": {
-    "centralization": [
+    "relative_articulation": [
       "centralized",
-      "mid-centralized"
+      "mid-centralized",
+      "advanced",
+      "retracted"
     ],
     "centrality": [
       "back",
@@ -21,9 +23,6 @@
     "stress": [
       "primary-stress",
       "secondary-stress"
-    ],
-    "retraction": [
-      "retracted"
     ],
     "pharyngealization": [
       "pharyngealized"
@@ -55,9 +54,6 @@
     ],
     "frication": [
       "with-frication"
-    ],
-    "advancement": [
-      "advanced"
     ],
     "roundedness": [
       "rounded",
