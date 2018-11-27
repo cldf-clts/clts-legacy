@@ -169,7 +169,8 @@
       "voiceless"
     ],
     "duration": [
-      "long"
+      "long",
+      "mid-long"
     ],
     "stress": [
       "primary-stress",
