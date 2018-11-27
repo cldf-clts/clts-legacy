@@ -86,6 +86,8 @@ voiceless palatal ejective click consonant	consonant	ǂ’	LATIN LETTER ALVEOLAR
 voiceless palatal ejective affricate consonant	consonant	cç’	LATIN SMALL LETTER C / LATIN SMALL LETTER C / COMBINING CEDILLA / RIGHT SINGLE QUOTATION MARK	+	
 voiceless palatal click consonant	consonant	ǂ	LATIN LETTER ALVEOLAR CLICK		
 voiceless palatal affricate consonant	consonant	cç	LATIN SMALL LETTER C / LATIN SMALL LETTER C / COMBINING CEDILLA		
+voiceless linguolabial stop consonant	consonant	t̼	LATIN SMALL LETTER T / COMBINING SEAGULL BELOW		
+voiceless linguolabial fricative consonant	consonant	θ̼	GREEK SMALL LETTER THETA / COMBINING SEAGULL BELOW		
 voiceless lateral click consonant	consonant	ǁ	LATIN LETTER LATERAL CLICK		
 voiceless laminal velar stop consonant	consonant	k̻	LATIN SMALL LETTER K / COMBINING SQUARE BELOW	+	
 voiceless laminal retroflex stop consonant	consonant	ʈ̻	LATIN SMALL LETTER T WITH RETROFLEX HOOK / COMBINING SQUARE BELOW	+	
@@ -247,6 +249,10 @@ voiced palatal ejective approximant consonant	consonant	j’	LATIN SMALL LETTER 
 voiced palatal click consonant	consonant	gǂ	LATIN SMALL LETTER G / LATIN LETTER ALVEOLAR CLICK		
 voiced palatal approximant consonant	consonant	j	LATIN SMALL LETTER J		
 voiced palatal affricate consonant	consonant	ɟʝ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL		
+voiced linguolabial tap consonant	consonant	ɾ̼	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING SEAGULL BELOW		
+voiced linguolabial stop consonant	consonant	d̼	LATIN SMALL LETTER D / COMBINING SEAGULL BELOW		
+voiced linguolabial nasal consonant	consonant	n̼	LATIN SMALL LETTER N / COMBINING SEAGULL BELOW		
+voiced linguolabial fricative consonant	consonant	ð̼	LATIN SMALL LETTER ETH / COMBINING SEAGULL BELOW		
 voiced lateral nasal-click consonant	consonant	ŋǁ	LATIN SMALL LETTER ENG / LATIN LETTER LATERAL CLICK		
 voiced lateral click consonant	consonant	gǁ	LATIN SMALL LETTER G / LATIN LETTER LATERAL CLICK		
 voiced laminal retroflex tap consonant	consonant	ɽ̻	LATIN SMALL LETTER R WITH TAIL / COMBINING SQUARE BELOW	+	
