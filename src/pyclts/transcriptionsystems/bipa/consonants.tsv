@@ -1,6 +1,8 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 pfʰ	voiceless	labio-dental	affricate		aspiration:aspirated
-ᶑ	voiced	retroflex	implosive			
+ᶑ	voiced	retroflex	implosive
+b̪	voiced	labio-dental	stop
+p̪	voiceless	labio-dental	stop
 ᶁ	voiced	alveolar	stop	+	palatalization:palatalized	IPA extensions supplement
 ᶅ	voiced	alveolar	approximant	+	palatalization:palatalized,laterality:lateral	IPA extensions supplement
 ᶇ	voiced	alveolar	nasal	+	palatalization:palatalized	IPA extensions supplement
