@@ -117,7 +117,11 @@ consonant	breathiness	breathy
 consonant	glottalization	glottalized
 consonant	raising	lowered
 consonant	raising	raised
-vone	middle	via-high
+consonant	relative_articulation	centralized
+consonant	relative_articulation	mid-centralized
+consonant	relative_articulation	advanced
+consonant	relative_articulation	retracted
+tone	middle	via-high
 tone	middle	via-low
 tone	middle	via-mid
 tone	middle	via-mid-high

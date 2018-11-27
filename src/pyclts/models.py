@@ -244,6 +244,7 @@ class Consonant(Sound):
     laminality = attr.ib(default=None)
     articulation = attr.ib(default=None)
     raising = attr.ib(default=None)
+    relative_articulation = attr.ib(default=None)
 
     # write order determines how consonants are written according to their
     # features, so this normalizes the order of diacritics preceding and
@@ -251,14 +252,14 @@ class Consonant(Sound):
     _write_order = dict(
         pre=['preceding'],
         post=[
-            'raising',
+            'raising', 'relative_articulation',
             'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
-            'articulation',
+            'articulation', 
             'nasalization', 'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
             'pharyngealization', 'release', 'duration'])
     _name_order = [
-        'raising',
+        'raising', 'relative_articulation',
         'articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
         'labialization', 'glottalization', 'aspiration', 'velarization',
         'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',

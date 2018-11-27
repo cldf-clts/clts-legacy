@@ -96,6 +96,12 @@
     ]
   },
   "consonant": {
+    "relative_articulation": [
+        "centralized",
+        "mid-centralized",
+        "advanced",
+        "retracted"
+    ],
     "aspiration": [
       "aspirated"
     ],

@@ -30,6 +30,10 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ᵑ◌	consonant	preceding	pre-nasalized	+		We treat these sounds as a marker of pre-nasalization, so they are all an alias of ⁿ.
 ⁿ◌	consonant	preceding	pre-nasalized			
 ʲ◌	consonant	preceding	pre-palatalized			
+◌̈	consonant	relative_articulation	centralized			
+◌̽	consonant	relative_articulation	mid-centralized			
+◌̟	consonant	relative_articulation	advanced			
+◌̠	consonant	relative_articulation	retracted			
 ◌͉	consonant	release	unreleased	+		
 ◌̚	consonant	release	unreleased			
 ◌ˡ	consonant	release	with-lateral-release			
