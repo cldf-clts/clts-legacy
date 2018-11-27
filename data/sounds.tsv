@@ -226,6 +226,7 @@ voiced retroflex nasal-click consonant	consonant	ŋǃǃ	LATIN SMALL LETTER ENG /
 voiced retroflex nasal consonant	consonant	ɳ	LATIN SMALL LETTER N WITH RETROFLEX HOOK		
 voiced retroflex lateral approximant consonant	consonant	ɭ	LATIN SMALL LETTER L WITH RETROFLEX HOOK		
 voiced retroflex implosive consonant	consonant	ᶑ	LATIN SMALL LETTER D WITH HOOK AND TAIL		
+voiced retroflex ejective implosive consonant	consonant	ᶑ’	LATIN SMALL LETTER D WITH HOOK AND TAIL / RIGHT SINGLE QUOTATION MARK	+	
 voiced retroflex click consonant	consonant	gǃǃ	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / LATIN LETTER RETROFLEX CLICK		
 voiced retroflex approximant consonant	consonant	ɻ	LATIN SMALL LETTER TURNED R WITH HOOK		
 voiced post-alveolar stop consonant	consonant	d̠	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW		
@@ -1203,6 +1204,10 @@ syllabic palatalized devoiced voiced palatal nasal consonant	consonant	ɲ̩̥ʲ	
 syllabic palatalized devoiced voiced labio-dental nasal consonant	consonant	ɱ̩̥ʲ	LATIN SMALL LETTER M WITH HOOK / COMBINING VERTICAL LINE BELOW / COMBINING RING BELOW / MODIFIER LETTER SMALL J	+	
 syllabic palatalized devoiced voiced bilabial nasal consonant	consonant	m̩̥ʲ	LATIN SMALL LETTER M / COMBINING VERTICAL LINE BELOW / COMBINING RING BELOW / MODIFIER LETTER SMALL J	+	
 syllabic palatalized devoiced voiced alveolar nasal consonant	consonant	n̩̥ʲ	LATIN SMALL LETTER N / COMBINING VERTICAL LINE BELOW / COMBINING RING BELOW / MODIFIER LETTER SMALL J	+	
+syllabic mid-long voiced velar nasal consonant	consonant	ŋ̩ˑ	LATIN SMALL LETTER ENG / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+syllabic mid-long voiced bilabial nasal consonant	consonant	m̩ˑ	LATIN SMALL LETTER M / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+syllabic mid-long voiced alveolar nasal consonant	consonant	n̩ˑ	LATIN SMALL LETTER N / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+syllabic mid-long voiced alveolar lateral approximant consonant	consonant	l̩ˑ	LATIN SMALL LETTER L / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 syllabic long voiceless velar stop consonant	consonant	k̩ː	LATIN SMALL LETTER K / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 syllabic long voiceless velar fricative consonant	consonant	x̩ː	LATIN SMALL LETTER X / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 syllabic long voiceless uvular stop consonant	consonant	q̩ː	LATIN SMALL LETTER Q / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -1577,6 +1582,114 @@ retracted-tongue-root rounded close-mid back vowel	vowel	o̙	LATIN SMALL LETTER 
 retracted-tongue-root rounded close front vowel	vowel	y̙	LATIN SMALL LETTER Y / COMBINING RIGHT TACK BELOW	+	
 retracted-tongue-root rounded close central vowel	vowel	ʉ̙	LATIN SMALL LETTER U BAR / COMBINING RIGHT TACK BELOW	+	
 retracted-tongue-root rounded close back vowel	vowel	u̙	LATIN SMALL LETTER U / COMBINING RIGHT TACK BELOW	+	
+retracted voiceless velar stop consonant	consonant	k̠	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless velar fricative consonant	consonant	x̠	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless velar affricate consonant	consonant	kx̠	LATIN SMALL LETTER K / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless uvular stop consonant	consonant	q̠	LATIN SMALL LETTER Q / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless uvular fricative consonant	consonant	χ̠	GREEK SMALL LETTER CHI / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless uvular affricate consonant	consonant	qχ̠	LATIN SMALL LETTER Q / GREEK SMALL LETTER CHI / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless retroflex stop consonant	consonant	ʈ̠	LATIN SMALL LETTER T WITH RETROFLEX HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless retroflex sibilant fricative consonant	consonant	ʂ̠	LATIN SMALL LETTER S WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless retroflex sibilant affricate consonant	consonant	ʈʂ̠	LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̠	LATIN SMALL LETTER ESH / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless post-alveolar sibilant affricate consonant	consonant	tʃ̠	LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless pharyngeal fricative consonant	consonant	ħ̠	LATIN SMALL LETTER H WITH STROKE / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless palatal-velar fricative consonant	consonant	ɧ̠	LATIN SMALL LETTER HENG WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless palatal stop consonant	consonant	c̠	LATIN SMALL LETTER C / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless palatal sibilant fricative consonant	consonant	ç̠	LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless palatal click consonant	consonant	ǂ̠	LATIN LETTER ALVEOLAR CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless palatal affricate consonant	consonant	cç̠	LATIN SMALL LETTER C / LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless lateral click consonant	consonant	ǁ̠	LATIN LETTER LATERAL CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless laminal alveolar sibilant fricative consonant	consonant	s̠̻	LATIN SMALL LETTER S / COMBINING MINUS SIGN BELOW / COMBINING SQUARE BELOW	+	
+retracted voiceless labio-velar approximant consonant	consonant	ʍ̠	LATIN SMALL LETTER TURNED W / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless labio-dental fricative consonant	consonant	f̠	LATIN SMALL LETTER F / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless labio-dental affricate consonant	consonant	pf̠	LATIN SMALL LETTER P / LATIN SMALL LETTER F / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless labial click consonant	consonant	ʘ̠	LATIN LETTER BILABIAL CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless glottal stop consonant	consonant	ʔ̠	LATIN LETTER GLOTTAL STOP / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless glottal fricative consonant	consonant	h̠	LATIN SMALL LETTER H / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental stop consonant	consonant	t̪̠	LATIN SMALL LETTER T / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental sibilant fricative consonant	consonant	s̪̠	LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental sibilant affricate consonant	consonant	ts̪̠	LATIN SMALL LETTER T / LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental lateral fricative consonant	consonant	ɬ̪̠	LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental lateral affricate consonant	consonant	tɬ̪̠	LATIN SMALL LETTER T / LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental fricative consonant	consonant	θ̠	GREEK SMALL LETTER THETA / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental click consonant	consonant	ǀ̠	LATIN LETTER DENTAL CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless dental affricate consonant	consonant	tθ̠	LATIN SMALL LETTER T / GREEK SMALL LETTER THETA / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless bilabial stop consonant	consonant	p̠	LATIN SMALL LETTER P / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless bilabial fricative consonant	consonant	ɸ̠	LATIN SMALL LETTER PHI / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless bilabial affricate consonant	consonant	pɸ̠	LATIN SMALL LETTER P / LATIN SMALL LETTER PHI / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless apical alveolar sibilant fricative consonant	consonant	s̠̺	LATIN SMALL LETTER S / COMBINING MINUS SIGN BELOW / COMBINING INVERTED BRIDGE BELOW	+	
+retracted voiceless alveolo-palatal sibilant fricative consonant	consonant	ɕ̠	LATIN SMALL LETTER C WITH CURL / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolo-palatal sibilant affricate consonant	consonant	tɕ̠	LATIN SMALL LETTER T / LATIN SMALL LETTER C WITH CURL / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolar sibilant fricative consonant	consonant	s̠	LATIN SMALL LETTER S / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolar sibilant affricate consonant	consonant	ts̠	LATIN SMALL LETTER T / LATIN SMALL LETTER S / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolar lateral fricative consonant	consonant	ɬ̠	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolar lateral affricate consonant	consonant	tɬ̠	LATIN SMALL LETTER T / LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW	+	
+retracted voiceless alveolar click consonant	consonant	ǃ̠	LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar stop consonant	consonant	g̠	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar nasal consonant	consonant	ŋ̠	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar lateral approximant consonant	consonant	ʟ̠	LATIN LETTER SMALL CAPITAL L / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar implosive consonant	consonant	ɠ̠	LATIN SMALL LETTER G WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar fricative consonant	consonant	ɣ̠	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar approximant consonant	consonant	ɰ̠	LATIN SMALL LETTER TURNED M WITH LONG LEG / COMBINING MINUS SIGN BELOW	+	
+retracted voiced velar affricate consonant	consonant	gɣ̠	LATIN SMALL LETTER G / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular trill consonant	consonant	ʀ̠	LATIN LETTER SMALL CAPITAL R / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular stop consonant	consonant	ɢ̠	LATIN LETTER SMALL CAPITAL G / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular nasal consonant	consonant	ɴ̠	LATIN LETTER SMALL CAPITAL N / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular implosive consonant	consonant	ʛ̠	LATIN LETTER SMALL CAPITAL G WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular fricative consonant	consonant	ʁ̠	LATIN LETTER SMALL CAPITAL INVERTED R / COMBINING MINUS SIGN BELOW	+	
+retracted voiced uvular affricate consonant	consonant	ɢʁ̠	LATIN LETTER SMALL CAPITAL G / LATIN LETTER SMALL CAPITAL INVERTED R / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex tap consonant	consonant	ɽ̠	LATIN SMALL LETTER R WITH TAIL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex stop consonant	consonant	ɖ̠	LATIN SMALL LETTER D WITH TAIL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex sibilant fricative consonant	consonant	ʐ̠	LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex sibilant affricate consonant	consonant	ɖʐ̠	LATIN SMALL LETTER D WITH TAIL / LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex nasal consonant	consonant	ɳ̠	LATIN SMALL LETTER N WITH RETROFLEX HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex lateral approximant consonant	consonant	ɭ̠	LATIN SMALL LETTER L WITH RETROFLEX HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced retroflex approximant consonant	consonant	ɻ̠	LATIN SMALL LETTER TURNED R WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced post-alveolar sibilant fricative consonant	consonant	ʒ̠	LATIN SMALL LETTER EZH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced post-alveolar sibilant affricate consonant	consonant	dʒ̠	LATIN SMALL LETTER D / LATIN SMALL LETTER EZH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced pharyngeal fricative consonant	consonant	ʕ̠	LATIN LETTER PHARYNGEAL VOICED FRICATIVE / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal stop consonant	consonant	ɟ̠	LATIN SMALL LETTER DOTLESS J WITH STROKE / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal nasal consonant	consonant	ɲ̠	LATIN SMALL LETTER N WITH LEFT HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal lateral approximant consonant	consonant	ʎ̠	LATIN SMALL LETTER TURNED Y / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal implosive consonant	consonant	ʄ̠	LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal fricative consonant	consonant	ʝ̠	LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal approximant consonant	consonant	j̠	LATIN SMALL LETTER J / COMBINING MINUS SIGN BELOW	+	
+retracted voiced palatal affricate consonant	consonant	ɟʝ̠	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-velar approximant consonant	consonant	w̠	LATIN SMALL LETTER W / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-palatal approximant consonant	consonant	ɥ̠	LATIN SMALL LETTER TURNED H / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-dental nasal consonant	consonant	ɱ̠	LATIN SMALL LETTER M WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-dental fricative consonant	consonant	v̠	LATIN SMALL LETTER V / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-dental approximant consonant	consonant	ʋ̠	LATIN SMALL LETTER V WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced labio-dental affricate consonant	consonant	bv̠	LATIN SMALL LETTER B / LATIN SMALL LETTER V / COMBINING MINUS SIGN BELOW	+	
+retracted voiced glottal fricative consonant	consonant	ɦ̠	LATIN SMALL LETTER H WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental trill consonant	consonant	r̪̠	LATIN SMALL LETTER R / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental stop consonant	consonant	d̪̠	LATIN SMALL LETTER D / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental sibilant fricative consonant	consonant	z̪̠	LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental sibilant affricate consonant	consonant	dz̪̠	LATIN SMALL LETTER D / LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental nasal consonant	consonant	n̪̠	LATIN SMALL LETTER N / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental lateral approximant consonant	consonant	l̪̠	LATIN SMALL LETTER L / COMBINING BRIDGE BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental implosive consonant	consonant	ɗ̠	LATIN SMALL LETTER D WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental fricative consonant	consonant	ð̠	LATIN SMALL LETTER ETH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced dental affricate consonant	consonant	dð̠	LATIN SMALL LETTER D / LATIN SMALL LETTER ETH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial trill consonant	consonant	ʙ̠	LATIN LETTER SMALL CAPITAL B / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial stop consonant	consonant	b̠	LATIN SMALL LETTER B / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial nasal consonant	consonant	m̠	LATIN SMALL LETTER M / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial implosive consonant	consonant	ɓ̠	LATIN SMALL LETTER B WITH HOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial fricative consonant	consonant	β̠	GREEK SMALL LETTER BETA / COMBINING MINUS SIGN BELOW	+	
+retracted voiced bilabial affricate consonant	consonant	bβ̠	LATIN SMALL LETTER B / GREEK SMALL LETTER BETA / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolo-palatal sibilant fricative consonant	consonant	ʑ̠	LATIN SMALL LETTER Z WITH CURL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolo-palatal sibilant affricate consonant	consonant	dʑ̠	LATIN SMALL LETTER D / LATIN SMALL LETTER Z WITH CURL / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar trill consonant	consonant	r̠	LATIN SMALL LETTER R / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar tap consonant	consonant	ɾ̠	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar sibilant fricative consonant	consonant	z̠	LATIN SMALL LETTER Z / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar sibilant affricate consonant	consonant	dz̠	LATIN SMALL LETTER D / LATIN SMALL LETTER Z / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar nasal-click consonant	consonant	ŋǃ̠	LATIN SMALL LETTER ENG / LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar nasal consonant	consonant	n̠	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar lateral tap consonant	consonant	ɺ̠	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar lateral fricative consonant	consonant	ɮ̠	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar lateral affricate consonant	consonant	dɮ̠	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW	+	
+retracted voiced alveolar click consonant	consonant	gǃ̠	LATIN SMALL LETTER G / LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open-mid front vowel	vowel	ɛ̠	LATIN SMALL LETTER OPEN E / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open-mid central vowel	vowel	ɜ̠	LATIN SMALL LETTER REVERSED OPEN E / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open-mid back vowel	vowel	ʌ̠	LATIN SMALL LETTER TURNED V / COMBINING MINUS SIGN BELOW	+	
@@ -1593,6 +1706,7 @@ retracted unrounded close-mid back vowel	vowel	ɤ̠	LATIN SMALL LETTER RAMS HORN
 retracted unrounded close front vowel	vowel	i̠	LATIN SMALL LETTER I / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded close central vowel	vowel	ɨ̠	LATIN SMALL LETTER I WITH STROKE / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded close back vowel	vowel	ɯ̠	LATIN SMALL LETTER TURNED M / COMBINING MINUS SIGN BELOW	+	
+retracted syllabic long voiced alveolar nasal consonant	consonant	n̠̩ː	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 retracted rounded open-mid front vowel	vowel	œ̠	LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW	+	
 retracted rounded open-mid central vowel	vowel	ɞ̠	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING MINUS SIGN BELOW	+	
 retracted rounded open-mid back vowel	vowel	ɔ̠	LATIN SMALL LETTER OPEN O / COMBINING MINUS SIGN BELOW	+	
@@ -1607,9 +1721,113 @@ retracted rounded close front vowel	vowel	y̠	LATIN SMALL LETTER Y / COMBINING M
 retracted rounded close central vowel	vowel	ʉ̠	LATIN SMALL LETTER U BAR / COMBINING MINUS SIGN BELOW	+	
 retracted rounded close back vowel	vowel	u̠	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW	+	
 retracted raised rounded open-mid front vowel	vowel	œ̝̠	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / COMBINING MINUS SIGN BELOW	+	
+retracted palatalized voiceless velar stop consonant	consonant	k̠ʲ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiceless velar fricative consonant	consonant	x̠ʲ	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiceless palatal stop consonant	consonant	c̠ʲ	LATIN SMALL LETTER C / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiceless alveolar lateral fricative consonant	consonant	ɬ̠ʲ	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced velar nasal consonant	consonant	ŋ̠ʲ	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced velar lateral approximant consonant	consonant	ʟ̠ʲ	LATIN LETTER SMALL CAPITAL L / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced velar fricative consonant	consonant	ɣ̠ʲ	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced alveolar trill consonant	consonant	r̠ʲ	LATIN SMALL LETTER R / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced alveolar tap consonant	consonant	ɾ̠ʲ	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced alveolar nasal consonant	consonant	n̠ʲ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced alveolar lateral tap consonant	consonant	ɺ̠ʲ	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized voiced alveolar lateral fricative consonant	consonant	ɮ̠ʲ	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+retracted palatalized long voiceless velar stop consonant	consonant	k̠ʲː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiceless velar fricative consonant	consonant	x̠ʲː	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiceless alveolar lateral fricative consonant	consonant	ɬ̠ʲː	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiced velar nasal consonant	consonant	ŋ̠ʲː	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiced velar fricative consonant	consonant	ɣ̠ʲː	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiced alveolar nasal consonant	consonant	n̠ʲː	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted palatalized long voiced alveolar lateral fricative consonant	consonant	ɮ̠ʲː	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted nasalized voiced velar fricative consonant	consonant	ɣ̠̃	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / COMBINING TILDE	+	
 retracted nasalized unrounded close front vowel	vowel	ĩ̠	LATIN SMALL LETTER I / COMBINING TILDE / COMBINING MINUS SIGN BELOW	+	
 retracted more-rounded unrounded open back vowel	vowel	ɑ̹̠	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW / COMBINING MINUS SIGN BELOW	+	
 retracted lowered nasalized rounded close front vowel	vowel	ỹ̞̠	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING TILDE / COMBINING MINUS SIGN BELOW	+	
+retracted long voiceless velar stop consonant	consonant	k̠ː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiceless velar fricative consonant	consonant	x̠ː	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiceless alveolar lateral fricative consonant	consonant	ɬ̠ː	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiced velar nasal consonant	consonant	ŋ̠ː	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiced velar fricative consonant	consonant	ɣ̠ː	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiced alveolar nasal consonant	consonant	n̠ː	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted long voiced alveolar lateral fricative consonant	consonant	ɮ̠ː	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized voiceless velar stop consonant	consonant	k̠ʷ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiceless velar fricative consonant	consonant	x̠ʷ	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiceless alveolar lateral fricative consonant	consonant	ɬ̠ʷ	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiced velar nasal consonant	consonant	ŋ̠ʷ	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiced velar fricative consonant	consonant	ɣ̠ʷ	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiced alveolar nasal consonant	consonant	n̠ʷ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized voiced alveolar lateral fricative consonant	consonant	ɮ̠ʷ	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+retracted labialized long voiceless velar stop consonant	consonant	k̠ʷː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiceless velar fricative consonant	consonant	x̠ʷː	LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiceless alveolar lateral fricative consonant	consonant	ɬ̠ʷː	LATIN SMALL LETTER L WITH BELT / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiced velar nasal consonant	consonant	ŋ̠ʷː	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiced velar fricative consonant	consonant	ɣ̠ʷː	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiced alveolar nasal consonant	consonant	n̠ʷː	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted labialized long voiced alveolar lateral fricative consonant	consonant	ɮ̠ʷː	LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted glottalized voiceless alveolar click consonant	consonant	ǃ̠ˀ	LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW / MODIFIER LETTER GLOTTAL STOP	+	
+retracted devoiced voiced velar fricative consonant	consonant	ɣ̠̥	LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / COMBINING RING BELOW	+	
+retracted devoiced voiced alveolar nasal consonant	consonant	n̠̥	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / COMBINING RING BELOW	+	
+retracted creaky voiced alveolar lateral tap consonant	consonant	ɺ̠̰	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING MINUS SIGN BELOW / COMBINING TILDE BELOW	+	
+retracted breathy voiced alveolar nasal consonant	consonant	n̠ʱ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H WITH HOOK	+	
+retracted aspirated voiceless velar stop consonant	consonant	k̠ʰ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+retracted aspirated voiceless alveolar click consonant	consonant	ǃ̠ʰ	LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+retracted aspirated voiced velar nasal consonant	consonant	ŋ̠ʰ	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+retracted aspirated voiced alveolar nasal consonant	consonant	n̠ʰ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+retracted aspirated long voiceless velar stop consonant	consonant	k̠ʰː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted aspirated long voiced velar nasal consonant	consonant	ŋ̠ʰː	LATIN SMALL LETTER ENG / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+retracted aspirated long voiced alveolar nasal consonant	consonant	n̠ʰː	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+raised voiceless velar fricative consonant	consonant	x̝	LATIN SMALL LETTER X / COMBINING UP TACK BELOW	+	
+raised voiceless uvular fricative consonant	consonant	χ̝	GREEK SMALL LETTER CHI / COMBINING UP TACK BELOW	+	
+raised voiceless retroflex sibilant fricative consonant	consonant	ʂ̝	LATIN SMALL LETTER S WITH HOOK / COMBINING UP TACK BELOW	+	
+raised voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̝	LATIN SMALL LETTER ESH / COMBINING UP TACK BELOW	+	
+raised voiceless pharyngeal fricative consonant	consonant	ħ̝	LATIN SMALL LETTER H WITH STROKE / COMBINING UP TACK BELOW	+	
+raised voiceless palatal-velar fricative consonant	consonant	ɧ̝	LATIN SMALL LETTER HENG WITH HOOK / COMBINING UP TACK BELOW	+	
+raised voiceless palatal sibilant fricative consonant	consonant	ç̝	LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING UP TACK BELOW	+	
+raised voiceless labio-velar approximant consonant	consonant	ʍ̝	LATIN SMALL LETTER TURNED W / COMBINING UP TACK BELOW	+	
+raised voiceless labio-dental fricative consonant	consonant	f̝	LATIN SMALL LETTER F / COMBINING UP TACK BELOW	+	
+raised voiceless glottal fricative consonant	consonant	h̝	LATIN SMALL LETTER H / COMBINING UP TACK BELOW	+	
+raised voiceless dental sibilant fricative consonant	consonant	s̪̝	LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING UP TACK BELOW	+	
+raised voiceless dental lateral fricative consonant	consonant	ɬ̪̝	LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING UP TACK BELOW	+	
+raised voiceless dental fricative consonant	consonant	θ̝	GREEK SMALL LETTER THETA / COMBINING UP TACK BELOW	+	
+raised voiceless bilabial fricative consonant	consonant	ɸ̝	LATIN SMALL LETTER PHI / COMBINING UP TACK BELOW	+	
+raised voiceless alveolo-palatal sibilant fricative consonant	consonant	ɕ̝	LATIN SMALL LETTER C WITH CURL / COMBINING UP TACK BELOW	+	
+raised voiceless alveolar sibilant fricative consonant	consonant	s̝	LATIN SMALL LETTER S / COMBINING UP TACK BELOW	+	
+raised voiceless alveolar lateral fricative consonant	consonant	ɬ̝	LATIN SMALL LETTER L WITH BELT / COMBINING UP TACK BELOW	+	
+raised voiced velar lateral approximant consonant	consonant	ʟ̝	LATIN LETTER SMALL CAPITAL L / COMBINING UP TACK BELOW	+	
+raised voiced velar fricative consonant	consonant	ɣ̝	LATIN SMALL LETTER GAMMA / COMBINING UP TACK BELOW	+	
+raised voiced velar approximant consonant	consonant	ɰ̝	LATIN SMALL LETTER TURNED M WITH LONG LEG / COMBINING UP TACK BELOW	+	
+raised voiced uvular trill consonant	consonant	ʀ̝	LATIN LETTER SMALL CAPITAL R / COMBINING UP TACK BELOW	+	
+raised voiced uvular fricative consonant	consonant	ʁ̝	LATIN LETTER SMALL CAPITAL INVERTED R / COMBINING UP TACK BELOW	+	
+raised voiced retroflex tap consonant	consonant	ɽ̝	LATIN SMALL LETTER R WITH TAIL / COMBINING UP TACK BELOW	+	
+raised voiced retroflex sibilant fricative consonant	consonant	ʐ̝	LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING UP TACK BELOW	+	
+raised voiced retroflex lateral approximant consonant	consonant	ɭ̝	LATIN SMALL LETTER L WITH RETROFLEX HOOK / COMBINING UP TACK BELOW	+	
+raised voiced retroflex approximant consonant	consonant	ɻ̝	LATIN SMALL LETTER TURNED R WITH HOOK / COMBINING UP TACK BELOW	+	
+raised voiced post-alveolar sibilant fricative consonant	consonant	ʒ̝	LATIN SMALL LETTER EZH / COMBINING UP TACK BELOW	+	
+raised voiced pharyngeal fricative consonant	consonant	ʕ̝	LATIN LETTER PHARYNGEAL VOICED FRICATIVE / COMBINING UP TACK BELOW	+	
+raised voiced palatal lateral approximant consonant	consonant	ʎ̝	LATIN SMALL LETTER TURNED Y / COMBINING UP TACK BELOW	+	
+raised voiced palatal fricative consonant	consonant	ʝ̝	LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING UP TACK BELOW	+	
+raised voiced palatal approximant consonant	consonant	j̝	LATIN SMALL LETTER J / COMBINING UP TACK BELOW	+	
+raised voiced labio-velar approximant consonant	consonant	w̝	LATIN SMALL LETTER W / COMBINING UP TACK BELOW	+	
+raised voiced labio-palatal approximant consonant	consonant	ɥ̝	LATIN SMALL LETTER TURNED H / COMBINING UP TACK BELOW	+	
+raised voiced labio-dental fricative consonant	consonant	v̝	LATIN SMALL LETTER V / COMBINING UP TACK BELOW	+	
+raised voiced labio-dental approximant consonant	consonant	ʋ̝	LATIN SMALL LETTER V WITH HOOK / COMBINING UP TACK BELOW	+	
+raised voiced glottal fricative consonant	consonant	ɦ̝	LATIN SMALL LETTER H WITH HOOK / COMBINING UP TACK BELOW	+	
+raised voiced dental trill consonant	consonant	r̪̝	LATIN SMALL LETTER R / COMBINING BRIDGE BELOW / COMBINING UP TACK BELOW	+	
+raised voiced dental sibilant fricative consonant	consonant	z̪̝	LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING UP TACK BELOW	+	
+raised voiced dental lateral approximant consonant	consonant	l̪̝	LATIN SMALL LETTER L / COMBINING BRIDGE BELOW / COMBINING UP TACK BELOW	+	
+raised voiced dental fricative consonant	consonant	ð̝	LATIN SMALL LETTER ETH / COMBINING UP TACK BELOW	+	
+raised voiced bilabial trill consonant	consonant	ʙ̝	LATIN LETTER SMALL CAPITAL B / COMBINING UP TACK BELOW	+	
+raised voiced bilabial fricative consonant	consonant	β̝	GREEK SMALL LETTER BETA / COMBINING UP TACK BELOW	+	
+raised voiced alveolo-palatal sibilant fricative consonant	consonant	ʑ̝	LATIN SMALL LETTER Z WITH CURL / COMBINING UP TACK BELOW	+	
+raised voiced alveolar trill consonant	consonant	r̝	LATIN SMALL LETTER R / COMBINING UP TACK BELOW	+	
+raised voiced alveolar tap consonant	consonant	ɾ̝	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING UP TACK BELOW	+	
+raised voiced alveolar sibilant fricative consonant	consonant	z̝	LATIN SMALL LETTER Z / COMBINING UP TACK BELOW	+	
+raised voiced alveolar lateral tap consonant	consonant	ɺ̝	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING UP TACK BELOW	+	
+raised voiced alveolar lateral fricative consonant	consonant	ɮ̝	LATIN SMALL LETTER LEZH / COMBINING UP TACK BELOW	+	
+raised voiced alveolar lateral approximant consonant	consonant	l̝	LATIN SMALL LETTER L / COMBINING UP TACK BELOW	+	
+raised voiced alveolar approximant consonant	consonant	ɹ̝	LATIN SMALL LETTER TURNED R / COMBINING UP TACK BELOW	+	
+raised velarized voiced alveolar lateral approximant consonant	consonant	l̝ˠ	LATIN SMALL LETTER L / COMBINING UP TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 raised unrounded open-mid front vowel	vowel	ɛ̝	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid central vowel	vowel	ɜ̝	LATIN SMALL LETTER REVERSED OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid back vowel	vowel	ʌ̝	LATIN SMALL LETTER TURNED V / COMBINING UP TACK BELOW	+	
@@ -1653,7 +1871,8 @@ raised more-rounded unrounded open back vowel	vowel	ɑ̝̹	LATIN SMALL LETTER AL
 raised more-rounded unrounded near-close near-front vowel	vowel	ɪ̝̹	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
 raised more-rounded rounded close-mid back vowel	vowel	o̝̹	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING RIGHT HALF RING BELOW	+	
 raised less-rounded rounded open-mid back vowel	vowel	ɔ̝̜	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
-raised advanced unrounded open back vowel	vowel	ɑ̝̟	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING PLUS SIGN BELOW	+	
+raised devoiced voiced velar lateral approximant consonant	consonant	ʟ̝̥	LATIN LETTER SMALL CAPITAL L / COMBINING UP TACK BELOW / COMBINING RING BELOW	+	
+raised devoiced voiced alveolar trill consonant	consonant	r̝̥	LATIN SMALL LETTER R / COMBINING UP TACK BELOW / COMBINING RING BELOW	+	
 pre-nasalized with-lateral-release voiced alveolar stop consonant	consonant	ⁿdˡ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER D / MODIFIER LETTER SMALL L	+	
 pre-nasalized voiceless velar stop consonant	consonant	ⁿk	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER K		
 pre-nasalized voiceless velar fricative consonant	consonant	ⁿx	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER X	+	
@@ -2620,6 +2839,8 @@ palatalized pharyngealized voiceless uvular fricative consonant	consonant	χʲˤ
 palatalized pharyngealized voiceless uvular ejective stop consonant	consonant	q’ʲˤ	LATIN SMALL LETTER Q / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized pharyngealized voiced uvular fricative consonant	consonant	ʁʲˤ	LATIN LETTER SMALL CAPITAL INVERTED R / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 palatalized pharyngealized long voiceless uvular stop consonant	consonant	qʲˤː	LATIN SMALL LETTER Q / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
+palatalized mid-long voiceless alveolar stop consonant	consonant	tʲˑ	LATIN SMALL LETTER T / MODIFIER LETTER SMALL J / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+palatalized mid-long voiced alveolar nasal consonant	consonant	nʲˑ	LATIN SMALL LETTER N / MODIFIER LETTER SMALL J / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 palatalized long voiceless velar stop consonant	consonant	kʲː	LATIN SMALL LETTER K / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
 palatalized long voiceless velar fricative consonant	consonant	xʲː	LATIN SMALL LETTER X / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
 palatalized long voiceless velar affricate consonant	consonant	kxʲː	LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -3471,6 +3692,9 @@ nasalized pharyngealized voiced alveolar lateral affricate consonant	consonant	d
 nasalized pharyngealized voiced alveolar approximant consonant	consonant	ɹ̃ˤ	LATIN SMALL LETTER TURNED R / COMBINING TILDE / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 nasalized palatalized voiceless pharyngeal fricative consonant	consonant	ħ̃ʲ	LATIN SMALL LETTER H WITH STROKE / COMBINING TILDE / MODIFIER LETTER SMALL J	+	
 nasalized palatalized voiced labio-dental fricative consonant	consonant	ṽʲ	LATIN SMALL LETTER V / COMBINING TILDE / MODIFIER LETTER SMALL J	+	
+nasalized mid-long voiced velar fricative consonant	consonant	ɣ̃ˑ	LATIN SMALL LETTER GAMMA / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+nasalized mid-long voiced labio-velar approximant consonant	consonant	w̃ˑ	LATIN SMALL LETTER W / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+nasalized mid-long voiced labio-dental fricative consonant	consonant	ṽˑ	LATIN SMALL LETTER V / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 nasalized long voiceless labio-dental fricative consonant	consonant	f̃ː	LATIN SMALL LETTER F / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 nasalized long voiced velar stop consonant	consonant	g̃ː	LATIN SMALL LETTER G / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 nasalized long voiced velar lateral approximant consonant	consonant	ʟ̃ː	LATIN LETTER SMALL CAPITAL L / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -3661,7 +3885,19 @@ more-rounded rounded open-mid back vowel	vowel	ɔ̹	LATIN SMALL LETTER OPEN O / 
 more-rounded rounded close-mid back vowel	vowel	o̹	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded close front vowel	vowel	y̹	LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded close back vowel	vowel	u̹	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW	+	
-more-rounded advanced unrounded close-mid back vowel	vowel	ɤ̹̟	LATIN SMALL LETTER RAMS HORN / COMBINING RIGHT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
+mid-long voiceless velar stop consonant	consonant	kˑ	LATIN SMALL LETTER K / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiceless velar fricative consonant	consonant	xˑ	LATIN SMALL LETTER X / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiceless dental fricative consonant	consonant	θˑ	GREEK SMALL LETTER THETA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiceless bilabial stop consonant	consonant	pˑ	LATIN SMALL LETTER P / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiceless alveolar stop consonant	consonant	tˑ	LATIN SMALL LETTER T / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiceless alveolar sibilant fricative consonant	consonant	sˑ	LATIN SMALL LETTER S / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced velar nasal consonant	consonant	ŋˑ	LATIN SMALL LETTER ENG / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced post-alveolar lateral approximant consonant	consonant	l̠ˑ	LATIN SMALL LETTER L / COMBINING MINUS SIGN BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced labio-velar approximant consonant	consonant	wˑ	LATIN SMALL LETTER W / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced bilabial nasal consonant	consonant	mˑ	LATIN SMALL LETTER M / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced alveolar sibilant fricative consonant	consonant	zˑ	LATIN SMALL LETTER Z / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced alveolar nasal consonant	consonant	nˑ	LATIN SMALL LETTER N / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long voiced alveolar lateral approximant consonant	consonant	lˑ	LATIN SMALL LETTER L / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open-mid front vowel	vowel	ɛˑ	LATIN SMALL LETTER OPEN E / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open front vowel	vowel	aˑ	LATIN SMALL LETTER A / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded open back vowel	vowel	ɑˑ	LATIN SMALL LETTER ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -3769,7 +4005,6 @@ mid-long lowered less-rounded rounded open-mid front vowel	vowel	œ̞̜ˑ	LATIN 
 mid-long lowered less-rounded rounded open-mid back vowel	vowel	ɔ̞̜ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered less-rounded rounded close back vowel	vowel	u̞̜ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered less-rounded nasalized rounded close back vowel	vowel	ũ̞̜ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
-mid-long lowered advanced rounded open-mid back vowel	vowel	ɔ̞ˑ̟	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 mid-long less-rounded rounded open-mid front vowel	vowel	œ̜ˑ	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded open-mid back vowel	vowel	ɔ̜ˑ	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded near-close near-front vowel	vowel	ʏ̜ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -3803,6 +4038,65 @@ mid-long advanced rounded close-mid front vowel	vowel	øˑ̟	LATIN SMALL LETTER 
 mid-long advanced rounded close-mid back vowel	vowel	oˑ̟	LATIN SMALL LETTER O / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 mid-long advanced rounded close back vowel	vowel	uˑ̟	LATIN SMALL LETTER U / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 mid-long advanced nasalized unrounded open back vowel	vowel	ɑ̃ˑ̟	LATIN SMALL LETTER ALPHA / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+mid-long advanced lowered rounded open-mid back vowel	vowel	ɔ̞ˑ̟	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+mid-centralized unrounded close-mid front vowel	vowel	e̽	LATIN SMALL LETTER E / COMBINING X ABOVE	+	
+mid-centralized unrounded close front vowel	vowel	i̽	LATIN SMALL LETTER I / COMBINING X ABOVE	+	
+mid-centralized rounded near-close near-back vowel	vowel	ʊ̽	LATIN SMALL LETTER UPSILON / COMBINING X ABOVE	+	
+lowered voiceless velar stop consonant	consonant	k̞	LATIN SMALL LETTER K / COMBINING DOWN TACK BELOW	+	
+lowered voiceless velar fricative consonant	consonant	x̞	LATIN SMALL LETTER X / COMBINING DOWN TACK BELOW	+	
+lowered voiceless uvular fricative consonant	consonant	χ̞	GREEK SMALL LETTER CHI / COMBINING DOWN TACK BELOW	+	
+lowered voiceless retroflex sibilant fricative consonant	consonant	ʂ̞	LATIN SMALL LETTER S WITH HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̞	LATIN SMALL LETTER ESH / COMBINING DOWN TACK BELOW	+	
+lowered voiceless post-alveolar ejective sibilant fricative consonant	consonant	ʃ̞’	LATIN SMALL LETTER ESH / COMBINING DOWN TACK BELOW / RIGHT SINGLE QUOTATION MARK	+	
+lowered voiceless pharyngeal fricative consonant	consonant	ħ̞	LATIN SMALL LETTER H WITH STROKE / COMBINING DOWN TACK BELOW	+	
+lowered voiceless palatal-velar fricative consonant	consonant	ɧ̞	LATIN SMALL LETTER HENG WITH HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiceless palatal sibilant fricative consonant	consonant	ç̞	LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING DOWN TACK BELOW	+	
+lowered voiceless labio-velar approximant consonant	consonant	ʍ̞	LATIN SMALL LETTER TURNED W / COMBINING DOWN TACK BELOW	+	
+lowered voiceless labio-dental fricative consonant	consonant	f̞	LATIN SMALL LETTER F / COMBINING DOWN TACK BELOW	+	
+lowered voiceless glottal stop consonant	consonant	ʔ̞	LATIN LETTER GLOTTAL STOP / COMBINING DOWN TACK BELOW	+	
+lowered voiceless glottal fricative consonant	consonant	h̞	LATIN SMALL LETTER H / COMBINING DOWN TACK BELOW	+	
+lowered voiceless dental sibilant fricative consonant	consonant	s̪̞	LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING DOWN TACK BELOW	+	
+lowered voiceless dental lateral fricative consonant	consonant	ɬ̪̞	LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING DOWN TACK BELOW	+	
+lowered voiceless dental fricative consonant	consonant	θ̞	GREEK SMALL LETTER THETA / COMBINING DOWN TACK BELOW	+	
+lowered voiceless bilabial fricative consonant	consonant	ɸ̞	LATIN SMALL LETTER PHI / COMBINING DOWN TACK BELOW	+	
+lowered voiceless alveolo-palatal sibilant fricative consonant	consonant	ɕ̞	LATIN SMALL LETTER C WITH CURL / COMBINING DOWN TACK BELOW	+	
+lowered voiceless alveolar stop consonant	consonant	t̞	LATIN SMALL LETTER T / COMBINING DOWN TACK BELOW	+	
+lowered voiceless alveolar sibilant fricative consonant	consonant	s̞	LATIN SMALL LETTER S / COMBINING DOWN TACK BELOW	+	
+lowered voiceless alveolar lateral fricative consonant	consonant	ɬ̞	LATIN SMALL LETTER L WITH BELT / COMBINING DOWN TACK BELOW	+	
+lowered voiced velar lateral approximant consonant	consonant	ʟ̞	LATIN LETTER SMALL CAPITAL L / COMBINING DOWN TACK BELOW	+	
+lowered voiced velar fricative consonant	consonant	ɣ̞	LATIN SMALL LETTER GAMMA / COMBINING DOWN TACK BELOW	+	
+lowered voiced velar approximant consonant	consonant	ɰ̞	LATIN SMALL LETTER TURNED M WITH LONG LEG / COMBINING DOWN TACK BELOW	+	
+lowered voiced uvular trill consonant	consonant	ʀ̞	LATIN LETTER SMALL CAPITAL R / COMBINING DOWN TACK BELOW	+	
+lowered voiced retroflex tap consonant	consonant	ɽ̞	LATIN SMALL LETTER R WITH TAIL / COMBINING DOWN TACK BELOW	+	
+lowered voiced retroflex sibilant fricative consonant	consonant	ʐ̞	LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced retroflex lateral approximant consonant	consonant	ɭ̞	LATIN SMALL LETTER L WITH RETROFLEX HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced retroflex approximant consonant	consonant	ɻ̞	LATIN SMALL LETTER TURNED R WITH HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced post-alveolar sibilant fricative consonant	consonant	ʒ̞	LATIN SMALL LETTER EZH / COMBINING DOWN TACK BELOW	+	
+lowered voiced pharyngeal fricative consonant	consonant	ʕ̞	LATIN LETTER PHARYNGEAL VOICED FRICATIVE / COMBINING DOWN TACK BELOW	+	
+lowered voiced palatal lateral approximant consonant	consonant	ʎ̞	LATIN SMALL LETTER TURNED Y / COMBINING DOWN TACK BELOW	+	
+lowered voiced palatal fricative consonant	consonant	ʝ̞	LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING DOWN TACK BELOW	+	
+lowered voiced palatal approximant consonant	consonant	j̞	LATIN SMALL LETTER J / COMBINING DOWN TACK BELOW	+	
+lowered voiced palatal affricate consonant	consonant	ɟʝ̞	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING DOWN TACK BELOW	+	
+lowered voiced labio-velar approximant consonant	consonant	w̞	LATIN SMALL LETTER W / COMBINING DOWN TACK BELOW	+	
+lowered voiced labio-palatal approximant consonant	consonant	ɥ̞	LATIN SMALL LETTER TURNED H / COMBINING DOWN TACK BELOW	+	
+lowered voiced labio-dental fricative consonant	consonant	v̞	LATIN SMALL LETTER V / COMBINING DOWN TACK BELOW	+	
+lowered voiced labio-dental approximant consonant	consonant	ʋ̞	LATIN SMALL LETTER V WITH HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced glottal fricative consonant	consonant	ɦ̞	LATIN SMALL LETTER H WITH HOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced dental trill consonant	consonant	r̪̞	LATIN SMALL LETTER R / COMBINING BRIDGE BELOW / COMBINING DOWN TACK BELOW	+	
+lowered voiced dental sibilant fricative consonant	consonant	z̪̞	LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING DOWN TACK BELOW	+	
+lowered voiced dental lateral approximant consonant	consonant	l̪̞	LATIN SMALL LETTER L / COMBINING BRIDGE BELOW / COMBINING DOWN TACK BELOW	+	
+lowered voiced bilabial trill consonant	consonant	ʙ̞	LATIN LETTER SMALL CAPITAL B / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolo-palatal sibilant fricative consonant	consonant	ʑ̞	LATIN SMALL LETTER Z WITH CURL / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar trill consonant	consonant	r̞	LATIN SMALL LETTER R / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar tap consonant	consonant	ɾ̞	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar stop consonant	consonant	d̞	LATIN SMALL LETTER D / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar sibilant fricative consonant	consonant	z̞	LATIN SMALL LETTER Z / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar nasal consonant	consonant	n̞	LATIN SMALL LETTER N / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar lateral tap consonant	consonant	ɺ̞	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar lateral fricative consonant	consonant	ɮ̞	LATIN SMALL LETTER LEZH / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar lateral approximant consonant	consonant	l̞	LATIN SMALL LETTER L / COMBINING DOWN TACK BELOW	+	
+lowered voiced alveolar approximant consonant	consonant	ɹ̞	LATIN SMALL LETTER TURNED R / COMBINING DOWN TACK BELOW	+	
+lowered velarized voiced alveolar lateral approximant consonant	consonant	l̞ˠ	LATIN SMALL LETTER L / COMBINING DOWN TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 lowered unrounded open-mid front vowel	vowel	ɛ̞	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid central vowel	vowel	ɜ̞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid back vowel	vowel	ʌ̞	LATIN SMALL LETTER TURNED V / COMBINING DOWN TACK BELOW	+	
@@ -3816,6 +4110,9 @@ lowered unrounded close-mid central vowel	vowel	ɘ̞	LATIN SMALL LETTER REVERSED
 lowered unrounded close front vowel	vowel	i̞	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW	+	
 lowered unrounded close central vowel	vowel	ɨ̞	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW	+	
 lowered unrounded close back vowel	vowel	ɯ̞	LATIN SMALL LETTER TURNED M / COMBINING DOWN TACK BELOW	+	
+lowered syllabic voiced alveolar sibilant fricative consonant	consonant	z̞̩	LATIN SMALL LETTER Z / COMBINING DOWN TACK BELOW / COMBINING VERTICAL LINE BELOW	+	
+lowered syllabic velarized voiced alveolar sibilant fricative consonant	consonant	z̞̩ˠ	LATIN SMALL LETTER Z / COMBINING DOWN TACK BELOW / COMBINING VERTICAL LINE BELOW / MODIFIER LETTER SMALL GAMMA	+	
+lowered syllabic nasalized velarized voiced alveolar sibilant fricative consonant	consonant	z̞̩̃ˠ	LATIN SMALL LETTER Z / COMBINING DOWN TACK BELOW / COMBINING VERTICAL LINE BELOW / COMBINING TILDE / MODIFIER LETTER SMALL GAMMA	+	
 lowered rounded open-mid front vowel	vowel	œ̞	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW	+	
 lowered rounded open-mid back vowel	vowel	ɔ̞	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW	+	
 lowered rounded open front vowel	vowel	ɶ̞	LATIN LETTER SMALL CAPITAL OE / COMBINING DOWN TACK BELOW	+	
@@ -3941,6 +4238,8 @@ long voiced retroflex sibilant fricative consonant	consonant	ʐː	LATIN SMALL LE
 long voiced retroflex sibilant affricate consonant	consonant	ʈʂː	LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK / MODIFIER LETTER TRIANGULAR COLON		
 long voiced retroflex nasal consonant	consonant	ɳː	LATIN SMALL LETTER N WITH RETROFLEX HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long voiced retroflex lateral approximant consonant	consonant	ɭː	LATIN SMALL LETTER L WITH RETROFLEX HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long voiced retroflex implosive consonant	consonant	ᶑː	LATIN SMALL LETTER D WITH HOOK AND TAIL / MODIFIER LETTER TRIANGULAR COLON	+	
+long voiced retroflex ejective implosive consonant	consonant	ᶑ’ː	LATIN SMALL LETTER D WITH HOOK AND TAIL / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER TRIANGULAR COLON	+	
 long voiced retroflex approximant consonant	consonant	ɻː	LATIN SMALL LETTER TURNED R WITH HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long voiced post-alveolar stop consonant	consonant	d̠ː	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long voiced post-alveolar sibilant fricative consonant	consonant	ʒː	LATIN SMALL LETTER EZH / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4101,7 +4400,6 @@ long retracted-tongue-root rounded close-mid back vowel	vowel	o̙ː	LATIN SMALL 
 long retracted-tongue-root rounded close front vowel	vowel	y̙ː	LATIN SMALL LETTER Y / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted-tongue-root rounded close central vowel	vowel	ʉ̙ː	LATIN SMALL LETTER U BAR / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted-tongue-root rounded close back vowel	vowel	u̙ː	LATIN SMALL LETTER U / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
-long retracted-tongue-root advanced unrounded open front vowel	vowel	a̙ː̟	LATIN SMALL LETTER A / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long retracted unrounded open-mid front vowel	vowel	ɛː̠	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted unrounded open front vowel	vowel	aː̠	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted unrounded open back vowel	vowel	ɑː̠	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
@@ -4346,6 +4644,7 @@ long more-rounded unrounded open front vowel	vowel	a̹ː	LATIN SMALL LETTER A / 
 long more-rounded unrounded close central vowel	vowel	ɨ̹ː	LATIN SMALL LETTER I WITH STROKE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long more-rounded rounded open-mid front vowel	vowel	œ̹ː	LATIN SMALL LIGATURE OE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long more-rounded rounded close back vowel	vowel	u̹ː	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long mid-centralized creaky unrounded close back vowel	vowel	ɯ̰ː̽	LATIN SMALL LETTER TURNED M / COMBINING TILDE BELOW / MODIFIER LETTER TRIANGULAR COLON / COMBINING X ABOVE	+	
 long lowered unrounded open-mid front vowel	vowel	ɛ̞ː	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded open front vowel	vowel	a̞ː	LATIN SMALL LETTER A / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded near-open front vowel	vowel	æ̞ː	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4374,8 +4673,6 @@ long less-rounded rounded close-mid back vowel	vowel	o̜ː	LATIN SMALL LETTER O 
 long less-rounded rounded close back vowel	vowel	u̜ː	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded nasalized rounded open-mid central vowel	vowel	ɞ̜̃ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded nasalized rounded open-mid back vowel	vowel	ɔ̜̃ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
-long less-rounded advanced rounded open-mid back vowel	vowel	ɔ̜ː̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
-long less-rounded advanced nasalized rounded open-mid back vowel	vowel	ɔ̜̃ː̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long devoiced voiced velar stop consonant	consonant	g̥ː	LATIN SMALL LETTER G / COMBINING RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long devoiced voiced velar nasal consonant	consonant	ŋ̥ː	LATIN SMALL LETTER ENG / COMBINING RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long devoiced voiced velar lateral approximant consonant	consonant	ʟ̥ː	LATIN LETTER SMALL CAPITAL L / COMBINING RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4526,6 +4823,9 @@ long creaky rounded close-mid back vowel	vowel	o̰ː	LATIN SMALL LETTER O / COMB
 long creaky rounded close front vowel	vowel	y̰ː	LATIN SMALL LETTER Y / COMBINING TILDE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long creaky rounded close central vowel	vowel	ʉ̰ː	LATIN SMALL LETTER U BAR / COMBINING TILDE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long creaky rounded close back vowel	vowel	ṵː	LATIN SMALL LETTER U / COMBINING TILDE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long centralized unrounded open front vowel	vowel	aː̈	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / COMBINING DIAERESIS	+	
+long centralized nasalized unrounded open front vowel	vowel	ãː̈	LATIN SMALL LETTER A / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING DIAERESIS	+	
+long centralized nasalized breathy unrounded open front vowel	vowel	ã̤ː̈	LATIN SMALL LETTER A / COMBINING DIAERESIS BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING DIAERESIS	+	
 long breathy voiced velar stop consonant	consonant	gʱː	LATIN SMALL LETTER G / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long breathy voiced velar nasal consonant	consonant	ŋʱː	LATIN SMALL LETTER ENG / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long breathy voiced velar lateral approximant consonant	consonant	ʟʱː	LATIN LETTER SMALL CAPITAL L / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4655,8 +4955,11 @@ long advanced rounded open-mid back vowel	vowel	ɔː̟	LATIN SMALL LETTER OPEN O
 long advanced rounded close-mid central vowel	vowel	ɵː̟	LATIN SMALL LETTER BARRED O / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced rounded close-mid back vowel	vowel	oː̟	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced rounded close central vowel	vowel	ʉː̟	LATIN SMALL LETTER U BAR / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+long advanced retracted-tongue-root unrounded open front vowel	vowel	a̙ː̟	LATIN SMALL LETTER A / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced nasalized unrounded open front vowel	vowel	ãː̟	LATIN SMALL LETTER A / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced nasalized unrounded open back vowel	vowel	ɑ̃ː̟	LATIN SMALL LETTER ALPHA / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+long advanced less-rounded rounded open-mid back vowel	vowel	ɔ̜ː̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+long advanced less-rounded nasalized rounded open-mid back vowel	vowel	ɔ̜̃ː̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 less-rounded unrounded close front vowel	vowel	i̜	LATIN SMALL LETTER I / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded open-mid front vowel	vowel	œ̜	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded open-mid central vowel	vowel	ɞ̜	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW	+	
@@ -4669,8 +4972,6 @@ less-rounded rounded close-mid back vowel	vowel	o̜	LATIN SMALL LETTER O / COMBI
 less-rounded rounded close front vowel	vowel	y̜	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded close back vowel	vowel	u̜	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW	+	
 less-rounded creaky rounded open-mid central vowel	vowel	ɞ̜̰	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / COMBINING TILDE BELOW	+	
-less-rounded advanced rounded open-mid back vowel	vowel	ɔ̜̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
-less-rounded advanced creaky rounded open-mid back vowel	vowel	ɔ̜̰̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE BELOW / COMBINING PLUS SIGN BELOW	+	
 labio-palatalized voiceless velar stop consonant	consonant	kᶣ	LATIN SMALL LETTER K / MODIFIER LETTER SMALL TURNED H	+	
 labio-palatalized voiceless velar fricative consonant	consonant	xᶣ	LATIN SMALL LETTER X / MODIFIER LETTER SMALL TURNED H	+	
 labio-palatalized voiceless velar affricate consonant	consonant	kxᶣ	LATIN SMALL LETTER K / LATIN SMALL LETTER X / MODIFIER LETTER SMALL TURNED H	+	
@@ -6037,6 +6338,7 @@ from voiceless velar stop to voiceless alveolar lateral fricative cluster	cluste
 from voiceless velar stop to voiced glottal fricative cluster	cluster	kɦ	LATIN SMALL LETTER K / LATIN SMALL LETTER H WITH HOOK	+	
 from voiceless velar stop to velarized voiceless bilabial stop cluster	cluster	kpˠ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL GAMMA	+	
 from voiceless velar stop to velarized long voiceless bilabial stop cluster	cluster	kpˠː	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiceless velar stop to retracted voiceless bilabial stop cluster	cluster	kp̠	LATIN SMALL LETTER K / LATIN SMALL LETTER P / COMBINING MINUS SIGN BELOW	+	
 from voiceless velar stop to pharyngealized voiceless bilabial stop cluster	cluster	kpˤ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiceless velar stop to pharyngealized voiceless bilabial ejective stop cluster	cluster	kp’ˤ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiceless velar stop to pharyngealized long voiceless bilabial stop cluster	cluster	kpˤː	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -6064,6 +6366,7 @@ from voiceless velar stop to aspirated voiceless bilabial stop cluster	cluster	k
 from voiceless velar stop to aspirated velarized voiceless bilabial stop cluster	cluster	kpʰˠ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL GAMMA	+	
 from voiceless velar stop to aspirated pharyngealized voiceless bilabial stop cluster	cluster	kpʰˤ	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiceless velar stop to aspirated long voiceless bilabial stop cluster	cluster	kpʰː	LATIN SMALL LETTER K / LATIN SMALL LETTER P / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiceless velar stop to advanced voiceless bilabial stop cluster	cluster	kp̟	LATIN SMALL LETTER K / LATIN SMALL LETTER P / COMBINING PLUS SIGN BELOW	+	
 from voiceless post-alveolar stop to voiceless bilabial stop cluster	cluster	t̠p	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER P	+	
 from voiceless post-alveolar stop to voiceless alveolo-palatal sibilant fricative cluster	cluster	t̠ɕ	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER C WITH CURL	+	
 from voiceless post-alveolar stop to palatalized voiceless bilabial stop cluster	cluster	t̠pʲ	LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER P / MODIFIER LETTER SMALL J	+	
@@ -6095,6 +6398,7 @@ from voiceless laminal alveolar stop to voiceless alveolo-palatal ejective sibil
 from voiceless laminal alveolar stop to aspirated voiceless laminal alveolo-palatal sibilant fricative cluster	cluster	t̻ɕ̻ʰ	LATIN SMALL LETTER T / COMBINING SQUARE BELOW / LATIN SMALL LETTER C WITH CURL / COMBINING SQUARE BELOW / MODIFIER LETTER SMALL H	+	
 from voiceless laminal alveolar stop to aspirated voiceless laminal alveolar sibilant fricative cluster	cluster	t̻s̻ʰ	LATIN SMALL LETTER T / COMBINING SQUARE BELOW / LATIN SMALL LETTER S / COMBINING SQUARE BELOW / MODIFIER LETTER SMALL H	+	
 from voiceless laminal alveolar stop to aspirated voiceless alveolo-palatal sibilant fricative cluster	cluster	t̻ɕʰ	LATIN SMALL LETTER T / COMBINING SQUARE BELOW / LATIN SMALL LETTER C WITH CURL / MODIFIER LETTER SMALL H	+	
+from voiceless labio-dental stop to voiceless labio-dental fricative cluster	cluster	p̪f	LATIN SMALL LETTER P / COMBINING BRIDGE BELOW / LATIN SMALL LETTER F	+	
 from voiceless labial click to voiceless velar fricative cluster	cluster	ʘx	LATIN LETTER BILABIAL CLICK / LATIN SMALL LETTER X	+	
 from voiceless labial click to voiceless velar ejective fricative cluster	cluster	ʘxʼ	LATIN LETTER BILABIAL CLICK / LATIN SMALL LETTER X / MODIFIER LETTER APOSTROPHE	+	
 from voiceless labial click to voiceless uvular stop cluster	cluster	ʘq	LATIN LETTER BILABIAL CLICK / LATIN SMALL LETTER Q	+	
@@ -6127,6 +6431,7 @@ from voiceless bilabial stop to with-lateral-release voiceless alveolar stop clu
 from voiceless bilabial stop to voiceless velar stop cluster	cluster	pk	LATIN SMALL LETTER P / LATIN SMALL LETTER K	+	
 from voiceless bilabial stop to voiceless post-alveolar stop cluster	cluster	pt̠	LATIN SMALL LETTER P / LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW	+	
 from voiceless bilabial stop to voiceless post-alveolar ejective sibilant fricative cluster	cluster	pʃʼ	LATIN SMALL LETTER P / LATIN SMALL LETTER ESH / MODIFIER LETTER APOSTROPHE	+	
+from voiceless bilabial stop to voiceless linguolabial stop cluster	cluster	pt̼	LATIN SMALL LETTER P / LATIN SMALL LETTER T / COMBINING SEAGULL BELOW	+	
 from voiceless bilabial stop to voiceless laminal alveolar stop cluster	cluster	pt̻	LATIN SMALL LETTER P / LATIN SMALL LETTER T / COMBINING SQUARE BELOW	+	
 from voiceless bilabial stop to voiceless apical alveolar stop cluster	cluster	pt̺	LATIN SMALL LETTER P / LATIN SMALL LETTER T / COMBINING INVERTED BRIDGE BELOW	+	
 from voiceless bilabial stop to voiceless alveolar stop cluster	cluster	pt	LATIN SMALL LETTER P / LATIN SMALL LETTER T	+	
@@ -6167,6 +6472,7 @@ from voiceless bilabial stop to aspirated voiceless alveolar sibilant fricative 
 from voiceless bilabial stop to aspirated velarized voiceless alveolar stop cluster	cluster	ptʰˠ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL GAMMA	+	
 from voiceless bilabial stop to aspirated pharyngealized voiceless alveolar stop cluster	cluster	ptʰˤ	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiceless bilabial stop to aspirated long voiceless alveolar stop cluster	cluster	ptʰː	LATIN SMALL LETTER P / LATIN SMALL LETTER T / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiceless bilabial stop to advanced voiceless alveolar stop cluster	cluster	pt̟	LATIN SMALL LETTER P / LATIN SMALL LETTER T / COMBINING PLUS SIGN BELOW	+	
 from voiceless bilabial ejective stop to voiceless velar ejective affricate cluster	cluster	pʼkx’	LATIN SMALL LETTER P / MODIFIER LETTER APOSTROPHE / LATIN SMALL LETTER K / LATIN SMALL LETTER X / RIGHT SINGLE QUOTATION MARK	+	
 from voiceless apical alveolar stop to voiceless apical post-alveolar sibilant fricative cluster	cluster	t̺ʃ̺	LATIN SMALL LETTER T / COMBINING INVERTED BRIDGE BELOW / LATIN SMALL LETTER ESH / COMBINING INVERTED BRIDGE BELOW	+	
 from voiceless apical alveolar stop to voiceless apical alveolo-palatal sibilant fricative cluster	cluster	t̺ɕ̺	LATIN SMALL LETTER T / COMBINING INVERTED BRIDGE BELOW / LATIN SMALL LETTER C WITH CURL / COMBINING INVERTED BRIDGE BELOW	+	
@@ -6214,6 +6520,7 @@ from voiced velar stop to velarized long voiced bilabial stop cluster	cluster	gb
 from voiced velar stop to velarized creaky voiced bilabial stop cluster	cluster	gb̰ˠ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / COMBINING TILDE BELOW / MODIFIER LETTER SMALL GAMMA	+	
 from voiced velar stop to velarized breathy voiced bilabial stop cluster	cluster	gbʱˠ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL H WITH HOOK / MODIFIER LETTER SMALL GAMMA	+	
 from voiced velar stop to syllabic voiced bilabial stop cluster	cluster	gb̩	LATIN SMALL LETTER G / LATIN SMALL LETTER B / COMBINING VERTICAL LINE BELOW	+	
+from voiced velar stop to retracted voiced bilabial stop cluster	cluster	gb̠	LATIN SMALL LETTER G / LATIN SMALL LETTER B / COMBINING MINUS SIGN BELOW	+	
 from voiced velar stop to pharyngealized voiced bilabial stop cluster	cluster	gbˤ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiced velar stop to pharyngealized long voiced bilabial stop cluster	cluster	gbˤː	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 from voiced velar stop to pharyngealized creaky voiced bilabial stop cluster	cluster	gb̰ˤ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / COMBINING TILDE BELOW / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
@@ -6250,6 +6557,7 @@ from voiced velar stop to aspirated voiced bilabial stop cluster	cluster	gbʰ	LA
 from voiced velar stop to aspirated velarized voiced bilabial stop cluster	cluster	gbʰˠ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL GAMMA	+	
 from voiced velar stop to aspirated pharyngealized voiced bilabial stop cluster	cluster	gbʰˤ	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiced velar stop to aspirated long voiced bilabial stop cluster	cluster	gbʰː	LATIN SMALL LETTER G / LATIN SMALL LETTER B / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiced velar stop to advanced voiced bilabial stop cluster	cluster	gb̟	LATIN SMALL LETTER G / LATIN SMALL LETTER B / COMBINING PLUS SIGN BELOW	+	
 from voiced velar nasal to voiceless velar stop cluster	cluster	ŋk	LATIN SMALL LETTER ENG / LATIN SMALL LETTER K	+	
 from voiced velar nasal to voiceless velar ejective stop cluster	cluster	ŋkʼ	LATIN SMALL LETTER ENG / LATIN SMALL LETTER K / MODIFIER LETTER APOSTROPHE	+	
 from voiced velar nasal to voiceless velar ejective affricate cluster	cluster	ŋkx’	LATIN SMALL LETTER ENG / LATIN SMALL LETTER K / LATIN SMALL LETTER X / RIGHT SINGLE QUOTATION MARK	+	
@@ -6263,6 +6571,7 @@ from voiced velar nasal to labialized voiceless velar stop cluster	cluster	ŋkʷ
 from voiced velar nasal to labialized voiced velar stop cluster	cluster	ŋgʷ	LATIN SMALL LETTER ENG / LATIN SMALL LETTER G / MODIFIER LETTER SMALL W	+	
 from voiced velar nasal to devoiced voiced velar stop cluster	cluster	ŋg̊	LATIN SMALL LETTER ENG / LATIN SMALL LETTER G / COMBINING RING ABOVE	+	
 from voiced velar nasal to aspirated voiceless velar stop cluster	cluster	ŋkʰ	LATIN SMALL LETTER ENG / LATIN SMALL LETTER K / MODIFIER LETTER SMALL H	+	
+from voiced velar nasal to advanced voiced velar stop cluster	cluster	ŋg̟	LATIN SMALL LETTER ENG / LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW	+	
 from voiced velar implosive to voiced bilabial implosive cluster	cluster	ɠɓ	LATIN SMALL LETTER G WITH HOOK / LATIN SMALL LETTER B WITH HOOK	+	
 from voiced velar ejective stop to voiceless velar ejective affricate cluster	cluster	g’kx’	LATIN SMALL LETTER G / RIGHT SINGLE QUOTATION MARK / LATIN SMALL LETTER K / LATIN SMALL LETTER X / RIGHT SINGLE QUOTATION MARK	+	
 from voiced uvular nasal to voiceless uvular stop cluster	cluster	ɴq	LATIN LETTER SMALL CAPITAL N / LATIN SMALL LETTER Q	+	
@@ -6276,6 +6585,14 @@ from voiced retroflex nasal to voiced retroflex sibilant affricate cluster	clust
 from voiced retroflex nasal to voiced glottal fricative cluster	cluster	ɳɦ	LATIN SMALL LETTER N WITH RETROFLEX HOOK / LATIN SMALL LETTER H WITH HOOK	+	
 from voiced retroflex nasal to aspirated voiceless retroflex sibilant affricate cluster	cluster	ɳʈʂʰ	LATIN SMALL LETTER N WITH RETROFLEX HOOK / LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK / MODIFIER LETTER SMALL H	+	
 from voiced post-alveolar stop to voiced alveolo-palatal sibilant fricative cluster	cluster	d̠ʑ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER Z WITH CURL	+	
+from voiced post-alveolar stop to retracted voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW	+	
+from voiced post-alveolar stop to retracted palatalized voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʲ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from voiced post-alveolar stop to retracted palatalized long voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʲː	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiced post-alveolar stop to retracted long voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ː	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiced post-alveolar stop to retracted labialized voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʷ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+from voiced post-alveolar stop to retracted labialized long voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʷː	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiced post-alveolar stop to retracted aspirated voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʰ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+from voiced post-alveolar stop to retracted aspirated long voiced alveolar lateral fricative cluster	cluster	d̠ɮ̠ʰː	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER LEZH / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
 from voiced palatal stop to voiced glottal fricative cluster	cluster	ɟɦ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER H WITH HOOK	+	
 from voiced palatal stop to voiced alveolo-palatal sibilant fricative cluster	cluster	ɟʑ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER Z WITH CURL	+	
 from voiced palatal nasal to voiceless palatal stop cluster	cluster	ɲc	LATIN SMALL LETTER N WITH LEFT HOOK / LATIN SMALL LETTER C	+	
@@ -6302,6 +6619,7 @@ from voiced laminal alveolar stop to voiced laminal post-alveolar sibilant frica
 from voiced laminal alveolar stop to voiced laminal alveolo-palatal sibilant fricative cluster	cluster	d̻ʑ̻	LATIN SMALL LETTER D / COMBINING SQUARE BELOW / LATIN SMALL LETTER Z WITH CURL / COMBINING SQUARE BELOW	+	
 from voiced laminal alveolar stop to voiced alveolo-palatal sibilant fricative cluster	cluster	d̻ʑ	LATIN SMALL LETTER D / COMBINING SQUARE BELOW / LATIN SMALL LETTER Z WITH CURL	+	
 from voiced laminal alveolar stop to breathy voiced laminal alveolo-palatal sibilant fricative cluster	cluster	d̻ʑ̻ʱ	LATIN SMALL LETTER D / COMBINING SQUARE BELOW / LATIN SMALL LETTER Z WITH CURL / COMBINING SQUARE BELOW / MODIFIER LETTER SMALL H WITH HOOK	+	
+from voiced labio-dental stop to voiced labio-dental fricative cluster	cluster	b̪v	LATIN SMALL LETTER B / COMBINING BRIDGE BELOW / LATIN SMALL LETTER V	+	
 from voiced labio-dental nasal to voiceless labio-dental fricative cluster	cluster	ɱf	LATIN SMALL LETTER M WITH HOOK / LATIN SMALL LETTER F	+	
 from voiced labio-dental nasal to voiced labio-dental fricative cluster	cluster	ɱv	LATIN SMALL LETTER M WITH HOOK / LATIN SMALL LETTER V	+	
 from voiced labio-dental nasal to voiced dental fricative cluster	cluster	ɱð	LATIN SMALL LETTER M WITH HOOK / LATIN SMALL LETTER ETH	+	
@@ -6343,6 +6661,7 @@ from voiced bilabial stop to voiced post-alveolar stop cluster	cluster	bd̠	LATI
 from voiced bilabial stop to voiced post-alveolar sibilant fricative cluster	cluster	bʒ	LATIN SMALL LETTER B / LATIN SMALL LETTER EZH	+	
 from voiced bilabial stop to voiced post-alveolar sibilant affricate cluster	cluster	bdʒ	LATIN SMALL LETTER B / LATIN SMALL LETTER D / LATIN SMALL LETTER EZH	+	
 from voiced bilabial stop to voiced palatal fricative cluster	cluster	bʝ	LATIN SMALL LETTER B / LATIN SMALL LETTER J WITH CROSSED-TAIL	+	
+from voiced bilabial stop to voiced linguolabial stop cluster	cluster	bd̼	LATIN SMALL LETTER B / LATIN SMALL LETTER D / COMBINING SEAGULL BELOW	+	
 from voiced bilabial stop to voiced laminal alveolar stop cluster	cluster	bd̻	LATIN SMALL LETTER B / LATIN SMALL LETTER D / COMBINING SQUARE BELOW	+	
 from voiced bilabial stop to voiced glottal fricative cluster	cluster	bɦ	LATIN SMALL LETTER B / LATIN SMALL LETTER H WITH HOOK	+	
 from voiced bilabial stop to voiced dental implosive cluster	cluster	bɗ	LATIN SMALL LETTER B / LATIN SMALL LETTER D WITH HOOK	+	
@@ -6391,6 +6710,7 @@ from voiced bilabial stop to aspirated voiced alveolar stop cluster	cluster	bdʰ
 from voiced bilabial stop to aspirated velarized voiced alveolar stop cluster	cluster	bdʰˠ	LATIN SMALL LETTER B / LATIN SMALL LETTER D / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL GAMMA	+	
 from voiced bilabial stop to aspirated pharyngealized voiced alveolar stop cluster	cluster	bdʰˤ	LATIN SMALL LETTER B / LATIN SMALL LETTER D / MODIFIER LETTER SMALL H / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from voiced bilabial stop to aspirated long voiced alveolar stop cluster	cluster	bdʰː	LATIN SMALL LETTER B / LATIN SMALL LETTER D / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from voiced bilabial stop to advanced voiced alveolar stop cluster	cluster	bd̟	LATIN SMALL LETTER B / LATIN SMALL LETTER D / COMBINING PLUS SIGN BELOW	+	
 from voiced bilabial nasal to voiceless labio-dental ejective affricate cluster	cluster	mpfʼ	LATIN SMALL LETTER M / LATIN SMALL LETTER P / LATIN SMALL LETTER F / MODIFIER LETTER APOSTROPHE	+	
 from voiced bilabial nasal to voiceless bilabial stop cluster	cluster	mp	LATIN SMALL LETTER M / LATIN SMALL LETTER P	+	
 from voiced bilabial nasal to voiceless bilabial ejective stop cluster	cluster	mpʼ	LATIN SMALL LETTER M / LATIN SMALL LETTER P / MODIFIER LETTER APOSTROPHE	+	
@@ -6523,6 +6843,7 @@ from unrounded open front to nasalized unrounded close back diphthong	diphthong	
 from unrounded open front to nasalized rounded near-close near-back diphthong	diphthong	aʊ̃	LATIN SMALL LETTER A / LATIN SMALL LETTER UPSILON / COMBINING TILDE	+	
 from unrounded open front to long rounded close back diphthong	diphthong	auː	LATIN SMALL LETTER A / LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON	+	
 from unrounded open front to long non-syllabic unrounded close front diphthong	diphthong	ai̯ː	LATIN SMALL LETTER A / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from unrounded open front to centralized rounded open-mid back diphthong	diphthong	aɔ̈	LATIN SMALL LETTER A / LATIN SMALL LETTER OPEN O / COMBINING DIAERESIS	+	
 from unrounded open back to unrounded near-close near-front diphthong	diphthong	ɑɪ	LATIN SMALL LETTER ALPHA / LATIN LETTER SMALL CAPITAL I	+	
 from unrounded open back to unrounded mid central diphthong	diphthong	ɑə	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER SCHWA	+	
 from unrounded open back to unrounded close-mid front diphthong	diphthong	ɑe	LATIN SMALL LETTER ALPHA / LATIN SMALL LETTER E	+	
@@ -6686,6 +7007,7 @@ from unrounded close central to unrounded mid central diphthong	diphthong	ɨə	L
 from unrounded close central to unrounded close front diphthong	diphthong	ɨi	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER I	+	
 from unrounded close central to rounded close back diphthong	diphthong	ɨu	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER U	+	
 from unrounded close central to non-syllabic unrounded close front diphthong	diphthong	ɨi̯	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from unrounded close central to centralized unrounded open front diphthong	diphthong	ɨä	LATIN SMALL LETTER I WITH STROKE / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from unrounded close back to unrounded open-mid back diphthong	diphthong	ɯʌ	LATIN SMALL LETTER TURNED M / LATIN SMALL LETTER TURNED V	+	
 from unrounded close back to unrounded open front diphthong	diphthong	ɯa	LATIN SMALL LETTER TURNED M / LATIN SMALL LETTER A	+	
 from unrounded close back to unrounded open back diphthong	diphthong	ɯɑ	LATIN SMALL LETTER TURNED M / LATIN SMALL LETTER ALPHA	+	
@@ -6803,6 +7125,7 @@ from rounded mid back to rounded close back diphthong	diphthong	o̞u	LATIN SMALL
 from rounded mid back to pharyngealized unrounded open front diphthong	diphthong	o̞aˤ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from rounded mid back to pharyngealized unrounded close front diphthong	diphthong	o̞iˤ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from rounded mid back to non-syllabic unrounded close front diphthong	diphthong	o̞i̯	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from rounded mid back to centralized unrounded open front diphthong	diphthong	o̞ä	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from rounded close-mid front to unrounded near-open central diphthong	diphthong	øɐ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER TURNED A	+	
 from rounded close-mid front to unrounded near-close near-front diphthong	diphthong	øɪ	LATIN SMALL LETTER O WITH STROKE / LATIN LETTER SMALL CAPITAL I	+	
 from rounded close-mid front to unrounded mid central diphthong	diphthong	øə	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER SCHWA	+	
@@ -6845,6 +7168,7 @@ from rounded close-mid back to non-syllabic rounded close back diphthong	diphtho
 from rounded close-mid back to nasalized unrounded near-open central diphthong	diphthong	oɐ̃	LATIN SMALL LETTER O / LATIN SMALL LETTER TURNED A / COMBINING TILDE	+	
 from rounded close-mid back to nasalized rounded near-close near-back diphthong	diphthong	oʊ̃	LATIN SMALL LETTER O / LATIN SMALL LETTER UPSILON / COMBINING TILDE	+	
 from rounded close-mid back to glottalized rounded open-mid back diphthong	diphthong	oɔˀ	LATIN SMALL LETTER O / LATIN SMALL LETTER OPEN O / MODIFIER LETTER GLOTTAL STOP	+	
+from rounded close-mid back to centralized unrounded open front diphthong	diphthong	oä	LATIN SMALL LETTER O / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from rounded close front to unrounded open-mid front diphthong	diphthong	yɛ	LATIN SMALL LETTER Y / LATIN SMALL LETTER OPEN E	+	
 from rounded close front to unrounded open-mid central diphthong	diphthong	yɜ	LATIN SMALL LETTER Y / LATIN SMALL LETTER REVERSED OPEN E	+	
 from rounded close front to unrounded open-mid back diphthong	diphthong	yʌ	LATIN SMALL LETTER Y / LATIN SMALL LETTER TURNED V	+	
@@ -6913,10 +7237,44 @@ from rounded close back to nasalized unrounded close-mid front diphthong	diphtho
 from rounded close back to long unrounded open front diphthong	diphthong	uaː	LATIN SMALL LETTER U / LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded close back to long rounded open-mid back diphthong	diphthong	uɔː	LATIN SMALL LETTER U / LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON	+	
 from rounded close back to long rounded close-mid back diphthong	diphthong	uoː	LATIN SMALL LETTER U / LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON	+	
+from rounded close back to centralized unrounded open front diphthong	diphthong	uä	LATIN SMALL LETTER U / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from rounded close back to advanced unrounded open front diphthong	diphthong	ua̟	LATIN SMALL LETTER U / LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW	+	
 from retracted-tongue-root unrounded close back to non-syllabic unrounded close front diphthong	diphthong	ɯ̙i̯	LATIN SMALL LETTER TURNED M / COMBINING RIGHT TACK BELOW / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from retracted voiceless velar stop to retracted voiceless velar fricative cluster	cluster	k̠x̠	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW	+	
+from retracted voiceless velar stop to retracted palatalized voiceless velar fricative cluster	cluster	k̠x̠ʲ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from retracted voiceless velar stop to retracted palatalized long voiceless velar fricative cluster	cluster	k̠x̠ʲː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiceless velar stop to retracted long voiceless velar fricative cluster	cluster	k̠x̠ː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiceless velar stop to retracted labialized voiceless velar fricative cluster	cluster	k̠x̠ʷ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+from retracted voiceless velar stop to retracted labialized long voiceless velar fricative cluster	cluster	k̠x̠ʷː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiceless velar stop to retracted aspirated voiceless velar fricative cluster	cluster	k̠x̠ʰ	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+from retracted voiceless velar stop to retracted aspirated long voiceless velar fricative cluster	cluster	k̠x̠ʰː	LATIN SMALL LETTER K / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiceless alveolar click to aspirated voiceless velar fricative cluster	cluster	ǃ̠xʰ	LATIN LETTER RETROFLEX CLICK / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER X / MODIFIER LETTER SMALL H	+	
+from retracted voiced velar stop to retracted voiced velar fricative cluster	cluster	g̠ɣ̠	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW	+	
+from retracted voiced velar stop to retracted palatalized voiced velar fricative cluster	cluster	g̠ɣ̠ʲ	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from retracted voiced velar stop to retracted palatalized long voiced velar fricative cluster	cluster	g̠ɣ̠ʲː	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiced velar stop to retracted long voiced velar fricative cluster	cluster	g̠ɣ̠ː	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiced velar stop to retracted labialized voiced velar fricative cluster	cluster	g̠ɣ̠ʷ	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+from retracted voiced velar stop to retracted labialized long voiced velar fricative cluster	cluster	g̠ɣ̠ʷː	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiced velar stop to retracted aspirated voiced velar fricative cluster	cluster	g̠ɣ̠ʰ	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+from retracted voiced velar stop to retracted aspirated long voiced velar fricative cluster	cluster	g̠ɣ̠ʰː	LATIN SMALL LETTER G / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from retracted voiced alveolar nasal to voiceless post-alveolar stop cluster	cluster	n̠t̠	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW	+	
+from retracted voiced alveolar nasal to voiceless post-alveolar sibilant fricative cluster	cluster	n̠ʃ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER ESH	+	
+from retracted voiced alveolar nasal to voiceless post-alveolar sibilant affricate cluster	cluster	n̠tʃ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / LATIN SMALL LETTER ESH	+	
+from retracted voiced alveolar nasal to voiceless post-alveolar ejective sibilant affricate cluster	cluster	n̠tʃʼ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / MODIFIER LETTER APOSTROPHE	+	
+from retracted voiced alveolar nasal to voiced post-alveolar stop cluster	cluster	n̠d̠	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW	+	
+from retracted voiced alveolar nasal to voiced post-alveolar sibilant fricative cluster	cluster	n̠ʒ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER EZH	+	
+from retracted voiced alveolar nasal to voiced post-alveolar sibilant affricate cluster	cluster	n̠dʒ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER D / LATIN SMALL LETTER EZH	+	
+from retracted voiced alveolar nasal to voiced alveolo-palatal sibilant fricative cluster	cluster	n̠ʑ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER Z WITH CURL	+	
+from retracted voiced alveolar nasal to palatalized voiceless post-alveolar stop cluster	cluster	n̠t̠ʲ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from retracted voiced alveolar nasal to labialized voiceless post-alveolar sibilant fricative cluster	cluster	n̠ʃʷ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER ESH / MODIFIER LETTER SMALL W	+	
+from retracted voiced alveolar nasal to labialized voiceless post-alveolar sibilant affricate cluster	cluster	n̠tʃʷ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / MODIFIER LETTER SMALL W	+	
+from retracted voiced alveolar nasal to labialized voiced post-alveolar sibilant affricate cluster	cluster	n̠dʒʷ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER D / LATIN SMALL LETTER EZH / MODIFIER LETTER SMALL W	+	
+from retracted voiced alveolar nasal to aspirated voiceless post-alveolar sibilant affricate cluster	cluster	n̠tʃʰ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / MODIFIER LETTER SMALL H	+	
+from retracted syllabic voiced alveolar nasal to voiced post-alveolar sibilant affricate cluster	cluster	n̠̩dʒ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / COMBINING VERTICAL LINE BELOW / LATIN SMALL LETTER D / LATIN SMALL LETTER EZH	+	
 from retracted rounded open-mid front to ultra-short rounded close front diphthong	diphthong	œ̠y̆	LATIN SMALL LIGATURE OE / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER Y / COMBINING BREVE	+	
 from retracted rounded close back to rounded close back diphthong	diphthong	u̠u	LATIN SMALL LETTER U / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER U	+	
+from retracted pre-aspirated voiceless alveolar stop to voiceless post-alveolar sibilant fricative cluster	cluster	ʰt̠ʃ	MODIFIER LETTER SMALL H / LATIN SMALL LETTER T / COMBINING MINUS SIGN BELOW / LATIN SMALL LETTER ESH	+	
+from retracted devoiced voiced alveolar nasal to voiceless post-alveolar sibilant affricate cluster	cluster	n̠̥tʃ	LATIN SMALL LETTER N / COMBINING MINUS SIGN BELOW / COMBINING RING BELOW / LATIN SMALL LETTER T / LATIN SMALL LETTER ESH	+	
 from raised unrounded open-mid front to ultra-short unrounded mid central diphthong	diphthong	ɛ̝ə̆	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from raised unrounded open front to ultra-short unrounded near-close near-front diphthong	diphthong	a̝ɪ̆	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
 from raised unrounded open back to ultra-short unrounded near-close near-front diphthong	diphthong	ɑ̝ɪ̆	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
@@ -6964,9 +7322,11 @@ from pharyngealized unrounded close front to unrounded near-open front diphthong
 from non-syllabic unrounded open-mid front to long unrounded near-open front diphthong	diphthong	ɛ̯æː	LATIN SMALL LETTER OPEN E / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON	+	
 from non-syllabic unrounded near-close near-front to rounded open-mid back diphthong	diphthong	ɪ̯ɔ	LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER OPEN O	+	
 from non-syllabic unrounded near-close near-front to lowered rounded close back diphthong	diphthong	ɪ̯u̞	LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW	+	
+from non-syllabic unrounded near-close near-front to centralized unrounded open front diphthong	diphthong	ɪ̯ä	LATIN LETTER SMALL CAPITAL I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from non-syllabic unrounded mid central to unrounded close front diphthong	diphthong	ə̯i	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER I	+	
 from non-syllabic unrounded close-mid front to unrounded open front diphthong	diphthong	e̯a	LATIN SMALL LETTER E / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A	+	
 from non-syllabic unrounded close-mid front to rounded close-mid back diphthong	diphthong	e̯o	LATIN SMALL LETTER E / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER O	+	
+from non-syllabic unrounded close-mid front to centralized unrounded open front diphthong	diphthong	e̯ä	LATIN SMALL LETTER E / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from non-syllabic unrounded close front to unrounded open-mid front diphthong	diphthong	i̯ɛ	LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER OPEN E	+	
 from non-syllabic unrounded close front to unrounded open front diphthong	diphthong	i̯a	LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A	+	
 from non-syllabic unrounded close front to unrounded close-mid front diphthong	diphthong	i̯e	LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER E	+	
@@ -6975,6 +7335,7 @@ from non-syllabic unrounded close front to nasalized unrounded close-mid front d
 from non-syllabic rounded near-close near-back to rounded open-mid back diphthong	diphthong	ʊ̯ɔ	LATIN SMALL LETTER UPSILON / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER OPEN O	+	
 from non-syllabic rounded close-mid back to unrounded open front diphthong	diphthong	o̯a	LATIN SMALL LETTER O / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A	+	
 from non-syllabic rounded close-mid back to rounded close back diphthong	diphthong	o̯u	LATIN SMALL LETTER O / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER U	+	
+from non-syllabic rounded close-mid back to centralized unrounded open front diphthong	diphthong	o̯ä	LATIN SMALL LETTER O / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
 from non-syllabic rounded close front to rounded close-mid front diphthong	diphthong	y̯ø	LATIN SMALL LETTER Y / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER O WITH STROKE	+	
 from non-syllabic rounded close back to unrounded open front diphthong	diphthong	u̯a	LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER A	+	
 from non-syllabic rounded close back to unrounded open back diphthong	diphthong	u̯ɑ	LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW / LATIN SMALL LETTER ALPHA	+	
@@ -7030,6 +7391,7 @@ from nasalized rounded close back to nasalized unrounded open front diphthong	di
 from nasalized rounded close back to nasalized unrounded close front diphthong	diphthong	ũĩ	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER I / COMBINING TILDE	+	
 from nasalized rounded close back to long rounded close-mid back diphthong	diphthong	ũoː	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON	+	
 from nasalized rounded close back to long nasalized rounded open-mid back diphthong	diphthong	ũɔ̃ː	LATIN SMALL LETTER U / COMBINING TILDE / LATIN SMALL LETTER OPEN O / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
+from lowered voiced alveolar nasal to lowered voiceless alveolar sibilant fricative cluster	cluster	n̞s̞	LATIN SMALL LETTER N / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER S / COMBINING DOWN TACK BELOW	+	
 from lowered unrounded open-mid front to unrounded mid central diphthong	diphthong	ɛ̞ə	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
 from lowered unrounded open-mid front to unrounded close front diphthong	diphthong	ɛ̞i	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I	+	
 from lowered unrounded open-mid front to ultra-short unrounded near-close near-front diphthong	diphthong	ɛ̞ɪ̆	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
@@ -7179,6 +7541,8 @@ from creaky unrounded open front to creaky unrounded near-close near-front dipht
 from creaky unrounded open front to creaky unrounded close back diphthong	diphthong	a̰ɯ̰	LATIN SMALL LETTER A / COMBINING TILDE BELOW / LATIN SMALL LETTER TURNED M / COMBINING TILDE BELOW	+	
 from creaky unrounded mid central to creaky unrounded close back diphthong	diphthong	ə̰ɯ̰	LATIN SMALL LETTER SCHWA / COMBINING TILDE BELOW / LATIN SMALL LETTER TURNED M / COMBINING TILDE BELOW	+	
 from creaky unrounded close-mid front to creaky unrounded near-close near-front diphthong	diphthong	ḛɪ̰	LATIN SMALL LETTER E / COMBINING TILDE BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING TILDE BELOW	+	
+from centralized unrounded open front to non-syllabic unrounded close front diphthong	diphthong	äi̯	LATIN SMALL LETTER A / COMBINING DIAERESIS / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from centralized unrounded open front to non-syllabic rounded close back diphthong	diphthong	äu̯	LATIN SMALL LETTER A / COMBINING DIAERESIS / LATIN SMALL LETTER U / COMBINING INVERTED BREVE BELOW	+	
 from breathy voiced velar nasal to breathy voiced velar stop cluster	cluster	ŋʱgʱ	LATIN SMALL LETTER ENG / MODIFIER LETTER SMALL H WITH HOOK / LATIN SMALL LETTER G / MODIFIER LETTER SMALL H WITH HOOK	+	
 from breathy voiced post-alveolar stop to breathy voiced post-alveolar sibilant fricative cluster	cluster	d̠ʱʒʱ	LATIN SMALL LETTER D / COMBINING MINUS SIGN BELOW / MODIFIER LETTER SMALL H WITH HOOK / LATIN SMALL LETTER EZH / MODIFIER LETTER SMALL H WITH HOOK	+	
 from breathy voiced palatal stop to voiced palatal fricative cluster	cluster	ɟʱʝ	LATIN SMALL LETTER DOTLESS J WITH STROKE / MODIFIER LETTER SMALL H WITH HOOK / LATIN SMALL LETTER J WITH CROSSED-TAIL	+	
@@ -7206,6 +7570,23 @@ from breathy unrounded close back to breathy unrounded close front diphthong	dip
 from breathy rounded open-mid back to breathy unrounded close front diphthong	diphthong	ɔ̤i̤	LATIN SMALL LETTER OPEN O / COMBINING DIAERESIS BELOW / LATIN SMALL LETTER I / COMBINING DIAERESIS BELOW	+	
 from breathy rounded close-mid back to breathy unrounded close front diphthong	diphthong	o̤i̤	LATIN SMALL LETTER O / COMBINING DIAERESIS BELOW / LATIN SMALL LETTER I / COMBINING DIAERESIS BELOW	+	
 from breathy rounded close back to breathy rounded close-mid back diphthong	diphthong	ṳo̤	LATIN SMALL LETTER U / COMBINING DIAERESIS BELOW / LATIN SMALL LETTER O / COMBINING DIAERESIS BELOW	+	
+from advanced voiceless velar stop to advanced voiceless velar fricative cluster	cluster	k̟x̟	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW	+	
+from advanced voiceless velar stop to advanced palatalized voiceless velar fricative cluster	cluster	k̟x̟ʲ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from advanced voiceless velar stop to advanced palatalized long voiceless velar fricative cluster	cluster	k̟x̟ʲː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiceless velar stop to advanced long voiceless velar fricative cluster	cluster	k̟x̟ː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiceless velar stop to advanced labialized voiceless velar fricative cluster	cluster	k̟x̟ʷ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+from advanced voiceless velar stop to advanced labialized long voiceless velar fricative cluster	cluster	k̟x̟ʷː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiceless velar stop to advanced aspirated voiceless velar fricative cluster	cluster	k̟x̟ʰ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+from advanced voiceless velar stop to advanced aspirated long voiceless velar fricative cluster	cluster	k̟x̟ʰː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiced velar stop to advanced voiced velar fricative cluster	cluster	g̟ɣ̟	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW	+	
+from advanced voiced velar stop to advanced palatalized voiced velar fricative cluster	cluster	g̟ɣ̟ʲ	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+from advanced voiced velar stop to advanced palatalized long voiced velar fricative cluster	cluster	g̟ɣ̟ʲː	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiced velar stop to advanced long voiced velar fricative cluster	cluster	g̟ɣ̟ː	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiced velar stop to advanced labialized voiced velar fricative cluster	cluster	g̟ɣ̟ʷ	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+from advanced voiced velar stop to advanced labialized long voiced velar fricative cluster	cluster	g̟ɣ̟ʷː	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiced velar stop to advanced aspirated voiced velar fricative cluster	cluster	g̟ɣ̟ʰ	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+from advanced voiced velar stop to advanced aspirated long voiced velar fricative cluster	cluster	g̟ɣ̟ʰː	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+from advanced voiced palatal nasal to advanced voiced palatal fricative cluster	cluster	ɲ̟ʝ̟	LATIN SMALL LETTER N WITH LEFT HOOK / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING PLUS SIGN BELOW	+	
 from advanced unrounded open front to unrounded close front diphthong	diphthong	a̟i	LATIN SMALL LETTER A / COMBINING PLUS SIGN BELOW / LATIN SMALL LETTER I	+	
 flat from-mid-low to-mid-low tone	tone	²²	SUPERSCRIPT TWO / SUPERSCRIPT TWO		
 flat from-mid-high to-mid-high tone	tone	⁴⁴	SUPERSCRIPT FOUR / SUPERSCRIPT FOUR		
@@ -7564,6 +7945,36 @@ contour from-high via-low to-mid-low tone	tone	⁵¹²	SUPERSCRIPT FIVE / SUPERS
 contour from-high via-low to-mid-high tone	tone	⁵¹⁴	SUPERSCRIPT FIVE / SUPERSCRIPT ONE / SUPERSCRIPT FOUR		
 contour from-high via-low to-mid tone	tone	⁵¹³	SUPERSCRIPT FIVE / SUPERSCRIPT ONE / SUPERSCRIPT THREE		
 contour from-high via-low to-high tone	tone	⁵¹⁵	SUPERSCRIPT FIVE / SUPERSCRIPT ONE / SUPERSCRIPT FIVE		
+centralized unrounded open-mid front vowel	vowel	ɛ̈	LATIN SMALL LETTER OPEN E / COMBINING DIAERESIS	+	
+centralized unrounded open-mid central vowel	vowel	ɜ̈	LATIN SMALL LETTER REVERSED OPEN E / COMBINING DIAERESIS	+	
+centralized unrounded open-mid back vowel	vowel	ʌ̈	LATIN SMALL LETTER TURNED V / COMBINING DIAERESIS	+	
+centralized unrounded open front vowel	vowel	ä	LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
+centralized unrounded open back vowel	vowel	ɑ̈	LATIN SMALL LETTER ALPHA / COMBINING DIAERESIS	+	
+centralized unrounded near-open front vowel	vowel	æ̈	LATIN SMALL LETTER AE / COMBINING DIAERESIS	+	
+centralized unrounded near-open central vowel	vowel	ɐ̈	LATIN SMALL LETTER TURNED A / COMBINING DIAERESIS	+	
+centralized unrounded close-mid front vowel	vowel	ë	LATIN SMALL LETTER E / COMBINING DIAERESIS	+	
+centralized unrounded close-mid central vowel	vowel	ɘ̈	LATIN SMALL LETTER REVERSED E / COMBINING DIAERESIS	+	
+centralized unrounded close-mid back vowel	vowel	ɤ̈	LATIN SMALL LETTER RAMS HORN / COMBINING DIAERESIS	+	
+centralized unrounded close front vowel	vowel	ï	LATIN SMALL LETTER I / COMBINING DIAERESIS	+	
+centralized unrounded close central vowel	vowel	ɨ̈	LATIN SMALL LETTER I WITH STROKE / COMBINING DIAERESIS	+	
+centralized unrounded close back vowel	vowel	ɯ̈	LATIN SMALL LETTER TURNED M / COMBINING DIAERESIS	+	
+centralized rounded open-mid front vowel	vowel	œ̈	LATIN SMALL LIGATURE OE / COMBINING DIAERESIS	+	
+centralized rounded open-mid central vowel	vowel	ɞ̈	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING DIAERESIS	+	
+centralized rounded open-mid back vowel	vowel	ɔ̈	LATIN SMALL LETTER OPEN O / COMBINING DIAERESIS	+	
+centralized rounded open front vowel	vowel	ɶ̈	LATIN LETTER SMALL CAPITAL OE / COMBINING DIAERESIS	+	
+centralized rounded open back vowel	vowel	ɒ̈	LATIN SMALL LETTER TURNED ALPHA / COMBINING DIAERESIS	+	
+centralized rounded near-close near-front vowel	vowel	ʏ̈	LATIN LETTER SMALL CAPITAL Y / COMBINING DIAERESIS	+	
+centralized rounded close-mid front vowel	vowel	ø̈	LATIN SMALL LETTER O WITH STROKE / COMBINING DIAERESIS	+	
+centralized rounded close-mid central vowel	vowel	ɵ̈	LATIN SMALL LETTER BARRED O / COMBINING DIAERESIS	+	
+centralized rounded close-mid back vowel	vowel	ö	LATIN SMALL LETTER O / COMBINING DIAERESIS	+	
+centralized rounded close front vowel	vowel	ÿ	LATIN SMALL LETTER Y / COMBINING DIAERESIS	+	
+centralized rounded close central vowel	vowel	ʉ̈	LATIN SMALL LETTER U BAR / COMBINING DIAERESIS	+	
+centralized rounded close back vowel	vowel	ü	LATIN SMALL LETTER U / COMBINING DIAERESIS	+	
+centralized nasalized unrounded open front vowel	vowel	ã̈	LATIN SMALL LETTER A / COMBINING TILDE / COMBINING DIAERESIS	+	
+centralized lowered unrounded near-close near-front vowel	vowel	ɪ̞̈	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING DIAERESIS	+	
+centralized lowered rounded near-close near-back vowel	vowel	ʊ̞̈	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / COMBINING DIAERESIS	+	
+centralized less-rounded rounded near-close near-back vowel	vowel	ʊ̜̈	LATIN SMALL LETTER UPSILON / COMBINING LEFT HALF RING BELOW / COMBINING DIAERESIS	+	
+centralized breathy unrounded open front vowel	vowel	ä̤	LATIN SMALL LETTER A / COMBINING DIAERESIS BELOW / COMBINING DIAERESIS	+	
 breathy voiceless post-alveolar sibilant affricate consonant	consonant	tʃʱ	LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / MODIFIER LETTER SMALL H WITH HOOK	+	
 breathy voiceless palatal stop consonant	consonant	cʱ	LATIN SMALL LETTER C / MODIFIER LETTER SMALL H WITH HOOK	+	
 breathy voiceless palatal click consonant	consonant	ǂʱ	LATIN LETTER ALVEOLAR CLICK / MODIFIER LETTER SMALL H WITH HOOK	+	
@@ -8009,6 +8420,115 @@ advanced-tongue-root rounded close-mid back vowel	vowel	o̘	LATIN SMALL LETTER O
 advanced-tongue-root rounded close front vowel	vowel	y̘	LATIN SMALL LETTER Y / COMBINING LEFT TACK BELOW	+	
 advanced-tongue-root rounded close central vowel	vowel	ʉ̘	LATIN SMALL LETTER U BAR / COMBINING LEFT TACK BELOW	+	
 advanced-tongue-root rounded close back vowel	vowel	u̘	LATIN SMALL LETTER U / COMBINING LEFT TACK BELOW	+	
+advanced voiceless velar stop consonant	consonant	k̟	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless velar fricative consonant	consonant	x̟	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless velar affricate consonant	consonant	kx̟	LATIN SMALL LETTER K / LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless uvular stop consonant	consonant	q̟	LATIN SMALL LETTER Q / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless uvular fricative consonant	consonant	χ̟	GREEK SMALL LETTER CHI / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless uvular affricate consonant	consonant	qχ̟	LATIN SMALL LETTER Q / GREEK SMALL LETTER CHI / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless retroflex stop consonant	consonant	ʈ̟	LATIN SMALL LETTER T WITH RETROFLEX HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless retroflex sibilant fricative consonant	consonant	ʂ̟	LATIN SMALL LETTER S WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless retroflex sibilant affricate consonant	consonant	ʈʂ̟	LATIN SMALL LETTER T WITH RETROFLEX HOOK / LATIN SMALL LETTER S WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless post-alveolar sibilant fricative consonant	consonant	ʃ̟	LATIN SMALL LETTER ESH / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless post-alveolar sibilant affricate consonant	consonant	tʃ̟	LATIN SMALL LETTER T / LATIN SMALL LETTER ESH / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless pharyngeal fricative consonant	consonant	ħ̟	LATIN SMALL LETTER H WITH STROKE / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless palatal-velar fricative consonant	consonant	ɧ̟	LATIN SMALL LETTER HENG WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless palatal stop consonant	consonant	c̟	LATIN SMALL LETTER C / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless palatal sibilant fricative consonant	consonant	ç̟	LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless palatal click consonant	consonant	ǂ̟	LATIN LETTER ALVEOLAR CLICK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless palatal affricate consonant	consonant	cç̟	LATIN SMALL LETTER C / LATIN SMALL LETTER C / COMBINING CEDILLA / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless lateral click consonant	consonant	ǁ̟	LATIN LETTER LATERAL CLICK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless labio-velar approximant consonant	consonant	ʍ̟	LATIN SMALL LETTER TURNED W / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless labio-dental fricative consonant	consonant	f̟	LATIN SMALL LETTER F / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless labio-dental affricate consonant	consonant	pf̟	LATIN SMALL LETTER P / LATIN SMALL LETTER F / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless labial click consonant	consonant	ʘ̟	LATIN LETTER BILABIAL CLICK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless glottal stop consonant	consonant	ʔ̟	LATIN LETTER GLOTTAL STOP / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless glottal fricative consonant	consonant	h̟	LATIN SMALL LETTER H / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental stop consonant	consonant	t̪̟	LATIN SMALL LETTER T / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental sibilant fricative consonant	consonant	s̪̟	LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental sibilant affricate consonant	consonant	ts̪̟	LATIN SMALL LETTER T / LATIN SMALL LETTER S / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental lateral fricative consonant	consonant	ɬ̪̟	LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental lateral affricate consonant	consonant	tɬ̪̟	LATIN SMALL LETTER T / LATIN SMALL LETTER L WITH BELT / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental fricative consonant	consonant	θ̟	GREEK SMALL LETTER THETA / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental click consonant	consonant	ǀ̟	LATIN LETTER DENTAL CLICK / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless dental affricate consonant	consonant	tθ̟	LATIN SMALL LETTER T / GREEK SMALL LETTER THETA / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless bilabial stop consonant	consonant	p̟	LATIN SMALL LETTER P / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless bilabial fricative consonant	consonant	ɸ̟	LATIN SMALL LETTER PHI / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless bilabial affricate consonant	consonant	pɸ̟	LATIN SMALL LETTER P / LATIN SMALL LETTER PHI / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolo-palatal sibilant fricative consonant	consonant	ɕ̟	LATIN SMALL LETTER C WITH CURL / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolo-palatal sibilant affricate consonant	consonant	tɕ̟	LATIN SMALL LETTER T / LATIN SMALL LETTER C WITH CURL / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar stop consonant	consonant	t̟	LATIN SMALL LETTER T / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar sibilant fricative consonant	consonant	s̟	LATIN SMALL LETTER S / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar sibilant affricate consonant	consonant	ts̟	LATIN SMALL LETTER T / LATIN SMALL LETTER S / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar lateral fricative consonant	consonant	ɬ̟	LATIN SMALL LETTER L WITH BELT / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar lateral affricate consonant	consonant	tɬ̟	LATIN SMALL LETTER T / LATIN SMALL LETTER L WITH BELT / COMBINING PLUS SIGN BELOW	+	
+advanced voiceless alveolar click consonant	consonant	ǃ̟	LATIN LETTER RETROFLEX CLICK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar stop consonant	consonant	g̟	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar nasal consonant	consonant	ŋ̟	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar lateral approximant consonant	consonant	ʟ̟	LATIN LETTER SMALL CAPITAL L / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar implosive consonant	consonant	ɠ̟	LATIN SMALL LETTER G WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar fricative consonant	consonant	ɣ̟	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar approximant consonant	consonant	ɰ̟	LATIN SMALL LETTER TURNED M WITH LONG LEG / COMBINING PLUS SIGN BELOW	+	
+advanced voiced velar affricate consonant	consonant	gɣ̟	LATIN SMALL LETTER G / LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular trill consonant	consonant	ʀ̟	LATIN LETTER SMALL CAPITAL R / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular stop consonant	consonant	ɢ̟	LATIN LETTER SMALL CAPITAL G / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular nasal consonant	consonant	ɴ̟	LATIN LETTER SMALL CAPITAL N / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular implosive consonant	consonant	ʛ̟	LATIN LETTER SMALL CAPITAL G WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular fricative consonant	consonant	ʁ̟	LATIN LETTER SMALL CAPITAL INVERTED R / COMBINING PLUS SIGN BELOW	+	
+advanced voiced uvular affricate consonant	consonant	ɢʁ̟	LATIN LETTER SMALL CAPITAL G / LATIN LETTER SMALL CAPITAL INVERTED R / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex tap consonant	consonant	ɽ̟	LATIN SMALL LETTER R WITH TAIL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex stop consonant	consonant	ɖ̟	LATIN SMALL LETTER D WITH TAIL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex sibilant fricative consonant	consonant	ʐ̟	LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex sibilant affricate consonant	consonant	ɖʐ̟	LATIN SMALL LETTER D WITH TAIL / LATIN SMALL LETTER Z WITH RETROFLEX HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex nasal consonant	consonant	ɳ̟	LATIN SMALL LETTER N WITH RETROFLEX HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex lateral approximant consonant	consonant	ɭ̟	LATIN SMALL LETTER L WITH RETROFLEX HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced retroflex approximant consonant	consonant	ɻ̟	LATIN SMALL LETTER TURNED R WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced post-alveolar sibilant fricative consonant	consonant	ʒ̟	LATIN SMALL LETTER EZH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced post-alveolar sibilant affricate consonant	consonant	dʒ̟	LATIN SMALL LETTER D / LATIN SMALL LETTER EZH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced pharyngeal fricative consonant	consonant	ʕ̟	LATIN LETTER PHARYNGEAL VOICED FRICATIVE / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal stop consonant	consonant	ɟ̟	LATIN SMALL LETTER DOTLESS J WITH STROKE / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal nasal consonant	consonant	ɲ̟	LATIN SMALL LETTER N WITH LEFT HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal implosive consonant	consonant	ʄ̟	LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal fricative consonant	consonant	ʝ̟	LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal approximant consonant	consonant	j̟	LATIN SMALL LETTER J / COMBINING PLUS SIGN BELOW	+	
+advanced voiced palatal affricate consonant	consonant	ɟʝ̟	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-velar approximant consonant	consonant	w̟	LATIN SMALL LETTER W / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-palatal approximant consonant	consonant	ɥ̟	LATIN SMALL LETTER TURNED H / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-dental tap consonant	consonant	ⱱ̟	LATIN SMALL LETTER V WITH RIGHT HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-dental nasal consonant	consonant	ɱ̟	LATIN SMALL LETTER M WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-dental fricative consonant	consonant	v̟	LATIN SMALL LETTER V / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-dental approximant consonant	consonant	ʋ̟	LATIN SMALL LETTER V WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced labio-dental affricate consonant	consonant	bv̟	LATIN SMALL LETTER B / LATIN SMALL LETTER V / COMBINING PLUS SIGN BELOW	+	
+advanced voiced glottal fricative consonant	consonant	ɦ̟	LATIN SMALL LETTER H WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental trill consonant	consonant	r̪̟	LATIN SMALL LETTER R / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental stop consonant	consonant	d̪̟	LATIN SMALL LETTER D / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental sibilant fricative consonant	consonant	z̪̟	LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental sibilant affricate consonant	consonant	dz̪̟	LATIN SMALL LETTER D / LATIN SMALL LETTER Z / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental nasal consonant	consonant	n̪̟	LATIN SMALL LETTER N / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental lateral approximant consonant	consonant	l̪̟	LATIN SMALL LETTER L / COMBINING BRIDGE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental implosive consonant	consonant	ɗ̟	LATIN SMALL LETTER D WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental fricative consonant	consonant	ð̟	LATIN SMALL LETTER ETH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced dental affricate consonant	consonant	dð̟	LATIN SMALL LETTER D / LATIN SMALL LETTER ETH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial trill consonant	consonant	ʙ̟	LATIN LETTER SMALL CAPITAL B / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial stop consonant	consonant	b̟	LATIN SMALL LETTER B / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial nasal consonant	consonant	m̟	LATIN SMALL LETTER M / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial implosive consonant	consonant	ɓ̟	LATIN SMALL LETTER B WITH HOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial fricative consonant	consonant	β̟	GREEK SMALL LETTER BETA / COMBINING PLUS SIGN BELOW	+	
+advanced voiced bilabial affricate consonant	consonant	bβ̟	LATIN SMALL LETTER B / GREEK SMALL LETTER BETA / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolo-palatal sibilant fricative consonant	consonant	ʑ̟	LATIN SMALL LETTER Z WITH CURL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolo-palatal sibilant affricate consonant	consonant	dʑ̟	LATIN SMALL LETTER D / LATIN SMALL LETTER Z WITH CURL / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar trill consonant	consonant	r̟	LATIN SMALL LETTER R / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar tap consonant	consonant	ɾ̟	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar stop consonant	consonant	d̟	LATIN SMALL LETTER D / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar sibilant fricative consonant	consonant	z̟	LATIN SMALL LETTER Z / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar sibilant affricate consonant	consonant	dz̟	LATIN SMALL LETTER D / LATIN SMALL LETTER Z / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar nasal consonant	consonant	n̟	LATIN SMALL LETTER N / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar lateral tap consonant	consonant	ɺ̟	LATIN SMALL LETTER TURNED R WITH LONG LEG / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar lateral fricative consonant	consonant	ɮ̟	LATIN SMALL LETTER LEZH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar lateral approximant consonant	consonant	l̟	LATIN SMALL LETTER L / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar lateral affricate consonant	consonant	dɮ̟	LATIN SMALL LETTER D / LATIN SMALL LETTER LEZH / COMBINING PLUS SIGN BELOW	+	
+advanced voiced alveolar approximant consonant	consonant	ɹ̟	LATIN SMALL LETTER TURNED R / COMBINING PLUS SIGN BELOW	+	
+advanced velarized voiced alveolar lateral approximant consonant	consonant	l̟ˠ	LATIN SMALL LETTER L / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL GAMMA	+	
 advanced unrounded open-mid front vowel	vowel	ɛ̟	LATIN SMALL LETTER OPEN E / COMBINING PLUS SIGN BELOW	+	
 advanced unrounded open-mid central vowel	vowel	ɜ̟	LATIN SMALL LETTER REVERSED OPEN E / COMBINING PLUS SIGN BELOW	+	
 advanced unrounded open-mid back vowel	vowel	ʌ̟	LATIN SMALL LETTER TURNED V / COMBINING PLUS SIGN BELOW	+	
@@ -8038,6 +8558,42 @@ advanced rounded close-mid back vowel	vowel	o̟	LATIN SMALL LETTER O / COMBINING
 advanced rounded close front vowel	vowel	y̟	LATIN SMALL LETTER Y / COMBINING PLUS SIGN BELOW	+	
 advanced rounded close central vowel	vowel	ʉ̟	LATIN SMALL LETTER U BAR / COMBINING PLUS SIGN BELOW	+	
 advanced rounded close back vowel	vowel	u̟	LATIN SMALL LETTER U / COMBINING PLUS SIGN BELOW	+	
+advanced raised unrounded open back vowel	vowel	ɑ̝̟	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced palatalized voiceless velar stop consonant	consonant	k̟ʲ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiceless velar fricative consonant	consonant	x̟ʲ	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiceless velar ejective stop consonant	consonant	k̟’ʲ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / RIGHT SINGLE QUOTATION MARK / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced velar stop consonant	consonant	g̟ʲ	LATIN SMALL LETTER G / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced velar nasal consonant	consonant	ŋ̟ʲ	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced velar lateral approximant consonant	consonant	ʟ̟ʲ	LATIN LETTER SMALL CAPITAL L / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced velar fricative consonant	consonant	ɣ̟ʲ	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced alveolar trill consonant	consonant	r̟ʲ	LATIN SMALL LETTER R / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced alveolar nasal consonant	consonant	n̟ʲ	LATIN SMALL LETTER N / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized voiced alveolar lateral approximant consonant	consonant	l̟ʲ	LATIN SMALL LETTER L / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J	+	
+advanced palatalized long voiceless velar stop consonant	consonant	k̟ʲː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced palatalized long voiceless velar fricative consonant	consonant	x̟ʲː	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced palatalized long voiced velar nasal consonant	consonant	ŋ̟ʲː	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced palatalized long voiced velar fricative consonant	consonant	ɣ̟ʲː	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced palatalized aspirated voiceless velar stop consonant	consonant	k̟ʲʰ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL J / MODIFIER LETTER SMALL H	+	
 advanced nasalized unrounded open front vowel	vowel	ã̟	LATIN SMALL LETTER A / COMBINING TILDE / COMBINING PLUS SIGN BELOW	+	
 advanced nasalized unrounded open back vowel	vowel	ɑ̟̃	LATIN SMALL LETTER ALPHA / COMBINING TILDE / COMBINING PLUS SIGN BELOW	+	
 advanced nasalized unrounded mid back vowel	vowel	ɤ̞̟̃	LATIN SMALL LETTER RAMS HORN / COMBINING DOWN TACK BELOW / COMBINING TILDE / COMBINING PLUS SIGN BELOW	+	
+advanced more-rounded unrounded close-mid back vowel	vowel	ɤ̹̟	LATIN SMALL LETTER RAMS HORN / COMBINING RIGHT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced long voiceless velar stop consonant	consonant	k̟ː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced long voiceless velar fricative consonant	consonant	x̟ː	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced long voiced velar nasal consonant	consonant	ŋ̟ː	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced long voiced velar fricative consonant	consonant	ɣ̟ː	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced less-rounded rounded open-mid back vowel	vowel	ɔ̜̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced less-rounded creaky rounded open-mid back vowel	vowel	ɔ̜̰̟	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE BELOW / COMBINING PLUS SIGN BELOW	+	
+advanced labialized voiceless velar stop consonant	consonant	k̟ʷ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+advanced labialized voiceless velar fricative consonant	consonant	x̟ʷ	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+advanced labialized voiced velar nasal consonant	consonant	ŋ̟ʷ	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+advanced labialized voiced velar fricative consonant	consonant	ɣ̟ʷ	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W	+	
+advanced labialized long voiceless velar stop consonant	consonant	k̟ʷː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced labialized long voiceless velar fricative consonant	consonant	x̟ʷː	LATIN SMALL LETTER X / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced labialized long voiced velar nasal consonant	consonant	ŋ̟ʷː	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced labialized long voiced velar fricative consonant	consonant	ɣ̟ʷː	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL W / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced devoiced voiced velar fricative consonant	consonant	ɣ̟̥	LATIN SMALL LETTER GAMMA / COMBINING PLUS SIGN BELOW / COMBINING RING BELOW	+	
+advanced aspirated voiceless velar stop consonant	consonant	k̟ʰ	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+advanced aspirated voiced velar nasal consonant	consonant	ŋ̟ʰ	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H	+	
+advanced aspirated long voiceless velar stop consonant	consonant	k̟ʰː	LATIN SMALL LETTER K / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	
+advanced aspirated long voiced velar nasal consonant	consonant	ŋ̟ʰː	LATIN SMALL LETTER ENG / COMBINING PLUS SIGN BELOW / MODIFIER LETTER SMALL H / MODIFIER LETTER TRIANGULAR COLON	+	

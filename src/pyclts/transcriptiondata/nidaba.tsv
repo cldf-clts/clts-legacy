@@ -54,7 +54,7 @@ tθ	voiceless dental affricate consonant			t̪͡θ		\t{\textsubbridge{t}͡ \text
 ts̪	voiceless dental sibilant affricate consonant			t̪͡s̪		\t{\textsubbridge{t}\textsubbridge{s}}	dental:affricate:−voice				
 dz̪	voiced dental sibilant affricate consonant			d̪͡z̪		\t{\textsubbridge{d}\textsubbridge{z}}	dental:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}	dental:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}	dental:affricate:+voice +lateral				
+d̠ɮ̠	from voiced post-alveolar stop to retracted voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}	dental:affricate:+voice +lateral				
 tɬ̪	voiceless dental lateral affricate consonant			t̪͡ɬ̪		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}	dental:affricate:+voice +lateral				
 dz	voiced alveolar sibilant affricate consonant			d͡z		\t{dz}	dental:affricate:+voice				
 <NA>	<NA>			d͡z͎		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}	dental:affricate:+voice				
@@ -79,23 +79,23 @@ dɮ	voiced alveolar lateral affricate consonant			d͡ɮ		\t{d͡\textlyoghlig}	al
 tɬ	voiceless alveolar lateral affricate consonant			t͡ɬ		\t{t͡\textbeltl}	alveolar:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲		\t{t͡\textsubbar{\textbeltl}}	alveolar:affricate:+voice +lateral				
 ɬ	voiceless alveolar lateral fricative consonant			ɬ		\textbeltl	alveolar:fricative:+voice +lateral				
-<NA>	<NA>			ɬ̠		\textsubbar{\textbeltl}	alveolar:fricative:+voice +lateral				
+ɬ̠	retracted voiceless alveolar lateral fricative consonant	+		ɬ̠		\textsubbar{\textbeltl}	alveolar:fricative:+voice +lateral				
 ɮ	voiced alveolar lateral fricative consonant			ɮ		\textlyoghlig	alveolar:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠		\textsubbar{\textlyoghlig}	alveolar:fricative:+voice +lateral				
+ɮ̠	retracted voiced alveolar lateral fricative consonant	+		ɮ̠		\textsubbar{\textlyoghlig}	alveolar:fricative:+voice +lateral				
 r	voiced alveolar trill consonant			r		r	alveolar:liquid:+voice −lateral				
-<NA>	<NA>			r̠		\textsubbar{r}	alveolar:liquid:+voice −lateral				
+r̠	retracted voiced alveolar trill consonant	+		r̠		\textsubbar{r}	alveolar:liquid:+voice −lateral				
 ɺ	voiced alveolar lateral tap consonant			ɺ		\textturnlonglegr	alveolar:liquid:+voice +lateral				
-<NA>	<NA>			ɺ̠		\textsubbar{\textturnlonglegr}	alveolar:liquid:+voice +lateral				
+ɺ̠	retracted voiced alveolar lateral tap consonant	+		ɺ̠		\textsubbar{\textturnlonglegr}	alveolar:liquid:+voice +lateral				
 <NA>	<NA>			ɾ̪		\textsubbridge{\textfishhookr}	alveolar:liquid:+voice −lateral				
 ɾ	voiced alveolar tap consonant			ɾ		\textfishhookr	alveolar:liquid:+voice −lateral				
-<NA>	<NA>			ɾ̠		\textsubbar{\textfishhookr}	alveolar:liquid:+voice −lateral				
+ɾ̠	retracted voiced alveolar tap consonant	+		ɾ̠		\textsubbar{\textfishhookr}	alveolar:liquid:+voice −lateral				
 ɹ	voiced alveolar approximant consonant			ɹ		\textturnr	alveolar:liquid:+voice −lateral				
 ɹ̠	voiced post-alveolar approximant consonant			ɹ̠		\textsubbar{\textturnr}	alveolar:liquid:+voice −lateral				
 l	voiced alveolar lateral approximant consonant			l		l	alveolar:liquid:+voice +lateral				
 l̠	voiced post-alveolar lateral approximant consonant			l̠		\textsubbar{l}	alveolar:liquid:+voice +lateral				
 lˠ	velarized voiced alveolar lateral approximant consonant			ɫ		\textltilde	alveolar:liquid:+voice +lateral				
 n	voiced alveolar nasal consonant			n		n	alveolar:nasal:+voice +nasal				
-<NA>	<NA>			n̠		\textipa{\=*n}	alveolar:nasal:+voice +nasal				
+n̠	retracted voiced alveolar nasal consonant	+		n̠		\textipa{\=*n}	alveolar:nasal:+voice +nasal				
 ʃ	voiceless post-alveolar sibilant fricative consonant			ʃ		\textipa{S}	palatoalveolar:fricative:−voice				
 ʒ	voiced post-alveolar sibilant fricative consonant			ʒ		\textyogh	palatoalveolar:fricative:+voice				
 tʃ	voiceless post-alveolar sibilant affricate consonant			t͡ʃ		\t{t͡\textipa{S}}	palatoalveolar:affricate:−voice				
@@ -120,30 +120,30 @@ ç	voiceless palatal sibilant fricative consonant			ç		\c{c}	palatal:fricative
 ʎ	voiced palatal lateral approximant consonant			ʎ		\begin{IPA} +\;G \end{IPA}	palatal:liquid:+voice +lateral				
 ɲ	voiced palatal nasal consonant			ɲ		\textltailn	palatal:nasal:+voice +nasal				
 ɰ	voiced velar approximant consonant			ɰ		\textturnmrleg	velar:glide:+voice				
-<NA>	<NA>			ɰ̠		\textsubbar{\textturnmrleg}	velar:glide:+voice				
-<NA>	<NA>			k̟		\begin{IPA}\|+k̟\end{IPA}	velar:plosive:−voice				
+ɰ̠	retracted voiced velar approximant consonant	+		ɰ̠		\textsubbar{\textturnmrleg}	velar:glide:+voice				
+k̟	advanced voiceless velar stop consonant	+		k̟		\begin{IPA}\|+k̟\end{IPA}	velar:plosive:−voice				
 k	voiceless velar stop consonant			k		k	velar:plosive:−voice				
-<NA>	<NA>			k̠		\textsubbar{k}	velar:plosive:−voice				
+k̠	retracted voiceless velar stop consonant	+		k̠		\textsubbar{k}	velar:plosive:−voice				
 g	voiced velar stop consonant			ɡ		ɡ	velar:plosive:+voice				
 ɠ	voiced velar implosive consonant			ɠ		\texthtg	velar:plosive:+voice				
-<NA>	<NA>			x̟		\begin{IPA}\|+x̟\end{IPA}	velar:fricative:−voice				
+x̟	advanced voiceless velar fricative consonant	+		x̟		\begin{IPA}\|+x̟\end{IPA}	velar:fricative:−voice				
 x	voiceless velar fricative consonant			x		x	velar:fricative:−voice				
-<NA>	<NA>			x̠		\textsubbar{x}	velar:fricative:−voice				
-<NA>	<NA>			ɣ̟		\begin{IPA}\|+G̟\end{IPA}	velar:fricative:+voice				
+x̠	retracted voiceless velar fricative consonant	+		x̠		\textsubbar{x}	velar:fricative:−voice				
+ɣ̟	advanced voiced velar fricative consonant	+		ɣ̟		\begin{IPA}\|+G̟\end{IPA}	velar:fricative:+voice				
 ɣ	voiced velar fricative consonant			ɣ		\textipa{G}	velar:fricative:+voice				
-<NA>	<NA>			ɣ̠		\textsubbar{\textipa{G}}	velar:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟		\begin{IPA} \t{\|+g \|+G} \end{IPA}	velar:affricate:+voice				
+ɣ̠	retracted voiced velar fricative consonant	+		ɣ̠		\textsubbar{\textipa{G}}	velar:fricative:+voice				
+g̟ɣ̟	from advanced voiced velar stop to advanced voiced velar fricative cluster	+		ɡ̟͡ɣ̟		\begin{IPA} \t{\|+g \|+G} \end{IPA}	velar:affricate:+voice				
 gɣ	voiced velar affricate consonant			ɡ͡ɣ		\t{ɡ͡\textipa{G}}	velar:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}	velar:affricate:+voice				
-<NA>	<NA>			k̟͡x̟		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}	velar:affricate:−voice				
+g̠ɣ̠	from retracted voiced velar stop to retracted voiced velar fricative cluster	+		ɡ̠͡ɣ̠		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}	velar:affricate:+voice				
+k̟x̟	from advanced voiceless velar stop to advanced voiceless velar fricative cluster	+		k̟͡x̟		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}	velar:affricate:−voice				
 kx	voiceless velar affricate consonant			k͡x		\t{kx}	velar:affricate:−voice				
-<NA>	<NA>			k̠͡x̠		\t{\textsubbar{k}\textsubbar{x}}	velar:affricate:−voice				
+k̠x̠	from retracted voiceless velar stop to retracted voiceless velar fricative cluster	+		k̠͡x̠		\t{\textsubbar{k}\textsubbar{x}}	velar:affricate:−voice				
 ʟ	voiced velar lateral approximant consonant			ʟ		\textscl	velar:liquid:+voice +lateral				
-<NA>	<NA>			ʟ̠		\textsubbar{\textscl}	velar:liquid:+voice +lateral				
-<NA>	<NA>			ʟ̟		\begin{IPA}\|+\;L\end{ipa}	velar:liquid:+voice +lateral				
+ʟ̠	retracted voiced velar lateral approximant consonant	+		ʟ̠		\textsubbar{\textscl}	velar:liquid:+voice +lateral				
+ʟ̟	advanced voiced velar lateral approximant consonant	+		ʟ̟		\begin{IPA}\|+\;L\end{ipa}	velar:liquid:+voice +lateral				
 ŋ	voiced velar nasal consonant			ŋ		\textipa{N}	velar:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̟		\begin{IPA}\|+N̟\end{IPA}	velar:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠		\textipa{\=*N}	velar:nasal:+voice +nasal				
+ŋ̟	advanced voiced velar nasal consonant	+		ŋ̟		\begin{IPA}\|+N̟\end{IPA}	velar:nasal:+voice +nasal				
+ŋ̠	retracted voiced velar nasal consonant	+		ŋ̠		\textipa{\=*N}	velar:nasal:+voice +nasal				
 q	voiceless uvular stop consonant			q		q	uvular:plosive:−voice				
 ɢ	voiced uvular stop consonant			ɢ		\textscg	uvular:plosive:+voice				
 ʛ	voiced uvular implosive consonant			ʛ		\texthtscg	uvular:plosive:+voice				
@@ -879,7 +879,7 @@ d̠ʰ	aspirated voiced post-alveolar stop consonant	+		d̠ʰ		\textsubbar{d} ext
 ts̪ʰ	aspirated voiceless dental affricate consonant			t̪͡s̪ʰ		\t{\textsubbridge{t}\textsubbridge{s}} extsuperscript{h}	dental:affricate:−voice +spread glottis				
 dz̪ʰ	aspirated voiced dental sibilant affricate consonant	+		d̪͡z̪ʰ		\t{\textsubbridge{d}\textsubbridge{z}} extsuperscript{h}	dental:affricate:+voice +spread glottis				
 <NA>	<NA>			d̪͡ɮ̪ʰ		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}} extsuperscript{h}	dental:affricate:+voice +lateral +spread glottis				
-<NA>	<NA>			d̠͡ɮ̠ʰ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}} extsuperscript{h}	dental:affricate:+voice +lateral +spread glottis				
+d̠ɮ̠ʰ	from voiced post-alveolar stop to retracted aspirated voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʰ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}} extsuperscript{h}	dental:affricate:+voice +lateral +spread glottis				
 tɬ̪ʰ	aspirated voiceless dental lateral affricate consonant			t̪͡ɬ̪ʰ		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}} extsuperscript{h}	dental:affricate:+voice +lateral +spread glottis				
 dzʰ	aspirated voiced alveolar sibilant affricate consonant	+		d͡zʰ		\t{dz} extsuperscript{h}	dental:affricate:+voice +spread glottis				
 <NA>	<NA>			d͡z͎ʰ		\t{d͡\begin{IPA}\whistle{z}\end{IPA}} extsuperscript{h}	dental:affricate:+voice +spread glottis				
@@ -891,23 +891,23 @@ tsʰ	aspirated voiceless alveolar sibilant affricate consonant			t͡sʰ		\t{ts} 
 dɮʰ	aspirated voiced alveolar lateral affricate consonant	+		d͡ɮʰ		\t{d͡\textlyoghlig} extsuperscript{h}	alveolar:affricate:+voice +lateral +spread glottis				
 tɬʰ	aspirated voiceless alveolar lateral affricate consonant			t͡ɬʰ		\t{t͡\textbeltl} extsuperscript{h}	alveolar:affricate:+voice +lateral +spread glottis				
 <NA>	<NA>			t͡ɬ̲ʰ		\t{t͡\textsubbar{\textbeltl}} extsuperscript{h}	alveolar:affricate:+voice +lateral +spread glottis				
-<NA>	<NA>			n̠ʰ		\textipa{\=*n} extsuperscript{h}	alveolar:nasal:+voice +nasal +spread glottis				
+n̠ʰ	retracted aspirated voiced alveolar nasal consonant	+		n̠ʰ		\textipa{\=*n} extsuperscript{h}	alveolar:nasal:+voice +nasal +spread glottis				
 tʃʰ	aspirated voiceless post-alveolar sibilant affricate consonant			t͡ʃʰ		\t{t͡\textipa{S}} extsuperscript{h}	palatoalveolar:affricate:−voice +spread glottis				
 dʒʰ	aspirated voiced post-alveolar sibilant affricate consonant	+		d͡ʒʰ		\t{d͡\textyogh} extsuperscript{h}	palatoalveolar:affricate:+voice +spread glottis				
 ʈʂʰ	aspirated voiceless retroflex sibilant affricate consonant			ʈ͡ʂʰ		\t{\textrtailt \textrtails} extsuperscript{h}	retroflex:affricate:−voice +spread glottis				
 ɖʐʰ	aspirated voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʰ		\t{ɖ͡\textrtailz} extsuperscript{h}	retroflex:affricate:+voice +spread glottis				
 cçʰ	aspirated voiceless palatal affricate consonant			c͡çʰ		\t{c\c{c}} extsuperscript{h}	palatal:affricate:−voice +spread glottis				
 ɟʝʰ	aspirated voiced palatal affricate consonant	+		ɟ͡ʝʰ		\t{ɟ͡\textctj} extsuperscript{h}	palatal:affricate:+voice +spread glottis				
-<NA>	<NA>			k̟ʰ		\begin{IPA}\|+k̟\end{IPA} extsuperscript{h}	velar:plosive:−voice +spread glottis				
-<NA>	<NA>			k̠ʰ		\textsubbar{k} extsuperscript{h}	velar:plosive:−voice +spread glottis				
-<NA>	<NA>			ɡ̟͡ɣ̟ʰ		\begin{IPA} \t{\|+g \|+G} \end{IPA} extsuperscript{h}	velar:affricate:+voice +spread glottis				
+k̟ʰ	advanced aspirated voiceless velar stop consonant	+		k̟ʰ		\begin{IPA}\|+k̟\end{IPA} extsuperscript{h}	velar:plosive:−voice +spread glottis				
+k̠ʰ	retracted aspirated voiceless velar stop consonant	+		k̠ʰ		\textsubbar{k} extsuperscript{h}	velar:plosive:−voice +spread glottis				
+g̟ɣ̟ʰ	from advanced voiced velar stop to advanced aspirated voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʰ		\begin{IPA} \t{\|+g \|+G} \end{IPA} extsuperscript{h}	velar:affricate:+voice +spread glottis				
 gɣʰ	aspirated voiced velar affricate consonant	+		ɡ͡ɣʰ		\t{ɡ͡\textipa{G}} extsuperscript{h}	velar:affricate:+voice +spread glottis				
-<NA>	<NA>			ɡ̠͡ɣ̠ʰ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}} extsuperscript{h}	velar:affricate:+voice +spread glottis				
-<NA>	<NA>			k̟͡x̟ʰ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}} extsuperscript{h}	velar:affricate:−voice +spread glottis				
+g̠ɣ̠ʰ	from retracted voiced velar stop to retracted aspirated voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʰ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}} extsuperscript{h}	velar:affricate:+voice +spread glottis				
+k̟x̟ʰ	from advanced voiceless velar stop to advanced aspirated voiceless velar fricative cluster	+		k̟͡x̟ʰ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}} extsuperscript{h}	velar:affricate:−voice +spread glottis				
 kxʰ	aspirated voiceless velar affricate consonant	+		k͡xʰ		\t{kx} extsuperscript{h}	velar:affricate:−voice +spread glottis				
-<NA>	<NA>			k̠͡x̠ʰ		\t{\textsubbar{k}\textsubbar{x}} extsuperscript{h}	velar:affricate:−voice +spread glottis				
-<NA>	<NA>			ŋ̟ʰ		\begin{IPA}\|+N̟\end{IPA} extsuperscript{h}	velar:nasal:+voice +nasal +spread glottis				
-<NA>	<NA>			ŋ̠ʰ		\textipa{\=*N} extsuperscript{h}	velar:nasal:+voice +nasal +spread glottis				
+k̠x̠ʰ	from retracted voiceless velar stop to retracted aspirated voiceless velar fricative cluster	+		k̠͡x̠ʰ		\t{\textsubbar{k}\textsubbar{x}} extsuperscript{h}	velar:affricate:−voice +spread glottis				
+ŋ̟ʰ	advanced aspirated voiced velar nasal consonant	+		ŋ̟ʰ		\begin{IPA}\|+N̟\end{IPA} extsuperscript{h}	velar:nasal:+voice +nasal +spread glottis				
+ŋ̠ʰ	retracted aspirated voiced velar nasal consonant	+		ŋ̠ʰ		\textipa{\=*N} extsuperscript{h}	velar:nasal:+voice +nasal +spread glottis				
 ɢʁʰ	aspirated voiced uvular affricate consonant	+		ɢ͡ʁʰ		\t{\textscg \textipa{K}} extsuperscript{h}	uvular:affricate:+voice +spread glottis				
 qχʰ	aspirated voiceless uvular affricate consonant	+		q͡χʰ		\t{q͡\textchi} extsuperscript{h}	uvular:affricate:−voice +spread glottis				
 pɸʷ	labialized voiceless bilabial affricate consonant	+		p͡ɸʷ		\t{p͡\textipa{F}}\super w	labial:affricate:−voice				
@@ -921,7 +921,7 @@ tθʷ	labialized voiceless dental affricate consonant	+		t̪͡θʷ		\t{\textsubb
 ts̪ʷ	labialized voiceless dental sibilant affricate consonant	+		t̪͡s̪ʷ		\t{\textsubbridge{t}\textsubbridge{s}}\super w	dental, labial:affricate:−voice				
 dz̪ʷ	labialized voiced dental sibilant affricate consonant	+		d̪͡z̪ʷ		\t{\textsubbridge{d}\textsubbridge{z}}\super w	dental, labial:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪ʷ		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}\super w	dental, labial:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠ʷ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super w	dental, labial:affricate:+voice +lateral				
+d̠ɮ̠ʷ	from voiced post-alveolar stop to retracted labialized voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʷ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super w	dental, labial:affricate:+voice +lateral				
 tɬ̪ʷ	labialized voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ʷ		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super w	dental, labial:affricate:+voice +lateral				
 dzʷ	labialized voiced alveolar sibilant affricate consonant	+		d͡zʷ		\t{dz}\super w	dental, labial:affricate:+voice				
 <NA>	<NA>			d͡z͎ʷ		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}\super w	dental, labial:affricate:+voice				
@@ -937,29 +937,29 @@ tsʷ	labialized voiceless alveolar sibilant affricate consonant	+		t͡sʷ		\t{ts
 dɮʷ	labialized voiced alveolar lateral affricate consonant	+		d͡ɮʷ		\t{d͡\textlyoghlig}\super w	alveolar, labial:affricate:+voice +lateral				
 tɬʷ	labialized voiceless alveolar lateral affricate consonant	+		t͡ɬʷ		\t{t͡\textbeltl}\super w	alveolar, labial:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲ʷ		\t{t͡\textsubbar{\textbeltl}}\super w	alveolar, labial:affricate:+voice +lateral				
-<NA>	<NA>			ɬ̠ʷ		\textsubbar{\textbeltl}\super w	alveolar, labial:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠ʷ		\textsubbar{\textlyoghlig}\super w	alveolar, labial:fricative:+voice +lateral				
-<NA>	<NA>			n̠ʷ		\textipa{\=*n}\super w	alveolar, labial:nasal:+voice +nasal				
+ɬ̠ʷ	retracted labialized voiceless alveolar lateral fricative consonant	+		ɬ̠ʷ		\textsubbar{\textbeltl}\super w	alveolar, labial:fricative:+voice +lateral				
+ɮ̠ʷ	retracted labialized voiced alveolar lateral fricative consonant	+		ɮ̠ʷ		\textsubbar{\textlyoghlig}\super w	alveolar, labial:fricative:+voice +lateral				
+n̠ʷ	retracted labialized voiced alveolar nasal consonant	+		n̠ʷ		\textipa{\=*n}\super w	alveolar, labial:nasal:+voice +nasal				
 tʃʷ	labialized voiceless post-alveolar sibilant affricate consonant			t͡ʃʷ		\t{t͡\textipa{S}}\super w	palatoalveolar, labial:affricate:−voice				
 dʒʷ	labialized voiced post-alveolar sibilant affricate consonant			d͡ʒʷ		\t{d͡\textyogh}\super w	palatoalveolar, labial:affricate:+voice				
 ʈʂʷ	labialized voiceless retroflex sibilant affricate consonant	+		ʈ͡ʂʷ		\t{\textrtailt \textrtails}\super w	retroflex, labial:affricate:−voice				
 ɖʐʷ	labialized voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʷ		\t{ɖ͡\textrtailz}\super w	retroflex, labial:affricate:+voice				
 cçʷ	labialized voiceless palatal affricate consonant	+		c͡çʷ		\t{c\c{c}}\super w	palatal, labial:affricate:−voice				
 ɟʝʷ	labialized voiced palatal affricate consonant	+		ɟ͡ʝʷ		\t{ɟ͡\textctj}\super w	palatal, labial:affricate:+voice				
-<NA>	<NA>			k̟ʷ		\begin{IPA}\|+k̟\end{IPA}\super w	velar, labial:plosive:−voice				
-<NA>	<NA>			k̠ʷ		\textsubbar{k}\super w	velar, labial:plosive:−voice				
-<NA>	<NA>			x̟ʷ		\begin{IPA}\|+x̟\end{IPA}\super w	velar, labial:fricative:−voice				
-<NA>	<NA>			x̠ʷ		\textsubbar{x}\super w	velar, labial:fricative:−voice				
-<NA>	<NA>			ɣ̟ʷ		\begin{IPA}\|+G̟\end{IPA}\super w	velar, labial:fricative:+voice				
-<NA>	<NA>			ɣ̠ʷ		\textsubbar{\textipa{G}}\super w	velar, labial:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟ʷ		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super w	velar, labial:affricate:+voice				
+k̟ʷ	advanced labialized voiceless velar stop consonant	+		k̟ʷ		\begin{IPA}\|+k̟\end{IPA}\super w	velar, labial:plosive:−voice				
+k̠ʷ	retracted labialized voiceless velar stop consonant	+		k̠ʷ		\textsubbar{k}\super w	velar, labial:plosive:−voice				
+x̟ʷ	advanced labialized voiceless velar fricative consonant	+		x̟ʷ		\begin{IPA}\|+x̟\end{IPA}\super w	velar, labial:fricative:−voice				
+x̠ʷ	retracted labialized voiceless velar fricative consonant	+		x̠ʷ		\textsubbar{x}\super w	velar, labial:fricative:−voice				
+ɣ̟ʷ	advanced labialized voiced velar fricative consonant	+		ɣ̟ʷ		\begin{IPA}\|+G̟\end{IPA}\super w	velar, labial:fricative:+voice				
+ɣ̠ʷ	retracted labialized voiced velar fricative consonant	+		ɣ̠ʷ		\textsubbar{\textipa{G}}\super w	velar, labial:fricative:+voice				
+g̟ɣ̟ʷ	from advanced voiced velar stop to advanced labialized voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʷ		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super w	velar, labial:affricate:+voice				
 gɣʷ	labialized voiced velar affricate consonant	+		ɡ͡ɣʷ		\t{ɡ͡\textipa{G}}\super w	velar, labial:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠ʷ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super w	velar, labial:affricate:+voice				
-<NA>	<NA>			k̟͡x̟ʷ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super w	velar, labial:affricate:−voice				
+g̠ɣ̠ʷ	from retracted voiced velar stop to retracted labialized voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʷ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super w	velar, labial:affricate:+voice				
+k̟x̟ʷ	from advanced voiceless velar stop to advanced labialized voiceless velar fricative cluster	+		k̟͡x̟ʷ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super w	velar, labial:affricate:−voice				
 kxʷ	labialized voiceless velar affricate consonant	+		k͡xʷ		\t{kx}\super w	velar, labial:affricate:−voice				
-<NA>	<NA>			k̠͡x̠ʷ		\t{\textsubbar{k}\textsubbar{x}}\super w	velar, labial:affricate:−voice				
-<NA>	<NA>			ŋ̟ʷ		\begin{IPA}\|+N̟\end{IPA}\super w	velar, labial:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠ʷ		\textipa{\=*N}\super w	velar, labial:nasal:+voice +nasal				
+k̠x̠ʷ	from retracted voiceless velar stop to retracted labialized voiceless velar fricative cluster	+		k̠͡x̠ʷ		\t{\textsubbar{k}\textsubbar{x}}\super w	velar, labial:affricate:−voice				
+ŋ̟ʷ	advanced labialized voiced velar nasal consonant	+		ŋ̟ʷ		\begin{IPA}\|+N̟\end{IPA}\super w	velar, labial:nasal:+voice +nasal				
+ŋ̠ʷ	retracted labialized voiced velar nasal consonant	+		ŋ̠ʷ		\textipa{\=*N}\super w	velar, labial:nasal:+voice +nasal				
 ɢʁʷ	labialized voiced uvular affricate consonant	+		ɢ͡ʁʷ		\t{\textscg \textipa{K}}\super w	uvular, labial:affricate:+voice				
 qχʷ	labialized voiceless uvular affricate consonant	+		q͡χʷ		\t{q͡\textchi}\super w	uvular, labial:affricate:−voice				
 pɸʲ	palatalized voiceless bilabial affricate consonant	+		p͡ɸʲ		\t{p͡\textipa{F}}\super j	labial, palatal:affricate:−voice				
@@ -973,7 +973,7 @@ tθʲ	palatalized voiceless dental affricate consonant	+		t̪͡θʲ		\t{\textsub
 ts̪ʲ	palatalized voiceless dental sibilant affricate consonant			t̪͡s̪ʲ		\t{\textsubbridge{t}\textsubbridge{s}}\super j	dental, palatal:affricate:−voice				
 dz̪ʲ	palatalized voiced dental sibilant affricate consonant	+		d̪͡z̪ʲ		\t{\textsubbridge{d}\textsubbridge{z}}\super j	dental, palatal:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪ʲ		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}\super j	dental, palatal:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠ʲ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super j	dental, palatal:affricate:+voice +lateral				
+d̠ɮ̠ʲ	from voiced post-alveolar stop to retracted palatalized voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʲ		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super j	dental, palatal:affricate:+voice +lateral				
 tɬ̪ʲ	palatalized voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ʲ		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super j	dental, palatal:affricate:+voice +lateral				
 dzʲ	palatalized voiced alveolar sibilant affricate consonant	+		d͡zʲ		\t{dz}\super j	dental, palatal:affricate:+voice				
 <NA>	<NA>			d͡z͎ʲ		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}\super j	dental, palatal:affricate:+voice				
@@ -993,37 +993,37 @@ tsʲ	palatalized voiceless alveolar sibilant affricate consonant			t͡sʲ		\t{ts
 dɮʲ	palatalized voiced alveolar lateral affricate consonant	+		d͡ɮʲ		\t{d͡\textlyoghlig}\super j	alveolar, palatal:affricate:+voice +lateral				
 tɬʲ	palatalized voiceless alveolar lateral affricate consonant	+		t͡ɬʲ		\t{t͡\textbeltl}\super j	alveolar, palatal:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲ʲ		\t{t͡\textsubbar{\textbeltl}}\super j	alveolar, palatal:affricate:+voice +lateral				
-<NA>	<NA>			ɬ̠ʲ		\textsubbar{\textbeltl}\super j	alveolar, palatal:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠ʲ		\textsubbar{\textlyoghlig}\super j	alveolar, palatal:fricative:+voice +lateral				
-<NA>	<NA>			r̠ʲ		\textsubbar{r}\super j	alveolar, palatal:liquid:+voice −lateral				
-<NA>	<NA>			ɺ̠ʲ		\textsubbar{\textturnlonglegr}\super j	alveolar, palatal:liquid:+voice +lateral				
+ɬ̠ʲ	retracted palatalized voiceless alveolar lateral fricative consonant	+		ɬ̠ʲ		\textsubbar{\textbeltl}\super j	alveolar, palatal:fricative:+voice +lateral				
+ɮ̠ʲ	retracted palatalized voiced alveolar lateral fricative consonant	+		ɮ̠ʲ		\textsubbar{\textlyoghlig}\super j	alveolar, palatal:fricative:+voice +lateral				
+r̠ʲ	retracted palatalized voiced alveolar trill consonant	+		r̠ʲ		\textsubbar{r}\super j	alveolar, palatal:liquid:+voice −lateral				
+ɺ̠ʲ	retracted palatalized voiced alveolar lateral tap consonant	+		ɺ̠ʲ		\textsubbar{\textturnlonglegr}\super j	alveolar, palatal:liquid:+voice +lateral				
 <NA>	<NA>			ɾ̪ʲ		\textsubbridge{\textfishhookr}\super j	alveolar, palatal:liquid:+voice −lateral				
-<NA>	<NA>			ɾ̠ʲ		\textsubbar{\textfishhookr}\super j	alveolar, palatal:liquid:+voice −lateral				
+ɾ̠ʲ	retracted palatalized voiced alveolar tap consonant	+		ɾ̠ʲ		\textsubbar{\textfishhookr}\super j	alveolar, palatal:liquid:+voice −lateral				
 ɹ̠ʲ	palatalized voiced post-alveolar approximant consonant	+		ɹ̠ʲ		\textsubbar{\textturnr}\super j	alveolar, palatal:liquid:+voice −lateral				
 l̠ʲ	palatalized voiced post-alveolar lateral approximant consonant			l̠ʲ		\textsubbar{l}\super j	alveolar, palatal:liquid:+voice +lateral				
-<NA>	<NA>			n̠ʲ		\textipa{\=*n}\super j	alveolar, palatal:nasal:+voice +nasal				
+n̠ʲ	retracted palatalized voiced alveolar nasal consonant	+		n̠ʲ		\textipa{\=*n}\super j	alveolar, palatal:nasal:+voice +nasal				
 tʃʲ	palatalized voiceless post-alveolar sibilant affricate consonant			t͡ʃʲ		\t{t͡\textipa{S}}\super j	palatoalveolar, palatal:affricate:−voice				
 dʒʲ	palatalized voiced post-alveolar sibilant affricate consonant			d͡ʒʲ		\t{d͡\textyogh}\super j	palatoalveolar, palatal:affricate:+voice				
 ʈʂʲ	palatalized voiceless retroflex sibilant affricate consonant	+		ʈ͡ʂʲ		\t{\textrtailt \textrtails}\super j	retroflex, palatal:affricate:−voice				
 ɖʐʲ	palatalized voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʲ		\t{ɖ͡\textrtailz}\super j	retroflex, palatal:affricate:+voice				
 cçʲ	palatalized voiceless palatal affricate consonant	+		c͡çʲ		\t{c\c{c}}\super j	palatal:affricate:−voice				
 ɟʝʲ	palatalized voiced palatal affricate consonant	+		ɟ͡ʝʲ		\t{ɟ͡\textctj}\super j	palatal:affricate:+voice				
-<NA>	<NA>			k̟ʲ		\begin{IPA}\|+k̟\end{IPA}\super j	velar, palatal:plosive:−voice				
-<NA>	<NA>			k̠ʲ		\textsubbar{k}\super j	velar, palatal:plosive:−voice				
-<NA>	<NA>			x̟ʲ		\begin{IPA}\|+x̟\end{IPA}\super j	velar, palatal:fricative:−voice				
-<NA>	<NA>			x̠ʲ		\textsubbar{x}\super j	velar, palatal:fricative:−voice				
-<NA>	<NA>			ɣ̟ʲ		\begin{IPA}\|+G̟\end{IPA}\super j	velar, palatal:fricative:+voice				
-<NA>	<NA>			ɣ̠ʲ		\textsubbar{\textipa{G}}\super j	velar, palatal:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟ʲ		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super j	velar, palatal:affricate:+voice				
+k̟ʲ	advanced palatalized voiceless velar stop consonant	+		k̟ʲ		\begin{IPA}\|+k̟\end{IPA}\super j	velar, palatal:plosive:−voice				
+k̠ʲ	retracted palatalized voiceless velar stop consonant	+		k̠ʲ		\textsubbar{k}\super j	velar, palatal:plosive:−voice				
+x̟ʲ	advanced palatalized voiceless velar fricative consonant	+		x̟ʲ		\begin{IPA}\|+x̟\end{IPA}\super j	velar, palatal:fricative:−voice				
+x̠ʲ	retracted palatalized voiceless velar fricative consonant	+		x̠ʲ		\textsubbar{x}\super j	velar, palatal:fricative:−voice				
+ɣ̟ʲ	advanced palatalized voiced velar fricative consonant	+		ɣ̟ʲ		\begin{IPA}\|+G̟\end{IPA}\super j	velar, palatal:fricative:+voice				
+ɣ̠ʲ	retracted palatalized voiced velar fricative consonant	+		ɣ̠ʲ		\textsubbar{\textipa{G}}\super j	velar, palatal:fricative:+voice				
+g̟ɣ̟ʲ	from advanced voiced velar stop to advanced palatalized voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʲ		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super j	velar, palatal:affricate:+voice				
 gɣʲ	palatalized voiced velar affricate consonant	+		ɡ͡ɣʲ		\t{ɡ͡\textipa{G}}\super j	velar, palatal:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠ʲ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super j	velar, palatal:affricate:+voice				
-<NA>	<NA>			k̟͡x̟ʲ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super j	velar, palatal:affricate:−voice				
+g̠ɣ̠ʲ	from retracted voiced velar stop to retracted palatalized voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʲ		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super j	velar, palatal:affricate:+voice				
+k̟x̟ʲ	from advanced voiceless velar stop to advanced palatalized voiceless velar fricative cluster	+		k̟͡x̟ʲ		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super j	velar, palatal:affricate:−voice				
 kxʲ	palatalized voiceless velar affricate consonant	+		k͡xʲ		\t{kx}\super j	velar, palatal:affricate:−voice				
-<NA>	<NA>			k̠͡x̠ʲ		\t{\textsubbar{k}\textsubbar{x}}\super j	velar, palatal:affricate:−voice				
-<NA>	<NA>			ʟ̠ʲ		\textsubbar{\textscl}\super j	velar, palatal:liquid:+voice +lateral				
-<NA>	<NA>			ʟ̟ʲ		\begin{IPA}\|+\;L\end{ipa}\super j	velar, palatal:liquid:+voice +lateral				
-<NA>	<NA>			ŋ̟ʲ		\begin{IPA}\|+N̟\end{IPA}\super j	velar, palatal:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠ʲ		\textipa{\=*N}\super j	velar, palatal:nasal:+voice +nasal				
+k̠x̠ʲ	from retracted voiceless velar stop to retracted palatalized voiceless velar fricative cluster	+		k̠͡x̠ʲ		\t{\textsubbar{k}\textsubbar{x}}\super j	velar, palatal:affricate:−voice				
+ʟ̠ʲ	retracted palatalized voiced velar lateral approximant consonant	+		ʟ̠ʲ		\textsubbar{\textscl}\super j	velar, palatal:liquid:+voice +lateral				
+ʟ̟ʲ	advanced palatalized voiced velar lateral approximant consonant	+		ʟ̟ʲ		\begin{IPA}\|+\;L\end{ipa}\super j	velar, palatal:liquid:+voice +lateral				
+ŋ̟ʲ	advanced palatalized voiced velar nasal consonant	+		ŋ̟ʲ		\begin{IPA}\|+N̟\end{IPA}\super j	velar, palatal:nasal:+voice +nasal				
+ŋ̠ʲ	retracted palatalized voiced velar nasal consonant	+		ŋ̠ʲ		\textipa{\=*N}\super j	velar, palatal:nasal:+voice +nasal				
 ɢʁʲ	palatalized voiced uvular affricate consonant	+		ɢ͡ʁʲ		\t{\textscg \textipa{K}}\super j	uvular, palatal:affricate:+voice				
 qχʲ	palatalized voiceless uvular affricate consonant	+		q͡χʲ		\t{q͡\textchi}\super j	uvular, palatal:affricate:−voice				
 aː	long unrounded open front vowel			aː		a\textlengthmark	empty:vowel:−high +low +back −round +voice −nasal −spread glottis −constricted glottis				
@@ -1079,7 +1079,7 @@ tθː	long voiceless dental affricate consonant	+		t̪͡θː		\t{\textsubbridge{
 ts̪ː	long voiceless dental sibilant affricate consonant			t̪͡s̪ː		\t{\textsubbridge{t}\textsubbridge{s}}\textlengthmark	dental:affricate:−voice				
 dz̪ː	long voiced dental sibilant affricate consonant			d̪͡z̪ː		\t{\textsubbridge{d}\textsubbridge{z}}\textlengthmark	dental:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪ː		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}\textlengthmark	dental:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠ː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\textlengthmark	dental:affricate:+voice +lateral				
+d̠ɮ̠ː	from voiced post-alveolar stop to retracted long voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\textlengthmark	dental:affricate:+voice +lateral				
 tɬ̪ː	long voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ː		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\textlengthmark	dental:affricate:+voice +lateral				
 dzː	long voiced alveolar sibilant affricate consonant			d͡zː		\t{dz}\textlengthmark	dental:affricate:+voice				
 <NA>	<NA>			d͡z͎ː		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}\textlengthmark	dental:affricate:+voice				
@@ -1100,11 +1100,11 @@ dɮː	long voiced alveolar lateral affricate consonant	+		d͡ɮː		\t{d͡\textly
 tɬː	long voiceless alveolar lateral affricate consonant	+		t͡ɬː		\t{t͡\textbeltl}\textlengthmark	alveolar:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲ː		\t{t͡\textsubbar{\textbeltl}}\textlengthmark	alveolar:affricate:+voice +lateral				
 ɬː	long voiceless alveolar lateral fricative consonant	+		ɬː		\textbeltl\textlengthmark	alveolar:fricative:+voice +lateral				
-<NA>	<NA>			ɬ̠ː		\textsubbar{\textbeltl}\textlengthmark	alveolar:fricative:+voice +lateral				
+ɬ̠ː	retracted long voiceless alveolar lateral fricative consonant	+		ɬ̠ː		\textsubbar{\textbeltl}\textlengthmark	alveolar:fricative:+voice +lateral				
 ɮː	long voiced alveolar lateral fricative consonant	+		ɮː		\textlyoghlig\textlengthmark	alveolar:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠ː		\textsubbar{\textlyoghlig}\textlengthmark	alveolar:fricative:+voice +lateral				
+ɮ̠ː	retracted long voiced alveolar lateral fricative consonant	+		ɮ̠ː		\textsubbar{\textlyoghlig}\textlengthmark	alveolar:fricative:+voice +lateral				
 nː	long voiced alveolar nasal consonant			nː		n\textlengthmark	alveolar:nasal:+voice +nasal				
-<NA>	<NA>			n̠ː		\textipa{\=*n}\textlengthmark	alveolar:nasal:+voice +nasal				
+n̠ː	retracted long voiced alveolar nasal consonant	+		n̠ː		\textipa{\=*n}\textlengthmark	alveolar:nasal:+voice +nasal				
 ʃː	long voiceless post-alveolar sibilant fricative consonant	+		ʃː		\textipa{S}\textlengthmark	palatoalveolar:fricative:−voice				
 ʒː	long voiced post-alveolar sibilant fricative consonant	+		ʒː		\textyogh\textlengthmark	palatoalveolar:fricative:+voice				
 tʃː	long voiceless post-alveolar sibilant affricate consonant			t͡ʃː		\t{t͡\textipa{S}}\textlengthmark	palatoalveolar:affricate:−voice				
@@ -1123,26 +1123,26 @@ cçː	long voiceless palatal affricate consonant	+		c͡çː		\t{c\c{c}}\textlen
 çː	long voiceless palatal sibilant fricative consonant	+		çː		\c{c}\textlengthmark	palatal:fricative:−voice				
 ʝː	long voiced palatal fricative consonant	+		ʝː		\textctj\textlengthmark	palatal:fricative:+voice				
 ɲː	long voiced palatal nasal consonant			ɲː		\textltailn\textlengthmark	palatal:nasal:+voice +nasal				
-<NA>	<NA>			k̟ː		\begin{IPA}\|+k̟\end{IPA}\textlengthmark	velar:plosive:−voice				
+k̟ː	advanced long voiceless velar stop consonant	+		k̟ː		\begin{IPA}\|+k̟\end{IPA}\textlengthmark	velar:plosive:−voice				
 kː	long voiceless velar stop consonant			kː		k\textlengthmark	velar:plosive:−voice				
-<NA>	<NA>			k̠ː		\textsubbar{k}\textlengthmark	velar:plosive:−voice				
+k̠ː	retracted long voiceless velar stop consonant	+		k̠ː		\textsubbar{k}\textlengthmark	velar:plosive:−voice				
 gː	long voiced velar stop consonant			ɡː		ɡ\textlengthmark	velar:plosive:+voice				
 ɠː	long voiced velar implosive consonant	+		ɠː		\texthtg\textlengthmark	velar:plosive:+voice				
-<NA>	<NA>			x̟ː		\begin{IPA}\|+x̟\end{IPA}\textlengthmark	velar:fricative:−voice				
+x̟ː	advanced long voiceless velar fricative consonant	+		x̟ː		\begin{IPA}\|+x̟\end{IPA}\textlengthmark	velar:fricative:−voice				
 xː	long voiceless velar fricative consonant	+		xː		x\textlengthmark	velar:fricative:−voice				
-<NA>	<NA>			x̠ː		\textsubbar{x}\textlengthmark	velar:fricative:−voice				
-<NA>	<NA>			ɣ̟ː		\begin{IPA}\|+G̟\end{IPA}\textlengthmark	velar:fricative:+voice				
+x̠ː	retracted long voiceless velar fricative consonant	+		x̠ː		\textsubbar{x}\textlengthmark	velar:fricative:−voice				
+ɣ̟ː	advanced long voiced velar fricative consonant	+		ɣ̟ː		\begin{IPA}\|+G̟\end{IPA}\textlengthmark	velar:fricative:+voice				
 ɣː	long voiced velar fricative consonant	+		ɣː		\textipa{G}\textlengthmark	velar:fricative:+voice				
-<NA>	<NA>			ɣ̠ː		\textsubbar{\textipa{G}}\textlengthmark	velar:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟ː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \textlengthmark	velar:affricate:+voice				
+ɣ̠ː	retracted long voiced velar fricative consonant	+		ɣ̠ː		\textsubbar{\textipa{G}}\textlengthmark	velar:fricative:+voice				
+g̟ɣ̟ː	from advanced voiced velar stop to advanced long voiced velar fricative cluster	+		ɡ̟͡ɣ̟ː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \textlengthmark	velar:affricate:+voice				
 gɣː	long voiced velar affricate consonant	+		ɡ͡ɣː		\t{ɡ͡\textipa{G}}\textlengthmark	velar:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠ː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\textlengthmark	velar:affricate:+voice				
-<NA>	<NA>			k̟͡x̟ː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\textlengthmark	velar:affricate:−voice				
+g̠ɣ̠ː	from retracted voiced velar stop to retracted long voiced velar fricative cluster	+		ɡ̠͡ɣ̠ː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\textlengthmark	velar:affricate:+voice				
+k̟x̟ː	from advanced voiceless velar stop to advanced long voiceless velar fricative cluster	+		k̟͡x̟ː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\textlengthmark	velar:affricate:−voice				
 kxː	long voiceless velar affricate consonant	+		k͡xː		\t{kx}\textlengthmark	velar:affricate:−voice				
-<NA>	<NA>			k̠͡x̠ː		\t{\textsubbar{k}\textsubbar{x}}\textlengthmark	velar:affricate:−voice				
+k̠x̠ː	from retracted voiceless velar stop to retracted long voiceless velar fricative cluster	+		k̠͡x̠ː		\t{\textsubbar{k}\textsubbar{x}}\textlengthmark	velar:affricate:−voice				
 ŋː	long voiced velar nasal consonant			ŋː		\textipa{N}\textlengthmark	velar:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̟ː		\begin{IPA}\|+N̟\end{IPA}\textlengthmark	velar:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠ː		\textipa{\=*N}\textlengthmark	velar:nasal:+voice +nasal				
+ŋ̟ː	advanced long voiced velar nasal consonant	+		ŋ̟ː		\begin{IPA}\|+N̟\end{IPA}\textlengthmark	velar:nasal:+voice +nasal				
+ŋ̠ː	retracted long voiced velar nasal consonant	+		ŋ̠ː		\textipa{\=*N}\textlengthmark	velar:nasal:+voice +nasal				
 qː	long voiceless uvular stop consonant	+		qː		q\textlengthmark	uvular:plosive:−voice				
 ɢː	long voiced uvular stop consonant	+		ɢː		\textscg\textlengthmark	uvular:plosive:+voice				
 ʛː	long voiced uvular implosive consonant	+		ʛː		\texthtscg\textlengthmark	uvular:plosive:+voice				
@@ -1800,7 +1800,7 @@ tθʰː	aspirated long voiceless dental affricate consonant	+		t̪͡θʰː		\t{\
 tθʰː	aspirated long voiceless dental affricate consonant	+		t̪͡s̪ʰː		\t{\textsubbridge{t}\textsubbridge{s}} extsuperscript{h}\textlengthmark	dental:affricate:−voice +spread glottis				
 dz̪ʰː	aspirated long voiced dental sibilant affricate consonant	+		d̪͡z̪ʰː		\t{\textsubbridge{d}\textsubbridge{z}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +spread glottis				
 <NA>	<NA>			d̪͡ɮ̪ʰː		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +lateral +spread glottis				
-<NA>	<NA>			d̠͡ɮ̠ʰː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +lateral +spread glottis				
+d̠ɮ̠ʰː	from voiced post-alveolar stop to retracted aspirated long voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʰː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +lateral +spread glottis				
 tɬ̪ʰː	aspirated long voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ʰː		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +lateral +spread glottis				
 dzʰː	aspirated long voiced alveolar sibilant affricate consonant	+		d͡zʰː		\t{dz} extsuperscript{h}\textlengthmark	dental:affricate:+voice +spread glottis				
 <NA>	<NA>			d͡z͎ʰː		\t{d͡\begin{IPA}\whistle{z}\end{IPA}} extsuperscript{h}\textlengthmark	dental:affricate:+voice +spread glottis				
@@ -1812,23 +1812,23 @@ tsʰː	aspirated long voiceless alveolar sibilant affricate consonant	+		t͡sʰ�
 dɮʰː	aspirated long voiced alveolar lateral affricate consonant	+		d͡ɮʰː		\t{d͡\textlyoghlig} extsuperscript{h}\textlengthmark	alveolar:affricate:+voice +lateral +spread glottis				
 tɬʰː	aspirated long voiceless alveolar lateral affricate consonant	+		t͡ɬʰː		\t{t͡\textbeltl} extsuperscript{h}\textlengthmark	alveolar:affricate:+voice +lateral +spread glottis				
 <NA>	<NA>			t͡ɬ̲ʰː		\t{t͡\textsubbar{\textbeltl}} extsuperscript{h}\textlengthmark	alveolar:affricate:+voice +lateral +spread glottis				
-<NA>	<NA>			n̠ʰː		\textipa{\=*n} extsuperscript{h}\textlengthmark	alveolar:nasal:+voice +nasal +spread glottis				
+n̠ʰː	retracted aspirated long voiced alveolar nasal consonant	+		n̠ʰː		\textipa{\=*n} extsuperscript{h}\textlengthmark	alveolar:nasal:+voice +nasal +spread glottis				
 tʃʰː	aspirated long voiceless post-alveolar sibilant affricate consonant	+		t͡ʃʰː		\t{t͡\textipa{S}} extsuperscript{h}\textlengthmark	palatoalveolar:affricate:−voice +spread glottis				
 dʒʰː	aspirated long voiced post-alveolar sibilant affricate consonant	+		d͡ʒʰː		\t{d͡\textyogh} extsuperscript{h}\textlengthmark	palatoalveolar:affricate:+voice +spread glottis				
 ʈʂʰː	aspirated long voiceless retroflex sibilant affricate consonant	+		ʈ͡ʂʰː		\t{\textrtailt \textrtails} extsuperscript{h}\textlengthmark	retroflex:affricate:−voice +spread glottis				
 ɖʐʰː	aspirated long voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʰː		\t{ɖ͡\textrtailz} extsuperscript{h}\textlengthmark	retroflex:affricate:+voice +spread glottis				
 cçʰː	aspirated long voiceless palatal affricate consonant	+		c͡çʰː		\t{c\c{c}} extsuperscript{h}\textlengthmark	palatal:affricate:−voice +spread glottis				
 ɟʝʰː	aspirated long voiced palatal affricate consonant	+		ɟ͡ʝʰː		\t{ɟ͡\textctj} extsuperscript{h}\textlengthmark	palatal:affricate:+voice +spread glottis				
-<NA>	<NA>			k̟ʰː		\begin{IPA}\|+k̟\end{IPA} extsuperscript{h}\textlengthmark	velar:plosive:−voice +spread glottis				
-<NA>	<NA>			k̠ʰː		\textsubbar{k} extsuperscript{h}\textlengthmark	velar:plosive:−voice +spread glottis				
-<NA>	<NA>			ɡ̟͡ɣ̟ʰː		\begin{IPA} \t{\|+g \|+G} \end{IPA} extsuperscript{h}\textlengthmark	velar:affricate:+voice +spread glottis				
+k̟ʰː	advanced aspirated long voiceless velar stop consonant	+		k̟ʰː		\begin{IPA}\|+k̟\end{IPA} extsuperscript{h}\textlengthmark	velar:plosive:−voice +spread glottis				
+k̠ʰː	retracted aspirated long voiceless velar stop consonant	+		k̠ʰː		\textsubbar{k} extsuperscript{h}\textlengthmark	velar:plosive:−voice +spread glottis				
+g̟ɣ̟ʰː	from advanced voiced velar stop to advanced aspirated long voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʰː		\begin{IPA} \t{\|+g \|+G} \end{IPA} extsuperscript{h}\textlengthmark	velar:affricate:+voice +spread glottis				
 gɣʰː	aspirated long voiced velar affricate consonant	+		ɡ͡ɣʰː		\t{ɡ͡\textipa{G}} extsuperscript{h}\textlengthmark	velar:affricate:+voice +spread glottis				
-<NA>	<NA>			ɡ̠͡ɣ̠ʰː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}} extsuperscript{h}\textlengthmark	velar:affricate:+voice +spread glottis				
-<NA>	<NA>			k̟͡x̟ʰː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}} extsuperscript{h}\textlengthmark	velar:affricate:−voice +spread glottis				
+g̠ɣ̠ʰː	from retracted voiced velar stop to retracted aspirated long voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʰː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}} extsuperscript{h}\textlengthmark	velar:affricate:+voice +spread glottis				
+k̟x̟ʰː	from advanced voiceless velar stop to advanced aspirated long voiceless velar fricative cluster	+		k̟͡x̟ʰː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}} extsuperscript{h}\textlengthmark	velar:affricate:−voice +spread glottis				
 kxʰː	aspirated long voiceless velar affricate consonant	+		k͡xʰː		\t{kx} extsuperscript{h}\textlengthmark	velar:affricate:−voice +spread glottis				
-<NA>	<NA>			k̠͡x̠ʰː		\t{\textsubbar{k}\textsubbar{x}} extsuperscript{h}\textlengthmark	velar:affricate:−voice +spread glottis				
-<NA>	<NA>			ŋ̟ʰː		\begin{IPA}\|+N̟\end{IPA} extsuperscript{h}\textlengthmark	velar:nasal:+voice +nasal +spread glottis				
-<NA>	<NA>			ŋ̠ʰː		\textipa{\=*N} extsuperscript{h}\textlengthmark	velar:nasal:+voice +nasal +spread glottis				
+k̠x̠ʰː	from retracted voiceless velar stop to retracted aspirated long voiceless velar fricative cluster	+		k̠͡x̠ʰː		\t{\textsubbar{k}\textsubbar{x}} extsuperscript{h}\textlengthmark	velar:affricate:−voice +spread glottis				
+ŋ̟ʰː	advanced aspirated long voiced velar nasal consonant	+		ŋ̟ʰː		\begin{IPA}\|+N̟\end{IPA} extsuperscript{h}\textlengthmark	velar:nasal:+voice +nasal +spread glottis				
+ŋ̠ʰː	retracted aspirated long voiced velar nasal consonant	+		ŋ̠ʰː		\textipa{\=*N} extsuperscript{h}\textlengthmark	velar:nasal:+voice +nasal +spread glottis				
 ɢʁʰː	aspirated long voiced uvular affricate consonant	+		ɢ͡ʁʰː		\t{\textscg \textipa{K}} extsuperscript{h}\textlengthmark	uvular:affricate:+voice +spread glottis				
 qχʰː	aspirated long voiceless uvular affricate consonant	+		q͡χʰː		\t{q͡\textchi} extsuperscript{h}\textlengthmark	uvular:affricate:−voice +spread glottis				
 pɸʷː	labialized long voiceless bilabial affricate consonant	+		p͡ɸʷː		\t{p͡\textipa{F}}\super w\textlengthmark	labial:affricate:−voice				
@@ -1842,7 +1842,7 @@ tθʷː	labialized long voiceless dental affricate consonant	+		t̪͡θʷː		\t{
 ts̪ʷː	labialized long voiceless dental sibilant affricate consonant	+		t̪͡s̪ʷː		\t{\textsubbridge{t}\textsubbridge{s}}\super w\textlengthmark	dental, labial:affricate:−voice				
 dz̪ʷː	labialized long voiced dental sibilant affricate consonant	+		d̪͡z̪ʷː		\t{\textsubbridge{d}\textsubbridge{z}}\super w\textlengthmark	dental, labial:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪ʷː		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}\super w\textlengthmark	dental, labial:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠ʷː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super w\textlengthmark	dental, labial:affricate:+voice +lateral				
+d̠ɮ̠ʷː	from voiced post-alveolar stop to retracted labialized long voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʷː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super w\textlengthmark	dental, labial:affricate:+voice +lateral				
 tɬ̪ʷː	labialized long voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ʷː		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super w\textlengthmark	dental, labial:affricate:+voice +lateral				
 dzʷː	labialized long voiced alveolar sibilant affricate consonant	+		d͡zʷː		\t{dz}\super w\textlengthmark	dental, labial:affricate:+voice				
 <NA>	<NA>			d͡z͎ʷː		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}\super w\textlengthmark	dental, labial:affricate:+voice				
@@ -1858,29 +1858,29 @@ tsʷː	labialized long voiceless alveolar sibilant affricate consonant	+		t͡sʷ
 dɮʷː	labialized long voiced alveolar lateral affricate consonant	+		d͡ɮʷː		\t{d͡\textlyoghlig}\super w\textlengthmark	alveolar, labial:affricate:+voice +lateral				
 tɬʷː	labialized long voiceless alveolar lateral affricate consonant	+		t͡ɬʷː		\t{t͡\textbeltl}\super w\textlengthmark	alveolar, labial:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲ʷː		\t{t͡\textsubbar{\textbeltl}}\super w\textlengthmark	alveolar, labial:affricate:+voice +lateral				
-<NA>	<NA>			ɬ̠ʷː		\textsubbar{\textbeltl}\super w\textlengthmark	alveolar, labial:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠ʷː		\textsubbar{\textlyoghlig}\super w\textlengthmark	alveolar, labial:fricative:+voice +lateral				
-<NA>	<NA>			n̠ʷː		\textipa{\=*n}\super w\textlengthmark	alveolar, labial:nasal:+voice +nasal				
+ɬ̠ʷː	retracted labialized long voiceless alveolar lateral fricative consonant	+		ɬ̠ʷː		\textsubbar{\textbeltl}\super w\textlengthmark	alveolar, labial:fricative:+voice +lateral				
+ɮ̠ʷː	retracted labialized long voiced alveolar lateral fricative consonant	+		ɮ̠ʷː		\textsubbar{\textlyoghlig}\super w\textlengthmark	alveolar, labial:fricative:+voice +lateral				
+n̠ʷː	retracted labialized long voiced alveolar nasal consonant	+		n̠ʷː		\textipa{\=*n}\super w\textlengthmark	alveolar, labial:nasal:+voice +nasal				
 tʃʷː	labialized long voiceless post-alveolar sibilant affricate consonant	+		t͡ʃʷː		\t{t͡\textipa{S}}\super w\textlengthmark	palatoalveolar, labial:affricate:−voice				
 dʒʷː	labialized long voiced post-alveolar sibilant affricate consonant	+		d͡ʒʷː		\t{d͡\textyogh}\super w\textlengthmark	palatoalveolar, labial:affricate:+voice				
 ʈʂʷː	labialized long voiceless retroflex sibilant affricate consonant	+		ʈ͡ʂʷː		\t{\textrtailt \textrtails}\super w\textlengthmark	retroflex, labial:affricate:−voice				
 ɖʐʷː	labialized long voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʷː		\t{ɖ͡\textrtailz}\super w\textlengthmark	retroflex, labial:affricate:+voice				
 cçʷː	labialized long voiceless palatal affricate consonant	+		c͡çʷː		\t{c\c{c}}\super w\textlengthmark	palatal, labial:affricate:−voice				
 ɟʝʷː	labialized long voiced palatal affricate consonant	+		ɟ͡ʝʷː		\t{ɟ͡\textctj}\super w\textlengthmark	palatal, labial:affricate:+voice				
-<NA>	<NA>			k̟ʷː		\begin{IPA}\|+k̟\end{IPA}\super w\textlengthmark	velar, labial:plosive:−voice				
-<NA>	<NA>			k̠ʷː		\textsubbar{k}\super w\textlengthmark	velar, labial:plosive:−voice				
-<NA>	<NA>			x̟ʷː		\begin{IPA}\|+x̟\end{IPA}\super w\textlengthmark	velar, labial:fricative:−voice				
-<NA>	<NA>			x̠ʷː		\textsubbar{x}\super w\textlengthmark	velar, labial:fricative:−voice				
-<NA>	<NA>			ɣ̟ʷː		\begin{IPA}\|+G̟\end{IPA}\super w\textlengthmark	velar, labial:fricative:+voice				
-<NA>	<NA>			ɣ̠ʷː		\textsubbar{\textipa{G}}\super w\textlengthmark	velar, labial:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟ʷː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super w\textlengthmark	velar, labial:affricate:+voice				
+k̟ʷː	advanced labialized long voiceless velar stop consonant	+		k̟ʷː		\begin{IPA}\|+k̟\end{IPA}\super w\textlengthmark	velar, labial:plosive:−voice				
+k̠ʷː	retracted labialized long voiceless velar stop consonant	+		k̠ʷː		\textsubbar{k}\super w\textlengthmark	velar, labial:plosive:−voice				
+x̟ʷː	advanced labialized long voiceless velar fricative consonant	+		x̟ʷː		\begin{IPA}\|+x̟\end{IPA}\super w\textlengthmark	velar, labial:fricative:−voice				
+x̠ʷː	retracted labialized long voiceless velar fricative consonant	+		x̠ʷː		\textsubbar{x}\super w\textlengthmark	velar, labial:fricative:−voice				
+ɣ̟ʷː	advanced labialized long voiced velar fricative consonant	+		ɣ̟ʷː		\begin{IPA}\|+G̟\end{IPA}\super w\textlengthmark	velar, labial:fricative:+voice				
+ɣ̠ʷː	retracted labialized long voiced velar fricative consonant	+		ɣ̠ʷː		\textsubbar{\textipa{G}}\super w\textlengthmark	velar, labial:fricative:+voice				
+g̟ɣ̟ʷː	from advanced voiced velar stop to advanced labialized long voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʷː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super w\textlengthmark	velar, labial:affricate:+voice				
 gɣʷː	labialized long voiced velar affricate consonant	+		ɡ͡ɣʷː		\t{ɡ͡\textipa{G}}\super w\textlengthmark	velar, labial:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠ʷː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super w\textlengthmark	velar, labial:affricate:+voice				
-<NA>	<NA>			k̟͡x̟ʷː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super w\textlengthmark	velar, labial:affricate:−voice				
+g̠ɣ̠ʷː	from retracted voiced velar stop to retracted labialized long voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʷː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super w\textlengthmark	velar, labial:affricate:+voice				
+k̟x̟ʷː	from advanced voiceless velar stop to advanced labialized long voiceless velar fricative cluster	+		k̟͡x̟ʷː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super w\textlengthmark	velar, labial:affricate:−voice				
 kxʷː	labialized long voiceless velar affricate consonant	+		k͡xʷː		\t{kx}\super w\textlengthmark	velar, labial:affricate:−voice				
-<NA>	<NA>			k̠͡x̠ʷː		\t{\textsubbar{k}\textsubbar{x}}\super w\textlengthmark	velar, labial:affricate:−voice				
-<NA>	<NA>			ŋ̟ʷː		\begin{IPA}\|+N̟\end{IPA}\super w\textlengthmark	velar, labial:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠ʷː		\textipa{\=*N}\super w\textlengthmark	velar, labial:nasal:+voice +nasal				
+k̠x̠ʷː	from retracted voiceless velar stop to retracted labialized long voiceless velar fricative cluster	+		k̠͡x̠ʷː		\t{\textsubbar{k}\textsubbar{x}}\super w\textlengthmark	velar, labial:affricate:−voice				
+ŋ̟ʷː	advanced labialized long voiced velar nasal consonant	+		ŋ̟ʷː		\begin{IPA}\|+N̟\end{IPA}\super w\textlengthmark	velar, labial:nasal:+voice +nasal				
+ŋ̠ʷː	retracted labialized long voiced velar nasal consonant	+		ŋ̠ʷː		\textipa{\=*N}\super w\textlengthmark	velar, labial:nasal:+voice +nasal				
 ɢʁʷː	labialized long voiced uvular affricate consonant	+		ɢ͡ʁʷː		\t{\textscg \textipa{K}}\super w\textlengthmark	uvular, labial:affricate:+voice				
 qχʷː	labialized long voiceless uvular affricate consonant	+		q͡χʷː		\t{q͡\textchi}\super w\textlengthmark	uvular, labial:affricate:−voice				
 pɸʲː	palatalized long voiceless bilabial affricate consonant	+		p͡ɸʲː		\t{p͡\textipa{F}}\super j\textlengthmark	labial, palatal:affricate:−voice				
@@ -1894,7 +1894,7 @@ tθʲː	palatalized long voiceless dental affricate consonant	+		t̪͡θʲː		\t
 ts̪ʲː	palatalized long voiceless dental sibilant affricate consonant	+		t̪͡s̪ʲː		\t{\textsubbridge{t}\textsubbridge{s}}\super j\textlengthmark	dental, palatal:affricate:−voice				
 dz̪ʲː	palatalized long voiced dental sibilant affricate consonant	+		d̪͡z̪ʲː		\t{\textsubbridge{d}\textsubbridge{z}}\super j\textlengthmark	dental, palatal:affricate:+voice				
 <NA>	<NA>			d̪͡ɮ̪ʲː		\t{\textsubbridge{d}͡\textsubbridge{\textlyoghlig}}\super j\textlengthmark	dental, palatal:affricate:+voice +lateral				
-<NA>	<NA>			d̠͡ɮ̠ʲː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super j\textlengthmark	dental, palatal:affricate:+voice +lateral				
+d̠ɮ̠ʲː	from voiced post-alveolar stop to retracted palatalized long voiced alveolar lateral fricative cluster	+		d̠͡ɮ̠ʲː		\t{\textsubbar{d}͡\textsubbar{\textlyoghlig}}\super j\textlengthmark	dental, palatal:affricate:+voice +lateral				
 tɬ̪ʲː	palatalized long voiceless dental lateral affricate consonant	+		t̪͡ɬ̪ʲː		\t{\textsubbridge{t}͡\textsubbridge{\textbeltl}}\super j\textlengthmark	dental, palatal:affricate:+voice +lateral				
 dzʲː	palatalized long voiced alveolar sibilant affricate consonant	+		d͡zʲː		\t{dz}\super j\textlengthmark	dental, palatal:affricate:+voice				
 <NA>	<NA>			d͡z͎ʲː		\t{d͡\begin{IPA}\whistle{z}\end{IPA}}\super j\textlengthmark	dental, palatal:affricate:+voice				
@@ -1910,28 +1910,28 @@ tsʲː	palatalized long voiceless alveolar sibilant affricate consonant	+		t͡s�
 dɮʲː	palatalized long voiced alveolar lateral affricate consonant	+		d͡ɮʲː		\t{d͡\textlyoghlig}\super j\textlengthmark	alveolar, palatal:affricate:+voice +lateral				
 tɬʲː	palatalized long voiceless alveolar lateral affricate consonant	+		t͡ɬʲː		\t{t͡\textbeltl}\super j\textlengthmark	alveolar, palatal:affricate:+voice +lateral				
 <NA>	<NA>			t͡ɬ̲ʲː		\t{t͡\textsubbar{\textbeltl}}\super j\textlengthmark	alveolar, palatal:affricate:+voice +lateral				
-<NA>	<NA>			ɬ̠ʲː		\textsubbar{\textbeltl}\super j\textlengthmark	alveolar, palatal:fricative:+voice +lateral				
-<NA>	<NA>			ɮ̠ʲː		\textsubbar{\textlyoghlig}\super j\textlengthmark	alveolar, palatal:fricative:+voice +lateral				
-<NA>	<NA>			n̠ʲː		\textipa{\=*n}\super j\textlengthmark	alveolar, palatal:nasal:+voice +nasal				
+ɬ̠ʲː	retracted palatalized long voiceless alveolar lateral fricative consonant	+		ɬ̠ʲː		\textsubbar{\textbeltl}\super j\textlengthmark	alveolar, palatal:fricative:+voice +lateral				
+ɮ̠ʲː	retracted palatalized long voiced alveolar lateral fricative consonant	+		ɮ̠ʲː		\textsubbar{\textlyoghlig}\super j\textlengthmark	alveolar, palatal:fricative:+voice +lateral				
+n̠ʲː	retracted palatalized long voiced alveolar nasal consonant	+		n̠ʲː		\textipa{\=*n}\super j\textlengthmark	alveolar, palatal:nasal:+voice +nasal				
 tʃʲː	palatalized long voiceless post-alveolar sibilant affricate consonant	+		t͡ʃʲː		\t{t͡\textipa{S}}\super j\textlengthmark	palatoalveolar, palatal:affricate:−voice				
 dʒʲː	palatalized long voiced post-alveolar sibilant affricate consonant	+		d͡ʒʲː		\t{d͡\textyogh}\super j\textlengthmark	palatoalveolar, palatal:affricate:+voice				
 ʈʂʲː	palatalized long voiceless retroflex sibilant affricate consonant	+		ʈ͡ʂʲː		\t{\textrtailt \textrtails}\super j\textlengthmark	retroflex, palatal:affricate:−voice				
 ɖʐʲː	palatalized long voiced retroflex sibilant affricate consonant	+		ɖ͡ʐʲː		\t{ɖ͡\textrtailz}\super j\textlengthmark	retroflex, palatal:affricate:+voice				
 cçʲː	palatalized long voiceless palatal affricate consonant	+		c͡çʲː		\t{c\c{c}}\super j\textlengthmark	palatal:affricate:−voice				
 ɟʝʲː	palatalized long voiced palatal affricate consonant	+		ɟ͡ʝʲː		\t{ɟ͡\textctj}\super j\textlengthmark	palatal:affricate:+voice				
-<NA>	<NA>			k̟ʲː		\begin{IPA}\|+k̟\end{IPA}\super j\textlengthmark	velar, palatal:plosive:−voice				
-<NA>	<NA>			k̠ʲː		\textsubbar{k}\super j\textlengthmark	velar, palatal:plosive:−voice				
-<NA>	<NA>			x̟ʲː		\begin{IPA}\|+x̟\end{IPA}\super j\textlengthmark	velar, palatal:fricative:−voice				
-<NA>	<NA>			x̠ʲː		\textsubbar{x}\super j\textlengthmark	velar, palatal:fricative:−voice				
-<NA>	<NA>			ɣ̟ʲː		\begin{IPA}\|+G̟\end{IPA}\super j\textlengthmark	velar, palatal:fricative:+voice				
-<NA>	<NA>			ɣ̠ʲː		\textsubbar{\textipa{G}}\super j\textlengthmark	velar, palatal:fricative:+voice				
-<NA>	<NA>			ɡ̟͡ɣ̟ʲː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super j\textlengthmark	velar, palatal:affricate:+voice				
+k̟ʲː	advanced palatalized long voiceless velar stop consonant	+		k̟ʲː		\begin{IPA}\|+k̟\end{IPA}\super j\textlengthmark	velar, palatal:plosive:−voice				
+k̠ʲː	retracted palatalized long voiceless velar stop consonant	+		k̠ʲː		\textsubbar{k}\super j\textlengthmark	velar, palatal:plosive:−voice				
+x̟ʲː	advanced palatalized long voiceless velar fricative consonant	+		x̟ʲː		\begin{IPA}\|+x̟\end{IPA}\super j\textlengthmark	velar, palatal:fricative:−voice				
+x̠ʲː	retracted palatalized long voiceless velar fricative consonant	+		x̠ʲː		\textsubbar{x}\super j\textlengthmark	velar, palatal:fricative:−voice				
+ɣ̟ʲː	advanced palatalized long voiced velar fricative consonant	+		ɣ̟ʲː		\begin{IPA}\|+G̟\end{IPA}\super j\textlengthmark	velar, palatal:fricative:+voice				
+ɣ̠ʲː	retracted palatalized long voiced velar fricative consonant	+		ɣ̠ʲː		\textsubbar{\textipa{G}}\super j\textlengthmark	velar, palatal:fricative:+voice				
+g̟ɣ̟ʲː	from advanced voiced velar stop to advanced palatalized long voiced velar fricative cluster	+		ɡ̟͡ɣ̟ʲː		\begin{IPA} \t{\|+g \|+G} \end{IPA} \super j\textlengthmark	velar, palatal:affricate:+voice				
 gɣʲː	palatalized long voiced velar affricate consonant	+		ɡ͡ɣʲː		\t{ɡ͡\textipa{G}}\super j\textlengthmark	velar, palatal:affricate:+voice				
-<NA>	<NA>			ɡ̠͡ɣ̠ʲː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super j\textlengthmark	velar, palatal:affricate:+voice				
-<NA>	<NA>			k̟͡x̟ʲː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super j\textlengthmark	velar, palatal:affricate:−voice				
+g̠ɣ̠ʲː	from retracted voiced velar stop to retracted palatalized long voiced velar fricative cluster	+		ɡ̠͡ɣ̠ʲː		\t{\textsubbar{ɡ} \textsubbar{\textipa{G}}}\super j\textlengthmark	velar, palatal:affricate:+voice				
+k̟x̟ʲː	from advanced voiceless velar stop to advanced palatalized long voiceless velar fricative cluster	+		k̟͡x̟ʲː		\t{\begin{IPA}\|+k̟\|+x̟\end{IPA}}\super j\textlengthmark	velar, palatal:affricate:−voice				
 kxʲː	palatalized long voiceless velar affricate consonant	+		k͡xʲː		\t{kx}\super j\textlengthmark	velar, palatal:affricate:−voice				
-<NA>	<NA>			k̠͡x̠ʲː		\t{\textsubbar{k}\textsubbar{x}}\super j\textlengthmark	velar, palatal:affricate:−voice				
-<NA>	<NA>			ŋ̟ʲː		\begin{IPA}\|+N̟\end{IPA}\super j\textlengthmark	velar, palatal:nasal:+voice +nasal				
-<NA>	<NA>			ŋ̠ʲː		\textipa{\=*N}\super j\textlengthmark	velar, palatal:nasal:+voice +nasal				
+k̠x̠ʲː	from retracted voiceless velar stop to retracted palatalized long voiceless velar fricative cluster	+		k̠͡x̠ʲː		\t{\textsubbar{k}\textsubbar{x}}\super j\textlengthmark	velar, palatal:affricate:−voice				
+ŋ̟ʲː	advanced palatalized long voiced velar nasal consonant	+		ŋ̟ʲː		\begin{IPA}\|+N̟\end{IPA}\super j\textlengthmark	velar, palatal:nasal:+voice +nasal				
+ŋ̠ʲː	retracted palatalized long voiced velar nasal consonant	+		ŋ̠ʲː		\textipa{\=*N}\super j\textlengthmark	velar, palatal:nasal:+voice +nasal				
 ɢʁʲː	palatalized long voiced uvular affricate consonant	+		ɢ͡ʁʲː		\t{\textscg \textipa{K}}\super j\textlengthmark	uvular, palatal:affricate:+voice				
 qχʲː	palatalized long voiceless uvular affricate consonant	+		q͡χʲː		\t{q͡\textchi}\super j\textlengthmark 	uvular, palatal:affricate:−voice				

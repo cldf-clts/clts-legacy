@@ -426,8 +426,8 @@ çʷ	labialized voiceless palatal sibilant fricative consonant	+		çʷ	http://p
 <NA>	<NA>			ʃ̀	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%83%CC%80&inany=false&coreinv=on		conso:fricative:postalveolar:voiceless:tense				
 ⁿʃ	pre-nasalized voiceless post-alveolar sibilant fricative consonant	+		ʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%EF%86%80%CA%83&inany=false&coreinv=on		conso:fricative:postalveolar:voiceless:labial_prenasalized				
 <NA>	<NA>			ʒ͡ɣw	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%92%CD%A1%C9%A3w&inany=false&coreinv=on		conso:fricative:postalveolar_to_velar:voiced:labialized				
-<NA>	<NA>			n̞s̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9Es%CC%9E&inany=false&coreinv=on		conso:fricative:retracted_alveolar:voiceless:prenasalized				
-<NA>	<NA>			s̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s%CC%9E&inany=false&coreinv=on		conso:fricative:retracted_alveolar:voiceless:plain				
+n̞s̞	from lowered voiced alveolar nasal to lowered voiceless alveolar sibilant fricative cluster	+		n̞s̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9Es%CC%9E&inany=false&coreinv=on		conso:fricative:retracted_alveolar:voiceless:prenasalized				
+s̞	lowered voiceless alveolar sibilant fricative consonant	+		s̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=s%CC%9E&inany=false&coreinv=on		conso:fricative:retracted_alveolar:voiceless:plain				
 ʐ	voiced retroflex sibilant fricative consonant			ʐ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%90&inany=false&coreinv=on		conso:fricative:retroflex:voiced:plain				
 ʂ	voiceless retroflex sibilant fricative consonant			ʂ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%82&inany=false&coreinv=on		conso:fricative:retroflex:voiceless:plain				
 ʂʰ	aspirated voiceless retroflex sibilant fricative consonant	+		ʂʰ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%82%CA%B0&inany=false&coreinv=on		conso:fricative:retroflex:voiceless:aspirated				
@@ -480,8 +480,8 @@ xʲ	palatalized voiceless velar fricative consonant			xʲ	http://pbase.phon.chas
 ɠʲ	palatalized voiced velar implosive consonant	+		ɠʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%A0%CA%B2&inany=false&coreinv=on		conso:implosive:velar:voiced:palatalized				
 ɠ̥	devoiced voiced velar implosive consonant	+		ɠ̥	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%A0%CC%A5&inany=false&coreinv=on		conso:implosive:velar:voiceless:plain				
 ɗʒ	from voiced dental implosive to voiced post-alveolar sibilant fricative cluster	+		ɗʒ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%97%CA%92&inany=false&coreinv=on		conso:implosive_affricate:postalveolar:voiced:plain				
-<NA>	<NA>			l̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%9F&inany=false&coreinv=on		conso:lateral_approximant:advanced_lateral:voiced:plain				
-<NA>	<NA>			l̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%9F%CA%B2&inany=false&coreinv=on		conso:lateral_approximant:advanced_lateral:voiced:palatalized				
+l̟	advanced voiced alveolar lateral approximant consonant	+		l̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%9F&inany=false&coreinv=on		conso:lateral_approximant:advanced_lateral:voiced:plain				
+l̟ʲ	advanced palatalized voiced alveolar lateral approximant consonant	+		l̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%9F%CA%B2&inany=false&coreinv=on		conso:lateral_approximant:advanced_lateral:voiced:palatalized				
 l̪	voiced dental lateral approximant consonant			l̪	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%AA&inany=false&coreinv=on		conso:lateral_approximant:dental:voiced:plain				
 l̪ː	long voiced dental lateral approximant consonant			l̪ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%AA%CB%90&inany=false&coreinv=on		conso:lateral_approximant:dental:voiced_long:plain				
 l̪ˤ	pharyngealized voiced dental lateral approximant consonant	+		l̪ˤ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%AA%CB%A4&inany=false&coreinv=on		conso:lateral_approximant:dental:voiced:pharyngealized				
@@ -512,8 +512,8 @@ l̃	nasalized voiced alveolar lateral approximant consonant	+		l̃	http://pbase.
 <NA>	<NA>			l̪θ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=l%CC%AA%CE%B8&inany=false&coreinv=on		conso:lateral_approximant_to_fricative:dental:voiced_to_voiceless:plain				
 o̯	non-syllabic rounded close-mid back vowel			o̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=o%CC%AF&inany=false&coreinv=on		conso:mid_approximant:labiovelar:voiced:plain				
 e̯	non-syllabic unrounded close-mid front vowel			e̯	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=e%CC%AF&inany=false&coreinv=on		conso:mid_approximant:palatal:voiced:plain				
-<NA>	<NA>			n̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9F&inany=false&coreinv=on		conso:nasal:advanced_alveolar:voiced:plain				
-<NA>	<NA>			n̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9F%CA%B2&inany=false&coreinv=on		conso:nasal:advanced_alveolar:voiced:palatalized				
+n̟	advanced voiced alveolar nasal consonant	+		n̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9F&inany=false&coreinv=on		conso:nasal:advanced_alveolar:voiced:plain				
+n̟ʲ	advanced palatalized voiced alveolar nasal consonant	+		n̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9F%CA%B2&inany=false&coreinv=on		conso:nasal:advanced_alveolar:voiced:palatalized				
 <NA>	<NA>			ʔn	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%94n&inany=false&coreinv=on		conso:nasal:alveolar:voiced:preglottalized				
 n	voiced alveolar nasal consonant			n	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n&inany=false&coreinv=on		conso:nasal:alveolar:voiced:plain				
 n’	voiced alveolar ejective nasal consonant	+		n’	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%E2%80%99&inany=false&coreinv=on		conso:nasal:alveolar:voiced:glottalized				
@@ -568,7 +568,7 @@ n̻	voiced laminal alveolar nasal consonant			n̻	http://pbase.phon.chass.ncsu.e
 <NA>	<NA>			ɲ͡ŋw	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%B2%CD%A1%C5%8Bw&inany=false&coreinv=on		conso:nasal:palatal_to_velar:voiced:labialized				
 <NA>	<NA>			N?	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=N%3F&inany=false&coreinv=on		conso:nasal:placeless:voiced:plain				
 <NA>	<NA>			N̩	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=N%CC%A9&inany=false&coreinv=on		conso:nasal:placeless:voiced:syllabic				
-<NA>	<NA>			n̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9E&inany=false&coreinv=on		conso:nasal:retracted_alveolar:voiced:plain				
+n̞	lowered voiced alveolar nasal consonant	+		n̞	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=n%CC%9E&inany=false&coreinv=on		conso:nasal:retracted_alveolar:voiced:plain				
 ɳ	voiced retroflex nasal consonant			ɳ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%B3&inany=false&coreinv=on		conso:nasal:retroflex:voiced:plain				
 ɳʷ	labialized voiced retroflex nasal consonant	+		ɳʷ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%B3%CA%B7&inany=false&coreinv=on		conso:nasal:retroflex:voiced:labialized				
 ɴ	voiced uvular nasal consonant			ɴ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%B4&inany=false&coreinv=on		conso:nasal:uvular:voiced:plain				
@@ -781,8 +781,8 @@ bdʒ	from voiced bilabial stop to voiced post-alveolar sibilant affricate cluste
 btʃ	from voiced bilabial stop to voiceless post-alveolar sibilant affricate cluster	+		b͡tʃ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=b%CD%A1t%CA%83&inany=false&coreinv=on		conso:stop_to_affricate:bilabial_to_postalveolar:voiced_to_voiceless:plain				
 bɗ	from voiced bilabial stop to voiced dental implosive cluster	+		b͡ɗ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=b%CD%A1%C9%97&inany=false&coreinv=on		conso:stop_to_implosive:bilabial_to_alveolar:voiced:plain				
 gɓ	from voiced velar stop to voiced bilabial implosive cluster	+		ɡ͡ɓ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%C9%A1%CD%A1%C9%93&inany=false&coreinv=on		conso:stop_to_implosive:labiovelar:voiced:plain				
-<NA>	<NA>			r̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r%CC%9F&inany=false&coreinv=on		conso:trill:advanced_alveolar:voiced:plain				
-<NA>	<NA>			r̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r%CC%9F%CA%B2&inany=false&coreinv=on		conso:trill:advanced_alveolar:voiced:palatalized				
+r̟	advanced voiced alveolar trill consonant	+		r̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r%CC%9F&inany=false&coreinv=on		conso:trill:advanced_alveolar:voiced:plain				
+r̟ʲ	advanced palatalized voiced alveolar trill consonant	+		r̟ʲ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r%CC%9F%CA%B2&inany=false&coreinv=on		conso:trill:advanced_alveolar:voiced:palatalized				
 ⁿr	pre-nasalized voiced alveolar trill consonant	+		ⁿr	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%E2%81%BFr&inany=false&coreinv=on		conso:trill:alveolar:voiced:prenasalized				
 r	voiced alveolar trill consonant			r	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r&inany=false&coreinv=on		conso:trill:alveolar:voiced:plain				
 rː	long voiced alveolar trill consonant			rː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=r%CB%90&inany=false&coreinv=on		conso:trill:alveolar:voiced_long:plain				
@@ -805,7 +805,7 @@ r̪ʲ	palatalized voiced dental trill consonant	+		r̪ʲ	http://pbase.phon.chass
 <NA>	<NA>			je	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=je&inany=false&coreinv=on		vowel:glide_to_higher_mid:palatal_to_front_unrounded:plain:plain				
 <NA>	<NA>			jeː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=je%CB%90&inany=false&coreinv=on		vowel:glide_to_higher_mid:palatal_to_front_unrounded:plain:long				
 <NA>	<NA>			jẽ	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=j%E1%BA%BD&inany=false&coreinv=on		vowel:glide_to_higher_mid:palatal_to_front_unrounded:nasalized:plain				
-ʉ̟ː	long advanced rounded close central vowel	+		ʉ̟ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%89%CC%9F%CB%90&inany=false&coreinv=on		vowel:high:advanced_central_rounded:plain:long				
+ʉː̟	long advanced rounded close central vowel	+		ʉ̟ː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=%CA%89%CC%9F%CB%90&inany=false&coreinv=on		vowel:high:advanced_central_rounded:plain:long				
 i̟	advanced unrounded close front vowel	+		i̟	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=i%CC%9F&inany=false&coreinv=on		vowel:high:advanced_front_unrounded:plain:plain				
 u	rounded close back vowel			u	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u&inany=false&coreinv=on		vowel:high:back_rounded:plain:plain				
 uː	long rounded close back vowel			uː	http://pbase.phon.chass.ncsu.edu/visualize?lang=True&input=u%CB%90&inany=false&coreinv=on		vowel:high:back_rounded:plain:long				

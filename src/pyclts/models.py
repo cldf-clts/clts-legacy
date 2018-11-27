@@ -254,7 +254,7 @@ class Consonant(Sound):
         post=[
             'raising', 'relative_articulation',
             'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
-            'articulation', 
+            'articulation',
             'nasalization', 'palatalization', 'labialization',
             'breathiness', 'aspiration', 'glottalization', 'velarization',
             'pharyngealization', 'release', 'duration'])
