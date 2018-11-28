@@ -152,8 +152,8 @@ class TranscriptionSystem(TranscriptionBase):
                     # try to generate the sounds if they are not there
                     s1, s2 = self._from_name(from_ + ' ' + extension), self._from_name(
                         to_ + ' ' + extension)
-                    if not (isinstance(s1, UnknownSound) or  # noqa: F405
-                            isinstance(s2, UnknownSound)):  # noqa: F405
+                    if not (isinstance(
+                        s1, UnknownSound) or isinstance(s2, UnknownSound)):  # noqa: F405
                         if sound_class == 'diphthong':
                             return Diphthong.from_sounds(  # noqa: F405
                                 s1 + s2, s1, s2, self)

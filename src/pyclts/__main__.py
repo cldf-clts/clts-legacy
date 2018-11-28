@@ -92,8 +92,8 @@ def _make_package(args):  # pragma: no cover
         for grapheme, sound in sorted(bipa.sounds.items()):
             if not sound.alias:
                 writer.writerow(
-                    [sound.name, grapheme] +
-                    [token2class(grapheme, Model(cls)) for cls in SOUNDCLASS_SYSTEMS])
+                    [sound.name, grapheme] + [token2class(
+                        grapheme, Model(cls)) for cls in SOUNDCLASS_SYSTEMS])
                 count += 1
     args.log.info('SoundClasses: {0} written to file.'.format(count))
 
@@ -324,9 +324,10 @@ def dstats(args):
             sum(ln),
             len(ln),
             sum(ln) / len(ln)]]
-    table += [[len(table)-1, '', '', sum([line[-1] for line in table[1:]]) /
-        (len(table)-1)]]
+    table += [[len(table) - 1, '', '', sum(
+        [line[-1] for line in table[1:]]) / (len(table) - 1)]]
     print(tabulate.tabulate(table, headers='firstrow'))
+
 
 @command()
 def stats(args):

@@ -3,7 +3,7 @@ from __future__ import unicode_literals, print_function, division
 
 from clldutils.path import Path
 
-from pyclts.__main__ import sounds, dump, stats, table, _make_app_data, features
+from pyclts.__main__ import sounds, dump, dstats, stats, table, _make_app_data, features
 from pyclts.api import CLTS
 
 
@@ -11,6 +11,13 @@ def test_features(capsys, mocker):
     features(mocker.Mock(system='bipa'))
     out, err = capsys.readouterr()
     assert 'labialized' in out
+
+
+def test_stats(capsys, mocker, tmpdir):
+    dstats(mocker.Mock(system='bipa', repos=CLTS(str(tmpdir))))
+    out, err = capsys.readouterr()
+    assert 'id' in out
+    stats(mocker.Mock(system='bipa', repos=CLTS('.')))
 
 
 def test_sounds_cmd(capsys, mocker):

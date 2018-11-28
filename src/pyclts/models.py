@@ -25,7 +25,7 @@ EXCLUDE_FEATURES = [
     'laminal',
     'ejective',
     'with_falling_tone',
-    'with_extra_low_tone',
+    'with_extra-low_tone',
     'with_extra-high_tone',
     'with_falling_tone',
     'with_low_tone',
@@ -34,7 +34,7 @@ EXCLUDE_FEATURES = [
     'with_high_tone',
     'with_mid_tone',
     'with_rising_tone',
-    'with_upstep'        
+    'with_upstep'
 ]
 
 

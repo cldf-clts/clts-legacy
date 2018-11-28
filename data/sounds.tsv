@@ -944,8 +944,6 @@ unrounded close-mid front with_mid_tone vowel	vowel	ē	LATIN SMALL LETTER E / C
 unrounded close-mid front with_low_tone vowel	vowel	è	LATIN SMALL LETTER E / COMBINING GRAVE ACCENT	+	
 unrounded close-mid front with_high_tone vowel	vowel	é	LATIN SMALL LETTER E / COMBINING ACUTE ACCENT	+	
 unrounded close-mid front with_falling_tone vowel	vowel	ê	LATIN SMALL LETTER E / COMBINING CIRCUMFLEX ACCENT	+	
-unrounded close-mid front with_extra_low_tone vowel	vowel	ȅ	LATIN SMALL LETTER E / COMBINING DOUBLE GRAVE ACCENT	+	
-unrounded close-mid front with_extra-high_tone vowel	vowel	e̋	LATIN SMALL LETTER E / COMBINING DOUBLE ACUTE ACCENT	+	
 unrounded close-mid front vowel	vowel	e	LATIN SMALL LETTER E		
 unrounded close-mid central vowel	vowel	ɘ	LATIN SMALL LETTER REVERSED E		
 unrounded close-mid back vowel	vowel	ɤ	LATIN SMALL LETTER RAMS HORN		
