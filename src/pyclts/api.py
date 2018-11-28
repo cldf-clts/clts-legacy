@@ -25,7 +25,7 @@ class CLTS(API):
                     yield src, list(reader(graphemesp, dicts=True, delimiter='\t'))
 
     def iter_transcriptiondata(self):
-        for td in pkg_path('transcriptiondata').iterdir():
+        for td in sorted(pkg_path('transcriptiondata').iterdir(), key=lambda p: p.name):
             yield TranscriptionData(td.stem)
 
     def iter_soundclass(self):
@@ -34,7 +34,7 @@ class CLTS(API):
 
     def iter_transcriptionsystem(self, include_private=False, exclude=None):
         exclude = exclude or []
-        for ts in pkg_path('transcriptionsystems').iterdir():
+        for ts in sorted(pkg_path('transcriptionsystems').iterdir(), key=lambda p: p.name):
             if ts.is_dir():
                 if (not ts.name.startswith('_')) or include_private:
                     if ts.name not in exclude:
