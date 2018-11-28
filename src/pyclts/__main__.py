@@ -296,7 +296,7 @@ def dump(args, test=False):
 
     with UnicodeWriter(args.repos.data_path('graphemes.tsv'), delimiter='\t') as writer:
         writer.writerow([f.name for f in attr.fields(Grapheme)])
-        for row in data:
+        for row in sorted(data, key=lambda g: (g.DATASET, g.GRAPHEME, g.NAME)):
             writer.writerow(attr.astuple(row))
 
 
