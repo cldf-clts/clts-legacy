@@ -60,10 +60,10 @@ hwh	voiceless	glottal	fricative		aspiration:aspirated,labialization:labialized	h
 7h	voiceless	glottal	stop		aspiration:aspirated	ʔ
 7w	voiceless	glottal	stop		labialization:labialized	ʔ
 7wh	voiceless	glottal	stop		aspiration:aspirated,labialization:labialized	ʔ
-w	voiced	labialized-velar	approximant			w
-wh	voiced	labialized-velar	approximant		aspiration:aspirated	w
-ww	voiced	labialized-velar	approximant		labialization:labialized	w
-wwh	voiced	labialized-velar	approximant		aspiration:aspirated,labialization:labialized	w
+w	voiced	labio-velar	approximant			w
+wh	voiced	labio-velar	approximant		aspiration:aspirated	w
+ww	voiced	labio-velar	approximant		labialization:labialized	w
+wwh	voiced	labio-velar	approximant		aspiration:aspirated,labialization:labialized	w
 f	voiceless	labio-dental	fricative			f
 v	voiced	labio-dental	fricative			v
 fh	voiceless	labio-dental	fricative		aspiration:aspirated	f

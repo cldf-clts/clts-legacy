@@ -4,7 +4,7 @@ L	voiced	alveolar	approximant		voicing:devoiced,laterality:lateral	l̥
 M	voiced	bilabial	nasal		voicing:devoiced	m̥
 N	voiced	alveolar	nasal		voicing:devoiced	n̥
 R	voiced	alveolar	trill		voicing:devoiced	r̥
-W	voiced	labialized-velar	approximant		voicing:devoiced	w̥
+W	voiced	labio-velar	approximant		voicing:devoiced	w̥
 X	voiceless	uvular	fricative	+		χ
 Y	voiced	palatal	approximant		voicing:devoiced	j̊
 b	voiced	bilabial	stop			b
@@ -76,9 +76,9 @@ tθ	voiceless	dental	affricate	+		tθ
 tᶴ	voiceless	post-alveolar	affricate		sibilancy:sibilant	tʃ
 tᶿ	voiceless	dental	affricate			tθ
 v	voiced	labio-dental	fricative			v
-w	voiced	labialized-velar	approximant			w
-w̃	voiced	labialized-velar	approximant		nasalization:nasalized	w̃
-w̓	voiced	labialized-velar	approximant		ejection:ejective	w’
+w	voiced	labio-velar	approximant			w
+w̃	voiced	labio-velar	approximant		nasalization:nasalized	w̃
+w̓	voiced	labio-velar	approximant		ejection:ejective	w’
 x	voiceless	velar	fricative			x
 x̣	voiceless	uvular	fricative			χ
 x̯	voiceless	palatal	fricative		sibilancy:sibilant	ç
@@ -91,7 +91,7 @@ z̯	voiced	dental	fricative		sibilancy:sibilant	z̪
 Ñ	voiced	palatal	nasal		voicing:devoiced	ɲ̊
 ð	voiced	dental	fricative			ð
 ñ	voiced	palatal	nasal			ɲ
-ÿ	voiced	labialized-palatal	approximant			ɥ
+ÿ	voiced	labio-palatal	approximant			ɥ
 č	voiceless	post-alveolar	affricate	+	sibilancy:sibilant	tʃ
 č̓	voiceless	post-alveolar	affricate	+	ejection:ejective,sibilancy:sibilant	tʃʼ
 č̣	voiceless	retroflex	affricate		sibilancy:sibilant	ʈʂ

@@ -27,7 +27,7 @@ td {
     <div class="sticky-nav"  style="background-color: #2d6ca2;">
     <div class="container-nav">
        <div class="nav-container"  style="background-color: #2d6ca2;" >
-         <div class="navbar-brand"> <a href="">  <img style="width:65px" src="clts.png" alt="CLTS-LOGO"></a> </div>
+         <div class="navbar-brand"> <a href="">  <img style="width:100px" src="clts.png" alt="CLTS-LOGO"></a> </div>
          <div class="navbar-nav nav-mobile">
           
             <a class="nav-item nav-link btn btn-nav" href="">Home</a>
@@ -190,8 +190,8 @@ function convertCLPA(value) {
 	  tabletext += '<td></td>';
 	}
 	tabletext += '<td>'+cls+'</td>';
-	tabletext += '<td><a target="_blank" href="clts.py?name=' + 
-	  tmp['name']+'">' + 
+	tabletext += '<td><a target="_blank" href="https://clts.clld.org/parameters/' + 
+	  tmp['name'].replace(/\s/g, '_')+'">' + 
 	  tmp['name'].replace(' '+tmp['type'], '')+'</a></td>';
 	for (option in options) {
 	  if (options[option]) {
