@@ -3,7 +3,7 @@ import codecs
 
 setup(
     name='pyclts',
-    version="1.0.0",
+    version="1.0.1.dev0",
     description='A python library to check phonetic transcriptions',
     long_description=codecs.open("README.md", 'r', 'utf-8').read(),
     long_description_content_type='text/markdown',
