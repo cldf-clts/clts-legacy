@@ -20,7 +20,22 @@ __all__ = [
     'Diphthong',
     'Cluster',
     'UnknownSound']
-EXCLUDE_FEATURES = ['apical', 'laminal', 'ejective']
+EXCLUDE_FEATURES = [
+    'apical',
+    'laminal',
+    'ejective',
+    'with_falling_tone',
+    'with_extra_low_tone',
+    'with_extra-high_tone',
+    'with_falling_tone',
+    'with_low_tone',
+    'with_global_fall',
+    'with_global_rise',
+    'with_high_tone',
+    'with_mid_tone',
+    'with_rising_tone',
+    'with_upstep'        
+]
 
 
 def is_valid_sound(sound, ts):
