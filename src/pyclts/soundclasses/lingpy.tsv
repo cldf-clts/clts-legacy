@@ -162,6 +162,7 @@ long voiced dental lateral approximant consonant	l̪ː	L	C	5	R	l	#6464c8
 devoiced voiced dental lateral approximant consonant	l̪̥	L	C	5	R	l	#6464c8
 syllabic voiced dental lateral approximant consonant	l̪̩	L	C	5	R	l	#6464c8
 voiced laminal alveolar lateral approximant consonant	l̻	L	C	5	R	l	#6464c8
+voiced linguolabial lateral approximant consonant	l̼	L	C	5	R	l	#6464c8
 voiced bilabial nasal consonant	m	M	C	4	M	m	#64c896
 aspirated voiced bilabial nasal consonant	mʰ	M	C	4	M	m	#64c896
 breathy voiced bilabial nasal consonant	mʱ	M	C	4	M	m	#64c896
@@ -237,6 +238,7 @@ voiced dental trill consonant	r̪	R	C	5	R	r	#6464c8
 long voiced dental trill consonant	r̪ː	R	C	5	R	r	#6464c8
 pharyngealized voiced dental trill consonant	r̪ˤ	R	C	5	R	r	#6464c8
 devoiced voiced dental trill consonant	r̪̥	R	C	5	R	r	#6464c8
+voiced linguolabial trill consonant	r̼	R	C	5	R	r	#6464c8
 voiceless alveolar sibilant fricative consonant	s	S	C	3	S	s	#6496c8
 palatalized voiceless alveolar sibilant fricative consonant	sʲ	S	C	3	S	s	#6496c8
 voiceless alveolar ejective sibilant fricative consonant	sʼ	S	C	3	S	s	#6496c8
@@ -532,7 +534,7 @@ nasalized rounded near-open central vowel	ɞ̞̃	U	V	7	V	u	#c86464
 long nasalized rounded near-open central vowel	ɞ̞̃ː	U	V	7	V	u	#c86464
 voiced palatal stop consonant	ɟ	C	C	1	K	C	#c89664
 voiced palatal affricate consonant	ɟʝ	C	C	1	K	C	#c89664
-voiced velar implosive consonant	ɠ	K	C	1	K	g	#c89664
+voiced velar implosive consonant	ɠ	0	0	0	0	0	0
 voiced uvular stop consonant	ɢ	K	C	1	K	q	#c89664
 voiced uvular affricate consonant	ɢʁ	K	C	1	K	q	#c89664
 aspirated voiced uvular stop consonant	ɢʰ	K	C	1	K	q	#c89664
@@ -571,10 +573,12 @@ voiceless alveolar lateral fricative consonant	ɬ	L	C	5	R	L	#6464c8
 voiceless alveolar ejective lateral fricative consonant	ɬʼ	L	C	5	R	L	#6464c8
 voiceless dental lateral fricative consonant	ɬ̪	L	C	5	R	L	#6464c8
 voiceless dental ejective lateral fricative consonant	ɬ̪ʼ	L	C	5	R	L	#6464c8
+voiceless linguolabial lateral fricative consonant	ɬ̼	L	C	5	R	L	#6464c8
 voiced retroflex lateral approximant consonant	ɭ	L	C	5	R	L	#6464c8
 devoiced voiced retroflex lateral approximant consonant	ɭ̊	L	C	5	R	L	#6464c8
 syllabic voiced retroflex lateral approximant consonant	ɭ̩	L	C	5	R	L	#6464c8
 voiced alveolar lateral fricative consonant	ɮ	L	C	5	R	L	#6464c8
+voiced linguolabial lateral fricative consonant	ɮ̼	L	C	5	R	L	#6464c8
 unrounded close back vowel	ɯ	I	V	7	V	u	#c86464
 long unrounded close back vowel	ɯː	I	V	7	V	u	#c86464
 nasalized unrounded close back vowel	ɯ̃	I	V	7	V	u	#c86464
@@ -635,6 +639,7 @@ palatalized voiceless post-alveolar sibilant fricative consonant	ʃʲ	S	C	3	S	S	
 voiceless post-alveolar ejective sibilant fricative consonant	ʃʼ	S	C	3	S	S	#6496c8
 voiced palatal implosive consonant	ʄ	C	C	2	K	C	#c89664
 unrounded close with-frication central vowel	ʅ	I	V	7	V	i	#c86464
+voiced linguolabial click consonant	ʇ̼	0	0	0	0	0	0
 voiceless retroflex stop consonant	ʈ	T	C	1	T	t	#9664c8
 voiceless retroflex sibilant affricate consonant	ʈʂ	C	C	2	K	C	#c89664
 aspirated voiceless retroflex sibilant affricate consonant	ʈʂʰ	C	C	2	K	C	#c89664
@@ -688,8 +693,8 @@ voiceless labial click consonant	ʘ	!	C	1	K	!	#c89664
 voiced bilabial trill consonant	ʙ	B	C	3	W	b	#c864c8
 devoiced voiced bilabial trill consonant	ʙ̥	B	C	3	W	b	#c864c8
 syllabic voiced bilabial trill consonant	ʙ̩	B	C	3	W	b	#c864c8
-voiced uvular implosive consonant	ʛ	K	C	1	K	q	#c89664
-voiceless uvular implosive consonant	ʛ̥	K	C	1	K	q	#c89664
+voiced uvular implosive consonant	ʛ	0	0	0	0	0	0
+voiceless uvular implosive consonant	ʛ̥	0	0	0	0	0	0
 voiceless epiglottal fricative consonant	ʜ	0	0	0	0	0	0
 voiced palatal fricative consonant	ʝ	S	C	3	S	S	#6496c8
 voiced velar lateral approximant consonant	ʟ	L	C	5	R	L	#6464c8
@@ -777,6 +782,7 @@ pre-nasalized voiced bilabial stop consonant	ⁿb	P	C	1	P	b	#c8c864
 pre-nasalized voiced alveolar stop consonant	ⁿd	T	C	1	T	d	#9664c8
 pre-nasalized voiced post-alveolar affricate consonant	ⁿdʒ	T	C	1	T	d	#9664c8
 pre-nasalized voiced dental stop consonant	ⁿd̪	T	C	1	T	d	#9664c8
+pre-nasalized voiced linguolabial stop consonant	ⁿd̼	T	C	1	T	d	#9664c8
 pre-nasalized voiced velar stop consonant	ⁿg	K	C	1	K	g	#c89664
 pre-nasalized voiced dental click consonant	ⁿgǀ	!	C	1	K	!	#c89664
 pre-nasalized voiced lateral click consonant	ⁿgǁ	!	C	1	K	!	#c89664
