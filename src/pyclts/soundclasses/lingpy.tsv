@@ -526,7 +526,7 @@ nasalized rounded near-open central vowel	ɞ̞̃	U	V	7	V	u	#c86464
 long nasalized rounded near-open central vowel	ɞ̞̃ː	U	V	7	V	u	#c86464
 voiced palatal stop consonant	ɟ	C	C	1	K	C	#c89664
 voiced palatal affricate consonant	ɟʝ	C	C	1	K	C	#c89664
-voiced velar implosive consonant	ɠ	0	0	0	0	0	0
+voiced velar implosive consonant	ɠ	K	C	1	K	g	#c89664
 voiced uvular stop consonant	ɢ	K	C	1	K	q	#c89664
 voiced uvular affricate consonant	ɢʁ	K	C	1	K	q	#c89664
 aspirated voiced uvular stop consonant	ɢʰ	K	C	1	K	q	#c89664
@@ -681,8 +681,8 @@ voiceless labial click consonant	ʘ	!	C	1	K	!	#c89664
 voiced bilabial trill consonant	ʙ	B	C	3	W	b	#c864c8
 devoiced voiced bilabial trill consonant	ʙ̥	B	C	3	W	b	#c864c8
 syllabic voiced bilabial trill consonant	ʙ̩	B	C	3	W	b	#c864c8
-voiced uvular implosive consonant	ʛ	0	0	0	0	0	0
-voiceless uvular implosive consonant	ʛ̥	0	0	0	0	0	0
+voiced uvular implosive consonant	ʛ	K	C	1	K	q	#c89664
+voiceless uvular implosive consonant	ʛ̥	K	C	1	K	q	#c89664
 voiceless epiglottal fricative consonant	ʜ	0	0	0	0	0	0
 voiced palatal fricative consonant	ʝ	S	C	3	S	S	#6496c8
 voiced velar lateral approximant consonant	ʟ	L	C	5	R	L	#6464c8

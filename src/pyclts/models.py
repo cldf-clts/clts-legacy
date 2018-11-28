@@ -249,18 +249,17 @@ class Consonant(Sound):
     # following the base part of the consonant
     _write_order = dict(
         pre=['preceding'],
-        post=[
-            'laminality', 'creakiness', 'phonation', 'ejection', 'syllabicity', 'voicing',
-            'articulation',
-            'nasalization', 'palatalization', 'labialization',
-            'breathiness', 'aspiration', 'glottalization', 'velarization',
-            'pharyngealization', 'release', 'duration'])
+        post=[ 'laminality', 'creakiness', 'phonation', 'ejection',
+            'syllabicity', 'voicing', 'articulation', 'nasalization',
+            'palatalization', 'labialization', 'breathiness', 'aspiration',
+            'glottalization', 'velarization', 'pharyngealization', 'release',
+            'duration'])
     _name_order = [
-        'articulation', 'preceding', 'syllabicity', 'nasalization', 'palatalization',
-        'labialization', 'glottalization', 'aspiration', 'velarization',
-        'pharyngealization', 'duration', 'release', 'voicing', 'creakiness',
-        'breathiness', 'phonation', 'laminality', 'place', 'ejection', 'laterality',
-        'sibilancy', 'manner']
+        'articulation', 'preceding', 'syllabicity', 'nasalization',
+        'palatalization', 'labialization', 'glottalization', 'aspiration',
+        'velarization', 'pharyngealization', 'duration', 'release', 'voicing',
+        'creakiness', 'breathiness', 'phonation', 'laminality', 'place',
+        'ejection', 'laterality', 'sibilancy', 'manner']
 
 
 @attr.s(cmp=False, repr=False)
@@ -344,13 +343,11 @@ class Vowel(Sound):
             'pharyngealization', 'glottalization', 'velarization', 'duration',
             'frication', 'centralization'])
     _name_order = [
-        'duration', 'rhotacization', 'pharyngealization',
-        'glottalization', 'velarization', 'syllabicity', 'retraction',
-        'centralization', 
-        'tongue_root', 'raising', 'rounding', 'advancement',
-        'articulation', 'nasalization', 'voicing', 'creakiness',
-        'breathiness', 'roundedness', 'height', 'frication', 'centrality',
-        'tone']
+        'duration', 'rhotacization', 'pharyngealization', 'glottalization',
+        'velarization', 'syllabicity', 'retraction', 'centralization',
+        'tongue_root', 'raising', 'rounding', 'advancement', 'articulation',
+        'nasalization', 'voicing', 'creakiness', 'breathiness', 'roundedness',
+        'height', 'frication', 'centrality', 'tone']
 
 
 @attr.s(cmp=False, repr=False)
