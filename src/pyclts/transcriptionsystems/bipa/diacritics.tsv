@@ -80,8 +80,6 @@ GRAPHEME	TYPE	FEATURE	VALUE	ALIAS	TYPOGRAPHY	NOTE
 ◌̞	vowel	raising	lowered			
 ◌̝	vowel	raising	raised			
 ◌˞	vowel	rhotacization	rhotacized			
-◌̹	vowel	roundedness	rounded			
-◌̜	vowel	roundedness	unrounded			
 ◌̜	vowel	rounding	less-rounded			
 ◌̹	vowel	rounding	more-rounded			
 ˈ◌	vowel	stress	primary-stress			

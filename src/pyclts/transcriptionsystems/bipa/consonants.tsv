@@ -1,11 +1,17 @@
 GRAPHEME	PHONATION	PLACE	MANNER	ALIAS	EXTRA	NOTE
 pfʰ	voiceless	labio-dental	affricate		aspiration:aspirated
 n̼	voiced	linguolabial	nasal
+ⁿd̼	voiced	linguolabial	stop		preceding:pre-nasalized
 t̼	voiceless	linguolabial	stop
 d̼	voiced	linguolabial	stop
 ɾ̼	voiced	linguolabial	tap
+r̼	voiced	linguolabial	trill
 θ̼	voiceless	linguolabial	fricative
 ð̼	voiced	linguolabial	fricative
+ʇ̼	voiced	linguolabial	click
+l̼	voiced	linguolabial	approximant		laterality:lateral
+ɬ̼	voiceless	linguolabial	fricative		laterality:lateral
+ɮ̼	voiced	linguolabial	fricative		laterality:lateral
 ᶑ	voiced	retroflex	implosive
 b̪	voiced	labio-dental	stop
 p̪	voiceless	labio-dental	stop

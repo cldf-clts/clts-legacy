@@ -10,7 +10,7 @@ e	unrounded close-mid front vowel			e		e	empty:vowel:−high −low −back −r
 ə˞	rhotacized unrounded mid central vowel			ɚ		\textrhookschwa	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɘ	unrounded close-mid central vowel			ɘ		\textreve	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɜ	unrounded open-mid central vowel			ɜ		\textipa{3}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ		\textrhookrevepsilon	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
+ɜ˞	rhotacized unrounded open-mid central vowel	+		ɝ		\textrhookrevepsilon	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɞ	rounded open-mid central vowel			ɞ		\textcloseepsilon	empty:vowel:−high −low +back +round +voice −nasal −spread glottis −constricted glottis				
 ɤ	unrounded close-mid back vowel			ɤ		\textipa{7}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 i	unrounded close front vowel			i		i	empty:vowel:+high −low −back −round +voice −nasal −spread glottis −constricted glottis				
@@ -170,7 +170,7 @@ e̯	non-syllabic unrounded close-mid front vowel			e̯		\textroundcap{e}	empty:v
 ə̯˞	rhotacized non-syllabic unrounded mid central vowel	+		ɚ̯		\textroundcap{\textrhookschwa}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɘ̯	non-syllabic unrounded close-mid central vowel	+		ɘ̯		\textroundcap{\textreve}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɜ̯	non-syllabic unrounded open-mid central vowel	+		ɜ̯		\textroundcap{\textipa{3}}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯		\textroundcap{\textrhookrevepsilon}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
+ɜ̯˞	rhotacized non-syllabic unrounded open-mid central vowel	+		ɝ̯		\textroundcap{\textrhookrevepsilon}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɞ̯	non-syllabic rounded open-mid central vowel	+		ɞ̯		\textroundcap{\textcloseepsilon}	empty:vowel:−high −low +back +round +voice −nasal −spread glottis −constricted glottis				
 ɤ̯	non-syllabic unrounded close-mid back vowel			ɤ̯		\textroundcap{\textipa{7}}	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 i̯	non-syllabic unrounded close front vowel	+		i̯		\textroundcap{i}	empty:vowel:+high −low −back −round +voice −nasal −spread glottis −constricted glottis				
@@ -200,7 +200,7 @@ ẽ	nasalized unrounded close-mid front vowel			ẽ		\textipa{\~e}	empty:vowel:�
 ə̃˞	rhotacized nasalized unrounded mid central vowel	+		ɚ̃		\textipa{\~\textrhookschwa}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɘ̃	nasalized unrounded close-mid central vowel			ɘ̃		\textipa{\~\textreve}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɜ̃	nasalized unrounded open-mid central vowel			ɜ̃		\textipa{\~\textipa{3}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̃		\textipa{\~\textrhookrevepsilon}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
+ɜ̃˞	rhotacized nasalized unrounded open-mid central vowel	+		ɝ̃		\textipa{\~\textrhookrevepsilon}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɞ̃	nasalized rounded open-mid central vowel			ɞ̃		\textipa{\~\textcloseepsilon}	empty:vowel:−high −low +back +round +voice +nasal −spread glottis −constricted glottis				
 ɤ̃	nasalized unrounded close-mid back vowel			ɤ̃		\textipa{\~\textipa{7}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ĩ	nasalized unrounded close front vowel			ĩ		\textipa{\~i}	empty:vowel:+high −low −back −round +voice +nasal −spread glottis −constricted glottis				
@@ -232,7 +232,7 @@ ẽ̯	non-syllabic nasalized unrounded close-mid front vowel	+		ẽ̯		\textipa{
 ə̯̃˞	rhotacized non-syllabic nasalized unrounded mid central vowel	+		ɚ̯̃		\textipa{\~\textroundcap{\textrhookschwa}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɘ̯̃	non-syllabic nasalized unrounded close-mid central vowel	+		ɘ̯̃		\textipa{\~\textroundcap{\textreve}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɜ̯̃	non-syllabic nasalized unrounded open-mid central vowel	+		ɜ̯̃		\textipa{\~\textroundcap{\textipa{3}}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̃		\textipa{\~\textroundcap{\textrhookrevepsilon}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
+ɜ̯̃˞	rhotacized non-syllabic nasalized unrounded open-mid central vowel	+		ɝ̯̃		\textipa{\~\textroundcap{\textrhookrevepsilon}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɞ̯̃	non-syllabic nasalized rounded open-mid central vowel	+		ɞ̯̃		\textipa{\~\textroundcap{\textcloseepsilon}}	empty:vowel:−high −low +back +round +voice +nasal −spread glottis −constricted glottis				
 ɤ̯̃	non-syllabic nasalized unrounded close-mid back vowel	+		ɤ̯̃		\textipa{\~\textroundcap{\textipa{7}}}	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ĩ̯	non-syllabic nasalized unrounded close front vowel	+		ĩ̯		\textipa{\~\textroundcap{i}}	empty:vowel:+high −low −back −round +voice +nasal −spread glottis −constricted glottis				
@@ -262,7 +262,7 @@ e̥	devoiced unrounded close-mid front vowel			e̥		*e	empty:vowel:−high −lo
 ə̥˞	rhotacized devoiced unrounded mid central vowel	+		ɚ̥		*\textrhookschwa	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɘ̥	devoiced unrounded close-mid central vowel	+		ɘ̥		*\textreve	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɜ̥	devoiced unrounded open-mid central vowel	+		ɜ̥		*\textipa{3}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̥		*\textrhookrevepsilon	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
+ɜ̥˞	rhotacized devoiced unrounded open-mid central vowel	+		ɝ̥		*\textrhookrevepsilon	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɞ̥	devoiced rounded open-mid central vowel	+		ɞ̥		*\textcloseepsilon	empty:vowel:−high −low +back +round −voice −nasal −spread glottis −constricted glottis				
 ɤ̥	devoiced unrounded close-mid back vowel	+		ɤ̥		*\textipa{7}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 i̥	devoiced unrounded close front vowel			i̥		*i	empty:vowel:+high −low −back −round −voice −nasal −spread glottis −constricted glottis				
@@ -313,7 +313,7 @@ e̥̯	non-syllabic devoiced unrounded close-mid front vowel	+		e̯̥		*\textroun
 ə̥̯˞	rhotacized non-syllabic devoiced unrounded mid central vowel	+		ɚ̯̥		*\textroundcap{\textrhookschwa}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɘ̥̯	non-syllabic devoiced unrounded close-mid central vowel	+		ɘ̯̥		*\textroundcap{\textreve}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɜ̥̯	non-syllabic devoiced unrounded open-mid central vowel	+		ɜ̯̥		*\textroundcap{\textipa{3}}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̥		*\textroundcap{\textrhookrevepsilon}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
+ɜ̥̯˞	rhotacized non-syllabic devoiced unrounded open-mid central vowel	+		ɝ̯̥		*\textroundcap{\textrhookrevepsilon}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɞ̥̯	non-syllabic devoiced rounded open-mid central vowel	+		ɞ̯̥		*\textroundcap{\textcloseepsilon}	empty:vowel:−high −low +back +round −voice −nasal −spread glottis −constricted glottis				
 ɤ̥̯	non-syllabic devoiced unrounded close-mid back vowel	+		ɤ̯̥		*\textroundcap{\textipa{7}}	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 i̥̯	non-syllabic devoiced unrounded close front vowel	+		i̯̥		*\textroundcap{i}	empty:vowel:+high −low −back −round −voice −nasal −spread glottis −constricted glottis				
@@ -343,7 +343,7 @@ ẽ̥	nasalized devoiced unrounded close-mid front vowel	+		ẽ̥		*\textipa{\~e
 ə̥̃˞	rhotacized nasalized devoiced unrounded mid central vowel	+		ɚ̥̃		*\textipa{\~\textrhookschwa}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɘ̥̃	nasalized devoiced unrounded close-mid central vowel	+		ɘ̥̃		*\textipa{\~\textreve}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɜ̥̃	nasalized devoiced unrounded open-mid central vowel	+		ɜ̥̃		*\textipa{\~\textipa{3}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̥̃		*\textipa{\~\textrhookrevepsilon}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
+ɜ̥̃˞	rhotacized nasalized devoiced unrounded open-mid central vowel	+		ɝ̥̃		*\textipa{\~\textrhookrevepsilon}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɞ̥̃	nasalized devoiced rounded open-mid central vowel	+		ɞ̥̃		*\textipa{\~\textcloseepsilon}	empty:vowel:−high −low +back +round −voice +nasal −spread glottis −constricted glottis				
 ɤ̥̃	nasalized devoiced unrounded close-mid back vowel	+		ɤ̥̃		*\textipa{\~\textipa{7}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ĩ̥	nasalized devoiced unrounded close front vowel	+		ĩ̥		*\textipa{\~i}	empty:vowel:+high −low −back −round −voice +nasal −spread glottis −constricted glottis				
@@ -373,7 +373,7 @@ ẽ̥̯	non-syllabic nasalized devoiced unrounded close-mid front vowel	+		ẽ̯
 ə̥̯̃˞	rhotacized non-syllabic nasalized devoiced unrounded mid central vowel	+		ɚ̯̥̃		*\textipa{\~\textroundcap{\textrhookschwa}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɘ̥̯̃	non-syllabic nasalized devoiced unrounded close-mid central vowel	+		ɘ̯̥̃		*\textipa{\~\textroundcap{\textreve}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɜ̥̯̃	non-syllabic nasalized devoiced unrounded open-mid central vowel	+		ɜ̯̥̃		*\textipa{\~\textroundcap{\textipa{3}}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̥̃		*\textipa{\~\textroundcap{\textrhookrevepsilon}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
+ɜ̥̯̃˞	rhotacized non-syllabic nasalized devoiced unrounded open-mid central vowel	+		ɝ̯̥̃		*\textipa{\~\textroundcap{\textrhookrevepsilon}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɞ̥̯̃	non-syllabic nasalized devoiced rounded open-mid central vowel	+		ɞ̯̥̃		*\textipa{\~\textroundcap{\textcloseepsilon}}	empty:vowel:−high −low +back +round −voice +nasal −spread glottis −constricted glottis				
 ɤ̥̯̃	non-syllabic nasalized devoiced unrounded close-mid back vowel	+		ɤ̯̥̃		*\textipa{\~\textroundcap{\textipa{7}}}	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ĩ̥̯	non-syllabic nasalized devoiced unrounded close front vowel	+		ĩ̯̥		*\textipa{\~\textroundcap{i}}	empty:vowel:+high −low −back −round −voice +nasal −spread glottis −constricted glottis				
@@ -1037,7 +1037,7 @@ eː	long unrounded close-mid front vowel			eː		e\textlengthmark	empty:vowel:−
 ə˞ː	long rhotacized unrounded mid central vowel	+		ɚː		\textrhookschwa\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɘː	long unrounded close-mid central vowel			ɘː		\textreve\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɜː	long unrounded open-mid central vowel			ɜː		\textipa{3}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝː		\textrhookrevepsilon\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
+ɜ˞ː	long rhotacized unrounded open-mid central vowel	+		ɝː		\textrhookrevepsilon\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɞː	long rounded open-mid central vowel			ɞː		\textcloseepsilon\textlengthmark	empty:vowel:−high −low +back +round +voice −nasal −spread glottis −constricted glottis				
 ɤː	long unrounded close-mid back vowel			ɤː		\textipa{7}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 iː	long unrounded close front vowel			iː		i\textlengthmark	empty:vowel:+high −low −back −round +voice −nasal −spread glottis −constricted glottis				
@@ -1167,7 +1167,7 @@ e̯ː	long non-syllabic unrounded close-mid front vowel	+		e̯ː		\textroundcap{
 ə̯˞ː	long rhotacized non-syllabic unrounded mid central vowel	+		ɚ̯ː		\textroundcap{\textrhookschwa}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɘ̯ː	long non-syllabic unrounded close-mid central vowel	+		ɘ̯ː		\textroundcap{\textreve}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɜ̯ː	long non-syllabic unrounded open-mid central vowel	+		ɜ̯ː		\textroundcap{\textipa{3}}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯ː		\textroundcap{\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
+ɜ̯˞ː	long rhotacized non-syllabic unrounded open-mid central vowel	+		ɝ̯ː		\textroundcap{\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 ɞ̯ː	long non-syllabic rounded open-mid central vowel	+		ɞ̯ː		\textroundcap{\textcloseepsilon}\textlengthmark	empty:vowel:−high −low +back +round +voice −nasal −spread glottis −constricted glottis				
 ɤ̯ː	long non-syllabic unrounded close-mid back vowel	+		ɤ̯ː		\textroundcap{\textipa{7}}\textlengthmark	empty:vowel:−high −low +back −round +voice −nasal −spread glottis −constricted glottis				
 i̯ː	long non-syllabic unrounded close front vowel	+		i̯ː		\textroundcap{i}\textlengthmark	empty:vowel:+high −low −back −round +voice −nasal −spread glottis −constricted glottis				
@@ -1197,7 +1197,7 @@ ẽː	long nasalized unrounded close-mid front vowel			ẽː		\textipa{\~e}\text
 ə̃˞ː	long rhotacized nasalized unrounded mid central vowel	+		ɚ̃ː		\textipa{\~\textrhookschwa}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɘ̃ː	long nasalized unrounded close-mid central vowel			ɘ̃ː		\textipa{\~\textreve}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɜ̃ː	long nasalized unrounded open-mid central vowel			ɜ̃ː		\textipa{\~\textipa{3}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̃ː		\textipa{\~\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
+ɜ̃˞ː	long rhotacized nasalized unrounded open-mid central vowel	+		ɝ̃ː		\textipa{\~\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɞ̃ː	long nasalized rounded open-mid central vowel			ɞ̃ː		\textipa{\~\textcloseepsilon}\textlengthmark	empty:vowel:−high −low +back +round +voice +nasal −spread glottis −constricted glottis				
 ɤ̃ː	long nasalized unrounded close-mid back vowel			ɤ̃ː		\textipa{\~\textipa{7}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ĩː	long nasalized unrounded close front vowel			ĩː		\textipa{\~i}\textlengthmark	empty:vowel:+high −low −back −round +voice +nasal −spread glottis −constricted glottis				
@@ -1227,7 +1227,7 @@ ẽ̯ː	long non-syllabic nasalized unrounded close-mid front vowel	+		ẽ̯ː		
 ə̯̃˞ː	long rhotacized non-syllabic nasalized unrounded mid central vowel	+		ɚ̯̃ː		\textipa{\~\textroundcap{\textrhookschwa}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɘ̯̃ː	long non-syllabic nasalized unrounded close-mid central vowel	+		ɘ̯̃ː		\textipa{\~\textroundcap{\textreve}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɜ̯̃ː	long non-syllabic nasalized unrounded open-mid central vowel	+		ɜ̯̃ː		\textipa{\~\textroundcap{\textipa{3}}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̃ː		\textipa{\~\textroundcap{\textrhookrevepsilon}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
+ɜ̯̃˞ː	long rhotacized non-syllabic nasalized unrounded open-mid central vowel	+		ɝ̯̃ː		\textipa{\~\textroundcap{\textrhookrevepsilon}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ɞ̯̃ː	long non-syllabic nasalized rounded open-mid central vowel	+		ɞ̯̃ː		\textipa{\~\textroundcap{\textcloseepsilon}}\textlengthmark	empty:vowel:−high −low +back +round +voice +nasal −spread glottis −constricted glottis				
 ɤ̯̃ː	long non-syllabic nasalized unrounded close-mid back vowel	+		ɤ̯̃ː		\textipa{\~\textroundcap{\textipa{7}}}\textlengthmark	empty:vowel:−high −low +back −round +voice +nasal −spread glottis −constricted glottis				
 ĩ̯ː	long non-syllabic nasalized unrounded close front vowel	+		ĩ̯ː		\textipa{\~\textroundcap{i}}\textlengthmark	empty:vowel:+high −low −back −round +voice +nasal −spread glottis −constricted glottis				
@@ -1257,7 +1257,7 @@ e̥ː	long devoiced unrounded close-mid front vowel	+		e̥ː		*e\textlengthmark	
 ə̥˞ː	long rhotacized devoiced unrounded mid central vowel	+		ɚ̥ː		*\textrhookschwa\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɘ̥ː	long devoiced unrounded close-mid central vowel	+		ɘ̥ː		*\textreve\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɜ̥ː	long devoiced unrounded open-mid central vowel	+		ɜ̥ː		*\textipa{3}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̥ː		*\textrhookrevepsilon\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
+ɜ̥˞ː	long rhotacized devoiced unrounded open-mid central vowel	+		ɝ̥ː		*\textrhookrevepsilon\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɞ̥ː	long devoiced rounded open-mid central vowel	+		ɞ̥ː		*\textcloseepsilon\textlengthmark	empty:vowel:−high −low +back +round −voice −nasal −spread glottis −constricted glottis				
 ɤ̥ː	long devoiced unrounded close-mid back vowel	+		ɤ̥ː		*\textipa{7}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 i̥ː	long devoiced unrounded close front vowel	+		i̥ː		*i\textlengthmark	empty:vowel:+high −low −back −round −voice −nasal −spread glottis −constricted glottis				
@@ -1294,7 +1294,7 @@ e̥̯ː	long non-syllabic devoiced unrounded close-mid front vowel	+		e̯̥ː		*
 ə̥̯˞ː	long rhotacized non-syllabic devoiced unrounded mid central vowel	+		ɚ̯̥ː		*\textroundcap{\textrhookschwa}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɘ̥̯ː	long non-syllabic devoiced unrounded close-mid central vowel	+		ɘ̯̥ː		*\textroundcap{\textreve}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɜ̥̯ː	long non-syllabic devoiced unrounded open-mid central vowel	+		ɜ̯̥ː		*\textroundcap{\textipa{3}}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̥ː		*\textroundcap{\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
+ɜ̥̯˞ː	long rhotacized non-syllabic devoiced unrounded open-mid central vowel	+		ɝ̯̥ː		*\textroundcap{\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 ɞ̥̯ː	long non-syllabic devoiced rounded open-mid central vowel	+		ɞ̯̥ː		*\textroundcap{\textcloseepsilon}\textlengthmark	empty:vowel:−high −low +back +round −voice −nasal −spread glottis −constricted glottis				
 ɤ̥̯ː	long non-syllabic devoiced unrounded close-mid back vowel	+		ɤ̯̥ː		*\textroundcap{\textipa{7}}\textlengthmark	empty:vowel:−high −low +back −round −voice −nasal −spread glottis −constricted glottis				
 i̥̯ː	long non-syllabic devoiced unrounded close front vowel	+		i̯̥ː		*\textroundcap{i}\textlengthmark	empty:vowel:+high −low −back −round −voice −nasal −spread glottis −constricted glottis				
@@ -1324,7 +1324,7 @@ ẽ̥ː	long nasalized devoiced unrounded close-mid front vowel	+		ẽ̥ː		*\te
 ə̥̃˞ː	long rhotacized nasalized devoiced unrounded mid central vowel	+		ɚ̥̃ː		*\textipa{\~\textrhookschwa}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɘ̥̃ː	long nasalized devoiced unrounded close-mid central vowel	+		ɘ̥̃ː		*\textipa{\~\textreve}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɜ̥̃ː	long nasalized devoiced unrounded open-mid central vowel	+		ɜ̥̃ː		*\textipa{\~\textipa{3}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̥̃ː		*\textipa{\~\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
+ɜ̥̃˞ː	long rhotacized nasalized devoiced unrounded open-mid central vowel	+		ɝ̥̃ː		*\textipa{\~\textrhookrevepsilon}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɞ̥̃ː	long nasalized devoiced rounded open-mid central vowel	+		ɞ̥̃ː		*\textipa{\~\textcloseepsilon}\textlengthmark	empty:vowel:−high −low +back +round −voice +nasal −spread glottis −constricted glottis				
 ɤ̥̃ː	long nasalized devoiced unrounded close-mid back vowel	+		ɤ̥̃ː		*\textipa{\~\textipa{7}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ĩ̥ː	long nasalized devoiced unrounded close front vowel	+		ĩ̥ː		*\textipa{\~i}\textlengthmark	empty:vowel:+high −low −back −round −voice +nasal −spread glottis −constricted glottis				
@@ -1354,7 +1354,7 @@ ẽ̥̯ː	long non-syllabic nasalized devoiced unrounded close-mid front vowel	+
 ə̥̯̃˞ː	long rhotacized non-syllabic nasalized devoiced unrounded mid central vowel	+		ɚ̯̥̃ː		*\textipa{\~\textroundcap{\textrhookschwa}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɘ̥̯̃ː	long non-syllabic nasalized devoiced unrounded close-mid central vowel	+		ɘ̯̥̃ː		*\textipa{\~\textroundcap{\textreve}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɜ̥̯̃ː	long non-syllabic nasalized devoiced unrounded open-mid central vowel	+		ɜ̯̥̃ː		*\textipa{\~\textroundcap{\textipa{3}}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
-<NA>	<NA>			ɝ̯̥̃ː		*\textipa{\~\textroundcap{\textrhookrevepsilon}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
+ɜ̥̯̃˞ː	long rhotacized non-syllabic nasalized devoiced unrounded open-mid central vowel	+		ɝ̯̥̃ː		*\textipa{\~\textroundcap{\textrhookrevepsilon}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ɞ̥̯̃ː	long non-syllabic nasalized devoiced rounded open-mid central vowel	+		ɞ̯̥̃ː		*\textipa{\~\textroundcap{\textcloseepsilon}}\textlengthmark	empty:vowel:−high −low +back +round −voice +nasal −spread glottis −constricted glottis				
 ɤ̥̯̃ː	long non-syllabic nasalized devoiced unrounded close-mid back vowel	+		ɤ̯̥̃ː		*\textipa{\~\textroundcap{\textipa{7}}}\textlengthmark	empty:vowel:−high −low +back −round −voice +nasal −spread glottis −constricted glottis				
 ĩ̥̯ː	long non-syllabic nasalized devoiced unrounded close front vowel	+		ĩ̯̥ː		*\textipa{\~\textroundcap{i}}\textlengthmark	empty:vowel:+high −low −back −round −voice +nasal −spread glottis −constricted glottis				

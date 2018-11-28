@@ -296,7 +296,7 @@ def dump(args, test=False):
 
     with UnicodeWriter(args.repos.data_path('graphemes.tsv'), delimiter='\t') as writer:
         writer.writerow([f.name for f in attr.fields(Grapheme)])
-        for row in sorted(data, key=lambda g: (g.DATASET, g.GRAPHEME, g.NAME)):
+        for row in data:
             writer.writerow(attr.astuple(row))
 
 
@@ -312,6 +312,21 @@ def features(args):
     table.extend(sorted(features))
     print(table.render(tablefmt='simple'))
 
+
+@command()
+def dstats(args):
+    table = [['id', 'valid', 'total', 'percent']]
+    bipa = TranscriptionSystem('bipa')
+    for td in args.repos.iter_transcriptiondata():
+        ln = [1 if is_valid_sound(bipa[name], bipa) else 0 for name in td.names]
+        table += [[
+            td.id,
+            sum(ln),
+            len(ln),
+            sum(ln) / len(ln)]]
+    table += [[len(table)-1, '', '', sum([line[-1] for line in table[1:]]) /
+        (len(table)-1)]]
+    print(tabulate.tabulate(table, headers='firstrow'))
 
 @command()
 def stats(args):

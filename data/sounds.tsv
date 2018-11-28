@@ -87,6 +87,7 @@ voiceless palatal ejective affricate consonant	consonant	cç’	LATIN SMALL LET
 voiceless palatal click consonant	consonant	ǂ	LATIN LETTER ALVEOLAR CLICK		
 voiceless palatal affricate consonant	consonant	cç	LATIN SMALL LETTER C / LATIN SMALL LETTER C / COMBINING CEDILLA		
 voiceless linguolabial stop consonant	consonant	t̼	LATIN SMALL LETTER T / COMBINING SEAGULL BELOW		
+voiceless linguolabial lateral fricative consonant	consonant	ɬ̼	LATIN SMALL LETTER L WITH BELT / COMBINING SEAGULL BELOW		
 voiceless linguolabial fricative consonant	consonant	θ̼	GREEK SMALL LETTER THETA / COMBINING SEAGULL BELOW		
 voiceless lateral click consonant	consonant	ǁ	LATIN LETTER LATERAL CLICK		
 voiceless laminal velar stop consonant	consonant	k̻	LATIN SMALL LETTER K / COMBINING SQUARE BELOW	+	
@@ -250,10 +251,14 @@ voiced palatal ejective approximant consonant	consonant	j’	LATIN SMALL LETTER 
 voiced palatal click consonant	consonant	gǂ	LATIN SMALL LETTER G / LATIN LETTER ALVEOLAR CLICK		
 voiced palatal approximant consonant	consonant	j	LATIN SMALL LETTER J		
 voiced palatal affricate consonant	consonant	ɟʝ	LATIN SMALL LETTER DOTLESS J WITH STROKE / LATIN SMALL LETTER J WITH CROSSED-TAIL		
+voiced linguolabial trill consonant	consonant	r̼	LATIN SMALL LETTER R / COMBINING SEAGULL BELOW		
 voiced linguolabial tap consonant	consonant	ɾ̼	LATIN SMALL LETTER R WITH FISHHOOK / COMBINING SEAGULL BELOW		
 voiced linguolabial stop consonant	consonant	d̼	LATIN SMALL LETTER D / COMBINING SEAGULL BELOW		
 voiced linguolabial nasal consonant	consonant	n̼	LATIN SMALL LETTER N / COMBINING SEAGULL BELOW		
+voiced linguolabial lateral fricative consonant	consonant	ɮ̼	LATIN SMALL LETTER LEZH / COMBINING SEAGULL BELOW		
+voiced linguolabial lateral approximant consonant	consonant	l̼	LATIN SMALL LETTER L / COMBINING SEAGULL BELOW		
 voiced linguolabial fricative consonant	consonant	ð̼	LATIN SMALL LETTER ETH / COMBINING SEAGULL BELOW		
+voiced linguolabial click consonant	consonant	ʇ̼	LATIN SMALL LETTER TURNED T / COMBINING SEAGULL BELOW		
 voiced lateral nasal-click consonant	consonant	ŋǁ	LATIN SMALL LETTER ENG / LATIN LETTER LATERAL CLICK		
 voiced lateral click consonant	consonant	gǁ	LATIN SMALL LETTER G / LATIN LETTER LATERAL CLICK		
 voiced laminal retroflex tap consonant	consonant	ɽ̻	LATIN SMALL LETTER R WITH TAIL / COMBINING SQUARE BELOW	+	
@@ -910,26 +915,48 @@ velarized advanced-tongue-root rounded close-mid central vowel	vowel	ɵ̘ˠ	LATI
 velarized advanced-tongue-root rounded close-mid back vowel	vowel	o̘ˠ	LATIN SMALL LETTER O / COMBINING LEFT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized advanced-tongue-root rounded close front vowel	vowel	y̘ˠ	LATIN SMALL LETTER Y / COMBINING LEFT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
 velarized advanced-tongue-root rounded close central vowel	vowel	ʉ̘ˠ	LATIN SMALL LETTER U BAR / COMBINING LEFT TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
+unrounded open-mid front with_falling_tone vowel	vowel	ɛ̂	LATIN SMALL LETTER OPEN E / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded open-mid front vowel	vowel	ɛ	LATIN SMALL LETTER OPEN E		
 unrounded open-mid central vowel	vowel	ɜ	LATIN SMALL LETTER REVERSED OPEN E		
 unrounded open-mid back vowel	vowel	ʌ	LATIN SMALL LETTER TURNED V		
+unrounded open front with_mid_tone vowel	vowel	ā	LATIN SMALL LETTER A / COMBINING MACRON	+	
+unrounded open front with_falling_tone vowel	vowel	â	LATIN SMALL LETTER A / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded open front vowel	vowel	a	LATIN SMALL LETTER A		
+unrounded open back with_mid_tone vowel	vowel	ɑ̄	LATIN SMALL LETTER ALPHA / COMBINING MACRON	+	
+unrounded open back with_high_tone vowel	vowel	ɑ́	LATIN SMALL LETTER ALPHA / COMBINING ACUTE ACCENT	+	
+unrounded open back with_falling_tone vowel	vowel	ɑ̂	LATIN SMALL LETTER ALPHA / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded open back vowel	vowel	ɑ	LATIN SMALL LETTER ALPHA		
+unrounded near-open front with_falling_tone vowel	vowel	æ̂	LATIN SMALL LETTER AE / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded near-open front vowel	vowel	æ	LATIN SMALL LETTER AE		
 unrounded near-open central vowel	vowel	ɐ	LATIN SMALL LETTER TURNED A		
+unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̂	LATIN LETTER SMALL CAPITAL I / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded near-close near-front vowel	vowel	ɪ	LATIN LETTER SMALL CAPITAL I		
 unrounded near-close near-back vowel	vowel	ɯ̽	LATIN SMALL LETTER TURNED M / COMBINING X ABOVE		
 unrounded near-close central vowel	vowel	ɪ̈	LATIN LETTER SMALL CAPITAL I / COMBINING DIAERESIS		
 unrounded mid front vowel	vowel	e̞	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW		
+unrounded mid central with_mid_tone vowel	vowel	ə̄	LATIN SMALL LETTER SCHWA / COMBINING MACRON	+	
+unrounded mid central with_high_tone vowel	vowel	ə́	LATIN SMALL LETTER SCHWA / COMBINING ACUTE ACCENT	+	
+unrounded mid central with_falling_tone vowel	vowel	ə̂	LATIN SMALL LETTER SCHWA / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded mid central vowel	vowel	ə	LATIN SMALL LETTER SCHWA		
 unrounded mid back vowel	vowel	ɤ̞	LATIN SMALL LETTER RAMS HORN / COMBINING DOWN TACK BELOW		
+unrounded close-mid front with_rising_tone vowel	vowel	ě	LATIN SMALL LETTER E / COMBINING CARON	+	
+unrounded close-mid front with_mid_tone vowel	vowel	ē	LATIN SMALL LETTER E / COMBINING MACRON	+	
+unrounded close-mid front with_low_tone vowel	vowel	è	LATIN SMALL LETTER E / COMBINING GRAVE ACCENT	+	
+unrounded close-mid front with_high_tone vowel	vowel	é	LATIN SMALL LETTER E / COMBINING ACUTE ACCENT	+	
+unrounded close-mid front with_falling_tone vowel	vowel	ê	LATIN SMALL LETTER E / COMBINING CIRCUMFLEX ACCENT	+	
+unrounded close-mid front with_extra_low_tone vowel	vowel	ȅ	LATIN SMALL LETTER E / COMBINING DOUBLE GRAVE ACCENT	+	
+unrounded close-mid front with_extra-high_tone vowel	vowel	e̋	LATIN SMALL LETTER E / COMBINING DOUBLE ACUTE ACCENT	+	
 unrounded close-mid front vowel	vowel	e	LATIN SMALL LETTER E		
 unrounded close-mid central vowel	vowel	ɘ	LATIN SMALL LETTER REVERSED E		
 unrounded close-mid back vowel	vowel	ɤ	LATIN SMALL LETTER RAMS HORN		
 unrounded close with-frication central vowel	vowel	ʅ	LATIN SMALL LETTER SQUAT REVERSED ESH		
 unrounded close with-frication back vowel	vowel	ɿ	LATIN SMALL LETTER REVERSED R WITH FISHHOOK		
+unrounded close front with_rising_tone vowel	vowel	ǐ	LATIN SMALL LETTER I / COMBINING CARON	+	
+unrounded close front with_high_tone vowel	vowel	í	LATIN SMALL LETTER I / COMBINING ACUTE ACCENT	+	
+unrounded close front with_falling_tone vowel	vowel	î	LATIN SMALL LETTER I / COMBINING CIRCUMFLEX ACCENT	+	
 unrounded close front vowel	vowel	i	LATIN SMALL LETTER I		
 unrounded close central vowel	vowel	ɨ	LATIN SMALL LETTER I WITH STROKE		
+unrounded close back with_rising_tone vowel	vowel	ɯ̌	LATIN SMALL LETTER TURNED M / COMBINING CARON	+	
 unrounded close back vowel	vowel	ɯ	LATIN SMALL LETTER TURNED M		
 unreleased voiceless velar stop consonant	consonant	k̚	LATIN SMALL LETTER K / COMBINING LEFT ANGLE ABOVE		
 unreleased voiceless uvular stop consonant	consonant	q̚	LATIN SMALL LETTER Q / COMBINING LEFT ANGLE ABOVE		
@@ -961,14 +988,17 @@ ultra-short unrounded open back vowel	vowel	ɑ̆	LATIN SMALL LETTER ALPHA / COMB
 ultra-short unrounded near-open front vowel	vowel	æ̆	LATIN SMALL LETTER AE / COMBINING BREVE	+	
 ultra-short unrounded near-open central vowel	vowel	ɐ̆	LATIN SMALL LETTER TURNED A / COMBINING BREVE	+	
 ultra-short unrounded near-close near-front vowel	vowel	ɪ̆	LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
+ultra-short unrounded mid central with_falling_tone vowel	vowel	ə̂̆	LATIN SMALL LETTER SCHWA / COMBINING CIRCUMFLEX ACCENT / COMBINING BREVE	+	
 ultra-short unrounded mid central vowel	vowel	ə̆	LATIN SMALL LETTER SCHWA / COMBINING BREVE		
 ultra-short unrounded mid back vowel	vowel	ɤ̞̆	LATIN SMALL LETTER RAMS HORN / COMBINING DOWN TACK BELOW / COMBINING BREVE	+	
 ultra-short unrounded close-mid front vowel	vowel	ĕ	LATIN SMALL LETTER E / COMBINING BREVE		
 ultra-short unrounded close-mid central vowel	vowel	ɘ̆	LATIN SMALL LETTER REVERSED E / COMBINING BREVE	+	
 ultra-short unrounded close-mid back vowel	vowel	ɤ̆	LATIN SMALL LETTER RAMS HORN / COMBINING BREVE		
+ultra-short unrounded close front with_falling_tone vowel	vowel	î̆	LATIN SMALL LETTER I / COMBINING CIRCUMFLEX ACCENT / COMBINING BREVE	+	
 ultra-short unrounded close front vowel	vowel	ĭ	LATIN SMALL LETTER I / COMBINING BREVE	+	
 ultra-short unrounded close central vowel	vowel	ɨ̆	LATIN SMALL LETTER I WITH STROKE / COMBINING BREVE	+	
 ultra-short unrounded close back vowel	vowel	ɯ̆	LATIN SMALL LETTER TURNED M / COMBINING BREVE	+	
+ultra-short rounded open-mid front with_falling_tone vowel	vowel	œ̂̆	LATIN SMALL LIGATURE OE / COMBINING CIRCUMFLEX ACCENT / COMBINING BREVE	+	
 ultra-short rounded open-mid front vowel	vowel	œ̆	LATIN SMALL LIGATURE OE / COMBINING BREVE	+	
 ultra-short rounded open-mid central vowel	vowel	ɞ̆	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING BREVE	+	
 ultra-short rounded open-mid back vowel	vowel	ɔ̆	LATIN SMALL LETTER OPEN O / COMBINING BREVE	+	
@@ -1449,25 +1479,42 @@ short from-mid-high tone	tone	⁴	SUPERSCRIPT FOUR
 short from-mid tone	tone	³	SUPERSCRIPT THREE		
 short from-low tone	tone	¹	SUPERSCRIPT ONE		
 short from-high tone	tone	⁵	SUPERSCRIPT FIVE		
+rounded open-mid front with_falling_tone vowel	vowel	œ̂	LATIN SMALL LIGATURE OE / COMBINING CIRCUMFLEX ACCENT	+	
 rounded open-mid front vowel	vowel	œ	LATIN SMALL LIGATURE OE		
 rounded open-mid central vowel	vowel	ɞ	LATIN SMALL LETTER CLOSED REVERSED OPEN E		
+rounded open-mid back with_falling_tone vowel	vowel	ɔ̂	LATIN SMALL LETTER OPEN O / COMBINING CIRCUMFLEX ACCENT	+	
 rounded open-mid back vowel	vowel	ɔ	LATIN SMALL LETTER OPEN O		
 rounded open front vowel	vowel	ɶ	LATIN LETTER SMALL CAPITAL OE		
 rounded open back vowel	vowel	ɒ	LATIN SMALL LETTER TURNED ALPHA		
 rounded near-open central vowel	vowel	ɞ̞	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING DOWN TACK BELOW		
+rounded near-close near-front with_rising_tone vowel	vowel	ʏ̌	LATIN LETTER SMALL CAPITAL Y / COMBINING CARON	+	
+rounded near-close near-front with_falling_tone vowel	vowel	ʏ̂	LATIN LETTER SMALL CAPITAL Y / COMBINING CIRCUMFLEX ACCENT	+	
 rounded near-close near-front vowel	vowel	ʏ	LATIN LETTER SMALL CAPITAL Y		
+rounded near-close near-back with_rising_tone vowel	vowel	ʊ̌	LATIN SMALL LETTER UPSILON / COMBINING CARON	+	
+rounded near-close near-back with_mid_tone vowel	vowel	ʊ̄	LATIN SMALL LETTER UPSILON / COMBINING MACRON	+	
+rounded near-close near-back with_high_tone vowel	vowel	ʊ́	LATIN SMALL LETTER UPSILON / COMBINING ACUTE ACCENT	+	
+rounded near-close near-back with_falling_tone vowel	vowel	ʊ̂	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT	+	
 rounded near-close near-back vowel	vowel	ʊ	LATIN SMALL LETTER UPSILON		
 rounded near-close central vowel	vowel	ʊ̈	LATIN SMALL LETTER UPSILON / COMBINING DIAERESIS		
+rounded mid front with_falling_tone vowel	vowel	ø̞̂	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 rounded mid front vowel	vowel	ø̞	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW		
 rounded mid central vowel	vowel	ɵ̞	LATIN SMALL LETTER BARRED O / COMBINING DOWN TACK BELOW		
+rounded mid back with_falling_tone vowel	vowel	ô̞	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 rounded mid back vowel	vowel	o̞	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW		
+rounded close-mid front with_falling_tone vowel	vowel	ø̂	LATIN SMALL LETTER O WITH STROKE / COMBINING CIRCUMFLEX ACCENT	+	
 rounded close-mid front vowel	vowel	ø	LATIN SMALL LETTER O WITH STROKE		
 rounded close-mid central vowel	vowel	ɵ	LATIN SMALL LETTER BARRED O		
+rounded close-mid back with_low_tone vowel	vowel	ò	LATIN SMALL LETTER O / COMBINING GRAVE ACCENT	+	
+rounded close-mid back with_high_tone vowel	vowel	ó	LATIN SMALL LETTER O / COMBINING ACUTE ACCENT	+	
+rounded close-mid back with_falling_tone vowel	vowel	ô	LATIN SMALL LETTER O / COMBINING CIRCUMFLEX ACCENT	+	
 rounded close-mid back vowel	vowel	o	LATIN SMALL LETTER O		
 rounded close with-frication central vowel	vowel	ʯ	LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL		
 rounded close with-frication back vowel	vowel	ʮ	LATIN SMALL LETTER TURNED H WITH FISHHOOK		
+rounded close front with_falling_tone vowel	vowel	ŷ	LATIN SMALL LETTER Y / COMBINING CIRCUMFLEX ACCENT	+	
 rounded close front vowel	vowel	y	LATIN SMALL LETTER Y		
 rounded close central vowel	vowel	ʉ	LATIN SMALL LETTER U BAR		
+rounded close back with_high_tone vowel	vowel	ú	LATIN SMALL LETTER U / COMBINING ACUTE ACCENT	+	
+rounded close back with_falling_tone vowel	vowel	û	LATIN SMALL LETTER U / COMBINING CIRCUMFLEX ACCENT	+	
 rounded close back vowel	vowel	u	LATIN SMALL LETTER U		
 rising from-mid-low via-mid-low to-mid-high tone	tone	²²⁴	SUPERSCRIPT TWO / SUPERSCRIPT TWO / SUPERSCRIPT FOUR		
 rising from-mid-low via-mid-low to-mid tone	tone	²²³	SUPERSCRIPT TWO / SUPERSCRIPT TWO / SUPERSCRIPT THREE		
@@ -1530,13 +1577,20 @@ rhotacized rounded close back vowel	vowel	u˞	LATIN SMALL LETTER U / MODIFIER LE
 rhotacized pharyngealized unrounded open front vowel	vowel	a˞ˤ	LATIN SMALL LETTER A / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 rhotacized pharyngealized unrounded close front vowel	vowel	i˞ˤ	LATIN SMALL LETTER I / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 rhotacized pharyngealized rounded close back vowel	vowel	u˞ˤ	LATIN SMALL LETTER U / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
+rhotacized non-syllabic unrounded open-mid central vowel	vowel	ɜ̯˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized non-syllabic unrounded mid central vowel	vowel	ə̯˞	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized non-syllabic nasalized unrounded open-mid central vowel	vowel	ɜ̯̃˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized non-syllabic nasalized unrounded mid central vowel	vowel	ə̯̃˞	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized non-syllabic nasalized devoiced unrounded open-mid central vowel	vowel	ɜ̥̯̃˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized non-syllabic nasalized devoiced unrounded mid central vowel	vowel	ə̥̯̃˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized non-syllabic devoiced unrounded open-mid central vowel	vowel	ɜ̥̯˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized non-syllabic devoiced unrounded mid central vowel	vowel	ə̥̯˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized nasalized unrounded open-mid central vowel	vowel	ɜ̃˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized nasalized unrounded open back vowel	vowel	ɑ̃˞	LATIN SMALL LETTER ALPHA / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized nasalized unrounded mid central vowel	vowel	ə̃˞	LATIN SMALL LETTER SCHWA / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized nasalized devoiced unrounded open-mid central vowel	vowel	ɜ̥̃˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized nasalized devoiced unrounded mid central vowel	vowel	ə̥̃˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK	+	
+rhotacized devoiced unrounded open-mid central vowel	vowel	ɜ̥˞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized devoiced unrounded mid central vowel	vowel	ə̥˞	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / MODIFIER LETTER RHOTIC HOOK	+	
 rhotacized advanced unrounded open front vowel	vowel	a˞̟	LATIN SMALL LETTER A / MODIFIER LETTER RHOTIC HOOK / COMBINING PLUS SIGN BELOW	+	
 revoiced voiceless velar fricative consonant	consonant	x̬	LATIN SMALL LETTER X / COMBINING CARON BELOW	+	
@@ -1693,6 +1747,7 @@ retracted voiced alveolar click consonant	consonant	gǃ̠	LATIN SMALL LETTER G /
 retracted unrounded open-mid front vowel	vowel	ɛ̠	LATIN SMALL LETTER OPEN E / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open-mid central vowel	vowel	ɜ̠	LATIN SMALL LETTER REVERSED OPEN E / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open-mid back vowel	vowel	ʌ̠	LATIN SMALL LETTER TURNED V / COMBINING MINUS SIGN BELOW	+	
+retracted unrounded open front with_falling_tone vowel	vowel	â̠	LATIN SMALL LETTER A / COMBINING CIRCUMFLEX ACCENT / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open front vowel	vowel	a̠	LATIN SMALL LETTER A / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded open back vowel	vowel	ɑ̠	LATIN SMALL LETTER ALPHA / COMBINING MINUS SIGN BELOW	+	
 retracted unrounded near-open front vowel	vowel	æ̠	LATIN SMALL LETTER AE / COMBINING MINUS SIGN BELOW	+	
@@ -1828,15 +1883,19 @@ raised voiced alveolar lateral fricative consonant	consonant	ɮ̝	LATIN SMALL LE
 raised voiced alveolar lateral approximant consonant	consonant	l̝	LATIN SMALL LETTER L / COMBINING UP TACK BELOW	+	
 raised voiced alveolar approximant consonant	consonant	ɹ̝	LATIN SMALL LETTER TURNED R / COMBINING UP TACK BELOW	+	
 raised velarized voiced alveolar lateral approximant consonant	consonant	l̝ˠ	LATIN SMALL LETTER L / COMBINING UP TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
+raised unrounded open-mid front with_falling_tone vowel	vowel	ɛ̝̂	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised unrounded open-mid front vowel	vowel	ɛ̝	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid central vowel	vowel	ɜ̝	LATIN SMALL LETTER REVERSED OPEN E / COMBINING UP TACK BELOW	+	
 raised unrounded open-mid back vowel	vowel	ʌ̝	LATIN SMALL LETTER TURNED V / COMBINING UP TACK BELOW	+	
 raised unrounded open front vowel	vowel	a̝	LATIN SMALL LETTER A / COMBINING UP TACK BELOW	+	
 raised unrounded open back vowel	vowel	ɑ̝	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW	+	
+raised unrounded near-open front with_rising_tone vowel	vowel	æ̝̌	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING CARON	+	
+raised unrounded near-open front with_falling_tone vowel	vowel	æ̝̂	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised unrounded near-open front vowel	vowel	æ̝	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW	+	
 raised unrounded near-open central vowel	vowel	ɐ̝	LATIN SMALL LETTER TURNED A / COMBINING UP TACK BELOW	+	
 raised unrounded near-close near-front vowel	vowel	ɪ̝	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW	+	
 raised unrounded mid central vowel	vowel	ə̝	LATIN SMALL LETTER SCHWA / COMBINING UP TACK BELOW	+	
+raised unrounded close-mid front with_falling_tone vowel	vowel	ê̝	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised unrounded close-mid front vowel	vowel	e̝	LATIN SMALL LETTER E / COMBINING UP TACK BELOW	+	
 raised unrounded close-mid central vowel	vowel	ɘ̝	LATIN SMALL LETTER REVERSED E / COMBINING UP TACK BELOW	+	
 raised unrounded close-mid back vowel	vowel	ɤ̝	LATIN SMALL LETTER RAMS HORN / COMBINING UP TACK BELOW	+	
@@ -1848,10 +1907,13 @@ raised rounded open-mid central vowel	vowel	ɞ̝	LATIN SMALL LETTER CLOSED REVER
 raised rounded open-mid back vowel	vowel	ɔ̝	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW	+	
 raised rounded open front vowel	vowel	ɶ̝	LATIN LETTER SMALL CAPITAL OE / COMBINING UP TACK BELOW	+	
 raised rounded open back vowel	vowel	ɒ̝	LATIN SMALL LETTER TURNED ALPHA / COMBINING UP TACK BELOW	+	
+raised rounded near-close near-front with_falling_tone vowel	vowel	ʏ̝̂	LATIN LETTER SMALL CAPITAL Y / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised rounded near-close near-front vowel	vowel	ʏ̝	LATIN LETTER SMALL CAPITAL Y / COMBINING UP TACK BELOW	+	
+raised rounded near-close near-back with_falling_tone vowel	vowel	ʊ̝̂	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised rounded near-close near-back vowel	vowel	ʊ̝	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW	+	
 raised rounded close-mid front vowel	vowel	ø̝	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW	+	
 raised rounded close-mid central vowel	vowel	ɵ̝	LATIN SMALL LETTER BARRED O / COMBINING UP TACK BELOW	+	
+raised rounded close-mid back with_falling_tone vowel	vowel	ô̝	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 raised rounded close-mid back vowel	vowel	o̝	LATIN SMALL LETTER O / COMBINING UP TACK BELOW	+	
 raised rounded close front vowel	vowel	y̝	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW	+	
 raised rounded close central vowel	vowel	ʉ̝	LATIN SMALL LETTER U BAR / COMBINING UP TACK BELOW	+	
@@ -1902,6 +1964,7 @@ pre-nasalized voiced post-alveolar affricate consonant	consonant	ⁿdʒ	SUPERSCR
 pre-nasalized voiced palatal stop consonant	consonant	ⁿɟ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER DOTLESS J WITH STROKE		
 pre-nasalized voiced palatal nasal consonant	consonant	ⁿɲ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER N WITH LEFT HOOK	+	
 pre-nasalized voiced palatal click consonant	consonant	ⁿgǂ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER ALVEOLAR CLICK		
+pre-nasalized voiced linguolabial stop consonant	consonant	ⁿd̼	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER D / COMBINING SEAGULL BELOW		
 pre-nasalized voiced lateral click consonant	consonant	ⁿgǁ	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER G / LATIN LETTER LATERAL CLICK		
 pre-nasalized voiced labio-velar approximant consonant	consonant	ⁿw	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER W	+	
 pre-nasalized voiced labio-dental fricative consonant	consonant	ⁿv	SUPERSCRIPT LATIN SMALL LETTER N / LATIN SMALL LETTER V	+	
@@ -3882,6 +3945,7 @@ more-rounded unrounded close with-frication central vowel	vowel	ʅ̹	LATIN SMALL
 more-rounded unrounded close with-frication back vowel	vowel	ɿ̹	LATIN SMALL LETTER REVERSED R WITH FISHHOOK / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded unrounded close central vowel	vowel	ɨ̹	LATIN SMALL LETTER I WITH STROKE / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded open-mid back vowel	vowel	ɔ̹	LATIN SMALL LETTER OPEN O / COMBINING RIGHT HALF RING BELOW	+	
+more-rounded rounded close-mid back with_falling_tone vowel	vowel	ô̹	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 more-rounded rounded close-mid back vowel	vowel	o̹	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded close front vowel	vowel	y̹	LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW	+	
 more-rounded rounded close back vowel	vowel	u̹	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW	+	
@@ -3898,52 +3962,86 @@ mid-long voiced bilabial nasal consonant	consonant	mˑ	LATIN SMALL LETTER M / MO
 mid-long voiced alveolar sibilant fricative consonant	consonant	zˑ	LATIN SMALL LETTER Z / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long voiced alveolar nasal consonant	consonant	nˑ	LATIN SMALL LETTER N / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long voiced alveolar lateral approximant consonant	consonant	lˑ	LATIN SMALL LETTER L / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded open-mid front with_rising_tone vowel	vowel	ɛ̌ˑ	LATIN SMALL LETTER OPEN E / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded open-mid front with_falling_tone vowel	vowel	ɛ̂ˑ	LATIN SMALL LETTER OPEN E / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open-mid front vowel	vowel	ɛˑ	LATIN SMALL LETTER OPEN E / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded open front with_falling_tone vowel	vowel	âˑ	LATIN SMALL LETTER A / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open front vowel	vowel	aˑ	LATIN SMALL LETTER A / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long unrounded open back with_rising_tone vowel	vowel	ɑ̌ˑ	LATIN SMALL LETTER ALPHA / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded open back with_falling_tone vowel	vowel	ɑ̂ˑ	LATIN SMALL LETTER ALPHA / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded open back vowel	vowel	ɑˑ	LATIN SMALL LETTER ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded near-open front with_falling_tone vowel	vowel	æ̂ˑ	LATIN SMALL LETTER AE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded near-open front vowel	vowel	æˑ	LATIN SMALL LETTER AE / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̂ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded near-close near-front vowel	vowel	ɪˑ	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded mid front with_falling_tone vowel	vowel	ê̞ˑ	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded mid front vowel	vowel	e̞ˑ	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded mid central vowel	vowel	əˑ	LATIN SMALL LETTER SCHWA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded close-mid front with_falling_tone vowel	vowel	êˑ	LATIN SMALL LETTER E / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded close-mid front vowel	vowel	eˑ	LATIN SMALL LETTER E / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded close-mid back vowel	vowel	ɤˑ	LATIN SMALL LETTER RAMS HORN / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded close front with_rising_tone vowel	vowel	ǐˑ	LATIN SMALL LETTER I / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long unrounded close front with_falling_tone vowel	vowel	îˑ	LATIN SMALL LETTER I / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long unrounded close front vowel	vowel	iˑ	LATIN SMALL LETTER I / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long unrounded close back vowel	vowel	ɯˑ	LATIN SMALL LETTER TURNED M / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open-mid front with_falling_tone vowel	vowel	œ̂ˑ	LATIN SMALL LIGATURE OE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded open-mid front vowel	vowel	œˑ	LATIN SMALL LIGATURE OE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open-mid back with_rising_tone vowel	vowel	ɔ̌ˑ	LATIN SMALL LETTER OPEN O / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded open-mid back with_falling_tone vowel	vowel	ɔ̂ˑ	LATIN SMALL LETTER OPEN O / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded open-mid back vowel	vowel	ɔˑ	LATIN SMALL LETTER OPEN O / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded open back vowel	vowel	ɒˑ	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded near-close near-front with_falling_tone vowel	vowel	ʏ̂ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded near-close near-front vowel	vowel	ʏˑ	LATIN LETTER SMALL CAPITAL Y / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded near-close near-back with_falling_tone vowel	vowel	ʊ̂ˑ	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded near-close near-back vowel	vowel	ʊˑ	LATIN SMALL LETTER UPSILON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded mid front with_falling_tone vowel	vowel	ø̞̂ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded mid front vowel	vowel	ø̞ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded mid back with_falling_tone vowel	vowel	ô̞ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded mid back vowel	vowel	o̞ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded close-mid front with_falling_tone vowel	vowel	ø̂ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded close-mid front vowel	vowel	øˑ	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long rounded close-mid back with_rising_tone vowel	vowel	ǒˑ	LATIN SMALL LETTER O / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded close-mid back with_falling_tone vowel	vowel	ôˑ	LATIN SMALL LETTER O / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded close-mid back vowel	vowel	oˑ	LATIN SMALL LETTER O / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long rounded close front with_falling_tone vowel	vowel	ŷˑ	LATIN SMALL LETTER Y / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded close front vowel	vowel	yˑ	LATIN SMALL LETTER Y / MODIFIER LETTER HALF TRIANGULAR COLON		
+mid-long rounded close back with_rising_tone vowel	vowel	ǔˑ	LATIN SMALL LETTER U / COMBINING CARON / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long rounded close back with_falling_tone vowel	vowel	ûˑ	LATIN SMALL LETTER U / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long rounded close back vowel	vowel	uˑ	LATIN SMALL LETTER U / MODIFIER LETTER HALF TRIANGULAR COLON		
 mid-long retracted unrounded open-mid front vowel	vowel	ɛˑ̠	LATIN SMALL LETTER OPEN E / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+mid-long retracted unrounded open front with_falling_tone vowel	vowel	âˑ̠	LATIN SMALL LETTER A / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted unrounded open front vowel	vowel	aˑ̠	LATIN SMALL LETTER A / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted unrounded open back vowel	vowel	ɑˑ̠	LATIN SMALL LETTER ALPHA / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted unrounded near-open front vowel	vowel	æˑ̠	LATIN SMALL LETTER AE / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted unrounded mid central vowel	vowel	əˑ̠	LATIN SMALL LETTER SCHWA / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted rounded open-mid front vowel	vowel	œˑ̠	LATIN SMALL LIGATURE OE / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted rounded open-mid back vowel	vowel	ɔˑ̠	LATIN SMALL LETTER OPEN O / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+mid-long retracted rounded near-close near-back with_falling_tone vowel	vowel	ʊ̂ˑ̠	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted rounded near-close near-back vowel	vowel	ʊˑ̠	LATIN SMALL LETTER UPSILON / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted rounded close-mid front vowel	vowel	øˑ̠	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+mid-long retracted rounded close-mid back with_falling_tone vowel	vowel	ôˑ̠	LATIN SMALL LETTER O / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted rounded close front vowel	vowel	yˑ̠	LATIN SMALL LETTER Y / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted more-rounded unrounded open back vowel	vowel	ɑ̹ˑ̠	LATIN SMALL LETTER ALPHA / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 mid-long retracted less-rounded rounded near-close near-front vowel	vowel	ʏ̜ˑ̠	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+mid-long raised unrounded open-mid front with_falling_tone vowel	vowel	ɛ̝̂ˑ	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded open-mid front vowel	vowel	ɛ̝ˑ	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded open front vowel	vowel	a̝ˑ	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded open back vowel	vowel	ɑ̝ˑ	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded near-open front with_falling_tone vowel	vowel	æ̝̂ˑ	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded near-open front vowel	vowel	æ̝ˑ	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̝̂ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded near-close near-front vowel	vowel	ɪ̝ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised unrounded close-mid front with_falling_tone vowel	vowel	ê̝ˑ	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded close-mid front vowel	vowel	e̝ˑ	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised unrounded close front vowel	vowel	i̝ˑ	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded open-mid front with_falling_tone vowel	vowel	œ̝̂ˑ	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded open-mid front vowel	vowel	œ̝ˑ	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded open-mid back vowel	vowel	ɔ̝ˑ	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded near-close near-front vowel	vowel	ʏ̝ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded near-close near-back with_falling_tone vowel	vowel	ʊ̝̂ˑ	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded near-close near-back vowel	vowel	ʊ̝ˑ	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded close-mid front vowel	vowel	ø̝ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long raised rounded close-mid back with_falling_tone vowel	vowel	ô̝ˑ	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded close-mid back vowel	vowel	o̝ˑ	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised rounded close front vowel	vowel	y̝ˑ	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long raised nasalized unrounded open-mid front vowel	vowel	ɛ̝̃ˑ	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -3978,22 +4076,30 @@ mid-long more-rounded unrounded mid front vowel	vowel	e̞̹ˑ	LATIN SMALL LETTER
 mid-long more-rounded rounded open-mid front vowel	vowel	œ̹ˑ	LATIN SMALL LIGATURE OE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded open-mid back vowel	vowel	ɔ̹ˑ	LATIN SMALL LETTER OPEN O / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded near-close near-front vowel	vowel	ʏ̹ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close-mid front with_falling_tone vowel	vowel	ø̹̂ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING RIGHT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded close-mid front vowel	vowel	ø̹ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long more-rounded rounded close-mid back with_falling_tone vowel	vowel	ô̹ˑ	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded close-mid back vowel	vowel	o̹ˑ	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded close front vowel	vowel	y̹ˑ	LATIN SMALL LETTER Y / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded rounded close back vowel	vowel	u̹ˑ	LATIN SMALL LETTER U / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long more-rounded nasalized rounded close-mid back vowel	vowel	õ̹ˑ	LATIN SMALL LETTER O / COMBINING RIGHT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded open-mid front with_falling_tone vowel	vowel	ɛ̞̂ˑ	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded open-mid front vowel	vowel	ɛ̞ˑ	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded open front vowel	vowel	a̞ˑ	LATIN SMALL LETTER A / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded open back vowel	vowel	ɑ̞ˑ	LATIN SMALL LETTER ALPHA / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded near-open front vowel	vowel	æ̞ˑ	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̞̂ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded near-close near-front vowel	vowel	ɪ̞ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered unrounded close front with_falling_tone vowel	vowel	î̞ˑ	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered unrounded close front vowel	vowel	i̞ˑ	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded open-mid front vowel	vowel	œ̞ˑ	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded open-mid back with_falling_tone vowel	vowel	ɔ̞̂ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded open-mid back vowel	vowel	ɔ̞ˑ	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded near-close near-front vowel	vowel	ʏ̞ˑ	LATIN LETTER SMALL CAPITAL Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded near-close near-back vowel	vowel	ʊ̞ˑ	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded close front with_falling_tone vowel	vowel	ŷ̞ˑ	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded close front vowel	vowel	y̞ˑ	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long lowered rounded close back with_falling_tone vowel	vowel	û̞ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered rounded close back vowel	vowel	u̞ˑ	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered nasalized unrounded open-mid front vowel	vowel	ɛ̞̃ˑ	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long lowered nasalized unrounded near-close near-front vowel	vowel	ɪ̞̃ˑ	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -4012,7 +4118,9 @@ mid-long less-rounded rounded near-close near-back vowel	vowel	ʊ̜ˑ	LATIN SMAL
 mid-long less-rounded rounded mid back vowel	vowel	o̞̜ˑ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded close-mid front vowel	vowel	ø̜ˑ	LATIN SMALL LETTER O WITH STROKE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded close-mid back vowel	vowel	o̜ˑ	LATIN SMALL LETTER O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close front with_falling_tone vowel	vowel	ŷ̜ˑ	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded close front vowel	vowel	y̜ˑ	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
+mid-long less-rounded rounded close back with_falling_tone vowel	vowel	û̜ˑ	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded rounded close back vowel	vowel	u̜ˑ	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long less-rounded nasalized rounded open-mid back vowel	vowel	ɔ̜̃ˑ	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING TILDE / MODIFIER LETTER HALF TRIANGULAR COLON	+	
 mid-long devoiced unrounded close front vowel	vowel	i̥ˑ	LATIN SMALL LETTER I / COMBINING RING BELOW / MODIFIER LETTER HALF TRIANGULAR COLON	+	
@@ -4097,6 +4205,7 @@ lowered voiced alveolar lateral fricative consonant	consonant	ɮ̞	LATIN SMALL L
 lowered voiced alveolar lateral approximant consonant	consonant	l̞	LATIN SMALL LETTER L / COMBINING DOWN TACK BELOW	+	
 lowered voiced alveolar approximant consonant	consonant	ɹ̞	LATIN SMALL LETTER TURNED R / COMBINING DOWN TACK BELOW	+	
 lowered velarized voiced alveolar lateral approximant consonant	consonant	l̞ˠ	LATIN SMALL LETTER L / COMBINING DOWN TACK BELOW / MODIFIER LETTER SMALL GAMMA	+	
+lowered unrounded open-mid front with_falling_tone vowel	vowel	ɛ̞̂	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 lowered unrounded open-mid front vowel	vowel	ɛ̞	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid central vowel	vowel	ɜ̞	LATIN SMALL LETTER REVERSED OPEN E / COMBINING DOWN TACK BELOW	+	
 lowered unrounded open-mid back vowel	vowel	ʌ̞	LATIN SMALL LETTER TURNED V / COMBINING DOWN TACK BELOW	+	
@@ -4104,9 +4213,11 @@ lowered unrounded open front vowel	vowel	a̞	LATIN SMALL LETTER A / COMBINING DO
 lowered unrounded open back vowel	vowel	ɑ̞	LATIN SMALL LETTER ALPHA / COMBINING DOWN TACK BELOW	+	
 lowered unrounded near-open front vowel	vowel	æ̞	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW	+	
 lowered unrounded near-open central vowel	vowel	ɐ̞	LATIN SMALL LETTER TURNED A / COMBINING DOWN TACK BELOW	+	
+lowered unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̞̂	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 lowered unrounded near-close near-front vowel	vowel	ɪ̞	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW	+	
 lowered unrounded mid central vowel	vowel	ə̞	LATIN SMALL LETTER SCHWA / COMBINING DOWN TACK BELOW	+	
 lowered unrounded close-mid central vowel	vowel	ɘ̞	LATIN SMALL LETTER REVERSED E / COMBINING DOWN TACK BELOW	+	
+lowered unrounded close front with_falling_tone vowel	vowel	î̞	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 lowered unrounded close front vowel	vowel	i̞	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW	+	
 lowered unrounded close central vowel	vowel	ɨ̞	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW	+	
 lowered unrounded close back vowel	vowel	ɯ̞	LATIN SMALL LETTER TURNED M / COMBINING DOWN TACK BELOW	+	
@@ -4121,6 +4232,7 @@ lowered rounded near-close near-front vowel	vowel	ʏ̞	LATIN LETTER SMALL CAPITA
 lowered rounded near-close near-back vowel	vowel	ʊ̞	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW	+	
 lowered rounded close front vowel	vowel	y̞	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW	+	
 lowered rounded close central vowel	vowel	ʉ̞	LATIN SMALL LETTER U BAR / COMBINING DOWN TACK BELOW	+	
+lowered rounded close back with_falling_tone vowel	vowel	û̞	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT	+	
 lowered rounded close back vowel	vowel	u̞	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW	+	
 lowered nasalized unrounded near-open front vowel	vowel	æ̞̃	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
 lowered nasalized unrounded near-close near-front vowel	vowel	ɪ̞̃	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING TILDE	+	
@@ -4318,44 +4430,62 @@ long velarized rounded close-mid central vowel	vowel	ɵˠː	LATIN SMALL LETTER B
 long velarized rounded close-mid back vowel	vowel	oˠː	LATIN SMALL LETTER O / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 long velarized rounded close front vowel	vowel	yˠː	LATIN SMALL LETTER Y / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
 long velarized rounded close central vowel	vowel	ʉˠː	LATIN SMALL LETTER U BAR / MODIFIER LETTER SMALL GAMMA / MODIFIER LETTER TRIANGULAR COLON	+	
+long unrounded open-mid front with_falling_tone vowel	vowel	ɛ̂ː	LATIN SMALL LETTER OPEN E / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded open-mid front vowel	vowel	ɛː	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded open-mid central vowel	vowel	ɜː	LATIN SMALL LETTER REVERSED OPEN E / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded open-mid back vowel	vowel	ʌː	LATIN SMALL LETTER TURNED V / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded open front with_falling_tone vowel	vowel	âː	LATIN SMALL LETTER A / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded open front vowel	vowel	aː	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded open back with_falling_tone vowel	vowel	ɑ̂ː	LATIN SMALL LETTER ALPHA / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded open back vowel	vowel	ɑː	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded near-open front vowel	vowel	æː	LATIN SMALL LETTER AE / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded near-open central vowel	vowel	ɐː	LATIN SMALL LETTER TURNED A / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̂ː	LATIN LETTER SMALL CAPITAL I / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded near-close near-front vowel	vowel	ɪː	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded near-close near-back vowel	vowel	ɯ̽ː	LATIN SMALL LETTER TURNED M / COMBINING X ABOVE / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded near-close central vowel	vowel	ɪ̈ː	LATIN LETTER SMALL CAPITAL I / COMBINING DIAERESIS / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded mid front with_falling_tone vowel	vowel	ê̞ː	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded mid front vowel	vowel	e̞ː	LATIN SMALL LETTER E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded mid central vowel	vowel	əː	LATIN SMALL LETTER SCHWA / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded mid back vowel	vowel	ɤ̞ː	LATIN SMALL LETTER RAMS HORN / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded close-mid front with_rising_tone vowel	vowel	ěː	LATIN SMALL LETTER E / COMBINING CARON / MODIFIER LETTER TRIANGULAR COLON	+	
+long unrounded close-mid front with_falling_tone vowel	vowel	êː	LATIN SMALL LETTER E / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded close-mid front vowel	vowel	eː	LATIN SMALL LETTER E / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded close-mid central vowel	vowel	ɘː	LATIN SMALL LETTER REVERSED E / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded close-mid back vowel	vowel	ɤː	LATIN SMALL LETTER RAMS HORN / MODIFIER LETTER TRIANGULAR COLON		
+long unrounded close front with_falling_tone vowel	vowel	îː	LATIN SMALL LETTER I / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long unrounded close front vowel	vowel	iː	LATIN SMALL LETTER I / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded close central vowel	vowel	ɨː	LATIN SMALL LETTER I WITH STROKE / MODIFIER LETTER TRIANGULAR COLON		
 long unrounded close back vowel	vowel	ɯː	LATIN SMALL LETTER TURNED M / MODIFIER LETTER TRIANGULAR COLON		
+long rounded open-mid front with_falling_tone vowel	vowel	œ̂ː	LATIN SMALL LIGATURE OE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded open-mid front vowel	vowel	œː	LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON		
 long rounded open-mid central vowel	vowel	ɞː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / MODIFIER LETTER TRIANGULAR COLON		
+long rounded open-mid back with_falling_tone vowel	vowel	ɔ̂ː	LATIN SMALL LETTER OPEN O / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded open-mid back vowel	vowel	ɔː	LATIN SMALL LETTER OPEN O / MODIFIER LETTER TRIANGULAR COLON		
 long rounded open front vowel	vowel	ɶː	LATIN LETTER SMALL CAPITAL OE / MODIFIER LETTER TRIANGULAR COLON		
 long rounded open back vowel	vowel	ɒː	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON		
 long rounded near-open central vowel	vowel	ɞ̞ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
+long rounded near-close near-front with_falling_tone vowel	vowel	ʏ̂ː	LATIN LETTER SMALL CAPITAL Y / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded near-close near-front vowel	vowel	ʏː	LATIN LETTER SMALL CAPITAL Y / MODIFIER LETTER TRIANGULAR COLON		
+long rounded near-close near-back with_falling_tone vowel	vowel	ʊ̂ː	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded near-close near-back vowel	vowel	ʊː	LATIN SMALL LETTER UPSILON / MODIFIER LETTER TRIANGULAR COLON		
 long rounded near-close central vowel	vowel	ʊ̈ː	LATIN SMALL LETTER UPSILON / COMBINING DIAERESIS / MODIFIER LETTER TRIANGULAR COLON		
 long rounded mid front vowel	vowel	ø̞ː	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
 long rounded mid central vowel	vowel	ɵ̞ː	LATIN SMALL LETTER BARRED O / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
+long rounded mid back with_falling_tone vowel	vowel	ô̞ː	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded mid back vowel	vowel	o̞ː	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON		
+long rounded close-mid front with_falling_tone vowel	vowel	ø̂ː	LATIN SMALL LETTER O WITH STROKE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded close-mid front vowel	vowel	øː	LATIN SMALL LETTER O WITH STROKE / MODIFIER LETTER TRIANGULAR COLON		
 long rounded close-mid central vowel	vowel	ɵː	LATIN SMALL LETTER BARRED O / MODIFIER LETTER TRIANGULAR COLON		
+long rounded close-mid back with_falling_tone vowel	vowel	ôː	LATIN SMALL LETTER O / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded close-mid back vowel	vowel	oː	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON		
 long rounded close with-frication back vowel	vowel	ʮː	LATIN SMALL LETTER TURNED H WITH FISHHOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rounded close front with_falling_tone vowel	vowel	ŷː	LATIN SMALL LETTER Y / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded close front vowel	vowel	yː	LATIN SMALL LETTER Y / MODIFIER LETTER TRIANGULAR COLON		
 long rounded close central vowel	vowel	ʉː	LATIN SMALL LETTER U BAR / MODIFIER LETTER TRIANGULAR COLON		
+long rounded close back with_falling_tone vowel	vowel	ûː	LATIN SMALL LETTER U / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long rounded close back vowel	vowel	uː	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON		
+long rhotacized unrounded open-mid central vowel	vowel	ɜ˞ː	LATIN SMALL LETTER REVERSED OPEN E / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized unrounded open front vowel	vowel	a˞ː	LATIN SMALL LETTER A / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized unrounded open back vowel	vowel	ɑ˞ː	LATIN SMALL LETTER ALPHA / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized unrounded near-close near-front vowel	vowel	ɪ˞ː	LATIN LETTER SMALL CAPITAL I / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4365,12 +4495,19 @@ long rhotacized rounded open-mid back vowel	vowel	ɔ˞ː	LATIN SMALL LETTER OPEN
 long rhotacized rounded close front vowel	vowel	y˞ː	LATIN SMALL LETTER Y / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized pharyngealized unrounded close front vowel	vowel	i˞ˤː	LATIN SMALL LETTER I / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized pharyngealized rounded close back vowel	vowel	u˞ˤː	LATIN SMALL LETTER U / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized non-syllabic unrounded open-mid central vowel	vowel	ɜ̯˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized non-syllabic unrounded mid central vowel	vowel	ə̯˞ː	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized non-syllabic nasalized unrounded open-mid central vowel	vowel	ɜ̯̃˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized non-syllabic nasalized unrounded mid central vowel	vowel	ə̯̃˞ː	LATIN SMALL LETTER SCHWA / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized non-syllabic nasalized devoiced unrounded open-mid central vowel	vowel	ɜ̥̯̃˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized non-syllabic nasalized devoiced unrounded mid central vowel	vowel	ə̥̯̃˞ː	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized non-syllabic devoiced unrounded open-mid central vowel	vowel	ɜ̥̯˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized non-syllabic devoiced unrounded mid central vowel	vowel	ə̥̯˞ː	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING INVERTED BREVE BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized nasalized unrounded open-mid central vowel	vowel	ɜ̃˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized nasalized unrounded mid central vowel	vowel	ə̃˞ː	LATIN SMALL LETTER SCHWA / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized nasalized devoiced unrounded open-mid central vowel	vowel	ɜ̥̃˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized nasalized devoiced unrounded mid central vowel	vowel	ə̥̃˞ː	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / COMBINING TILDE / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
+long rhotacized devoiced unrounded open-mid central vowel	vowel	ɜ̥˞ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RING BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long rhotacized devoiced unrounded mid central vowel	vowel	ə̥˞ː	LATIN SMALL LETTER SCHWA / COMBINING RING BELOW / MODIFIER LETTER RHOTIC HOOK / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted-tongue-root unrounded open-mid front vowel	vowel	ɛ̙ː	LATIN SMALL LETTER OPEN E / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted-tongue-root unrounded open-mid central vowel	vowel	ɜ̙ː	LATIN SMALL LETTER REVERSED OPEN E / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4402,6 +4539,7 @@ long retracted-tongue-root rounded close central vowel	vowel	ʉ̙ː	LATIN SMALL 
 long retracted-tongue-root rounded close back vowel	vowel	u̙ː	LATIN SMALL LETTER U / COMBINING RIGHT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long retracted unrounded open-mid front vowel	vowel	ɛː̠	LATIN SMALL LETTER OPEN E / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted unrounded open front vowel	vowel	aː̠	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+long retracted unrounded open back with_falling_tone vowel	vowel	ɑ̂ː̠	LATIN SMALL LETTER ALPHA / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted unrounded open back vowel	vowel	ɑː̠	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted rounded open-mid front vowel	vowel	œː̠	LATIN SMALL LIGATURE OE / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted rounded open-mid central vowel	vowel	ɞː̠	LATIN SMALL LETTER CLOSED REVERSED OPEN E / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
@@ -4410,17 +4548,23 @@ long retracted rounded near-close near-back vowel	vowel	ʊː̠	LATIN SMALL LETTE
 long retracted rounded close-mid back vowel	vowel	oː̠	LATIN SMALL LETTER O / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted rounded close back vowel	vowel	uː̠	LATIN SMALL LETTER U / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
 long retracted nasalized rounded close back vowel	vowel	ũː̠	LATIN SMALL LETTER U / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON / COMBINING MINUS SIGN BELOW	+	
+long raised unrounded open-mid front with_falling_tone vowel	vowel	ɛ̝̂ː	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open-mid front vowel	vowel	ɛ̝ː	LATIN SMALL LETTER OPEN E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open front vowel	vowel	a̝ː	LATIN SMALL LETTER A / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded open back vowel	vowel	ɑ̝ː	LATIN SMALL LETTER ALPHA / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised unrounded near-open front with_falling_tone vowel	vowel	æ̝̂ː	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded near-open front vowel	vowel	æ̝ː	LATIN SMALL LETTER AE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded near-close near-front vowel	vowel	ɪ̝ː	LATIN LETTER SMALL CAPITAL I / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised unrounded close-mid front with_falling_tone vowel	vowel	ê̝ː	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded close-mid front vowel	vowel	e̝ː	LATIN SMALL LETTER E / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised unrounded close front vowel	vowel	i̝ː	LATIN SMALL LETTER I / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded open-mid front vowel	vowel	œ̝ː	LATIN SMALL LIGATURE OE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded open-mid back vowel	vowel	ɔ̝ː	LATIN SMALL LETTER OPEN O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded near-close near-front with_falling_tone vowel	vowel	ʏ̝̂ː	LATIN LETTER SMALL CAPITAL Y / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded near-close near-back with_falling_tone vowel	vowel	ʊ̝̂ː	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded near-close near-back vowel	vowel	ʊ̝ː	LATIN SMALL LETTER UPSILON / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close-mid front vowel	vowel	ø̝ː	LATIN SMALL LETTER O WITH STROKE / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long raised rounded close-mid back with_falling_tone vowel	vowel	ô̝ː	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close-mid back vowel	vowel	o̝ː	LATIN SMALL LETTER O / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close front vowel	vowel	y̝ː	LATIN SMALL LETTER Y / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long raised rounded close back vowel	vowel	u̝ː	LATIN SMALL LETTER U / COMBINING UP TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4594,6 +4738,7 @@ long nasalized rounded open front vowel	vowel	ɶ̃ː	LATIN LETTER SMALL CAPITAL 
 long nasalized rounded open back vowel	vowel	ɒ̃ː	LATIN SMALL LETTER TURNED ALPHA / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
 long nasalized rounded near-open central vowel	vowel	ɞ̞̃ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
 long nasalized rounded near-close near-front vowel	vowel	ʏ̃ː	LATIN LETTER SMALL CAPITAL Y / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
+long nasalized rounded near-close near-back with_falling_tone vowel	vowel	ʊ̃̂ː	LATIN SMALL LETTER UPSILON / COMBINING TILDE / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long nasalized rounded near-close near-back vowel	vowel	ʊ̃ː	LATIN SMALL LETTER UPSILON / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
 long nasalized rounded near-close central vowel	vowel	ʊ̈̃ː	LATIN SMALL LETTER UPSILON / COMBINING DIAERESIS / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
 long nasalized rounded mid front vowel	vowel	ø̞̃ː	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON		
@@ -4648,13 +4793,17 @@ long mid-centralized creaky unrounded close back vowel	vowel	ɯ̰ː̽	LATIN SMAL
 long lowered unrounded open-mid front vowel	vowel	ɛ̞ː	LATIN SMALL LETTER OPEN E / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded open front vowel	vowel	a̞ː	LATIN SMALL LETTER A / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded near-open front vowel	vowel	æ̞ː	LATIN SMALL LETTER AE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered unrounded near-close near-front with_falling_tone vowel	vowel	ɪ̞̂ː	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded near-close near-front vowel	vowel	ɪ̞ː	LATIN LETTER SMALL CAPITAL I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered unrounded close front with_falling_tone vowel	vowel	î̞ː	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded close front vowel	vowel	i̞ː	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered unrounded close central vowel	vowel	ɨ̞ː	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded open-mid front vowel	vowel	œ̞ː	LATIN SMALL LIGATURE OE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered rounded open-mid back with_falling_tone vowel	vowel	ɔ̞̂ː	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded open-mid back vowel	vowel	ɔ̞ː	LATIN SMALL LETTER OPEN O / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded near-close near-back vowel	vowel	ʊ̞ː	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded close front vowel	vowel	y̞ː	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered rounded close back with_falling_tone vowel	vowel	û̞ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered rounded close back vowel	vowel	u̞ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered nasalized unrounded close front vowel	vowel	ĩ̞ː	LATIN SMALL LETTER I / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered nasalized unrounded close central vowel	vowel	ɨ̞̃ː	LATIN SMALL LETTER I WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4662,8 +4811,10 @@ long lowered nasalized rounded open-mid back vowel	vowel	ɔ̞̃ː	LATIN SMALL LE
 long lowered nasalized rounded close front vowel	vowel	ỹ̞ː	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered nasalized rounded close back vowel	vowel	ũ̞ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING TILDE / MODIFIER LETTER TRIANGULAR COLON	+	
 long lowered more-rounded rounded close back vowel	vowel	u̞̹ː	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / COMBINING RIGHT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long lowered less-rounded rounded near-close near-back with_falling_tone vowel	vowel	ʊ̞̜̂ː	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid front vowel	vowel	œ̜ː	LATIN SMALL LIGATURE OE / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid central vowel	vowel	ɞ̜ː	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
+long less-rounded rounded open-mid back with_falling_tone vowel	vowel	ɔ̜̂ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded open-mid back vowel	vowel	ɔ̜ː	LATIN SMALL LETTER OPEN O / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded near-close near-front vowel	vowel	ʏ̜ː	LATIN LETTER SMALL CAPITAL Y / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long less-rounded rounded mid front vowel	vowel	ø̞̜ː	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
@@ -4947,6 +5098,7 @@ long advanced-tongue-root rounded close front vowel	vowel	y̘ː	LATIN SMALL LETT
 long advanced-tongue-root rounded close central vowel	vowel	ʉ̘ː	LATIN SMALL LETTER U BAR / COMBINING LEFT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced-tongue-root rounded close back vowel	vowel	u̘ː	LATIN SMALL LETTER U / COMBINING LEFT TACK BELOW / MODIFIER LETTER TRIANGULAR COLON	+	
 long advanced unrounded open front vowel	vowel	aː̟	LATIN SMALL LETTER A / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
+long advanced unrounded open back with_falling_tone vowel	vowel	ɑ̂ː̟	LATIN SMALL LETTER ALPHA / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced unrounded open back vowel	vowel	ɑː̟	LATIN SMALL LETTER ALPHA / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced unrounded close-mid back vowel	vowel	ɤː̟	LATIN SMALL LETTER RAMS HORN / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
 long advanced unrounded close central vowel	vowel	ɨː̟	LATIN SMALL LETTER I WITH STROKE / MODIFIER LETTER TRIANGULAR COLON / COMBINING PLUS SIGN BELOW	+	
@@ -4970,6 +5122,7 @@ less-rounded rounded mid front vowel	vowel	ø̞̜	LATIN SMALL LETTER O WITH STRO
 less-rounded rounded mid back vowel	vowel	o̞̜	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded close-mid back vowel	vowel	o̜	LATIN SMALL LETTER O / COMBINING LEFT HALF RING BELOW	+	
 less-rounded rounded close front vowel	vowel	y̜	LATIN SMALL LETTER Y / COMBINING LEFT HALF RING BELOW	+	
+less-rounded rounded close back with_rising_tone vowel	vowel	ǔ̜	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW / COMBINING CARON	+	
 less-rounded rounded close back vowel	vowel	u̜	LATIN SMALL LETTER U / COMBINING LEFT HALF RING BELOW	+	
 less-rounded creaky rounded open-mid central vowel	vowel	ɞ̜̰	LATIN SMALL LETTER CLOSED REVERSED OPEN E / COMBINING LEFT HALF RING BELOW / COMBINING TILDE BELOW	+	
 labio-palatalized voiceless velar stop consonant	consonant	kᶣ	LATIN SMALL LETTER K / MODIFIER LETTER SMALL TURNED H	+	
@@ -6883,6 +7036,7 @@ from unrounded near-open central to rounded close-mid back diphthong	diphthong	�
 from unrounded near-open central to rounded close central diphthong	diphthong	ɐʉ	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER U BAR	+	
 from unrounded near-open central to rounded close back diphthong	diphthong	ɐu	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER U	+	
 from unrounded near-open central to non-syllabic unrounded close front diphthong	diphthong	ɐi̯	LATIN SMALL LETTER TURNED A / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from unrounded near-close near-front with_falling_tone to ultra-short unrounded mid central diphthong	diphthong	ɪ̂ə̆	LATIN LETTER SMALL CAPITAL I / COMBINING CIRCUMFLEX ACCENT / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from unrounded near-close near-front to unrounded open-mid front diphthong	diphthong	ɪɛ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER OPEN E	+	
 from unrounded near-close near-front to unrounded open-mid central diphthong	diphthong	ɪɜ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER REVERSED OPEN E	+	
 from unrounded near-close near-front to unrounded open-mid back diphthong	diphthong	ɪʌ	LATIN LETTER SMALL CAPITAL I / LATIN SMALL LETTER TURNED V	+	
@@ -7096,6 +7250,7 @@ from rounded near-close near-front to rounded close front diphthong	diphthong	ʏ
 from rounded near-close near-front to rounded close central diphthong	diphthong	ʏʉ	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER U BAR	+	
 from rounded near-close near-front to rounded close back diphthong	diphthong	ʏu	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER U	+	
 from rounded near-close near-front to non-syllabic unrounded close front diphthong	diphthong	ʏi̯	LATIN LETTER SMALL CAPITAL Y / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
+from rounded near-close near-back with_falling_tone to ultra-short unrounded mid central diphthong	diphthong	ʊ̂ə̆	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from rounded near-close near-back to unrounded open-mid front diphthong	diphthong	ʊɛ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER OPEN E	+	
 from rounded near-close near-back to unrounded open front diphthong	diphthong	ʊa	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER A	+	
 from rounded near-close near-back to unrounded open back diphthong	diphthong	ʊɑ	LATIN SMALL LETTER UPSILON / LATIN SMALL LETTER ALPHA	+	
@@ -7126,6 +7281,7 @@ from rounded mid back to pharyngealized unrounded open front diphthong	diphthong
 from rounded mid back to pharyngealized unrounded close front diphthong	diphthong	o̞iˤ	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	+	
 from rounded mid back to non-syllabic unrounded close front diphthong	diphthong	o̞i̯	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from rounded mid back to centralized unrounded open front diphthong	diphthong	o̞ä	LATIN SMALL LETTER O / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER A / COMBINING DIAERESIS	+	
+from rounded close-mid front with_falling_tone to unrounded mid central diphthong	diphthong	ø̂ə	LATIN SMALL LETTER O WITH STROKE / COMBINING CIRCUMFLEX ACCENT / LATIN SMALL LETTER SCHWA	+	
 from rounded close-mid front to unrounded near-open central diphthong	diphthong	øɐ	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER TURNED A	+	
 from rounded close-mid front to unrounded near-close near-front diphthong	diphthong	øɪ	LATIN SMALL LETTER O WITH STROKE / LATIN LETTER SMALL CAPITAL I	+	
 from rounded close-mid front to unrounded mid central diphthong	diphthong	øə	LATIN SMALL LETTER O WITH STROKE / LATIN SMALL LETTER SCHWA	+	
@@ -7407,6 +7563,7 @@ from lowered rounded near-close near-back to ultra-short unrounded open-mid fron
 from lowered rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊ̞ə̆	LATIN SMALL LETTER UPSILON / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from lowered rounded close front to unrounded mid central diphthong	diphthong	y̞ə	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
 from lowered rounded close front to ultra-short unrounded mid central diphthong	diphthong	y̞ə̆	LATIN SMALL LETTER Y / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from lowered rounded close back to unrounded mid central with_falling_tone diphthong	diphthong	u̞ə̂	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA / COMBINING CIRCUMFLEX ACCENT	+	
 from lowered rounded close back to unrounded mid central diphthong	diphthong	u̞ə	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER SCHWA	+	
 from lowered rounded close back to ultra-short unrounded open-mid front diphthong	diphthong	u̞ɛ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
 from lowered rounded close back to ultra-short unrounded near-close near-front diphthong	diphthong	u̞ɪ̆	LATIN SMALL LETTER U / COMBINING DOWN TACK BELOW / LATIN LETTER SMALL CAPITAL I / COMBINING BREVE	+	
@@ -7472,6 +7629,7 @@ from long rounded open back to ultra-short unrounded open-mid front diphthong	di
 from long rounded open back to ultra-short unrounded mid central diphthong	diphthong	ɒːə̆	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long rounded open back to non-syllabic unrounded close front diphthong	diphthong	ɒːi̯	LATIN SMALL LETTER TURNED ALPHA / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER I / COMBINING INVERTED BREVE BELOW	+	
 from long rounded near-close near-front to ultra-short unrounded mid central diphthong	diphthong	ʏːə̆	LATIN LETTER SMALL CAPITAL Y / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
+from long rounded near-close near-back with_falling_tone to ultra-short unrounded mid central diphthong	diphthong	ʊ̂ːə̆	LATIN SMALL LETTER UPSILON / COMBINING CIRCUMFLEX ACCENT / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long rounded near-close near-back to ultra-short unrounded open-mid front diphthong	diphthong	ʊːɛ̆	LATIN SMALL LETTER UPSILON / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER OPEN E / COMBINING BREVE	+	
 from long rounded near-close near-back to ultra-short unrounded mid central diphthong	diphthong	ʊːə̆	LATIN SMALL LETTER UPSILON / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
 from long rounded mid front to ultra-short unrounded mid central diphthong	diphthong	ø̞ːə̆	LATIN SMALL LETTER O WITH STROKE / COMBINING DOWN TACK BELOW / MODIFIER LETTER TRIANGULAR COLON / LATIN SMALL LETTER SCHWA / COMBINING BREVE	+	
