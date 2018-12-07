@@ -17,7 +17,7 @@ asjp	Sound class model (produced in a semi-generative manner with help of LingPy
 apics	This is the segmental data provided by the [Atlas of Pidgin and Creole Language Structures Online](http://apics-online.info/).	Michaelis2013	td	
 dolgo	Sound class model (produced in a semi-geneative manner with help of LingPy) following Dolgopolsky (1964) as used in List (2014).	Dolgopolsky1964, Dolgopolsky1986, List2014d	sc	
 cv	Simple consonant-vowel-tone sound class model provided by LingPy (List et al. 2017).	List2017i	sc	
-prosody	A numeric account of sonority based on LingPy as presented in List (2014) and List et al. (2017)	List2014d, List2017i	sc	
+art	A numeric account of sonority based on LingPy as presented in List (2014) and List et al. (2017)	List2014d, List2017i	sc	
 color	A simple color-scheme based on Dolgopolsky's sound classes, used in LingPy.	List2017i, List2014d, Dolgopolsky1964, Dolgopolsky1986	sc	
 beijingdaxue	The inventories given in the Fāngyán Cíhuì (Beijing Daxue 1964).	Cihui	td	
 bipa	Broad version of IPA, understood as a reference for the other systems.	IPA1999, IPA2015	ts	
@@ -25,4 +25,3 @@ gld	Transcription system of the Global Lexicostatistical Database project.	Staro
 asjpcode	Transcription system of the ASJP project.	Wichmann2016	ts	
 napa	A tentative reconstruction of what is known as the North-American Phonetic Alphabet. Our description is a compromise between different sources, especially Pullum and Ladusaw (1996), but also the information available in Wikipedia (https://en.wikipedia.org/wiki/Americanist_phonetic_notation).	Pullum1996	ts	
 upa	A transcription system is used predominantly for the transcription and reconstruction of Uralic languages.	ISON2419, Setala1901	ts	
-art	A sound class model (produced in sem-generative manner with help of LingPy) that classifies sounds according to their sonority, using integer values between 1 (consonants) and 8 (tones).	List2014d	sc	
