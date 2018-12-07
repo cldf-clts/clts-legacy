@@ -6,7 +6,6 @@ from __future__ import unicode_literals, print_function, division
 import sys
 from collections import defaultdict, Counter
 import json
-
 from six import text_type
 import tabulate
 from uritemplate import URITemplate

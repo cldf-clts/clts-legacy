@@ -3,11 +3,11 @@ import codecs
 
 setup(
     name='pyclts',
-    version="1.0.1.dev0",
+    version="1.1.1",
     description='A python library to check phonetic transcriptions',
     long_description=codecs.open("README.md", 'r', 'utf-8').read(),
     long_description_content_type='text/markdown',
-    author='Johann-Mattis List, Tiago Tresoldi and Robert Forkel',
+    author='Johann-Mattis List, Cormac Anderson, Tiago Tresoldi, Christoph Rzymskie, Simon Greenhill, and Robert Forkel',
     author_email='mattis.list@lingpy.org',
     url='https://github.com/cldf/clts',
     install_requires=[
