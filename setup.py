@@ -1,23 +1,20 @@
 from setuptools import setup, find_packages
-
-
-def read(fname):
-    with open(fname) as fp:
-        return fp.read().split('\n\n\n')[0]
-
+import codecs
 
 setup(
     name='pyclts',
-    version="1.0.0",
+    version="1.1.1",
     description='A python library to check phonetic transcriptions',
-    long_description=read("README.md"),
-    author='Johann-Mattis List and Robert Forkel',
+    long_description=codecs.open("README.md", 'r', 'utf-8').read(),
+    long_description_content_type='text/markdown',
+    author='Johann-Mattis List, Cormac Anderson, Tiago Tresoldi, Christoph Rzymskie, Simon Greenhill, and Robert Forkel',
     author_email='mattis.list@lingpy.org',
     url='https://github.com/cldf/clts',
     install_requires=[
-        'attrs',
+        'attrs>=18.2',
         'clldutils>=1.13.6',
-        'csvw>=0.1',
+        'csvw>=1.0',
+        'uritemplate',
     ],
     extras_require={
         'dev': ['flake8', 'wheel', 'twine'],

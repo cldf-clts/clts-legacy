@@ -2,37 +2,27 @@
 from __future__ import unicode_literals
 
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
-from pyclts.util import iterdata
-from pyclts.models import TranscriptionBase
+from pyclts.util import read_data, TranscriptionBase
 
-
-def lingpy(sound_class):
-    out = {}
-    graphemes, names = [], []
-    for sound_name, sound_bipa, grapheme in iterdata('soundclasses', 'lingpy.tsv', sound_class):
-        out[sound_bipa] = out[sound_name] = grapheme
-        graphemes += [sound_bipa]
-        names += [sound_name]
-    return out, graphemes, names
+SOUNDCLASS_SYSTEMS = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
 
 
 class SoundClasses(TranscriptionBase):
     """
     Class for handling sound class models.
     """
-    def __init__(self, data='sca', system=None):
-        self.data, self.sounds, self.names = {
-            "sca": lambda: lingpy('SCA_CLASS'),
-            "dolgo": lambda: lingpy('DOLGOPOLSKY_CLASS'),
-            "cv": lambda: lingpy('CV_CLASS'),
-            "prosody": lambda: lingpy('PROSODY_CLASS'),
-            "asjp": lambda: lingpy('ASJP_CLASS'),
-            "color": lambda: lingpy('COLOR_CLASS'),
-        }[data]()
-        self.id = data
-        self.system = system or TranscriptionSystem()
-        # we want to know whether data type is lingpy, as in this case, we want
-        # to resolve the mappings
+    def __init__(self, id_):
+        if not hasattr(self, 'data'):
+            # Only initialize, if this is really a new instance!
+            assert id_ in SOUNDCLASS_SYSTEMS
+            data, self.sounds, self.names = read_data(
+                'soundclasses', 'lingpy.tsv', id_)
+            self.data = {}
+            self.classes = set()
+            for k, v in data.items():
+                self.data[k] = v[0]
+                self.classes.add(v[0]['grapheme'])
+            self.system = TranscriptionSystem('bipa')
 
     def resolve_sound(self, sound):
         """Function tries to identify a sound in the data.
@@ -49,10 +39,10 @@ class SoundClasses(TranscriptionBase):
         if not sound.type == 'unknownsound':
             if sound.type in ['diphthong', 'cluster']:
                 return self.resolve_sound(sound.from_sound)
-            name = [s for s in sound.name.split(' ') if 
-                self.system._feature_values.get(s, '') not in [
-                    'laminality', 'ejection', 'tone'
-                ]]
+            name = [
+                s for s in sound.name.split(' ') if
+                self.system._feature_values.get(s, '') not in
+                ['laminality', 'ejection', 'tone']]
             while len(name) >= 4:
                 sound = self.system.get(' '.join(name))
                 if sound and sound.name in self.data:

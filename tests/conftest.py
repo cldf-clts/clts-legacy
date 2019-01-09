@@ -49,7 +49,7 @@ def pytest_generate_tests(metafunc):
 
 @pytest.fixture
 def bipa():
-    return TranscriptionSystem()
+    return TranscriptionSystem('bipa')
 
 
 @pytest.fixture

@@ -1,6 +1,8 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
-from pyclts.transcriptionsystem import TranscriptionSystem
-from pyclts.transcriptiondata import TranscriptionData
-from pyclts.soundclasses import SoundClasses
-__version__ = '0.1'
+
+from pyclts.transcriptionsystem import TranscriptionSystem  # noqa: F401
+from pyclts.transcriptiondata import TranscriptionData  # noqa: F401
+from pyclts.soundclasses import SoundClasses  # noqa: F401
+
+__version__ = '1.0.1.dev0'

@@ -1,6 +1,8 @@
 TYPE	FEATURE	VALUE
-vowel	centralization	centralized
-vowel	centralization	mid-centralized
+vowel	relative_articulation	centralized
+vowel	relative_articulation	mid-centralized
+vowel	relative_articulation	advanced
+vowel	relative_articulation	retracted
 vowel	centrality	back
 vowel	centrality	central
 vowel	centrality	front
@@ -11,7 +13,6 @@ vowel	rounding	less-rounded
 vowel	rounding	more-rounded
 vowel	stress	primary-stress
 vowel	stress	secondary-stress
-vowel	retraction	retracted
 vowel	pharyngealization	pharyngealized
 vowel	rhotacization	rhotacized
 vowel	voicing	devoiced
@@ -27,7 +28,6 @@ vowel	height	near-open
 vowel	height	open
 vowel	height	open-mid
 vowel	frication	with-frication
-vowel	advancement	advanced
 vowel	roundedness	rounded
 vowel	roundedness	unrounded
 vowel	duration	long
@@ -52,7 +52,6 @@ vowel	articulation	strong
 vowel	breathiness	breathy
 vowel	glottalization	glottalized
 consonant	aspiration	aspirated
-consonant	aspiration	aspirated.sibilancy:sibilant
 consonant	sibilancy	sibilant
 consonant	creakiness	creaky
 consonant	release	unreleased
@@ -67,8 +66,9 @@ consonant	place	dental
 consonant	place	epiglottal
 consonant	place	glottal
 consonant	place	labial
-consonant	place	labialized-palatal
-consonant	place	labialized-velar
+consonant	place	linguolabial
+consonant	place	labio-palatal
+consonant	place	labio-velar
 consonant	place	labio-dental
 consonant	place	palatal
 consonant	place	palatal-velar
@@ -93,6 +93,10 @@ consonant	palatalization	palatalized
 consonant	phonation	voiced
 consonant	phonation	voiceless
 consonant	duration	long
+consonant	duration	mid-long
+consonant	stress	primary-stress
+consonant	stress	primary-stress
+consonant	stress	primary-stress
 consonant	stress	primary-stress
 consonant	stress	secondary-stress
 consonant	laterality	lateral
@@ -112,6 +116,12 @@ consonant	laminality	laminal
 consonant	articulation	strong
 consonant	breathiness	breathy
 consonant	glottalization	glottalized
+consonant	raising	lowered
+consonant	raising	raised
+consonant	relative_articulation	centralized
+consonant	relative_articulation	mid-centralized
+consonant	relative_articulation	advanced
+consonant	relative_articulation	retracted
 tone	middle	via-high
 tone	middle	via-low
 tone	middle	via-mid
