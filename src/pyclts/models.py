@@ -12,6 +12,7 @@ from pyclts.util import norm
 
 __all__ = [
     'is_valid_sound',
+    'Symbol',
     'Sound',
     'Consonant',
     'Vowel',

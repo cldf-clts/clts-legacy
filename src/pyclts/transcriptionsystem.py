@@ -278,6 +278,8 @@ class TranscriptionSystem(TranscriptionBase):
     def resolve_sound(self, string):
         if isinstance(string, Sound):  # noqa: F405
             return self.features[string.featureset]
+        elif isinstance(string, Symbol):  # noqa: F405
+            return string
         if set(string.split(' ')).intersection(
                 list(self.sound_classes) + ['diphthong', 'cluster']):
             return self._from_name(string)
