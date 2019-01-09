@@ -12,6 +12,7 @@ from pyclts.util import norm
 
 __all__ = [
     'is_valid_sound',
+    'Symbol',
     'Sound',
     'Consonant',
     'Vowel',
@@ -119,6 +120,9 @@ class Sound(Symbol):
 
     def __add__(self, other):
         return self.__unicode__() + other.__unicode__()
+
+    def __hash__(self):
+        return hash(self.name)
 
     @property
     def s(self):

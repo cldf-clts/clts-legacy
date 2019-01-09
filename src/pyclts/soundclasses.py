@@ -1,7 +1,7 @@
 # coding: utf-8
 from __future__ import unicode_literals
 
-from pyclts.transcriptionsystem import Sound, TranscriptionSystem
+from pyclts.transcriptionsystem import Symbol, TranscriptionSystem
 from pyclts.util import read_data, TranscriptionBase
 
 SOUNDCLASS_SYSTEMS = ['sca', 'cv', 'art', 'dolgo', 'asjp', 'color']
@@ -33,7 +33,7 @@ class SoundClasses(TranscriptionBase):
         features in order to yield the next approximate sound class, if the
         transcription data are sound classes.
         """
-        sound = sound if isinstance(sound, Sound) else self.system[sound]
+        sound = sound if isinstance(sound, Symbol) else self.system[sound]
         if sound.name in self.data:
             return self.data[sound.name]['grapheme']
         if not sound.type == 'unknownsound':

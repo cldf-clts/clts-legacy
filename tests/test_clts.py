@@ -41,6 +41,28 @@ def test_examples(bipa):
     assert sound.codepoints == 'U+0064 U+02b7 U+02b1'
 
 
+def test_different_conversions(bipa):
+    string = 't e _ s 0 t + i n g'
+    as_symbols = bipa(string, default=None)
+    by_parts = [bipa[s] for s in string.split()]
+    assert as_symbols == by_parts
+
+
+def test_asjp_from_symbols(bipa, asjpd):
+    string = 't e _ s t + i n g'
+    as_symbols = bipa(string, default=None)
+    for st, sy in zip(string.split(), as_symbols):
+        assert asjpd[st] == asjpd[sy]
+
+
+def test_double_wrap(bipa):
+    string = 't e _ s 0 t + i n g'
+    as_symbols = bipa(string, default=None)
+    assert ' '.join(str(s) for s in as_symbols) == string
+    double_wrap = [bipa[s] for s in as_symbols]
+    assert ' '.join(str(s) for s in double_wrap) == string
+
+
 def test_parse(bipa):
     assert all(bipa[s].generated for s in ['ʰdʱ', "ˈa", 'á'])
     assert all(text_type(bipa[s]) == s for s in ['a', 't'])
