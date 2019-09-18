@@ -1,6 +1,3 @@
-# coding: utf-8
-from __future__ import unicode_literals
-
 from pyclts.util import read_data, TranscriptionBase
 from pyclts.transcriptionsystem import Sound, TranscriptionSystem
 

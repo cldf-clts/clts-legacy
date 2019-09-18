@@ -1,20 +1,19 @@
-# coding: utf-8
 """
 Main command line interface to the pyclts package.
 """
-from __future__ import unicode_literals, print_function, division
 import sys
 from collections import defaultdict, Counter
 import json
-from six import text_type
+from pathlib import Path
+
 import tabulate
 from uritemplate import URITemplate
 import attr
 
+from csvw.dsv import UnicodeWriter
+from csvw.dsv import iterrows as reader
 from clldutils.clilib import ArgumentParserWithLogging, command
-from clldutils.dsv import reader, UnicodeWriter
 from clldutils.markup import Table
-from clldutils.path import Path
 
 from pyclts.transcriptionsystem import TranscriptionSystem
 from pyclts.soundclasses import SOUNDCLASS_SYSTEMS
@@ -28,9 +27,9 @@ def sounds(args):
     tts = TranscriptionSystem(args.system)
     data = []
     for sound in args.args:
-        sound = tts.get(sound if isinstance(sound, text_type) else sound.decode('utf8'))
+        sound = tts.get(sound if isinstance(sound, str) else sound.decode('utf8'))
         if sound.type != 'unknownsound':
-            data += [[text_type(sound),
+            data += [[str(sound),
                       sound.source or ' ',
                       '1' if sound.generated else ' ',
                       sound.grapheme if sound.alias else ' ',
@@ -359,7 +358,7 @@ def stats(args):
 @command()
 def table(args):
     tts = TranscriptionSystem(args.system)
-    tts_sounds = [tts.get(sound if isinstance(sound, text_type) else sound.decode('utf8'))
+    tts_sounds = [tts.get(sound if isinstance(sound, str) else sound.decode('utf8'))
                   for sound in args.args]
     if args.filter == 'generated':
         tts_sounds = [s for s in tts_sounds if s.generated]
@@ -377,7 +376,7 @@ def table(args):
         else:
             ucount += 1
             data['unknownsound'].append(
-                [text_type(ucount), sound.source or '', sound.grapheme])
+                [str(ucount), sound.source or '', sound.grapheme])
     for cls in tts.sound_classes:
         if cls in data:
             print('# {0}\n'.format(cls))

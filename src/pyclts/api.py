@@ -1,8 +1,5 @@
-# coding: utf8
-from __future__ import unicode_literals, print_function, division
-
 from clldutils.apilib import API
-from csvw.dsv import reader
+from csvw.dsv import iterrows as reader
 
 from pyclts.util import pkg_path
 from pyclts import TranscriptionData, TranscriptionSystem, SoundClasses

@@ -1,13 +1,9 @@
-# coding: utf-8
 """Auxiliary functions for pyclts."""
 
-from __future__ import unicode_literals, print_function, division
 import unicodedata
 from collections import defaultdict
+from pathlib import Path
 
-from six import text_type
-
-from clldutils.path import Path
 from csvw.dsv import reader
 
 __all__ = ['EMPTY', 'UNKNOWN', 'pkg_path', 'norm', 'nfd']
@@ -74,7 +70,7 @@ def itertable(table):
     """Auxiliary function for iterating over a data table."""
     for item in table:
         res = {
-            k.lower(): nfd(v) if isinstance(v, text_type) else v for k, v in item.items()}
+            k.lower(): nfd(v) if isinstance(v, str) else v for k, v in item.items()}
         for extra in res.pop('extra', []):
             k, _, v = extra.partition(':')
             res[k.strip()] = v.strip()

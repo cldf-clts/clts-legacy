@@ -1,7 +1,3 @@
-# coding: utf-8
-from __future__ import unicode_literals, print_function, division
-from six import text_type
-
 import pytest
 
 from pyclts.models import Marker, UnknownSound, is_valid_sound, Symbol, Sound
@@ -65,7 +61,7 @@ def test_double_wrap(bipa):
 
 def test_parse(bipa):
     assert all(bipa[s].generated for s in ['ʰdʱ', "ˈa", 'á'])
-    assert all(text_type(bipa[s]) == s for s in ['a', 't'])
+    assert all(str(bipa[s]) == s for s in ['a', 't'])
 
     a = bipa['a']
     comps = a.name.split()
@@ -76,14 +72,14 @@ def test_parse(bipa):
         res = bipa[s]
         assert res.type == 'diphthong'
         assert res.name.endswith('diphthong')
-        assert s == text_type(s)
+        assert s == str(s)
 
     # clusters
     for s in ['tk', 'pk', 'dg', 'bdʰ']:
         res = bipa[s]
         assert res.type == 'cluster'
         assert 'cluster' in res.name
-        assert s == text_type(s)
+        assert s == str(s)
 
     # go for bad diacritics in front and end of a string
     assert bipa['*a'].type == 'unknownsound'
@@ -141,7 +137,7 @@ def test_sound_from_name_error(bipa):
 
 def test_models(bipa, asjp):
     sym = Symbol(ts=bipa, grapheme='s', source='s', generated=False, note='')
-    assert text_type(sym) == sym.source == sym.grapheme
+    assert str(sym) == sym.source == sym.grapheme
     assert sym == sym
     assert not sym.name
     assert sym.uname == "LATIN SMALL LETTER S"
@@ -168,7 +164,7 @@ def test_models(bipa, asjp):
     assert s.uname == '?'
 
     # test complex sound
-    assert text_type(bipa['ae']) == 'ae'
+    assert str(bipa['ae']) == 'ae'
 
     # test equality of symbols
     assert Symbol(ts=bipa, grapheme='1', source='1') != Symbol(
@@ -214,31 +210,31 @@ def test_transcription_system_consistency(bipa, asjp, gld):
     # bipa should always be able to be translated to
     for sound in asjp:
         if sound not in bipa:
-            assert '<?>' not in text_type(bipa[asjp[sound].name])
+            assert '<?>' not in str(bipa[asjp[sound].name])
     for sound in gld:
         if sound not in bipa:
-            assert '<?>' not in text_type(bipa[gld[sound].name])
+            assert '<?>' not in str(bipa[gld[sound].name])
     for sound in bipa:
         if bipa[sound].type != 'unknownsound' and not bipa[sound].alias:
-            if sound != text_type(bipa[sound]):
+            if sound != str(bipa[sound]):
                 raise ValueError
         elif bipa[sound].type == 'unknownsound':
             raise ValueError
     for sound in gld:
         if gld[sound].type != 'unknownsound' and not gld[sound].alias:
-            if sound != text_type(gld[sound]):
+            if sound != str(gld[sound]):
                 raise ValueError
         elif gld[sound].type == 'unknownsound':
             raise ValueError
     for sound in asjp:
         if asjp[sound].type != 'unknownsound' and not asjp[sound].alias:
-            if sound != text_type(asjp[sound]):
+            if sound != str(asjp[sound]):
                 raise ValueError
         elif asjp[sound].type == 'unknownsound':
             raise ValueError
 
     # important test for alias
-    assert text_type(bipa['d̤ʷ']) == text_type(bipa['dʷʱ']) == text_type(bipa['dʱʷ'])
+    assert str(bipa['d̤ʷ']) == str(bipa['dʷʱ']) == str(bipa['dʱʷ'])
 
 
 def test_clicks(bipa, grapheme, gtype):
@@ -258,7 +254,7 @@ def test_sounds(
         stressed,
         name,
         codepoints
-        ):
+    ):
     """Test on a large pre-assembled dataset whether everything is consistent"""
 
     sound = bipa[source]

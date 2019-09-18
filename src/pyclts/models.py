@@ -1,12 +1,7 @@
-# coding: utf8
-from __future__ import unicode_literals, print_function, division
-
 import unicodedata
 
-from six import text_type
-
 import attr
-from clldutils.misc import UnicodeMixin, nfilter, lazyproperty
+from clldutils.misc import nfilter, lazyproperty
 
 from pyclts.util import norm
 
@@ -49,7 +44,7 @@ def is_valid_sound(sound, ts):
 
 
 @attr.s(cmp=False)
-class Symbol(UnicodeMixin):
+class Symbol(object):
     ts = attr.ib()
     grapheme = attr.ib()
     source = attr.ib(default=None)
@@ -60,7 +55,7 @@ class Symbol(UnicodeMixin):
     def type(self):
         return self.__class__.__name__.lower()
 
-    def __unicode__(self):
+    def __str__(self):
         return self.grapheme
 
     def __eq__(self, other):
@@ -78,7 +73,7 @@ class Symbol(UnicodeMixin):
     def uname(self):
         "Return unicode name(s) for a character set."
         try:
-            return ' / '.join(unicodedata.name(ss) for ss in self.__unicode__())
+            return ' / '.join(unicodedata.name(ss) for ss in str(self))
         except TypeError:
             return '-'
         except ValueError:
@@ -87,7 +82,7 @@ class Symbol(UnicodeMixin):
     @property
     def codepoints(self):
         "Return unicode codepoint(s) for a grapheme."
-        return ' '.join('U+' + ('000' + hex(ord(x))[2:])[-4:] for x in self.__unicode__())
+        return ' '.join('U+' + ('000' + hex(ord(x))[2:])[-4:] for x in str(self))
 
 
 @attr.s(cmp=False)
@@ -119,14 +114,14 @@ class Sound(Symbol):
             self.__module__, self.__class__.__name__, self.name)
 
     def __add__(self, other):
-        return self.__unicode__() + other.__unicode__()
+        return str(self) + str(other)
 
     def __hash__(self):
         return hash(self.name)
 
     @property
     def s(self):
-        return self.__unicode__()
+        return str(self)
 
     def _features(self):
         return nfilter(getattr(self, p, None) for p in self._name_order)
@@ -143,7 +138,7 @@ class Sound(Symbol):
         f1, f2 = self.featureset, other.featureset
         return len(f1.intersection(f2)) / len(f1.union(f2))
 
-    def __unicode__(self):
+    def __str__(self):
         """
         Return the reference representation of the sound.
 
@@ -157,7 +152,7 @@ class Sound(Symbol):
             if not self.alias and self.grapheme in self.ts.sounds:
                 return self.grapheme
             elif self.alias and self.featureset in self.ts.features:
-                return text_type(self.ts.features[self.featureset])
+                return str(self.ts.features[self.featureset])
             # this can usually not happen, as we catch these errors when loading a ts!
             raise ValueError(
                 'Orphaned alias {0}'.format(self.grapheme))  # pragma: no cover
@@ -201,9 +196,9 @@ class Sound(Symbol):
             f for f in self._name_order if f not in self.ts.columns[self.type]]
         # make sure to mark generated sounds
         if self.generated and self.s != self.source:
-            tbl += [self.__unicode__() + ' | ' + self.source]
+            tbl += [str(self) + ' | ' + self.source]
         else:
-            tbl += [self.__unicode__()]
+            tbl += [str(self)]
         for name in self.ts.columns[self.type][1:]:
             if name != 'extra' and name != 'alias':
                 tbl += [getattr(self, name) or '']
@@ -291,8 +286,8 @@ class ComplexSound(Sound):
     from_sound = attr.ib(default=None)
     to_sound = attr.ib(default=None)
 
-    def __unicode__(self):
-        return self.from_sound.__unicode__() + self.to_sound.__unicode__()
+    def __str__(self):
+        return str(self.from_sound) + str(self.to_sound)
 
     @property
     def name(self):

@@ -1,6 +1,3 @@
-# coding: utf8
-from __future__ import unicode_literals, print_function, division
-
 
 def test_TranscriptionBase_translate(bipa, asjp, asjpd):
     assert bipa.translate('ts a', asjp) == 'c E'

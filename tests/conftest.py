@@ -1,11 +1,8 @@
-# coding: utf-8
-from __future__ import unicode_literals, print_function, division
-
 from itertools import groupby
+from pathlib import Path
 
 import pytest
-from clldutils.path import Path
-from clldutils.dsv import reader
+from csvw.dsv import iterrows as reader
 
 from pyclts import TranscriptionSystem, TranscriptionData, SoundClasses
 

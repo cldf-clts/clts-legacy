@@ -7,7 +7,7 @@ setup(
     description='A python library to check phonetic transcriptions',
     long_description=codecs.open("README.md", 'r', 'utf-8').read(),
     long_description_content_type='text/markdown',
-    author='Johann-Mattis List, Cormac Anderson, Tiago Tresoldi, Christoph Rzymskie, Simon Greenhill, and Robert Forkel',
+    author='Johann-Mattis List, Cormac Anderson, Tiago Tresoldi, Christoph Rzymski, Simon Greenhill, and Robert Forkel',
     author_email='mattis.list@lingpy.org',
     url='https://github.com/cldf/clts',
     install_requires=[
@@ -26,14 +26,25 @@ setup(
             'coverage>=4.2',
         ],
     },
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Programming Language :: Python :: Implementation :: PyPy'
+    ],
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     include_package_data=True,
     license="GPL",
     zip_safe=False,
     keywords='',
-    classifiers=[
-        ],
     entry_points={
         'console_scripts': [
             'clts=pyclts.__main__:main',

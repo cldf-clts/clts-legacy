@@ -1,13 +1,9 @@
-# coding: utf-8
 """
 Transcription System module for consistent IPA handling.
 ========================================
 
 """
-from __future__ import unicode_literals
 import re
-
-from six import text_type
 
 from csvw import TableGroup
 from clldutils import jsonlib
@@ -98,7 +94,7 @@ class TranscriptionSystem(TranscriptionBase):
         # sound
         if [x for x in aliases if x[2] not in self.features]:  # pragma: no cover
             error = ', '.join(
-                text_type(x[0] + 2) + '/' + text_type(x[1])
+                str(x[0] + 2) + '/' + str(x[1])
                 for x in aliases if x[2] not in self.features)
             raise ValueError(
                 'Orphaned aliases in line(s) {0}'.format(error))
@@ -268,7 +264,7 @@ class TranscriptionSystem(TranscriptionBase):
         features['grapheme'] = sound
         new_sound = self.sound_classes[base_sound.type](**features)
         # check whether grapheme differs from re-generated sound
-        if text_type(new_sound) != sound:
+        if str(new_sound) != sound:
             new_sound.alias = True
         if grapheme != sound:
             new_sound.alias = True

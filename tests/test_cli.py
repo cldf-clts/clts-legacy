@@ -1,7 +1,4 @@
-# coding: utf8
-from __future__ import unicode_literals, print_function, division
-
-from clldutils.path import Path
+from pathlib import Path
 
 from pyclts.__main__ import sounds, dump, dstats, stats, table, _make_app_data, features
 from pyclts.api import CLTS
