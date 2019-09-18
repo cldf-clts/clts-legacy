@@ -6,7 +6,7 @@ import unicodedata
 from six import text_type
 
 import attr
-from clldutils.misc import UnicodeMixin, nfilter, lazyproperty
+from clldutils.misc import nfilter, lazyproperty
 
 from pyclts.util import norm
 
@@ -49,7 +49,7 @@ def is_valid_sound(sound, ts):
 
 
 @attr.s(cmp=False)
-class Symbol(UnicodeMixin):
+class Symbol(object):
     ts = attr.ib()
     grapheme = attr.ib()
     source = attr.ib(default=None)
