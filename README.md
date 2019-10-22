@@ -1,9 +1,8 @@
-Cross-Linguistic Transcription Systems
-======================================
+# This repository is superseeded by https://github.com/cldf-clts/clts and https://github.com/cldf-clts/pyclts
 
-[![Build Status](https://travis-ci.org/cldf/clts.png)](https://travis-ci.org/cldf/clts)
-[![codecov](https://codecov.io/gh/cldf/clts/branch/master/graph/badge.svg)](https://codecov.io/gh/cldf/clts)
-[![PyPI](https://img.shields.io/pypi/v/pyclts.svg)](https://pypi.org/project/pyclts)
+
+
+### Cross-Linguistic Transcription Systems
 
 
 This is an attempt to create a system that allows to translate and compare different phonetic transcription systems. 
@@ -80,7 +79,7 @@ But the translation can even be done in a much simpler way, by loading the trans
 ```
 
 
-## Basic Structure of the Package
+#### Basic Structure of the Package
 
 The ```pyclts``` package offers three basic types of data generated and managed in Python code:
 
@@ -91,7 +90,7 @@ The ```pyclts``` package offers three basic types of data generated and managed 
 
 Transcription data is linked to our transcription system by the grapheme for the B(road) IPA transcription system, which serves as our default, and the name, which follows the IPA conventions with some modifications which were needed to make sure that we can represent sounds that we regularly find in cross-linguistic datasets.
 
-## Parsing Procedure 
+#### Parsing Procedure 
 
 feature | handled by | note | example
 --- | --- | --- | ---
